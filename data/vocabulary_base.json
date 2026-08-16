@@ -1,1 +1,1527 @@
-
+[
+  {
+    "word": "learn of",
+    "translations": {
+      "ru": "узнать о",
+      "uz": "haqida bilib olmoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrasal verb",
+      "base_form": "learn of",
+      "past": "learned of",
+      "participle": "learned of"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To become aware of or discover information about something.",
+    "etymology": "From learn, meaning to gain knowledge, + of, indicating the subject of knowledge.",
+    "synonyms": ["discover", "find out about", "become aware of"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "scold",
+    "translations": {
+      "ru": "ругать; делать выговор",
+      "uz": "urishmoq; tanbeh bermoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "scold",
+      "past": "scolded",
+      "participle": "scolded"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To speak angrily to someone because they have done something wrong.",
+    "etymology": "From Middle English scolden, meaning to rebuke or reprimand.",
+    "synonyms": ["rebuke", "reprimand", "admonish"],
+    "antonyms": ["praise", "compliment"],
+    "ielts_level": "6.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "tell off",
+    "translations": {
+      "ru": "отругать; сделать выговор",
+      "uz": "urishmoq; tanbeh bermoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrasal verb",
+      "base_form": "tell off",
+      "past": "told off",
+      "participle": "told off"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To speak angrily to someone because they have done something wrong.",
+    "etymology": "From tell + off, developing the figurative meaning of reprimanding someone.",
+    "synonyms": ["scold", "rebuke", "reprimand"],
+    "antonyms": ["praise", "compliment"],
+    "ielts_level": "6.5",
+    "category": "phrasal_verb",
+    "status": "learning"
+  },
+  {
+    "word": "particular",
+    "translations": {
+      "ru": "конкретный; определённый",
+      "uz": "muayyan; aniq"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "particular",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Specific or relating to one specific person, thing, or situation.",
+    "etymology": "From Latin particularis, meaning relating to a part or individual.",
+    "synonyms": ["specific", "certain", "individual"],
+    "antonyms": ["general", "broad"],
+    "ielts_level": "7.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "specific",
+    "translations": {
+      "ru": "конкретный; определённый",
+      "uz": "aniq; muayyan"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "specific",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Clearly defined, identified, or related to a particular thing.",
+    "etymology": "From Latin specificus, meaning constituting a species or kind.",
+    "synonyms": ["particular", "precise", "defined"],
+    "antonyms": ["general", "vague"],
+    "ielts_level": "7.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "unreliable",
+    "translations": {
+      "ru": "ненадёжный",
+      "uz": "ishonchsiz"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "unreliable",
+      "comparative": "more unreliable",
+      "superlative": "most unreliable"
+    },
+    "word_formation": {
+      "opposite_form": "reliable",
+      "prefix": "un-",
+      "suffix": "-able"
+    },
+    "definition": "Not able to be relied upon or trusted.",
+    "etymology": "From un- (not) + rely + -able (capable of).",
+    "synonyms": ["untrustworthy", "inconsistent", "undependable"],
+    "antonyms": ["reliable", "trustworthy", "dependable"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "unusual",
+    "translations": {
+      "ru": "необычный",
+      "uz": "g'ayrioddiy"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "unusual",
+      "comparative": "more unusual",
+      "superlative": "most unusual"
+    },
+    "word_formation": {
+      "opposite_form": "usual",
+      "prefix": "un-",
+      "suffix": ""
+    },
+    "definition": "Different from what is normal, common, or expected.",
+    "etymology": "From un- (not) + usual (common or customary).",
+    "synonyms": ["uncommon", "atypical", "exceptional"],
+    "antonyms": ["usual", "common", "typical"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "rare",
+    "translations": {
+      "ru": "редкий",
+      "uz": "kam uchraydigan"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "rare",
+      "comparative": "rarer",
+      "superlative": "rarest"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Not common or occurring infrequently.",
+    "etymology": "From Latin rarus, meaning thin, sparse, or uncommon.",
+    "synonyms": ["uncommon", "scarce", "infrequent"],
+    "antonyms": ["common", "frequent", "widespread"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "shape",
+    "translations": {
+      "ru": "формировать; придавать форму",
+      "uz": "shakllantirmoq; shakl bermoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "shape",
+      "past": "shaped",
+      "participle": "shaped"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To give something a particular form or influence how something develops.",
+    "etymology": "From Old English sceap, meaning form or shape.",
+    "synonyms": ["form", "mold", "influence"],
+    "antonyms": ["distort", "deform"],
+    "ielts_level": "7.0",
+    "category": "science/geography",
+    "status": "learning"
+  },
+  {
+    "word": "form",
+    "translations": {
+      "ru": "формировать; образовывать",
+      "uz": "shakllantirmoq; hosil qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "form",
+      "past": "formed",
+      "participle": "formed"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To create, develop, or bring something into existence.",
+    "etymology": "From Latin formare, meaning to shape or form.",
+    "synonyms": ["create", "develop", "establish"],
+    "antonyms": ["destroy", "dissolve"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "fissure",
+    "translations": {
+      "ru": "трещина; расщелина",
+      "uz": "yoriq; darz"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "fissure",
+      "plural": "fissures"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A long, narrow opening or crack in a surface, especially in rock.",
+    "etymology": "From Latin fissura, meaning a cleft or crack, from findere, meaning to split.",
+    "synonyms": ["crack", "fracture", "split"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "science/geology",
+    "status": "learning"
+  },
+  {
+    "word": "ability",
+    "translations": {
+      "ru": "способность",
+      "uz": "qobiliyat"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "ability",
+      "plural": "abilities"
+    },
+    "word_formation": {
+      "opposite_form": "inability",
+      "prefix": "in-",
+      "suffix": "-ity"
+    },
+    "definition": "The power or skill to do something successfully.",
+    "etymology": "From Latin habilitas, meaning ability or fitness.",
+    "synonyms": ["capability", "capacity", "skill"],
+    "antonyms": ["inability", "incapacity"],
+    "ielts_level": "6.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "account for",
+    "translations": {
+      "ru": "объяснять; составлять часть",
+      "uz": "izohlamoq; tashkil qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrasal verb",
+      "base_form": "account for",
+      "past": "accounted for",
+      "participle": "accounted for"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To explain something or represent a particular amount or proportion.",
+    "etymology": "From account, meaning a report or explanation, + for.",
+    "synonyms": ["explain", "constitute", "represent"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "utility",
+    "translations": {
+      "ru": "полезность; практическая ценность",
+      "uz": "foydalilik; amaliy qiymat"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "utility",
+      "plural": "utilities"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ity"
+    },
+    "definition": "The practical value or usefulness of something.",
+    "etymology": "From Latin utilitas, meaning usefulness or advantage.",
+    "synonyms": ["usefulness", "practicality", "value"],
+    "antonyms": ["uselessness", "impracticality"],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "instrument",
+    "translations": {
+      "ru": "инструмент; прибор",
+      "uz": "asbob; qurilma"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "instrument",
+      "plural": "instruments"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A tool or device used for a particular purpose, especially scientific or technical work.",
+    "etymology": "From Latin instrumentum, meaning tool or equipment.",
+    "synonyms": ["device", "apparatus", "tool"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "science/technology",
+    "status": "learning"
+  },
+  {
+    "word": "chain",
+    "translations": {
+      "ru": "цепь; последовательность",
+      "uz": "zanjir; ketma-ketlik"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "chain",
+      "plural": "chains"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A series of connected things, events, or processes.",
+    "etymology": "From Old French chaine, from Latin catena, meaning chain.",
+    "synonyms": ["sequence", "series", "succession"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "essentially",
+    "translations": {
+      "ru": "по сути; в сущности",
+      "uz": "aslida; mohiyatan"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "essentially"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In a basic or fundamental way; describing the main nature of something.",
+    "etymology": "From essential + -ly, from Latin essentia, meaning being or essence.",
+    "synonyms": ["basically", "fundamentally", "primarily"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "necessary",
+    "translations": {
+      "ru": "необходимый",
+      "uz": "zarur; kerakli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "necessary",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "unnecessary",
+      "prefix": "un-",
+      "suffix": ""
+    },
+    "definition": "Needed for a particular purpose or situation.",
+    "etymology": "From Latin necessarius, meaning indispensable or unavoidable.",
+    "synonyms": ["required", "needed", "essential"],
+    "antonyms": ["unnecessary", "optional"],
+    "ielts_level": "6.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "essential",
+    "translations": {
+      "ru": "необходимый; крайне важный",
+      "uz": "zarur; juda muhim"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "essential",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "inessential",
+      "prefix": "in-",
+      "suffix": ""
+    },
+    "definition": "Completely necessary or extremely important.",
+    "etymology": "From Latin essentialis, meaning relating to essence or being.",
+    "synonyms": ["necessary", "vital", "crucial"],
+    "antonyms": ["unnecessary", "optional", "inessential"],
+    "ielts_level": "7.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "separate",
+    "translations": {
+      "ru": "отделять; отдельный",
+      "uz": "ajratmoq; alohida"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "adjective"],
+      "verb": {
+        "base_form": "separate",
+        "past": "separated",
+        "participle": "separated"
+      },
+      "adjective": {
+        "base": "separate",
+        "comparative": "",
+        "superlative": ""
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To divide or keep things apart; existing independently.",
+    "etymology": "From Latin separare, meaning to divide or set apart.",
+    "synonyms": ["divide", "isolate", "detach"],
+    "antonyms": ["combine", "unite", "connected"],
+    "ielts_level": "6.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "thus",
+    "translations": {
+      "ru": "таким образом; следовательно",
+      "uz": "shunday qilib; demak"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "thus"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "As a result or in this way.",
+    "etymology": "From Old English þus, meaning in this way.",
+    "synonyms": ["therefore", "consequently", "hence"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic/linking",
+    "status": "learning"
+  },
+  {
+    "word": "therefore",
+    "translations": {
+      "ru": "поэтому; следовательно",
+      "uz": "shuning uchun; demak"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "therefore"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "For that reason; as a result.",
+    "etymology": "From Old English þærfore, meaning for that reason.",
+    "synonyms": ["thus", "consequently", "hence"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/linking",
+    "status": "learning"
+  },
+   {
+    "word": "much less",
+    "translations": {
+      "ru": "тем более не; гораздо меньше",
+      "uz": "u yoqda tursin; ancha kam"
+    },
+    "grammar": {
+      "part_of_speech": "phrase",
+      "base": "much less"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Used to emphasize that something is even less likely, possible, or true than something already mentioned.",
+    "etymology": "A combination of much and the comparative form less, used as an emphatic expression.",
+    "synonyms": ["let alone", "even less"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "versatility",
+    "translations": {
+      "ru": "универсальность; многосторонность",
+      "uz": "ko'p qirralilik; universallik"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "versatility",
+      "plural": "versatilities"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ity"
+    },
+    "definition": "The ability to adapt to different activities, purposes, or situations.",
+    "etymology": "From Latin versatilis, meaning turning easily or adaptable.",
+    "synonyms": ["flexibility", "adaptability", "variety"],
+    "antonyms": ["rigidity", "inflexibility"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "adaptability",
+    "translations": {
+      "ru": "способность адаптироваться; адаптивность",
+      "uz": "moslashuvchanlik; moslasha olish qobiliyati"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "adaptability",
+      "plural": "adaptabilities"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ity"
+    },
+    "definition": "The ability to adjust effectively to new conditions or situations.",
+    "etymology": "From adaptable + -ity, from adapt, meaning to adjust to new conditions.",
+    "synonyms": ["flexibility", "versatility", "adjustability"],
+    "antonyms": ["rigidity", "inflexibility"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "minimum",
+    "translations": {
+      "ru": "минимум; минимальный",
+      "uz": "minimum; eng kam"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "adjective"],
+      "noun": {
+        "singular": "minimum",
+        "plural": "minimums"
+      },
+      "adjective": {
+        "base": "minimum",
+        "comparative": "",
+        "superlative": ""
+      }
+    },
+    "word_formation": {
+      "opposite_form": "maximum",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The smallest amount, number, or degree possible or allowed.",
+    "etymology": "From Latin minimum, meaning the smallest.",
+    "synonyms": ["lowest amount", "least", "lower limit"],
+    "antonyms": ["maximum", "highest"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "distant",
+    "translations": {
+      "ru": "далёкий; отдалённый",
+      "uz": "uzoq; olis"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "distant",
+      "comparative": "more distant",
+      "superlative": "most distant"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Far away in space or time.",
+    "etymology": "From Latin distant-, meaning standing apart or being remote.",
+    "synonyms": ["remote", "faraway", "far-off"],
+    "antonyms": ["near", "close", "nearby"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "obtain",
+    "translations": {
+      "ru": "получать; приобретать",
+      "uz": "olmoq; qo'lga kiritmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "obtain",
+      "past": "obtained",
+      "participle": "obtained"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To get, acquire, or receive something, especially through effort or a particular process.",
+    "etymology": "From Latin obtinere, meaning to acquire or gain possession of.",
+    "synonyms": ["acquire", "gain", "secure"],
+    "antonyms": ["lose", "surrender"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "deteriorate",
+    "translations": {
+      "ru": "ухудшаться",
+      "uz": "yomonlashmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "deteriorate",
+      "past": "deteriorated",
+      "participle": "deteriorated"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To become worse in quality, condition, or effectiveness.",
+    "etymology": "From Latin deteriorare, meaning to make worse or become worse.",
+    "synonyms": ["worsen", "decline", "degrade"],
+    "antonyms": ["improve", "recover", "enhance"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "diminish",
+    "translations": {
+      "ru": "уменьшаться; ослабевать",
+      "uz": "kamaymoq; susaymoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "diminish",
+      "past": "diminished",
+      "participle": "diminished"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To become or make something smaller, weaker, or less important.",
+    "etymology": "From Latin diminuere, meaning to make smaller.",
+    "synonyms": ["decrease", "reduce", "lessen"],
+    "antonyms": ["increase", "expand", "strengthen"],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "capability",
+    "translations": {
+      "ru": "способность; возможность",
+      "uz": "qobiliyat; imkoniyat"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "capability",
+      "plural": "capabilities"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ity"
+    },
+    "definition": "The ability or power to do something successfully.",
+    "etymology": "From capable + -ity, ultimately from Latin capabilis, meaning able to contain or receive.",
+    "synonyms": ["ability", "capacity", "competence"],
+    "antonyms": ["inability", "incapacity"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "respectively",
+    "translations": {
+      "ru": "соответственно",
+      "uz": "mos ravishda"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "respectively"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In the same order as the people or things previously mentioned.",
+    "etymology": "From respective + -ly, from Latin respectivus, meaning relating to each separately.",
+    "synonyms": ["in the same order", "correspondingly"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "recall",
+    "translations": {
+      "ru": "вспоминать; припоминать",
+      "uz": "eslamoq; yodga olmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "recall",
+        "past": "recalled",
+        "participle": "recalled"
+      },
+      "noun": {
+        "singular": "recall",
+        "plural": "recalls"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "re-",
+      "suffix": ""
+    },
+    "definition": "To remember something or bring a past event or fact back into the mind.",
+    "etymology": "From re- (back) + call, meaning to call back.",
+    "synonyms": ["remember", "recollect", "retrieve"],
+    "antonyms": ["forget", "overlook"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "draw on",
+    "translations": {
+      "ru": "опираться на; использовать",
+      "uz": "tayanmoq; foydalanmoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrasal verb",
+      "base_form": "draw on",
+      "past": "drew on",
+      "participle": "drawn on"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To use knowledge, experience, or resources as a source of help or information.",
+    "etymology": "From draw, meaning to take or pull, + on, developing the figurative sense of using a resource.",
+    "synonyms": ["utilize", "rely on", "make use of"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "utilize",
+    "translations": {
+      "ru": "использовать; применять",
+      "uz": "foydalanmoq; qo'llamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "utilize",
+      "past": "utilized",
+      "participle": "utilized"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ize"
+    },
+    "definition": "To use something effectively for a particular purpose.",
+    "etymology": "From French utiliser, from Latin utilis, meaning useful.",
+    "synonyms": ["use", "employ", "make use of"],
+    "antonyms": ["discard", "waste"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "semantic",
+    "translations": {
+      "ru": "семантический; связанный со значением",
+      "uz": "semantik; ma'noga oid"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "semantic",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Relating to the meaning of words, phrases, or other linguistic expressions.",
+    "etymology": "From Greek sēmantikos, meaning significant or relating to meaning.",
+    "synonyms": ["meaning-related", "linguistic"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "linguistics",
+    "status": "learning"
+  },
+  {
+    "word": "sum",
+    "translations": {
+      "ru": "сумма; итог",
+      "uz": "yig'indi; jami"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "sum",
+        "plural": "sums"
+      },
+      "verb": {
+        "base_form": "sum",
+        "past": "summed",
+        "participle": "summed"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The total amount resulting from adding numbers or quantities together.",
+    "etymology": "From Latin summa, meaning highest or total amount.",
+    "synonyms": ["total", "amount", "aggregate"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "mathematics/academic",
+    "status": "learning"
+  },
+  {
+    "word": "promptly",
+    "translations": {
+      "ru": "незамедлительно; оперативно",
+      "uz": "darhol; tezda"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "promptly"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "Quickly and without delay.",
+    "etymology": "From prompt + -ly, from Latin promptus, meaning ready or immediate.",
+    "synonyms": ["immediately", "quickly", "without delay"],
+    "antonyms": ["slowly", "eventually"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "occurrence",
+    "translations": {
+      "ru": "случай; происшествие; возникновение",
+      "uz": "hodisa; ro'y berish"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "occurrence",
+      "plural": "occurrences"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ence"
+    },
+    "definition": "An event, incident, or instance of something happening.",
+    "etymology": "From occur + -ence, from Latin occurrere, meaning to happen or come about.",
+    "synonyms": ["event", "incident", "instance"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "total",
+    "translations": {
+      "ru": "общее количество; общий; итог",
+      "uz": "jami; umumiy; yakuniy yig'indi"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "adjective", "verb"],
+      "noun": {
+        "singular": "total",
+        "plural": "totals"
+      },
+      "adjective": {
+        "base": "total",
+        "comparative": "",
+        "superlative": ""
+      },
+      "verb": {
+        "base_form": "total",
+        "past": "totalled",
+        "participle": "totalled"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The complete amount or number of something; to add up to a complete amount.",
+    "etymology": "From Latin totalis, meaning whole or complete.",
+    "synonyms": ["sum", "overall", "aggregate"],
+    "antonyms": ["partial", "incomplete"],
+    "ielts_level": "6.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "acquire",
+    "translations": {
+      "ru": "приобретать; получать; приобретать навык",
+      "uz": "egallamoq; qo'lga kiritmoq; orttirmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "acquire",
+      "past": "acquired",
+      "participle": "acquired"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To obtain something or develop a skill, quality, or habit over time.",
+    "etymology": "From Latin acquirere, meaning to gain or obtain.",
+    "synonyms": ["obtain", "gain", "attain"],
+    "antonyms": ["lose", "surrender"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },  
+  
+  {
+    "word": "nowadays",
+    "translations": {
+      "ru": "в наше время; в наши дни",
+      "uz": "hozirgi kunda"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "nowadays"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "At the present time or in the current period.",
+    "etymology": "From now + a days, originally referring to the present period.",
+    "synonyms": ["today", "in the present day", "currently"],
+    "antonyms": ["formerly", "in the past"],
+    "ielts_level": "6.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "government",
+    "translations": {
+      "ru": "правительство; государственное управление",
+      "uz": "hukumat; davlat boshqaruvi"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "government",
+      "plural": "governments"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ment"
+    },
+    "definition": "The group or system responsible for controlling and administering a country or region.",
+    "etymology": "From govern + -ment, from Latin gubernare, meaning to steer or rule.",
+    "synonyms": ["administration", "authority", "regime"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "politics",
+    "status": "learning"
+  },
+  {
+    "word": "innocent",
+    "translations": {
+      "ru": "невиновный; невинный",
+      "uz": "aybsiz; begunoh"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "innocent",
+      "comparative": "more innocent",
+      "superlative": "most innocent"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Not responsible for a crime or wrongdoing; not guilty.",
+    "etymology": "From Latin innocens, meaning harmless or not guilty.",
+    "synonyms": ["blameless", "guiltless", "exonerated"],
+    "antonyms": ["guilty", "culpable"],
+    "ielts_level": "7.0",
+    "category": "law/general",
+    "status": "learning"
+  },
+  {
+    "word": "imply",
+    "translations": {
+      "ru": "подразумевать; означать",
+      "uz": "nazarda tutmoq; anglatmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "imply",
+      "past": "implied",
+      "participle": "implied"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To suggest that something is true or exists without stating it directly.",
+    "etymology": "From Latin implicare, meaning to involve or entangle.",
+    "synonyms": ["suggest", "indicate", "suggest indirectly"],
+    "antonyms": ["state explicitly", "declare"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "lure",
+    "translations": {
+      "ru": "заманивать; приманка",
+      "uz": "aldab jalb qilmoq; o'lja"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "lure",
+        "past": "lured",
+        "participle": "lured"
+      },
+      "noun": {
+        "singular": "lure",
+        "plural": "lures"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To attract someone by offering something appealing, often in order to persuade or deceive them.",
+    "etymology": "From Old French loirre, meaning a bait or attraction.",
+    "synonyms": ["tempt", "entice", "attract"],
+    "antonyms": ["repel", "deter"],
+    "ielts_level": "7.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "con",
+    "translations": {
+      "ru": "обмануть; мошенничество",
+      "uz": "aldamoq; firibgarlik"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "con",
+        "past": "conned",
+        "participle": "conned"
+      },
+      "noun": {
+        "singular": "con",
+        "plural": "cons"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To trick someone into giving money, information, or something else of value.",
+    "etymology": "Shortened from confidence trick and ultimately confidence man.",
+    "synonyms": ["deceive", "scam", "defraud"],
+    "antonyms": ["protect", "warn"],
+    "ielts_level": "7.0",
+    "category": "general/crime",
+    "status": "learning"
+  },
+  {
+    "word": "imitate",
+    "translations": {
+      "ru": "имитировать; подражать",
+      "uz": "taqlid qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "imitate",
+      "past": "imitated",
+      "participle": "imitated"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To copy the actions, behavior, or appearance of someone or something.",
+    "etymology": "From Latin imitari, meaning to copy or reproduce.",
+    "synonyms": ["copy", "mimic", "replicate"],
+    "antonyms": ["create", "originate"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "wealthiest",
+    "translations": {
+      "ru": "самый богатый",
+      "uz": "eng boy"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "wealthy",
+      "comparative": "wealthier",
+      "superlative": "wealthiest"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-y"
+    },
+    "definition": "Having the greatest amount of wealth among a group.",
+    "etymology": "From wealth + -y, meaning possessing wealth.",
+    "synonyms": ["richest", "most affluent", "most prosperous"],
+    "antonyms": ["poorest"],
+    "ielts_level": "7.0",
+    "category": "economics/general",
+    "status": "learning"
+  },
+  {
+    "word": "estimate",
+    "translations": {
+      "ru": "оценивать; оценка",
+      "uz": "baholamoq; taxmin"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "estimate",
+        "past": "estimated",
+        "participle": "estimated"
+      },
+      "noun": {
+        "singular": "estimate",
+        "plural": "estimates"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To calculate or judge approximately the size, value, amount, or cost of something.",
+    "etymology": "From Latin aestimare, meaning to value or assess.",
+    "synonyms": ["approximate", "assess", "calculate"],
+    "antonyms": ["measure exactly", "determine precisely"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "investigation",
+    "translations": {
+      "ru": "расследование; исследование",
+      "uz": "tekshiruv; tergov"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "investigation",
+      "plural": "investigations"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-tion"
+    },
+    "definition": "A detailed examination or inquiry into a subject, event, or situation.",
+    "etymology": "From Latin investigatio, from investigare, meaning to trace or search into.",
+    "synonyms": ["inquiry", "examination", "research"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "academic/law",
+    "status": "learning"
+  },
+  {
+    "word": "reveal",
+    "translations": {
+      "ru": "раскрывать; обнаруживать",
+      "uz": "oshkor qilmoq; aniqlamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "reveal",
+      "past": "revealed",
+      "participle": "revealed"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To make something previously unknown or hidden known to others.",
+    "etymology": "From Latin revelare, meaning to uncover or disclose.",
+    "synonyms": ["disclose", "uncover", "expose"],
+    "antonyms": ["conceal", "hide", "withhold"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "above all",
+    "translations": {
+      "ru": "прежде всего",
+      "uz": "eng avvalo"
+    },
+    "grammar": {
+      "part_of_speech": "phrase",
+      "base": "above all"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "More importantly than anything else; especially.",
+    "etymology": "A phrase formed from above, meaning higher in importance, + all.",
+    "synonyms": ["most importantly", "first and foremost", "especially"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "recognize",
+    "translations": {
+      "ru": "распознавать; признавать",
+      "uz": "tanimoq; tan olmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "recognize",
+      "past": "recognized",
+      "participle": "recognized"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "re-",
+      "suffix": ""
+    },
+    "definition": "To identify someone or something from previous knowledge or to acknowledge something as true or important.",
+    "etymology": "From Latin recognoscere, meaning to know again.",
+    "synonyms": ["identify", "acknowledge", "detect"],
+    "antonyms": ["ignore", "overlook", "misidentify"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "be wary",
+    "translations": {
+      "ru": "быть осторожным; остерегаться",
+      "uz": "ehtiyot bo'lmoq; sergak bo'lmoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrase",
+      "base": "be wary"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To be careful because something may be dangerous, deceptive, or problematic.",
+    "etymology": "Wary comes from Old English wær, meaning cautious or aware.",
+    "synonyms": ["be careful", "be cautious", "watch out"],
+    "antonyms": ["be careless", "be reckless"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "urgent",
+    "translations": {
+      "ru": "срочный; неотложный",
+      "uz": "shoshilinch; kechiktirib bo'lmaydigan"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "urgent",
+      "comparative": "more urgent",
+      "superlative": "most urgent"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Requiring immediate attention or action.",
+    "etymology": "From Latin urgere, meaning to press or drive.",
+    "synonyms": ["pressing", "immediate", "critical"],
+    "antonyms": ["non-urgent", "optional"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "upsetting",
+    "translations": {
+      "ru": "расстраивающий; тревожащий",
+      "uz": "xafa qiluvchi; bezovta qiluvchi"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "upsetting",
+      "comparative": "more upsetting",
+      "superlative": "most upsetting"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Causing sadness, worry, or emotional distress.",
+    "etymology": "From upset + -ing, describing something that causes emotional disturbance.",
+    "synonyms": ["distressing", "disturbing", "troubling"],
+    "antonyms": ["comforting", "reassuring", "pleasant"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "recipient",
+    "translations": {
+      "ru": "получатель",
+      "uz": "qabul qiluvchi"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "recipient",
+      "plural": "recipients"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ent"
+    },
+    "definition": "A person or organization that receives something.",
+    "etymology": "From Latin recipiens, meaning receiving, from recipere, meaning to receive.",
+    "synonyms": ["receiver", "beneficiary", "addressee"],
+    "antonyms": ["sender", "giver"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "valid",
+    "translations": {
+      "ru": "действительный; обоснованный; допустимый",
+      "uz": "haqiqiy; asosli; yaroqli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "valid",
+      "comparative": "more valid",
+      "superlative": "most valid"
+    },
+    "word_formation": {
+      "opposite_form": "invalid",
+      "prefix": "in-",
+      "suffix": ""
+    },
+    "definition": "Legally or officially acceptable, or based on sound reasoning and evidence.",
+    "etymology": "From Latin validus, meaning strong, effective, or legally binding.",
+    "synonyms": ["legitimate", "sound", "acceptable"],
+    "antonyms": ["invalid", "unacceptable", "unsound"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "legal",
+    "translations": {
+      "ru": "законный; юридический",
+      "uz": "qonuniy; huquqiy"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "legal",
+      "comparative": "more legal",
+      "superlative": "most legal"
+    },
+    "word_formation": {
+      "opposite_form": "illegal",
+      "prefix": "il-",
+      "suffix": ""
+    },
+    "definition": "Allowed or required by law.",
+    "etymology": "From Latin legalis, meaning relating to the law.",
+    "synonyms": ["lawful", "legitimate", "permitted"],
+    "antonyms": ["illegal", "unlawful", "prohibited"],
+    "ielts_level": "7.0",
+    "category": "law/politics",
+    "status": "learning"
+  },
+]
