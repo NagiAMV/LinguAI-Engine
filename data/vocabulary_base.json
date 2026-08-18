@@ -545,7 +545,7 @@
     "category": "academic/linking",
     "status": "learning"
   },
-   {
+  {
     "word": "much less",
     "translations": {
       "ru": "тем более не; гораздо меньше",
@@ -1038,8 +1038,8 @@
     "ielts_level": "7.5",
     "category": "academic",
     "status": "learning"
-  },  
-  
+  },
+
   {
     "word": "nowadays",
     "translations": {
@@ -1522,6 +1522,840 @@
     "antonyms": ["illegal", "unlawful", "prohibited"],
     "ielts_level": "7.0",
     "category": "law/politics",
+    "status": "learning"
+  },
+  {
+    "word": "courageous",
+    "translations": {
+      "ru": "мужественный; смелый",
+      "uz": "jasur; mard"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "courageous",
+      "comparative": "more courageous",
+      "superlative": "most courageous"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ous"
+    },
+    "definition": "Showing bravery and the ability to face danger, difficulty, or pain.",
+    "etymology": "From courage + -ous, from Old French corage, meaning heart or spirit.",
+    "synonyms": ["brave", "bold", "valiant"],
+    "antonyms": ["cowardly", "timid", "fearful"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "ashamed",
+    "translations": {
+      "ru": "стыдящийся; испытывающий стыд",
+      "uz": "uyalgan; sharmanda bo'lgan"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "ashamed",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ed"
+    },
+    "definition": "Feeling embarrassed or guilty because of something wrong or dishonorable.",
+    "etymology": "From Old English a-scamod, meaning filled with shame.",
+    "synonyms": ["embarrassed", "guilty", "humiliated"],
+    "antonyms": ["proud", "unashamed"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "moreover",
+    "translations": {
+      "ru": "более того; кроме того",
+      "uz": "bundan tashqari; bundan ham ko'proq"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "moreover"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Used to introduce an additional point that supports or strengthens what has just been said.",
+    "etymology": "From more + over, meaning in addition.",
+    "synonyms": ["furthermore", "in addition", "besides"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic/linking",
+    "status": "learning"
+  },
+  {
+    "word": "furthermore",
+    "translations": {
+      "ru": "кроме того; более того",
+      "uz": "bundan tashqari; bundan ham tashqari"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "furthermore"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Used to add another point that supports or develops the previous statement.",
+    "etymology": "From further + more, meaning in addition or additionally.",
+    "synonyms": ["moreover", "in addition", "additionally"],
+    "antonyms": [],
+    "ielts_level": "8.0",
+    "category": "academic/linking",
+    "status": "learning"
+  },
+  {
+    "word": "whoever",
+    "translations": {
+      "ru": "кто бы ни; любой, кто",
+      "uz": "kim bo'lmasin; kimki"
+    },
+    "grammar": {
+      "part_of_speech": "pronoun",
+      "base": "whoever"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Used to refer to any person, regardless of who they are.",
+    "etymology": "From who + ever, indicating an unrestricted person.",
+    "synonyms": ["anyone who", "any person who"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "scoundrel",
+    "translations": {
+      "ru": "негодяй; мерзавец",
+      "uz": "yaramas; firibgar"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "scoundrel",
+      "plural": "scoundrels"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A dishonest, immoral, or unpleasant person.",
+    "etymology": "Origin uncertain; recorded in English since the 16th century.",
+    "synonyms": ["rogue", "villain", "rascal"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "mutter",
+    "translations": {
+      "ru": "бормотать",
+      "uz": "ming'irlamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "mutter",
+      "past": "muttered",
+      "participle": "muttered"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To speak in a quiet, unclear voice, often because of anger or dissatisfaction.",
+    "etymology": "Probably imitative in origin, representing a low indistinct sound.",
+    "synonyms": ["mumble", "murmur", "grumble"],
+    "antonyms": ["shout", "declare"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "murmur",
+    "translations": {
+      "ru": "шептать; бормотать; тихий звук",
+      "uz": "pichirlamoq; ming'irlamoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "murmur",
+        "past": "murmured",
+        "participle": "murmured"
+      },
+      "noun": {
+        "singular": "murmur",
+        "plural": "murmurs"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To speak very quietly or make a low continuous sound.",
+    "etymology": "From Latin murmurare, imitating a low continuous sound.",
+    "synonyms": ["whisper", "mumble", "mutter"],
+    "antonyms": ["shout", "yell"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "grasp",
+    "translations": {
+      "ru": "схватить; крепко ухватиться",
+      "uz": "mahkam ushlamoq; changallamoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "grasp",
+        "past": "grasped",
+        "participle": "grasped"
+      },
+      "noun": {
+        "singular": "grasp",
+        "plural": "grasps"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To take and hold something firmly; to understand something completely.",
+    "etymology": "From Middle English graspen, meaning to seize or hold.",
+    "synonyms": ["grab", "grip", "seize"],
+    "antonyms": ["release", "let go"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "torn",
+    "translations": {
+      "ru": "порванный; разорванный",
+      "uz": "yirtilgan"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "tear",
+      "past": "tore",
+      "participle": "torn"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Past participle of tear; damaged by pulling apart or splitting.",
+    "etymology": "From Old English teran, meaning to pull apart or rend.",
+    "synonyms": ["ripped", "split", "shredded"],
+    "antonyms": ["mended", "repaired"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "gaze",
+    "translations": {
+      "ru": "пристально смотреть; взгляд",
+      "uz": "tikilib qaramoq; nigoh"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "gaze",
+        "past": "gazed",
+        "participle": "gazed"
+      },
+      "noun": {
+        "singular": "gaze",
+        "plural": "gazes"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To look steadily and intently at someone or something.",
+    "etymology": "From Middle English gazen, meaning to look steadily.",
+    "synonyms": ["stare", "watch", "observe"],
+    "antonyms": ["look away", "ignore"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "faint",
+    "translations": {
+      "ru": "терять сознание; падать в обморок",
+      "uz": "hushidan ketmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "faint",
+      "past": "fainted",
+      "participle": "fainted"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To suddenly lose consciousness for a short period.",
+    "etymology": "From Old French feindre, later associated with loss of strength or consciousness.",
+    "synonyms": ["pass out", "collapse", "black out"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "sense",
+    "translations": {
+      "ru": "чувство; способность восприятия",
+      "uz": "sezgi; his"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "sense",
+      "plural": "senses"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A physical or mental ability to perceive or understand something.",
+    "etymology": "From Latin sensus, meaning perception or feeling.",
+    "synonyms": ["perception", "awareness", "feeling"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/psychology",
+    "status": "learning"
+  },
+  {
+    "word": "stretch",
+    "translations": {
+      "ru": "растягивать; простираться",
+      "uz": "cho'zmoq; cho'zilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "stretch",
+      "past": "stretched",
+      "participle": "stretched"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To extend or spread something over a greater distance or area.",
+    "etymology": "From Old English streccan, meaning to stretch or extend.",
+    "synonyms": ["extend", "lengthen", "expand"],
+    "antonyms": ["contract", "shorten"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "rescue",
+    "translations": {
+      "ru": "спасать; спасение",
+      "uz": "qutqarmoq; qutqaruv"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "rescue",
+        "past": "rescued",
+        "participle": "rescued"
+      },
+      "noun": {
+        "singular": "rescue",
+        "plural": "rescues"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To save someone or something from danger, harm, or difficulty.",
+    "etymology": "From Old French rescoure, meaning to recover or save.",
+    "synonyms": ["save", "recover", "retrieve"],
+    "antonyms": ["abandon", "endanger"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "lower",
+    "translations": {
+      "ru": "опускать; снижать",
+      "uz": "tushirmoq; pasaytirmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "lower",
+      "past": "lowered",
+      "participle": "lowered"
+    },
+    "word_formation": {
+      "opposite_form": "raise",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move something down or reduce its level, amount, or intensity.",
+    "etymology": "From lower, related to low, meaning to make or become lower.",
+    "synonyms": ["reduce", "decrease", "bring down"],
+    "antonyms": ["raise", "increase", "elevate"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "urgently",
+    "translations": {
+      "ru": "срочно; неотложно",
+      "uz": "shoshilinch ravishda"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "urgently"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In a way that requires immediate attention or action.",
+    "etymology": "From urgent + -ly, from Latin urgere, meaning to press or drive.",
+    "synonyms": ["immediately", "promptly", "without delay"],
+    "antonyms": ["gradually", "eventually"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "cowardly",
+    "translations": {
+      "ru": "трусливый; малодушный",
+      "uz": "qo'rqoq; jur'atsiz"
+    },
+    "grammar": {
+      "part_of_speech": "adjective/adverb",
+      "adjective": {
+        "base": "cowardly",
+        "comparative": "more cowardly",
+        "superlative": "most cowardly"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "Showing a lack of courage when facing danger or difficulty.",
+    "etymology": "From coward + -ly, meaning like a coward.",
+    "synonyms": ["timid", "fearful", "spineless"],
+    "antonyms": ["courageous", "brave", "bold"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "gratitude",
+    "translations": {
+      "ru": "благодарность",
+      "uz": "minnatdorchilik"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "gratitude",
+      "plural": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A strong feeling of appreciation for something received or done by someone.",
+    "etymology": "From Latin gratitudo, meaning thankfulness or gratefulness.",
+    "synonyms": ["thankfulness", "appreciation", "recognition"],
+    "antonyms": ["ingratitude", "indifference"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "serve",
+    "translations": {
+      "ru": "служить; выполнять функцию",
+      "uz": "xizmat qilmoq; vazifa bajarmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "serve",
+      "past": "served",
+      "participle": "served"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To be useful for a particular purpose or to perform a particular function.",
+    "etymology": "From Latin servire, meaning to serve or be useful.",
+    "synonyms": ["function", "assist", "provide"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "swear",
+    "translations": {
+      "ru": "клясться; давать обещание",
+      "uz": "qasam ichmoq; ont bermoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "swear",
+      "past": "swore",
+      "participle": "sworn"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To make a serious promise or statement, especially by making an oath.",
+    "etymology": "From Old English swerian, meaning to take an oath.",
+    "synonyms": ["vow", "pledge", "promise"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "promise",
+    "translations": {
+      "ru": "обещать; обещание",
+      "uz": "va'da bermoq; va'da"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "promise",
+        "past": "promised",
+        "participle": "promised"
+      },
+      "noun": {
+        "singular": "promise",
+        "plural": "promises"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A statement that someone will definitely do or provide something, or the act of making such a statement.",
+    "etymology": "From Latin promittere, meaning to send forth or assure beforehand.",
+    "synonyms": ["pledge", "vow", "commitment"],
+    "antonyms": ["break a promise", "betray"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "rage",
+    "translations": {
+      "ru": "ярость; неистовство",
+      "uz": "g'azab; qahr"
+    },
+    "grammar": {
+      "part_of_speech": "noun/verb",
+      "noun": {
+        "singular": "rage",
+        "plural": "rages"
+      },
+      "verb": {
+        "base_form": "rage",
+        "past": "raged",
+        "participle": "raged"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Extreme anger or violent uncontrolled emotion.",
+    "etymology": "From Old French rage, from Latin rabies, meaning madness or fury.",
+    "synonyms": ["fury", "anger", "wrath"],
+    "antonyms": ["calm", "peace", "composure"],
+    "ielts_level": "7.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "vow",
+    "translations": {
+      "ru": "клясться; давать клятву",
+      "uz": "qasam ichmoq; ont bermoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "vow",
+        "past": "vowed",
+        "participle": "vowed"
+      },
+      "noun": {
+        "singular": "vow",
+        "plural": "vows"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To make a serious and formal promise.",
+    "etymology": "From Old French vou, from Latin votum, meaning a solemn promise.",
+    "synonyms": ["swear", "pledge", "promise"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "general/formal",
+    "status": "learning"
+  },
+  {
+    "word": "kneel",
+    "translations": {
+      "ru": "становиться на колени; преклонять колени",
+      "uz": "tiz cho'kmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "kneel",
+      "past": "knelt",
+      "participle": "knelt"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move into a position in which one or both knees are on the ground.",
+    "etymology": "From Old English cnēowlian, meaning to kneel.",
+    "synonyms": ["kneel down", "bow down"],
+    "antonyms": ["stand"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "interrupt",
+    "translations": {
+      "ru": "прерывать; перебивать",
+      "uz": "bo'lmoq; gapini bo'lmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "interrupt",
+      "past": "interrupted",
+      "participle": "interrupted"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "inter-",
+      "suffix": ""
+    },
+    "definition": "To stop someone while they are speaking or to stop a process temporarily.",
+    "etymology": "From Latin interrumpere, meaning to break apart or interrupt.",
+    "synonyms": ["disturb", "break in", "disrupt"],
+    "antonyms": ["continue", "allow", "listen"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "jealously",
+    "translations": {
+      "ru": "ревниво; завистливо",
+      "uz": "rashk bilan; hasad bilan"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "jealously"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In a way that shows jealousy or envy.",
+    "etymology": "From jealous + -ly, from Old French gelos.",
+    "synonyms": ["enviously", "resentfully"],
+    "antonyms": ["generously", "selflessly"],
+    "ielts_level": "7.0",
+    "category": "general/psychology",
+    "status": "learning"
+  },
+  {
+    "word": "entrance",
+    "translations": {
+      "ru": "вход; вступление",
+      "uz": "kirish; kirish joyi"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "entrance",
+      "plural": "entrances"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ance"
+    },
+    "definition": "A place or point through which someone enters a building or area.",
+    "etymology": "From enter + -ance, from Latin intrare, meaning to go into.",
+    "synonyms": ["entry", "access", "opening"],
+    "antonyms": ["exit", "departure"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "candlelit",
+    "translations": {
+      "ru": "освещённый свечами",
+      "uz": "shamlar bilan yoritilgan"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "candlelit",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Lit or illuminated by candles.",
+    "etymology": "A compound of candle + lit.",
+    "synonyms": ["candle-illuminated", "candle-lit"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general/literary",
+    "status": "learning"
+  },
+  {
+    "word": "madness",
+    "translations": {
+      "ru": "безумие; сумасшествие",
+      "uz": "jinnilik; telbalik"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "madness",
+      "plural": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ness"
+    },
+    "definition": "A state of extreme irrationality, uncontrolled behavior, or mental disturbance.",
+    "etymology": "From mad + -ness, describing a state of being mad.",
+    "synonyms": ["insanity", "frenzy", "lunacy"],
+    "antonyms": ["sanity", "calm", "reason"],
+    "ielts_level": "7.5",
+    "category": "psychology/general",
+    "status": "learning"
+  },
+  {
+    "word": "gathering",
+    "translations": {
+      "ru": "собрание; сбор",
+      "uz": "yig'ilish; to'planish"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "gathering",
+      "plural": "gatherings"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "A meeting or group of people who come together for a particular purpose.",
+    "etymology": "From gather + -ing, meaning an act or occasion of gathering.",
+    "synonyms": ["assembly", "meeting", "集会"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "sob",
+    "translations": {
+      "ru": "рыдать; всхлипывать",
+      "uz": "hiqillab yig'lamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb/noun",
+      "verb": {
+        "base_form": "sob",
+        "past": "sobbed",
+        "participle": "sobbed"
+      },
+      "noun": {
+        "singular": "sob",
+        "plural": "sobs"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To cry with short, uneven breaths, usually because of strong emotion.",
+    "etymology": "Probably imitative in origin, representing the sound of crying.",
+    "synonyms": ["weep", "cry", "wail"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
     "status": "learning"
   }
 ]
