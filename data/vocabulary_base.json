@@ -2357,5 +2357,729 @@
     "ielts_level": "7.0",
     "category": "general",
     "status": "learning"
+  },
+    {
+    "word": "disgrace",
+    "translations": {
+      "ru": "позор; бесчестие",
+      "uz": "sharmandalik; nomusga putur"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "disgrace",
+        "plural": "disgraces"
+      },
+      "verb": {
+        "base_form": "disgrace",
+        "past": "disgraced",
+        "participle": "disgraced"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A state of shame or loss of respect; to cause someone to lose respect or honor.",
+    "etymology": "From dis- + grace, meaning loss of honor or respect.",
+    "synonyms": ["shame", "dishonor", "humiliation"],
+    "antonyms": ["honor", "glory", "dignity"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "unfasten",
+    "translations": {
+      "ru": "расстегнуть; развязать",
+      "uz": "yechmoq; bo'shatmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "unfasten",
+      "past": "unfastened",
+      "participle": "unfastened"
+    },
+    "word_formation": {
+      "opposite_form": "fasten",
+      "prefix": "un-",
+      "suffix": ""
+    },
+    "definition": "To release something that is fastened or secured.",
+    "etymology": "From un- (reverse an action) + fasten.",
+    "synonyms": ["undo", "loosen", "release"],
+    "antonyms": ["fasten", "secure", "attach"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "conquer",
+    "translations": {
+      "ru": "завоёвывать; покорять",
+      "uz": "zabt etmoq; bo'ysundirmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "conquer",
+      "past": "conquered",
+      "participle": "conquered"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To defeat and gain control over a country, group, or situation.",
+    "etymology": "From Old French conquerre, from Latin conquirere, meaning to gain or acquire.",
+    "synonyms": ["defeat", "overcome", "subdue"],
+    "antonyms": ["surrender", "lose", "yield"],
+    "ielts_level": "7.0",
+    "category": "history/politics",
+    "status": "learning"
+  },
+  {
+    "word": "accuse",
+    "translations": {
+      "ru": "обвинять",
+      "uz": "ayblamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "accuse",
+      "past": "accused",
+      "participle": "accused"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To say that someone has done something wrong or committed a crime.",
+    "etymology": "From Latin accusare, meaning to call to account or blame.",
+    "synonyms": ["blame", "allege", "charge"],
+    "antonyms": ["defend", "exonerate", "acquit"],
+    "ielts_level": "7.5",
+    "category": "law/general",
+    "status": "learning"
+  },
+  {
+    "word": "plot",
+    "translations": {
+      "ru": "замышлять; заговор; сюжет",
+      "uz": "fitna uyushtirmoq; reja; syujet"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "plot",
+        "past": "plotted",
+        "participle": "plotted"
+      },
+      "noun": {
+        "singular": "plot",
+        "plural": "plots"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To secretly plan something harmful or illegal; also, the main sequence of events in a story.",
+    "etymology": "From Old English plot, meaning a small piece of ground; the conspiracy sense developed later.",
+    "synonyms": ["scheme", "conspire", "plan"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "general/literary",
+    "status": "learning"
+  },
+  {
+    "word": "patch",
+    "translations": {
+      "ru": "заплатка; участок; латать",
+      "uz": "yamoq; kichik hudud; yamamoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "patch",
+        "plural": "patches"
+      },
+      "verb": {
+        "base_form": "patch",
+        "past": "patched",
+        "participle": "patched"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A small area that is different from or covers part of a larger surface; to repair something with a piece of material.",
+    "etymology": "Origin uncertain; probably from a Middle English word referring to a piece of cloth.",
+    "synonyms": ["section", "piece", "repair"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "kidnap",
+    "translations": {
+      "ru": "похищать",
+      "uz": "o'g'irlab ketmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "kidnap",
+      "past": "kidnapped",
+      "participle": "kidnapped"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To illegally take someone away and keep them as a prisoner.",
+    "etymology": "Originally formed from kid + nap, with kid meaning a child and nap meaning to steal.",
+    "synonyms": ["abduct", "seize", "take hostage"],
+    "antonyms": ["release", "free"],
+    "ielts_level": "7.0",
+    "category": "law/crime",
+    "status": "learning"
+  },
+  {
+    "word": "piercing",
+    "translations": {
+      "ru": "пронзительный; проникающий",
+      "uz": "o'tkir; teshib o'tuvchi"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "piercing",
+      "comparative": "more piercing",
+      "superlative": "most piercing"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Extremely sharp, intense, or penetrating, especially of a sound, look, or sensation.",
+    "etymology": "From pierce + -ing, from Latin pertundere, meaning to penetrate.",
+    "synonyms": ["sharp", "penetrating", "shrill"],
+    "antonyms": ["dull", "muffled", "soft"],
+    "ielts_level": "7.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "sheer",
+    "translations": {
+      "ru": "чистый; абсолютный; отвесный",
+      "uz": "sof; mutlaq; tik"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "sheer",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Used to emphasize that something is complete, extreme, or nothing but itself.",
+    "etymology": "From Middle English sheer, meaning bright, clear, or pure; later developing senses of complete and vertical.",
+    "synonyms": ["absolute", "complete", "pure"],
+    "antonyms": ["partial", "moderate"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "mock",
+    "translations": {
+      "ru": "высмеивать; имитировать",
+      "uz": "masxara qilmoq; taqlid qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "adjective", "noun"],
+      "verb": {
+        "base_form": "mock",
+        "past": "mocked",
+        "participle": "mocked"
+      },
+      "adjective": {
+        "base": "mock",
+        "comparative": "",
+        "superlative": ""
+      },
+      "noun": {
+        "singular": "mock",
+        "plural": "mocks"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To laugh at or imitate someone in an insulting way; fake or imitation.",
+    "etymology": "From Old French mocquer, meaning to ridicule.",
+    "synonyms": ["ridicule", "deride", "imitate"],
+    "antonyms": ["respect", "praise"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "joyously",
+    "translations": {
+      "ru": "радостно",
+      "uz": "quvonch bilan"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "joyously"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In a very happy or cheerful way.",
+    "etymology": "From joyous + -ly, from joy.",
+    "synonyms": ["happily", "cheerfully", "delightedly"],
+    "antonyms": ["sadly", "miserably"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "sack",
+    "translations": {
+      "ru": "мешок; увольнять",
+      "uz": "qop; ishdan bo'shatmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "sack",
+        "plural": "sacks"
+      },
+      "verb": {
+        "base_form": "sack",
+        "past": "sacked",
+        "participle": "sacked"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A large bag made for carrying or storing materials; as a verb, to dismiss someone from a job.",
+    "etymology": "From Old French sac, from Latin saccus, meaning bag.",
+    "synonyms": ["bag", "dismiss", "fire"],
+    "antonyms": ["hire", "employ"],
+    "ielts_level": "7.0",
+    "category": "general/business",
+    "status": "learning"
+  },
+  {
+    "word": "unjustly",
+    "translations": {
+      "ru": "несправедливо; неправомерно",
+      "uz": "adolatsiz ravishda; nohaq"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "unjustly"
+    },
+    "word_formation": {
+      "opposite_form": "justly",
+      "prefix": "un-",
+      "suffix": "-ly"
+    },
+    "definition": "In a way that is unfair or morally wrong.",
+    "etymology": "From un- (not) + just + -ly.",
+    "synonyms": ["unfairly", "wrongly", "inequitably"],
+    "antonyms": ["justly", "fairly", "equitably"],
+    "ielts_level": "7.5",
+    "category": "academic/law",
+    "status": "learning"
+  },
+  {
+    "word": "vivid",
+    "translations": {
+      "ru": "яркий; живой; выразительный",
+      "uz": "yorqin; jonli; aniq"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "vivid",
+      "comparative": "more vivid",
+      "superlative": "most vivid"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Producing strong, clear, and detailed images or impressions in the mind.",
+    "etymology": "From Latin vividus, meaning lively or full of life.",
+    "synonyms": ["striking", "graphic", "lively"],
+    "antonyms": ["dull", "vague", "faint"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "occasionally",
+    "translations": {
+      "ru": "иногда; время от времени",
+      "uz": "ba'zan; vaqti-vaqti bilan"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "occasionally"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "Sometimes, but not frequently.",
+    "etymology": "From occasional + -ly, from Latin occasio, meaning opportunity or occurrence.",
+    "synonyms": ["sometimes", "from time to time", "periodically"],
+    "antonyms": ["frequently", "constantly", "always"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "reflect",
+    "translations": {
+      "ru": "отражать; отражать мнение/состояние; размышлять",
+      "uz": "aks ettirmoq; mulohaza yuritmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "reflect",
+      "past": "reflected",
+      "participle": "reflected"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "re-",
+      "suffix": ""
+    },
+    "definition": "To show, represent, or express something; to think carefully about something.",
+    "etymology": "From Latin reflectere, meaning to bend back.",
+    "synonyms": ["represent", "indicate", "demonstrate"],
+    "antonyms": ["conceal", "hide"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "entertainment",
+    "translations": {
+      "ru": "развлечение; индустрия развлечений",
+      "uz": "ko'ngilochar faoliyat; o'yin-kulgi"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "entertainment",
+      "plural": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ment"
+    },
+    "definition": "Activities or performances designed to amuse or interest people.",
+    "etymology": "From entertain + -ment, from Old French entretenir, meaning to hold or maintain.",
+    "synonyms": ["amusement", "recreation", "leisure"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "culture/general",
+    "status": "learning"
+  },
+  {
+    "word": "fascinating",
+    "translations": {
+      "ru": "захватывающий; увлекательный",
+      "uz": "maftunkor; juda qiziqarli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "fascinating",
+      "comparative": "more fascinating",
+      "superlative": "most fascinating"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Extremely interesting or attractive and able to hold someone's attention.",
+    "etymology": "From fascinate + -ing, from Latin fascinare, meaning to enchant or bewitch.",
+    "synonyms": ["intriguing", "captivating", "engaging"],
+    "antonyms": ["boring", "uninteresting", "dull"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "thrilling",
+    "translations": {
+      "ru": "захватывающий; волнующий",
+      "uz": "hayajonli; hayajonga soluvchi"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "thrilling",
+      "comparative": "more thrilling",
+      "superlative": "most thrilling"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Extremely exciting and causing strong feelings of excitement.",
+    "etymology": "From thrill + -ing, from Middle English thrillen, meaning to pierce or penetrate.",
+    "synonyms": ["exciting", "exhilarating", "stimulating"],
+    "antonyms": ["boring", "dull", "tedious"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "crucial",
+    "translations": {
+      "ru": "крайне важный; решающий",
+      "uz": "juda muhim; hal qiluvchi"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "crucial",
+      "comparative": "more crucial",
+      "superlative": "most crucial"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Extremely important or necessary for determining the outcome of something.",
+    "etymology": "From Latin crux, meaning cross; crucial originally referred to something decisive or critical.",
+    "synonyms": ["vital", "essential", "critical"],
+    "antonyms": ["unimportant", "insignificant"],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "tenant",
+    "translations": {
+      "ru": "арендатор; жилец",
+      "uz": "ijarachi; ijarada yashovchi"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "tenant",
+      "plural": "tenants"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A person or organization that rents and occupies property from a landlord.",
+    "etymology": "From Old French tenant, from tenir, meaning to hold.",
+    "synonyms": ["renter", "occupant", "lessee"],
+    "antonyms": ["landlord", "owner"],
+    "ielts_level": "7.0",
+    "category": "law/housing",
+    "status": "learning"
+  },
+  {
+    "word": "significantly",
+    "translations": {
+      "ru": "значительно; существенно",
+      "uz": "sezilarli darajada; ancha"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "significantly"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "By a large or important amount or degree.",
+    "etymology": "From significant + -ly, from Latin significare, meaning to indicate or signify.",
+    "synonyms": ["considerably", "substantially", "markedly"],
+    "antonyms": ["slightly", "insignificantly", "marginally"],
+    "ielts_level": "8.0",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "beneficial",
+    "translations": {
+      "ru": "полезный; благоприятный",
+      "uz": "foydali; manfaatli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "beneficial",
+      "comparative": "more beneficial",
+      "superlative": "most beneficial"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ial"
+    },
+    "definition": "Producing a helpful, useful, or positive result.",
+    "etymology": "From Latin beneficialis, meaning advantageous or helpful.",
+    "synonyms": ["advantageous", "favorable", "helpful"],
+    "antonyms": ["harmful", "disadvantageous", "detrimental"],
+    "ielts_level": "7.5",
+    "category": "academic",
+    "status": "learning"
+  },
+  {
+    "word": "sticky",
+    "translations": {
+      "ru": "липкий",
+      "uz": "yopishqoq"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "sticky",
+      "comparative": "stickier",
+      "superlative": "stickiest"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-y"
+    },
+    "definition": "Having a surface that adheres easily to other things.",
+    "etymology": "From stick + -y, meaning having a tendency to stick.",
+    "synonyms": ["gluey", "adhesive", "tacky"],
+    "antonyms": ["non-sticky", "smooth"],
+    "ielts_level": "6.5",
+    "category": "general/science",
+    "status": "learning"
+  },
+  {
+    "word": "bubble up",
+    "translations": {
+      "ru": "всплывать; подниматься; постепенно проявляться",
+      "uz": "yuqoriga ko'tarilmoq; yuzaga chiqmoq"
+    },
+    "grammar": {
+      "part_of_speech": "phrasal verb",
+      "base_form": "bubble up",
+      "past": "bubbled up",
+      "participle": "bubbled up"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To rise to the surface in bubbles; figuratively, to gradually emerge or become apparent.",
+    "etymology": "From bubble, referring to a rounded pocket of gas rising through a liquid, + up.",
+    "synonyms": ["emerge", "surface", "rise"],
+    "antonyms": ["sink", "subside"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "quantitative",
+    "translations": {
+      "ru": "количественный",
+      "uz": "miqdoriy"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "quantitative",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ative"
+    },
+    "definition": "Related to the amount or number of something and usually expressed using numerical data.",
+    "etymology": "From quantity + -ative, ultimately from Latin quantus, meaning how much.",
+    "synonyms": ["numerical", "measurable", "statistical"],
+    "antonyms": ["qualitative"],
+    "ielts_level": "8.0",
+    "category": "academic/research",
+    "status": "learning"
+  },
+  {
+    "word": "qualitative",
+    "translations": {
+      "ru": "качественный",
+      "uz": "sifat jihatdan; sifatli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "qualitative",
+      "comparative": "",
+      "superlative": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ative"
+    },
+    "definition": "Related to the qualities or characteristics of something rather than its amount or numerical measurement.",
+    "etymology": "From quality + -ative, ultimately from Latin qualitas, meaning quality or nature.",
+    "synonyms": ["descriptive", "non-numerical", "subjective"],
+    "antonyms": ["quantitative"],
+    "ielts_level": "8.0",
+    "category": "academic/research",
+    "status": "learning"
+  },
+  {
+    "word": "throat",
+    "translations": {
+      "ru": "горло; глотка",
+      "uz": "tomoq"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "throat",
+      "plural": "throats"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The front part of the neck and the passage through which food and air travel.",
+    "etymology": "From Old English þrote, meaning throat.",
+    "synonyms": ["pharynx", "neck passage"],
+    "antonyms": [],
+    "ielts_level": "6.5",
+    "category": "medicine/anatomy",
+    "status": "learning"
   }
 ]
