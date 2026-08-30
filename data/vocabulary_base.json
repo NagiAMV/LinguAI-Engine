@@ -5215,5 +5215,1179 @@
     "ielts_level": "7.5",
     "category": "academic/general",
     "status": "learning"
+  },
+
+  {
+    "word": "hatred",
+    "translations": {
+      "ru": "ненависть",
+      "uz": "nafrat"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "hatred",
+      "plural": ""
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-red"
+    },
+    "definition": "A very strong feeling of dislike or hostility toward someone or something.",
+    "etymology": "From hate + -red, meaning a state or feeling of hatred.",
+    "synonyms": ["hate", "hostility", "detestation"],
+    "antonyms": ["love", "affection", "admiration"],
+    "ielts_level": "7.5",
+    "category": "general/psychology",
+    "status": "learning"
+  },
+  {
+    "word": "harm",
+    "translations": {
+      "ru": "вред; вредить",
+      "uz": "zarar; zarar yetkazmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "harm",
+        "plural": ""
+      },
+      "verb": {
+        "base_form": "harm",
+        "past": "harmed",
+        "participle": "harmed"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Physical or emotional damage or injury; to cause damage or injury.",
+    "etymology": "From Old English hearm, meaning injury, pain, or evil.",
+    "synonyms": ["damage", "injury", "hurt"],
+    "antonyms": ["benefit", "help", "protect"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "damage",
+    "translations": {
+      "ru": "повреждать; ущерб",
+      "uz": "zarar yetkazmoq; zarar"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "damage",
+        "plural": "damages"
+      },
+      "verb": {
+        "base_form": "damage",
+        "past": "damaged",
+        "participle": "damaged"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Physical or other harm that reduces the condition, value, or effectiveness of something.",
+    "etymology": "From Old French damage, from Latin damnum, meaning loss or harm.",
+    "synonyms": ["harm", "deterioration", "impairment"],
+    "antonyms": ["benefit", "improvement", "repair"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "amusing",
+    "translations": {
+      "ru": "забавный; смешной",
+      "uz": "kulgili; qiziqarli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "amusing",
+      "comparative": "more amusing",
+      "superlative": "most amusing"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Funny or entertaining in a way that makes people laugh or smile.",
+    "etymology": "From amuse + -ing, from Old French amuser, meaning to entertain.",
+    "synonyms": ["funny", "entertaining", "humorous"],
+    "antonyms": ["boring", "serious", "unamusing"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "gasp",
+    "translations": {
+      "ru": "задыхаться; ахнуть; судорожно вдохнуть",
+      "uz": "nafasni keskin olmoq; hansiramoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "gasp",
+        "past": "gasped",
+        "participle": "gasped"
+      },
+      "noun": {
+        "singular": "gasp",
+        "plural": "gasps"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To take a sudden, sharp breath, especially because of surprise, pain, or difficulty breathing.",
+    "etymology": "Possibly imitative in origin, representing a sudden intake of breath.",
+    "synonyms": ["pant", "breathe sharply", "gulp"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "suspect",
+    "translations": {
+      "ru": "подозревать; подозреваемый; подозрительный",
+      "uz": "shubha qilmoq; gumondor; shubhali"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun", "adjective"],
+      "verb": {
+        "base_form": "suspect",
+        "past": "suspected",
+        "participle": "suspected"
+      },
+      "noun": {
+        "singular": "suspect",
+        "plural": "suspects"
+      },
+      "adjective": {
+        "base": "suspect",
+        "comparative": "more suspect",
+        "superlative": "most suspect"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To believe something is probably true; a person believed to have committed a crime; doubtful or questionable.",
+    "etymology": "From Latin suspectus, meaning mistrusted or suspected.",
+    "synonyms": ["doubt", "suppose", "questionable"],
+    "antonyms": ["trust", "believe", "certain"],
+    "ielts_level": "7.5",
+    "category": "academic/law",
+    "status": "learning"
+  },
+  {
+    "word": "hiss",
+    "translations": {
+      "ru": "шипеть; шипение",
+      "uz": "shivirlab ovoz chiqarmoq; shovqin"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "hiss",
+        "past": "hissed",
+        "participle": "hissed"
+      },
+      "noun": {
+        "singular": "hiss",
+        "plural": "hisses"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To make a long sibilant sound, often expressing anger or produced by air or steam escaping.",
+    "etymology": "Imitative in origin, based on the sound itself.",
+    "synonyms": ["whisper", "sibilate"],
+    "antonyms": ["shout", "yell"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "adore",
+    "translations": {
+      "ru": "обожать",
+      "uz": "juda yaxshi ko'rmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "adore",
+      "past": "adored",
+      "participle": "adored"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To love someone or something very much.",
+    "etymology": "From Latin adorare, meaning to worship or honor.",
+    "synonyms": ["love", "admire", "cherish"],
+    "antonyms": ["hate", "detest"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "absence",
+    "translations": {
+      "ru": "отсутствие",
+      "uz": "yo'qlik; mavjud emaslik"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "absence",
+      "plural": "absences"
+    },
+    "word_formation": {
+      "opposite_form": "presence",
+      "prefix": "ab-",
+      "suffix": "-ence"
+    },
+    "definition": "The state of not being present or not existing.",
+    "etymology": "From Latin absentia, meaning a being away or absence.",
+    "synonyms": ["lack", "nonexistence", "shortage"],
+    "antonyms": ["presence", "existence", "availability"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "lack",
+    "translations": {
+      "ru": "нехватка; недостаток; испытывать нехватку",
+      "uz": "yetishmaslik; kamchilik; yetishmaslikka ega bo'lmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "lack",
+        "plural": "lacks"
+      },
+      "verb": {
+        "base_form": "lack",
+        "past": "lacked",
+        "participle": "lacked"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A situation in which something needed or wanted is not available; to not have enough of something.",
+    "etymology": "From Middle Dutch lak, meaning deficiency or shortage.",
+    "synonyms": ["absence", "shortage", "deficiency"],
+    "antonyms": ["abundance", "presence", "availability"],
+    "ielts_level": "7.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "gallop",
+    "translations": {
+      "ru": "скакать галопом; галоп",
+      "uz": "chopmoq; chopish"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "gallop",
+        "past": "galloped",
+        "participle": "galloped"
+      },
+      "noun": {
+        "singular": "gallop",
+        "plural": "gallops"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move at the fastest pace of a horse; the fastest pace of a horse.",
+    "etymology": "From Old French galop, possibly of Germanic origin.",
+    "synonyms": ["run", "race", "speed"],
+    "antonyms": ["walk", "crawl"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "approach",
+    "translations": {
+      "ru": "приближаться; подход; подход к чему-либо",
+      "uz": "yaqinlashmoq; yondashuv"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "approach",
+        "past": "approached",
+        "participle": "approached"
+      },
+      "noun": {
+        "singular": "approach",
+        "plural": "approaches"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move closer to something or someone; a method or way of dealing with something.",
+    "etymology": "From Old French aprochier, from Latin appropiare, meaning to come nearer.",
+    "synonyms": ["come near", "method", "strategy"],
+    "antonyms": ["withdraw", "retreat"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "ambush",
+    "translations": {
+      "ru": "засада; устраивать засаду",
+      "uz": "pistirma; pistirma uyushtirmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "ambush",
+        "plural": "ambushes"
+      },
+      "verb": {
+        "base_form": "ambush",
+        "past": "ambushed",
+        "participle": "ambushed"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A surprise attack by people hiding and waiting for an opportunity to attack.",
+    "etymology": "From Old French embusche, meaning a place of concealment.",
+    "synonyms": ["surprise attack", "trap", "surprise assault"],
+    "antonyms": [],
+    "ielts_level": "7.5",
+    "category": "history/military",
+    "status": "learning"
+  },
+  {
+    "word": "demand",
+    "translations": {
+      "ru": "требовать; требование; спрос",
+      "uz": "talab qilmoq; talab; talab"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "demand",
+        "past": "demanded",
+        "participle": "demanded"
+      },
+      "noun": {
+        "singular": "demand",
+        "plural": "demands"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To ask for something forcefully; a strong request or need for something.",
+    "etymology": "From Old French demander, from Latin demandare, meaning to entrust or require.",
+    "synonyms": ["require", "insist", "request"],
+    "antonyms": ["offer", "give", "supply"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "capture",
+    "translations": {
+      "ru": "захватывать; захват",
+      "uz": "qo'lga olmoq; qo'lga olish"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "capture",
+        "past": "captured",
+        "participle": "captured"
+      },
+      "noun": {
+        "singular": "capture",
+        "plural": "captures"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To catch or take control of someone or something; the act of doing so.",
+    "etymology": "From Latin capere, meaning to take or seize.",
+    "synonyms": ["seize", "catch", "take"],
+    "antonyms": ["release", "free"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "lunge",
+    "translations": {
+      "ru": "резко броситься; выпад",
+      "uz": "keskin otilmoq; hujum qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "lunge",
+        "past": "lunged",
+        "participle": "lunged"
+      },
+      "noun": {
+        "singular": "lunge",
+        "plural": "lunges"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move forward suddenly and forcefully, especially in an attack.",
+    "etymology": "Probably from French allonger, meaning to lengthen or stretch out.",
+    "synonyms": ["thrust", "spring", "charge"],
+    "antonyms": ["retreat", "withdraw"],
+    "ielts_level": "7.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "wound",
+    "translations": {
+      "ru": "рана; ранить",
+      "uz": "yara; yaralamoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "wound",
+        "plural": "wounds"
+      },
+      "verb": {
+        "base_form": "wound",
+        "past": "wounded",
+        "participle": "wounded"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "An injury to the body; to cause physical injury.",
+    "etymology": "From Old English wund, meaning injury or hurt.",
+    "synonyms": ["injury", "hurt", "lesion"],
+    "antonyms": ["healing", "repair"],
+    "ielts_level": "7.0",
+    "category": "medicine/general",
+    "status": "learning"
+  },
+  {
+    "word": "plunge",
+    "translations": {
+      "ru": "резко погружаться; стремительно падать",
+      "uz": "sho'ng'imoq; keskin tushmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "plunge",
+        "past": "plunged",
+        "participle": "plunged"
+      },
+      "noun": {
+        "singular": "plunge",
+        "plural": "plunges"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To move or fall suddenly and deeply into something; a sudden steep decrease.",
+    "etymology": "From Old French plongier, from Latin plumbicare, meaning to sink like lead.",
+    "synonyms": ["dive", "drop", "plummet"],
+    "antonyms": ["rise", "ascend", "climb"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "rust",
+    "translations": {
+      "ru": "ржавчина; ржаветь",
+      "uz": "zang; zanglamoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "rust",
+        "plural": ""
+      },
+      "verb": {
+        "base_form": "rust",
+        "past": "rusted",
+        "participle": "rusted"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A reddish-brown coating formed on iron or steel through oxidation; to become covered with rust.",
+    "etymology": "From Old English rust, meaning rust or reddish coating.",
+    "synonyms": ["oxidation", "corrosion"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "science/chemistry",
+    "status": "learning"
+  },
+  {
+    "word": "soil",
+    "translations": {
+      "ru": "почва; загрязнять",
+      "uz": "tuproq; iflos qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "soil",
+        "plural": "soils"
+      },
+      "verb": {
+        "base_form": "soil",
+        "past": "soiled",
+        "participle": "soiled"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The upper layer of earth in which plants grow; to make something dirty.",
+    "etymology": "The noun comes from Old French soil, meaning ground or earth.",
+    "synonyms": ["earth", "ground", "land"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "environment/science",
+    "status": "learning"
+  },
+  {
+    "word": "cling",
+    "translations": {
+      "ru": "цепляться; прилипать",
+      "uz": "yopishib olmoq; mahkam ushlamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "cling",
+      "past": "clung",
+      "participle": "clung"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To hold onto something tightly or remain closely attached to it.",
+    "etymology": "From Old English clingan, meaning to adhere or stick.",
+    "synonyms": ["adhere", "grip", "stick"],
+    "antonyms": ["release", "detach", "let go"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "carve",
+    "translations": {
+      "ru": "вырезать; высекать",
+      "uz": "o'ymoq; kesib shakl bermoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "carve",
+      "past": "carved",
+      "participle": "carved"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To cut a shape or design into a hard material.",
+    "etymology": "From Old English ceorfan, meaning to cut or engrave.",
+    "synonyms": ["engrave", "sculpt", "cut"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general/history",
+    "status": "learning"
+  },
+  {
+    "word": "utter",
+    "translations": {
+      "ru": "произносить; высказывать",
+      "uz": "aytmoq; talaffuz qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "utter",
+      "past": "uttered",
+      "participle": "uttered"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To say or speak something, especially aloud or formally.",
+    "etymology": "From Old English ūtera, meaning outer or uttered outward.",
+    "synonyms": ["speak", "express", "say"],
+    "antonyms": ["silence", "withhold"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "dreadful",
+    "translations": {
+      "ru": "ужасный; страшный",
+      "uz": "dahshatli; qo'rqinchli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "dreadful",
+      "comparative": "more dreadful",
+      "superlative": "most dreadful"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ful"
+    },
+    "definition": "Extremely bad, unpleasant, or frightening.",
+    "etymology": "From dread + -ful, meaning full of dread.",
+    "synonyms": ["terrible", "horrible", "appalling"],
+    "antonyms": ["pleasant", "wonderful", "delightful"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "escort",
+    "translations": {
+      "ru": "сопровождать; сопровождение",
+      "uz": "kuzatib bormoq; hamrohlik"
+    },
+    "grammar": {
+      "part_of_speech": ["verb", "noun"],
+      "verb": {
+        "base_form": "escort",
+        "past": "escorted",
+        "participle": "escorted"
+      },
+      "noun": {
+        "singular": "escort",
+        "plural": "escorts"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To accompany someone somewhere for protection, guidance, or as part of a formal arrangement.",
+    "etymology": "From French escorte, from Italian scorta, meaning a guard or protection.",
+    "synonyms": ["accompany", "guide", "guard"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "general/formal",
+    "status": "learning"
+  },
+  {
+    "word": "accompany",
+    "translations": {
+      "ru": "сопровождать; сопутствовать",
+      "uz": "hamroh bo'lmoq; birga bormoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "accompany",
+      "past": "accompanied",
+      "participle": "accompanied"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To go somewhere with someone or to exist or occur together with something else.",
+    "etymology": "From Old French acompaignier, meaning to associate with or join.",
+    "synonyms": ["escort", "join", "go with"],
+    "antonyms": ["abandon", "leave"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "menacing",
+    "translations": {
+      "ru": "угрожающий; зловещий",
+      "uz": "tahdidli; qo'rqinchli"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "menacing",
+      "comparative": "more menacing",
+      "superlative": "most menacing"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ing"
+    },
+    "definition": "Suggesting that someone or something may cause harm or danger.",
+    "etymology": "From menace + -ing, from Latin minaciae, meaning threats.",
+    "synonyms": ["threatening", "intimidating", "ominous"],
+    "antonyms": ["harmless", "reassuring", "friendly"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "descend",
+    "translations": {
+      "ru": "спускаться; нисходить",
+      "uz": "tushmoq; pastga tushmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "descend",
+      "past": "descended",
+      "participle": "descended"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "de-",
+      "suffix": ""
+    },
+    "definition": "To move downward, especially from a higher position to a lower one.",
+    "etymology": "From Latin descendere, meaning to climb down or go down.",
+    "synonyms": ["go down", "drop", "lower"],
+    "antonyms": ["ascend", "rise", "climb"],
+    "ielts_level": "7.5",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "cadet",
+    "translations": {
+      "ru": "курсант; кадет",
+      "uz": "kursant; kadet"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "cadet",
+      "plural": "cadets"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A person training for a military or other uniformed service.",
+    "etymology": "From French cadet, meaning younger son or junior member.",
+    "synonyms": ["trainee", "recruit", "student officer"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "military/general",
+    "status": "learning"
+  },
+  {
+    "word": "recruit",
+    "translations": {
+      "ru": "новобранец; нанимать; привлекать",
+      "uz": "yangi askar; ishga olmoq; jalb qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "recruit",
+        "plural": "recruits"
+      },
+      "verb": {
+        "base_form": "recruit",
+        "past": "recruited",
+        "participle": "recruited"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A new member of an organization or group; to persuade or employ someone to join.",
+    "etymology": "From French recrute, from recroître, meaning to grow again or replenish.",
+    "synonyms": ["hire", "enlist", "enroll"],
+    "antonyms": ["dismiss", "discharge"],
+    "ielts_level": "7.5",
+    "category": "business/military",
+    "status": "learning"
+  },
+  {
+    "word": "outwit",
+    "translations": {
+      "ru": "перехитрить",
+      "uz": "ayyorlik bilan yengmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "outwit",
+      "past": "outwitted",
+      "participle": "outwitted"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "out-",
+      "suffix": ""
+    },
+    "definition": "To defeat someone by using greater intelligence or cleverness.",
+    "etymology": "From out- (to surpass) + wit (mental ability or intelligence).",
+    "synonyms": ["outsmart", "outmaneuver", "outthink"],
+    "antonyms": ["be outwitted", "be deceived"],
+    "ielts_level": "7.5",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "eminence",
+    "translations": {
+      "ru": "выдающееся положение; высокий авторитет",
+      "uz": "yuqori mavqe; obro'-e'tibor"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "eminence",
+      "plural": "eminences"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ence"
+    },
+    "definition": "A position of high importance, rank, or reputation.",
+    "etymology": "From Latin eminentia, meaning prominence or high position.",
+    "synonyms": ["prominence", "distinction", "prestige"],
+    "antonyms": ["obscurity", "insignificance"],
+    "ielts_level": "8.0",
+    "category": "academic/formal",
+    "status": "learning"
+  },
+  {
+    "word": "prominence",
+    "translations": {
+      "ru": "известность; видное положение; заметность",
+      "uz": "mashhurlik; ko'zga ko'ringan mavqe"
+    },
+    "grammar": {
+      "part_of_speech": "noun",
+      "singular": "prominence",
+      "plural": "prominences"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ence"
+    },
+    "definition": "The state of being important, famous, or easily noticed.",
+    "etymology": "From Latin prominentia, meaning projecting or standing out.",
+    "synonyms": ["importance", "eminence", "distinction"],
+    "antonyms": ["obscurity", "insignificance"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "imprison",
+    "translations": {
+      "ru": "заключать в тюрьму; лишать свободы",
+      "uz": "qamoqqa tashlamoq; ozodlikdan mahrum qilmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "imprison",
+      "past": "imprisoned",
+      "participle": "imprisoned"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "im-",
+      "suffix": ""
+    },
+    "definition": "To put someone in prison or keep them confined.",
+    "etymology": "From Old French emprisonner, from prison.",
+    "synonyms": ["jail", "confine", "incarcerate"],
+    "antonyms": ["release", "free", "liberate"],
+    "ielts_level": "7.5",
+    "category": "law/crime",
+    "status": "learning"
+  },
+  {
+    "word": "inflict",
+    "translations": {
+      "ru": "наносить; причинять",
+      "uz": "yetkazmoq; solmoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "inflict",
+      "past": "inflicted",
+      "participle": "inflicted"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "in-",
+      "suffix": ""
+    },
+    "definition": "To cause someone to experience something unpleasant, harmful, or painful.",
+    "etymology": "From Latin infligere, meaning to strike against or impose.",
+    "synonyms": ["cause", "impose", "administer"],
+    "antonyms": ["relieve", "prevent", "remove"],
+    "ielts_level": "8.0",
+    "category": "academic/general",
+    "status": "learning"
+  },
+  {
+    "word": "greatly",
+    "translations": {
+      "ru": "значительно; сильно",
+      "uz": "juda; sezilarli darajada"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "greatly"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "To a large degree or extent.",
+    "etymology": "From great + -ly.",
+    "synonyms": ["considerably", "significantly", "substantially"],
+    "antonyms": ["slightly", "minimally"],
+    "ielts_level": "7.0",
+    "category": "academic",
+    "status": "learning"
+  },
+
+  {
+    "word": "pace",
+    "translations": {
+      "ru": "шаг; темп; шагать взад-вперёд",
+      "uz": "qadam; sur'at; u yoqdan bu yoqqa yurmoq"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "pace",
+        "plural": "paces"
+      },
+      "verb": {
+        "base_form": "pace",
+        "past": "paced",
+        "participle": "paced"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "The speed at which something happens or someone moves; to walk back and forth, especially while thinking or waiting.",
+    "etymology": "From Latin passus, meaning step or pace, through Old French.",
+    "synonyms": ["steps", "rhythm", "speed"],
+    "antonyms": ["stillness", "inactivity"],
+    "ielts_level": "7.0",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "breathlessly",
+    "translations": {
+      "ru": "запыхавшись; затаив дыхание",
+      "uz": "nafasni tez olib; hansirab"
+    },
+    "grammar": {
+      "part_of_speech": "adverb",
+      "base": "breathlessly"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": "-ly"
+    },
+    "definition": "In a way that shows a lack of breath, usually because of excitement, fear, or physical effort.",
+    "etymology": "From breathless + -ly, from breath + -less.",
+    "synonyms": ["pantingly", "without breath", "excitedly"],
+    "antonyms": ["calmly", "steadily"],
+    "ielts_level": "7.0",
+    "category": "general",
+    "status": "learning"
+  },
+  {
+    "word": "painting",
+    "translations": {
+      "ru": "картина; живопись; рисование",
+      "uz": "rasm; rangtasvir; bo'yash"
+    },
+    "grammar": {
+      "part_of_speech": ["noun", "verb"],
+      "noun": {
+        "singular": "painting",
+        "plural": "paintings"
+      },
+      "verb": {
+        "base_form": "paint",
+        "past": "painted",
+        "participle": "painted"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "A picture made with paint; the activity of applying paint to a surface.",
+    "etymology": "From paint + -ing, from Old French peint, meaning painted.",
+    "synonyms": ["artwork", "portrait", "illustration"],
+    "antonyms": [],
+    "ielts_level": "7.0",
+    "category": "arts/culture",
+    "status": "learning"
+  },
+  {
+    "word": "exquisite",
+    "translations": {
+      "ru": "изысканный; великолепный; тонкий",
+      "uz": "nafis; ajoyib; bejirim"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "exquisite",
+      "comparative": "more exquisite",
+      "superlative": "most exquisite"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Extremely beautiful, delicate, or carefully made.",
+    "etymology": "From Latin exquisitus, meaning carefully sought out or select.",
+    "synonyms": ["beautiful", "elegant", "delicate", "refined"],
+    "antonyms": ["ugly", "coarse", "crude"],
+    "ielts_level": "8.0",
+    "category": "general/arts",
+    "status": "learning"
+  },
+  {
+    "word": "delicate",
+    "translations": {
+      "ru": "тонкий; хрупкий; нежный",
+      "uz": "nozik; mo'rt; nafis"
+    },
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base": "delicate",
+      "comparative": "more delicate",
+      "superlative": "most delicate"
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "Easily damaged, or having a fine, subtle, or gentle quality.",
+    "etymology": "From Latin delicatus, meaning delightful, refined, or luxurious.",
+    "synonyms": ["fragile", "fine", "refined", "subtle"],
+    "antonyms": ["strong", "robust", "coarse"],
+    "ielts_level": "7.5",
+    "category": "general/academic",
+    "status": "learning"
+  },
+  {
+    "word": "save",
+    "translations": {
+      "ru": "спасать; сохранять; сберегать",
+      "uz": "qutqarmoq; saqlamoq; tejamoq"
+    },
+    "grammar": {
+      "part_of_speech": "verb/noun",
+      "verb": {
+        "base_form": "save",
+        "past": "saved",
+        "participle": "saved"
+      },
+      "noun": {
+        "singular": "save",
+        "plural": "saves"
+      }
+    },
+    "word_formation": {
+      "opposite_form": "",
+      "prefix": "",
+      "suffix": ""
+    },
+    "definition": "To prevent someone or something from being harmed or lost; to keep something for future use.",
+    "etymology": "From Old French sauver, from Latin salvare, meaning to make safe.",
+    "synonyms": ["rescue", "preserve", "protect"],
+    "antonyms": ["endanger", "waste", "destroy"],
+    "ielts_level": "6.5",
+    "category": "general/academic",
+    "status": "learning"
   }
 ]
