@@ -1,0 +1,272 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "create_client",
+        "importPath": "supabase",
+        "description": "supabase",
+        "isExtraImport": true,
+        "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_supabase_url",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def normalize_supabase_url(raw_url):\n    url = raw_url.strip().strip('\"').strip(\"'\").rstrip(\"/\")\n    parsed_url = urlparse(url)\n    if not parsed_url.scheme or not parsed_url.netloc:\n        raise ValueError(\"SUPABASE_URL must be a valid URL, for example https://project-id.supabase.co\")\n    return f\"{parsed_url.scheme}://{parsed_url.netloc}\"\ndef load_words(file_path):\n    with file_path.open(\"r\", encoding=\"utf-8\") as file:\n        raw_data = json.load(file)\n    if isinstance(raw_data, list):",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "load_words",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def load_words(file_path):\n    with file_path.open(\"r\", encoding=\"utf-8\") as file:\n        raw_data = json.load(file)\n    if isinstance(raw_data, list):\n        words_list = raw_data\n    elif isinstance(raw_data, dict) and isinstance(raw_data.get(\"data\"), list):\n        words_list = raw_data[\"data\"]\n    else:\n        raise ValueError(\n            \"Неверная структура JSON: ожидается плоский массив [...] \"",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "validate_required_fields",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def validate_required_fields(words_list):\n    for index, item in enumerate(words_list, start=1):\n        if not isinstance(item, dict):\n            raise ValueError(f\"Карточка #{index} должна быть JSON-объектом.\")\n        for field in TABLE_FIELDS:\n            if field not in item:\n                raise ValueError(\n                    f\"Карточка #{index} ('{item.get('word', 'unknown')}') \"\n                    f\"не содержит обязательное поле '{field}'.\"\n                )",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_words",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def normalize_words(words_list):\n    return [{field: item[field] for field in TABLE_FIELDS} for item in words_list]\ndef insert_in_batches(supabase, words_list):\n    inserted_count = 0\n    for start in range(0, len(words_list), BATCH_SIZE):\n        batch = words_list[start : start + BATCH_SIZE]\n        response = supabase.table(TABLE_NAME).insert(batch).execute()\n        if response.data is None:\n            raise RuntimeError(\n                \"Supabase не вернул данные после вставки. \"",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "insert_in_batches",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def insert_in_batches(supabase, words_list):\n    inserted_count = 0\n    for start in range(0, len(words_list), BATCH_SIZE):\n        batch = words_list[start : start + BATCH_SIZE]\n        response = supabase.table(TABLE_NAME).insert(batch).execute()\n        if response.data is None:\n            raise RuntimeError(\n                \"Supabase не вернул данные после вставки. \"\n                \"Проверьте права доступа и настройки таблицы.\"\n            )",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "def main():\n    try:\n        load_dotenv(PROJECT_ROOT / \".env\")\n        supabase_url = os.getenv(\"SUPABASE_URL\")\n        supabase_key = os.getenv(\"SUPABASE_KEY\")\n        if not supabase_url or not supabase_key:\n            raise ValueError(\n                \"Не найдены SUPABASE_URL и/или SUPABASE_KEY. \"\n                \"Проверьте файл .env в корне проекта.\"\n            )",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parent\nVOCABULARY_FILE = PROJECT_ROOT / \"data\" / \"vocabulary_base.json\"\nTABLE_NAME = \"vocabulary\"\nBATCH_SIZE = 500\nTABLE_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "VOCABULARY_FILE",
+        "kind": 5,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "VOCABULARY_FILE = PROJECT_ROOT / \"data\" / \"vocabulary_base.json\"\nTABLE_NAME = \"vocabulary\"\nBATCH_SIZE = 500\nTABLE_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_NAME",
+        "kind": 5,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "TABLE_NAME = \"vocabulary\"\nBATCH_SIZE = 500\nTABLE_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "BATCH_SIZE",
+        "kind": 5,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "BATCH_SIZE = 500\nTABLE_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",\n    \"status\",",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_FIELDS",
+        "kind": 5,
+        "importPath": "migrate_to_supabase",
+        "description": "migrate_to_supabase",
+        "peekOfCode": "TABLE_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",\n    \"status\",\n]",
+        "detail": "migrate_to_supabase",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_supabase_url",
+        "kind": 2,
+        "importPath": "test_supabase_connect",
+        "description": "test_supabase_connect",
+        "peekOfCode": "def normalize_supabase_url(raw_url):\n    url = raw_url.strip().strip('\"').strip(\"'\").rstrip(\"/\")\n    parsed_url = urlparse(url)\n    if not parsed_url.scheme or not parsed_url.netloc:\n        raise ValueError(\"SUPABASE_URL must be a valid URL, for example https://project-id.supabase.co\")\n    return f\"{parsed_url.scheme}://{parsed_url.netloc}\"\ndef main():\n    try:\n        load_dotenv(PROJECT_ROOT / \".env\")\n        supabase_url = os.getenv(\"SUPABASE_URL\")",
+        "detail": "test_supabase_connect",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_supabase_connect",
+        "description": "test_supabase_connect",
+        "peekOfCode": "def main():\n    try:\n        load_dotenv(PROJECT_ROOT / \".env\")\n        supabase_url = os.getenv(\"SUPABASE_URL\")\n        supabase_key = os.getenv(\"SUPABASE_KEY\")\n        if not supabase_url or not supabase_key:\n            raise ValueError(\n                \"SUPABASE_URL and/or SUPABASE_KEY are missing. Check your .env file.\"\n            )\n        supabase_url = normalize_supabase_url(supabase_url)",
+        "detail": "test_supabase_connect",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "test_supabase_connect",
+        "description": "test_supabase_connect",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parent\nTABLE_NAME = \"vocabulary\"\ndef normalize_supabase_url(raw_url):\n    url = raw_url.strip().strip('\"').strip(\"'\").rstrip(\"/\")\n    parsed_url = urlparse(url)\n    if not parsed_url.scheme or not parsed_url.netloc:\n        raise ValueError(\"SUPABASE_URL must be a valid URL, for example https://project-id.supabase.co\")\n    return f\"{parsed_url.scheme}://{parsed_url.netloc}\"\ndef main():\n    try:",
+        "detail": "test_supabase_connect",
+        "documentation": {}
+    },
+    {
+        "label": "TABLE_NAME",
+        "kind": 5,
+        "importPath": "test_supabase_connect",
+        "description": "test_supabase_connect",
+        "peekOfCode": "TABLE_NAME = \"vocabulary\"\ndef normalize_supabase_url(raw_url):\n    url = raw_url.strip().strip('\"').strip(\"'\").rstrip(\"/\")\n    parsed_url = urlparse(url)\n    if not parsed_url.scheme or not parsed_url.netloc:\n        raise ValueError(\"SUPABASE_URL must be a valid URL, for example https://project-id.supabase.co\")\n    return f\"{parsed_url.scheme}://{parsed_url.netloc}\"\ndef main():\n    try:\n        load_dotenv(PROJECT_ROOT / \".env\")",
+        "detail": "test_supabase_connect",
+        "documentation": {}
+    },
+    {
+        "label": "extract_words_list",
+        "kind": 2,
+        "importPath": "validate_json",
+        "description": "validate_json",
+        "peekOfCode": "def extract_words_list(base_data):\n    if isinstance(base_data, list):\n        return base_data\n    if isinstance(base_data, dict) and isinstance(base_data.get(\"data\"), list):\n        return base_data[\"data\"]\n    raise ValueError(\n        'Invalid JSON root: expected a list [...] or an object with a \"data\" list.'\n    )\ndef validate_vocabulary():\n    if not VOCABULARY_FILE.exists():",
+        "detail": "validate_json",
+        "documentation": {}
+    },
+    {
+        "label": "validate_vocabulary",
+        "kind": 2,
+        "importPath": "validate_json",
+        "description": "validate_json",
+        "peekOfCode": "def validate_vocabulary():\n    if not VOCABULARY_FILE.exists():\n        print(f\"ERROR: File not found: {VOCABULARY_FILE}\")\n        return\n    try:\n        with VOCABULARY_FILE.open(\"r\", encoding=\"utf-8\") as file:\n            base_data = json.load(file)\n        print(\"OK: JSON syntax is valid.\")\n        words_list = extract_words_list(base_data)\n        print(f\"INFO: Total vocabulary cards found: {len(words_list)}\")",
+        "detail": "validate_json",
+        "documentation": {}
+    },
+    {
+        "label": "PROJECT_ROOT",
+        "kind": 5,
+        "importPath": "validate_json",
+        "description": "validate_json",
+        "peekOfCode": "PROJECT_ROOT = Path(__file__).resolve().parent\nVOCABULARY_FILE = PROJECT_ROOT / \"data\" / \"vocabulary_base.json\"\nMANDATORY_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",",
+        "detail": "validate_json",
+        "documentation": {}
+    },
+    {
+        "label": "VOCABULARY_FILE",
+        "kind": 5,
+        "importPath": "validate_json",
+        "description": "validate_json",
+        "peekOfCode": "VOCABULARY_FILE = PROJECT_ROOT / \"data\" / \"vocabulary_base.json\"\nMANDATORY_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",\n    \"status\",",
+        "detail": "validate_json",
+        "documentation": {}
+    },
+    {
+        "label": "MANDATORY_FIELDS",
+        "kind": 5,
+        "importPath": "validate_json",
+        "description": "validate_json",
+        "peekOfCode": "MANDATORY_FIELDS = [\n    \"word\",\n    \"grammar\",\n    \"word_formation\",\n    \"definition\",\n    \"synonyms\",\n    \"ielts_level\",\n    \"category\",\n    \"status\",\n]",
+        "detail": "validate_json",
+        "documentation": {}
+    }
+]
