@@ -1,66 +1,111 @@
 import json
-import os
+from pathlib import Path
+
+
+PROJECT_ROOT = Path(__file__).resolve().parent
+VOCABULARY_FILE = PROJECT_ROOT / "data" / "vocabulary_base.json"
+MANDATORY_FIELDS = [
+    "word",
+    "grammar",
+    "word_formation",
+    "definition",
+    "synonyms",
+    "ielts_level",
+    "category",
+    "status",
+]
+
+
+def extract_words_list(base_data):
+    if isinstance(base_data, list):
+        return base_data
+
+    if isinstance(base_data, dict) and isinstance(base_data.get("data"), list):
+        return base_data["data"]
+
+    raise ValueError(
+        'Invalid JSON root: expected a list [...] or an object with a "data" list.'
+    )
+
 
 def validate_vocabulary():
-    # Путь к файлу с карточками слов
-    file_path = os.path.join('data', 'vocabulary_base.json')
-    
-    # 1. Проверка существования файла
-    if not os.path.exists(file_path):
-        print(f"❌ Ошибка: Файл не найден по пути {file_path}")
+    if not VOCABULARY_FILE.exists():
+        print(f"ERROR: File not found: {VOCABULARY_FILE}")
         return
 
     try:
-        # 2. Чтение JSON
-        with open(file_path, 'r', encoding='utf-8') as f:
-            base_data = json.load(f)
-            
-        print("✅ Синтаксис JSON в порядке! Нет пропущенных запятых или кавычек.")
-        
-        if "data" not in base_data:
-            print("❌ Ошибка: В корне JSON должен быть объект \"data\".")
-            return
-            
-        words_list = base_data["data"]
-        print(f"📊 Всего обнаружено слов в базе: {len(words_list)}")
-        
-        # 3. Валидация структуры и поиск дубликатов
-        mandatory_fields = ["word", "grammar", "word_formation", "definition", "synonyms", "ielts_level", "category", "status"]
+        with VOCABULARY_FILE.open("r", encoding="utf-8") as file:
+            base_data = json.load(file)
+
+        print("OK: JSON syntax is valid.")
+
+        words_list = extract_words_list(base_data)
+        print(f"INFO: Total vocabulary cards found: {len(words_list)}")
+
         errors_found = 0
-        seen_words = set()  # Хранилище для проверки дубликатов
-        
-        for index, item in enumerate(words_list):
-            current_word = item.get("word", f"❌ Без имени [Элемент №{index+1}]").strip().lower()
-            
-            # Проверка на дубликаты
-            if "word" in item:
-                if current_word in seen_words:
-                    print(f"⚠️ Дубликат: Слово '{item['word']}' встретилось в базе повторно (Элемент №{index+1})!")
-                    errors_found += 1
-                seen_words.add(current_word)
+        seen_words = set()
 
-            # Проверяем наличие всех обязательных полей
-            for field in mandatory_fields:
-                if field not in item or (isinstance(item[field], str) and not item[field].strip()):
-                    print(f"⚠️ Внимание: В элементе №{index+1} ('{item.get('word', 'unknown')}') пропущено или пусто поле: '{field}'")
-                    errors_found += 1
-            
-            # Проверяем, что синонимы оформлены как список (массив)
-            if "synonyms" in item and not isinstance(item["synonyms"], list):
-                print(f"⚠️ Внимание: В элементе №{index+1} ('{item.get('word', 'unknown')}') поле 'synonyms' должно быть списком [], а не строкой!")
+        for index, item in enumerate(words_list, start=1):
+            if not isinstance(item, dict):
+                print(f"ERROR: Item #{index} must be a JSON object.")
                 errors_found += 1
+                continue
 
-        print("\n🏁 --- Итоги валидации ---")
+            word = item.get("word", "")
+            normalized_word = word.strip().lower() if isinstance(word, str) else ""
+            display_word = word if word else "unknown"
+
+            if normalized_word:
+                if normalized_word in seen_words:
+                    print(f"WARNING: Duplicate word '{word}' at item #{index}.")
+                    errors_found += 1
+                seen_words.add(normalized_word)
+
+            for field in MANDATORY_FIELDS:
+                if field not in item:
+                    print(
+                        f"WARNING: Item #{index} ('{display_word}') is missing field "
+                        f"'{field}'."
+                    )
+                    errors_found += 1
+                    continue
+
+                if isinstance(item[field], str) and not item[field].strip():
+                    print(
+                        f"WARNING: Item #{index} ('{display_word}') has an empty "
+                        f"'{field}' field."
+                    )
+                    errors_found += 1
+
+            if "synonyms" in item:
+                if not isinstance(item["synonyms"], list):
+                    print(
+                        f"WARNING: Item #{index} ('{display_word}') field 'synonyms' "
+                        "must be a list."
+                    )
+                    errors_found += 1
+                elif not all(isinstance(synonym, str) for synonym in item["synonyms"]):
+                    print(
+                        f"WARNING: Item #{index} ('{display_word}') field 'synonyms' "
+                        "must contain only strings."
+                    )
+                    errors_found += 1
+
+        print("\n--- Validation summary ---")
         if errors_found == 0:
-            print(f"🚀 Идеально! Все {len(words_list)} карточек заполнены правильно, уникальны и готовы к загрузке в Supabase.")
+            print(
+                f"OK: All {len(words_list)} vocabulary cards are valid, unique, "
+                "and ready for Supabase migration."
+            )
         else:
-            print(f"❌ Найдено ошибок/недочётов в структуре данных: {errors_found}. Исправь их перед миграцией.")
+            print(f"ERROR: Found {errors_found} issue(s). Fix them before migration.")
 
-    except json.JSONDecodeError as e:
-        print("❌ Жёсткая синтаксическая ошибка в JSON!")
-        print(f"Ошибка в строке {e.lineno}, позиция {e.pos}: {e.msg}")
-    except Exception as e:
-        print(f"❌ Произошла непредвиденная ошибка: {e}")
+    except json.JSONDecodeError as error:
+        print("ERROR: Invalid JSON syntax.")
+        print(f"Line {error.lineno}, position {error.pos}: {error.msg}")
+    except Exception as error:
+        print(f"ERROR: Unexpected validation problem: {error}")
+
 
 if __name__ == "__main__":
     validate_vocabulary()
