@@ -17,4 +17,4 @@ To bridge the educational gap in Uzbekistan by providing high-level academic res
 Currently in **Active MVP Development**. 
 - [x] Repository initialized.
 - [ ] Vocabulary database schema design.
-- [ ] Integration of the first 160-word academic list.
+- [ ] Integration of the first 340-word academic list.
