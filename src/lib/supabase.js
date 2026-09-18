@@ -3,20 +3,28 @@ import { createClient } from "@supabase/supabase-js";
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim();
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim();
 
-if (!supabaseUrl) {
-  throw new Error("Missing env variable: NEXT_PUBLIC_SUPABASE_URL");
+const hasPlaceholderUrl = supabaseUrl?.includes("your-project-id");
+const hasPlaceholderKey = supabaseAnonKey?.includes("your-supabase-anon-key");
+let hasValidUrl = false;
+
+try {
+  const parsedUrl = new URL(supabaseUrl || "");
+  hasValidUrl =
+    parsedUrl.protocol === "http:" || parsedUrl.protocol === "https:";
+} catch {
+  hasValidUrl = false;
 }
 
-if (!supabaseAnonKey) {
-  throw new Error("Missing env variable: NEXT_PUBLIC_SUPABASE_ANON_KEY");
-}
+export const supabaseConfigError = !supabaseUrl
+  ? "Missing NEXT_PUBLIC_SUPABASE_URL in .env.local."
+  : !supabaseAnonKey
+    ? "Missing NEXT_PUBLIC_SUPABASE_ANON_KEY in .env.local."
+    : !hasValidUrl
+      ? "NEXT_PUBLIC_SUPABASE_URL must be a valid http or https URL."
+      : hasPlaceholderUrl || hasPlaceholderKey
+        ? "Replace the placeholder Supabase credentials in .env.local."
+        : null;
 
-if (supabaseUrl.includes("your-project-id")) {
-  throw new Error("Replace NEXT_PUBLIC_SUPABASE_URL in .env.local with your real Supabase Project URL");
-}
-
-if (supabaseAnonKey.includes("your-supabase-anon-key")) {
-  throw new Error("Replace NEXT_PUBLIC_SUPABASE_ANON_KEY in .env.local with your real Supabase anon key");
-}
-
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = supabaseConfigError
+  ? null
+  : createClient(supabaseUrl, supabaseAnonKey);

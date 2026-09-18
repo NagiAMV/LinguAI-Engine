@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "LinguAI Bridge",
-  description: "Vocabulary learning interface for LinguAI Bridge",
+  description: "Computer-delivered IELTS listening practice",
 };
 
 export default function RootLayout({ children }) {

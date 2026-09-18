@@ -1,5 +1,23 @@
 [
     {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -18,6 +36,50 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -39,6 +101,22 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
         "documentation": {}
     },
     {
@@ -55,6 +133,63 @@
         "description": "urllib.parse",
         "isExtraImport": true,
         "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "httpx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "httpx",
+        "description": "httpx",
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
@@ -87,6 +222,123 @@
         "description": "supabase",
         "isExtraImport": true,
         "detail": "supabase",
+        "documentation": {}
+    },
+    {
+        "label": "safe_cache_key",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "cached_json_path",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_cached_json",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "write_cached_json",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_text",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"\nasync def fetch_html(url: str) -> str:\n    headers = {\"User-Agent\": \"LinguAI-Bridge/1.0 educational research client\"}",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "test_page_path",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"\nasync def fetch_html(url: str) -> str:\n    headers = {\"User-Agent\": \"LinguAI-Bridge/1.0 educational research client\"}\n    async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT, follow_redirects=True, headers=headers) as client:\n        response = await client.get(url)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "extract_audio_urls",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def extract_audio_urls(html: str, page_url: str) -> list[str]:\n    soup = BeautifulSoup(html, \"html.parser\")\n    candidates = []\n    for tag in soup.find_all([\"audio\", \"source\", \"a\"]):\n        for attribute in (\"src\", \"href\"):\n            value = tag.get(attribute)\n            if value and re.search(r\"\\.mp3(?:\\?|$)\", value, re.IGNORECASE):\n                candidates.append(urljoin(page_url, value))\n    for value in re.findall(r\"https?[^\\\"'\\s<>]+\\.mp3(?:\\?[^\\\"'\\s<>]*)?\", html, re.IGNORECASE):\n        candidates.append(value.replace(\"\\\\/\", \"/\"))",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "extract_catalog",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def extract_catalog(html: str, page_url: str, resource: str, query: str):\n    soup = BeautifulSoup(html, \"html.parser\")\n    items = []\n    for link in soup.find_all(\"a\", href=True):\n        href = urljoin(page_url, link[\"href\"])\n        text = normalize_text(link.get_text(\" \"))\n        if not text or \"engnovate.com\" not in href:\n            continue\n        if query.lower() not in f\"{text} {href}\".lower():\n            continue",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(title=\"LinguAI Engnovate Bridge\", version=\"1.0.0\")\nENGNOVATE_BASE_URL = os.getenv(\"ENGNOVATE_BASE_URL\", \"https://engnovate.com\").rstrip(\"/\")\nCACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "ENGNOVATE_BASE_URL",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "ENGNOVATE_BASE_URL = os.getenv(\"ENGNOVATE_BASE_URL\", \"https://engnovate.com\").rstrip(\"/\")\nCACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CACHE_DIR",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CACHE_TTL_SECONDS",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "REQUEST_TIMEOUT",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "REQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):",
+        "detail": "backend.main",
         "documentation": {}
     },
     {

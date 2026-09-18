@@ -1,14 +1,25 @@
 import Link from "next/link";
 
-import { supabase } from "@/lib/supabase";
+import { supabase, supabaseConfigError } from "@/lib/supabase";
 
 export const dynamic = "force-dynamic";
 
 export default async function VocabularyPage() {
+  if (supabaseConfigError || !supabase) {
+    return (
+      <main className="page-shell">
+        <Link href="/">Back</Link>
+        <h1>Vocabulary</h1>
+        <p className="error">Supabase is not configured.</p>
+        <p className="lead">{supabaseConfigError}</p>
+      </main>
+    );
+  }
+
   const { data: words, error } = await supabase
     .from("vocabulary")
     .select("id, word, definition, ielts_level, category, status")
-    .order("id", { ascending: true })
+    .order("id", { ascending: true });
 
   if (error) {
     return (
@@ -23,7 +34,9 @@ export default async function VocabularyPage() {
     <main className="page-shell">
       <Link href="/">Back</Link>
       <h1>Vocabulary</h1>
-      <p className="lead">First 10 words from your Supabase vocabulary table.</p>
+      <p className="lead">
+        First 10 words from your Supabase vocabulary table.
+      </p>
 
       <ul className="vocabulary-list">
         {words.map((item) => (
