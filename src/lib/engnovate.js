@@ -38,7 +38,8 @@ export async function fetchEngnovateResource(resource, query = "") {
     headers: { accept: "application/json" },
     cache: "no-store",
   });
-  if (!response.ok) throw new Error(`Engnovate scraper returned ${response.status}`);
+  if (!response.ok)
+    throw new Error(`Engnovate scraper returned ${response.status}`);
 
   const payload = await response.json();
   return setCached(cacheKey, payload);

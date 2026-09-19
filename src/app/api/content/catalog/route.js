@@ -10,7 +10,10 @@ export async function GET(request) {
   const query = params.get("query") || "";
 
   if (!resourceTypes.has(type)) {
-    return NextResponse.json({ error: "Unsupported content type." }, { status: 400 });
+    return NextResponse.json(
+      { error: "Unsupported content type." },
+      { status: 400 },
+    );
   }
 
   try {
@@ -22,10 +25,15 @@ export async function GET(request) {
       );
     }
     return NextResponse.json(payload, {
-      headers: { "Cache-Control": "public, max-age=300, stale-while-revalidate=900" },
+      headers: {
+        "Cache-Control": "public, max-age=300, stale-while-revalidate=900",
+      },
     });
   } catch (error) {
     console.error("Content catalog request failed", error);
-    return NextResponse.json({ error: "Content catalog is temporarily unavailable.", items: [] }, { status: 502 });
+    return NextResponse.json(
+      { error: "Content catalog is temporarily unavailable.", items: [] },
+      { status: 502 },
+    );
   }
 }
