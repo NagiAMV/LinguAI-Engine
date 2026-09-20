@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
 
@@ -9,7 +9,20 @@ const navigation = [
   { id: "listening", label: "Listening", icon: "◉" },
   { id: "reading", label: "Reading", icon: "▤" },
   { id: "writing", label: "Writing", icon: "✎" },
-  { id: "speaking", label: "Speaking", icon: "◌" },
+  { id: "speaking", label: "Speaking", icon: "◎" },
+];
+
+const scoreBreakdown = [
+  { label: "Listening", score: "8.0", tone: "teal" },
+  { label: "Reading", score: "7.5", tone: "blue" },
+  { label: "Writing", score: "7.0", tone: "amber" },
+  { label: "Speaking", score: "7.5", tone: "rose" },
+];
+
+const dailyFocus = [
+  { label: "Listening Part 3", detail: "Inference traps", progress: 76 },
+  { label: "Reading Passage 2", detail: "Matching headings", progress: 62 },
+  { label: "Writing Task 2", detail: "Examples and cohesion", progress: 44 },
 ];
 
 const READING_BOOKS = Array.from({ length: 19 }, (_, index) => {
@@ -33,9 +46,42 @@ const READING_QUESTIONS = [
   "Give one advantage of reliable public transport.",
   "Which groups influence daily travel habits?",
   "What can companies do to support sustainability?",
-  "Find a word meaning ‘trustworthy’ in the passage.",
+  "Find a word meaning 'trustworthy' in the passage.",
   "Write one idea you would add to the passage.",
 ];
+
+const STUDIO_CONFIG = {
+  writing: {
+    kicker: "Writing studio",
+    title: "Turn a rough essay into a sharper band-score attempt.",
+    subtitle:
+      "Draft, submit, and get examiner-style feedback across the IELTS criteria.",
+    taskLabel: "Task prompt",
+    responseLabel: "Essay response",
+    responsePlaceholder:
+      "Write your Task 1 or Task 2 answer here. Keep it real; the evaluator will be strict.",
+    cta: "Review writing",
+    defaultTask:
+      "Some people believe that technology has made communication easier, while others think it has made relationships weaker. Discuss both views and give your opinion.",
+    drills: ["Task response", "Cohesion", "Lexical range"],
+    metricLabel: "Words",
+  },
+  speaking: {
+    kicker: "Speaking room",
+    title: "Stress-test a spoken answer before the real interview.",
+    subtitle:
+      "Paste a transcript and get targeted feedback for fluency, grammar, vocabulary, and idea development.",
+    taskLabel: "Question or cue card",
+    responseLabel: "Speaking transcript",
+    responsePlaceholder:
+      "Paste or type what you said. Natural spoken language is fine.",
+    cta: "Review speaking",
+    defaultTask:
+      "Describe a time when you learned something difficult. You should say what it was, how you learned it, why it was difficult, and how you felt afterwards.",
+    drills: ["Fluency", "Pronunciation", "Idea depth"],
+    metricLabel: "Words",
+  },
+};
 
 function Sidebar({ activeView, onNavigate }) {
   return (
@@ -47,6 +93,7 @@ function Sidebar({ activeView, onNavigate }) {
           <span>Bridge</span>
         </div>
       </div>
+
       <div className="profile-card">
         <div className="profile-avatar">AM</div>
         <div>
@@ -54,6 +101,7 @@ function Sidebar({ activeView, onNavigate }) {
           <span>Target band 8.0</span>
         </div>
       </div>
+
       <p className="nav-label">Workspace</p>
       <nav className="app-nav" aria-label="Main navigation">
         {navigation.map((item) => (
@@ -64,16 +112,17 @@ function Sidebar({ activeView, onNavigate }) {
             onClick={() => onNavigate(item.id)}
           >
             <span className="nav-icon">{item.icon}</span>
-            {item.label}
+            <span>{item.label}</span>
           </button>
         ))}
       </nav>
+
       <div className="sidebar-bottom">
         <div className="streak-card">
-          <span className="streak-flame">✦</span>
+          <span className="streak-flame">12</span>
           <div>
-            <strong>12 day streak</strong>
-            <span>Keep the rhythm going</span>
+            <strong>Day streak</strong>
+            <span>4h 20m this week</span>
           </div>
         </div>
       </div>
@@ -84,6 +133,7 @@ function Sidebar({ activeView, onNavigate }) {
 function Topbar({ activeView }) {
   const title =
     navigation.find((item) => item.id === activeView)?.label || "Workspace";
+
   return (
     <header className="app-topbar">
       <div>
@@ -96,7 +146,7 @@ function Topbar({ activeView }) {
           className="icon-button"
           aria-label="Notifications"
         >
-          ♧
+          <span className="notification-dot" />!
         </button>
         <div className="topbar-avatar">AM</div>
       </div>
@@ -105,14 +155,25 @@ function Topbar({ activeView }) {
 }
 
 function Overview({ onNavigate }) {
+  const formattedDate = useMemo(
+    () =>
+      new Intl.DateTimeFormat("en", {
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+      }).format(new Date()),
+    [],
+  );
+
   return (
     <div className="view-content overview-view">
       <section className="welcome-row">
         <div>
-          <p className="section-kicker">Thursday, 17 September</p>
-          <h1>Good morning, Alex.</h1>
+          <p className="section-kicker">Command center / {formattedDate}</p>
+          <h1>Train like the exam is already watching.</h1>
           <p className="view-subtitle">
-            A little practice today makes exam day feel familiar.
+            One focused cockpit for Cambridge listening, reading drills, and
+            AI-reviewed writing and speaking practice.
           </p>
         </div>
         <button
@@ -123,31 +184,36 @@ function Overview({ onNavigate }) {
           Continue practice <span>→</span>
         </button>
       </section>
+
       <section className="overview-grid">
         <div className="band-card">
-          <p className="section-kicker">Your progress</p>
-          <h2>Current estimate</h2>
+          <div className="card-heading-row">
+            <div>
+              <p className="section-kicker">Band estimate</p>
+              <h2>Current readiness</h2>
+            </div>
+            <span className="trend-up">+0.5 this month</span>
+          </div>
           <div className="band-score">
             7.5 <span>/ 9.0</span>
           </div>
+          <div className="score-bars" aria-hidden="true">
+            {scoreBreakdown.map((item) => (
+              <span className={item.tone} key={item.label} />
+            ))}
+          </div>
           <div className="score-legend">
-            <span>
-              Listening <b>8.0</b>
-            </span>
-            <span>
-              Reading <b>7.5</b>
-            </span>
-            <span>
-              Writing <b>7.0</b>
-            </span>
-            <span>
-              Speaking <b>7.5</b>
-            </span>
+            {scoreBreakdown.map((item) => (
+              <span key={item.label}>
+                {item.label} <b>{item.score}</b>
+              </span>
+            ))}
           </div>
         </div>
+
         <div className="weekly-card">
           <p className="section-kicker">This week</p>
-          <h2>Keep your momentum.</h2>
+          <h2>Momentum map</h2>
           <div className="week-chart" aria-label="Weekly practice activity">
             <span style={{ height: "34%" }} />
             <span style={{ height: "58%" }} />
@@ -167,8 +233,55 @@ function Overview({ onNavigate }) {
             <span>S</span>
           </div>
           <p className="chart-caption">
-            <b>4h 20m</b> practiced this week
+            <b>4h 20m</b> practiced across 12 sessions
           </p>
+        </div>
+      </section>
+
+      <section className="focus-grid">
+        <div className="focus-panel">
+          <div className="card-heading-row">
+            <div>
+              <p className="section-kicker">Next pressure points</p>
+              <h2>Today&apos;s stack</h2>
+            </div>
+            <button
+              type="button"
+              className="text-action"
+              onClick={() => onNavigate("reading")}
+            >
+              Open reading <span>→</span>
+            </button>
+          </div>
+          <div className="focus-list">
+            {dailyFocus.map((item) => (
+              <div className="focus-item" key={item.label}>
+                <div>
+                  <b>{item.label}</b>
+                  <span>{item.detail}</span>
+                </div>
+                <div className="mini-progress" aria-hidden="true">
+                  <span style={{ width: `${item.progress}%` }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="skill-panel">
+          <p className="section-kicker">Fast lanes</p>
+          <div className="skill-buttons">
+            {navigation.slice(1).map((item) => (
+              <button
+                type="button"
+                key={item.id}
+                onClick={() => onNavigate(item.id)}
+              >
+                <span>{item.icon}</span>
+                {item.label}
+              </button>
+            ))}
+          </div>
         </div>
       </section>
     </div>
@@ -210,7 +323,7 @@ function ReadingWorkspace() {
       <section className="library-hero reading-hero">
         <div>
           <p className="section-kicker blue">Reading trainer</p>
-          <h1>Cambridge practice, built for real improvement.</h1>
+          <h1>Cambridge passages with a clean answer workflow.</h1>
           <p className="view-subtitle">
             Choose a collection, open a test, and work through the passage with
             a focused answer sheet.
@@ -307,7 +420,7 @@ function ReadingWorkspace() {
 
           <aside className="dictionary-card listening-panel">
             <p className="section-kicker">Answer sheet</p>
-            <h3>Questions 1–10</h3>
+            <h3>Questions 1-10</h3>
             <div className="save-state">
               <span className="save-check">✓</span> {answeredCount} of 10
               answered
@@ -336,26 +449,186 @@ function ReadingWorkspace() {
   );
 }
 
-function PlaceholderView({ skill }) {
-  const copy = {
-    reading: ["Reading trainer", "Choose a Cambridge passage and begin."],
-    writing: ["Writing studio", "Build an answer worth scoring."],
-    speaking: ["Speaking room", "Practice out loud, without pressure."],
-  }[skill];
+function FeedbackPanel({ feedback }) {
+  if (!feedback) {
+    return (
+      <div className="feedback-empty">
+        <span>AI</span>
+        <strong>Feedback lands here</strong>
+        <p>Submit a response to unlock a strict IELTS-style breakdown.</p>
+      </div>
+    );
+  }
 
-  if (skill === "reading") return <ReadingWorkspace />;
+  const criteria = Object.entries(feedback.criteria || {});
 
   return (
-    <div className="view-content library-view">
-      <section className="library-hero">
-        <div>
-          <p className="section-kicker blue">{copy[0]}</p>
-          <h1>{copy[1]}</h1>
-          <p className="view-subtitle">
-            Your selected practice workspace will open from the collection
-            cards.
-          </p>
+    <div className="feedback-result">
+      <div className="feedback-score">
+        {Number(feedback.bandScore || 0).toFixed(1)}
+        <small>Band score</small>
+      </div>
+      <div className="feedback-main">
+        <h3>{feedback.summary || "Evaluation complete."}</h3>
+        <div className="feedback-columns">
+          <div>
+            <b>Strengths</b>
+            {(feedback.strengths || []).map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
+          <div>
+            <b>Improve next</b>
+            {(feedback.improvements || []).map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
         </div>
+        {criteria.length > 0 && (
+          <div className="criteria-grid">
+            {criteria.map(([label, value]) => (
+              <div key={label}>
+                <b>{label}</b>
+                <span>{value}</span>
+              </div>
+            ))}
+          </div>
+        )}
+        {(feedback.nextSteps || []).length > 0 && (
+          <div className="next-steps">
+            <b>Next steps</b>
+            {(feedback.nextSteps || []).map((item) => (
+              <span key={item}>{item}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function SkillStudio({ skill }) {
+  const config = STUDIO_CONFIG[skill];
+  const [task, setTask] = useState(config.defaultTask);
+  const [submission, setSubmission] = useState("");
+  const [feedback, setFeedback] = useState(null);
+  const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+
+  const wordCount = submission
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length;
+
+  async function evaluateSubmission(event) {
+    event.preventDefault();
+    setError("");
+
+    if (submission.trim().length < 10) {
+      setError("Add a longer response before requesting feedback.");
+      return;
+    }
+
+    setIsLoading(true);
+
+    try {
+      const response = await fetch("/api/ai/evaluate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          mode: skill,
+          task,
+          submission,
+        }),
+      });
+      const payload = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(payload.error || "AI review failed.");
+      }
+
+      setFeedback(payload.feedback);
+    } catch (reviewError) {
+      setError(reviewError.message || "AI review failed.");
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  return (
+    <div className="view-content studio-view">
+      <section className={`library-hero studio-hero ${skill}`}>
+        <div>
+          <p className="section-kicker blue">{config.kicker}</p>
+          <h1>{config.title}</h1>
+          <p className="view-subtitle">{config.subtitle}</p>
+        </div>
+        <div
+          className={`library-orbit ${skill === "writing" ? "orange" : "purple"}`}
+        >
+          <span>{skill === "writing" ? "W" : "S"}</span>
+        </div>
+      </section>
+
+      <section className="studio-layout">
+        <form className="studio-panel" onSubmit={evaluateSubmission}>
+          <div className="studio-stats">
+            <span>
+              {config.metricLabel} <b>{wordCount}</b>
+            </span>
+            {config.drills.map((drill) => (
+              <span key={drill}>{drill}</span>
+            ))}
+          </div>
+
+          <label className="field-block">
+            <span>{config.taskLabel}</span>
+            <textarea
+              value={task}
+              onChange={(event) => setTask(event.target.value)}
+              rows={4}
+            />
+          </label>
+
+          <label className="field-block">
+            <span>{config.responseLabel}</span>
+            <textarea
+              className="response-textarea"
+              value={submission}
+              onChange={(event) => setSubmission(event.target.value)}
+              placeholder={config.responsePlaceholder}
+              rows={12}
+            />
+          </label>
+
+          {error && <p className="ai-error">{error}</p>}
+
+          <div className="studio-actions">
+            <button
+              type="button"
+              className="clear-button"
+              onClick={() => {
+                setSubmission("");
+                setFeedback(null);
+                setError("");
+              }}
+            >
+              Clear
+            </button>
+            <button
+              type="submit"
+              className="primary-action"
+              disabled={isLoading}
+            >
+              {isLoading ? "Reviewing..." : config.cta}
+              <span>→</span>
+            </button>
+          </div>
+        </form>
+
+        <aside className="feedback-panel">
+          <FeedbackPanel feedback={feedback} />
+        </aside>
       </section>
     </div>
   );
@@ -371,8 +644,9 @@ export default function LinguAIBridgeApp() {
         <Topbar activeView={activeView} />
         {activeView === "overview" && <Overview onNavigate={setActiveView} />}
         {activeView === "listening" && <ListeningWorkspace />}
-        {["reading", "writing", "speaking"].includes(activeView) && (
-          <PlaceholderView skill={activeView} />
+        {activeView === "reading" && <ReadingWorkspace />}
+        {["writing", "speaking"].includes(activeView) && (
+          <SkillStudio skill={activeView} />
         )}
       </div>
     </div>
