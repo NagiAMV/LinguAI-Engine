@@ -104,6 +104,22 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "urljoin",
         "importPath": "urllib.parse",
         "description": "urllib.parse",
@@ -113,6 +129,22 @@
     },
     {
         "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urljoin",
         "importPath": "urllib.parse",
         "description": "urllib.parse",
         "isExtraImport": true,
@@ -142,6 +174,30 @@
         "importPath": "httpx",
         "description": "httpx",
         "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
         "documentation": {}
     },
     {
@@ -190,6 +246,15 @@
         "description": "fastapi.responses",
         "isExtraImport": true,
         "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.util",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.util",
+        "description": "importlib.util",
+        "detail": "importlib.util",
         "documentation": {}
     },
     {
@@ -339,6 +404,87 @@
         "description": "backend.main",
         "peekOfCode": "REQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):",
         "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "media_url",
+        "kind": 2,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "def media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")\n    soup = BeautifulSoup(html, 'html.parser')",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "clean_html",
+        "kind": 2,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "def clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")\n    soup = BeautifulSoup(html, 'html.parser')\n    for tag in soup.select('script, style, iframe, object, embed, form, button, .ielts-reading-practice-section-button, .ielts-listening-practice-section-button'):\n        tag.decompose()\n    # Replace source drag/drop widgets with native accessible selects.\n    for zone in soup.select('.dnd-zone'):\n        field = zone.find('input')\n        if not field:\n            continue",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "def main():\n    destination = ROOT / 'public' / 'cambridge'\n    destination.mkdir(parents=True, exist_ok=True)\n    catalog = []\n    for file in sorted((ROOT / '.cache' / 'cambridge-import').glob('*.json')):\n        raw = json.loads(file.read_text(encoding='utf-8'))\n        resource, book, test = raw['resource'], raw['book'], raw['test']\n        if resource not in ('reading','listening') or not (1 <= book <= 99 and 1 <= test <= 4):\n            raise ValueError(f'Invalid identity: {file}')\n        expected = 3 if resource == 'reading' else 4",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "ROOT = Path(__file__).resolve().parent.parent\nALLOWED = set('p div span strong em b i u s sub sup br hr h2 h3 h4 ul ol li table thead tbody tfoot tr td th caption blockquote img input label select option'.split())\nATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED",
+        "kind": 5,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "ALLOWED = set('p div span strong em b i u s sub sup br hr h2 h3 h4 ul ol li table thead tbody tfoot tr td th caption blockquote img input label select option'.split())\nATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "ATTRS",
+        "kind": 5,
+        "importPath": "scripts.import-cambridge",
+        "description": "scripts.import-cambridge",
+        "peekOfCode": "ATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")",
+        "detail": "scripts.import-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 5,
+        "importPath": "scripts.verify-cambridge",
+        "description": "scripts.verify-cambridge",
+        "peekOfCode": "root = Path(__file__).resolve().parent.parent\nspec = importlib.util.spec_from_file_location('cambridge_import',root/'scripts/import-cambridge.py')\nmodule = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):",
+        "detail": "scripts.verify-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "spec",
+        "kind": 5,
+        "importPath": "scripts.verify-cambridge",
+        "description": "scripts.verify-cambridge",
+        "peekOfCode": "spec = importlib.util.spec_from_file_location('cambridge_import',root/'scripts/import-cambridge.py')\nmodule = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):\n    test=json.loads(path.read_text(encoding='utf-8'))",
+        "detail": "scripts.verify-cambridge",
+        "documentation": {}
+    },
+    {
+        "label": "module",
+        "kind": 5,
+        "importPath": "scripts.verify-cambridge",
+        "description": "scripts.verify-cambridge",
+        "peekOfCode": "module = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):\n    test=json.loads(path.read_text(encoding='utf-8'))\n    raw_path=root/'.cache/cambridge-import'/path.name",
+        "detail": "scripts.verify-cambridge",
         "documentation": {}
     },
     {

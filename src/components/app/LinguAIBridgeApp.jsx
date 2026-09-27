@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 
+import CambridgeLibrary from "@/components/content/CambridgeLibrary";
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
 
 const navigation = [
@@ -23,31 +24,6 @@ const dailyFocus = [
   { label: "Listening Part 3", detail: "Inference traps", progress: 76 },
   { label: "Reading Passage 2", detail: "Matching headings", progress: 62 },
   { label: "Writing Task 2", detail: "Examples and cohesion", progress: 44 },
-];
-
-const READING_BOOKS = Array.from({ length: 19 }, (_, index) => {
-  const number = index + 1;
-  return {
-    id: number,
-    title: `Cambridge ${number}`,
-    level:
-      number <= 8 ? "Foundation" : number <= 14 ? "Intermediate" : "Advanced",
-  };
-});
-
-const READING_PASSAGE = `Many cities are trying to reduce traffic congestion by encouraging people to use public transport, cycle more often, and work remotely whenever possible. However, the success of such measures depends not only on government policy, but also on the habits and incentives that shape daily life. When commuters feel that their journeys are reliable, affordable, and comfortable, they are far more likely to choose alternatives to driving. Meanwhile, companies that support flexible schedules can reduce pressure on transport networks and make a positive difference to urban sustainability.`;
-
-const READING_QUESTIONS = [
-  "What is one way cities are trying to reduce traffic congestion?",
-  "What does the success of these measures depend on?",
-  "What makes commuters more likely to avoid driving?",
-  "How can flexible schedules help transport networks?",
-  "What is the main topic of the passage?",
-  "Give one advantage of reliable public transport.",
-  "Which groups influence daily travel habits?",
-  "What can companies do to support sustainability?",
-  "Find a word meaning 'trustworthy' in the passage.",
-  "Write one idea you would add to the passage.",
 ];
 
 const STUDIO_CONFIG = {
@@ -83,6 +59,17 @@ const STUDIO_CONFIG = {
   },
 };
 
+function AppIcon({ name, size = 20 }) {
+  const paths = {
+    overview: <><rect x="3" y="3" width="7" height="7" rx="2" /><rect x="14" y="3" width="7" height="7" rx="2" /><rect x="3" y="14" width="7" height="7" rx="2" /><rect x="14" y="14" width="7" height="7" rx="2" /></>,
+    listening: <><path d="M4 14v-3a8 8 0 0 1 16 0v3" /><rect x="3" y="12" width="4" height="8" rx="2" /><rect x="17" y="12" width="4" height="8" rx="2" /></>,
+    reading: <path d="M12 5v16M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z" />,
+    writing: <><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" /><path d="M13 21h8" /></>,
+    speaking: <><rect x="8" y="2" width="8" height="13" rx="4" /><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8" /></>,
+  };
+  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[name] || paths.overview}</svg>;
+}
+
 function Sidebar({ activeView, onNavigate }) {
   return (
     <aside className="app-sidebar">
@@ -109,9 +96,10 @@ function Sidebar({ activeView, onNavigate }) {
             type="button"
             key={item.id}
             className={`app-nav-item ${activeView === item.id ? "active" : ""}`}
+            aria-current={activeView === item.id ? "page" : undefined}
             onClick={() => onNavigate(item.id)}
           >
-            <span className="nav-icon">{item.icon}</span>
+            <span className="nav-icon"><AppIcon name={item.id} /></span>
             <span>{item.label}</span>
           </button>
         ))}
@@ -167,22 +155,24 @@ function Overview({ onNavigate }) {
 
   return (
     <div className="view-content overview-view">
+      <div className="overview-intro">
+        <div><p className="section-kicker">Your learning space</p><h2>Let&apos;s make progress, Alex<span>.</span></h2></div>
+        <span className="overview-date">{formattedDate}</span>
+      </div>
       <section className="welcome-row">
         <div>
-          <p className="section-kicker">Command center / {formattedDate}</p>
-          <h1>Train like the exam is already watching.</h1>
-          <p className="view-subtitle">
-            One focused cockpit for Cambridge listening, reading drills, and
-            AI-reviewed writing and speaking practice.
-          </p>
+          <p className="section-kicker hero-kicker"><span /> A little focus. A big difference.</p>
+          <h1>Your next chapter<br />starts with <em>practice.</em></h1>
+          <p className="view-subtitle">Build your confidence, one session at a time. Your IELTS goals are closer than you think.</p>
+          <button type="button" className="primary-action" onClick={() => onNavigate("listening")}>Continue practice <span>→</span></button>
+          <span className="hero-footnote">Cambridge practice · Feedback powered by AI</span>
         </div>
-        <button
-          type="button"
-          className="primary-action"
-          onClick={() => onNavigate("listening")}
-        >
-          Continue practice <span>→</span>
-        </button>
+        <div className="hero-art" aria-hidden="true">
+          <div className="orbit orbit-one" /><div className="orbit orbit-two" />
+          <div className="hero-spark spark-one">✦</div><div className="hero-spark spark-two">✦</div>
+          <div className="goal-ticket"><span>THE NEXT CHAPTER</span><div className="goal-number">8.0<span>+</span></div><div className="goal-ticket-bottom"><span>YOUR TARGET BAND</span><span>↗</span></div></div>
+          <div className="practice-ticket"><span className="practice-ticket-icon"><AppIcon name="listening" size={24} /></span><div><strong>Small steps. Real progress.</strong><span>You&apos;ve got this.</span></div></div>
+        </div>
       </section>
 
       <section className="overview-grid">
@@ -190,7 +180,7 @@ function Overview({ onNavigate }) {
           <div className="card-heading-row">
             <div>
               <p className="section-kicker">Band estimate</p>
-              <h2>Current readiness</h2>
+              <h2>Your progress, at a glance</h2>
             </div>
             <span className="trend-up">+0.5 this month</span>
           </div>
@@ -213,7 +203,7 @@ function Overview({ onNavigate }) {
 
         <div className="weekly-card">
           <p className="section-kicker">This week</p>
-          <h2>Momentum map</h2>
+          <h2>Finding your rhythm</h2>
           <div className="week-chart" aria-label="Weekly practice activity">
             <span style={{ height: "34%" }} />
             <span style={{ height: "58%" }} />
@@ -242,8 +232,8 @@ function Overview({ onNavigate }) {
         <div className="focus-panel">
           <div className="card-heading-row">
             <div>
-              <p className="section-kicker">Next pressure points</p>
-              <h2>Today&apos;s stack</h2>
+              <p className="section-kicker">One step at a time</p>
+              <h2>Today&apos;s focus</h2>
             </div>
             <button
               type="button"
@@ -269,7 +259,7 @@ function Overview({ onNavigate }) {
         </div>
 
         <div className="skill-panel">
-          <p className="section-kicker">Fast lanes</p>
+          <p className="section-kicker">Make time for your skills</p><h2>Choose your practice</h2>
           <div className="skill-buttons">
             {navigation.slice(1).map((item) => (
               <button
@@ -277,8 +267,8 @@ function Overview({ onNavigate }) {
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
               >
-                <span>{item.icon}</span>
-                {item.label}
+                <span><AppIcon name={item.id} /></span>
+                {item.label}<span className="skill-arrow">↗</span>
               </button>
             ))}
           </div>
@@ -289,164 +279,7 @@ function Overview({ onNavigate }) {
 }
 
 function ReadingWorkspace() {
-  const [selectedBook, setSelectedBook] = useState(19);
-  const [selectedTest, setSelectedTest] = useState(1);
-  const [mode, setMode] = useState("training");
-  const [practiceVisible, setPracticeVisible] = useState(false);
-  const [answers, setAnswers] = useState(() => Array(10).fill(""));
-
-  const activeBook =
-    READING_BOOKS.find((book) => book.id === selectedBook) || READING_BOOKS[18];
-  const answeredCount = answers.filter((answer) => answer.trim()).length;
-
-  function selectBook(bookId) {
-    setSelectedBook(bookId);
-    setSelectedTest(1);
-    setAnswers(Array(10).fill(""));
-    setPracticeVisible(true);
-  }
-
-  function changeTest(direction) {
-    setSelectedTest((current) => Math.min(4, Math.max(1, current + direction)));
-  }
-
-  function updateAnswer(index, value) {
-    setAnswers((current) => {
-      const next = [...current];
-      next[index] = value;
-      return next;
-    });
-  }
-
-  return (
-    <div className="view-content reading-view">
-      <section className="library-hero reading-hero">
-        <div>
-          <p className="section-kicker blue">Reading trainer</p>
-          <h1>Cambridge passages with a clean answer workflow.</h1>
-          <p className="view-subtitle">
-            Choose a collection, open a test, and work through the passage with
-            a focused answer sheet.
-          </p>
-        </div>
-        <div className="library-orbit blue">
-          <span>R</span>
-        </div>
-      </section>
-
-      <div className="reading-library-toolbar">
-        <div
-          className="mode-switch"
-          role="tablist"
-          aria-label="Reading mode selector"
-        >
-          <button
-            type="button"
-            className={mode === "training" ? "active" : ""}
-            onClick={() => setMode("training")}
-          >
-            Training mode
-          </button>
-          <button
-            type="button"
-            className={mode === "mock" ? "active" : ""}
-            onClick={() => setMode("mock")}
-          >
-            Mock exam
-          </button>
-        </div>
-        <div className="book-jump">
-          <button
-            type="button"
-            onClick={() => selectBook(Math.max(1, selectedBook - 1))}
-            aria-label="Previous book"
-          >
-            ←
-          </button>
-          <span>{activeBook.title}</span>
-          <button
-            type="button"
-            onClick={() => selectBook(Math.min(19, selectedBook + 1))}
-            aria-label="Next book"
-          >
-            →
-          </button>
-        </div>
-      </div>
-
-      <div className="reading-library-grid">
-        {READING_BOOKS.map((book) => (
-          <button
-            type="button"
-            key={book.id}
-            className={`book-card ${book.id === selectedBook ? "selected" : ""}`}
-            onClick={() => selectBook(book.id)}
-          >
-            <span className="book-card-index">Book {book.id}</span>
-            <strong>{book.title}</strong>
-            <small>{book.level}</small>
-            <em>4 tests</em>
-          </button>
-        ))}
-      </div>
-
-      {practiceVisible && (
-        <div className="reading-layout">
-          <article className="reading-card">
-            <div className="reading-header">
-              <div>
-                <p className="section-kicker">Practice passage</p>
-                <h2>
-                  {activeBook.title} · Test {selectedTest}
-                </h2>
-              </div>
-              <div className="reading-actions">
-                <button type="button" onClick={() => setPracticeVisible(false)}>
-                  ← Library
-                </button>
-                <button type="button" onClick={() => changeTest(-1)}>
-                  ← Prev
-                </button>
-                <span className="reading-badge">
-                  {mode === "training" ? "Training" : "Exam"}
-                </span>
-                <button type="button" onClick={() => changeTest(1)}>
-                  Next →
-                </button>
-              </div>
-            </div>
-            <div className="reading-text">{READING_PASSAGE}</div>
-          </article>
-
-          <aside className="dictionary-card listening-panel">
-            <p className="section-kicker">Answer sheet</p>
-            <h3>Questions 1-10</h3>
-            <div className="save-state">
-              <span className="save-check">✓</span> {answeredCount} of 10
-              answered
-            </div>
-            <div className="answer-grid listening-grid">
-              {READING_QUESTIONS.map((question, index) => (
-                <label className="answer-row" key={question}>
-                  <span className="answer-number">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <input
-                    aria-label={`Question ${index + 1}: ${question}`}
-                    value={answers[index]}
-                    onChange={(event) =>
-                      updateAnswer(index, event.target.value)
-                    }
-                    autoComplete="off"
-                  />
-                </label>
-              ))}
-            </div>
-          </aside>
-        </div>
-      )}
-    </div>
-  );
+  return <CambridgeLibrary resource="reading" />;
 }
 
 function FeedbackPanel({ feedback }) {

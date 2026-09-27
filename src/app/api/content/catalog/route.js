@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+import importedCatalog from "@/data/cambridge-import.json";
+
 import { fetchEngnovateResource } from "@/lib/engnovate";
 
 const resourceTypes = new Set(["listening", "reading", "writing", "speaking"]);
@@ -14,6 +16,11 @@ export async function GET(request) {
       { error: "Unsupported content type." },
       { status: 400 },
     );
+  }
+
+  if (type === "reading" || type === "listening") {
+    const items = importedCatalog.items.filter((item) => item.resource === type && `${item.title} ${item.url}`.toLowerCase().includes(query.toLowerCase()));
+    return NextResponse.json({ resource: type, source: "local-import", items });
   }
 
   try {
