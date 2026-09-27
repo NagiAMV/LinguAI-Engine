@@ -1790,6 +1790,7 @@ h2, h3, .sidebar-brand strong, .book-card strong, .band-score, .feedback-score {
   gap: 20px;
 }
 .cd-test-card {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
