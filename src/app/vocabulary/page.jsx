@@ -24,6 +24,7 @@ export default async function VocabularyPage() {
   if (error) {
     return (
       <main className="page-shell">
+        <Link href="/">← Back</Link>
         <h1>Vocabulary</h1>
         <p className="error">Failed to load vocabulary: {error.message}</p>
       </main>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 import CambridgeLibrary from "@/components/content/CambridgeLibrary";
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
@@ -468,7 +469,11 @@ function SkillStudio({ skill }) {
 }
 
 export default function LinguAIBridgeApp() {
-  const [activeView, setActiveView] = useState("overview");
+  const router = useRouter();
+  const params = useSearchParams();
+  const requestedView = params.get("view");
+  const activeView = navigation.some((item) => item.id === requestedView) ? requestedView : "overview";
+  const setActiveView = (view) => router.push(view === "overview" ? "/" : `/?view=${view}`);
 
   return (
     <div className="app-frame">
