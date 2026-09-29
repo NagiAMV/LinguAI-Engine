@@ -1,0 +1,87 @@
+{
+  "note": "User-supplied Cambridge 1 Academic Reading Test 3 transcription. Parenthesized words are optional. Q9, Q10, Q11 and Q26 contain explicitly supplied alternatives. Q35-38 are B, D, F, G in any order; no fixed question-to-answer mapping inferred.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": ["vi"],
+        "2": ["ii"],
+        "3": ["x"],
+        "4": ["viii"],
+        "5": ["iv"],
+        "6": ["ix"],
+        "7": ["existing"],
+        "8": ["phrases", "related phrases"],
+        "9": ["meanings", "forms"],
+        "10": ["spoken", "real", "oral"],
+        "11": ["noise", "pauses", "noises and pauses"],
+        "12": ["B"]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-3-user-key.json"
+      },
+      "answers": {
+        "13": ["xi"],
+        "14": ["ix"],
+        "15": ["viii"],
+        "16": ["v"],
+        "17": ["i"],
+        "18": ["vii"],
+        "19": ["iii"],
+        "20": ["iv"],
+        "21": ["sell quickly", "sell more quickly"],
+        "22": ["planners", "South Limberg planners"],
+        "23": ["embankments", "road embankments", "noise embankments"],
+        "24": ["Olivetti employees"],
+        "25": ["adapt to"],
+        "26": ["his bakery business", "a cool room"]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": ["NO"],
+        "28": ["NOT GIVEN"],
+        "29": ["YES"],
+        "30": ["NO"],
+        "31": ["YES"],
+        "32": ["NOT GIVEN"],
+        "33": ["C"],
+        "34": ["A"]
+      },
+      "groups": [
+        {
+          "questions": [35, 36, 37, 38],
+          "answers": ["B", "D", "F", "G"],
+          "orderIndependent": true
+        }
+      ]
+    }
+  ]
+}
