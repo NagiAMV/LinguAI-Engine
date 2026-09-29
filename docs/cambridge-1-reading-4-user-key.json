@@ -1,0 +1,115 @@
+{
+  "note": "User-supplied Cambridge 1 Academic Reading Test 4 transcription. Parenthesized words are optional. Explicit alternatives are preserved exactly from the supplied transcription; no additional alternatives inferred.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": ["viii"],
+        "2": ["i"],
+        "3": ["ix"],
+        "4": ["iii"],
+        "5": ["vi"],
+        "6": [
+          "molten glass",
+          "ribbon of glass",
+          "molten glass ribbon"
+        ],
+        "7": [
+          "belt of steel",
+          "steel belt",
+          "moving belt"
+        ],
+        "8": [
+          "moulds",
+          "lightbulb moulds"
+        ],
+        "9": ["A"],
+        "10": ["B"],
+        "11": ["A"],
+        "12": ["C"],
+        "13": ["A"]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": ["E"],
+        "15": ["G"],
+        "16": ["A"],
+        "17": ["C"],
+        "18": ["F"],
+        "19": ["D"],
+        "20": ["A"],
+        "21": ["S"],
+        "22": ["M"],
+        "23": ["S"],
+        "24": [
+          "double",
+          "doubled",
+          "it has double",
+          "it has doubled",
+          "doubling"
+        ],
+        "25": ["de-layering"],
+        "26": ["demographic trends"],
+        "27": ["employers"]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-4-user-key.json"
+      },
+      "answers": {
+        "28": ["YES"],
+        "29": ["NO"],
+        "30": ["NO"],
+        "31": ["NOT GIVEN"],
+        "32": ["vi"],
+        "33": ["iii"],
+        "34": ["i"],
+        "35": ["ii"],
+        "36": [
+          "will not survive",
+          "may not survive",
+          "will become extinct",
+          "may become extinct",
+          "could become extinct"
+        ],
+        "37": [
+          "locality",
+          "distribution"
+        ],
+        "38": [
+          "logging takes place",
+          "logging occurs"
+        ],
+        "39": ["B"]
+      },
+      "groups": []
+    }
+  ]
+}
