@@ -1,6 +1,26 @@
 # Cambridge answer keys: storage and collection checkpoint
 
-## Current coverage after Test 2 transcription
+## Current coverage after Cambridge 3 Test 1
+
+Cambridge 3 Academic Reading Test 1 is complete: **40/40 keys**, including the unordered B/F pair for Q34–35. User transcription is preserved in cambridge-3-reading-1-user-key.json. Each part was saved separately. Existing keys and sessions were not changed; no external requests were made.
+
+Project totals: **411 question keys, 31 complete parts, 10 complete tests**. Cambridge 1 and 2 Reading remain complete. Next source needed: Cambridge 3 Reading Test 2. All 23 regression tests passed.
+
+## Previous coverage after Cambridge 2 Test 4
+
+Cambridge 1 and Cambridge 2 Academic Reading are fully connected: **all eight tests**. Cambridge 2 Test 4 has all 40 supplied answers, saved one part at a time. Source: [cambridge-2-reading-4-user-key.json](cambridge-2-reading-4-user-key.json). Optional words in Q27 and Q28 are expanded into explicit alternatives; Q29 remains exactly 7,000 as supplied. Existing answers and imported test content are unchanged.
+
+Total across the project: **371 question keys, 28 complete parts, 9 complete tests**; Cambridge 19 partial coverage remains unchanged. Next requested source: Cambridge 3 Academic Reading Test 1. Listening remains deferred.
+
+## Previous coverage after connecting user files
+
+**Cambridge 1 Reading: all four tests complete** (40, 41, 38, 39 questions). **Cambridge 2 Reading: Tests 1–3 complete** (40 each); Test 4 is the next missing test. Cambridge 19 keys remain unchanged. Total: **331 question keys, 25 complete parts, 8 complete tests**.
+
+Connected the five user-added source files for Cambridge 1 Tests 3–4 and Cambridge 2 Tests 1–3 without modifying those source files. Converted explicitly unordered groups to accepted sets. The user confirmed the four distinct answer categories for Cambridge 2 Test 2 Q21–24; that clarification is permanently saved in cambridge-2-reading-2-group-confirmation.json.
+
+Results now combines a verified unordered group spanning separate text fields into one comparison row, while retaining original field names, saved values and session storage. It requires one answer per verified category and rejects duplicates. Checkbox groups continue working as before. No test dataset changes, no source requests, and no Listening work.
+
+## Previous coverage after Test 2 transcription
 
 Cambridge 1 Academic Reading **Tests 1 and 2 are complete**: 40 and 41 question keys respectively. Test 2 was supplied by the user and saved one part at a time. Its source is preserved in [cambridge-1-reading-2-user-key.json](cambridge-1-reading-2-user-key.json). Q20 accepts cells, hexagonal cells, or comb; Q21 accepts frames or frames of comb, interpreting the user's parentheses as optional words. No extra synonyms, article removal, or percentage variants were added. Case-insensitive comparison remains unchanged.
 

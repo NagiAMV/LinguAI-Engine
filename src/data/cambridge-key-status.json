@@ -430,14 +430,14 @@
     "status": "complete"
   },
   "reading-1-3": {
-    "available": 0,
+    "available": 38,
     "total": 38,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-1-4": {
-    "available": 0,
+    "available": 39,
     "total": 39,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-10-1": {
     "available": 0,
@@ -640,24 +640,24 @@
     "status": "missing"
   },
   "reading-2-1": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-2-2": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-2-3": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-2-4": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-20-1": {
     "available": 0,
@@ -700,14 +700,14 @@
     "status": "missing"
   },
   "reading-3-1": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-3-2": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-3-3": {
     "available": 0,

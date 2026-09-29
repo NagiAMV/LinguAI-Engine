@@ -1,0 +1,182 @@
+{
+  "note": "User-supplied Cambridge 3 Academic Reading Test 1 transcription. Q34–35: B and F in either order. No other alternatives inferred.",
+  "parts": [
+    {
+      "book": 3,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "iv"
+        ],
+        "2": [
+          "i"
+        ],
+        "3": [
+          "v"
+        ],
+        "4": [
+          "vii"
+        ],
+        "5": [
+          "B"
+        ],
+        "6": [
+          "D"
+        ],
+        "7": [
+          "A"
+        ],
+        "8": [
+          "A"
+        ],
+        "9": [
+          "B"
+        ],
+        "10": [
+          "E"
+        ],
+        "11": [
+          "B"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "F"
+        ],
+        "14": [
+          "G"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-1-user-key.json"
+      },
+      "answers": {
+        "15": [
+          "B"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "NO"
+        ],
+        "19": [
+          "NOT GIVEN"
+        ],
+        "20": [
+          "YES"
+        ],
+        "21": [
+          "NOT GIVEN"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "G"
+        ],
+        "24": [
+          "H"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-1-user-key.json"
+      },
+      "answers": {
+        "29": [
+          "iv"
+        ],
+        "30": [
+          "vii"
+        ],
+        "31": [
+          "iii"
+        ],
+        "32": [
+          "v"
+        ],
+        "33": [
+          "vi"
+        ],
+        "34": [
+          "B",
+          "F"
+        ],
+        "35": [
+          "B",
+          "F"
+        ],
+        "36": [
+          "YES"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "NOT GIVEN"
+        ],
+        "39": [
+          "YES"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            34,
+            35
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "F"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

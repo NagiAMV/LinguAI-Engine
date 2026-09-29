@@ -1,0 +1,169 @@
+{
+  "note": "User-supplied transcription. Q27: Apollo (space) programme. Q28: (early) next century. Parenthesized words optional. Q29 preserved as supplied: 7,000. No additional alternatives inferred.",
+  "parts": [
+    {
+      "book": 2,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "YES"
+        ],
+        "2": [
+          "NO"
+        ],
+        "3": [
+          "YES"
+        ],
+        "4": [
+          "NOT GIVEN"
+        ],
+        "5": [
+          "NO"
+        ],
+        "6": [
+          "NOT GIVEN"
+        ],
+        "7": [
+          "B"
+        ],
+        "8": [
+          "B"
+        ],
+        "9": [
+          "C"
+        ],
+        "10": [
+          "honesty and openness"
+        ],
+        "11": [
+          "consumers"
+        ],
+        "12": [
+          "armchair ethicals"
+        ],
+        "13": [
+          "social record"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "D"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "D"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "NO"
+        ],
+        "19": [
+          "YES"
+        ],
+        "20": [
+          "YES"
+        ],
+        "21": [
+          "NOT GIVEN"
+        ],
+        "22": [
+          "F"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "J"
+        ],
+        "25": [
+          "I"
+        ],
+        "26": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "Apollo programme",
+          "Apollo space programme"
+        ],
+        "28": [
+          "next century",
+          "early next century"
+        ],
+        "29": [
+          "7,000"
+        ],
+        "30": [
+          "disease"
+        ],
+        "31": [
+          "muscular dystrophy"
+        ],
+        "32": [
+          "cystic fibrosis"
+        ],
+        "33": [
+          "D"
+        ],
+        "34": [
+          "C"
+        ],
+        "35": [
+          "B"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "D"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "A"
+        ],
+        "40": [
+          "A"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

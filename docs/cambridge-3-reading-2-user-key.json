@@ -1,0 +1,175 @@
+{
+  "note": "User-supplied transcription. Q11: 2-5 // two to five. Q13: South African tunneling/tunnelling/tunneler/tunneller (species). Four explicitly supplied spellings, each with optional species; South African retained in each. No other alternatives inferred.",
+  "parts": [
+    {
+      "book": 3,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "NOT GIVEN"
+        ],
+        "2": [
+          "NO"
+        ],
+        "3": [
+          "YES"
+        ],
+        "4": [
+          "YES"
+        ],
+        "5": [
+          "NO"
+        ],
+        "6": [
+          "South African"
+        ],
+        "7": [
+          "French"
+        ],
+        "8": [
+          "Spanish"
+        ],
+        "9": [
+          "temperate"
+        ],
+        "10": [
+          "early spring"
+        ],
+        "11": [
+          "2-5",
+          "two to five"
+        ],
+        "12": [
+          "sub-tropical"
+        ],
+        "13": [
+          "South African tunneling",
+          "South African tunneling species",
+          "South African tunnelling",
+          "South African tunnelling species",
+          "South African tunneler",
+          "South African tunneler species",
+          "South African tunneller",
+          "South African tunneller species"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "v"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "ii"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "i"
+        ],
+        "19": [
+          "G"
+        ],
+        "20": [
+          "C"
+        ],
+        "21": [
+          "F"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "D"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-2-user-key.json"
+      },
+      "answers": {
+        "29": [
+          "NOT GIVEN"
+        ],
+        "30": [
+          "YES"
+        ],
+        "31": [
+          "YES"
+        ],
+        "32": [
+          "NOT GIVEN"
+        ],
+        "33": [
+          "YES"
+        ],
+        "34": [
+          "NO"
+        ],
+        "35": [
+          "NO"
+        ],
+        "36": [
+          "role sign"
+        ],
+        "37": [
+          "ritual"
+        ],
+        "38": [
+          "role sign"
+        ],
+        "39": [
+          "role set"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

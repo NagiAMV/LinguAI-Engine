@@ -37,3 +37,26 @@ export function reviewAnswer(value, numbers, key, multiple = false) {
   }
   return { status: choices.length === entries.length && matches(0) ? 'correct' : 'incorrect', display };
 }
+
+// Build review rows from existing field names without changing persisted answers.
+// A verified unordered group can span one checkbox field or several text fields.
+export function buildReviewRows(test, questions, answers, flags, key) {
+  return test.parts.flatMap((part, partIndex) => {
+    const seen = new Set();
+    const partQuestions = questions.filter(q => q.partIndex === partIndex);
+    return part.fieldNames.flatMap(name => {
+      if (seen.has(name)) return [];
+      let members = partQuestions.filter(q => q.name === name);
+      const verified = key?.parts?.[part.id]?.groups?.find(group => members.some(q => group.questions.includes(Number(q.number))));
+      if (verified) members = partQuestions.filter(q => verified.questions.includes(Number(q.number)));
+      const names = [...new Set(members.map(q => q.name))];
+      names.forEach(n => seen.add(n));
+      const multiple = Boolean(verified) || members[0]?.multiple;
+      const value = multiple ? names.flatMap(n => Array.isArray(answers[n]) ? answers[n] : [answers[n] || '']) : answers[name];
+      const response = Array.isArray(value) ? value.filter(v => String(v).trim()).join(', ') : value || '';
+      return [{ name, part: part.id, numbers: members.map(q => q.number).join('–'), response,
+        flagged: members.some(q => flags.includes(q.id)),
+        ...reviewAnswer(value, members.map(q => q.number), key, multiple) }];
+    });
+  });
+}

@@ -1,21 +1,14 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { reviewAnswer } from './answer-review.mjs';
+import { buildReviewRows } from './answer-review.mjs';
 
 const statusLabels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
 
 export default function ExamResults({ test, answerKey, questions, answers, flags, session, answered }) {
   const [partFilter, setPartFilter] = useState('all');
   const [filter, setFilter] = useState('all');
-  const rows = useMemo(() => test.parts.flatMap((part, partIndex) => part.fieldNames.map((name) => {
-    const group = questions.filter((question) => question.partIndex === partIndex && question.name === name);
-    const response = Array.isArray(answers[name]) ? answers[name].join(', ') : answers[name] || '';
-    return { name, part: part.id, numbers: group.map(question => question.number).join('–'), response,
-      flagged: group.some(question => flags.includes(question.id)),
-      ...reviewAnswer(answers[name], group.map(question => question.number), answerKey, group[0]?.multiple),
-    };
-  })), [test, questions, answers, flags, answerKey]);
+  const rows = useMemo(() => buildReviewRows(test, questions, answers, flags, answerKey), [test, questions, answers, flags, answerKey]);
   const visible = rows.filter(row => (partFilter === 'all' || String(row.part) === partFilter) && (filter === 'all' || (filter === 'unanswered' ? !row.response.trim() : filter === 'answered' ? Boolean(row.response.trim()) : row.status === filter)));
   const availableCount = questions.filter(question => answerKey?.answers?.[question.number]?.length).length;
   const duration = session.startedAt && session.finishedAt ? Math.min(3600, Math.max(0, Math.floor((session.finishedAt - session.startedAt) / 1000))) : null;

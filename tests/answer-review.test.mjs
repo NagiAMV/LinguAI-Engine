@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { reviewAnswer } from '../src/components/content/answer-review.mjs';
+import { reviewAnswer, buildReviewRows } from '../src/components/content/answer-review.mjs';
 import { readFileSync } from 'node:fs';
 const key = { answers: { 1: ['FALSE'], 2: ['paint', 'paints'], 3: ['B'], 4: ['D'] } };
 test('compares explicit alternatives without case or whitespace sensitivity', () => {
@@ -71,7 +71,7 @@ test('Cambridge 1 Reading Test 1 Part 1 uses saved source keys', () => {
   assert.equal(reviewAnswer('make', [1], first).status, 'incorrect');
   assert.equal(reviewAnswer('f', [9], first).status, 'correct');
   assert.equal(reviewAnswer('', [8], first).status, 'blank');
-  assert.equal(reviewAnswer('anything', [16], keys['reading-1-3']).status, 'pending');
+  assert.equal(reviewAnswer('anything', [16], undefined).status, 'pending');
 });
 
 test('user-transcribed Cambridge 1 Test 1 accepts exact alternatives and all triple permutations', () => {
@@ -99,4 +99,68 @@ test('Cambridge 1 Test 2 covers 41 questions and explicit optional words', () =>
   assert.equal(reviewAnswer('40%',[8],k).status,'incorrect');
   assert.equal(reviewAnswer('h',[41],k).status,'correct');
   assert.equal(reviewAnswer('',[41],k).status,'blank');
+});
+
+test('connected user files cover Cambridge 1 and Cambridge 2 tests 1–3', () => {
+  const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+  for(const [id,total] of [['reading-1-3',38],['reading-1-4',39],['reading-2-1',40],['reading-2-2',40],['reading-2-3',40]]) assert.equal(Object.keys(keys[id].answers).length,total);
+  assert.equal(reviewAnswer(['G','B','F','D'],[35,36,37,38],keys['reading-1-3'],true).status,'correct');
+  assert.equal(reviewAnswer('ROSTERS',[9],keys['reading-2-3']).status,'correct');
+  assert.equal(reviewAnswer('may become extinct',[36],keys['reading-1-4']).status,'correct');
+});
+test('unordered answers across separate text fields form one review row', () => {
+  const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+  const data=JSON.parse(readFileSync(new URL('../public/cambridge/reading-2-1.json',import.meta.url)));
+  const questions=data.parts.flatMap((p,partIndex)=>p.fieldNames.map(name=>({name,number:p.fieldLabels[name].replace('Question ',''),id:name,partIndex,multiple:false})));
+  const q10=questions.find(q=>q.number==='10'),q11=questions.find(q=>q.number==='11');
+  const answers={[q10.name]:'SEA WALLS',[q11.name]:'Lantau Island'};
+  let rows=buildReviewRows(data,questions,answers,[],keys[data.id]);
+  assert.equal(rows.filter(r=>r.numbers==='10–11').length,1);
+  assert.equal(rows.find(r=>r.numbers==='10–11').status,'correct');
+  assert.equal(rows.length,39);
+  rows=buildReviewRows(data,questions,{[q10.name]:'Lantau Island',[q11.name]:'Lantau Island'},[],keys[data.id]);
+  assert.equal(rows.find(r=>r.numbers==='10–11').status,'incorrect');
+});
+test('confirmed four-category group rejects repeated categories and accepts permutations', () => {
+  const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+  const k=keys['reading-2-2'];
+  assert.equal(reviewAnswer(['technical glossaries','industrial training schemes','translation services','part-time language courses'],[21,22,23,24],k,true).status,'correct');
+  assert.equal(reviewAnswer(['training','industrial training','translation services','glossaries'],[21,22,23,24],k,true).status,'incorrect');
+  assert.equal(reviewAnswer(['training','translation services','glossaries'],[21,22,23,24],k,true).status,'incorrect');
+});
+
+test('Cambridge 2 Test 4 preserves supplied variants and full coverage', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-2-4'];
+  assert.equal(Object.keys(k.answers).length,40);
+  for(const answer of ['Apollo programme','APOLLO SPACE PROGRAMME']) assert.equal(reviewAnswer(answer,[27],k).status,'correct');
+  for(const answer of ['next century','early next century']) assert.equal(reviewAnswer(answer,[28],k).status,'correct');
+  assert.equal(reviewAnswer('the next century',[28],k).status,'incorrect');
+  assert.equal(reviewAnswer('7,000',[29],k).status,'correct');
+  assert.equal(reviewAnswer(' CYSTIC   FIBROSIS ',[32],k).status,'correct');
+  assert.equal(reviewAnswer('',[40],k).status,'blank');
+  const status=JSON.parse(readFileSync(new URL('../src/data/cambridge-key-status.json',import.meta.url)));
+  for(const book of [1,2])for(let t=1;t<=4;t++)assert.equal(status['reading-'+book+'-'+t].status,'complete');
+});
+
+test('Cambridge 3 Test 1 preserves all keys and accepts either order for 34–35', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-3-1'];
+  assert.equal(Object.keys(k.answers).length,40);
+  assert.equal(reviewAnswer('IV',[1],k).status,'correct');
+  assert.equal(reviewAnswer(' not   given ',[19],k).status,'correct');
+  for(const pair of [['B','F'],['F','B']]) assert.equal(reviewAnswer(pair,[34,35],k,true).status,'correct');
+  for(const pair of [['B'],['B','B'],['B','D']]) assert.equal(reviewAnswer(pair,[34,35],k,true).status,'incorrect');
+  assert.equal(reviewAnswer('',[40],k).status,'blank');
+  assert.equal(reviewAnswer('A',[40],k).status,'incorrect');
+});
+
+test('Cambridge 3 Test 2 preserves explicit spelling and number alternatives', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-3-2'];
+  assert.equal(Object.keys(k.answers).length,40);
+  for(const answer of ['2-5','TWO TO FIVE']) assert.equal(reviewAnswer(answer,[11],k).status,'correct');
+  assert.equal(k.answers[13].length,8);
+  for(const word of ['tunneling','tunnelling','tunneler','tunneller'])for(const suffix of ['', ' species']) assert.equal(reviewAnswer('SOUTH AFRICAN '+word+suffix,[13],k).status,'correct');
+  assert.equal(reviewAnswer('tunnelling',[13],k).status,'incorrect');
+  assert.equal(reviewAnswer('role set',[36],k).status,'incorrect');
+  assert.equal(reviewAnswer(' ROLE   SIGN ',[36],k).status,'correct');
+  assert.equal(reviewAnswer('',[40],k).status,'blank');
 });

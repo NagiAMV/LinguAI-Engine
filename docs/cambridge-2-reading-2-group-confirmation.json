@@ -1,0 +1,200 @@
+{
+  "note": "User explicitly confirmed four distinct answer categories for Q21–24, one from each category in any order. Original transcription preserved separately.",
+  "part": {
+    "book": 2,
+    "test": 2,
+    "module": "reading",
+    "section": 2,
+    "source": {
+      "type": "user-transcription",
+      "label": "User-provided answer key transcription",
+      "reference": "docs/cambridge-2-reading-2-user-key.json"
+    },
+    "answers": {
+      "14": [
+        "major consequences"
+      ],
+      "15": [
+        "surveys"
+      ],
+      "16": [
+        "sales literature"
+      ],
+      "17": [
+        "Eastern Europe",
+        "Far East",
+        "Russia",
+        "Arab world",
+        "Latin America",
+        "French-speaking Africa"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "training",
+        "translation services",
+        "language courses",
+        "glossaries",
+        "technical glossaries",
+        "part-time language courses",
+        "industrial training",
+        "training schemes",
+        "industrial training schemes"
+      ],
+      "22": [
+        "training",
+        "translation services",
+        "language courses",
+        "glossaries",
+        "technical glossaries",
+        "part-time language courses",
+        "industrial training",
+        "training schemes",
+        "industrial training schemes"
+      ],
+      "23": [
+        "training",
+        "translation services",
+        "language courses",
+        "glossaries",
+        "technical glossaries",
+        "part-time language courses",
+        "industrial training",
+        "training schemes",
+        "industrial training schemes"
+      ],
+      "24": [
+        "training",
+        "translation services",
+        "language courses",
+        "glossaries",
+        "technical glossaries",
+        "part-time language courses",
+        "industrial training",
+        "training schemes",
+        "industrial training schemes"
+      ],
+      "25": [
+        "D"
+      ],
+      "26": [
+        "A"
+      ]
+    },
+    "groups": [
+      {
+        "questions": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "acceptedSets": [
+          [
+            "training",
+            "translation services",
+            "language courses",
+            "glossaries"
+          ],
+          [
+            "training",
+            "translation services",
+            "language courses",
+            "technical glossaries"
+          ],
+          [
+            "training",
+            "translation services",
+            "part-time language courses",
+            "glossaries"
+          ],
+          [
+            "training",
+            "translation services",
+            "part-time language courses",
+            "technical glossaries"
+          ],
+          [
+            "industrial training",
+            "translation services",
+            "language courses",
+            "glossaries"
+          ],
+          [
+            "industrial training",
+            "translation services",
+            "language courses",
+            "technical glossaries"
+          ],
+          [
+            "industrial training",
+            "translation services",
+            "part-time language courses",
+            "glossaries"
+          ],
+          [
+            "industrial training",
+            "translation services",
+            "part-time language courses",
+            "technical glossaries"
+          ],
+          [
+            "training schemes",
+            "translation services",
+            "language courses",
+            "glossaries"
+          ],
+          [
+            "training schemes",
+            "translation services",
+            "language courses",
+            "technical glossaries"
+          ],
+          [
+            "training schemes",
+            "translation services",
+            "part-time language courses",
+            "glossaries"
+          ],
+          [
+            "training schemes",
+            "translation services",
+            "part-time language courses",
+            "technical glossaries"
+          ],
+          [
+            "industrial training schemes",
+            "translation services",
+            "language courses",
+            "glossaries"
+          ],
+          [
+            "industrial training schemes",
+            "translation services",
+            "language courses",
+            "technical glossaries"
+          ],
+          [
+            "industrial training schemes",
+            "translation services",
+            "part-time language courses",
+            "glossaries"
+          ],
+          [
+            "industrial training schemes",
+            "translation services",
+            "part-time language courses",
+            "technical glossaries"
+          ]
+        ]
+      }
+    ]
+  }
+}
