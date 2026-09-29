@@ -1,0 +1,192 @@
+{
+  "note": "Transcribed answer key supplied by the user. Original image was not provided in this message. Questions 26–28: A, D, E in any order.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "preserve"
+        ],
+        "2": [
+          "unaware"
+        ],
+        "3": [
+          "chance"
+        ],
+        "4": [
+          "friction"
+        ],
+        "5": [
+          "rotating"
+        ],
+        "6": [
+          "percussion"
+        ],
+        "7": [
+          "Eskimos"
+        ],
+        "8": [
+          "despite"
+        ],
+        "9": [
+          "F"
+        ],
+        "10": [
+          "D"
+        ],
+        "11": [
+          "E"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "G"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-1-user-key.json"
+      },
+      "answers": {
+        "16": [
+          "YES"
+        ],
+        "17": [
+          "YES"
+        ],
+        "18": [
+          "NOT GIVEN"
+        ],
+        "19": [
+          "NO"
+        ],
+        "20": [
+          "NO"
+        ],
+        "21": [
+          "NOT GIVEN"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "A",
+          "D",
+          "E"
+        ],
+        "27": [
+          "A",
+          "D",
+          "E"
+        ],
+        "28": [
+          "A",
+          "D",
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            26,
+            27,
+            28
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 1,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-1-user-key.json"
+      },
+      "answers": {
+        "29": [
+          "timber and stone"
+        ],
+        "30": [
+          "Modernism"
+        ],
+        "31": [
+          "International style"
+        ],
+        "32": [
+          "badly designed buildings",
+          "multi-storey housing",
+          "mass-produced, low-cost high-rises"
+        ],
+        "33": [
+          "preservation"
+        ],
+        "34": [
+          "High-Tech"
+        ],
+        "35": [
+          "co-existence of styles",
+          "different styles together",
+          "styles mixed"
+        ],
+        "36": [
+          "G"
+        ],
+        "37": [
+          "F"
+        ],
+        "38": [
+          "H"
+        ],
+        "39": [
+          "C"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

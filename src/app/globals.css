@@ -1867,3 +1867,15 @@ h2, h3, .sidebar-brand strong, .book-card strong, .band-score, .feedback-score {
   .cd-footer { flex-direction: column; align-items: flex-start; }
   .cd-footer .button { font-size: 11px; padding: 0 12px; }
 }
+
+.cd-test-card > .cd-key-status {
+  align-self: flex-start;
+  padding: 7px 10px;
+  border-radius: 8px;
+  background: #edf0eb;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.cd-test-card > .cd-key-status.complete { background: #e3efdc; color: #245a35; }
+.cd-test-card > .cd-key-status.partial { background: #fff0d5; color: #80551e; }
+.cd-key-status small { display: block; font-size: 11px; }

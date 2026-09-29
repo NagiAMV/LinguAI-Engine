@@ -1,0 +1,173 @@
+{
+  "note": "User-supplied Cambridge 1 Academic Reading Test 2 transcription. Q20 original: (hexagonal) cells // comb. Q21 original: frames (of comb). Parenthesized words are optional; no other alternatives inferred.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "D"
+        ],
+        "3": [
+          "C"
+        ],
+        "4": [
+          "B"
+        ],
+        "5": [
+          "A"
+        ],
+        "6": [
+          "C"
+        ],
+        "7": [
+          "E"
+        ],
+        "8": [
+          "15-20%"
+        ],
+        "9": [
+          "40%"
+        ],
+        "10": [
+          "6%"
+        ],
+        "11": [
+          "D"
+        ],
+        "12": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-2-user-key.json"
+      },
+      "answers": {
+        "13": [
+          "prepare"
+        ],
+        "14": [
+          "full"
+        ],
+        "15": [
+          "smoke"
+        ],
+        "16": [
+          "charge"
+        ],
+        "17": [
+          "machines"
+        ],
+        "18": [
+          "combs"
+        ],
+        "19": [
+          "split"
+        ],
+        "20": [
+          "cells",
+          "hexagonal cells",
+          "comb"
+        ],
+        "21": [
+          "frames",
+          "frames of comb"
+        ],
+        "22": [
+          "screen"
+        ],
+        "23": [
+          "brood chamber"
+        ],
+        "24": [
+          "NOT GIVEN"
+        ],
+        "25": [
+          "YES"
+        ],
+        "26": [
+          "YES"
+        ],
+        "27": [
+          "NO"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-reading-2-user-key.json"
+      },
+      "answers": {
+        "28": [
+          "iii"
+        ],
+        "29": [
+          "v"
+        ],
+        "30": [
+          "iv"
+        ],
+        "31": [
+          "vii"
+        ],
+        "32": [
+          "viii"
+        ],
+        "33": [
+          "NO"
+        ],
+        "34": [
+          "YES"
+        ],
+        "35": [
+          "NOT GIVEN"
+        ],
+        "36": [
+          "YES"
+        ],
+        "37": [
+          "NOT GIVEN"
+        ],
+        "38": [
+          "D"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "F"
+        ],
+        "41": [
+          "H"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -219,3 +219,13 @@
  .results-table { min-width: 470px; }
  .exam-header .cd-secondary { font-size: 10px; min-height: 32px; padding: 0 8px; }
 }
+/* Answer comparison keeps the site's palette while using text and icons for status. */
+.result-key { color: var(--teal-strong); font-weight: 600; }
+.result-incorrect .result-response { color: #a34136; }
+.result-correct .result-response { color: #245a35; }
+.results-table td { overflow-wrap: anywhere; }
+.results-sources { margin-top: 20px; color: var(--muted); font-size: 12px; }
+.results-sources summary { cursor: pointer; }
+.results-sources a { display: inline-block; margin: 12px 16px 0 0; color: var(--teal-strong); }
+.exam-finished .exam-timer, .exam-finished .exam-settings, .exam-finished .exam-saved { display: none; }
+.exam-finished .exam-identity { margin-right: auto; }

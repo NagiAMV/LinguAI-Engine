@@ -74,7 +74,7 @@ function Recording({ part, position, onPosition, sourceUrl, locked }) {
   </>;
 }
 
-export default function CambridgeExam({ test }) {
+export default function CambridgeExam({ test, answerKey }) {
   const router = useRouter();
   const backUrl = `/?view=${test.resource}&book=${test.book}`;
   const [now, setNow] = useState(Date.now());
@@ -174,7 +174,7 @@ export default function CambridgeExam({ test }) {
     try { localStorage.setItem(storageKey + "-history", JSON.stringify(archive)); }
     catch { setSaveError("Could not archive this attempt. Your current answers have been kept."); setModal(null); return; }
     setHistory(archive);
-    persist(restoreSession({}));
+    persist(restoreSession({ activeQuestion: questions[0]?.id }));
     setModal(null);
   }
   useEffect(() => {
@@ -215,10 +215,10 @@ export default function CambridgeExam({ test }) {
       <div className={`exam-timer ${remaining(session, now) <= 300000 ? "exam-time-low" : ""}`}><strong role="timer" aria-label="Time remaining">{countdown(remaining(session, now))}</strong></div>
       {finishedAt ? <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button> : null}
     </header>
-    {(fullscreenMessage || saveError) && <div className="exam-status" role="status">{fullscreenMessage || saveError}<button aria-label="Dismiss message" onClick={() => setFullscreenMessage("")}>×</button></div>}
-    {session.phase === "ready" ? <section className="exam-start"><p className="section-kicker">Ready when you are</p><h2>{test.title}</h2><p>{label} · {test.parts.length} parts · 60 minutes</p><p>The timer begins when you press Start. It continues if you leave or refresh. At 00:00, editing stops and you can submit your saved answers.</p>{Object.keys(answers).length > 0 && <p>Your previous answers are preserved. Continue with them, or archive them and start a new attempt.</p>}<div><button className="button" onClick={() => { dispatch({ type: "start" }); if (!document.fullscreenElement) toggleFullscreen(); }}>{Object.keys(answers).length ? "Start with saved answers" : "Start Test"}</button>{Object.keys(answers).length > 0 && <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button>}</div></section> : finishedAt ? <ExamResults test={test} questions={questions} answers={answers} flags={flags} session={session} answered={answered} /> : <>
+    {(fullscreenMessage || saveError) && <div className="exam-status" role="status">{saveError || fullscreenMessage}{!saveError && <button aria-label="Dismiss message" onClick={() => setFullscreenMessage("")}>×</button>}</div>}
+    {session.phase === "ready" ? <section className="exam-start"><p className="section-kicker">Ready when you are</p><h2>{test.title}</h2><p>{label} · {test.parts.length} parts · 60 minutes</p><p>The timer begins when you press Start. It continues if you leave or refresh. At 00:00, editing stops and you can submit your saved answers.</p>{Object.keys(answers).length > 0 && <p>Your previous answers are preserved. Continue with them, or archive them and start a new attempt.</p>}<div><button className="button" onClick={() => { dispatch({ type: "start" }); if (!document.fullscreenElement) toggleFullscreen(); }}>{Object.keys(answers).length ? "Start with saved answers" : "Start Test"}</button>{Object.keys(answers).length > 0 && <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button>}</div></section> : finishedAt ? <ExamResults test={test} answerKey={answerKey} questions={questions} answers={answers} flags={flags} session={session} answered={answered} /> : <>
       <div ref={workspace} className={`cd-columns exam-workspace ${test.resource}`}>
-        <article className={`cd-pane ${test.resource === "listening" ? "exam-recording-bar" : ""}`} aria-label={test.resource === "reading" ? `Part ${part.id} passage` : `Part ${part.id} audio and transcript`} key={`content-${part.id}`}>
+        <article className={`cd-pane ${test.resource === "listening" ? "exam-recording-bar" : ""}`} aria-label={test.resource === "reading" ? `Part ${part.id} passage` : `Part ${part.id} recording`} key={`content-${part.id}`}>
           {test.resource === "listening" ? <Recording locked={locked} part={part} sourceUrl={test.sourceUrl} position={session.audioTimes[part.id] || 0} onPosition={(value) => { if (current.current.audioTimes[part.id] !== value) update({ audioTimes: { ...current.current.audioTimes, [part.id]: value } }); }} /> : <><AnswerFields html={part.passage} {...fieldProps} /></>}
         </article>
         <div className={`exam-divider ${test.resource === "listening" ? "exam-divider-hidden" : ""}`} role="separator" aria-label="Resize passage and questions" aria-orientation="vertical" aria-valuemin={30} aria-valuemax={70} aria-valuenow={split} tabIndex={locked ? -1 : 0} onKeyDown={(event) => { if (["ArrowLeft", "ArrowRight"].includes(event.key)) { event.preventDefault(); setSplit((value) => Math.max(30, Math.min(70, value + (event.key === "ArrowLeft" ? -2 : 2)))); } }} onPointerDown={(event) => event.currentTarget.setPointerCapture(event.pointerId)} onPointerMove={(event) => { if (event.currentTarget.hasPointerCapture(event.pointerId)) { const bounds = workspace.current.getBoundingClientRect(); setSplit(Math.max(30, Math.min(70, (event.clientX - bounds.left) / bounds.width * 100))); } }} onPointerUp={(event) => event.currentTarget.releasePointerCapture(event.pointerId)} />
@@ -234,7 +234,7 @@ export default function CambridgeExam({ test }) {
     {history.length > 0 && (session.phase === "ready" || finishedAt) && <details className="exam-history"><summary>Previous attempts ({history.length})</summary>{history.map((attempt, index) => <details key={index}><summary>Attempt {index + 1} · {new Date(attempt.archivedAt).toLocaleString()}</summary>{test.parts.map((item) => <section key={item.id}><h3>Part {item.id}</h3>{item.fieldNames.map((name) => <p key={name}><strong>{item.fieldLabels?.[name]}: </strong>{Array.isArray(attempt.answers?.[name]) ? attempt.answers[name].join(", ") : attempt.answers?.[name] || "Not answered"}</p>)}</section>)}</details>)}</details>}
     <dialog ref={dialog} className="exam-dialog" aria-labelledby="finish-title" onCancel={(event) => { if (modal === "expired") event.preventDefault(); else setModal(null); }}>
       <h2 id="finish-title">{modal === "expired" ? "Time is up" : modal === "exit" ? "Leave this test?" : modal === "new" ? "Start a new attempt?" : "Submit your answers?"}</h2>
-      <p>{modal === "exit" ? "Your answers are saved. The 60-minute timer will keep running while you are away." : modal === "new" ? "This attempt will be archived with its answers. A new attempt will start at 60:00 when you press Start." : modal === "expired" ? "Your answers are saved. Editing and audio playback are locked. Submit to review your answers." : (questions.length - answered) + " questions are unanswered. Submission is final; this attempt will become read-only. No score will be calculated."}</p>
+      <p>{modal === "exit" ? "Your answers are saved. The 60-minute timer will keep running while you are away." : modal === "new" ? "This attempt will be archived with its answers. A new attempt will start at 60:00 when you press Start." : modal === "expired" ? "Your answers are saved. Editing and audio playback are locked. Submit to review your answers." : (questions.length - answered) + " questions are unanswered. Submission is final; this attempt will become read-only. Review will show your answers alongside available answer keys. No IELTS band score will be calculated."}</p>
       <div>{modal !== "expired" && <button className="button cd-secondary" autoFocus onClick={() => setModal(null)}>Cancel</button>}<button className="button" onClick={() => { if (modal === "exit") router.push(backUrl); else if (modal === "new") newAttempt(); else { dispatch({ type: "submit" }); setModal(null); } }}>{modal === "exit" ? "Save and leave" : modal === "new" ? "Archive and create" : "Submit and review"}</button></div>
     </dialog>
   </main>;
