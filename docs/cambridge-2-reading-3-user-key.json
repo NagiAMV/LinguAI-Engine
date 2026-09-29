@@ -1,0 +1,94 @@
+{
+  "note": "User-supplied Cambridge 2 Academic Reading Test 3 transcription. Parenthesized words are optional. Explicit alternatives are preserved from the supplied transcription; no additional alternatives inferred.",
+  "parts": [
+    {
+      "book": 2,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": ["NO"],
+        "2": ["NO"],
+        "3": ["NO"],
+        "4": ["YES"],
+        "5": ["NOT GIVEN"],
+        "6": ["NO"],
+        "7": ["YES"],
+        "8": ["businesses", "local businesses"],
+        "9": [
+          "schedule",
+          "work schedule",
+          "working schedule",
+          "rostering",
+          "roster",
+          "rosters"
+        ],
+        "10": ["excessive"],
+        "11": ["voluntary absence", "absenteeism"],
+        "12": ["twenty", "20"],
+        "13": ["communication"]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": ["C"],
+        "15": ["F"],
+        "16": ["E"],
+        "17": ["H"],
+        "18": ["A"],
+        "19": ["D"],
+        "20": ["NOT GIVEN"],
+        "21": ["NO"],
+        "22": ["NOT GIVEN"],
+        "23": ["YES"],
+        "24": ["YES"],
+        "25": ["YES"],
+        "26": ["NO"]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": ["iv"],
+        "28": ["vii"],
+        "29": ["viii"],
+        "30": ["iii"],
+        "31": ["ii"],
+        "32": ["i"],
+        "33": ["x"],
+        "34": ["B"],
+        "35": ["B"],
+        "36": ["E"],
+        "37": ["A"],
+        "38": ["B"],
+        "39": ["D"],
+        "40": ["E"]
+      },
+      "groups": []
+    }
+  ]
+}
