@@ -1,0 +1,100 @@
+{
+  "note": "User-supplied Cambridge 4 Academic Reading Test 4 transcription. Q20-21, Q22-23, and Q25-26 are separate unordered answer sets; each pair must contain both supplied answers. Slash-separated alternatives are preserved explicitly. No other alternatives inferred.",
+  "parts": [
+    {
+      "book": 4,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": ["TRUE"],
+        "2": ["NOT GIVEN"],
+        "3": ["FALSE"],
+        "4": ["FALSE"],
+        "5": ["NOT GIVEN"],
+        "6": ["TRUE"],
+        "7": ["genetics"],
+        "8": ["power"],
+        "9": ["injuries"],
+        "10": ["training"],
+        "11": ["A"],
+        "12": ["D"],
+        "13": ["B"]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": ["YES"],
+        "15": ["NOT GIVEN"],
+        "16": ["NO"],
+        "17": ["YES"],
+        "18": ["NOT GIVEN"],
+        "19": ["NO"],
+        "20": ["D"],
+        "21": ["E"],
+        "22": ["C"],
+        "23": ["D"],
+        "24": ["oral histories"],
+        "25": ["humanistic study"],
+        "26": ["historical discipline"],
+        "27": ["scientist"]
+      },
+      "groups": [
+        {
+          "questions": [20, 21],
+          "acceptedSets": [["D", "E"]]
+        },
+        {
+          "questions": [22, 23],
+          "acceptedSets": [["C", "D"]]
+        },
+        {
+          "questions": [25, 26],
+          "acceptedSets": [["humanistic study", "historical discipline"]]
+        }
+      ]
+    },
+    {
+      "book": 4,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      },
+      "answers": {
+        "28": ["iv"],
+        "29": ["i"],
+        "30": ["iii"],
+        "31": ["v"],
+        "32": ["B"],
+        "33": ["B"],
+        "34": ["A"],
+        "35": ["B"],
+        "36": ["NO"],
+        "37": ["YES"],
+        "38": ["YES"],
+        "39": ["NOT GIVEN"],
+        "40": ["NOT GIVEN"]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -3772,5 +3772,246 @@
         "reference": "docs/cambridge-4-reading-3-user-key.json"
       }
     ]
+  },
+  "reading-4-4": {
+    "book": 4,
+    "test": 4,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "TRUE"
+      ],
+      "2": [
+        "NOT GIVEN"
+      ],
+      "3": [
+        "FALSE"
+      ],
+      "4": [
+        "FALSE"
+      ],
+      "5": [
+        "NOT GIVEN"
+      ],
+      "6": [
+        "TRUE"
+      ],
+      "7": [
+        "genetics"
+      ],
+      "8": [
+        "power"
+      ],
+      "9": [
+        "injuries"
+      ],
+      "10": [
+        "training"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "YES"
+      ],
+      "15": [
+        "NOT GIVEN"
+      ],
+      "16": [
+        "NO"
+      ],
+      "17": [
+        "YES"
+      ],
+      "18": [
+        "NOT GIVEN"
+      ],
+      "19": [
+        "NO"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "E"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "D"
+      ],
+      "24": [
+        "oral histories"
+      ],
+      "25": [
+        "humanistic study"
+      ],
+      "26": [
+        "historical discipline"
+      ],
+      "27": [
+        "scientist"
+      ],
+      "28": [
+        "iv"
+      ],
+      "29": [
+        "i"
+      ],
+      "30": [
+        "iii"
+      ],
+      "31": [
+        "v"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "B"
+      ],
+      "34": [
+        "A"
+      ],
+      "35": [
+        "B"
+      ],
+      "36": [
+        "NO"
+      ],
+      "37": [
+        "YES"
+      ],
+      "38": [
+        "YES"
+      ],
+      "39": [
+        "NOT GIVEN"
+      ],
+      "40": [
+        "NOT GIVEN"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "groups": [
+          {
+            "questions": [
+              20,
+              21
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              22,
+              23
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "humanistic study",
+                "historical discipline"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-4-user-key.json"
+      }
+    ]
   }
 }

@@ -735,9 +735,9 @@
     "status": "complete"
   },
   "reading-4-4": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-5-1": {
     "available": 0,

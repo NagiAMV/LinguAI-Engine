@@ -576,3 +576,32 @@ test("Cambridge 4 Test 3 requires both Q5 countries and preserves supplied varia
   );
   assert.equal(statuses["reading-4-3"].status, "complete");
 });
+
+test("Cambridge 4 Test 4 accepts each supplied unordered pair only as a full set", () => {
+  const k = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-answer-keys.json", import.meta.url),
+    ),
+  )["reading-4-4"];
+  assert.equal(Object.keys(k.answers).length, 40);
+  for (const [numbers, a, b] of [
+    [[20, 21], "D", "E"],
+    [[22, 23], "C", "D"],
+    [[25, 26], "humanistic study", "historical discipline"],
+  ]) {
+    assert.equal(reviewAnswer([a, b], numbers, k, true).status, "correct");
+    assert.equal(reviewAnswer([b, a], numbers, k, true).status, "correct");
+    assert.equal(reviewAnswer([a], numbers, k, true).status, "incorrect");
+    assert.equal(reviewAnswer([a, a], numbers, k, true).status, "incorrect");
+  }
+  assert.equal(reviewAnswer(["D", "F"], [20, 21], k, true).status, "incorrect");
+  assert.equal(reviewAnswer(["C", "A"], [22, 23], k, true).status, "incorrect");
+  assert.equal(reviewAnswer("oral histories", [24], k).status, "correct");
+  assert.equal(reviewAnswer("scientist", [27], k).status, "correct");
+  const statuses = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-key-status.json", import.meta.url),
+    ),
+  );
+  assert.equal(statuses["reading-4-4"].status, "complete");
+});
