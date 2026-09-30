@@ -13,7 +13,11 @@
       },
       "answers": {
         "1": ["isolation"],
-        "2": ["economic globalisation", "economic globalization", "socio-economic pressures"],
+        "2": [
+          "economic globalisation",
+          "economic globalization",
+          "socio-economic pressures"
+        ],
         "3": ["cultural identity"],
         "4": ["traditional skills"],
         "5": ["E"],
