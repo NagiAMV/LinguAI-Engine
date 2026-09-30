@@ -1,0 +1,92 @@
+{
+  "note": "User-supplied Cambridge 5 Academic Reading Test 1 transcription. Q1-3 are an unordered set [D, E, G]. Slash-separated Q4 alternatives are preserved explicitly; no other alternatives inferred.",
+  "parts": [
+    {
+      "book": 5,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": ["D"],
+        "2": ["E"],
+        "3": ["G"],
+        "4": ["clerks", "copying clerks"],
+        "5": ["library"],
+        "6": ["stability"],
+        "7": ["pension"],
+        "8": ["TRUE"],
+        "9": ["FALSE"],
+        "10": ["NOT GIVEN"],
+        "11": ["FALSE"],
+        "12": ["FALSE"],
+        "13": ["TRUE"]
+      },
+      "groups": [
+        {
+          "questions": [1, 2, 3],
+          "acceptedSets": [["D", "E", "G"]]
+        }
+      ]
+    },
+    {
+      "book": 5,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": ["F"],
+        "15": ["A"],
+        "16": ["B"],
+        "17": ["D"],
+        "18": ["I"],
+        "19": ["C"],
+        "20": ["B"],
+        "21": ["D"],
+        "22": ["C"],
+        "23": ["NOT GIVEN"],
+        "24": ["TRUE"],
+        "25": ["FALSE"],
+        "26": ["FALSE"]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": ["YES"],
+        "28": ["NOT GIVEN"],
+        "29": ["NO"],
+        "30": ["NOT GIVEN"],
+        "31": ["YES"],
+        "32": ["NO"],
+        "33": ["C"],
+        "34": ["D"],
+        "35": ["C"],
+        "36": ["B"],
+        "37": ["B"],
+        "38": ["F"],
+        "39": ["D"],
+        "40": ["I"]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -605,3 +605,65 @@ test("Cambridge 4 Test 4 accepts each supplied unordered pair only as a full set
   );
   assert.equal(statuses["reading-4-4"].status, "complete");
 });
+
+test("Cambridge 5 Tests 1-3 preserve all keys and unordered answer groups", () => {
+  const keys = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-answer-keys.json", import.meta.url),
+    ),
+  );
+  const statuses = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-key-status.json", import.meta.url),
+    ),
+  );
+  const t1 = keys["reading-5-1"];
+  assert.equal(Object.keys(t1.answers).length, 40);
+  for (const set of [
+    ["D", "E", "G"],
+    ["D", "G", "E"],
+    ["E", "D", "G"],
+    ["E", "G", "D"],
+    ["G", "D", "E"],
+    ["G", "E", "D"],
+  ])
+    assert.equal(reviewAnswer(set, [1, 2, 3], t1, true).status, "correct");
+  for (const set of [
+    ["D", "E"],
+    ["D", "D", "G"],
+    ["D", "E", "A"],
+  ])
+    assert.equal(reviewAnswer(set, [1, 2, 3], t1, true).status, "incorrect");
+  for (const value of ["clerks", "copying clerks"])
+    assert.equal(reviewAnswer(value, [4], t1).status, "correct");
+
+  const t2 = keys["reading-5-2"];
+  assert.equal(Object.keys(t2.answers).length, 40);
+  for (const pair of [
+    ["technical vocabulary", "grammatical resources"],
+    ["grammatical resources", "technical vocabulary"],
+  ])
+    assert.equal(reviewAnswer(pair, [30, 31], t2, true).status, "correct");
+  for (const pair of [
+    ["technical vocabulary"],
+    ["technical vocabulary", "technical vocabulary"],
+    ["technical vocabulary", "grammar"],
+  ])
+    assert.equal(reviewAnswer(pair, [30, 31], t2, true).status, "incorrect");
+  for (const value of [
+    "Principia",
+    "the principia",
+    "Newton's Principia",
+    "mathematical treatise",
+  ])
+    assert.equal(reviewAnswer(value, [39], t2).status, "correct");
+  for (const value of ["local", "more local", "local audience"])
+    assert.equal(reviewAnswer(value, [40], t2).status, "correct");
+
+  const t3 = keys["reading-5-3"];
+  assert.equal(Object.keys(t3.answers).length, 40);
+  assert.equal(reviewAnswer("iv", [14], t3).status, "correct");
+  assert.equal(reviewAnswer("FALSE", [36], t3).status, "correct");
+  for (const test of [1, 2, 3])
+    assert.equal(statuses[`reading-5-${test}`].status, "complete");
+});

@@ -1,0 +1,97 @@
+{
+  "note": "User-supplied Cambridge 5 Academic Reading Test 2 transcription. Q30-31 are an unordered pair [technical vocabulary, grammatical resources]. Explicit slash-separated answer alternatives are preserved; no other alternatives inferred.",
+  "parts": [
+    {
+      "book": 5,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": ["candlewax"],
+        "2": ["synthetic"],
+        "3": ["chemistry"],
+        "4": ["Novalak"],
+        "5": ["fillers"],
+        "6": ["hexa"],
+        "7": ["raw"],
+        "8": ["pressure"],
+        "9": ["B"],
+        "10": ["C"],
+        "11": ["TRUE"],
+        "12": ["FALSE"],
+        "13": ["FALSE"]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": ["FALSE"],
+        "15": ["NOT GIVEN"],
+        "16": ["TRUE"],
+        "17": ["FALSE"],
+        "18": ["TRUE"],
+        "19": ["NOT GIVEN"],
+        "20": ["TRUE"],
+        "21": ["problem solving"],
+        "22": ["temporal lobes"],
+        "23": ["evaluating information"],
+        "24": ["C"],
+        "25": ["A"],
+        "26": ["F"],
+        "27": ["D"]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-2-user-key.json"
+      },
+      "answers": {
+        "28": ["Latin"],
+        "29": ["doctors"],
+        "30": ["technical vocabulary"],
+        "31": ["grammatical resources"],
+        "32": ["Royal Society"],
+        "33": ["German"],
+        "34": ["industrial revolution"],
+        "35": ["NOT GIVEN"],
+        "36": ["FALSE"],
+        "37": ["TRUE"],
+        "38": ["popular"],
+        "39": [
+          "Principia",
+          "the principia",
+          "Newton's Principia",
+          "mathematical treatise"
+        ],
+        "40": ["local", "more local", "local audience"]
+      },
+      "groups": [
+        {
+          "questions": [30, 31],
+          "acceptedSets": [["technical vocabulary", "grammatical resources"]]
+        }
+      ]
+    }
+  ]
+}

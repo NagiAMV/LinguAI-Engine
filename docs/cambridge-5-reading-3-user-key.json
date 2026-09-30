@@ -1,0 +1,87 @@
+{
+  "note": "User-supplied Cambridge 5 Academic Reading Test 3 transcription. No additional alternatives or unordered groups were supplied or inferred.",
+  "parts": [
+    {
+      "book": 5,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": ["D"],
+        "2": ["D"],
+        "3": ["C"],
+        "4": ["E"],
+        "5": ["B"],
+        "6": ["D"],
+        "7": ["A"],
+        "8": ["B"],
+        "9": ["D"],
+        "10": ["C"],
+        "11": ["TRUE"],
+        "12": ["FALSE"],
+        "13": ["NOT GIVEN"]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": ["iv"],
+        "15": ["i"],
+        "16": ["v"],
+        "17": ["viii"],
+        "18": ["YES"],
+        "19": ["NOT GIVEN"],
+        "20": ["NO"],
+        "21": ["YES"],
+        "22": ["NOT GIVEN"],
+        "23": ["YES"],
+        "24": ["F"],
+        "25": ["A"],
+        "26": ["B"]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": ["E"],
+        "28": ["B"],
+        "29": ["A"],
+        "30": ["F"],
+        "31": ["B"],
+        "32": ["NOT GIVEN"],
+        "33": ["FALSE"],
+        "34": ["NOT GIVEN"],
+        "35": ["TRUE"],
+        "36": ["FALSE"],
+        "37": ["TRUE"],
+        "38": ["B"],
+        "39": ["A"],
+        "40": ["D"]
+      },
+      "groups": []
+    }
+  ]
+}

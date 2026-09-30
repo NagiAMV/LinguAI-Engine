@@ -740,19 +740,19 @@
     "status": "complete"
   },
   "reading-5-1": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-5-2": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-5-3": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-5-4": {
     "available": 0,
