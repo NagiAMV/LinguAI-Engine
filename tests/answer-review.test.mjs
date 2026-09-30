@@ -208,3 +208,16 @@ test('Cambridge 4 Test 1 requires both words within a single answer', () => {
   assert.equal(reviewAnswer('airborne flying fish',[24],k).status,'correct');
   assert.equal(reviewAnswer('flying fish',[24],k).status,'incorrect');
 });
+
+test('Cambridge 4 Test 2 preserves explicit alternatives and the unordered triple', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-4-2'];
+  assert.equal(Object.keys(k.answers).length,40);
+  for(const value of ['economic globalisation','economic globalization','socio-economic pressures'])assert.equal(reviewAnswer(value,[2],k).status,'correct');
+  assert.equal(reviewAnswer('economic globalism',[2],k).status,'incorrect');
+  for(const value of ['emotional','emotional problems'])assert.equal(reviewAnswer(value,[24],k).status,'correct');
+  for(const value of ['headache','headaches'])assert.equal(reviewAnswer(value,[25],k).status,'correct');
+  for(const set of [['A','C','F'],['A','F','C'],['C','A','F'],['C','F','A'],['F','A','C'],['F','C','A']])assert.equal(reviewAnswer(set,[33,34,35],k,true).status,'correct');
+  for(const set of [['A','C'],['A','A','F'],['A','C','G']])assert.equal(reviewAnswer(set,[33,34,35],k,true).status,'incorrect');
+  const statuses=JSON.parse(readFileSync(new URL('../src/data/cambridge-key-status.json',import.meta.url)));
+  assert.equal(statuses['reading-4-2'].status,'complete');
+});

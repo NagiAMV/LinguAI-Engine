@@ -1,0 +1,92 @@
+{
+  "note": "User-supplied Cambridge 4 Academic Reading Test 2 transcription. Slash-separated alternatives for Q2, Q24, and Q25 are preserved as explicit accepted answers. Q33-35 are one unordered answer set [A, C, F]; the per-question entries are storage anchors only. No other alternatives inferred.",
+  "parts": [
+    {
+      "book": 4,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": ["isolation"],
+        "2": ["economic globalisation", "economic globalization", "socio-economic pressures"],
+        "3": ["cultural identity"],
+        "4": ["traditional skills"],
+        "5": ["E"],
+        "6": ["B"],
+        "7": ["D"],
+        "8": ["C"],
+        "9": ["B"],
+        "10": ["NO"],
+        "11": ["YES"],
+        "12": ["NOT GIVEN"],
+        "13": ["YES"]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": ["C"],
+        "15": ["B"],
+        "16": ["YES"],
+        "17": ["NO"],
+        "18": ["YES"],
+        "19": ["YES"],
+        "20": ["YES"],
+        "21": ["NOT GIVEN"],
+        "22": ["NO"],
+        "23": ["YES"],
+        "24": ["emotional", "emotional problems"],
+        "25": ["headache", "headaches"],
+        "26": ["general ill health"]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": ["H"],
+        "28": ["F"],
+        "29": ["A"],
+        "30": ["H"],
+        "31": ["I"],
+        "32": ["B"],
+        "33": ["A"],
+        "34": ["C"],
+        "35": ["F"],
+        "36": ["B"],
+        "37": ["G"],
+        "38": ["E"],
+        "39": ["D"],
+        "40": ["A"]
+      },
+      "groups": [
+        {
+          "questions": [33, 34, 35],
+          "acceptedSets": [["A", "C", "F"]]
+        }
+      ]
+    }
+  ]
+}

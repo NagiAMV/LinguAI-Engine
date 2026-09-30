@@ -3311,5 +3311,228 @@
         "reference": "docs/cambridge-4-reading-1-user-key.json"
       }
     ]
+  },
+  "reading-4-2": {
+    "book": 4,
+    "test": 2,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "isolation"
+      ],
+      "2": [
+        "economic globalisation",
+        "economic globalization",
+        "socio-economic pressures"
+      ],
+      "3": [
+        "cultural identity"
+      ],
+      "4": [
+        "traditional skills"
+      ],
+      "5": [
+        "E"
+      ],
+      "6": [
+        "B"
+      ],
+      "7": [
+        "D"
+      ],
+      "8": [
+        "C"
+      ],
+      "9": [
+        "B"
+      ],
+      "10": [
+        "NO"
+      ],
+      "11": [
+        "YES"
+      ],
+      "12": [
+        "NOT GIVEN"
+      ],
+      "13": [
+        "YES"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "YES"
+      ],
+      "17": [
+        "NO"
+      ],
+      "18": [
+        "YES"
+      ],
+      "19": [
+        "YES"
+      ],
+      "20": [
+        "YES"
+      ],
+      "21": [
+        "NOT GIVEN"
+      ],
+      "22": [
+        "NO"
+      ],
+      "23": [
+        "YES"
+      ],
+      "24": [
+        "emotional",
+        "emotional problems"
+      ],
+      "25": [
+        "headache",
+        "headaches"
+      ],
+      "26": [
+        "general ill health"
+      ],
+      "27": [
+        "H"
+      ],
+      "28": [
+        "F"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "H"
+      ],
+      "31": [
+        "I"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "A"
+      ],
+      "34": [
+        "C"
+      ],
+      "35": [
+        "F"
+      ],
+      "36": [
+        "B"
+      ],
+      "37": [
+        "G"
+      ],
+      "38": [
+        "E"
+      ],
+      "39": [
+        "D"
+      ],
+      "40": [
+        "A"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": [
+          {
+            "questions": [
+              33,
+              34,
+              35
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C",
+                "F"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-2-user-key.json"
+      }
+    ]
   }
 }

@@ -1,6 +1,12 @@
 # Cambridge answer keys: storage and collection checkpoint
 
-## Latest import: Cambridge 4 Reading Test 1
+## Latest import: Cambridge 4 Reading Test 2 (2026-09-30)
+
+All 40 user-transcribed answers are saved for Questions 1–40 across all three passages. Q2 preserves economic globalisation, economic globalization, and socio-economic pressures; Q24 and Q25 preserve the supplied alternatives. Q33–35 are stored as one unordered set [A, C, F]; all six permutations are accepted. Source: cambridge-4-reading-2-user-key.json. No other alternatives inferred.
+
+Project totals: **612 keys, 46 complete parts, 15 complete tests**. Cambridge 1–4 Reading Tests 1–2 are complete; Listening remains deferred. Next source: Cambridge 4 Academic Reading Test 3. All regression tests are being run for this import.
+
+## Previous import: Cambridge 4 Reading Test 1
 
 All 40 user-supplied keys are saved, with source in cambridge-4-reading-1-user-key.json. Q17 and Q21 each remain ONE question and require BOTH supplied words within its existing text field. Both word orders are accepted with space, comma or and separation; isolated words, repeated words and extra words fail. Explicit optional plurals/articles are expanded locally without changing normalization globally.
 
