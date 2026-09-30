@@ -25,6 +25,8 @@ test("buildSmartEvaluationPrompt uses speaking criteria with examiner-style name
     /Fluency and Coherence|Lexical Resource|Grammatical Range and Accuracy|Pronunciation/,
   );
   assert.doesNotMatch(prompt, /Fluency and coherence/);
+  assert.match(prompt, /Not assessed: transcript only; audio analysis is required/);
+  assert.match(prompt, /Do not infer speech rate, pauses, hesitation/);
 });
 
 test("parseStructuredFeedback extracts JSON from markdown wrappers", () => {

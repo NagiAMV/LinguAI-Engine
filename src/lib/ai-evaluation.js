@@ -56,7 +56,9 @@ Important rules:
 - Keep the feedback specific and actionable.
 - If the answer is short or weak, reflect that honestly.
 - Focus on the most important weaknesses and priority improvements.
-- For speaking, treat the transcript as a spoken response and assess clarity, fluency, coherence, grammar, vocabulary, pronunciation, and interaction.
+- For speaking transcripts, assess organization, clarity, grammar, vocabulary, and idea development from the text only.
+- Do not infer speech rate, pauses, hesitation, accent, sounds, stress, or intonation from a transcript.
+- Set the speaking "Pronunciation" criterion to exactly: "Not assessed: transcript only; audio analysis is required."
 - For writing, assess the criteria: ${list.join(", ")}.
 - Use the criterion labels shown in the JSON schema exactly as written.
 
