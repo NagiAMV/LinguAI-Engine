@@ -1,10 +1,7 @@
 {
   "note": "User-supplied Cambridge 4 Academic Reading Test 3 transcription. Q5 is one answer requiring both Sudan and India; either order is accepted with space, comma-space, or and separators, while either country alone is incorrect. Parenthesized words in Q32 are expanded into explicit optional-word variants. No other alternatives inferred.",
   "requiredPairs": {
-    "5": [
-      "Sudan",
-      "India"
-    ]
+    "5": ["Sudan", "India"]
   },
   "parts": [
     {

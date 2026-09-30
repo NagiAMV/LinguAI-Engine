@@ -543,7 +543,10 @@ test("Cambridge 4 Test 3 requires both Q5 countries and preserves supplied varia
     ),
   )["reading-4-3"];
   assert.equal(Object.keys(k.answers).length, 40);
-  for (const [a, b] of [["Sudan", "India"], ["India", "Sudan"]])
+  for (const [a, b] of [
+    ["Sudan", "India"],
+    ["India", "Sudan"],
+  ])
     for (const separator of [" ", ", ", " and "])
       assert.equal(reviewAnswer(a + separator + b, [5], k).status, "correct");
   for (const value of ["Sudan", "India", "Sudan Sudan", "Sudan India extra"])
