@@ -1,0 +1,201 @@
+{
+  "note": "User-supplied key. Q17 requires forward AND downward in one field; Q21 requires bowhead AND humpback in one field. Each is a single question, accepting both orders with space, comma-space, or and separator. Neither component alone accepted. No question renumbering or synonym inference.",
+  "requiredPairs": {
+    "17": [
+      "forward",
+      "downward"
+    ],
+    "21": [
+      "bowhead",
+      "humpback"
+    ]
+  },
+  "parts": [
+    {
+      "book": 4,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "FALSE"
+        ],
+        "3": [
+          "TRUE"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "FALSE"
+        ],
+        "6": [
+          "NOT GIVEN"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "M"
+        ],
+        "10": [
+          "E"
+        ],
+        "11": [
+          "G"
+        ],
+        "12": [
+          "P"
+        ],
+        "13": [
+          "J"
+        ],
+        "14": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-1-user-key.json"
+      },
+      "answers": {
+        "15": [
+          "taste buds"
+        ],
+        "16": [
+          "baleen",
+          "the baleen whales"
+        ],
+        "17": [
+          "forward downward",
+          "forward, downward",
+          "forward and downward",
+          "downward forward",
+          "downward, forward",
+          "downward and forward"
+        ],
+        "18": [
+          "freshwater dolphin",
+          "freshwater dolphins",
+          "the freshwater dolphin",
+          "the freshwater dolphins"
+        ],
+        "19": [
+          "water",
+          "the water"
+        ],
+        "20": [
+          "lower frequencies",
+          "the lower frequencies"
+        ],
+        "21": [
+          "bowhead humpback",
+          "bowhead, humpback",
+          "bowhead and humpback",
+          "humpback bowhead",
+          "humpback, bowhead",
+          "humpback and bowhead"
+        ],
+        "22": [
+          "touch",
+          "sense of touch"
+        ],
+        "23": [
+          "freshwater dolphin",
+          "freshwater dolphins",
+          "the freshwater dolphin",
+          "the freshwater dolphins"
+        ],
+        "24": [
+          "airborne flying fish"
+        ],
+        "25": [
+          "clear water",
+          "clear waters",
+          "clear open water",
+          "clear open waters"
+        ],
+        "26": [
+          "acoustic sense",
+          "the acoustic sense"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "E"
+        ],
+        "31": [
+          "C"
+        ],
+        "32": [
+          "A"
+        ],
+        "33": [
+          "pairs"
+        ],
+        "34": [
+          "shapes"
+        ],
+        "35": [
+          "sighted"
+        ],
+        "36": [
+          "sighted"
+        ],
+        "37": [
+          "deep"
+        ],
+        "38": [
+          "blind"
+        ],
+        "39": [
+          "similar"
+        ],
+        "40": [
+          "B"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

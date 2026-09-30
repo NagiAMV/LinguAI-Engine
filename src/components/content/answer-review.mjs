@@ -54,7 +54,7 @@ export function buildReviewRows(test, questions, answers, flags, key) {
       const multiple = Boolean(verified) || members[0]?.multiple;
       const value = multiple ? names.flatMap(n => Array.isArray(answers[n]) ? answers[n] : [answers[n] || '']) : answers[name];
       const response = Array.isArray(value) ? value.filter(v => String(v).trim()).join(', ') : value || '';
-      return [{ name, part: part.id, numbers: members.map(q => q.number).join('–'), response,
+      return [{ name, names, part: part.id, numbers: members.map(q => q.number).join('–'), response,
         flagged: members.some(q => flags.includes(q.id)),
         ...reviewAnswer(value, members.map(q => q.number), key, multiple) }];
     });

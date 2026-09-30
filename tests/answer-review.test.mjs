@@ -164,3 +164,47 @@ test('Cambridge 3 Test 2 preserves explicit spelling and number alternatives', (
   assert.equal(reviewAnswer(' ROLE   SIGN ',[36],k).status,'correct');
   assert.equal(reviewAnswer('',[40],k).status,'blank');
 });
+
+test('Cambridge 3 Test 3 preserves case-insensitive keys and unordered triple', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-3-3'];
+  assert.equal(Object.keys(k.answers).length,40);
+  assert.equal(reviewAnswer('ts',[7],k).status,'correct');
+  assert.equal(reviewAnswer('VI',[15],k).status,'correct');
+  assert.equal(reviewAnswer('NOT   GIVEN',[29],k).status,'correct');
+  for(const set of [['B','D','E'],['B','E','D'],['D','B','E'],['D','E','B'],['E','B','D'],['E','D','B']]) assert.equal(reviewAnswer(set,[35,36,37],k,true).status,'correct');
+  for(const set of [['B','D'],['B','B','E'],['B','D','F']]) assert.equal(reviewAnswer(set,[35,36,37],k,true).status,'incorrect');
+  assert.equal(reviewAnswer('',[40],k).status,'blank');
+});
+
+test('Cambridge 3 Test 4 maps confirmed numbering shift and preserves variants', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-3-4'];
+  assert.equal(Object.keys(k.answers).length,41);
+  assert.equal(reviewAnswer(['E','D'],[16,17],k,true).status,'correct');
+  assert.equal(reviewAnswer(['D'],[16,17],k,true).status,'incorrect');
+  for(const value of ['advertising','selling advertising','advertising space','selling advertising space']) assert.equal(reviewAnswer(value,[18],k).status,'correct');
+  for(const value of ['colour scheme','three colours','purple, white, green','purple, white, and green']) assert.equal(reviewAnswer(value,[19],k).status,'correct');
+  assert.equal(reviewAnswer("THE WOMAN'S EXHIBITION",[20],k).status,'correct');
+  assert.equal(reviewAnswer('NO',[21],k).status,'correct');
+  assert.equal(reviewAnswer('A',[29],k).status,'correct');
+  for(const value of ['supervision','leadership','management']) assert.equal(reviewAnswer(value,[32],k).status,'correct');
+  assert.equal(reviewAnswer('group methods of leadership',[35],k).status,'correct');
+  assert.equal(reviewAnswer('decreased',[37],k).status,'correct');
+  assert.equal(reviewAnswer('F',[41],k).status,'correct');
+  assert.equal(reviewAnswer('G',[41],k).status,'incorrect');
+  const statuses=JSON.parse(readFileSync(new URL('../src/data/cambridge-key-status.json',import.meta.url)));
+  for(let book=1;book<=3;book++)for(let test=1;test<=4;test++)assert.equal(statuses['reading-'+book+'-'+test].status,'complete');
+});
+
+test('Cambridge 4 Test 1 requires both words within a single answer', () => {
+  const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-4-1'];
+  assert.equal(Object.keys(k.answers).length,40);
+  for(const [number,a,b] of [[17,'forward','downward'],[21,'bowhead','humpback']]) {
+    for(const words of [[a,b],[b,a]])for(const separator of [' ', ', ', ' and '])assert.equal(reviewAnswer(words.join(separator).toUpperCase(),[number],k).status,'correct');
+    for(const value of [a,b,a+' '+a,a+' '+b+' extra'])assert.equal(reviewAnswer(value,[number],k).status,'incorrect');
+    assert.equal(reviewAnswer('',[number],k).status,'blank');
+  }
+  for(const value of ['freshwater dolphin','freshwater dolphins','the freshwater dolphin','the freshwater dolphins'])assert.equal(reviewAnswer(value,[18],k).status,'correct');
+  for(const value of ['clear water','clear waters','clear open water','clear open waters'])assert.equal(reviewAnswer(value,[25],k).status,'correct');
+  assert.equal(reviewAnswer('airborne flying fish',[24],k).status,'correct');
+  assert.equal(reviewAnswer('flying fish',[24],k).status,'incorrect');
+});

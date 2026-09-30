@@ -1,0 +1,288 @@
+{
+  "note": "User-supplied numbering preserved in suppliedAnswers. User explicitly confirmed mapping D/E to imported Q16–17 and shifting original Q17–40 to imported Q18–41. Original test content and saved answer field names unchanged.",
+  "originalNotation": {
+    "17": "(selling) advertising (space)",
+    "18": "colour scheme // three colours // purple, white, (and) green",
+    "19": "(the) Woman's Exhibition",
+    "34": "(group methods of) leadership"
+  },
+  "suppliedAnswers": {
+    "1": [
+      "Los Angeles"
+    ],
+    "2": [
+      "London"
+    ],
+    "3": [
+      "Singapore"
+    ],
+    "4": [
+      "London"
+    ],
+    "5": [
+      "Los Angeles"
+    ],
+    "6": [
+      "YES"
+    ],
+    "7": [
+      "YES"
+    ],
+    "8": [
+      "NO"
+    ],
+    "9": [
+      "NO"
+    ],
+    "10": [
+      "NO"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "D"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "D"
+    ],
+    "16": [
+      "D and E"
+    ],
+    "17": [
+      "advertising",
+      "selling advertising",
+      "advertising space",
+      "selling advertising space"
+    ],
+    "18": [
+      "colour scheme",
+      "three colours",
+      "purple, white, green",
+      "purple, white, and green"
+    ],
+    "19": [
+      "Woman's Exhibition",
+      "the Woman's Exhibition"
+    ],
+    "20": [
+      "NO"
+    ],
+    "21": [
+      "YES"
+    ],
+    "22": [
+      "NO"
+    ],
+    "23": [
+      "NO"
+    ],
+    "24": [
+      "NOT GIVEN"
+    ],
+    "25": [
+      "YES"
+    ],
+    "26": [
+      "YES"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "supervision",
+      "leadership",
+      "management"
+    ],
+    "32": [
+      "productivity"
+    ],
+    "33": [
+      "reduced",
+      "cut",
+      "decreased"
+    ],
+    "34": [
+      "leadership",
+      "group methods of leadership"
+    ],
+    "35": [
+      "overstaffed"
+    ],
+    "36": [
+      "reduced",
+      "cut",
+      "decreased"
+    ],
+    "37": [
+      "C"
+    ],
+    "38": [
+      "D"
+    ],
+    "39": [
+      "G"
+    ],
+    "40": [
+      "F"
+    ]
+  },
+  "mappedParts": [
+    {
+      "book": 3,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "D"
+        ],
+        "16": [
+          "D",
+          "E"
+        ],
+        "17": [
+          "D",
+          "E"
+        ],
+        "18": [
+          "advertising",
+          "selling advertising",
+          "advertising space",
+          "selling advertising space"
+        ],
+        "19": [
+          "colour scheme",
+          "three colours",
+          "purple, white, green",
+          "purple, white, and green"
+        ],
+        "20": [
+          "Woman's Exhibition",
+          "the Woman's Exhibition"
+        ],
+        "21": [
+          "NO"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "NO"
+        ],
+        "24": [
+          "NO"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "YES"
+        ],
+        "27": [
+          "YES"
+        ],
+        "28": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            16,
+            17
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 3,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-reading-4-user-key.json"
+      },
+      "answers": {
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "C"
+        ],
+        "32": [
+          "supervision",
+          "leadership",
+          "management"
+        ],
+        "33": [
+          "productivity"
+        ],
+        "34": [
+          "reduced",
+          "cut",
+          "decreased"
+        ],
+        "35": [
+          "leadership",
+          "group methods of leadership"
+        ],
+        "36": [
+          "overstaffed"
+        ],
+        "37": [
+          "reduced",
+          "cut",
+          "decreased"
+        ],
+        "38": [
+          "C"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "G"
+        ],
+        "41": [
+          "F"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

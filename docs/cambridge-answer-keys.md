@@ -1,5 +1,23 @@
 # Cambridge answer keys: storage and collection checkpoint
 
+## Latest import: Cambridge 4 Reading Test 1
+
+All 40 user-supplied keys are saved, with source in cambridge-4-reading-1-user-key.json. Q17 and Q21 each remain ONE question and require BOTH supplied words within its existing text field. Both word orders are accepted with space, comma or and separation; isolated words, repeated words and extra words fail. Explicit optional plurals/articles are expanded locally without changing normalization globally.
+
+Project totals: **572 keys, 43 complete parts, 14 complete tests**. Existing keys and dataset unchanged. All 27 regression tests passed. Next source: Cambridge 4 Academic Reading Test 2.
+
+## Latest import: Cambridge 3 Reading Test 4 (2026-09-30)
+
+**Cambridge 1–3 Reading are complete: all twelve tests.** Test 4 source is preserved in cambridge-3-reading-4-user-key.json with both original numbering and mapped parts. User explicitly confirmed the +1 shift after original Q16: D/E occupies imported Q16–17; original Q17–40 maps to imported Q18–41. Thus Test 4 has 41 keyed question slots in the existing dataset. No question content, field names, saved answers or sessions were renumbered.
+
+All explicit optional words and alternatives were preserved. Project totals: **532 keys, 40 complete parts, 13 complete tests**. Existing Cambridge 19 coverage is unchanged. All 26 regression tests passed. Next source needed: Cambridge 4 Academic Reading Test 1. Listening remains deferred.
+
+## Latest import: Cambridge 3 Reading Test 3
+
+Cambridge 3 Reading Tests 1–3 are complete, 40 keys each. Test 3 source: cambridge-3-reading-3-user-key.json. Q35–37 stores B/D/E as an unordered set; all six permutations are tested. No existing keys or imported test content changed, and no external requests were made.
+
+Current totals: **491 keys, 37 complete parts, 12 complete tests**. Cambridge 1 and 2 Reading remain complete. Next source needed: Cambridge 3 Reading Test 4. All 25 regression tests passed.
+
 ## Current coverage after Cambridge 3 Test 1
 
 Cambridge 3 Academic Reading Test 1 is complete: **40/40 keys**, including the unordered B/F pair for Q34–35. User transcription is preserved in cambridge-3-reading-1-user-key.json. Each part was saved separately. Existing keys and sessions were not changed; no external requests were made.
