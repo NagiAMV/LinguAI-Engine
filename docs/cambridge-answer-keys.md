@@ -1,6 +1,12 @@
 # Cambridge answer keys: storage and collection checkpoint
 
-## Latest import: Cambridge 4 Reading Test 2 (2026-09-30)
+## Latest import: Cambridge 4 Reading Test 3 (2026-09-30)
+
+All 40 user-transcribed answers are saved for Questions 1–40 across all three passages. Q5 requires both Sudan and India in one answer; either order is accepted with space, comma or and separators, and either country alone is incorrect. Q7 alternatives, Q18/Q20–26 variants, and Q32 optional-word variants are preserved exactly from the transcription. Source: cambridge-4-reading-3-user-key.json. No other alternatives inferred.
+
+Project totals: **652 keys, 49 complete parts, 16 complete tests**. Cambridge 1–4 Reading Tests 1–3 are complete; Listening remains deferred. Next source: Cambridge 4 Academic Reading Test 4. All regression tests are being run for this import.
+
+## Previous import: Cambridge 4 Reading Test 2 (2026-09-30)
 
 All 40 user-transcribed answers are saved for Questions 1–40 across all three passages. Q2 preserves economic globalisation, economic globalization, and socio-economic pressures; Q24 and Q25 preserve the supplied alternatives. Q33–35 are stored as one unordered set [A, C, F]; all six permutations are accepted. Source: cambridge-4-reading-2-user-key.json. No other alternatives inferred.
 

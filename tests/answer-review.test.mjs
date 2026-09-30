@@ -535,3 +535,41 @@ test("Cambridge 4 Test 2 preserves explicit alternatives and the unordered tripl
   );
   assert.equal(statuses["reading-4-2"].status, "complete");
 });
+
+test("Cambridge 4 Test 3 requires both Q5 countries and preserves supplied variants", () => {
+  const k = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-answer-keys.json", import.meta.url),
+    ),
+  )["reading-4-3"];
+  assert.equal(Object.keys(k.answers).length, 40);
+  for (const [a, b] of [["Sudan", "India"], ["India", "Sudan"]])
+    for (const separator of [" ", ", ", " and "])
+      assert.equal(reviewAnswer(a + separator + b, [5], k).status, "correct");
+  for (const value of ["Sudan", "India", "Sudan Sudan", "Sudan India extra"])
+    assert.equal(reviewAnswer(value, [5], k).status, "incorrect");
+  for (const value of [
+    "linguist",
+    "the linguist",
+    "linguist acts",
+    "the linguist acts",
+    "linguists",
+    "the linguists",
+    "linguists act",
+    "the linguists act",
+  ])
+    assert.equal(reviewAnswer(value, [32], k).status, "correct");
+  for (const value of ["Shoe Shine", "Shoe Shine Collective"])
+    assert.equal(reviewAnswer(value, [7], k).status, "correct");
+  for (const value of ["plates", "the plates", "the tectonic plates"])
+    assert.equal(reviewAnswer(value, [18], k).status, "correct");
+  for (const value of ["behaviour", "behavior"])
+    assert.equal(reviewAnswer(value, [35], k).status, "incorrect");
+  assert.equal(reviewAnswer("non-verbal behavior", [35], k).status, "correct");
+  const statuses = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-key-status.json", import.meta.url),
+    ),
+  );
+  assert.equal(statuses["reading-4-3"].status, "complete");
+});

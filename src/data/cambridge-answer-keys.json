@@ -3534,5 +3534,243 @@
         "reference": "docs/cambridge-4-reading-2-user-key.json"
       }
     ]
+  },
+  "reading-4-3": {
+    "book": 4,
+    "test": 3,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "A"
+      ],
+      "2": [
+        "D"
+      ],
+      "3": [
+        "C"
+      ],
+      "4": [
+        "C"
+      ],
+      "5": [
+        "Sudan India",
+        "Sudan, India",
+        "Sudan and India",
+        "India Sudan",
+        "India, Sudan",
+        "India and Sudan"
+      ],
+      "6": [
+        "bicycles"
+      ],
+      "7": [
+        "Shoe Shine",
+        "Shoe Shine Collective"
+      ],
+      "8": [
+        "life skills"
+      ],
+      "9": [
+        "NO"
+      ],
+      "10": [
+        "NOT GIVEN"
+      ],
+      "11": [
+        "NO"
+      ],
+      "12": [
+        "YES"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "iii"
+      ],
+      "15": [
+        "i"
+      ],
+      "16": [
+        "iv"
+      ],
+      "17": [
+        "vi"
+      ],
+      "18": [
+        "plates",
+        "the plates",
+        "the tectonic plates"
+      ],
+      "19": [
+        "magma"
+      ],
+      "20": [
+        "ring of fire"
+      ],
+      "21": [
+        "600",
+        "600 years",
+        "for 600 years"
+      ],
+      "22": [
+        "water",
+        "the water",
+        "oceans",
+        "the oceans"
+      ],
+      "23": [
+        "lava",
+        "magma",
+        "molten rock"
+      ],
+      "24": [
+        "India",
+        "western India"
+      ],
+      "25": [
+        "explodes"
+      ],
+      "26": [
+        "gases",
+        "the gases",
+        "trapped gases"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "F"
+      ],
+      "32": [
+        "linguist",
+        "the linguist",
+        "linguist acts",
+        "the linguist acts",
+        "linguists",
+        "the linguists",
+        "linguists act",
+        "the linguists act"
+      ],
+      "33": [
+        "foreign languages"
+      ],
+      "34": [
+        "quality",
+        "the quality",
+        "the poor quality"
+      ],
+      "35": [
+        "non-verbal behaviour",
+        "non-verbal behavior",
+        "facial expression",
+        "facial expressions"
+      ],
+      "36": [
+        "camera",
+        "video camera",
+        "recording",
+        "video recording"
+      ],
+      "37": [
+        "frequency of usage",
+        "usage frequency"
+      ],
+      "38": [
+        "particular linguistic feature"
+      ],
+      "39": [
+        "size"
+      ],
+      "40": [
+        "intuitions"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      }
+    ]
   }
 }

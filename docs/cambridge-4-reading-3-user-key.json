@@ -1,0 +1,114 @@
+{
+  "note": "User-supplied Cambridge 4 Academic Reading Test 3 transcription. Q5 is one answer requiring both Sudan and India; either order is accepted with space, comma-space, or and separators, while either country alone is incorrect. Parenthesized words in Q32 are expanded into explicit optional-word variants. No other alternatives inferred.",
+  "requiredPairs": {
+    "5": [
+      "Sudan",
+      "India"
+    ]
+  },
+  "parts": [
+    {
+      "book": 4,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": ["A"],
+        "2": ["D"],
+        "3": ["C"],
+        "4": ["C"],
+        "5": [
+          "Sudan India",
+          "Sudan, India",
+          "Sudan and India",
+          "India Sudan",
+          "India, Sudan",
+          "India and Sudan"
+        ],
+        "6": ["bicycles"],
+        "7": ["Shoe Shine", "Shoe Shine Collective"],
+        "8": ["life skills"],
+        "9": ["NO"],
+        "10": ["NOT GIVEN"],
+        "11": ["NO"],
+        "12": ["YES"],
+        "13": ["A"]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": ["iii"],
+        "15": ["i"],
+        "16": ["iv"],
+        "17": ["vi"],
+        "18": ["plates", "the plates", "the tectonic plates"],
+        "19": ["magma"],
+        "20": ["ring of fire"],
+        "21": ["600", "600 years", "for 600 years"],
+        "22": ["water", "the water", "oceans", "the oceans"],
+        "23": ["lava", "magma", "molten rock"],
+        "24": ["India", "western India"],
+        "25": ["explodes"],
+        "26": ["gases", "the gases", "trapped gases"]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": ["D"],
+        "28": ["E"],
+        "29": ["C"],
+        "30": ["D"],
+        "31": ["F"],
+        "32": [
+          "linguist",
+          "the linguist",
+          "linguist acts",
+          "the linguist acts",
+          "linguists",
+          "the linguists",
+          "linguists act",
+          "the linguists act"
+        ],
+        "33": ["foreign languages"],
+        "34": ["quality", "the quality", "the poor quality"],
+        "35": [
+          "non-verbal behaviour",
+          "non-verbal behavior",
+          "facial expression",
+          "facial expressions"
+        ],
+        "36": ["camera", "video camera", "recording", "video recording"],
+        "37": ["frequency of usage", "usage frequency"],
+        "38": ["particular linguistic feature"],
+        "39": ["size"],
+        "40": ["intuitions"]
+      },
+      "groups": []
+    }
+  ]
+}
