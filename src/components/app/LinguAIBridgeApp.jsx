@@ -62,13 +62,52 @@ const STUDIO_CONFIG = {
 
 function AppIcon({ name, size = 20 }) {
   const paths = {
-    overview: <><rect x="3" y="3" width="7" height="7" rx="2" /><rect x="14" y="3" width="7" height="7" rx="2" /><rect x="3" y="14" width="7" height="7" rx="2" /><rect x="14" y="14" width="7" height="7" rx="2" /></>,
-    listening: <><path d="M4 14v-3a8 8 0 0 1 16 0v3" /><rect x="3" y="12" width="4" height="8" rx="2" /><rect x="17" y="12" width="4" height="8" rx="2" /></>,
-    reading: <path d="M12 5v16M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z" />,
-    writing: <><path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" /><path d="M13 21h8" /></>,
-    speaking: <><rect x="8" y="2" width="8" height="13" rx="4" /><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8" /></>,
+    overview: (
+      <>
+        <rect x="3" y="3" width="7" height="7" rx="2" />
+        <rect x="14" y="3" width="7" height="7" rx="2" />
+        <rect x="3" y="14" width="7" height="7" rx="2" />
+        <rect x="14" y="14" width="7" height="7" rx="2" />
+      </>
+    ),
+    listening: (
+      <>
+        <path d="M4 14v-3a8 8 0 0 1 16 0v3" />
+        <rect x="3" y="12" width="4" height="8" rx="2" />
+        <rect x="17" y="12" width="4" height="8" rx="2" />
+      </>
+    ),
+    reading: (
+      <path d="M12 5v16M12 5C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z" />
+    ),
+    writing: (
+      <>
+        <path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 14Z" />
+        <path d="M13 21h8" />
+      </>
+    ),
+    speaking: (
+      <>
+        <rect x="8" y="2" width="8" height="13" rx="4" />
+        <path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8" />
+      </>
+    ),
   };
-  return <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{paths[name] || paths.overview}</svg>;
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {paths[name] || paths.overview}
+    </svg>
+  );
 }
 
 function Sidebar({ activeView, onNavigate }) {
@@ -100,7 +139,9 @@ function Sidebar({ activeView, onNavigate }) {
             aria-current={activeView === item.id ? "page" : undefined}
             onClick={() => onNavigate(item.id)}
           >
-            <span className="nav-icon"><AppIcon name={item.id} /></span>
+            <span className="nav-icon">
+              <AppIcon name={item.id} />
+            </span>
             <span>{item.label}</span>
           </button>
         ))}
@@ -157,22 +198,63 @@ function Overview({ onNavigate }) {
   return (
     <div className="view-content overview-view">
       <div className="overview-intro">
-        <div><p className="section-kicker">Your learning space</p><h2>Let&apos;s make progress, Alex<span>.</span></h2></div>
+        <div>
+          <p className="section-kicker">Your learning space</p>
+          <h2>
+            Let&apos;s make progress, Alex<span>.</span>
+          </h2>
+        </div>
         <span className="overview-date">{formattedDate}</span>
       </div>
       <section className="welcome-row">
         <div>
-          <p className="section-kicker hero-kicker"><span /> A little focus. A big difference.</p>
-          <h1>Your next chapter<br />starts with <em>practice.</em></h1>
-          <p className="view-subtitle">Build your confidence, one session at a time. Your IELTS goals are closer than you think.</p>
-          <button type="button" className="primary-action" onClick={() => onNavigate("listening")}>Continue practice <span>→</span></button>
-          <span className="hero-footnote">Cambridge practice · Feedback powered by AI</span>
+          <p className="section-kicker hero-kicker">
+            <span /> A little focus. A big difference.
+          </p>
+          <h1>
+            Your next chapter
+            <br />
+            starts with <em>practice.</em>
+          </h1>
+          <p className="view-subtitle">
+            Build your confidence, one session at a time. Your IELTS goals are
+            closer than you think.
+          </p>
+          <button
+            type="button"
+            className="primary-action"
+            onClick={() => onNavigate("listening")}
+          >
+            Continue practice <span>→</span>
+          </button>
+          <span className="hero-footnote">
+            Cambridge practice · Feedback powered by AI
+          </span>
         </div>
         <div className="hero-art" aria-hidden="true">
-          <div className="orbit orbit-one" /><div className="orbit orbit-two" />
-          <div className="hero-spark spark-one">✦</div><div className="hero-spark spark-two">✦</div>
-          <div className="goal-ticket"><span>THE NEXT CHAPTER</span><div className="goal-number">8.0<span>+</span></div><div className="goal-ticket-bottom"><span>YOUR TARGET BAND</span><span>↗</span></div></div>
-          <div className="practice-ticket"><span className="practice-ticket-icon"><AppIcon name="listening" size={24} /></span><div><strong>Small steps. Real progress.</strong><span>You&apos;ve got this.</span></div></div>
+          <div className="orbit orbit-one" />
+          <div className="orbit orbit-two" />
+          <div className="hero-spark spark-one">✦</div>
+          <div className="hero-spark spark-two">✦</div>
+          <div className="goal-ticket">
+            <span>THE NEXT CHAPTER</span>
+            <div className="goal-number">
+              8.0<span>+</span>
+            </div>
+            <div className="goal-ticket-bottom">
+              <span>YOUR TARGET BAND</span>
+              <span>↗</span>
+            </div>
+          </div>
+          <div className="practice-ticket">
+            <span className="practice-ticket-icon">
+              <AppIcon name="listening" size={24} />
+            </span>
+            <div>
+              <strong>Small steps. Real progress.</strong>
+              <span>You&apos;ve got this.</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -260,7 +342,8 @@ function Overview({ onNavigate }) {
         </div>
 
         <div className="skill-panel">
-          <p className="section-kicker">Make time for your skills</p><h2>Choose your practice</h2>
+          <p className="section-kicker">Make time for your skills</p>
+          <h2>Choose your practice</h2>
           <div className="skill-buttons">
             {navigation.slice(1).map((item) => (
               <button
@@ -268,8 +351,11 @@ function Overview({ onNavigate }) {
                 key={item.id}
                 onClick={() => onNavigate(item.id)}
               >
-                <span><AppIcon name={item.id} /></span>
-                {item.label}<span className="skill-arrow">↗</span>
+                <span>
+                  <AppIcon name={item.id} />
+                </span>
+                {item.label}
+                <span className="skill-arrow">↗</span>
               </button>
             ))}
           </div>
@@ -349,10 +435,7 @@ function SkillStudio({ skill }) {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  const wordCount = submission
-    .trim()
-    .split(/\s+/)
-    .filter(Boolean).length;
+  const wordCount = submission.trim().split(/\s+/).filter(Boolean).length;
 
   async function evaluateSubmission(event) {
     event.preventDefault();
@@ -561,7 +644,9 @@ function SpeakingStudio() {
     const SpeechRecognition =
       window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
-      setError("Voice input is not available in this browser. You can type your answer instead.");
+      setError(
+        "Voice input is not available in this browser. You can type your answer instead.",
+      );
       return;
     }
 
@@ -572,20 +657,27 @@ function SpeakingStudio() {
     recognition.onresult = (event) => {
       let finalText = "";
       let interimText = "";
-      for (let index = event.resultIndex; index < event.results.length; index += 1) {
+      for (
+        let index = event.resultIndex;
+        index < event.results.length;
+        index += 1
+      ) {
         const transcript = event.results[index][0].transcript;
         if (event.results[index].isFinal) finalText += `${transcript} `;
         else interimText += transcript;
       }
       if (finalText.trim()) {
-        setResponse((current) =>
-          `${current}${current.trim() ? " " : ""}${finalText.trim()}`,
+        setResponse(
+          (current) =>
+            `${current}${current.trim() ? " " : ""}${finalText.trim()}`,
         );
       }
       setInterimTranscript(interimText.trim());
     };
     recognition.onerror = () => {
-      setError("Voice input stopped. Check microphone permission or type your answer.");
+      setError(
+        "Voice input stopped. Check microphone permission or type your answer.",
+      );
       setIsListening(false);
       setInterimTranscript("");
     };
@@ -596,12 +688,14 @@ function SpeakingStudio() {
     recognitionRef.current = recognition;
     setError("");
     setIsListening(true);
-      try {
-        recognition.start();
-      } catch {
-        setIsListening(false);
-        setError("Could not start voice input. Check microphone permission or type your answer.");
-      }
+    try {
+      recognition.start();
+    } catch {
+      setIsListening(false);
+      setError(
+        "Could not start voice input. Check microphone permission or type your answer.",
+      );
+    }
   }
 
   async function evaluateInterview(finalAnswers) {
@@ -628,14 +722,17 @@ function SpeakingStudio() {
         }),
       });
       const payload = await result.json().catch(() => ({}));
-      if (!result.ok) throw new Error(payload.error || "Speaking review failed.");
+      if (!result.ok)
+        throw new Error(payload.error || "Speaking review failed.");
 
       setFeedback(payload.feedback);
       const attempt = {
         id: `${Date.now()}`,
         date: new Date().toISOString(),
         bandScore: Number(payload.feedback?.bandScore || 0),
-        nextStep: payload.feedback?.nextSteps?.[0] || "Repeat the interview and focus on one improvement.",
+        nextStep:
+          payload.feedback?.nextSteps?.[0] ||
+          "Repeat the interview and focus on one improvement.",
       };
       const nextHistory = [attempt, ...history].slice(0, 5);
       setHistory(nextHistory);
@@ -645,7 +742,9 @@ function SpeakingStudio() {
           JSON.stringify(nextHistory),
         );
       } catch {
-        setError("Your result is ready, but this browser could not save attempt history.");
+        setError(
+          "Your result is ready, but this browser could not save attempt history.",
+        );
       }
     } catch (reviewError) {
       setError(reviewError.message || "Speaking review failed.");
@@ -720,22 +819,38 @@ function SpeakingStudio() {
       <section className="speaking-hero">
         <div className="speaking-hero-copy">
           <p className="section-kicker">IELTS speaking · mock interview</p>
-          <h1>Find your voice.<br /><em>Then sharpen it.</em></h1>
+          <h1>
+            Find your voice.
+            <br />
+            <em>Then sharpen it.</em>
+          </h1>
           <p className="view-subtitle">
-            Three parts, real pacing, and a focused debrief built around your own answers.
+            Three parts, real pacing, and a focused debrief built around your
+            own answers.
           </p>
           {phase === "welcome" && (
-            <button type="button" className="speaking-start-button" onClick={startInterview}>
+            <button
+              type="button"
+              className="speaking-start-button"
+              onClick={startInterview}
+            >
               Start full mock interview <span aria-hidden="true">→</span>
             </button>
           )}
           <span className="speaking-privacy-note">
-            About 11 minutes · Answers are sent to the AI evaluator; only band estimates and next drills are saved on this device.
+            About 11 minutes · Answers are sent to the AI evaluator; only band
+            estimates and next drills are saved on this device.
           </span>
         </div>
         <div className="speaking-hero-mark" aria-hidden="true">
-          <span>THE IELTS<br />SPEAKING ROOM</span>
-          <strong>01<span>/</span>03</strong>
+          <span>
+            THE IELTS
+            <br />
+            SPEAKING ROOM
+          </span>
+          <strong>
+            01<span>/</span>03
+          </strong>
           <i />
         </div>
       </section>
@@ -745,13 +860,38 @@ function SpeakingStudio() {
           {phase === "welcome" && (
             <section className="speaking-welcome-panel">
               <div className="speaking-part-list">
-                <div><b>01</b><span><strong>Part 1</strong><small>Quick questions · 3 prompts</small></span><em>4 min</em></div>
-                <div><b>02</b><span><strong>Part 2</strong><small>One-minute prep · long turn</small></span><em>3 min</em></div>
-                <div><b>03</b><span><strong>Part 3</strong><small>Deeper discussion · 3 prompts</small></span><em>4 min</em></div>
+                <div>
+                  <b>01</b>
+                  <span>
+                    <strong>Part 1</strong>
+                    <small>Quick questions · 3 prompts</small>
+                  </span>
+                  <em>4 min</em>
+                </div>
+                <div>
+                  <b>02</b>
+                  <span>
+                    <strong>Part 2</strong>
+                    <small>One-minute prep · long turn</small>
+                  </span>
+                  <em>3 min</em>
+                </div>
+                <div>
+                  <b>03</b>
+                  <span>
+                    <strong>Part 3</strong>
+                    <small>Deeper discussion · 3 prompts</small>
+                  </span>
+                  <em>4 min</em>
+                </div>
               </div>
               <div className="speaking-welcome-foot">
                 <AppIcon name="speaking" size={22} />
-                <p>Use voice dictation or type naturally. Your transcript is sent to the configured AI evaluator for feedback; pronunciation needs audio analysis and is not scored here.</p>
+                <p>
+                  Use voice dictation or type naturally. Your transcript is sent
+                  to the configured AI evaluator for feedback; pronunciation
+                  needs audio analysis and is not scored here.
+                </p>
               </div>
             </section>
           )}
@@ -759,25 +899,40 @@ function SpeakingStudio() {
           {phase !== "welcome" && phase !== "review" && (
             <section className="speaking-session-panel">
               <div className="speaking-progress-row">
-                <div className="speaking-progress-steps" aria-label={`Part ${currentPart} of 3`}>
+                <div
+                  className="speaking-progress-steps"
+                  aria-label={`Part ${currentPart} of 3`}
+                >
                   {[1, 2, 3].map((part) => (
-                    <span className={part <= currentPart ? "complete" : ""} key={part}>{`0${part}`}</span>
+                    <span
+                      className={part <= currentPart ? "complete" : ""}
+                      key={part}
+                    >{`0${part}`}</span>
                   ))}
                 </div>
-                <span>PART {currentPart} <i>/</i> 03</span>
+                <span>
+                  PART {currentPart} <i>/</i> 03
+                </span>
               </div>
 
               {phase === "part2-intro" && (
                 <div className="speaking-prep-intro">
                   <p className="section-kicker">Your long turn</p>
                   <h2>Take a breath. Build your story.</h2>
-                  <p>You have one minute to prepare, then up to two minutes to speak. Jot down a few keywords while the timer runs.</p>
+                  <p>
+                    You have one minute to prepare, then up to two minutes to
+                    speak. Jot down a few keywords while the timer runs.
+                  </p>
                   <blockquote>{SPEAKING_CUE_CARD}</blockquote>
-                  <button type="button" className="speaking-start-button" onClick={() => {
-                    setPhase("part2-prep");
-                    setRemainingSeconds(60);
-                    setTimerRunning(true);
-                  }}>
+                  <button
+                    type="button"
+                    className="speaking-start-button"
+                    onClick={() => {
+                      setPhase("part2-prep");
+                      setRemainingSeconds(60);
+                      setTimerRunning(true);
+                    }}
+                  >
                     Start 1-minute prep <span aria-hidden="true">→</span>
                   </button>
                 </div>
@@ -785,8 +940,19 @@ function SpeakingStudio() {
 
               {(phase === "part2-prep" || phase === "part2-answer") && (
                 <div className="speaking-timer-row">
-                  <div><span>{phase === "part2-prep" ? "PREPARATION" : "YOUR LONG TURN"}</span><strong>{timerLabel}</strong></div>
-                  <p>{phase === "part2-prep" ? "Make a quick plan: situation, challenge, turning point, result." : "Keep developing your example. The timer is a guide, not a score."}</p>
+                  <div>
+                    <span>
+                      {phase === "part2-prep"
+                        ? "PREPARATION"
+                        : "YOUR LONG TURN"}
+                    </span>
+                    <strong>{timerLabel}</strong>
+                  </div>
+                  <p>
+                    {phase === "part2-prep"
+                      ? "Make a quick plan: situation, challenge, turning point, result."
+                      : "Keep developing your example. The timer is a guide, not a score."}
+                  </p>
                 </div>
               )}
 
@@ -797,7 +963,9 @@ function SpeakingStudio() {
                     <p>{SPEAKING_CUE_CARD}</p>
                   </div>
                   <label className="speaking-answer-field">
-                    <span>Quick notes <b>For your eyes only</b></span>
+                    <span>
+                      Quick notes <b>For your eyes only</b>
+                    </span>
                     <textarea
                       className="speaking-prep-textarea"
                       value={prepNotes}
@@ -809,16 +977,35 @@ function SpeakingStudio() {
                 </div>
               )}
 
-              {(phase === "part1" || phase === "part2-answer" || phase === "part3") && (
+              {(phase === "part1" ||
+                phase === "part2-answer" ||
+                phase === "part3") && (
                 <>
                   <div className="speaking-question-block">
-                    <span>{phase === "part2-answer" ? "CUE CARD" : `QUESTION 0${questionIndex + 1}`}</span>
+                    <span>
+                      {phase === "part2-answer"
+                        ? "CUE CARD"
+                        : `QUESTION 0${questionIndex + 1}`}
+                    </span>
                     <h2>{currentQuestion}</h2>
-                    {phase === "part2-answer" && <p>Speak for up to two minutes. Give a clear example and explain why it mattered.</p>}
+                    {phase === "part2-answer" && (
+                      <p>
+                        Speak for up to two minutes. Give a clear example and
+                        explain why it mattered.
+                      </p>
+                    )}
                   </div>
 
                   <label className="speaking-answer-field">
-                    <span>Your answer <b>{response.trim() ? response.trim().split(/\s+/).length : 0} words</b></span>
+                    <span>
+                      Your answer{" "}
+                      <b>
+                        {response.trim()
+                          ? response.trim().split(/\s+/).length
+                          : 0}{" "}
+                        words
+                      </b>
+                    </span>
                     <textarea
                       value={response}
                       onChange={(event) => setResponse(event.target.value)}
@@ -826,30 +1013,65 @@ function SpeakingStudio() {
                       rows={7}
                     />
                   </label>
-                  {interimTranscript && <p className="speaking-interim">Listening: {interimTranscript}</p>}
+                  {interimTranscript && (
+                    <p className="speaking-interim">
+                      Listening: {interimTranscript}
+                    </p>
+                  )}
 
                   <div className="speaking-composer-actions">
-                    <button type="button" className={`speaking-dictate-button ${isListening ? "listening" : ""}`} onClick={toggleDictation}>
+                    <button
+                      type="button"
+                      className={`speaking-dictate-button ${isListening ? "listening" : ""}`}
+                      onClick={toggleDictation}
+                    >
                       <AppIcon name="speaking" size={18} />
                       {isListening ? "Stop dictation" : "Dictate answer"}
                     </button>
-                    <button type="button" className="speaking-next-button" disabled={isListening} onClick={() => {
-                      if (phase === "part1") {
-                        saveCurrentAnswer("Part 1", currentQuestion, questionIndex + 1 < SPEAKING_PART_ONE.length ? questionIndex + 1 : "part2");
-                      } else if (phase === "part2-answer") {
-                        setTimerRunning(false);
-                        saveCurrentAnswer("Part 2", SPEAKING_CUE_CARD, "part3");
-                      } else {
-                        saveCurrentAnswer("Part 3", currentQuestion, questionIndex + 1 < SPEAKING_PART_THREE.length ? questionIndex + 1 : "finish");
-                      }
-                    }}>
-                      {phase === "part3" && questionIndex === SPEAKING_PART_THREE.length - 1 ? "Finish interview" : "Save & continue"}
+                    <button
+                      type="button"
+                      className="speaking-next-button"
+                      disabled={isListening}
+                      onClick={() => {
+                        if (phase === "part1") {
+                          saveCurrentAnswer(
+                            "Part 1",
+                            currentQuestion,
+                            questionIndex + 1 < SPEAKING_PART_ONE.length
+                              ? questionIndex + 1
+                              : "part2",
+                          );
+                        } else if (phase === "part2-answer") {
+                          setTimerRunning(false);
+                          saveCurrentAnswer(
+                            "Part 2",
+                            SPEAKING_CUE_CARD,
+                            "part3",
+                          );
+                        } else {
+                          saveCurrentAnswer(
+                            "Part 3",
+                            currentQuestion,
+                            questionIndex + 1 < SPEAKING_PART_THREE.length
+                              ? questionIndex + 1
+                              : "finish",
+                          );
+                        }
+                      }}
+                    >
+                      {phase === "part3" &&
+                      questionIndex === SPEAKING_PART_THREE.length - 1
+                        ? "Finish interview"
+                        : "Save & continue"}
                       <span aria-hidden="true">→</span>
                     </button>
                   </div>
                   <p className="speaking-dictation-note">
-                    {speechAvailable ? "Voice input uses your browser’s speech recognition; audio handling depends on your browser." : "Voice recognition is unavailable here. Type your answer to continue."}
-                    {phase === "part2-answer" && " Pronunciation is not scored from the transcript."}
+                    {speechAvailable
+                      ? "Voice input uses your browser’s speech recognition; audio handling depends on your browser."
+                      : "Voice recognition is unavailable here. Type your answer to continue."}
+                    {phase === "part2-answer" &&
+                      " Pronunciation is not scored from the transcript."}
                   </p>
                 </>
               )}
@@ -859,53 +1081,124 @@ function SpeakingStudio() {
           {phase === "review" && (
             <section className="speaking-review-panel">
               {isEvaluating ? (
-                <div className="speaking-review-loading"><span className="speaking-pulse" /><p>Reading your answers across all three parts...</p></div>
+                <div className="speaking-review-loading">
+                  <span className="speaking-pulse" />
+                  <p>Reading your answers across all three parts...</p>
+                </div>
               ) : feedback ? (
                 <>
-                  <div className="speaking-review-heading"><p className="section-kicker">Your practice debrief</p><span>Transcript-based estimate · not an official IELTS score</span></div>
+                  <div className="speaking-review-heading">
+                    <p className="section-kicker">Your practice debrief</p>
+                    <span>
+                      Transcript-based estimate · not an official IELTS score
+                    </span>
+                  </div>
                   <FeedbackPanel feedback={feedback} />
                   <div className="speaking-practice-drill">
                     <span>NEXT REP</span>
-                    <p>{feedback.nextSteps?.[0] || "Repeat one answer and add a specific example plus a reflection."}</p>
+                    <p>
+                      {feedback.nextSteps?.[0] ||
+                        "Repeat one answer and add a specific example plus a reflection."}
+                    </p>
                   </div>
-                  <button type="button" className="speaking-start-button" onClick={startInterview}>Run it back <span aria-hidden="true">↻</span></button>
+                  <button
+                    type="button"
+                    className="speaking-start-button"
+                    onClick={startInterview}
+                  >
+                    Run it back <span aria-hidden="true">↻</span>
+                  </button>
                 </>
               ) : (
                 <div className="speaking-review-error">
-                  <p className="section-kicker">The interview is saved in this session</p>
+                  <p className="section-kicker">
+                    The interview is saved in this session
+                  </p>
                   <h2>Couldn’t reach the evaluator.</h2>
-                  <p>{error || "Try the review again when the AI service is available."}</p>
-                  <button type="button" className="speaking-start-button" onClick={retryEvaluation} disabled={isEvaluating}>Retry feedback <span aria-hidden="true">→</span></button>
-                  <button type="button" className="clear-button" onClick={startInterview}>Start a new interview</button>
+                  <p>
+                    {error ||
+                      "Try the review again when the AI service is available."}
+                  </p>
+                  <button
+                    type="button"
+                    className="speaking-start-button"
+                    onClick={retryEvaluation}
+                    disabled={isEvaluating}
+                  >
+                    Retry feedback <span aria-hidden="true">→</span>
+                  </button>
+                  <button
+                    type="button"
+                    className="clear-button"
+                    onClick={startInterview}
+                  >
+                    Start a new interview
+                  </button>
                 </div>
               )}
             </section>
           )}
 
-          {error && phase !== "review" && <p className="speaking-error" role="alert">{error}</p>}
+          {error && phase !== "review" && (
+            <p className="speaking-error" role="alert">
+              {error}
+            </p>
+          )}
         </main>
 
         <aside className="speaking-aside">
           <section className="speaking-aside-section">
             <p className="section-kicker">Session map</p>
             {["Warm-up", "Long turn", "Discussion"].map((label, index) => (
-              <div className={`speaking-map-item ${currentPart > index + 1 ? "done" : currentPart === index + 1 ? "active" : ""}`} key={label}>
+              <div
+                className={`speaking-map-item ${currentPart > index + 1 ? "done" : currentPart === index + 1 ? "active" : ""}`}
+                key={label}
+              >
                 <span>{currentPart > index + 1 ? "✓" : `0${index + 1}`}</span>
-                <div><b>{label}</b><small>{["3 short answers", "60s prep · 120s speak", "3 follow-up questions"][index]}</small></div>
+                <div>
+                  <b>{label}</b>
+                  <small>
+                    {
+                      [
+                        "3 short answers",
+                        "60s prep · 120s speak",
+                        "3 follow-up questions",
+                      ][index]
+                    }
+                  </small>
+                </div>
               </div>
             ))}
           </section>
           <section className="speaking-aside-section speaking-history-section">
             <p className="section-kicker">Recent attempts</p>
             {history.length === 0 ? (
-              <p className="speaking-history-empty">Your score trend will appear after your first interview. Only band estimates and next drills are stored on this device.</p>
-            ) : history.map((attempt, index) => (
-              <div className="speaking-history-item" key={attempt.id}>
-                <span>{index === 0 ? "LATEST" : new Date(attempt.date).toLocaleDateString()}</span>
-                <strong>{attempt.bandScore.toFixed(1)}</strong>
-                {index === 0 && history[1] && <small>{attempt.bandScore > history[1].bandScore ? "↑" : attempt.bandScore < history[1].bandScore ? "↓" : "="} vs previous</small>}
-              </div>
-            ))}
+              <p className="speaking-history-empty">
+                Your score trend will appear after your first interview. Only
+                band estimates and next drills are stored on this device.
+              </p>
+            ) : (
+              history.map((attempt, index) => (
+                <div className="speaking-history-item" key={attempt.id}>
+                  <span>
+                    {index === 0
+                      ? "LATEST"
+                      : new Date(attempt.date).toLocaleDateString()}
+                  </span>
+                  <strong>{attempt.bandScore.toFixed(1)}</strong>
+                  {index === 0 && history[1] && (
+                    <small>
+                      {attempt.bandScore > history[1].bandScore
+                        ? "↑"
+                        : attempt.bandScore < history[1].bandScore
+                          ? "↓"
+                          : "="}{" "}
+                      vs previous
+                    </small>
+                  )}
+                </div>
+              ))
+            )}
           </section>
           {history[0]?.nextStep && (
             <section className="speaking-aside-drill">
@@ -923,8 +1216,11 @@ export default function LinguAIBridgeApp() {
   const router = useRouter();
   const params = useSearchParams();
   const requestedView = params.get("view");
-  const activeView = navigation.some((item) => item.id === requestedView) ? requestedView : "overview";
-  const setActiveView = (view) => router.push(view === "overview" ? "/" : `/?view=${view}`);
+  const activeView = navigation.some((item) => item.id === requestedView)
+    ? requestedView
+    : "overview";
+  const setActiveView = (view) =>
+    router.push(view === "overview" ? "/" : `/?view=${view}`);
 
   return (
     <div className="app-frame">
@@ -934,7 +1230,9 @@ export default function LinguAIBridgeApp() {
         {activeView === "overview" && <Overview onNavigate={setActiveView} />}
         {activeView === "listening" && <ListeningWorkspace />}
         {activeView === "reading" && <ReadingWorkspace />}
-        {activeView === "writing" && <SkillStudio key="writing" skill="writing" />}
+        {activeView === "writing" && (
+          <SkillStudio key="writing" skill="writing" />
+        )}
         {activeView === "speaking" && <SpeakingStudio key="speaking" />}
       </div>
     </div>
