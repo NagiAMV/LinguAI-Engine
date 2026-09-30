@@ -1,12 +1,12 @@
 # Cambridge answer keys: storage and collection checkpoint
 
-## Latest import: Cambridge 5 Reading Tests 1–3 (2026-09-30)
+## Latest import: Cambridge 5 Reading Tests 1–4 (2026-09-30)
 
-All 120 user-transcribed answers are saved across Tests 1–3, with 40 questions in each test. Test 1 Q1–3 and Test 2 Q30–31 are stored as unordered answer sets. Explicit alternatives for clerks, Principia, and local are preserved from the transcription. Sources: cambridge-5-reading-1-user-key.json, cambridge-5-reading-2-user-key.json, cambridge-5-reading-3-user-key.json. No other alternatives inferred.
+All 160 user-transcribed answers are saved across Tests 1–4, with 40 questions in each test. Test 1 Q1–3 and Test 2 Q30–31 are stored as unordered answer sets. Explicit alternatives for clerks, Principia, local, tourism/tourist/tour, jewellery/jewelry, and the supplied plant/animal terms are preserved. Sources: cambridge-5-reading-1-user-key.json through cambridge-5-reading-4-user-key.json. No other alternatives inferred.
 
-Project totals: **812 keys, 61 complete parts, 20 complete tests**. Cambridge 1–4 Reading and Cambridge 5 Reading Tests 1–3 are complete; Listening remains deferred. Next source: Cambridge 5 Academic Reading Test 4. All regression tests are being run for this import.
+Project totals: **852 keys, 64 complete parts, 21 complete tests**. Cambridge 1–5 Reading are complete; Listening remains deferred. Next source: Cambridge 6 Academic Reading Test 1. All regression tests are being run for this import.
 
-## Previous import: Cambridge 4 Reading Test 4 (2026-09-30)
+## Previous import: Cambridge 5 Reading Tests 1–3 (2026-09-30)
 
 All 40 user-transcribed answers are saved for Questions 1–40 across all three passages. Q2 preserves economic globalisation, economic globalization, and socio-economic pressures; Q24 and Q25 preserve the supplied alternatives. Q33–35 are stored as one unordered set [A, C, F]; all six permutations are accepted. Source: cambridge-4-reading-2-user-key.json. No other alternatives inferred.
 

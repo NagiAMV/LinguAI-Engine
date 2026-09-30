@@ -667,3 +667,38 @@ test("Cambridge 5 Tests 1-3 preserve all keys and unordered answer groups", () =
   for (const test of [1, 2, 3])
     assert.equal(statuses[`reading-5-${test}`].status, "complete");
 });
+
+test("Cambridge 5 Test 4 preserves explicitly supplied answer variants", () => {
+  const keys = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-answer-keys.json", import.meta.url),
+    ),
+  );
+  const t4 = keys["reading-5-4"];
+  assert.equal(Object.keys(t4.answers).length, 40);
+  for (const value of ["tourism", "tourist", "tour"])
+    assert.equal(reviewAnswer(value, [11], t4).status, "correct");
+  for (const value of ["jewellery", "jewelry"])
+    assert.equal(reviewAnswer(value, [13], t4).status, "correct");
+  for (const value of ["day neutral", "day-neutral plants"])
+    assert.equal(reviewAnswer(value, [35], t4).status, "correct");
+  assert.equal(reviewAnswer("day-neutral", [35], t4).status, "incorrect");
+  for (const value of [
+    "food",
+    "food resources",
+    "adequate food",
+    "adequate food resources",
+  ])
+    assert.equal(reviewAnswer(value, [36], t4).status, "correct");
+  for (const value of ["insects", "fertilizations by insects"])
+    assert.equal(reviewAnswer(value, [37], t4).status, "correct");
+  for (const value of ["rainfall", "suitable rainfall"])
+    assert.equal(reviewAnswer(value, [38], t4).status, "correct");
+  const statuses = JSON.parse(
+    readFileSync(
+      new URL("../src/data/cambridge-key-status.json", import.meta.url),
+    ),
+  );
+  for (const test of [1, 2, 3, 4])
+    assert.equal(statuses[`reading-5-${test}`].status, "complete");
+});
