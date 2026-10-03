@@ -1,0 +1,170 @@
+{
+  "note": "User-provided Cambridge 6 Academic Reading Test 3 transcription. Explicit optional words expanded only where supplied; Test 4 questions 25–26 accept C and E in either order.",
+  "parts": [
+    {
+      "book": 6,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "title": "Reading Passage 1",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "A"
+        ],
+        "2": [
+          "D"
+        ],
+        "3": [
+          "J"
+        ],
+        "4": [
+          "E"
+        ],
+        "5": [
+          "G"
+        ],
+        "6": [
+          "YES"
+        ],
+        "7": [
+          "NOT GIVEN"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "NO"
+        ],
+        "10": [
+          "B"
+        ],
+        "11": [
+          "C"
+        ],
+        "12": [
+          "D"
+        ],
+        "13": [
+          "D"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "title": "Motivating Employees under Adverse Conditions",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "vii"
+        ],
+        "15": [
+          "iii"
+        ],
+        "16": [
+          "ii"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "i"
+        ],
+        "19": [
+          "NO"
+        ],
+        "20": [
+          "NOT GIVEN"
+        ],
+        "21": [
+          "NO"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "NOT GIVEN"
+        ],
+        "24": [
+          "YES"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "title": "The Search for the Anti-aging Pill",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-3-user-key.json"
+      },
+      "answers": {
+        "28": [
+          "NO"
+        ],
+        "29": [
+          "YES"
+        ],
+        "30": [
+          "YES"
+        ],
+        "31": [
+          "NOT GIVEN"
+        ],
+        "32": [
+          "YES"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "A"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "glucose"
+        ],
+        "39": [
+          "free radicals"
+        ],
+        "40": [
+          "preservation"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

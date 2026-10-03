@@ -1,0 +1,170 @@
+{
+  "note": "User-provided Cambridge 6 Academic Reading Test 2 transcription. Explicit optional words expanded only where supplied; Test 4 questions 25–26 accept C and E in either order.",
+  "parts": [
+    {
+      "book": 6,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "title": "Advantage of public transport",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "ii"
+        ],
+        "2": [
+          "vii"
+        ],
+        "3": [
+          "iv"
+        ],
+        "4": [
+          "i"
+        ],
+        "5": [
+          "iii"
+        ],
+        "6": [
+          "FALSE"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "FALSE"
+        ],
+        "10": [
+          "TRUE"
+        ],
+        "11": [
+          "F"
+        ],
+        "12": [
+          "D"
+        ],
+        "13": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "title": "Greying Population Stays In The Pink",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "I"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "M"
+        ],
+        "18": [
+          "J"
+        ],
+        "19": [
+          "N"
+        ],
+        "20": [
+          "K"
+        ],
+        "21": [
+          "G"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "G"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "H"
+        ],
+        "26": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "title": "Numeration",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "B"
+        ],
+        "28": [
+          "E"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "G"
+        ],
+        "32": [
+          "TRUE"
+        ],
+        "33": [
+          "FALSE"
+        ],
+        "34": [
+          "TRUE"
+        ],
+        "35": [
+          "FALSE"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "TRUE"
+        ],
+        "38": [
+          "FALSE"
+        ],
+        "39": [
+          "TRUE"
+        ],
+        "40": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

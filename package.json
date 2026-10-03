@@ -15,5 +15,8 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "overrides": {
+    "postcss": "8.5.23"
+  }
 }

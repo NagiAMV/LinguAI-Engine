@@ -702,3 +702,41 @@ test("Cambridge 5 Test 4 preserves explicitly supplied answer variants", () => {
   for (const test of [1, 2, 3, 4])
     assert.equal(statuses[`reading-5-${test}`].status, "complete");
 });
+
+test("Cambridge 6 Test 1 retains optional article and explicit percentage alternatives", () => {
+  const keys = JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json', import.meta.url)));
+  const saved = keys['reading-6-1'];
+  assert.equal(Object.keys(saved.answers).length, 40);
+  for (const value of ['competition model', ' A   COMPETITION MODEL '])
+    assert.equal(reviewAnswer(value, [12], saved).status, 'correct');
+  for (const value of ['by 2 per cent', 'BY 2%', 'by 2 %'])
+    assert.equal(reviewAnswer(value, [13], saved).status, 'correct');
+  for (const value of ['2%', 'by 3%', 'by two percent'])
+    assert.equal(reviewAnswer(value, [13], saved).status, 'incorrect');
+  assert.equal(reviewAnswer('the competition model', [12], saved).status, 'incorrect');
+  assert.equal(reviewAnswer('', [13], saved).status, 'blank');
+  assert.equal(reviewAnswer('d', [40], saved).status, 'correct');
+  assert.deepEqual(Object.values(saved.parts).map(p => p.questionNumbers.length), [13, 13, 14]);
+});
+
+test('Cambridge 6 Tests 2–4 cover real part boundaries, optional words and unordered pair', () => {
+  const keys = JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json', import.meta.url)));
+  const statuses = JSON.parse(readFileSync(new URL('../src/data/cambridge-key-status.json', import.meta.url)));
+  for (const number of [2,3,4]) {
+    const saved = keys[`reading-6-${number}`];
+    assert.equal(Object.keys(saved.answers).length, 40);
+    assert.equal(statuses[`reading-6-${number}`].status, 'complete');
+  }
+  const t2=keys['reading-6-2'], t3=keys['reading-6-3'], t4=keys['reading-6-4'];
+  assert.equal(reviewAnswer(' II ',[1],t2).status,'correct');
+  assert.equal(reviewAnswer('not given',[40],t2).status,'correct');
+  assert.equal(t3.parts[2].questionNumbers.at(-1),27);
+  assert.equal(t3.parts[3].questionNumbers[0],28);
+  assert.equal(reviewAnswer(' FREE   RADICALS ',[39],t3).status,'correct');
+  for(const pair of [['C','E'],['e','c']]) assert.equal(reviewAnswer(pair,[25,26],t4,true).status,'correct');
+  for(const pair of [['C'],['C','C'],['C','B']]) assert.equal(reviewAnswer(pair,[25,26],t4,true).status,'incorrect');
+  for(const value of ['guidelines','explicit guidelines']) assert.equal(reviewAnswer(value,[36],t4).status,'correct');
+  for(const value of ['curriculum','school curriculum']) assert.equal(reviewAnswer(value,[37],t4).status,'correct');
+  assert.equal(reviewAnswer('the curriculum',[37],t4).status,'incorrect');
+  assert.equal(reviewAnswer('',[38],t4).status,'blank');
+});

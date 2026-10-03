@@ -1,0 +1,185 @@
+{
+  "note": "User-provided Cambridge 6 Academic Reading Test 4 transcription. Explicit optional words expanded only where supplied; Test 4 questions 25–26 accept C and E in either order.",
+  "parts": [
+    {
+      "book": 6,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "title": "Doctoring sales",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "v"
+        ],
+        "2": [
+          "vi"
+        ],
+        "3": [
+          "iii"
+        ],
+        "4": [
+          "ix"
+        ],
+        "5": [
+          "i"
+        ],
+        "6": [
+          "vii"
+        ],
+        "7": [
+          "x"
+        ],
+        "8": [
+          "NO"
+        ],
+        "9": [
+          "YES"
+        ],
+        "10": [
+          "NO"
+        ],
+        "11": [
+          "YES"
+        ],
+        "12": [
+          "NOT GIVEN"
+        ],
+        "13": [
+          "YES"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "title": "Do literate women make better mothers?",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "J"
+        ],
+        "18": [
+          "F"
+        ],
+        "19": [
+          "NOT GIVEN"
+        ],
+        "20": [
+          "NO"
+        ],
+        "21": [
+          "YES"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "NO"
+        ],
+        "24": [
+          "NOT GIVEN"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 6,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "title": "Reading Passage 3",
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "iv"
+        ],
+        "28": [
+          "vi"
+        ],
+        "29": [
+          "v"
+        ],
+        "30": [
+          "vii"
+        ],
+        "31": [
+          "B"
+        ],
+        "32": [
+          "D"
+        ],
+        "33": [
+          "D"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "policy"
+        ],
+        "36": [
+          "guidelines",
+          "explicit guidelines"
+        ],
+        "37": [
+          "curriculum",
+          "school curriculum"
+        ],
+        "38": [
+          "victims"
+        ],
+        "39": [
+          "playful fighting"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "note": "User-supplied Cambridge 6 Academic Reading Test 1. Q12: (a) competition model. Q13: by 2 per cent / %; the percentage-symbol alternatives retain 'by 2', with or without a space before %. No other alternatives inferred.",
+  "parts": [
+    {
+      "book": 6,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "title": "Australia's Sporting Success",
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "D"
+        ],
+        "4": [
+          "F"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "A"
+        ],
+        "7": [
+          "E"
+        ],
+        "8": [
+          "A"
+        ],
+        "9": [
+          "B"
+        ],
+        "10": [
+          "A"
+        ],
+        "11": [
+          "C"
+        ],
+        "12": [
+          "competition model",
+          "a competition model"
+        ],
+        "13": [
+          "by 2 per cent",
+          "by 2%",
+          "by 2 %"
+        ]
+      },
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-1-user-key.json"
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "title": "Delivering The Goods",
+      "answers": {
+        "14": [
+          "I"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "TRUE"
+        ],
+        "19": [
+          "FALSE"
+        ],
+        "20": [
+          "NOT GIVEN"
+        ],
+        "21": [
+          "TRUE"
+        ],
+        "22": [
+          "NOT GIVEN"
+        ],
+        "23": [
+          "G"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "A"
+        ]
+      },
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-1-user-key.json"
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "title": "Climate Change and the Inuit",
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "D"
+        ],
+        "31": [
+          "D"
+        ],
+        "32": [
+          "D"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "A"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "C"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-6-reading-1-user-key.json"
+      },
+      "groups": []
+    }
+  ]
+}
