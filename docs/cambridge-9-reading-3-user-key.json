@@ -1,0 +1,197 @@
+{
+  "note": "User-supplied Cambridge 9 Academic Reading transcription. Test 2 Q1 'ii' omitted pending letter clarification. Test 3 maintenance mapped to Q23 as explicitly directed. Optional parenthesized words expanded; both-required single-field pairs retain both terms in either order, joined by space, and, or comma.",
+  "parts": [
+    {
+      "book": 9,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "YES"
+        ],
+        "2": [
+          "NO"
+        ],
+        "3": [
+          "YES"
+        ],
+        "4": [
+          "NOT GIVEN"
+        ],
+        "5": [
+          "YES"
+        ],
+        "6": [
+          "YES"
+        ],
+        "7": [
+          "NO"
+        ],
+        "8": [
+          "YES"
+        ],
+        "9": [
+          "H"
+        ],
+        "10": [
+          "F"
+        ],
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "E"
+        ],
+        "21": [
+          "F"
+        ],
+        "22": [
+          "J"
+        ],
+        "23": [
+          "maintenance"
+        ],
+        "24": [
+          "slow",
+          "slow turning"
+        ],
+        "25": [
+          "low pressure"
+        ],
+        "26": [
+          "cavitation"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D",
+              "E",
+              "F",
+              "J"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 9,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "F"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "E"
+        ],
+        "31": [
+          "A"
+        ],
+        "32": [
+          "C"
+        ],
+        "33": [
+          "Jupiter Saturn",
+          "Saturn Jupiter",
+          "Jupiter and Saturn",
+          "Saturn and Jupiter",
+          "Jupiter, Saturn",
+          "Saturn, Jupiter"
+        ],
+        "34": [
+          "Solar System"
+        ],
+        "35": [
+          "sensors circuits",
+          "circuits sensors",
+          "sensors and circuits",
+          "circuits and sensors",
+          "sensors, circuits",
+          "circuits, sensors"
+        ],
+        "36": [
+          "spares"
+        ],
+        "37": [
+          "radio dish"
+        ],
+        "38": [
+          "TRUE"
+        ],
+        "39": [
+          "TRUE"
+        ],
+        "40": [
+          "FALSE"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -7513,5 +7513,886 @@
         "reference": "docs/cambridge-8-reading-4-user-key.json"
       }
     ]
+  },
+  "reading-9-1": {
+    "book": 9,
+    "test": 1,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "FALSE"
+      ],
+      "2": [
+        "NOT GIVEN"
+      ],
+      "3": [
+        "FALSE"
+      ],
+      "4": [
+        "TRUE"
+      ],
+      "5": [
+        "NOT GIVEN"
+      ],
+      "6": [
+        "TRUE"
+      ],
+      "7": [
+        "NOT GIVEN"
+      ],
+      "8": [
+        "rich",
+        "the rich",
+        "only rich",
+        "the only rich"
+      ],
+      "9": [
+        "commercial",
+        "commercial possibilities"
+      ],
+      "10": [
+        "mauve",
+        "mauve was",
+        "mauve is"
+      ],
+      "11": [
+        "Pullar",
+        "Robert Pullar"
+      ],
+      "12": [
+        "France",
+        "in France"
+      ],
+      "13": [
+        "malaria",
+        "malaria is"
+      ],
+      "14": [
+        "iv"
+      ],
+      "15": [
+        "vii"
+      ],
+      "16": [
+        "i"
+      ],
+      "17": [
+        "ii"
+      ],
+      "18": [
+        "several billion years"
+      ],
+      "19": [
+        "radio",
+        "radio waves",
+        "radio signals"
+      ],
+      "20": [
+        "1000",
+        "1000 stars"
+      ],
+      "21": [
+        "YES"
+      ],
+      "22": [
+        "YES"
+      ],
+      "23": [
+        "NOT GIVEN"
+      ],
+      "24": [
+        "NO"
+      ],
+      "25": [
+        "NOT GIVEN"
+      ],
+      "26": [
+        "NO"
+      ],
+      "27": [
+        "plants"
+      ],
+      "28": [
+        "breathing reproduction",
+        "reproduction breathing",
+        "breathing and reproduction",
+        "reproduction and breathing",
+        "breathing, reproduction",
+        "reproduction, breathing"
+      ],
+      "29": [
+        "gills"
+      ],
+      "30": [
+        "dolphins"
+      ],
+      "31": [
+        "NOT GIVEN"
+      ],
+      "32": [
+        "FALSE"
+      ],
+      "33": [
+        "TRUE"
+      ],
+      "34": [
+        "3 measurements"
+      ],
+      "35": [
+        "graph",
+        "triangular graph"
+      ],
+      "36": [
+        "cluster"
+      ],
+      "37": [
+        "amphibious"
+      ],
+      "38": [
+        "half way"
+      ],
+      "39": [
+        "dry-land tortoises"
+      ],
+      "40": [
+        "D"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      }
+    ]
+  },
+  "reading-9-2": {
+    "book": 9,
+    "test": 2,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "H"
+      ],
+      "2": [
+        "C"
+      ],
+      "3": [
+        "B"
+      ],
+      "4": [
+        "I"
+      ],
+      "5": [
+        "D"
+      ],
+      "6": [
+        "A"
+      ],
+      "7": [
+        "two decades"
+      ],
+      "8": [
+        "crowd",
+        "crowd noise"
+      ],
+      "9": [
+        "invisible",
+        "invisible disabilities",
+        "invisible disability"
+      ],
+      "10": [
+        "Objective 3"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "F"
+      ],
+      "15": [
+        "D"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "E"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "FALSE"
+      ],
+      "23": [
+        "FALSE"
+      ],
+      "24": [
+        "TRUE"
+      ],
+      "25": [
+        "NOT GIVEN"
+      ],
+      "26": [
+        "TRUE"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "D"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "B"
+      ],
+      "32": [
+        "YES"
+      ],
+      "33": [
+        "YES"
+      ],
+      "34": [
+        "NOT GIVEN"
+      ],
+      "35": [
+        "NO"
+      ],
+      "36": [
+        "NOT GIVEN"
+      ],
+      "37": [
+        "NO"
+      ],
+      "38": [
+        "A"
+      ],
+      "39": [
+        "B"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      }
+    ]
+  },
+  "reading-9-3": {
+    "book": 9,
+    "test": 3,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "YES"
+      ],
+      "2": [
+        "NO"
+      ],
+      "3": [
+        "YES"
+      ],
+      "4": [
+        "NOT GIVEN"
+      ],
+      "5": [
+        "YES"
+      ],
+      "6": [
+        "YES"
+      ],
+      "7": [
+        "NO"
+      ],
+      "8": [
+        "YES"
+      ],
+      "9": [
+        "H"
+      ],
+      "10": [
+        "F"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "E"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "D"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "F"
+      ],
+      "22": [
+        "J"
+      ],
+      "23": [
+        "maintenance"
+      ],
+      "24": [
+        "slow",
+        "slow turning"
+      ],
+      "25": [
+        "low pressure"
+      ],
+      "26": [
+        "cavitation"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "F"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "E"
+      ],
+      "31": [
+        "A"
+      ],
+      "32": [
+        "C"
+      ],
+      "33": [
+        "Jupiter Saturn",
+        "Saturn Jupiter",
+        "Jupiter and Saturn",
+        "Saturn and Jupiter",
+        "Jupiter, Saturn",
+        "Saturn, Jupiter"
+      ],
+      "34": [
+        "Solar System"
+      ],
+      "35": [
+        "sensors circuits",
+        "circuits sensors",
+        "sensors and circuits",
+        "circuits and sensors",
+        "sensors, circuits",
+        "circuits, sensors"
+      ],
+      "36": [
+        "spares"
+      ],
+      "37": [
+        "radio dish"
+      ],
+      "38": [
+        "TRUE"
+      ],
+      "39": [
+        "TRUE"
+      ],
+      "40": [
+        "FALSE"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": [
+          {
+            "questions": [
+              18,
+              19,
+              20,
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D",
+                "E",
+                "F",
+                "J"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-3-user-key.json"
+      }
+    ]
+  },
+  "reading-9-4": {
+    "book": 9,
+    "test": 4,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "FALSE"
+      ],
+      "2": [
+        "NOT GIVEN"
+      ],
+      "3": [
+        "TRUE"
+      ],
+      "4": [
+        "FALSE"
+      ],
+      "5": [
+        "TRUE"
+      ],
+      "6": [
+        "NOT GIVEN"
+      ],
+      "7": [
+        "thorium"
+      ],
+      "8": [
+        "pitchblende"
+      ],
+      "9": [
+        "radium"
+      ],
+      "10": [
+        "soldiers"
+      ],
+      "11": [
+        "illness"
+      ],
+      "12": [
+        "neutron"
+      ],
+      "13": [
+        "leukaemia",
+        "leukemia"
+      ],
+      "14": [
+        "G"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "H"
+      ],
+      "19": [
+        "E"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "mirror"
+      ],
+      "25": [
+        "communication"
+      ],
+      "26": [
+        "ownership"
+      ],
+      "27": [
+        "ii"
+      ],
+      "28": [
+        "vi"
+      ],
+      "29": [
+        "i"
+      ],
+      "30": [
+        "iii"
+      ],
+      "31": [
+        "B"
+      ],
+      "32": [
+        "A"
+      ],
+      "33": [
+        "D"
+      ],
+      "34": [
+        "D"
+      ],
+      "35": [
+        "C"
+      ],
+      "36": [
+        "B"
+      ],
+      "37": [
+        "FALSE"
+      ],
+      "38": [
+        "NOT GIVEN"
+      ],
+      "39": [
+        "FALSE"
+      ],
+      "40": [
+        "TRUE"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-4-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-4-user-key.json"
+      }
+    ]
   }
 }

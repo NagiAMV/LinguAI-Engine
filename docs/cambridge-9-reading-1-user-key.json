@@ -1,0 +1,185 @@
+{
+  "note": "User-supplied Cambridge 9 Academic Reading transcription. Test 2 Q1 'ii' omitted pending letter clarification. Test 3 maintenance mapped to Q23 as explicitly directed. Optional parenthesized words expanded; both-required single-field pairs retain both terms in either order, joined by space, and, or comma.",
+  "parts": [
+    {
+      "book": 9,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "NOT GIVEN"
+        ],
+        "3": [
+          "FALSE"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "NOT GIVEN"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "NOT GIVEN"
+        ],
+        "8": [
+          "rich",
+          "the rich",
+          "only rich",
+          "the only rich"
+        ],
+        "9": [
+          "commercial",
+          "commercial possibilities"
+        ],
+        "10": [
+          "mauve",
+          "mauve was",
+          "mauve is"
+        ],
+        "11": [
+          "Pullar",
+          "Robert Pullar"
+        ],
+        "12": [
+          "France",
+          "in France"
+        ],
+        "13": [
+          "malaria",
+          "malaria is"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "iv"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "i"
+        ],
+        "17": [
+          "ii"
+        ],
+        "18": [
+          "several billion years"
+        ],
+        "19": [
+          "radio",
+          "radio waves",
+          "radio signals"
+        ],
+        "20": [
+          "1000",
+          "1000 stars"
+        ],
+        "21": [
+          "YES"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "NOT GIVEN"
+        ],
+        "24": [
+          "NO"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "NO"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "plants"
+        ],
+        "28": [
+          "breathing reproduction",
+          "reproduction breathing",
+          "breathing and reproduction",
+          "reproduction and breathing",
+          "breathing, reproduction",
+          "reproduction, breathing"
+        ],
+        "29": [
+          "gills"
+        ],
+        "30": [
+          "dolphins"
+        ],
+        "31": [
+          "NOT GIVEN"
+        ],
+        "32": [
+          "FALSE"
+        ],
+        "33": [
+          "TRUE"
+        ],
+        "34": [
+          "3 measurements"
+        ],
+        "35": [
+          "graph",
+          "triangular graph"
+        ],
+        "36": [
+          "cluster"
+        ],
+        "37": [
+          "amphibious"
+        ],
+        "38": [
+          "half way"
+        ],
+        "39": [
+          "dry-land tortoises"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

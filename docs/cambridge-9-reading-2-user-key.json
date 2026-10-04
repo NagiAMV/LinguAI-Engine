@@ -1,0 +1,183 @@
+{
+  "note": "User-supplied Cambridge 9 Academic Reading transcription. Test 2 Q1 'ii' omitted pending letter clarification. Test 3 maintenance mapped to Q23 as explicitly directed. Optional parenthesized words expanded; both-required single-field pairs retain both terms in either order, joined by space, and, or comma. Follow-up: user explicitly confirmed Q1 is H (not ii).",
+  "parts": [
+    {
+      "book": 9,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "H"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "B"
+        ],
+        "4": [
+          "I"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "A"
+        ],
+        "7": [
+          "two decades"
+        ],
+        "8": [
+          "crowd",
+          "crowd noise"
+        ],
+        "9": [
+          "invisible",
+          "invisible disabilities",
+          "invisible disability"
+        ],
+        "10": [
+          "Objective 3"
+        ],
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 9,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "F"
+        ],
+        "15": [
+          "D"
+        ],
+        "16": [
+          "G"
+        ],
+        "17": [
+          "E"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "B"
+        ],
+        "21": [
+          "C"
+        ],
+        "22": [
+          "FALSE"
+        ],
+        "23": [
+          "FALSE"
+        ],
+        "24": [
+          "TRUE"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "TRUE"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-9-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "D"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "B"
+        ],
+        "32": [
+          "YES"
+        ],
+        "33": [
+          "YES"
+        ],
+        "34": [
+          "NOT GIVEN"
+        ],
+        "35": [
+          "NO"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "A"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

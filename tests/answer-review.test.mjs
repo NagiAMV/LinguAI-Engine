@@ -804,3 +804,21 @@ test('Cambridge 7 Test 2 completed key requires both Q26 terms for one answer', 
  assert.equal(reviewAnswer('greener food standard',[25],key).status,'correct');
  assert.equal(Object.keys(key.answers).length,40);
 });
+
+test('Cambridge 9 complete keys support confirmed letter, variants and both-required answers', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4])assert.equal(Object.keys(keys[`reading-9-${t}`].answers).length,40);
+ const a=keys['reading-9-1'],b=keys['reading-9-2'],c=keys['reading-9-3'],d=keys['reading-9-4'];
+ assert.equal(reviewAnswer('H',[1],b).status,'correct');assert.equal(reviewAnswer('ii',[1],b).status,'incorrect');
+ for(const v of ['breathing reproduction','reproduction and breathing'])assert.equal(reviewAnswer(v,[28],a).status,'correct');
+ assert.equal(reviewAnswer('breathing',[28],a).status,'incorrect');
+ assert.equal(reviewAnswer(['C','A'],[11,12],b,true).status,'correct');
+ assert.equal(reviewAnswer(['C','C'],[11,12],b,true).status,'incorrect');
+ assert.equal(reviewAnswer(['J','F','E','D','A'],[18,19,20,21,22],c,true).status,'correct');
+ assert.equal(reviewAnswer(['J','F','E','D','D'],[18,19,20,21,22],c,true).status,'incorrect');
+ assert.equal(reviewAnswer('maintenance',[23],c).status,'correct');
+ assert.equal(reviewAnswer('Saturn and Jupiter',[33],c).status,'correct');
+ assert.equal(reviewAnswer('circuits sensors',[35],c).status,'correct');
+ assert.equal(reviewAnswer('sensors',[35],c).status,'incorrect');
+ for(const v of ['leukaemia','leukemia'])assert.equal(reviewAnswer(v,[13],d).status,'correct');
+});
