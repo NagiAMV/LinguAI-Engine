@@ -740,3 +740,56 @@ test('Cambridge 6 Tests 2–4 cover real part boundaries, optional words and uno
   assert.equal(reviewAnswer('the curriculum',[37],t4).status,'incorrect');
   assert.equal(reviewAnswer('',[38],t4).status,'blank');
 });
+
+test('Cambridge 7 preserves supplied variants and leaves absent keys unchecked', () => {
+  const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+  for(const [t,count] of [[1,40],[2,35],[3,32],[4,40]]) assert.equal(Object.keys(keys[`reading-7-${t}`].answers).length,count);
+  const t1=keys['reading-7-1'],t2=keys['reading-7-2'],t3=keys['reading-7-3'],t4=keys['reading-7-4'];
+  for(const a of ['echoes','obstacles']) assert.equal(reviewAnswer(a,[7],t1).status,'correct');
+  assert.equal(reviewAnswer('modern intensive farming',[23],t2).status,'correct');
+  assert.equal(reviewAnswer('i',[37],t2).status,'correct');
+  for(const n of [11,12,13,25,26]) assert.equal(reviewAnswer('anything',[n],t2).status,'pending');
+  for(const n of [12,13,24,25,26,38,39,40]) assert.equal(reviewAnswer('',[n],t3).status,'pending');
+  for(const a of ['pulleys','WOODEN PULLEYS']) assert.equal(reviewAnswer(a,[8],t4).status,'correct');
+  assert.equal(reviewAnswer('the pulleys',[8],t4).status,'incorrect');
+});
+
+test('Cambridge 8 supplied keys preserve optional words and reject inferred synonyms', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const t1=keys['reading-8-1'],t2=keys['reading-8-2'],t4=keys['reading-8-4'];
+ for(const a of ['wheel','ESCAPE WHEEL']) assert.equal(reviewAnswer(a,[10],t1).status,'correct');
+ for(const a of ['big enough','large enough']) assert.equal(reviewAnswer(a,[40],t1).status,'correct');
+ assert.equal(reviewAnswer('big',[40],t1).status,'incorrect');
+ for(const a of ['tin','molten tin','metal','molten metal']) assert.equal(reviewAnswer(a,[7],t2).status,'correct');
+ assert.equal(reviewAnswer('glass',[7],t2).status,'incorrect');
+ assert.equal(reviewAnswer(' LEAF   LITTER ',[38],t4).status,'correct');
+ assert.equal(Object.keys(t4.answers).length,40);
+});
+
+test('Cambridge 8 explicit corrections replace Q5 and preserve unordered pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['reading-8-1'],b=keys['reading-8-2'];
+ assert.equal(reviewAnswer('D',[5],a).status,'correct');
+ assert.equal(reviewAnswer('B',[5],a).status,'incorrect');
+ for(const v of ['anchor',"ship's anchor",'an anchor','the anchor'])assert.equal(reviewAnswer(v,[9],a).status,'correct');
+ for(const v of ['fraud','outright fraud','or fraud','or outright fraud'])for(const pair of [['sensory leakage',v],[v,'sensory leakage']])assert.equal(reviewAnswer(pair,[34,35],a,true).status,'correct');
+ assert.equal(reviewAnswer(['fraud','fraud'],[34,35],a,true).status,'incorrect');
+ for(const pair of [['B','C'],['C','B']])assert.equal(reviewAnswer(pair,[18,19],b,true).status,'correct');
+ assert.equal(reviewAnswer(['B'],[18,19],b,true).status,'incorrect');
+ assert.equal(reviewAnswer('rollers',[8],b).status,'correct');
+ assert.equal(reviewAnswer('rolles',[8],b).status,'incorrect');
+ for(const v of ['labour intensive','labour-intensive','labor intensive','labor-intensive'])assert.equal(reviewAnswer(v,[3],b).status,'correct');
+ assert.equal(Object.keys(a.answers).length,40);assert.equal(Object.keys(b.answers).length,40);
+});
+
+test('Cambridge 8 Test 3 confirmed sets require distinct answers in any order', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const key=keys['reading-8-3'];
+ assert.equal(Object.keys(key.answers).length,40);
+ const permutations = values => values.length ? values.flatMap((v,i)=>permutations(values.filter((_,j)=>i!==j)).map(rest=>[v,...rest])) : [[]];
+ for(const set of permutations(['B','C','F','H','J'])) assert.equal(reviewAnswer(set,[14,15,16,17,18],key,true).status,'correct');
+ for(const set of [['B','C','F','H'],['B','C','F','H','H'],['B','C','F','H','A']]) assert.equal(reviewAnswer(set,[14,15,16,17,18],key,true).status,'incorrect');
+ for(const word of ['thermodynamics','and thermodynamics']) for(const set of [['physical chemistry',word],[word,'physical chemistry']]) assert.equal(reviewAnswer(set,[33,34],key,true).status,'correct');
+ assert.equal(reviewAnswer(['physical chemistry','physical chemistry'],[33,34],key,true).status,'incorrect');
+ assert.equal(reviewAnswer(['thermodynamics'],[33,34],key,true).status,'incorrect');
+});

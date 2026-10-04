@@ -1,0 +1,918 @@
+{
+  "date": "2026-10-04",
+  "source": "User explicitly corrected previous transcription",
+  "rawCorrections": {
+    "test1": {
+      "5": "D",
+      "9": "(ship’s) anchor / (an/the) anchor",
+      "34–35": "sensory leakage; (or) (outright) fraud — IN EITHER ORDER"
+    },
+    "test2": {
+      "3": "labour / labor-intensive",
+      "8": "rollers",
+      "18–19": "C; B — IN EITHER ORDER"
+    }
+  },
+  "note": "Preserve earlier snapshots and source files. Expand optional words, British/American spelling and spacing/hyphen forms of labour-intensive. Test 3 Q33–34 remain unconfirmed.",
+  "before": {
+    "reading-8-1": {
+      "book": 8,
+      "test": 1,
+      "module": "reading",
+      "answers": {
+        "1": [
+          "D"
+        ],
+        "2": [
+          "B"
+        ],
+        "3": [
+          "F"
+        ],
+        "4": [
+          "E"
+        ],
+        "5": [
+          "B"
+        ],
+        "6": [
+          "F"
+        ],
+        "7": [
+          "D"
+        ],
+        "8": [
+          "A"
+        ],
+        "10": [
+          "wheel",
+          "escape wheel"
+        ],
+        "11": [
+          "tooth"
+        ],
+        "12": [
+          "pendulum",
+          "long pendulum"
+        ],
+        "13": [
+          "second"
+        ],
+        "14": [
+          "ii"
+        ],
+        "15": [
+          "iii"
+        ],
+        "16": [
+          "v"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "viii"
+        ],
+        "19": [
+          "vii"
+        ],
+        "20": [
+          "FALSE"
+        ],
+        "21": [
+          "FALSE"
+        ],
+        "22": [
+          "NOT GIVEN"
+        ],
+        "23": [
+          "TRUE"
+        ],
+        "24": [
+          "TRUE"
+        ],
+        "25": [
+          "FALSE"
+        ],
+        "26": [
+          "TRUE"
+        ],
+        "27": [
+          "E"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "F"
+        ],
+        "31": [
+          "sender"
+        ],
+        "32": [
+          "picture",
+          "image"
+        ],
+        "33": [
+          "receiver"
+        ],
+        "34": [
+          "sensory leakage"
+        ],
+        "35": [
+          "fraud"
+        ],
+        "36": [
+          "computers"
+        ],
+        "37": [
+          "human involvement"
+        ],
+        "38": [
+          "meta-analysis"
+        ],
+        "39": [
+          "lack of consistency"
+        ],
+        "40": [
+          "big enough",
+          "large enough"
+        ]
+      },
+      "parts": {
+        "1": {
+          "questionNumbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13
+          ],
+          "groups": []
+        },
+        "2": {
+          "questionNumbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "groups": []
+        },
+        "3": {
+          "questionNumbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "groups": []
+        }
+      },
+      "sources": [
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        },
+        {
+          "part": 2,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        },
+        {
+          "part": 3,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        }
+      ]
+    },
+    "reading-8-2": {
+      "book": 8,
+      "test": 2,
+      "module": "reading",
+      "answers": {
+        "1": [
+          "Spinning"
+        ],
+        "2": [
+          "unblemished",
+          "perfectly unblemished"
+        ],
+        "3": [
+          "labour intensive"
+        ],
+        "4": [
+          "thickness"
+        ],
+        "5": [
+          "marked"
+        ],
+        "6": [
+          "glass",
+          "molten glass"
+        ],
+        "7": [
+          "tin",
+          "molten tin",
+          "metal",
+          "molten metal"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "NOT GIVEN"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "TRUE"
+        ],
+        "14": [
+          "ii"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "ix"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ],
+        "21": [
+          "H"
+        ],
+        "22": [
+          "G"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "viii"
+        ],
+        "28": [
+          "ii"
+        ],
+        "29": [
+          "vi"
+        ],
+        "30": [
+          "i"
+        ],
+        "31": [
+          "iii"
+        ],
+        "32": [
+          "v"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "clothing"
+        ],
+        "38": [
+          "vocabulary"
+        ],
+        "39": [
+          "chemicals"
+        ],
+        "40": [
+          "cultures"
+        ]
+      },
+      "parts": {
+        "1": {
+          "questionNumbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "groups": []
+        },
+        "2": {
+          "questionNumbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "groups": []
+        },
+        "3": {
+          "questionNumbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "groups": []
+        }
+      },
+      "sources": [
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        },
+        {
+          "part": 2,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        },
+        {
+          "part": 3,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        }
+      ]
+    }
+  },
+  "after": {
+    "reading-8-1": {
+      "book": 8,
+      "test": 1,
+      "module": "reading",
+      "answers": {
+        "1": [
+          "D"
+        ],
+        "2": [
+          "B"
+        ],
+        "3": [
+          "F"
+        ],
+        "4": [
+          "E"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "F"
+        ],
+        "7": [
+          "D"
+        ],
+        "8": [
+          "A"
+        ],
+        "9": [
+          "anchor",
+          "ship's anchor",
+          "an anchor",
+          "the anchor"
+        ],
+        "10": [
+          "wheel",
+          "escape wheel"
+        ],
+        "11": [
+          "tooth"
+        ],
+        "12": [
+          "pendulum",
+          "long pendulum"
+        ],
+        "13": [
+          "second"
+        ],
+        "14": [
+          "ii"
+        ],
+        "15": [
+          "iii"
+        ],
+        "16": [
+          "v"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "viii"
+        ],
+        "19": [
+          "vii"
+        ],
+        "20": [
+          "FALSE"
+        ],
+        "21": [
+          "FALSE"
+        ],
+        "22": [
+          "NOT GIVEN"
+        ],
+        "23": [
+          "TRUE"
+        ],
+        "24": [
+          "TRUE"
+        ],
+        "25": [
+          "FALSE"
+        ],
+        "26": [
+          "TRUE"
+        ],
+        "27": [
+          "E"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "F"
+        ],
+        "31": [
+          "sender"
+        ],
+        "32": [
+          "picture",
+          "image"
+        ],
+        "33": [
+          "receiver"
+        ],
+        "34": [
+          "sensory leakage"
+        ],
+        "35": [
+          "fraud",
+          "outright fraud",
+          "or fraud",
+          "or outright fraud"
+        ],
+        "36": [
+          "computers"
+        ],
+        "37": [
+          "human involvement"
+        ],
+        "38": [
+          "meta-analysis"
+        ],
+        "39": [
+          "lack of consistency"
+        ],
+        "40": [
+          "big enough",
+          "large enough"
+        ]
+      },
+      "parts": {
+        "1": {
+          "questionNumbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "groups": []
+        },
+        "2": {
+          "questionNumbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "groups": []
+        },
+        "3": {
+          "questionNumbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "groups": [
+            {
+              "questions": [
+                34,
+                35
+              ],
+              "acceptedSets": [
+                [
+                  "sensory leakage",
+                  "fraud"
+                ],
+                [
+                  "sensory leakage",
+                  "outright fraud"
+                ],
+                [
+                  "sensory leakage",
+                  "or fraud"
+                ],
+                [
+                  "sensory leakage",
+                  "or outright fraud"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        },
+        {
+          "part": 2,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        },
+        {
+          "part": 3,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-1-user-key.json"
+        },
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "Explicit user correction on 2026-10-04",
+          "reference": "docs/cambridge-8-reading-1-2-user-correction.json"
+        },
+        {
+          "part": 3,
+          "type": "user-transcription",
+          "label": "Explicit user correction on 2026-10-04",
+          "reference": "docs/cambridge-8-reading-1-2-user-correction.json"
+        }
+      ]
+    },
+    "reading-8-2": {
+      "book": 8,
+      "test": 2,
+      "module": "reading",
+      "answers": {
+        "1": [
+          "Spinning"
+        ],
+        "2": [
+          "unblemished",
+          "perfectly unblemished"
+        ],
+        "3": [
+          "labour intensive",
+          "labour-intensive",
+          "labor-intensive",
+          "labor intensive"
+        ],
+        "4": [
+          "thickness"
+        ],
+        "5": [
+          "marked"
+        ],
+        "6": [
+          "glass",
+          "molten glass"
+        ],
+        "7": [
+          "tin",
+          "molten tin",
+          "metal",
+          "molten metal"
+        ],
+        "8": [
+          "rollers"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "NOT GIVEN"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "TRUE"
+        ],
+        "14": [
+          "ii"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "ix"
+        ],
+        "17": [
+          "iv"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ],
+        "21": [
+          "H"
+        ],
+        "22": [
+          "G"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "viii"
+        ],
+        "28": [
+          "ii"
+        ],
+        "29": [
+          "vi"
+        ],
+        "30": [
+          "i"
+        ],
+        "31": [
+          "iii"
+        ],
+        "32": [
+          "v"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "clothing"
+        ],
+        "38": [
+          "vocabulary"
+        ],
+        "39": [
+          "chemicals"
+        ],
+        "40": [
+          "cultures"
+        ]
+      },
+      "parts": {
+        "1": {
+          "questionNumbers": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "groups": []
+        },
+        "2": {
+          "questionNumbers": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "groups": [
+            {
+              "questions": [
+                18,
+                19
+              ],
+              "acceptedSets": [
+                [
+                  "C",
+                  "B"
+                ]
+              ]
+            }
+          ]
+        },
+        "3": {
+          "questionNumbers": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "groups": []
+        }
+      },
+      "sources": [
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        },
+        {
+          "part": 2,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        },
+        {
+          "part": 3,
+          "type": "user-transcription",
+          "label": "User-provided answer key transcription",
+          "reference": "docs/cambridge-8-reading-2-user-key.json"
+        },
+        {
+          "part": 1,
+          "type": "user-transcription",
+          "label": "Explicit user correction on 2026-10-04",
+          "reference": "docs/cambridge-8-reading-1-2-user-correction.json"
+        },
+        {
+          "part": 2,
+          "type": "user-transcription",
+          "label": "Explicit user correction on 2026-10-04",
+          "reference": "docs/cambridge-8-reading-1-2-user-correction.json"
+        }
+      ]
+    }
+  }
+}

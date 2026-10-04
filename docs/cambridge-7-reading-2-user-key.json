@@ -1,0 +1,154 @@
+{
+  "note": "User-provided transcription and follow-up supplied Q37 I, Q38 G, Q39 E, Q40 B. Missing Q11–13 and Q25–26 remain unchecked.",
+  "parts": [
+    {
+      "book": 7,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "YES"
+        ],
+        "2": [
+          "NO"
+        ],
+        "3": [
+          "NOT GIVEN"
+        ],
+        "4": [
+          "YES"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "A"
+        ],
+        "7": [
+          "B"
+        ],
+        "8": [
+          "C"
+        ],
+        "9": [
+          "A"
+        ],
+        "10": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "E"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "YES"
+        ],
+        "19": [
+          "NOT GIVEN"
+        ],
+        "20": [
+          "NO"
+        ],
+        "21": [
+          "YES"
+        ],
+        "22": [
+          "food bills",
+          "costs"
+        ],
+        "23": [
+          "intensive farming",
+          "modern intensive farming"
+        ],
+        "24": [
+          "organic farming"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "ii"
+        ],
+        "28": [
+          "v"
+        ],
+        "29": [
+          "x"
+        ],
+        "30": [
+          "i"
+        ],
+        "31": [
+          "NO"
+        ],
+        "32": [
+          "YES"
+        ],
+        "33": [
+          "NO"
+        ],
+        "34": [
+          "YES"
+        ],
+        "35": [
+          "NOT GIVEN"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "I"
+        ],
+        "38": [
+          "G"
+        ],
+        "39": [
+          "E"
+        ],
+        "40": [
+          "B"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

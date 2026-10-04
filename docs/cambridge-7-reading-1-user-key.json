@@ -1,0 +1,169 @@
+{
+  "note": "Transcribed from user attachment Pasted text.txt. Only supplied answers included. Test 2 missing 11–13,25–26,37–40; Test 3 missing 12–13,24–26,38–40. No missing answers inferred.",
+  "parts": [
+    {
+      "book": 7,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "A"
+        ],
+        "3": [
+          "A"
+        ],
+        "4": [
+          "E"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "phantom"
+        ],
+        "7": [
+          "echoes",
+          "obstacles"
+        ],
+        "8": [
+          "depth"
+        ],
+        "9": [
+          "submarines"
+        ],
+        "10": [
+          "natural selection"
+        ],
+        "11": [
+          "radio waves",
+          "echoes"
+        ],
+        "12": [
+          "mathematical theories"
+        ],
+        "13": [
+          "zoologist"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "xi"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "v"
+        ],
+        "17": [
+          "i"
+        ],
+        "18": [
+          "ix"
+        ],
+        "19": [
+          "ii"
+        ],
+        "20": [
+          "x"
+        ],
+        "21": [
+          "NO"
+        ],
+        "22": [
+          "YES"
+        ],
+        "23": [
+          "NOT GIVEN"
+        ],
+        "24": [
+          "NO"
+        ],
+        "25": [
+          "YES"
+        ],
+        "26": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "FALSE"
+        ],
+        "32": [
+          "FALSE"
+        ],
+        "33": [
+          "TRUE"
+        ],
+        "34": [
+          "NOT GIVEN"
+        ],
+        "35": [
+          "NOT GIVEN"
+        ],
+        "36": [
+          "TRUE"
+        ],
+        "37": [
+          "F"
+        ],
+        "38": [
+          "H"
+        ],
+        "39": [
+          "K"
+        ],
+        "40": [
+          "G"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "note": "Transcribed from user attachment Pasted text.txt. Only supplied answers included. Test 2 missing 11–13,25–26,37–40; Test 3 missing 12–13,24–26,38–40. No missing answers inferred.",
+  "parts": [
+    {
+      "book": 7,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "TRUE"
+        ],
+        "3": [
+          "NOT GIVEN"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "FALSE"
+        ],
+        "6": [
+          "NOT GIVEN"
+        ],
+        "7": [
+          "C"
+        ],
+        "8": [
+          "M"
+        ],
+        "9": [
+          "F"
+        ],
+        "10": [
+          "D"
+        ],
+        "11": [
+          "N"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "iv"
+        ],
+        "15": [
+          "vii"
+        ],
+        "16": [
+          "x"
+        ],
+        "17": [
+          "i"
+        ],
+        "18": [
+          "vi"
+        ],
+        "19": [
+          "ii"
+        ],
+        "20": [
+          "E"
+        ],
+        "21": [
+          "D"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "NOT GIVEN"
+        ],
+        "28": [
+          "FALSE"
+        ],
+        "29": [
+          "TRUE"
+        ],
+        "30": [
+          "FALSE"
+        ],
+        "31": [
+          "FALSE"
+        ],
+        "32": [
+          "FALSE"
+        ],
+        "33": [
+          "TRUE"
+        ],
+        "34": [
+          "J"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "E"
+        ],
+        "37": [
+          "B"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

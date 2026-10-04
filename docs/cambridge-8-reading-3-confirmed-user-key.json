@@ -1,0 +1,204 @@
+{
+  "note": "User supplied complete corrected transcription: Q14–18 B,C,F,H,J in any order; Q33–34 physical chemistry and (and) thermodynamics in either order.",
+  "parts": [
+    {
+      "book": 8,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-confirmed complete transcription",
+        "reference": "docs/cambridge-8-reading-3-confirmed-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "D"
+        ],
+        "2": [
+          "A"
+        ],
+        "3": [
+          "A"
+        ],
+        "4": [
+          "power companies"
+        ],
+        "5": [
+          "safely"
+        ],
+        "6": [
+          "size"
+        ],
+        "7": [
+          "B"
+        ],
+        "8": [
+          "C"
+        ],
+        "9": [
+          "G"
+        ],
+        "10": [
+          "D"
+        ],
+        "11": [
+          "NO"
+        ],
+        "12": [
+          "YES"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-confirmed complete transcription",
+        "reference": "docs/cambridge-8-reading-3-confirmed-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "H"
+        ],
+        "18": [
+          "J"
+        ],
+        "19": [
+          "TRUE"
+        ],
+        "20": [
+          "TRUE"
+        ],
+        "21": [
+          "FALSE"
+        ],
+        "22": [
+          "TRUE"
+        ],
+        "23": [
+          "TRUE"
+        ],
+        "24": [
+          "NOT GIVEN"
+        ],
+        "25": [
+          "TRUE"
+        ],
+        "26": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C",
+              "F",
+              "H",
+              "J"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 8,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-confirmed complete transcription",
+        "reference": "docs/cambridge-8-reading-3-confirmed-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "ix"
+        ],
+        "28": [
+          "ii"
+        ],
+        "29": [
+          "vii"
+        ],
+        "30": [
+          "i"
+        ],
+        "31": [
+          "viii"
+        ],
+        "32": [
+          "iv"
+        ],
+        "33": [
+          "physical chemistry"
+        ],
+        "34": [
+          "thermodynamics",
+          "and thermodynamics"
+        ],
+        "35": [
+          "adapt"
+        ],
+        "36": [
+          "immortality"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "YES"
+        ],
+        "39": [
+          "NOT GIVEN"
+        ],
+        "40": [
+          "YES"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            33,
+            34
+          ],
+          "acceptedSets": [
+            [
+              "physical chemistry",
+              "thermodynamics"
+            ],
+            [
+              "physical chemistry",
+              "and thermodynamics"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "note": "User-supplied Cambridge 8 Academic Reading transcription; unrelated advertising discarded. Pending confirmation: Test 1 Q9 '(ships’s) anchor'; Test 2 Q8 'rolles'; Test 3 Q33–34 both 'physical chemistry/thermodynamics'. These pending keys are omitted. Optional words and shared suffix 'big/large enough' expanded explicitly.",
+  "parts": [
+    {
+      "book": 8,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-8-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "vii"
+        ],
+        "2": [
+          "i"
+        ],
+        "3": [
+          "v"
+        ],
+        "4": [
+          "ii"
+        ],
+        "5": [
+          "viii"
+        ],
+        "6": [
+          "YES"
+        ],
+        "7": [
+          "NO"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "NO"
+        ],
+        "10": [
+          "B"
+        ],
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-8-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "D"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "NOT GIVEN"
+        ],
+        "19": [
+          "YES"
+        ],
+        "20": [
+          "NO"
+        ],
+        "21": [
+          "YES"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "H"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "E"
+        ],
+        "26": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-8-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "TRUE"
+        ],
+        "28": [
+          "NOT GIVEN"
+        ],
+        "29": [
+          "TRUE"
+        ],
+        "30": [
+          "FALSE"
+        ],
+        "31": [
+          "A"
+        ],
+        "32": [
+          "C"
+        ],
+        "33": [
+          "B"
+        ],
+        "34": [
+          "D"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "heat"
+        ],
+        "38": [
+          "leaf litter"
+        ],
+        "39": [
+          "screen"
+        ],
+        "40": [
+          "alcohol"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
