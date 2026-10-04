@@ -5931,7 +5931,7 @@
         "YES"
       ],
       "5": [
-        "D"
+        "B"
       ],
       "6": [
         "A"
@@ -5946,6 +5946,15 @@
         "A"
       ],
       "10": [
+        "C"
+      ],
+      "11": [
+        "D"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
         "C"
       ],
       "14": [
@@ -5982,6 +5991,15 @@
       ],
       "24": [
         "organic farming"
+      ],
+      "25": [
+        "Greener Food Standard"
+      ],
+      "26": [
+        "farmers consumers",
+        "farmers and consumers",
+        "consumers farmers",
+        "consumers and farmers"
       ],
       "27": [
         "ii"
@@ -6038,7 +6056,10 @@
           7,
           8,
           9,
-          10
+          10,
+          11,
+          12,
+          13
         ],
         "groups": []
       },
@@ -6054,7 +6075,9 @@
           21,
           22,
           23,
-          24
+          24,
+          25,
+          26
         ],
         "groups": []
       },
@@ -6096,6 +6119,18 @@
         "type": "user-transcription",
         "label": "User-provided pasted answer key transcription",
         "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User supplied full corrected transcription",
+        "reference": "docs/cambridge-7-reading-2-completion-correction.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User supplied full corrected transcription",
+        "reference": "docs/cambridge-7-reading-2-completion-correction.json"
       }
     ]
   },
@@ -6137,6 +6172,12 @@
       "11": [
         "N"
       ],
+      "12": [
+        "O"
+      ],
+      "13": [
+        "E"
+      ],
       "14": [
         "iv"
       ],
@@ -6166,6 +6207,15 @@
       ],
       "23": [
         "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "A"
       ],
       "27": [
         "NOT GIVEN"
@@ -6199,6 +6249,15 @@
       ],
       "37": [
         "B"
+      ],
+      "38": [
+        "G"
+      ],
+      "39": [
+        "D"
+      ],
+      "40": [
+        "B"
       ]
     },
     "parts": {
@@ -6214,7 +6273,9 @@
           8,
           9,
           10,
-          11
+          11,
+          12,
+          13
         ],
         "groups": []
       },
@@ -6229,7 +6290,10 @@
           20,
           21,
           22,
-          23
+          23,
+          24,
+          25,
+          26
         ],
         "groups": []
       },
@@ -6245,7 +6309,10 @@
           34,
           35,
           36,
-          37
+          37,
+          38,
+          39,
+          40
         ],
         "groups": []
       }
@@ -6268,6 +6335,24 @@
         "type": "user-transcription",
         "label": "User-provided pasted answer key transcription",
         "reference": "docs/cambridge-7-reading-3-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided complete transcription",
+        "reference": "docs/cambridge-7-reading-3-complete-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided complete transcription",
+        "reference": "docs/cambridge-7-reading-3-complete-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided complete transcription",
+        "reference": "docs/cambridge-7-reading-3-complete-user-key.json"
       }
     ]
   },

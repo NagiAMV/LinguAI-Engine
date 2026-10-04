@@ -785,14 +785,14 @@
     "status": "complete"
   },
   "reading-7-2": {
-    "available": 35,
+    "available": 40,
     "total": 40,
-    "status": "partial"
+    "status": "complete"
   },
   "reading-7-3": {
-    "available": 32,
+    "available": 40,
     "total": 40,
-    "status": "partial"
+    "status": "complete"
   },
   "reading-7-4": {
     "available": 40,

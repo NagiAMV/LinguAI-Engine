@@ -741,15 +741,16 @@ test('Cambridge 6 Tests 2–4 cover real part boundaries, optional words and uno
   assert.equal(reviewAnswer('',[38],t4).status,'blank');
 });
 
-test('Cambridge 7 preserves supplied variants and leaves absent keys unchecked', () => {
+test('Cambridge 7 complete keys preserve supplied variants and recognize unanswered questions', () => {
   const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
-  for(const [t,count] of [[1,40],[2,35],[3,32],[4,40]]) assert.equal(Object.keys(keys[`reading-7-${t}`].answers).length,count);
+  for(const [t,count] of [[1,40],[2,40],[3,40],[4,40]]) assert.equal(Object.keys(keys[`reading-7-${t}`].answers).length,count);
   const t1=keys['reading-7-1'],t2=keys['reading-7-2'],t3=keys['reading-7-3'],t4=keys['reading-7-4'];
   for(const a of ['echoes','obstacles']) assert.equal(reviewAnswer(a,[7],t1).status,'correct');
   assert.equal(reviewAnswer('modern intensive farming',[23],t2).status,'correct');
   assert.equal(reviewAnswer('i',[37],t2).status,'correct');
-  for(const n of [11,12,13,25,26]) assert.equal(reviewAnswer('anything',[n],t2).status,'pending');
-  for(const n of [12,13,24,25,26,38,39,40]) assert.equal(reviewAnswer('',[n],t3).status,'pending');
+  for(const n of [11,12,13,25,26]) assert.equal(reviewAnswer('anything',[n],t2).status,'incorrect');
+  for(const n of [12,13,24,25,26,38,39,40]) assert.equal(reviewAnswer('',[n],t3).status,'blank');
+  for(const [n,a] of [[12,'O'],[13,'E'],[24,'A'],[25,'A'],[26,'A'],[38,'G'],[39,'D'],[40,'B']]) assert.equal(reviewAnswer(a.toLowerCase(),[n],t3).status,'correct');
   for(const a of ['pulleys','WOODEN PULLEYS']) assert.equal(reviewAnswer(a,[8],t4).status,'correct');
   assert.equal(reviewAnswer('the pulleys',[8],t4).status,'incorrect');
 });
@@ -792,4 +793,14 @@ test('Cambridge 8 Test 3 confirmed sets require distinct answers in any order', 
  for(const word of ['thermodynamics','and thermodynamics']) for(const set of [['physical chemistry',word],[word,'physical chemistry']]) assert.equal(reviewAnswer(set,[33,34],key,true).status,'correct');
  assert.equal(reviewAnswer(['physical chemistry','physical chemistry'],[33,34],key,true).status,'incorrect');
  assert.equal(reviewAnswer(['thermodynamics'],[33,34],key,true).status,'incorrect');
+});
+
+test('Cambridge 7 Test 2 completed key requires both Q26 terms for one answer', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-7-2'];
+ assert.equal(reviewAnswer('B',[5],key).status,'correct');
+ assert.equal(reviewAnswer('D',[5],key).status,'incorrect');
+ for(const a of ['farmers consumers','farmers and consumers','consumers farmers','CONSUMERS AND FARMERS']) assert.equal(reviewAnswer(a,[26],key).status,'correct');
+ for(const a of ['farmers','consumers','farmers and farmers']) assert.equal(reviewAnswer(a,[26],key).status,'incorrect');
+ assert.equal(reviewAnswer('greener food standard',[25],key).status,'correct');
+ assert.equal(Object.keys(key.answers).length,40);
 });

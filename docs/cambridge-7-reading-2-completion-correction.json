@@ -1,0 +1,410 @@
+{
+  "note": "User explicitly corrected Q5 from D to B and supplied missing Q11–13,25–26. Q26 is one answer field: both farmers and consumers required, either order, optional and. Earlier source retained.",
+  "before": {
+    "book": 7,
+    "test": 2,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "YES"
+      ],
+      "2": [
+        "NO"
+      ],
+      "3": [
+        "NOT GIVEN"
+      ],
+      "4": [
+        "YES"
+      ],
+      "5": [
+        "D"
+      ],
+      "6": [
+        "A"
+      ],
+      "7": [
+        "B"
+      ],
+      "8": [
+        "C"
+      ],
+      "9": [
+        "A"
+      ],
+      "10": [
+        "C"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "YES"
+      ],
+      "19": [
+        "NOT GIVEN"
+      ],
+      "20": [
+        "NO"
+      ],
+      "21": [
+        "YES"
+      ],
+      "22": [
+        "food bills",
+        "costs"
+      ],
+      "23": [
+        "intensive farming",
+        "modern intensive farming"
+      ],
+      "24": [
+        "organic farming"
+      ],
+      "27": [
+        "ii"
+      ],
+      "28": [
+        "v"
+      ],
+      "29": [
+        "x"
+      ],
+      "30": [
+        "i"
+      ],
+      "31": [
+        "NO"
+      ],
+      "32": [
+        "YES"
+      ],
+      "33": [
+        "NO"
+      ],
+      "34": [
+        "YES"
+      ],
+      "35": [
+        "NOT GIVEN"
+      ],
+      "36": [
+        "D"
+      ],
+      "37": [
+        "I"
+      ],
+      "38": [
+        "G"
+      ],
+      "39": [
+        "E"
+      ],
+      "40": [
+        "B"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      }
+    ]
+  },
+  "after": {
+    "book": 7,
+    "test": 2,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "YES"
+      ],
+      "2": [
+        "NO"
+      ],
+      "3": [
+        "NOT GIVEN"
+      ],
+      "4": [
+        "YES"
+      ],
+      "5": [
+        "B"
+      ],
+      "6": [
+        "A"
+      ],
+      "7": [
+        "B"
+      ],
+      "8": [
+        "C"
+      ],
+      "9": [
+        "A"
+      ],
+      "10": [
+        "C"
+      ],
+      "11": [
+        "D"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "YES"
+      ],
+      "19": [
+        "NOT GIVEN"
+      ],
+      "20": [
+        "NO"
+      ],
+      "21": [
+        "YES"
+      ],
+      "22": [
+        "food bills",
+        "costs"
+      ],
+      "23": [
+        "intensive farming",
+        "modern intensive farming"
+      ],
+      "24": [
+        "organic farming"
+      ],
+      "25": [
+        "Greener Food Standard"
+      ],
+      "26": [
+        "farmers consumers",
+        "farmers and consumers",
+        "consumers farmers",
+        "consumers and farmers"
+      ],
+      "27": [
+        "ii"
+      ],
+      "28": [
+        "v"
+      ],
+      "29": [
+        "x"
+      ],
+      "30": [
+        "i"
+      ],
+      "31": [
+        "NO"
+      ],
+      "32": [
+        "YES"
+      ],
+      "33": [
+        "NO"
+      ],
+      "34": [
+        "YES"
+      ],
+      "35": [
+        "NOT GIVEN"
+      ],
+      "36": [
+        "D"
+      ],
+      "37": [
+        "I"
+      ],
+      "38": [
+        "G"
+      ],
+      "39": [
+        "E"
+      ],
+      "40": [
+        "B"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided pasted answer key transcription",
+        "reference": "docs/cambridge-7-reading-2-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User supplied full corrected transcription",
+        "reference": "docs/cambridge-7-reading-2-completion-correction.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User supplied full corrected transcription",
+        "reference": "docs/cambridge-7-reading-2-completion-correction.json"
+      }
+    ]
+  }
+}
