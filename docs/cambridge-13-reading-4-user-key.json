@@ -1,0 +1,167 @@
+{
+  "note": "User-provided Cambridge 13 Academic Reading transcription. Explicit alternatives preserved; Test 3 Q22 optional audio-recording expanded without changing the hyphen.",
+  "parts": [
+    {
+      "book": 13,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "FALSE"
+        ],
+        "3": [
+          "TRUE"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "FALSE"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "NOT GIVEN"
+        ],
+        "8": [
+          "TRUE"
+        ],
+        "9": [
+          "wool"
+        ],
+        "10": [
+          "navigator"
+        ],
+        "11": [
+          "gale"
+        ],
+        "12": [
+          "training"
+        ],
+        "13": [
+          "fire"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "minerals"
+        ],
+        "15": [
+          "carbon"
+        ],
+        "16": [
+          "water"
+        ],
+        "17": [
+          "agriculture"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "E"
+        ],
+        "20": [
+          "A"
+        ],
+        "21": [
+          "D"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "F"
+        ],
+        "25": [
+          "G"
+        ],
+        "26": [
+          "F"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "F"
+        ],
+        "31": [
+          "B"
+        ],
+        "32": [
+          "G"
+        ],
+        "33": [
+          "E"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "YES"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "NOT GIVEN"
+        ],
+        "39": [
+          "YES"
+        ],
+        "40": [
+          "NO"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

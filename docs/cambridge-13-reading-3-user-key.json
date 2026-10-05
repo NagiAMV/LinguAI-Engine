@@ -1,0 +1,169 @@
+{
+  "note": "User-provided Cambridge 13 Academic Reading transcription. Explicit alternatives preserved; Test 3 Q22 optional audio-recording expanded without changing the hyphen.",
+  "parts": [
+    {
+      "book": 13,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "furniture"
+        ],
+        "2": [
+          "sugar"
+        ],
+        "3": [
+          "ropes"
+        ],
+        "4": [
+          "charcoal"
+        ],
+        "5": [
+          "bowls"
+        ],
+        "6": [
+          "hormones"
+        ],
+        "7": [
+          "cosmetics"
+        ],
+        "8": [
+          "dynamite"
+        ],
+        "9": [
+          "FALSE"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "NOT GIVEN"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "recording devices"
+        ],
+        "19": [
+          "fathers",
+          "dads"
+        ],
+        "20": [
+          "bridge hypothesis"
+        ],
+        "21": [
+          "repertoire"
+        ],
+        "22": [
+          "vests",
+          "audio-recording vests"
+        ],
+        "23": [
+          "vocabulary"
+        ],
+        "24": [
+          "F"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-13-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "H"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "B"
+        ],
+        "31": [
+          "D"
+        ],
+        "32": [
+          "shells"
+        ],
+        "33": [
+          "lake"
+        ],
+        "34": [
+          "rainfall"
+        ],
+        "35": [
+          "grains"
+        ],
+        "36": [
+          "pottery"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "A"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "A"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

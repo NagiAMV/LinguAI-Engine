@@ -909,3 +909,18 @@ test('Cambridge 12 Test 4 completes coverage and preserves final alternatives', 
  assert.equal(reviewAnswer('',[40],key).status,'blank');
  assert.equal(reviewAnswer(' iv ',[27],key).status,'correct');
 });
+
+test('Cambridge 13 covers all four tests and explicit optional answers', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4]){
+  const key=keys[`reading-13-${t}`];
+  assert.equal(Object.keys(key.answers).length,40);
+  assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ }
+ const key=keys['reading-13-3'];
+ for(const v of ['fathers','DADS'])assert.equal(reviewAnswer(v,[19],key).status,'correct');
+ for(const v of ['vests','audio-recording vests'])assert.equal(reviewAnswer(v,[22],key).status,'correct');
+ assert.equal(reviewAnswer('vest',[22],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[22],key).status,'blank');
+ assert.equal(reviewAnswer(' BRIDGE   HYPOTHESIS ',[20],key).status,'correct');
+});
