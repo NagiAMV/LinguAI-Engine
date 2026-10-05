@@ -924,3 +924,16 @@ test('Cambridge 13 covers all four tests and explicit optional answers', () => {
  assert.equal(reviewAnswer('',[22],key).status,'blank');
  assert.equal(reviewAnswer(' BRIDGE   HYPOTHESIS ',[20],key).status,'correct');
 });
+
+test('Cambridge 14 Test 1 checks each unordered pair independently', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-14-1'];
+ assert.equal(Object.keys(key.answers).length,40);
+ for(const [numbers,answers] of [[[4,5],['traffic','crime']],[[19,20],['B','D']],[[21,22],['D','F']]]){
+  for(const pair of [answers,[...answers].reverse()])assert.equal(reviewAnswer(pair,numbers,key,true).status,'correct');
+  assert.equal(reviewAnswer([answers[0]],numbers,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([answers[0],answers[0]],numbers,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],numbers,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['B','D'],[21,22],key,true).status,'incorrect');
+ assert.equal(reviewAnswer(' CHARACTERISTICS ',[40],key).status,'correct');
+});
