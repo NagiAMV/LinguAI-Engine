@@ -1,0 +1,169 @@
+{
+  "note": "User-provided Cambridge 10 Academic Reading transcription. Sun(light) expanded as sun/sunlight; 10/ten times as 10 times/ten times; negative emotions/feelings as negative emotions/negative feelings. No additional alternatives inferred.",
+  "parts": [
+    {
+      "book": 10,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "ii"
+        ],
+        "2": [
+          "i"
+        ],
+        "3": [
+          "v"
+        ],
+        "4": [
+          "vii"
+        ],
+        "5": [
+          "TRUE"
+        ],
+        "6": [
+          "NOT GIVEN"
+        ],
+        "7": [
+          "NOT GIVEN"
+        ],
+        "8": [
+          "TRUE"
+        ],
+        "9": [
+          "NOT GIVEN"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "source of income",
+          "industry"
+        ],
+        "12": [
+          "employer"
+        ],
+        "13": [
+          "domestic tourism"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "H"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "E"
+        ],
+        "19": [
+          "sun",
+          "sunlight"
+        ],
+        "20": [
+          "upper"
+        ],
+        "21": [
+          "dry"
+        ],
+        "22": [
+          "north"
+        ],
+        "23": [
+          "FALSE"
+        ],
+        "24": [
+          "TRUE"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "B"
+        ],
+        "28": [
+          "F"
+        ],
+        "29": [
+          "I"
+        ],
+        "30": [
+          "G"
+        ],
+        "31": [
+          "D"
+        ],
+        "32": [
+          "C"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "D"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "NO"
+        ],
+        "37": [
+          "YES"
+        ],
+        "38": [
+          "NOT GIVEN"
+        ],
+        "39": [
+          "YES"
+        ],
+        "40": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -822,3 +822,29 @@ test('Cambridge 9 complete keys support confirmed letter, variants and both-requ
  assert.equal(reviewAnswer('sensors',[35],c).status,'incorrect');
  for(const v of ['leukaemia','leukemia'])assert.equal(reviewAnswer(v,[13],d).status,'correct');
 });
+
+test('Cambridge 10 Tests 1–2 preserve variants and require both Q23 terms', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['reading-10-1'],b=keys['reading-10-2'];
+ assert.equal(Object.keys(a.answers).length,40);assert.equal(Object.keys(b.answers).length,40);
+ for(const v of ['4 sides','four sides'])assert.equal(reviewAnswer(v,[10],a).status,'correct');
+ assert.equal(reviewAnswer('4',[10],a).status,'incorrect');
+ for(const v of ['verandas','verandahs'])assert.equal(reviewAnswer(v,[12],a).status,'correct');
+ for(const v of ['books activities','activities books','books and activities','activities and books','books, activities','activities, books'])assert.equal(reviewAnswer(v,[23],b).status,'correct');
+ for(const v of ['books','activities','books and books'])assert.equal(reviewAnswer(v,[23],b).status,'incorrect');
+ for(const v of ['internal regulation','SELF-REGULATION'])assert.equal(reviewAnswer(v,[24],b).status,'correct');
+ assert.equal(reviewAnswer('',[23],b).status,'blank');
+});
+
+test('Cambridge 10 Tests 3–4 preserve explicit variants and shared words', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['reading-10-3'],b=keys['reading-10-4'];
+ for(const key of [a,b])assert.equal(Object.keys(key.answers).length,40);
+ for(const v of ['source of income','industry'])assert.equal(reviewAnswer(v,[11],a).status,'correct');
+ for(const v of ['sun','SUNLIGHT'])assert.equal(reviewAnswer(v,[19],a).status,'correct');
+ for(const v of ['10 times','ten times'])assert.equal(reviewAnswer(v,[2],b).status,'correct');
+ assert.equal(reviewAnswer('10',[2],b).status,'incorrect');
+ for(const v of ['negative emotions','negative feelings'])assert.equal(reviewAnswer(v,[18],b).status,'correct');
+ assert.equal(reviewAnswer('positive feelings',[18],b).status,'incorrect');
+ assert.equal(reviewAnswer('',[18],b).status,'blank');
+});

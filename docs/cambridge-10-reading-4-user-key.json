@@ -1,0 +1,172 @@
+{
+  "note": "User-provided Cambridge 10 Academic Reading transcription. Sun(light) expanded as sun/sunlight; 10/ten times as 10 times/ten times; negative emotions/feelings as negative emotions/negative feelings. No additional alternatives inferred.",
+  "parts": [
+    {
+      "book": 10,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "spread"
+        ],
+        "2": [
+          "10 times",
+          "ten times"
+        ],
+        "3": [
+          "below"
+        ],
+        "4": [
+          "fuel"
+        ],
+        "5": [
+          "seasons"
+        ],
+        "6": [
+          "homes",
+          "housing"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "FALSE"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "TRUE"
+        ],
+        "11": [
+          "NOT GIVEN"
+        ],
+        "12": [
+          "FALSE"
+        ],
+        "13": [
+          "FALSE"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "transformation",
+          "change"
+        ],
+        "15": [
+          "young age"
+        ],
+        "16": [
+          "optimism"
+        ],
+        "17": [
+          "skills",
+          "techniques"
+        ],
+        "18": [
+          "negative emotions",
+          "negative feelings"
+        ],
+        "19": [
+          "E"
+        ],
+        "20": [
+          "C"
+        ],
+        "21": [
+          "G"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "E"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "G"
+        ],
+        "26": [
+          "H"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-10-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "B"
+        ],
+        "31": [
+          "A"
+        ],
+        "32": [
+          "F"
+        ],
+        "33": [
+          "G"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "B"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "NOT GIVEN"
+        ],
+        "38": [
+          "YES"
+        ],
+        "39": [
+          "NO"
+        ],
+        "40": [
+          "YES"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
