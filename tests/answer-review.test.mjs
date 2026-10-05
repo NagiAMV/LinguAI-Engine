@@ -848,3 +848,17 @@ test('Cambridge 10 Tests 3–4 preserve explicit variants and shared words', () 
  assert.equal(reviewAnswer('positive feelings',[18],b).status,'incorrect');
  assert.equal(reviewAnswer('',[18],b).status,'blank');
 });
+
+test('Cambridge 11 keys preserve optional words, spelling and unordered pair', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4])assert.equal(Object.keys(keys[`reading-11-${t}`].answers).length,40);
+ const a=keys['reading-11-1'],b=keys['reading-11-2'],c=keys['reading-11-3'];
+ for(const v of ['urban centres','urban centers'])assert.equal(reviewAnswer(v,[2],a).status,'correct');
+ for(const v of ['trays','STACKED TRAYS'])assert.equal(reviewAnswer(v,[6],a).status,'correct');
+ for(const v of ['frame','lifting frame'])assert.equal(reviewAnswer(v,[9],b).status,'correct');
+ for(const v of ['cradle','lifting cradle'])assert.equal(reviewAnswer(v,[12],b).status,'correct');
+ for(const pair of [['B','C'],['C','B']])assert.equal(reviewAnswer(pair,[25,26],b,true).status,'correct');
+ for(const pair of [['B'],['B','B'],['B','D']])assert.equal(reviewAnswer(pair,[25,26],b,true).status,'incorrect');
+ for(const v of ['corridor','passageway'])assert.equal(reviewAnswer(v,[26],c).status,'correct');
+ assert.equal(reviewAnswer('',[26],c).status,'blank');
+});
