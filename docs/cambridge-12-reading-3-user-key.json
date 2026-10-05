@@ -1,0 +1,167 @@
+{
+  "note": "User-provided answers for Cambridge 12 Academic Reading Test 3, matched to Flying tortoises, The Intersection of Health Sciences and Geography, Music and the emotions. Explanations and advertising omitted. Q22 spelling 'mosquitos' retained exactly; no extra alternatives inferred.",
+  "parts": [
+    {
+      "book": 12,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "v"
+        ],
+        "2": [
+          "iii"
+        ],
+        "3": [
+          "viii"
+        ],
+        "4": [
+          "i"
+        ],
+        "5": [
+          "iv"
+        ],
+        "6": [
+          "vi"
+        ],
+        "7": [
+          "ii"
+        ],
+        "8": [
+          "pirates"
+        ],
+        "9": [
+          "food"
+        ],
+        "10": [
+          "oil"
+        ],
+        "11": [
+          "settlers"
+        ],
+        "12": [
+          "species"
+        ],
+        "13": [
+          "eggs"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "D"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "G"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "vaccinations"
+        ],
+        "21": [
+          "antibiotics"
+        ],
+        "22": [
+          "mosquitos"
+        ],
+        "23": [
+          "factories"
+        ],
+        "24": [
+          "forests"
+        ],
+        "25": [
+          "polio"
+        ],
+        "26": [
+          "mountain"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "dopamine"
+        ],
+        "28": [
+          "pleasure"
+        ],
+        "29": [
+          "caudate"
+        ],
+        "30": [
+          "anticipatory phase"
+        ],
+        "31": [
+          "food"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "B"
+        ],
+        "36": [
+          "D"
+        ],
+        "37": [
+          "F"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "E"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

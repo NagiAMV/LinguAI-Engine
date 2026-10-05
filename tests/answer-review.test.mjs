@@ -862,3 +862,50 @@ test('Cambridge 11 keys preserve optional words, spelling and unordered pair', (
  for(const v of ['corridor','passageway'])assert.equal(reviewAnswer(v,[26],c).status,'correct');
  assert.equal(reviewAnswer('',[26],c).status,'blank');
 });
+
+test('Cambridge 12 Test 1 preserves supplied alternatives without accepting synonyms', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-12-1'];
+ assert.equal(Object.keys(key.answers).length,40);
+ for(const [n,values] of [[17,['contact','meetings']],[18,['hunt','desire']],[19,['aimless','empty']]])for(const v of values)assert.equal(reviewAnswer(v,[n],key).status,'correct');
+ assert.equal(reviewAnswer(' FIRE   SCIENCE ',[33],key).status,'correct');
+ assert.equal(reviewAnswer('meeting',[17],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[17],key).status,'blank');
+ assert.equal(reviewAnswer('vi',[27],key).status,'correct');
+});
+
+test('Cambridge 12 Test 2 keeps Choose TWO groups separate and order independent', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-12-2'];
+ assert.equal(Object.keys(key.answers).length,40);
+ for(const [numbers,letters] of [[[10,11],['D','E']],[[12,13],['C','D']]]){
+  for(const pair of [letters,[...letters].reverse()])assert.equal(reviewAnswer(pair,numbers,key,true).status,'correct');
+  assert.equal(reviewAnswer([letters[0],letters[0]],numbers,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([letters[0]],numbers,key,true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer(['D','E'],[12,13],key,true).status,'incorrect');
+ assert.equal(reviewAnswer(' EYE   MOVEMENTS ',[27],key).status,'correct');
+ assert.equal(reviewAnswer('language co-activation',[28],key).status,'correct');
+ assert.equal(reviewAnswer('eye movement',[27],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[29],key).status,'blank');
+});
+
+test('Cambridge 12 Test 3 keys retain question mapping and safe normalization', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-12-3'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ assert.equal(reviewAnswer('V',[1],key).status,'correct');
+ assert.equal(reviewAnswer('MOSQUITOS',[22],key).status,'correct');
+ assert.equal(reviewAnswer(' ANTICIPATORY   PHASE ',[30],key).status,'correct');
+ assert.equal(reviewAnswer('anticipation',[30],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[30],key).status,'blank');
+ assert.equal(reviewAnswer('c',[40],key).status,'correct');
+});
+
+test('Cambridge 12 Test 4 completes coverage and preserves final alternatives', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-12-4'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const v of ['investors','SHAREHOLDERS'])assert.equal(reviewAnswer(v,[40],key).status,'correct');
+ assert.equal(reviewAnswer('investor',[40],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[40],key).status,'blank');
+ assert.equal(reviewAnswer(' iv ',[27],key).status,'correct');
+});

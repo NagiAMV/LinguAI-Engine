@@ -1,0 +1,168 @@
+{
+  "note": "User-provided Cambridge 12 Reading Test 4 answers, identified by The History of Glass, Bring back the big cats, and UK companies need more effective boards of directors. Explanations excluded; both supplied Q40 alternatives preserved.",
+  "parts": [
+    {
+      "book": 12,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "obsidian"
+        ],
+        "2": [
+          "spears"
+        ],
+        "3": [
+          "beads"
+        ],
+        "4": [
+          "impurities"
+        ],
+        "5": [
+          "Romans"
+        ],
+        "6": [
+          "lead"
+        ],
+        "7": [
+          "clouding"
+        ],
+        "8": [
+          "taxes"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "NOT GIVEN"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "FALSE"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "D"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "E"
+        ],
+        "20": [
+          "D"
+        ],
+        "21": [
+          "F"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "NO"
+        ],
+        "24": [
+          "NOT GIVEN"
+        ],
+        "25": [
+          "YES"
+        ],
+        "26": [
+          "YES"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "iv"
+        ],
+        "28": [
+          "ii"
+        ],
+        "29": [
+          "vi"
+        ],
+        "30": [
+          "viii"
+        ],
+        "31": [
+          "vii"
+        ],
+        "32": [
+          "i"
+        ],
+        "33": [
+          "iii"
+        ],
+        "34": [
+          "YES"
+        ],
+        "35": [
+          "NOT GIVEN"
+        ],
+        "36": [
+          "NO"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "information"
+        ],
+        "39": [
+          "financial"
+        ],
+        "40": [
+          "investors",
+          "shareholders"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

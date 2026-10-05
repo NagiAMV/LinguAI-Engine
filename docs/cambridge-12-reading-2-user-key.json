@@ -1,0 +1,192 @@
+{
+  "note": "User-provided answers, explanations excluded. Matched to Cambridge 12 Reading Test 2 by passage titles and questions. Questions 10–11 and 12–13 are Choose TWO groups in the imported test; supplied pairs preserved as unordered sets.",
+  "parts": [
+    {
+      "book": 12,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "A"
+        ],
+        "2": [
+          "B"
+        ],
+        "3": [
+          "H"
+        ],
+        "4": [
+          "D"
+        ],
+        "5": [
+          "B"
+        ],
+        "6": [
+          "C"
+        ],
+        "7": [
+          "G"
+        ],
+        "8": [
+          "B"
+        ],
+        "9": [
+          "A"
+        ],
+        "10": [
+          "D"
+        ],
+        "11": [
+          "E"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            10,
+            11
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            12,
+            13
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "iv"
+        ],
+        "15": [
+          "vi"
+        ],
+        "16": [
+          "viii"
+        ],
+        "17": [
+          "v"
+        ],
+        "18": [
+          "i"
+        ],
+        "19": [
+          "vii"
+        ],
+        "20": [
+          "iii"
+        ],
+        "21": [
+          "TRUE"
+        ],
+        "22": [
+          "FALSE"
+        ],
+        "23": [
+          "FALSE"
+        ],
+        "24": [
+          "NOT GIVEN"
+        ],
+        "25": [
+          "rubber"
+        ],
+        "26": [
+          "farmer"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-12-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "eye movements"
+        ],
+        "28": [
+          "language co-activation"
+        ],
+        "29": [
+          "Stroop Task"
+        ],
+        "30": [
+          "conflict management"
+        ],
+        "31": [
+          "cognitive control"
+        ],
+        "32": [
+          "YES"
+        ],
+        "33": [
+          "NOT GIVEN"
+        ],
+        "34": [
+          "NO"
+        ],
+        "35": [
+          "NO"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "D"
+        ],
+        "38": [
+          "G"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
