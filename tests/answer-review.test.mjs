@@ -46,7 +46,7 @@ test("imported key remains attached to the verified test and question range", ()
   );
   assert.equal(
     reviewAnswer("anything", [14], keys["reading-19-2"]).status,
-    "pending",
+    "incorrect",
   );
 });
 
@@ -125,7 +125,7 @@ test("new verified Cambridge 19 keys handle real alternatives and unordered pair
   assert.equal(reviewAnswer("LABOUR", [4], second).status, "correct");
   assert.equal(reviewAnswer("the labour", [4], second).status, "incorrect");
   assert.equal(reviewAnswer("", [4], second).status, "blank");
-  assert.equal(reviewAnswer("anything", [14], second).status, "pending");
+  assert.equal(reviewAnswer("anything", [14], second).status, "incorrect");
 });
 
 test("Cambridge 1 Reading Test 1 Part 1 uses saved source keys", () => {
@@ -1011,4 +1011,88 @@ test('Cambridge 17 preserves spelling variants and all five independent pairs', 
   assert.equal(reviewAnswer([],nums,key,true).status,'blank');
  }
  assert.equal(reviewAnswer(['B','E'],[25,26],keys['reading-17-4'],true).status,'incorrect');
+});
+
+test('Cambridge 18 preserves supplied variants and independent unordered pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4])assert.equal(Object.keys(keys[`reading-18-${t}`].answers).length,40);
+ for(const [t,n,variants] of [[1,3,['consumption','food consumption']],[1,7,['flavour','flavor']],[2,1,['antlers','deer antlers']],[2,2,['posts','timber posts']],[3,25,['fifty','50']]]){
+  for(const value of variants)assert.equal(reviewAnswer(`  ${value.toUpperCase()}  `,[n],keys[`reading-18-${t}`]).status,'correct');
+ }
+ const key=keys['reading-18-4'];
+ for(const [nums,pair] of [[[10,11],['C','D']],[[12,13],['A','D']]]){
+  assert.equal(reviewAnswer([...pair].reverse(),nums,key,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],nums,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['A','D'],[10,11],key,true).status,'incorrect');
+ assert.equal(reviewAnswer('the antlers',[1],keys['reading-18-2']).status,'incorrect');
+});
+
+test('Cambridge 19 Test 2 is complete and preserves explicit alternatives and independent pairs', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-19-2'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const [n,variants] of [[4,['labour','labor']],[6,['railway','railways']],[22,['visualisation','visualization']]])for(const v of variants)assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[n],key).status,'correct');
+ for(const [nums,pair] of [[[23,24],['B','D']],[[25,26],['A','E']]]){
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],nums,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['A','E'],[23,24],key,true).status,'incorrect');
+ assert.equal(reviewAnswer('the railway',[6],key).status,'incorrect');
+});
+
+test('Cambridge 19 Test 1 accepts the user-supplied gut alternative', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-19-1'];
+ for(const value of ['intestines','gut',' GUT '])assert.equal(reviewAnswer(value,[11],key).status,'correct');
+ assert.equal(reviewAnswer('the gut',[11],key).status,'incorrect');
+});
+
+test('Cambridge 19 Tests 3 and 4 are complete and retain explicit singular/plural alternatives', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [3,4]){
+  const key=keys[`reading-19-${t}`];
+  assert.equal(Object.keys(key.answers).length,40);
+  assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ }
+ const third=keys['reading-19-3'],fourth=keys['reading-19-4'];
+ assert.equal(reviewAnswer(' NOT   GIVEN ',[38],third).status,'correct');
+ assert.equal(reviewAnswer('biodiversity',[20],third).status,'correct');
+ assert.equal(reviewAnswer('NO',[40],third).status,'incorrect');
+ for(const v of ['habitat','habitats',' HABITATS '])assert.equal(reviewAnswer(v,[10],fourth).status,'correct');
+ assert.equal(reviewAnswer('the habitat',[10],fourth).status,'incorrect');
+ assert.equal(reviewAnswer('',[10],fourth).status,'blank');
+ assert.equal(reviewAnswer('EGALITARIANISM',[31],fourth).status,'correct');
+});
+
+test('Cambridge 20 Test 2 matches imported question ranges and separates choose-two pairs', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-20-2'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ assert.equal(reviewAnswer(' FLIPPERS ',[2],key).status,'correct');
+ assert.equal(reviewAnswer('NOT   GIVEN',[8],key).status,'correct');
+ assert.equal(reviewAnswer('flipper',[2],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[2],key).status,'blank');
+ for(const [nums,pair] of [[[23,24],['A','C']],[[25,26],['A','E']]]){
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  for(const v of [[pair[0]],[pair[0],pair[0]]])assert.equal(reviewAnswer(v,nums,key,true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer(['A','E'],[23,24],key,true).status,'incorrect');
+ assert.equal(reviewAnswer(['A','C'],[25,26],key,true).status,'incorrect');
+});
+
+test('Cambridge 20 Test 1 stores expanded truth labels and the corrected NO transcription', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-20-1'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ assert.equal(reviewAnswer('false',[1],key).status,'correct');
+ assert.equal(reviewAnswer('TRUE',[5],key).status,'correct');
+ assert.equal(reviewAnswer(' BULBS ',[7],key).status,'correct');
+ assert.equal(reviewAnswer('1980',[11],key).status,'correct');
+ assert.equal(reviewAnswer('NO',[38],key).status,'correct');
+ assert.equal(reviewAnswer('YES',[38],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[38],key).status,'blank');
 });

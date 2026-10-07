@@ -1,0 +1,192 @@
+{
+  "note": "User-provided Cambridge 18 Academic Reading key. Explicit alternatives and optional words expanded; either-order pairs preserved independently.",
+  "parts": [
+    {
+      "book": 18,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "F"
+        ],
+        "4": [
+          "B"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "energy"
+        ],
+        "7": [
+          "food"
+        ],
+        "8": [
+          "gardening"
+        ],
+        "9": [
+          "obesity"
+        ],
+        "10": [
+          "C"
+        ],
+        "11": [
+          "D"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            10,
+            11
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            12,
+            13
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 18,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "D"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "B"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "E"
+        ],
+        "21": [
+          "B"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "YES"
+        ],
+        "24": [
+          "NO"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "YES"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 18,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "YES"
+        ],
+        "28": [
+          "NOT GIVEN"
+        ],
+        "29": [
+          "NO"
+        ],
+        "30": [
+          "NO"
+        ],
+        "31": [
+          "I"
+        ],
+        "32": [
+          "F"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "C"
+        ],
+        "35": [
+          "H"
+        ],
+        "36": [
+          "F"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "A"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

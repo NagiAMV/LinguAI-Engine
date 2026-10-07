@@ -1,0 +1,167 @@
+{
+  "note": "User-provided Cambridge 20 Academic Reading Test 1 key matching the kakapo, elm and stress passages. F/T expanded to FALSE/TRUE for Q1-6; Q38 transcription N0 normalized to NO for the YES/NO/NOT GIVEN question. The earlier mismatched table was not imported.",
+  "parts": [
+    {
+      "book": 20,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "FALSE"
+        ],
+        "3": [
+          "FALSE"
+        ],
+        "4": [
+          "NOT GIVEN"
+        ],
+        "5": [
+          "TRUE"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "bulbs"
+        ],
+        "8": [
+          "soil"
+        ],
+        "9": [
+          "feathers"
+        ],
+        "10": [
+          "deer"
+        ],
+        "11": [
+          "1980"
+        ],
+        "12": [
+          "funding"
+        ],
+        "13": [
+          "stakeholders"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "G"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "E"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ],
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "oak"
+        ],
+        "25": [
+          "flooring"
+        ],
+        "26": [
+          "keel"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "D"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "B"
+        ],
+        "32": [
+          "G"
+        ],
+        "33": [
+          "F"
+        ],
+        "34": [
+          "E"
+        ],
+        "35": [
+          "D"
+        ],
+        "36": [
+          "YES"
+        ],
+        "37": [
+          "NOT GIVEN"
+        ],
+        "38": [
+          "NO"
+        ],
+        "39": [
+          "YES"
+        ],
+        "40": [
+          "YES"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

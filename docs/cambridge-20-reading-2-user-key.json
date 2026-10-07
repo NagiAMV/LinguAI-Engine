@@ -1,0 +1,196 @@
+{
+  "note": "User-provided Cambridge 20 Academic Reading Test 2 table. Repeated A/C and A/E rows correspond to two independent choose-TWO groups in the imported questions, scored in either order.",
+  "parts": [
+    {
+      "book": 20,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "tail"
+        ],
+        "2": [
+          "flippers"
+        ],
+        "3": [
+          "hairs"
+        ],
+        "4": [
+          "seagrasses"
+        ],
+        "5": [
+          "lips"
+        ],
+        "6": [
+          "buoyancy"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "FALSE"
+        ],
+        "10": [
+          "NOT GIVEN"
+        ],
+        "11": [
+          "TRUE"
+        ],
+        "12": [
+          "NOT GIVEN"
+        ],
+        "13": [
+          "TRUE"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "laziness"
+        ],
+        "18": [
+          "anxious"
+        ],
+        "19": [
+          "threats"
+        ],
+        "20": [
+          "exams"
+        ],
+        "21": [
+          "perfectionists"
+        ],
+        "22": [
+          "guilt"
+        ],
+        "23": [
+          "A",
+          "C"
+        ],
+        "24": [
+          "A",
+          "C"
+        ],
+        "25": [
+          "A",
+          "E"
+        ],
+        "26": [
+          "A",
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 20,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-20-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "NO"
+        ],
+        "28": [
+          "YES"
+        ],
+        "29": [
+          "NOT GIVEN"
+        ],
+        "30": [
+          "NO"
+        ],
+        "31": [
+          "NOT GIVEN"
+        ],
+        "32": [
+          "YES"
+        ],
+        "33": [
+          "F"
+        ],
+        "34": [
+          "D"
+        ],
+        "35": [
+          "H"
+        ],
+        "36": [
+          "B"
+        ],
+        "37": [
+          "G"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

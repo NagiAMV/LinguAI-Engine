@@ -1,0 +1,168 @@
+{
+  "note": "User-provided Cambridge 19 Academic Reading answer key. Explicit habitat(s) expanded to habitat and habitats in Test 4.",
+  "parts": [
+    {
+      "book": 19,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "TRUE"
+        ],
+        "3": [
+          "FALSE"
+        ],
+        "4": [
+          "NOT GIVEN"
+        ],
+        "5": [
+          "FALSE"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "colonies"
+        ],
+        "8": [
+          "spring"
+        ],
+        "9": [
+          "endangered"
+        ],
+        "10": [
+          "habitat",
+          "habitats"
+        ],
+        "11": [
+          "Europe"
+        ],
+        "12": [
+          "southern"
+        ],
+        "13": [
+          "diet"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 19,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ],
+        "21": [
+          "F"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "waste"
+        ],
+        "25": [
+          "machinery"
+        ],
+        "26": [
+          "caution"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 19,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "C"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "A"
+        ],
+        "31": [
+          "egalitarianism"
+        ],
+        "32": [
+          "status"
+        ],
+        "33": [
+          "hunting"
+        ],
+        "34": [
+          "domineering"
+        ],
+        "35": [
+          "autonomy"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "YES"
+        ],
+        "39": [
+          "NOT GIVEN"
+        ],
+        "40": [
+          "NO"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

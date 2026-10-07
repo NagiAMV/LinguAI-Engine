@@ -1,0 +1,169 @@
+{
+  "note": "User-provided Cambridge 18 Academic Reading key. Explicit alternatives and optional words expanded; either-order pairs preserved independently.",
+  "parts": [
+    {
+      "book": 18,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "antlers",
+          "deer antlers"
+        ],
+        "2": [
+          "posts",
+          "timber posts"
+        ],
+        "3": [
+          "tree trunks"
+        ],
+        "4": [
+          "oxen"
+        ],
+        "5": [
+          "glaciers"
+        ],
+        "6": [
+          "Druids"
+        ],
+        "7": [
+          "burial"
+        ],
+        "8": [
+          "calendar"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 18,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "YES"
+        ],
+        "21": [
+          "NOT GIVEN"
+        ],
+        "22": [
+          "NO"
+        ],
+        "23": [
+          "YES"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 18,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-18-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "NOT GIVEN"
+        ],
+        "28": [
+          "NOT GIVEN"
+        ],
+        "29": [
+          "TRUE"
+        ],
+        "30": [
+          "FALSE"
+        ],
+        "31": [
+          "TRUE"
+        ],
+        "32": [
+          "NOT GIVEN"
+        ],
+        "33": [
+          "FALSE"
+        ],
+        "34": [
+          "transport"
+        ],
+        "35": [
+          "staircases"
+        ],
+        "36": [
+          "engineering"
+        ],
+        "37": [
+          "rule"
+        ],
+        "38": [
+          "Roman"
+        ],
+        "39": [
+          "Paris"
+        ],
+        "40": [
+          "outwards"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "note": "Q11 adds gut as an accepted alternative. User confirmed Q32 is J, resolving the initial transcription I. All other answers match.",
+  "unresolved": [],
+  "parts": [
+    {
+      "book": 19,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "FALSE"
+        ],
+        "3": [
+          "NOT GIVEN"
+        ],
+        "4": [
+          "FALSE"
+        ],
+        "5": [
+          "NOT GIVEN"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "paint"
+        ],
+        "9": [
+          "topspin"
+        ],
+        "10": [
+          "training"
+        ],
+        "11": [
+          "intestines",
+          "gut"
+        ],
+        "12": [
+          "weights"
+        ],
+        "13": [
+          "grips"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 19,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "D"
+        ],
+        "15": [
+          "G"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "G"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "B",
+          "D"
+        ],
+        "21": [
+          "B",
+          "D"
+        ],
+        "22": [
+          "C",
+          "E"
+        ],
+        "23": [
+          "C",
+          "E"
+        ],
+        "24": [
+          "grain"
+        ],
+        "25": [
+          "punishment"
+        ],
+        "26": [
+          "ransom"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            20,
+            21
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            22,
+            23
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 19,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-19-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "D"
+        ],
+        "31": [
+          "G"
+        ],
+        "32": [
+          "J"
+        ],
+        "33": [
+          "H"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "E"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "YES"
+        ],
+        "38": [
+          "NOT GIVEN"
+        ],
+        "39": [
+          "NO"
+        ],
+        "40": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    }
+  ],
+  "resolved": [
+    {
+      "question": 32,
+      "existing": [
+        "J"
+      ],
+      "supplied": [
+        "I"
+      ],
+      "confirmed": [
+        "J"
+      ],
+      "resolution": "User explicitly confirmed J in chat."
+    }
+  ]
+}
