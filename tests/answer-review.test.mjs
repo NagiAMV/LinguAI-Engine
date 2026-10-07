@@ -1096,3 +1096,30 @@ test('Cambridge 20 Test 1 stores expanded truth labels and the corrected NO tran
  assert.equal(reviewAnswer('YES',[38],key).status,'incorrect');
  assert.equal(reviewAnswer('',[38],key).status,'blank');
 });
+
+test('Cambridge 20 Test 3 preserves spelling variants and separate choose-two groups', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-20-3'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ assert.equal(reviewAnswer(' POTATOES ',[1],key).status,'correct');
+ assert.equal(reviewAnswer('VII',[17],key).status,'correct');
+ for(const v of ['colour','color'])assert.equal(reviewAnswer(v,[26],key).status,'correct');
+ assert.equal(reviewAnswer('colours',[26],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[26],key).status,'blank');
+ for(const [nums,pair] of [[[20,21],['C','E']],[[22,23],['B','D']]]){
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  for(const v of [[pair[0]],[pair[0],pair[0]]])assert.equal(reviewAnswer(v,nums,key,true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer(['B','D'],[20,21],key,true).status,'incorrect');
+ assert.equal(reviewAnswer(['C','E'],[22,23],key,true).status,'incorrect');
+});
+
+test('Cambridge 20 Test 4 is complete and checks words without case sensitivity', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-20-4'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const [n,v] of [[1,'TEACHER'],[18,' Pumps '],[37,'Jackals'],[40,'FOXES']])assert.equal(reviewAnswer(v,[n],key).status,'correct');
+ assert.equal(reviewAnswer('NOT   GIVEN',[12],key).status,'correct');
+ assert.equal(reviewAnswer('fox',[40],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[40],key).status,'blank');
+});
