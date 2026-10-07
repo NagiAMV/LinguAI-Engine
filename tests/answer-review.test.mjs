@@ -997,3 +997,18 @@ test('Cambridge 16 Tests 2–4 retain optional components and independent pairs'
  for(const v of ['harbour','harbor','the harbour','the harbor'])assert.equal(reviewAnswer(v,[13],d).status,'correct');
  assert.equal(reviewAnswer('iii',[27],d).status,'correct');
 });
+
+test('Cambridge 17 preserves spelling variants and all five independent pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4])assert.equal(Object.keys(keys[`reading-17-${t}`].answers).length,40);
+ for(const v of ['flavour','flavor'])assert.equal(reviewAnswer(v,[24],keys['reading-17-2']).status,'correct');
+ for(const v of ['orangutan','orang-utan','Sumatran orangutan','Sumatran orang-utan'])assert.equal(reviewAnswer(v,[24],keys['reading-17-3']).status,'correct');
+ for(const [t,nums,pair] of [[1,[23,24],['C','D']],[1,[25,26],['B','E']],[3,[21,22],['B','C']],[4,[23,24],['B','E']],[4,[25,26],['B','D']]]){
+  const key=keys[`reading-17-${t}`];
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],nums,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['B','E'],[25,26],keys['reading-17-4'],true).status,'incorrect');
+});
