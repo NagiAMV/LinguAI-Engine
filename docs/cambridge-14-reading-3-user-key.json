@@ -1,0 +1,180 @@
+{
+  "note": "User-provided Cambridge 14 Academic Reading transcription. Explicit design(s) and four/4 alternatives retained. Supplied either-order groups remain separate.",
+  "parts": [
+    {
+      "book": 14,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "A"
+        ],
+        "3": [
+          "D"
+        ],
+        "4": [
+          "NOT GIVEN"
+        ],
+        "5": [
+          "NO"
+        ],
+        "6": [
+          "YES"
+        ],
+        "7": [
+          "B"
+        ],
+        "8": [
+          "C"
+        ],
+        "9": [
+          "B"
+        ],
+        "10": [
+          "A"
+        ],
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "H"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "F"
+        ],
+        "18": [
+          "I"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "F"
+        ],
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "ecology"
+        ],
+        "24": [
+          "prey"
+        ],
+        "25": [
+          "habitats"
+        ],
+        "26": [
+          "antibiotics"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "B"
+        ],
+        "28": [
+          "G"
+        ],
+        "29": [
+          "E"
+        ],
+        "30": [
+          "E"
+        ],
+        "31": [
+          "C"
+        ],
+        "32": [
+          "NO"
+        ],
+        "33": [
+          "YES"
+        ],
+        "34": [
+          "NOT GIVEN"
+        ],
+        "35": [
+          "NO"
+        ],
+        "36": [
+          "YES"
+        ],
+        "37": [
+          "encouraging"
+        ],
+        "38": [
+          "desire"
+        ],
+        "39": [
+          "autonomy"
+        ],
+        "40": [
+          "targeted"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

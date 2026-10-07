@@ -1,0 +1,174 @@
+{
+  "note": "User-provided Cambridge 15 Academic Reading transcription. Explicit optional words and hyphen preserved as alternatives. Test 1 Q23–24 and Q25–26 unordered. Test 4 Q7 requires leaves and bark together; supplied order retained, optional and expanded.",
+  "parts": [
+    {
+      "book": 15,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-15-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "water"
+        ],
+        "2": [
+          "diet"
+        ],
+        "3": [
+          "drought"
+        ],
+        "4": [
+          "erosion"
+        ],
+        "5": [
+          "desert"
+        ],
+        "6": [
+          "branches",
+          "its branches",
+          "huarango branches",
+          "the branches"
+        ],
+        "7": [
+          "leaves bark",
+          "leaves and bark"
+        ],
+        "8": [
+          "trunk",
+          "its trunk",
+          "huarango trunk",
+          "the trunk"
+        ],
+        "9": [
+          "NOT GIVEN"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "TRUE"
+        ],
+        "12": [
+          "FALSE"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-15-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "NOT GIVEN"
+        ],
+        "15": [
+          "FALSE"
+        ],
+        "16": [
+          "TRUE"
+        ],
+        "17": [
+          "FALSE"
+        ],
+        "18": [
+          "FALSE"
+        ],
+        "19": [
+          "TRUE"
+        ],
+        "20": [
+          "words"
+        ],
+        "21": [
+          "finger"
+        ],
+        "22": [
+          "direction"
+        ],
+        "23": [
+          "commands"
+        ],
+        "24": [
+          "fires"
+        ],
+        "25": [
+          "technology"
+        ],
+        "26": [
+          "award"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-15-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "E"
+        ],
+        "29": [
+          "F"
+        ],
+        "30": [
+          "H"
+        ],
+        "31": [
+          "B"
+        ],
+        "32": [
+          "C"
+        ],
+        "33": [
+          "D"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "YES"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "NO"
+        ],
+        "38": [
+          "YES"
+        ],
+        "39": [
+          "NOT GIVEN"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

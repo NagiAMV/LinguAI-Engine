@@ -1,0 +1,168 @@
+{
+  "note": "User-provided Cambridge 14 Academic Reading transcription. Explicit design(s) and four/4 alternatives retained. Supplied either-order groups remain separate.",
+  "parts": [
+    {
+      "book": 14,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "TRUE"
+        ],
+        "3": [
+          "NOT GIVEN"
+        ],
+        "4": [
+          "FALSE"
+        ],
+        "5": [
+          "NOT GIVEN"
+        ],
+        "6": [
+          "TRUE"
+        ],
+        "7": [
+          "FALSE"
+        ],
+        "8": [
+          "TRUE"
+        ],
+        "9": [
+          "merchant"
+        ],
+        "10": [
+          "equipment"
+        ],
+        "11": [
+          "gifts"
+        ],
+        "12": [
+          "canoe"
+        ],
+        "13": [
+          "mountains"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "F"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "B"
+        ],
+        "19": [
+          "design",
+          "designs"
+        ],
+        "20": [
+          "pathogens"
+        ],
+        "21": [
+          "tuberculosis"
+        ],
+        "22": [
+          "wards"
+        ],
+        "23": [
+          "communal"
+        ],
+        "24": [
+          "public"
+        ],
+        "25": [
+          "miasmas"
+        ],
+        "26": [
+          "cholera"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "vi"
+        ],
+        "28": [
+          "i"
+        ],
+        "29": [
+          "iii"
+        ],
+        "30": [
+          "ii"
+        ],
+        "31": [
+          "ix"
+        ],
+        "32": [
+          "vii"
+        ],
+        "33": [
+          "iv"
+        ],
+        "34": [
+          "viii"
+        ],
+        "35": [
+          "productive"
+        ],
+        "36": [
+          "perfectionists"
+        ],
+        "37": [
+          "dissatisfied"
+        ],
+        "38": [
+          "TRUE"
+        ],
+        "39": [
+          "FALSE"
+        ],
+        "40": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

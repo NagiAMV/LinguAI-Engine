@@ -1,0 +1,193 @@
+{
+  "note": "User-provided Cambridge 14 Academic Reading transcription. Explicit design(s) and four/4 alternatives retained. Supplied either-order groups remain separate.",
+  "parts": [
+    {
+      "book": 14,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "four",
+          "4"
+        ],
+        "2": [
+          "young"
+        ],
+        "3": [
+          "food"
+        ],
+        "4": [
+          "light"
+        ],
+        "5": [
+          "aggressively"
+        ],
+        "6": [
+          "location"
+        ],
+        "7": [
+          "neurons"
+        ],
+        "8": [
+          "chemicals"
+        ],
+        "9": [
+          "FALSE"
+        ],
+        "10": [
+          "TRUE"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "NOT GIVEN"
+        ],
+        "13": [
+          "TRUE"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "B"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "TRUE"
+        ],
+        "19": [
+          "TRUE"
+        ],
+        "20": [
+          "NOT GIVEN"
+        ],
+        "21": [
+          "FALSE"
+        ],
+        "22": [
+          "NOT GIVEN"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "D"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-14-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "FALSE"
+        ],
+        "28": [
+          "NOT GIVEN"
+        ],
+        "29": [
+          "FALSE"
+        ],
+        "30": [
+          "TRUE"
+        ],
+        "31": [
+          "FALSE"
+        ],
+        "32": [
+          "TRUE"
+        ],
+        "33": [
+          "NOT GIVEN"
+        ],
+        "34": [
+          "large"
+        ],
+        "35": [
+          "microplastic"
+        ],
+        "36": [
+          "populations"
+        ],
+        "37": [
+          "concentrations"
+        ],
+        "38": [
+          "predators"
+        ],
+        "39": [
+          "disasters"
+        ],
+        "40": [
+          "A"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

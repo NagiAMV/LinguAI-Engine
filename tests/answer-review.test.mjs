@@ -937,3 +937,34 @@ test('Cambridge 14 Test 1 checks each unordered pair independently', () => {
  assert.equal(reviewAnswer(['B','D'],[21,22],key,true).status,'incorrect');
  assert.equal(reviewAnswer(' CHARACTERISTICS ',[40],key).status,'correct');
 });
+
+test('Cambridge 14 Tests 2–4 preserve variants and independent unordered pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [2,3,4])assert.equal(Object.keys(keys[`reading-14-${t}`].answers).length,40);
+ for(const v of ['design','DESIGNS'])assert.equal(reviewAnswer(v,[19],keys['reading-14-2']).status,'correct');
+ for(const v of ['four','4'])assert.equal(reviewAnswer(v,[1],keys['reading-14-4']).status,'correct');
+ for(const [t,nums,pair] of [[3,[21,22],['B','C']],[4,[23,24],['B','D']],[4,[25,26],['B','E']]]){
+  const key=keys[`reading-14-${t}`];
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],nums,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['B','D'],[25,26],keys['reading-14-4'],true).status,'incorrect');
+});
+
+test('Cambridge 15 preserves optional words, hyphen and required complete pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [1,2,3,4])assert.equal(Object.keys(keys[`reading-15-${t}`].answers).length,40);
+ const a=keys['reading-15-1'],b=keys['reading-15-2'],d=keys['reading-15-4'];
+ for(const v of ['car sharing','car-sharing'])assert.equal(reviewAnswer(v,[20],a).status,'correct');
+ for(const [nums,pair] of [[[23,24],['C','D']],[[25,26],['A','E']]]){
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,a,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,a,true).status,'incorrect');
+ }
+ for(const v of ['emissions','carbon emissions'])assert.equal(reviewAnswer(v,[22],b).status,'correct');
+ for(const v of ['branches','its branches','huarango branches','the branches'])assert.equal(reviewAnswer(v,[6],d).status,'correct');
+ for(const v of ['leaves bark','LEAVES AND BARK'])assert.equal(reviewAnswer(v,[7],d).status,'correct');
+ for(const v of ['leaves','bark'])assert.equal(reviewAnswer(v,[7],d).status,'incorrect');
+ assert.equal(reviewAnswer('',[7],d).status,'blank');
+});
