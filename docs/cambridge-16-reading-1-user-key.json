@@ -1,0 +1,180 @@
+{
+  "note": "User-provided Cambridge 16 Academic Reading Test 1, identified by matching all three passage titles. Q25–26 B and D accepted in either order. Roman numeral case retained; comparison is case-insensitive.",
+  "parts": [
+    {
+      "book": 16,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "FALSE"
+        ],
+        "3": [
+          "NOT GIVEN"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "TRUE"
+        ],
+        "6": [
+          "FALSE"
+        ],
+        "7": [
+          "TRUE"
+        ],
+        "8": [
+          "violent"
+        ],
+        "9": [
+          "tool"
+        ],
+        "10": [
+          "meat"
+        ],
+        "11": [
+          "photographer"
+        ],
+        "12": [
+          "game"
+        ],
+        "13": [
+          "frustration"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "IV"
+        ],
+        "15": [
+          "VII"
+        ],
+        "16": [
+          "II"
+        ],
+        "17": [
+          "V"
+        ],
+        "18": [
+          "I"
+        ],
+        "19": [
+          "VIII"
+        ],
+        "20": [
+          "VI"
+        ],
+        "21": [
+          "city"
+        ],
+        "22": [
+          "priests"
+        ],
+        "23": [
+          "trench"
+        ],
+        "24": [
+          "location"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "B"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "D"
+        ],
+        "31": [
+          "G"
+        ],
+        "32": [
+          "F"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "F"
+        ],
+        "35": [
+          "B"
+        ],
+        "36": [
+          "A"
+        ],
+        "37": [
+          "C"
+        ],
+        "38": [
+          "A"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

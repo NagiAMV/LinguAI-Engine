@@ -1,0 +1,192 @@
+{
+  "note": "User-provided Cambridge 17 Academic Reading transcription. Explicit spelling variants and optional Sumatran retained. Each supplied either-order pair stored separately.",
+  "parts": [
+    {
+      "book": 17,
+      "test": 1,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "population"
+        ],
+        "2": [
+          "suburbs"
+        ],
+        "3": [
+          "businessmen"
+        ],
+        "4": [
+          "funding"
+        ],
+        "5": [
+          "press"
+        ],
+        "6": [
+          "soil"
+        ],
+        "7": [
+          "FALSE"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "TRUE"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "FALSE"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 17,
+      "test": 1,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-1-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "A"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "fortress"
+        ],
+        "19": [
+          "bullfights"
+        ],
+        "20": [
+          "opera"
+        ],
+        "21": [
+          "salt"
+        ],
+        "22": [
+          "shops"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "D"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 17,
+      "test": 1,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-1-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "H"
+        ],
+        "28": [
+          "J"
+        ],
+        "29": [
+          "F"
+        ],
+        "30": [
+          "B"
+        ],
+        "31": [
+          "D"
+        ],
+        "32": [
+          "NOT GIVEN"
+        ],
+        "33": [
+          "NO"
+        ],
+        "34": [
+          "NO"
+        ],
+        "35": [
+          "YES"
+        ],
+        "36": [
+          "B"
+        ],
+        "37": [
+          "C"
+        ],
+        "38": [
+          "A"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

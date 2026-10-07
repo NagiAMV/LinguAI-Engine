@@ -1,0 +1,177 @@
+{
+  "note": "User-provided Cambridge 16 Academic Reading transcription. Explicit alternatives retained; (the) architect('s) (name) expanded across optional components. Test 3 Q23–24 and Q25–26 are separate unordered pairs.",
+  "parts": [
+    {
+      "book": 16,
+      "test": 4,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "posts"
+        ],
+        "2": [
+          "canal"
+        ],
+        "3": [
+          "ventilation"
+        ],
+        "4": [
+          "lid"
+        ],
+        "5": [
+          "weight"
+        ],
+        "6": [
+          "climbing"
+        ],
+        "7": [
+          "FALSE"
+        ],
+        "8": [
+          "NOT GIVEN"
+        ],
+        "9": [
+          "FALSE"
+        ],
+        "10": [
+          "TRUE"
+        ],
+        "11": [
+          "gold"
+        ],
+        "12": [
+          "architect",
+          "architect's",
+          "architect name",
+          "architect's name",
+          "the architect",
+          "the architect's",
+          "the architect name",
+          "the architect's name"
+        ],
+        "13": [
+          "harbour",
+          "harbor",
+          "the harbour",
+          "the harbor"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 4,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-4-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "A"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "D"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "H"
+        ],
+        "20": [
+          "F"
+        ],
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "YES"
+        ],
+        "24": [
+          "NO"
+        ],
+        "25": [
+          "NOT GIVEN"
+        ],
+        "26": [
+          "YES"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 4,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-4-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "III"
+        ],
+        "28": [
+          "VI"
+        ],
+        "29": [
+          "II"
+        ],
+        "30": [
+          "I"
+        ],
+        "31": [
+          "VII"
+        ],
+        "32": [
+          "V"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "NO"
+        ],
+        "37": [
+          "NOT GIVEN"
+        ],
+        "38": [
+          "YES"
+        ],
+        "39": [
+          "NO"
+        ],
+        "40": [
+          "YES"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

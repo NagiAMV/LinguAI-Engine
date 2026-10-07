@@ -1,0 +1,196 @@
+{
+  "note": "User-provided Cambridge 16 Academic Reading transcription. Explicit alternatives retained; (the) architect('s) (name) expanded across optional components. Test 3 Q23–24 and Q25–26 are separate unordered pairs.",
+  "parts": [
+    {
+      "book": 16,
+      "test": 3,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "FALSE"
+        ],
+        "2": [
+          "NOT GIVEN"
+        ],
+        "3": [
+          "FALSE"
+        ],
+        "4": [
+          "TRUE"
+        ],
+        "5": [
+          "TRUE"
+        ],
+        "6": [
+          "lightweight"
+        ],
+        "7": [
+          "bronze"
+        ],
+        "8": [
+          "levels"
+        ],
+        "9": [
+          "hull"
+        ],
+        "10": [
+          "triangular"
+        ],
+        "11": [
+          "music"
+        ],
+        "12": [
+          "grain"
+        ],
+        "13": [
+          "towboats"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "D"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "H"
+        ],
+        "18": [
+          "G"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "microorganisms",
+          "micro-organisms"
+        ],
+        "21": [
+          "reindeer"
+        ],
+        "22": [
+          "insects"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-16-reading-3-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "NOT GIVEN"
+        ],
+        "28": [
+          "TRUE"
+        ],
+        "29": [
+          "TRUE"
+        ],
+        "30": [
+          "NOT GIVEN"
+        ],
+        "31": [
+          "FALSE"
+        ],
+        "32": [
+          "FALSE"
+        ],
+        "33": [
+          "H"
+        ],
+        "34": [
+          "D"
+        ],
+        "35": [
+          "G"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "A"
+        ],
+        "38": [
+          "warm",
+          "warm winter"
+        ],
+        "39": [
+          "summer"
+        ],
+        "40": [
+          "mustard plant",
+          "mustard plants",
+          "mustard"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

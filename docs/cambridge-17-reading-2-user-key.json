@@ -1,0 +1,168 @@
+{
+  "note": "User-provided Cambridge 17 Academic Reading transcription. Explicit spelling variants and optional Sumatran retained. Each supplied either-order pair stored separately.",
+  "parts": [
+    {
+      "book": 17,
+      "test": 2,
+      "module": "reading",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "rock"
+        ],
+        "2": [
+          "cave"
+        ],
+        "3": [
+          "clay"
+        ],
+        "4": [
+          "Essenes"
+        ],
+        "5": [
+          "Hebrew"
+        ],
+        "6": [
+          "NOT GIVEN"
+        ],
+        "7": [
+          "FALSE"
+        ],
+        "8": [
+          "TRUE"
+        ],
+        "9": [
+          "TRUE"
+        ],
+        "10": [
+          "FALSE"
+        ],
+        "11": [
+          "FALSE"
+        ],
+        "12": [
+          "TRUE"
+        ],
+        "13": [
+          "NOT GIVEN"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 17,
+      "test": 2,
+      "module": "reading",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-2-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "C"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "D"
+        ],
+        "21": [
+          "A"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "flavour",
+          "flavor"
+        ],
+        "25": [
+          "size"
+        ],
+        "26": [
+          "salt"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 17,
+      "test": 2,
+      "module": "reading",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-17-reading-2-user-key.json"
+      },
+      "answers": {
+        "27": [
+          "D"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ],
+        "31": [
+          "A"
+        ],
+        "32": [
+          "NO"
+        ],
+        "33": [
+          "NOT GIVEN"
+        ],
+        "34": [
+          "YES"
+        ],
+        "35": [
+          "NO"
+        ],
+        "36": [
+          "NOT GIVEN"
+        ],
+        "37": [
+          "F"
+        ],
+        "38": [
+          "D"
+        ],
+        "39": [
+          "E"
+        ],
+        "40": [
+          "B"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

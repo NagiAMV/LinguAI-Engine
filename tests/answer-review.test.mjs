@@ -968,3 +968,32 @@ test('Cambridge 15 preserves optional words, hyphen and required complete pairs'
  for(const v of ['leaves','bark'])assert.equal(reviewAnswer(v,[7],d).status,'incorrect');
  assert.equal(reviewAnswer('',[7],d).status,'blank');
 });
+
+test('Cambridge 16 Test 1 accepts Roman numeral case and unordered B/D pair', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-16-1'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ assert.equal(reviewAnswer('iv',[14],key).status,'correct');
+ assert.equal(reviewAnswer('viii',[19],key).status,'correct');
+ for(const pair of [['B','D'],['d','b']])assert.equal(reviewAnswer(pair,[25,26],key,true).status,'correct');
+ for(const pair of [['B'],['B','B'],['B','C']])assert.equal(reviewAnswer(pair,[25,26],key,true).status,'incorrect');
+ assert.equal(reviewAnswer([],[25,26],key,true).status,'blank');
+ assert.equal(reviewAnswer(' PHOTOGRAPHER ',[11],key).status,'correct');
+});
+
+test('Cambridge 16 Tests 2–4 retain optional components and independent pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const t of [2,3,4])assert.equal(Object.keys(keys[`reading-16-${t}`].answers).length,40);
+ const c=keys['reading-16-3'],d=keys['reading-16-4'];
+ for(const v of ['microorganisms','micro-organisms'])assert.equal(reviewAnswer(v,[20],c).status,'correct');
+ for(const v of ['warm','warm winter'])assert.equal(reviewAnswer(v,[38],c).status,'correct');
+ for(const v of ['mustard','mustard plant','mustard plants'])assert.equal(reviewAnswer(v,[40],c).status,'correct');
+ for(const [nums,pair] of [[[23,24],['B','C']],[[25,26],['A','C']]]){
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,c,true).status,'correct');
+  assert.equal(reviewAnswer([pair[0],pair[0]],nums,c,true).status,'incorrect');
+ }
+ for(const prefix of ['','the '])for(const possessive of ['',"'s"])for(const suffix of ['',' name'])assert.equal(reviewAnswer(prefix+'architect'+possessive+suffix,[12],d).status,'correct');
+ assert.equal(reviewAnswer('name',[12],d).status,'incorrect');
+ for(const v of ['harbour','harbor','the harbour','the harbor'])assert.equal(reviewAnswer(v,[13],d).status,'correct');
+ assert.equal(reviewAnswer('iii',[27],d).status,'correct');
+});
