@@ -1,0 +1,239 @@
+{
+  "note": "User transcription. Source requires capitals for Q6-8 and Q13; existing case-insensitive scoring preserved. Q9 blank not acceptable; Q10 requires all three words. Explicit optional components expanded; supplied Q20 and Q36 wording retained without inference despite surrounding prompt wording.",
+  "unresolved": [],
+  "parts": [
+    {
+      "book": 1,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "C"
+        ],
+        "2": [
+          "A"
+        ],
+        "3": [
+          "B"
+        ],
+        "4": [
+          "D"
+        ],
+        "5": [
+          "D"
+        ],
+        "6": [
+          "Julia Perkins"
+        ],
+        "7": [
+          "15 Waratah Road"
+        ],
+        "8": [
+          "Brisbane"
+        ],
+        "9": [
+          "to be advised",
+          "not connected",
+          "no phone",
+          "none"
+        ],
+        "10": [
+          "first year Law"
+        ],
+        "11": [
+          "C"
+        ],
+        "12": [
+          "D"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      "answers": {
+        "13": [
+          "Hope Street"
+        ],
+        "14": [
+          "evidence"
+        ],
+        "15": [
+          "passport"
+        ],
+        "16": [
+          "current",
+          "student",
+          "current account",
+          "student account"
+        ],
+        "17": [
+          "chequebook"
+        ],
+        "18": [
+          "withdraw",
+          "draw",
+          "draw out",
+          "take out"
+        ],
+        "19": [
+          "directly from",
+          "right out of"
+        ],
+        "20": [
+          "permission of bank",
+          "permission from bank"
+        ],
+        "21": [
+          "4.30 pm to 5 pm",
+          "4.30 pm or 5 pm"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      "answers": {
+        "22": [
+          "300 million"
+        ],
+        "23": [
+          "paper clips"
+        ],
+        "24": [
+          "magazine pages",
+          "pieces of paper",
+          "pages"
+        ],
+        "25": [
+          "three times"
+        ],
+        "26": [
+          "thicker"
+        ],
+        "27": [
+          "label"
+        ],
+        "28": [
+          "dome",
+          "a dome"
+        ],
+        "29": [
+          "flange"
+        ],
+        "30": [
+          "25%"
+        ],
+        "31": [
+          "scored opening"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      "answers": {
+        "32": [
+          "a university lecture"
+        ],
+        "33": [
+          "Sports Studies",
+          "Sports Studies programme"
+        ],
+        "34": [
+          "management"
+        ],
+        "35": [
+          "top athletes"
+        ],
+        "36": [
+          "makes winners",
+          "makes them",
+          "people win"
+        ],
+        "37": [
+          "market forces"
+        ],
+        "38": [
+          "leisure activities",
+          "other leisure activities"
+        ],
+        "39": [
+          "entertainment",
+          "to be entertained"
+        ],
+        "40": [
+          "exercise science"
+        ],
+        "41": [
+          "fitness testing",
+          "body measurements"
+        ],
+        "42": [
+          "cellular research",
+          "cellular change",
+          "body cells"
+        ]
+      },
+      "groups": []
+    }
+  ],
+  "verification": {
+    "question": 21,
+    "checkedOn": "2026-10-08",
+    "sources": [
+      {
+        "url": "https://ieltsprogress.com/cambridge-ielts-1-listening-test-4-answers-pdf-transcript/",
+        "answer": "4.30 pm to 5 pm",
+        "question": "Most banks open until (21) ... during the week."
+      },
+      {
+        "url": "https://pcd.com.pk/cambridge-book-1-listening-test-4-answers/",
+        "answer": "4.30 pm or/to 5 pm"
+      }
+    ],
+    "verifiedAcceptedAnswers": [
+      "4.30 pm or 5 pm",
+      "4.30 pm to 5 pm"
+    ],
+    "issue": "Resolved with user-authorized full phrases and removal of duplicate suffix in Q21."
+  },
+  "resolved": [
+    {
+      "question": 21,
+      "supplied": "4.30 pm or/to 5 pm",
+      "reason": "Clarification requested: separate times or whole phrase; imported prompt already includes or 5 pm.",
+      "resolution": "User explicitly requested both complete phrases. Duplicate or 5 pm removed from the imported question; input identity preserved."
+    }
+  ]
+}

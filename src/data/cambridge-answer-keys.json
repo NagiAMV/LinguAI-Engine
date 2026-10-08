@@ -19732,5 +19732,251 @@
         "reference": "docs/cambridge-1-listening-3-user-key.json"
       }
     ]
+  },
+  "listening-1-4": {
+    "book": 1,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "C"
+      ],
+      "2": [
+        "A"
+      ],
+      "3": [
+        "B"
+      ],
+      "4": [
+        "D"
+      ],
+      "5": [
+        "D"
+      ],
+      "6": [
+        "Julia Perkins"
+      ],
+      "7": [
+        "15 Waratah Road"
+      ],
+      "8": [
+        "Brisbane"
+      ],
+      "9": [
+        "to be advised",
+        "not connected",
+        "no phone",
+        "none"
+      ],
+      "10": [
+        "first year Law"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "Hope Street"
+      ],
+      "14": [
+        "evidence"
+      ],
+      "15": [
+        "passport"
+      ],
+      "16": [
+        "current",
+        "student",
+        "current account",
+        "student account"
+      ],
+      "17": [
+        "chequebook"
+      ],
+      "18": [
+        "withdraw",
+        "draw",
+        "draw out",
+        "take out"
+      ],
+      "19": [
+        "directly from",
+        "right out of"
+      ],
+      "20": [
+        "permission of bank",
+        "permission from bank"
+      ],
+      "21": [
+        "4.30 pm to 5 pm",
+        "4.30 pm or 5 pm"
+      ],
+      "22": [
+        "300 million"
+      ],
+      "23": [
+        "paper clips"
+      ],
+      "24": [
+        "magazine pages",
+        "pieces of paper",
+        "pages"
+      ],
+      "25": [
+        "three times"
+      ],
+      "26": [
+        "thicker"
+      ],
+      "27": [
+        "label"
+      ],
+      "28": [
+        "dome",
+        "a dome"
+      ],
+      "29": [
+        "flange"
+      ],
+      "30": [
+        "25%"
+      ],
+      "31": [
+        "scored opening"
+      ],
+      "32": [
+        "a university lecture"
+      ],
+      "33": [
+        "Sports Studies",
+        "Sports Studies programme"
+      ],
+      "34": [
+        "management"
+      ],
+      "35": [
+        "top athletes"
+      ],
+      "36": [
+        "makes winners",
+        "makes them",
+        "people win"
+      ],
+      "37": [
+        "market forces"
+      ],
+      "38": [
+        "leisure activities",
+        "other leisure activities"
+      ],
+      "39": [
+        "entertainment",
+        "to be entertained"
+      ],
+      "40": [
+        "exercise science"
+      ],
+      "41": [
+        "fitness testing",
+        "body measurements"
+      ],
+      "42": [
+        "cellular research",
+        "cellular change",
+        "body cells"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-4-user-key.json"
+      }
+    ]
   }
 }

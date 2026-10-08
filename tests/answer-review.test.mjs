@@ -1222,3 +1222,23 @@ test('Cambridge 1 Listening Test 3 preserves 42 answers and optional wording wit
  assert.equal(reviewAnswer('sea',[20],key).status,'incorrect');
  assert.equal(reviewAnswer('',[42],key).status,'blank');
 });
+
+test('Cambridge 1 Listening Test 4 retains mandatory wording and supplied variants', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-1-4'];
+ for(const n of [9,16,18,20,28,33,36,38,39,41,42])for(const v of key.answers[n])assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[n],key).status,'correct');
+ assert.equal(reviewAnswer('',[9],key).status,'blank');
+ assert.equal(reviewAnswer('law',[10],key).status,'incorrect');
+ assert.equal(reviewAnswer('first year law',[10],key).status,'correct');
+ assert.equal(reviewAnswer('julia perkins',[6],key).status,'correct');
+ assert.equal(reviewAnswer('flang',[29],key).status,'incorrect');
+});
+
+test('Cambridge 1 Listening Test 4 Q21 accepts complete times and has no duplicated suffix', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-1-4'];
+ assert.equal(Object.keys(key.answers).length,42);
+ for(const v of ['4.30 pm to 5 pm','4.30 pm or 5 pm'])assert.equal(reviewAnswer(v,[21],key).status,'correct');
+ for(const v of ['4.30 pm','5 pm'])assert.equal(reviewAnswer(v,[21],key).status,'incorrect');
+ const data=JSON.parse(readFileSync(new URL('../public/cambridge/listening-1-4.json',import.meta.url)));
+ assert.ok(data.parts[1].questions.includes('name="ielts_listening_answer_3167509_9"'));
+ assert.ok(!data.parts[1].questions.includes('</span> or 5 pm during the week.'));
+});
