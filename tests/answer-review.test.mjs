@@ -1123,3 +1123,45 @@ test('Cambridge 20 Test 4 is complete and checks words without case sensitivity'
  assert.equal(reviewAnswer('fox',[40],key).status,'incorrect');
  assert.equal(reviewAnswer('',[40],key).status,'blank');
 });
+
+test('Cambridge 21 Test 1 is complete and preserves supplied answer spellings', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-21-1'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const [n,v] of [[1,' MINING '],[5,'venice'],[19,'QUESTIONNAIRE'],[20,'wellbeing']])assert.equal(reviewAnswer(v,[n],key).status,'correct');
+ assert.equal(reviewAnswer('NOT   GIVEN',[38],key).status,'correct');
+ assert.equal(reviewAnswer('YES',[39],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[20],key).status,'blank');
+});
+
+test('Cambridge 21 Test 2 accepts both jewellery spellings and the unordered gold pair', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-21-2'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const v of ['jewellery','jewelry',' JEWELRY '])assert.equal(reviewAnswer(v,[26],key).status,'correct');
+ for(const v of [['B','D'],['d','b']])assert.equal(reviewAnswer(v,[20,21],key,true).status,'correct');
+ for(const v of [['B'],['B','B'],['A','D']])assert.equal(reviewAnswer(v,[20,21],key,true).status,'incorrect');
+ assert.equal(reviewAnswer([],[20,21],key,true).status,'blank');
+ assert.equal(reviewAnswer('NOT   GIVEN',[37],key).status,'correct');
+ assert.equal(reviewAnswer('rat',[1],key).status,'incorrect');
+});
+
+test('Cambridge 21 Test 3 covers all parts and keeps supplied word forms', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-21-3'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const [n,v] of [[1,' DUST '],[21,'WHEELCHAIRS'],[24,'smartcards'],[40,'no']])assert.equal(reviewAnswer(v,[n],key).status,'correct');
+ assert.equal(reviewAnswer('NOT   GIVEN',[14],key).status,'correct');
+ assert.equal(reviewAnswer('wheelchair',[21],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[21],key).status,'blank');
+});
+
+test('Cambridge 21 Test 4 preserves both fermentation alternatives', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['reading-21-4'];
+ assert.equal(Object.keys(key.answers).length,40);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[13,13,14]);
+ for(const v of ['fermentation','fermentation process',' FERMENTATION   PROCESS '])assert.equal(reviewAnswer(v,[9],key).status,'correct');
+ assert.equal(reviewAnswer('COW DUNG',[8],key).status,'correct');
+ assert.equal(reviewAnswer('process',[9],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[9],key).status,'blank');
+});
