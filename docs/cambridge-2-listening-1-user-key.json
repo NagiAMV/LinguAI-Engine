@@ -1,0 +1,262 @@
+{
+  "note": "User confirmed book/test mapping after matching the imported questions. All supplied alternatives retained exactly, including dyploma spellings in Cambridge 2 Q33. Choose-multiple groups require the complete set in any order.",
+  "parts": [
+    {
+      "book": 2,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "Black"
+        ],
+        "2": [
+          "2085"
+        ],
+        "3": [
+          "9456 1309"
+        ],
+        "4": [
+          "2020BD"
+        ],
+        "5": [
+          "July"
+        ],
+        "6": [
+          "B",
+          "D",
+          "F"
+        ],
+        "7": [
+          "B",
+          "D",
+          "F"
+        ],
+        "8": [
+          "B",
+          "D",
+          "F"
+        ],
+        "9": [
+          "$25",
+          "25 dollars",
+          "twenty-five dollars"
+        ],
+        "10": [
+          "next week",
+          "in a week",
+          "in one week",
+          "the following week"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            6,
+            7,
+            8
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D",
+              "F"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 2,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-1-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "route book"
+        ],
+        "12": [
+          "900 miles",
+          "nine hundred miles"
+        ],
+        "13": [
+          "North Africa"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "B",
+          "C",
+          "E"
+        ],
+        "17": [
+          "B",
+          "C",
+          "E"
+        ],
+        "18": [
+          "B",
+          "C",
+          "E"
+        ],
+        "19": [
+          "B",
+          "D"
+        ],
+        "20": [
+          "B",
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            16,
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 2,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-1-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "Friday"
+        ],
+        "22": [
+          "Biology"
+        ],
+        "23": [
+          "57 books",
+          "57",
+          "fifty-seven books",
+          "fifty-seven"
+        ],
+        "24": [
+          "43 books",
+          "43",
+          "forty-three books",
+          "forty-three"
+        ],
+        "25": [
+          "Wednesday"
+        ],
+        "26": [
+          "cassette recorder",
+          "recorder"
+        ],
+        "27": [
+          "skimming",
+          "skim the book",
+          "skim books"
+        ],
+        "28": [
+          "The French Revolution",
+          "French Revolution"
+        ],
+        "29": [
+          "Why study history"
+        ],
+        "30": [
+          "animal language"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-1-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "four-month certificate course",
+          "four-month certificate"
+        ],
+        "32": [
+          "current employment",
+          "in employment",
+          "employment"
+        ],
+        "33": [
+          "one-year diploma course",
+          "one-year diploma",
+          "one-year dyploma course",
+          "one-year dyploma"
+        ],
+        "34": [
+          "none",
+          "no prior qualifications",
+          "no qualifications"
+        ],
+        "35": [
+          "six-month certificate course",
+          "six-month certificate"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "F"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "G"
+        ],
+        "40": [
+          "D"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

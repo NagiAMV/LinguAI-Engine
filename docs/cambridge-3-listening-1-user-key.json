@@ -1,0 +1,276 @@
+{
+  "note": "User confirmed book/test mapping after matching the imported questions. All supplied alternatives retained exactly, including dyploma spellings in Cambridge 2 Q33. Choose-multiple groups require the complete set in any order.",
+  "parts": [
+    {
+      "book": 3,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "the city centre",
+          "city centre",
+          "the city center",
+          "city center"
+        ],
+        "2": [
+          "500"
+        ],
+        "3": [
+          "a garden",
+          "garden"
+        ],
+        "4": [
+          "325"
+        ],
+        "5": [
+          "the water bill",
+          "water bill",
+          "the water",
+          "water"
+        ],
+        "6": [
+          "the telephone rental",
+          "telephone rental",
+          "the telephone",
+          "telephone",
+          "the phone rental",
+          "phone rental",
+          "the phone",
+          "phone"
+        ],
+        "7": [
+          "Wednesday afternoon",
+          "Wednesday"
+        ],
+        "8": [
+          "your employer",
+          "employer"
+        ],
+        "9": [
+          "two weeks'",
+          "2 weeks'",
+          "two weeks",
+          "2 weeks",
+          "two-week",
+          "2-week"
+        ],
+        "10": [
+          "1 month's rent",
+          "one month's rent",
+          "a month's rent"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-1-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "her daughter Anna",
+          "the daughter Anna",
+          "daughter Anna",
+          "her daughter",
+          "the daughter",
+          "daughter",
+          "Anna",
+          "Ana",
+          "her child",
+          "the child",
+          "child"
+        ],
+        "12": [
+          "a practice",
+          "practice",
+          "a practise",
+          "practise",
+          "practices",
+          "practises"
+        ],
+        "13": [
+          "about 6 doctors",
+          "6 doctors",
+          "about 6",
+          "6",
+          "about six doctors",
+          "six doctors",
+          "about six",
+          "six"
+        ],
+        "14": [
+          "about 4 doctors",
+          "4 doctors",
+          "about 4",
+          "4",
+          "about four doctors",
+          "four doctors",
+          "about four",
+          "four"
+        ],
+        "15": [
+          "modern"
+        ],
+        "16": [
+          "elderly",
+          "old",
+          "older"
+        ],
+        "17": [
+          "back problems",
+          "back trouble",
+          "bad backs"
+        ],
+        "18": [
+          "9 am",
+          "9",
+          "nine am",
+          "nine",
+          "9.00",
+          "9:00",
+          "nine o'clock",
+          "9 o'clock"
+        ],
+        "19": [
+          "B",
+          "E"
+        ],
+        "20": [
+          "B",
+          "E"
+        ],
+        "21": [
+          "5",
+          "five"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 3,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-1-user-key.json"
+      },
+      "answers": {
+        "22": [
+          "Politics"
+        ],
+        "23": [
+          "West Africa",
+          "Africa"
+        ],
+        "24": [
+          "1990 to 1992",
+          "1990 - 1992"
+        ],
+        "25": [
+          "Teach South"
+        ],
+        "26": [
+          "a rural co-operative",
+          "rural co-operative",
+          "a rural cooperative",
+          "rural cooperative"
+        ],
+        "27": [
+          "Geography"
+        ],
+        "28": [
+          "5",
+          "five"
+        ],
+        "29": [
+          "very homesick",
+          "homesick",
+          "missed my family",
+          "missed his family",
+          "missed family",
+          "homesickness"
+        ],
+        "30": [
+          "favourite subject",
+          "favorite subject"
+        ],
+        "31": [
+          "useful applications",
+          "applications"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-1-user-key.json"
+      },
+      "answers": {
+        "32": [
+          "A"
+        ],
+        "33": [
+          "B"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "A"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "A"
+        ],
+        "40": [
+          "B"
+        ],
+        "41": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "note": "User-provided Book 1 Listening Test 2 transcription. Explicit optional words expanded. Q3 excludes lonely. Q15 uses user-corrected riding, not ridding. Shared suffixes in Q14 and Q28 expanded; Q30 preserves bananas/ones with optional to. Q31-32 accepts C,D in either order. Imported section boundaries retained.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "student accommodation",
+          "hostel"
+        ],
+        "2": [
+          "awful food"
+        ],
+        "3": [
+          "not friendly",
+          "kept to themselves"
+        ],
+        "4": [
+          "lecturers busy",
+          "lecturers too busy"
+        ],
+        "5": [
+          "regular meetings",
+          "meetings with lecturers",
+          "fortnightly meetings"
+        ],
+        "6": [
+          "family",
+          "homestay"
+        ],
+        "7": [
+          "lot of noise",
+          "children made noise",
+          "difficult to study"
+        ],
+        "8": [
+          "student house"
+        ],
+        "9": [
+          "Computing",
+          "Bachelor of Computing"
+        ],
+        "10": [
+          "reserve computer time"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-2-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "mountain"
+        ],
+        "12": [
+          "quality"
+        ],
+        "13": [
+          "$2,000"
+        ],
+        "14": [
+          "short rides",
+          "casual rides"
+        ],
+        "15": [
+          "town riding",
+          "shopping"
+        ],
+        "16": [
+          "serious touring"
+        ],
+        "17": [
+          "similar",
+          "almost the same"
+        ],
+        "18": [
+          "better quality",
+          "better quality components"
+        ],
+        "19": [
+          "buying clothes"
+        ],
+        "20": [
+          "frame"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-2-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "D"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "one bunch"
+        ],
+        "26": [
+          "15 months"
+        ],
+        "27": [
+          "uphill",
+          "on hillsides"
+        ],
+        "28": [
+          "lots of water",
+          "plenty of water"
+        ],
+        "29": [
+          "plastic bags"
+        ],
+        "30": [
+          "bananas ripen",
+          "bananas to ripen",
+          "ones ripen",
+          "ones to ripen"
+        ],
+        "31": [
+          "C",
+          "D"
+        ],
+        "32": [
+          "C",
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            31,
+            32
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 1,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-2-user-key.json"
+      },
+      "answers": {
+        "33": [
+          "B"
+        ],
+        "34": [
+          "D"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "cooking"
+        ],
+        "37": [
+          "daily intake",
+          "regular daily intake"
+        ],
+        "38": [
+          "variety",
+          "a variety"
+        ],
+        "39": [
+          "the dark",
+          "the fridge",
+          "a cool place",
+          "a dark place"
+        ],
+        "40": [
+          "eat in moderation",
+          "not too much"
+        ],
+        "41": [
+          "eat lots",
+          "eat most"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

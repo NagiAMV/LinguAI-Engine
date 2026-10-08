@@ -1165,3 +1165,60 @@ test('Cambridge 21 Test 4 preserves both fermentation alternatives', () => {
  assert.equal(reviewAnswer('process',[9],key).status,'incorrect');
  assert.equal(reviewAnswer('',[9],key).status,'blank');
 });
+
+test('Cambridge 1 Listening Test 1 preserves 41 answers, alternatives and unordered headlines', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-1-1'];
+ assert.equal(Object.keys(key.answers).length,41);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[10,11,10,10]);
+ for(const n of [14,15,17,18,21,26,28,29,31,34,35])for(const v of key.answers[n])assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[n],key).status,'correct');
+ for(const v of [['E','F','H'],['H','E','F'],['F','H','E'],['E','H','F'],['F','E','H'],['H','F','E']])assert.equal(reviewAnswer(v,[11,12,13],key,true).status,'correct');
+ for(const v of [['E','F'],['E','E','H'],['E','F','G']])assert.equal(reviewAnswer(v,[11,12,13],key,true).status,'incorrect');
+ assert.equal(reviewAnswer([],[11,12,13],key,true).status,'blank');
+ assert.equal(reviewAnswer('a',[41],key).status,'correct');
+ assert.equal(reviewAnswer('economics',[34],key).status,'incorrect');
+});
+
+test('Cambridge 2 and 3 Listening Test 1 retain all supplied alternatives and independent groups', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const [book,count,sizes] of [[2,40,[10,10,10,10]],[3,41,[10,11,10,10]]]){
+  const key=keys[`listening-${book}-1`];
+  assert.equal(Object.keys(key.answers).length,count);
+  assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),sizes);
+  for(const [n,accepted] of Object.entries(key.answers)){
+   if(Object.values(key.parts).some(p=>p.groups.some(g=>g.questions.includes(+n))))continue;
+   for(const v of accepted)assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[+n],key).status,'correct');
+  }
+ }
+ for(const [book,nums,pair] of [[2,[6,7,8],['B','D','F']],[2,[16,17,18],['B','C','E']],[2,[19,20],['B','D']],[3,[19,20],['B','E']]]){
+  const key=keys[`listening-${book}-1`];
+  for(const v of [pair,[...pair].reverse()])assert.equal(reviewAnswer(v,nums,key,true).status,'correct');
+  assert.equal(reviewAnswer(pair.slice(1),nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer(pair.map(()=>pair[0]),nums,key,true).status,'incorrect');
+  assert.equal(reviewAnswer([],nums,key,true).status,'blank');
+ }
+ assert.equal(reviewAnswer(['B','D'],[19,20],keys['listening-3-1'],true).status,'incorrect');
+ assert.equal(reviewAnswer('the garden',[3],keys['listening-3-1']).status,'incorrect');
+});
+
+test('Cambridge 1 Listening Test 2 preserves optional phrases and explicitly rejected wording', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-1-2'];
+ assert.equal(Object.keys(key.answers).length,41);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[10,10,12,9]);
+ for(const n of [3,4,9,14,15,18,28,30,37,38,39,40,41])for(const v of key.answers[n])assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[n],key).status,'correct');
+ assert.equal(reviewAnswer('lonely',[3],key).status,'incorrect');
+ assert.equal(reviewAnswer('town ridding',[15],key).status,'incorrect');
+ for(const v of [['C','D'],['d','c']])assert.equal(reviewAnswer(v,[31,32],key,true).status,'correct');
+ for(const v of [['C'],['C','C'],['B','D']])assert.equal(reviewAnswer(v,[31,32],key,true).status,'incorrect');
+ assert.equal(reviewAnswer([],[31,32],key,true).status,'blank');
+});
+
+test('Cambridge 1 Listening Test 3 preserves 42 answers and optional wording without case penalties', () => {
+ const key=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-1-3'];
+ assert.equal(Object.keys(key.answers).length,42);
+ assert.deepEqual(Object.values(key.parts).map(p=>p.questionNumbers.length),[12,11,9,10]);
+ for(const n of [12,14,17,21,28,29,30,31,33,34,35,37,38,39])for(const v of key.answers[n])assert.equal(reviewAnswer(` ${v.toUpperCase()} `,[n],key).status,'correct');
+ for(const [n,v] of [[5,'richard lee'],[6,'30 enmore road'],[7,'newport'],[36,'spaceman'],[42,'CHOCOLATES']])assert.equal(reviewAnswer(v,[n],key).status,'correct');
+ assert.equal(reviewAnswer('Richard Leigh',[5],key).status,'incorrect');
+ assert.equal(reviewAnswer('sea',[20],key).status,'incorrect');
+ assert.equal(reviewAnswer('',[42],key).status,'blank');
+});

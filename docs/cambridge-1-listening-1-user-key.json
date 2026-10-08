@@ -1,0 +1,225 @@
+{
+  "note": "User transcription matched to Cambridge 1 Listening Test 1 by imported question content and its 41-question numbering. All supplied alternatives retained exactly. Q11-13 requires E,F,H in any order.",
+  "parts": [
+    {
+      "book": 1,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "A"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "D"
+        ],
+        "4": [
+          "D"
+        ],
+        "5": [
+          "C"
+        ],
+        "6": [
+          "Prescott"
+        ],
+        "7": [
+          "41"
+        ],
+        "8": [
+          "Fountain"
+        ],
+        "9": [
+          "752239"
+        ],
+        "10": [
+          "65"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-1-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "E",
+          "F",
+          "H"
+        ],
+        "12": [
+          "E",
+          "F",
+          "H"
+        ],
+        "13": [
+          "E",
+          "F",
+          "H"
+        ],
+        "14": [
+          "250 million",
+          "250 000 000",
+          "250,000,000",
+          "250000000"
+        ],
+        "15": [
+          "roads",
+          "road system"
+        ],
+        "16": [
+          "too late"
+        ],
+        "17": [
+          "school children",
+          "boys"
+        ],
+        "18": [
+          "3",
+          "three"
+        ],
+        "19": [
+          "pleasure craft"
+        ],
+        "20": [
+          "pilot"
+        ],
+        "21": [
+          "musical instruments",
+          "instruments"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12,
+            13
+          ],
+          "acceptedSets": [
+            [
+              "E",
+              "F",
+              "H"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 1,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-1-user-key.json"
+      },
+      "answers": {
+        "22": [
+          "A"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "talk",
+          "give a talk"
+        ],
+        "27": [
+          "write up"
+        ],
+        "28": [
+          "choose",
+          "choose the topic"
+        ],
+        "29": [
+          "open book exam",
+          "open book",
+          "open-book exam",
+          "open-book"
+        ],
+        "30": [
+          "closed reserve"
+        ],
+        "31": [
+          "vocational subjects",
+          "vocational",
+          "preparing for work",
+          "work",
+          "employment"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 1,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-1-listening-1-user-key.json"
+      },
+      "answers": {
+        "32": [
+          "B"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "history and economics",
+          "history economics",
+          "history,economics"
+        ],
+        "35": [
+          "deadlines",
+          "a deadline",
+          "deadlines for essays"
+        ],
+        "36": [
+          "attendance"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "C"
+        ],
+        "39": [
+          "B"
+        ],
+        "40": [
+          "D"
+        ],
+        "41": [
+          "A"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
