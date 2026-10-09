@@ -1293,3 +1293,16 @@ test('Cambridge 3 Listening Test 3 verified corrections reject transcription err
  assert.equal(reviewAnswer(['cheap','safe for children','educational'],[25,26,27],k,true).status,'correct');
  assert.equal(reviewAnswer(['cheap','cheap','educational'],[25,26,27],k,true).status,'incorrect');
 });
+
+test('Cambridge 4 Listening keys cover all slots and preserve combined answers', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(const [t,total] of [[1,40],[2,40],[3,42],[4,40]])assert.equal(Object.keys(keys[`listening-4-${t}`].answers).length,total);
+ for(const [t,ns,v] of [[2,[25,26],['C','B']],[2,[39,40],['E','D']],[3,[38,39],['F','D']],[3,[41,42],['C','A']],[4,[39,40],['E','B']]]){
+ const k=keys[`listening-4-${t}`];assert.equal(reviewAnswer(v,ns,k,true).status,'correct');assert.equal(reviewAnswer([v[0],v[0]],ns,k,true).status,'incorrect');}
+ assert.equal(reviewAnswer('coal',[11],keys['listening-4-1']).status,'incorrect');
+ assert.equal(reviewAnswer('coal, firewood',[11],keys['listening-4-1']).status,'correct');
+ assert.equal(reviewAnswer('traffic parking',[35],keys['listening-4-3']).status,'correct');
+ assert.equal(reviewAnswer('1-1/2 years',[1],keys['listening-4-3']).status,'correct');
+ assert.equal(reviewAnswer('3,000 - 4,000',[24],keys['listening-4-2']).status,'correct');
+ assert.equal(reviewAnswer('WHITE LIGHT',[26],keys['listening-4-4']).status,'correct');
+});

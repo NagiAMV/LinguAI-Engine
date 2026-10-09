@@ -1,0 +1,190 @@
+{
+  "note": "User-provided Cambridge 4 Listening key. Explicit alternatives expanded. Test 3 original Q38 pair mapped to site 38-39, Q39 to 40, Q40 pair to 41-42. Multiple-choice groups checked in either order. Comma-separated Q11 Test 1 and Q35 Test 3 require both supplied words.",
+  "parts": [
+    {
+      "book": 4,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "shopping",
+          "variety of shopping"
+        ],
+        "2": [
+          "guided tours"
+        ],
+        "3": [
+          "more than 12",
+          "over 12"
+        ],
+        "4": [
+          "notice board"
+        ],
+        "5": [
+          "13th February"
+        ],
+        "6": [
+          "Tower of London"
+        ],
+        "7": [
+          "Bristol"
+        ],
+        "8": [
+          "American Museum"
+        ],
+        "9": [
+          "student newspaper"
+        ],
+        "10": [
+          "Yentob"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-1-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "coal, firewood",
+          "coal firewood"
+        ],
+        "12": [
+          "local craftsmen"
+        ],
+        "13": [
+          "160"
+        ],
+        "14": [
+          "Woodside"
+        ],
+        "15": [
+          "Ticket Office"
+        ],
+        "16": [
+          "Gift Shop"
+        ],
+        "17": [
+          "Workshop",
+          "main Workshop"
+        ],
+        "18": [
+          "Showroom"
+        ],
+        "19": [
+          "Cafe"
+        ],
+        "20": [
+          "cottages"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-1-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "E"
+        ],
+        "24": [
+          "G"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "F"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-1-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "cities",
+          "environment"
+        ],
+        "32": [
+          "windy"
+        ],
+        "33": [
+          "humid"
+        ],
+        "34": [
+          "shady",
+          "shaded"
+        ],
+        "35": [
+          "dangerous"
+        ],
+        "36": [
+          "leaves"
+        ],
+        "37": [
+          "ground"
+        ],
+        "38": [
+          "considerably reduce",
+          "decrease",
+          "filter"
+        ],
+        "39": [
+          "low"
+        ],
+        "40": [
+          "space",
+          "room"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

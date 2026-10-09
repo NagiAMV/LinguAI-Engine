@@ -1,0 +1,246 @@
+{
+  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred.",
+  "unresolved": [
+    {
+      "question": 13,
+      "supplied": [
+        "F"
+      ]
+    },
+    {
+      "question": 16,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 17,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 18,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 19,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 20,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 26,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 27,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 28,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 29,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 30,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 37,
+      "supplied": [
+        "public",
+        "the public"
+      ]
+    },
+    {
+      "question": 38,
+      "supplied": [
+        "UI",
+        "the UI",
+        "United Nations"
+      ]
+    },
+    {
+      "question": 39,
+      "supplied": [
+        "climate change"
+      ]
+    },
+    {
+      "question": 40,
+      "supplied": [
+        "tourism",
+        "the tourism"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "book": 5,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "photos",
+          "passport photos",
+          "photographs",
+          "passport photographs"
+        ],
+        "2": [
+          "bank statement",
+          "a bank statement"
+        ],
+        "3": [
+          "125",
+          "125 per year"
+        ],
+        "4": [
+          "8"
+        ],
+        "5": [
+          "1.50"
+        ],
+        "6": [
+          "48"
+        ],
+        "7": [
+          "local papers",
+          "local newspapers"
+        ],
+        "8": [
+          "card",
+          "a card",
+          "cards"
+        ],
+        "9": [
+          "Grantingham"
+        ],
+        "10": [
+          "Friday"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-2-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "C"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-2-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "home",
+          "student's home"
+        ],
+        "22": [
+          "dinner",
+          "have dinner",
+          "come to dinner",
+          "go to dinner"
+        ],
+        "23": [
+          "technical"
+        ],
+        "24": [
+          "slang"
+        ],
+        "25": [
+          "cooperating",
+          "cooperation"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-2-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "58"
+        ],
+        "32": [
+          "desert"
+        ],
+        "33": [
+          "science"
+        ],
+        "34": [
+          "hospital",
+          "small hospital"
+        ],
+        "35": [
+          "ship"
+        ],
+        "36": [
+          "platforms"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

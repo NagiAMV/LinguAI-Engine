@@ -1,0 +1,239 @@
+{
+  "note": "User-provided Cambridge 4 Listening key. Explicit alternatives expanded. Test 3 original Q38 pair mapped to site 38-39, Q39 to 40, Q40 pair to 41-42. Multiple-choice groups checked in either order. Comma-separated Q11 Test 1 and Q35 Test 3 require both supplied words.",
+  "parts": [
+    {
+      "book": 4,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "1-1/2 years"
+        ],
+        "2": [
+          "Forest",
+          "Forrest"
+        ],
+        "3": [
+          "Academic"
+        ],
+        "4": [
+          "Thursday"
+        ],
+        "5": [
+          "B"
+        ],
+        "6": [
+          "B"
+        ],
+        "7": [
+          "A"
+        ],
+        "8": [
+          "deposit"
+        ],
+        "9": [
+          "monthly"
+        ],
+        "10": [
+          "telephone",
+          "phone"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-3-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "lighting",
+          "lights",
+          "light"
+        ],
+        "16": [
+          "adult",
+          "adults"
+        ],
+        "17": [
+          "Studio Theatre",
+          "the Studio Theatre",
+          "at Studio Theatre",
+          "at the Studio Theatre",
+          "Studio Theater",
+          "the Studio Theater",
+          "at Studio Theater",
+          "at the Studio Theater"
+        ],
+        "18": [
+          "the whole family",
+          "all the family",
+          "families"
+        ],
+        "19": [
+          "City Gardens",
+          "in City Gardens",
+          "the City Gardens",
+          "outdoors"
+        ],
+        "20": [
+          "young children",
+          "younger children",
+          "children"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-3-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 4,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-4-listening-3-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "questionnaire"
+        ],
+        "32": [
+          "approximately 2,000",
+          "about 2,000"
+        ],
+        "33": [
+          "Education"
+        ],
+        "34": [
+          "halls of residence",
+          "living quarters"
+        ],
+        "35": [
+          "traffic, parking",
+          "traffic parking"
+        ],
+        "36": [
+          "lecture rooms",
+          "lecture halls",
+          "lecture theatres",
+          "lecture theaters"
+        ],
+        "37": [
+          "facilities",
+          "choice of facilities",
+          "room for facilities"
+        ],
+        "38": [
+          "D"
+        ],
+        "39": [
+          "F"
+        ],
+        "40": [
+          "B"
+        ],
+        "41": [
+          "A"
+        ],
+        "42": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            38,
+            39
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "F"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            41,
+            42
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred.",
+  "unresolved": [
+    {
+      "question": 8,
+      "supplied": [
+        "20%"
+      ]
+    },
+    {
+      "question": 9,
+      "supplied": [
+        "39745T"
+      ]
+    },
+    {
+      "question": 10,
+      "supplied": [
+        "50"
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "book": 5,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-1-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "by minibus",
+          "a minibus"
+        ],
+        "2": [
+          "15",
+          "15 people"
+        ],
+        "3": [
+          "April 18th",
+          "April the 18th"
+        ],
+        "4": [
+          "Pallisades"
+        ],
+        "5": [
+          "B"
+        ],
+        "6": [
+          "D"
+        ],
+        "7": [
+          "280"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            5,
+            6
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 5,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-1-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "move around",
+          "move about"
+        ],
+        "12": [
+          "brakes"
+        ],
+        "13": [
+          "fingers"
+        ],
+        "14": [
+          "satisfactory"
+        ],
+        "15": [
+          "put together",
+          "put it together"
+        ],
+        "16": [
+          "too wide"
+        ],
+        "17": [
+          "dangerous"
+        ],
+        "18": [
+          "wheels"
+        ],
+        "19": [
+          "best",
+          "the best",
+          "best buy",
+          "the best buy",
+          "safe"
+        ],
+        "20": [
+          "sharp"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-1-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "D"
+        ],
+        "26": [
+          "full-time"
+        ],
+        "27": [
+          "a term",
+          "one term"
+        ],
+        "28": [
+          "intensive"
+        ],
+        "29": [
+          "two modules",
+          "two terms",
+          "for two terms"
+        ],
+        "30": [
+          "one topic"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            24,
+            25
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 5,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-5-listening-1-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "politics"
+        ],
+        "32": [
+          "learn"
+        ],
+        "33": [
+          "children’s education",
+          "their children’s education"
+        ],
+        "34": [
+          "a car"
+        ],
+        "35": [
+          "nursing care"
+        ],
+        "36": [
+          "crisis"
+        ],
+        "37": [
+          "early twenties"
+        ],
+        "38": [
+          "confidence"
+        ],
+        "39": [
+          "money management"
+        ],
+        "40": [
+          "low-risk investments"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
