@@ -1,0 +1,135 @@
+{
+  "book": 2,
+  "test": 3,
+  "module": "listening",
+  "note": "Original user numbering retained. Q5-7 each require both letters in either order. Q11-14,15-16,38-40 are unordered groups. Q21 allows acceptable date alternatives without enumeration; Q22 requires both endpoints; Q23 excludes research alone. Awaiting user approval of imported +3 mapping and removal of prefilled 18,000 to.",
+  "answers": {
+    "1": [
+      "B"
+    ],
+    "2": [
+      "C"
+    ],
+    "3": [
+      "A"
+    ],
+    "4": [
+      "B"
+    ],
+    "5": [
+      "AE"
+    ],
+    "6": [
+      "AC"
+    ],
+    "7": [
+      "CE"
+    ],
+    "8": [
+      "B"
+    ],
+    "9": [
+      "C"
+    ],
+    "10": [
+      "B"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "E"
+    ],
+    "14": [
+      "G"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "21 May"
+    ],
+    "22": [
+      "18,000 - 20,000",
+      "18 - 20,000",
+      "eighteen thousand to twenty thousand"
+    ],
+    "23": [
+      "research methods"
+    ],
+    "24": [
+      "plan",
+      "draft plan"
+    ],
+    "25": [
+      "research",
+      "do research",
+      "carry out research",
+      "conduct research"
+    ],
+    "26": [
+      "March May",
+      "March to May"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "C"
+    ],
+    "32": [
+      "B"
+    ],
+    "33": [
+      "C"
+    ],
+    "34": [
+      "B"
+    ],
+    "35": [
+      "B"
+    ],
+    "36": [
+      "C"
+    ],
+    "37": [
+      "A"
+    ],
+    "38": [
+      "B"
+    ],
+    "39": [
+      "D"
+    ],
+    "40": [
+      "E"
+    ]
+  }
+}

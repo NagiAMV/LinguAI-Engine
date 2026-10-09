@@ -19978,5 +19978,1958 @@
         "reference": "docs/cambridge-1-listening-4-user-key.json"
       }
     ]
+  },
+  "listening-2-2": {
+    "book": 2,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "B"
+      ],
+      "2": [
+        "A"
+      ],
+      "3": [
+        "fridge",
+        "refrigerator"
+      ],
+      "4": [
+        "stereo",
+        "stereo system"
+      ],
+      "5": [
+        "books"
+      ],
+      "6": [
+        "184",
+        "$184",
+        "184 dollars"
+      ],
+      "7": [
+        "Murray"
+      ],
+      "8": [
+        "16C"
+      ],
+      "9": [
+        "South Hills"
+      ],
+      "10": [
+        "English",
+        "British"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "north",
+        "N"
+      ],
+      "13": [
+        "floor",
+        "floor number",
+        "2nd floor",
+        "second floor",
+        "2nd floor number",
+        "second floor number"
+      ],
+      "14": [
+        "room",
+        "room number"
+      ],
+      "15": [
+        "8 pm",
+        "8 pm and 7 am"
+      ],
+      "16": [
+        "fire doors",
+        "emergency doors",
+        "the fire doors",
+        "the emergency doors"
+      ],
+      "17": [
+        "laundry",
+        "washing"
+      ],
+      "18": [
+        "balconies",
+        "balconys",
+        "the balconies",
+        "the balconys"
+      ],
+      "19": [
+        "meal times"
+      ],
+      "20": [
+        "floor senior",
+        "floor seniors",
+        "elected floor senior",
+        "elected floor seniors"
+      ],
+      "21": [
+        "newspaper",
+        "newspapers"
+      ],
+      "22": [
+        "map",
+        "maps"
+      ],
+      "23": [
+        "radio",
+        "radios"
+      ],
+      "24": [
+        "television",
+        "TV"
+      ],
+      "25": [
+        "computer",
+        "computers"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "B"
+      ],
+      "31": [
+        "A"
+      ],
+      "32": [
+        "training"
+      ],
+      "33": [
+        "technology"
+      ],
+      "34": [
+        "cool wet",
+        "cool and wet"
+      ],
+      "35": [
+        "wool timber",
+        "wool and timber"
+      ],
+      "36": [
+        "fertile soil",
+        "fertile soils",
+        "land",
+        "earth",
+        "ground"
+      ],
+      "37": [
+        "vegetables",
+        "high quality vegetables"
+      ],
+      "38": [
+        "warm wet",
+        "warm and wet"
+      ],
+      "39": [
+        "800",
+        "eight hundred"
+      ],
+      "40": [
+        "B"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      }
+    ]
+  },
+  "listening-2-4": {
+    "book": 2,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "16 Rose Lane"
+      ],
+      "2": [
+        "27 June",
+        "27th June"
+      ],
+      "3": [
+        "door broken",
+        "broken door"
+      ],
+      "4": [
+        "C"
+      ],
+      "5": [
+        "no locks",
+        "no locks on them",
+        "need locks"
+      ],
+      "6": [
+        "bathroom light"
+      ],
+      "7": [
+        "A"
+      ],
+      "8": [
+        "kitchen curtains"
+      ],
+      "9": [
+        "B"
+      ],
+      "10": [
+        "1 5",
+        "1 5 pm",
+        "1 and 5",
+        "1 and 5 pm",
+        "1 pm 5",
+        "1 pm 5 pm",
+        "1 pm and 5",
+        "1 pm and 5 pm"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "waterfall",
+        "waterfalls",
+        "water fall",
+        "water falls"
+      ],
+      "14": [
+        "eleven",
+        "11.00",
+        "11",
+        "11 am"
+      ],
+      "15": [
+        "Spotlight",
+        "Spotlight tour"
+      ],
+      "16": [
+        "walking boots"
+      ],
+      "17": [
+        "socks"
+      ],
+      "18": [
+        "long trousers"
+      ],
+      "19": [
+        "snakes",
+        "venomous snakes",
+        "poisonous snakes"
+      ],
+      "20": [
+        "plants",
+        "certain plants"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "check work",
+        "check your work",
+        "check over work",
+        "check over your work",
+        "check errors",
+        "check your errors",
+        "check over errors",
+        "check over your errors",
+        "revise work"
+      ],
+      "27": [
+        "record"
+      ],
+      "28": [
+        "friend",
+        "a friend"
+      ],
+      "29": [
+        "general interest"
+      ],
+      "30": [
+        "dictionary"
+      ],
+      "31": [
+        "B"
+      ],
+      "32": [
+        "A"
+      ],
+      "33": [
+        "A"
+      ],
+      "34": [
+        "B"
+      ],
+      "35": [
+        "C"
+      ],
+      "36": [
+        "B"
+      ],
+      "37": [
+        "A"
+      ],
+      "38": [
+        "C"
+      ],
+      "39": [
+        "B"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              16,
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "walking boots",
+                "socks",
+                "long trousers"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "snakes",
+                "plants"
+              ],
+              [
+                "snakes",
+                "certain plants"
+              ],
+              [
+                "venomous snakes",
+                "plants"
+              ],
+              [
+                "venomous snakes",
+                "certain plants"
+              ],
+              [
+                "poisonous snakes",
+                "plants"
+              ],
+              [
+                "poisonous snakes",
+                "certain plants"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-4-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-4-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-4-user-key.json"
+      }
+    ]
+  },
+  "listening-2-3": {
+    "book": 2,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "B"
+      ],
+      "2": [
+        "C"
+      ],
+      "3": [
+        "A"
+      ],
+      "4": [
+        "B"
+      ],
+      "5": [
+        "A",
+        "E"
+      ],
+      "6": [
+        "A",
+        "E"
+      ],
+      "7": [
+        "A",
+        "C"
+      ],
+      "8": [
+        "A",
+        "C"
+      ],
+      "9": [
+        "C",
+        "E"
+      ],
+      "10": [
+        "C",
+        "E"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "A"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "G"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "E"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "21 May"
+      ],
+      "25": [
+        "18,000 - 20,000",
+        "18 - 20,000",
+        "eighteen thousand to twenty thousand"
+      ],
+      "26": [
+        "research methods"
+      ],
+      "27": [
+        "plan",
+        "draft plan"
+      ],
+      "28": [
+        "research",
+        "do research",
+        "carry out research",
+        "conduct research"
+      ],
+      "29": [
+        "March May",
+        "March to May"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "A"
+      ],
+      "32": [
+        "C"
+      ],
+      "33": [
+        "B"
+      ],
+      "34": [
+        "C"
+      ],
+      "35": [
+        "B"
+      ],
+      "36": [
+        "C"
+      ],
+      "37": [
+        "B"
+      ],
+      "38": [
+        "B"
+      ],
+      "39": [
+        "C"
+      ],
+      "40": [
+        "A"
+      ],
+      "41": [
+        "B"
+      ],
+      "42": [
+        "D"
+      ],
+      "43": [
+        "E"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": [
+          {
+            "questions": [
+              5,
+              6
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              7,
+              8
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              9,
+              10
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "groups": [
+          {
+            "questions": [
+              14,
+              15,
+              16,
+              17
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C",
+                "E",
+                "G"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              18,
+              19
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "groups": [
+          {
+            "questions": [
+              41,
+              42,
+              43
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      }
+    ]
+  },
+  "listening-3-2": {
+    "book": 3,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Main Hall",
+        "the Main Hall"
+      ],
+      "2": [
+        "Director",
+        "the Director",
+        "Director of Studies",
+        "the Director of Studies",
+        "Director Studies",
+        "the Director Studies",
+        "DOS"
+      ],
+      "3": [
+        "Advisor",
+        "Adviser",
+        "Student Advisor",
+        "Student Adviser",
+        "Students Advisor",
+        "Students Adviser",
+        "Student's Advisor",
+        "Student's Adviser",
+        "the Advisor",
+        "the Adviser",
+        "the Student Advisor",
+        "the Student Adviser",
+        "the Students Advisor",
+        "the Students Adviser",
+        "the Student's Advisor",
+        "the Student's Adviser"
+      ],
+      "4": [
+        "eleven",
+        "11 o'clock",
+        "eleven o'clock",
+        "11.00",
+        "11.00 am"
+      ],
+      "5": [
+        "placement",
+        "English",
+        "placement test",
+        "English test"
+      ],
+      "6": [
+        "L",
+        "Library"
+      ],
+      "7": [
+        "MH",
+        "Main Hall"
+      ],
+      "8": [
+        "CL",
+        "Computer Laboratory"
+      ],
+      "9": [
+        "SR",
+        "Staff Room"
+      ],
+      "10": [
+        "SCR",
+        "Student Common Room"
+      ],
+      "11": [
+        "fees",
+        "tuition fees",
+        "student fees",
+        "student tuition fees",
+        "student's fees",
+        "student's tuition fees",
+        "overseas fees",
+        "overseas tuition fees",
+        "overseas student fees",
+        "overseas student tuition fees",
+        "overseas student's fees",
+        "overseas student's tuition fees"
+      ],
+      "12": [
+        "domestic",
+        "domestic area",
+        "the domestic",
+        "the domestic area"
+      ],
+      "13": [
+        "deadlines",
+        "essay deadlines",
+        "essay's deadlines"
+      ],
+      "14": [
+        "social",
+        "social life"
+      ],
+      "15": [
+        "outings",
+        "trips"
+      ],
+      "16": [
+        "KOUACHI"
+      ],
+      "17": [
+        "3269940"
+      ],
+      "18": [
+        "ten-four",
+        "ten-fourpm",
+        "ten-4",
+        "ten-4pm",
+        "ten four",
+        "ten fourpm",
+        "ten 4",
+        "ten 4pm",
+        "tenam-four",
+        "tenam-fourpm",
+        "tenam-4",
+        "tenam-4pm",
+        "tenam four",
+        "tenam fourpm",
+        "tenam 4",
+        "tenam 4pm",
+        "10-four",
+        "10-fourpm",
+        "10-4",
+        "10-4pm",
+        "10 four",
+        "10 fourpm",
+        "10 4",
+        "10 4pm",
+        "10am-four",
+        "10am-fourpm",
+        "10am-4",
+        "10am-4pm",
+        "10am four",
+        "10am fourpm",
+        "10am 4",
+        "10am 4pm"
+      ],
+      "19": [
+        "appointment",
+        "appointments",
+        "an appointment"
+      ],
+      "20": [
+        "waiting list"
+      ],
+      "21": [
+        "B",
+        "staff selection"
+      ],
+      "22": [
+        "C",
+        "disagrees with the rest of the group"
+      ],
+      "23": [
+        "A",
+        "colleagues' ability"
+      ],
+      "24": [
+        "C",
+        "already a part of job interviews"
+      ],
+      "25": [
+        "selection",
+        "selection procedure"
+      ],
+      "26": [
+        "Chinese",
+        "ancient Chinese",
+        "the Chinese",
+        "the ancient Chinese"
+      ],
+      "27": [
+        "military",
+        "the military",
+        "army",
+        "the army"
+      ],
+      "28": [
+        "two thirds",
+        "almost two thirds",
+        "2/3"
+      ],
+      "29": [
+        "experts"
+      ],
+      "30": [
+        "A",
+        "describe one selection technique"
+      ],
+      "31": [
+        "secondary"
+      ],
+      "32": [
+        "14",
+        "fourteen",
+        "14 years old",
+        "fourteen years old",
+        "14 years olds",
+        "fourteen years olds"
+      ],
+      "33": [
+        "overlap",
+        "overlapping",
+        "overt lap",
+        "over-lapping"
+      ],
+      "34": [
+        "underside",
+        "underneath",
+        "bottom"
+      ],
+      "35": [
+        "on paper",
+        "in two dimensions"
+      ],
+      "36": [
+        "3 dimensional",
+        "3-dimensional",
+        "three dimensional",
+        "three-dimensional",
+        "3D",
+        "3-D"
+      ],
+      "37": [
+        "white grey brown",
+        "white, grey, brown",
+        "white brown grey",
+        "white, brown, grey",
+        "grey white brown",
+        "grey, white, brown",
+        "grey brown white",
+        "grey, brown, white",
+        "brown white grey",
+        "brown, white, grey",
+        "brown grey white",
+        "brown, grey, white",
+        "white gray brown",
+        "white, gray, brown",
+        "white brown gray",
+        "white, brown, gray",
+        "gray white brown",
+        "gray, white, brown",
+        "gray brown white",
+        "gray, brown, white",
+        "brown white gray",
+        "brown, white, gray",
+        "brown gray white",
+        "brown, gray, white"
+      ],
+      "38": [
+        "C"
+      ],
+      "39": [
+        "D"
+      ],
+      "40": [
+        "A"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              26,
+              27
+            ],
+            "acceptedSets": [
+              [
+                "Chinese",
+                "military"
+              ],
+              [
+                "Chinese",
+                "the military"
+              ],
+              [
+                "Chinese",
+                "army"
+              ],
+              [
+                "Chinese",
+                "the army"
+              ],
+              [
+                "ancient Chinese",
+                "military"
+              ],
+              [
+                "ancient Chinese",
+                "the military"
+              ],
+              [
+                "ancient Chinese",
+                "army"
+              ],
+              [
+                "ancient Chinese",
+                "the army"
+              ],
+              [
+                "the Chinese",
+                "military"
+              ],
+              [
+                "the Chinese",
+                "the military"
+              ],
+              [
+                "the Chinese",
+                "army"
+              ],
+              [
+                "the Chinese",
+                "the army"
+              ],
+              [
+                "the ancient Chinese",
+                "military"
+              ],
+              [
+                "the ancient Chinese",
+                "the military"
+              ],
+              [
+                "the ancient Chinese",
+                "army"
+              ],
+              [
+                "the ancient Chinese",
+                "the army"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      }
+    ]
+  },
+  "listening-3-4": {
+    "book": 3,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "4.25",
+        "4 1/4",
+        "four and quarter",
+        "four and a quarter"
+      ],
+      "2": [
+        "46",
+        "forty-six"
+      ],
+      "3": [
+        "A",
+        "State Bank"
+      ],
+      "4": [
+        "D",
+        "Library"
+      ],
+      "5": [
+        "C",
+        "Garage"
+      ],
+      "6": [
+        "chocolates",
+        "a box of chocolates",
+        "box of chocolates",
+        "a box chocolates",
+        "box chocolates",
+        "a chocolates"
+      ],
+      "7": [
+        "toy",
+        "soft toy",
+        "a toy",
+        "a soft toy",
+        "teddy",
+        "teddy bear",
+        "a teddy",
+        "a teddy bear",
+        "bear",
+        "a bear"
+      ],
+      "8": [
+        "market",
+        "markets",
+        "at the market",
+        "at the markets"
+      ],
+      "9": [
+        "market",
+        "markets",
+        "at the market",
+        "at the markets"
+      ],
+      "10": [
+        "35",
+        "$35",
+        "thirty-five",
+        "thirty-five dollars",
+        "35 dollars"
+      ],
+      "11": [
+        "glass"
+      ],
+      "12": [
+        "eighteen hours",
+        "18 hours",
+        "eighteen hrs",
+        "18 hrs"
+      ],
+      "13": [
+        "taste",
+        "a taste",
+        "strange taste",
+        "a strange taste"
+      ],
+      "14": [
+        "small size",
+        "the small size",
+        "small",
+        "size",
+        "the size"
+      ],
+      "15": [
+        "metal"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "outside activities",
+        "outdoor activities",
+        "outdoors"
+      ],
+      "18": [
+        "underwater",
+        "under water",
+        "beneath water"
+      ],
+      "19": [
+        "weak light",
+        "a weak light"
+      ],
+      "20": [
+        "flashing light"
+      ],
+      "21": [
+        "B",
+        "hospital"
+      ],
+      "22": [
+        "C",
+        "the middle section"
+      ],
+      "23": [
+        "C",
+        "found it difficult to do"
+      ],
+      "24": [
+        "C",
+        "remove completely"
+      ],
+      "25": [
+        "B",
+        "rewrite"
+      ],
+      "26": [
+        "C",
+        "remove completely"
+      ],
+      "27": [
+        "Sight and Sound"
+      ],
+      "28": [
+        "Support Tutor"
+      ],
+      "29": [
+        "proof reading",
+        "proof read"
+      ],
+      "30": [
+        "10 July"
+      ],
+      "31": [
+        "7.30pm to 5.30am",
+        "7.30pm and 5.30am",
+        "7.30pm 5.30am"
+      ],
+      "32": [
+        "housewives",
+        "house-wives"
+      ],
+      "33": [
+        "Sunday",
+        "Sundays"
+      ],
+      "34": [
+        "$25,000",
+        "about $25,000",
+        "twenty-five thousand dollars",
+        "about twenty-five thousand dollars"
+      ],
+      "35": [
+        "C",
+        "67 decibels"
+      ],
+      "36": [
+        "C",
+        "for ceilings"
+      ],
+      "37": [
+        "W",
+        "for walls"
+      ],
+      "38": [
+        "C",
+        "for ceilings"
+      ],
+      "39": [
+        "D"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      }
+    ]
+  },
+  "listening-3-3": {
+    "book": 3,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Rajdoot"
+      ],
+      "2": [
+        "Park View",
+        "Park View Hotel"
+      ],
+      "3": [
+        "London Arms"
+      ],
+      "4": [
+        "208657"
+      ],
+      "5": [
+        "no smoking section",
+        "no smoking area",
+        "non-smoking section",
+        "non-smoking area",
+        "nonsmoking section",
+        "nonsmoking area"
+      ],
+      "6": [
+        "Lentil curry"
+      ],
+      "7": [
+        "fifty pound deposit",
+        "fifty pounds deposit",
+        "£50 deposit",
+        "50 deposit",
+        "£50",
+        "50",
+        "fifty pounds"
+      ],
+      "8": [
+        "choose menu",
+        "choose the menu",
+        "decide menu",
+        "decide on menu",
+        "decide on the menu",
+        "select menu",
+        "select the menu"
+      ],
+      "9": [
+        "4 November"
+      ],
+      "10": [
+        "Newsletter",
+        "the Newsletter"
+      ],
+      "11": [
+        "9.50",
+        "£9.50"
+      ],
+      "12": [
+        "year",
+        "annum"
+      ],
+      "13": [
+        "reception"
+      ],
+      "14": [
+        "card"
+      ],
+      "15": [
+        "book"
+      ],
+      "16": [
+        "weekdays"
+      ],
+      "17": [
+        "Reception",
+        "Reception Area"
+      ],
+      "18": [
+        "Dance Studio"
+      ],
+      "19": [
+        "Squash Courts"
+      ],
+      "20": [
+        "Fitness Room"
+      ],
+      "21": [
+        "Anne Rea"
+      ],
+      "22": [
+        "16",
+        "both 16",
+        "16 years old",
+        "both 16 years old"
+      ],
+      "23": [
+        "Blind Puzzle",
+        "Blind Jigsaw Puzzle"
+      ],
+      "24": [
+        "2.5",
+        "2 and a half"
+      ],
+      "25": [
+        "safe for children"
+      ],
+      "26": [
+        "educational",
+        "it's educational"
+      ],
+      "27": [
+        "price good",
+        "price is good",
+        "inexpensive",
+        "not expensive",
+        "cheap",
+        "cheap price",
+        "good price",
+        "is good price"
+      ],
+      "28": [
+        "electrics"
+      ],
+      "29": [
+        "plastic pieces",
+        "in plastic"
+      ],
+      "30": [
+        "1 July"
+      ],
+      "31": [
+        "rabbit",
+        "rabbit meat"
+      ],
+      "32": [
+        "tough",
+        "rather tough"
+      ],
+      "33": [
+        "beef"
+      ],
+      "34": [
+        "fans",
+        "feather fans",
+        "ladies’ fans",
+        "ladies’ feather fans",
+        "ladies' fans",
+        "ladies' feather fans"
+      ],
+      "35": [
+        "leather",
+        "delicate leather",
+        "fine leather",
+        "good quality leather",
+        "delicate fine leather",
+        "delicate good quality leather",
+        "fine good quality leather",
+        "delicate fine good quality leather"
+      ],
+      "36": [
+        "meat"
+      ],
+      "37": [
+        "A",
+        "has more protein than beef"
+      ],
+      "38": [
+        "C",
+        "the price of ostrich eggs"
+      ],
+      "39": [
+        "C",
+        "need looking after carefully"
+      ],
+      "40": [
+        "B",
+        "farmed birds are very productive"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              25,
+              26,
+              27
+            ],
+            "acceptedSets": [
+              [
+                "safe for children",
+                "educational",
+                "price good"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "price is good"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "inexpensive"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "not expensive"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "cheap"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "cheap price"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "good price"
+              ],
+              [
+                "safe for children",
+                "educational",
+                "is good price"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "price good"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "price is good"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "inexpensive"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "not expensive"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "cheap"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "cheap price"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "good price"
+              ],
+              [
+                "safe for children",
+                "it's educational",
+                "is good price"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "Published book key verification and user screenshot; correction history retained",
+        "reference": "docs/cambridge-3-listening-3-verified-correction.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "Published book key verification and user screenshot; correction history retained",
+        "reference": "docs/cambridge-3-listening-3-verified-correction.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "Published book key verification and user screenshot; correction history retained",
+        "reference": "docs/cambridge-3-listening-3-verified-correction.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "Published book key verification and user screenshot; correction history retained",
+        "reference": "docs/cambridge-3-listening-3-verified-correction.json"
+      }
+    ]
   }
 }

@@ -1,0 +1,125 @@
+{
+  "book": 3,
+  "test": 3,
+  "module": "listening",
+  "source": {
+    "url": "https://ielts-city.com/wp-content/uploads/2018/08/ANSWER-Cambridge-IELTS-3.pdf",
+    "page": 153,
+    "pdfPage": 5
+  },
+  "note": "Verified missing answers saved immediately. Q24 adapted to the existing depth-only field: width 20 and length 50 are already printed. Additional conflicts with existing user transcription require correction; old data will be preserved in history.",
+  "answers": {
+    "8": [
+      "choose menu",
+      "choose the menu",
+      "decide menu",
+      "decide on menu",
+      "decide on the menu",
+      "select menu",
+      "select the menu"
+    ],
+    "9": [
+      "4 November"
+    ],
+    "10": [
+      "Newsletter",
+      "the Newsletter"
+    ],
+    "15": [
+      "book"
+    ],
+    "24": [
+      "2.5",
+      "2 and a half"
+    ],
+    "25": [
+      "safe for children"
+    ],
+    "26": [
+      "educational",
+      "it's educational"
+    ],
+    "27": [
+      "price good",
+      "price is good",
+      "inexpensive",
+      "not expensive",
+      "cheap",
+      "cheap price",
+      "good price",
+      "is good price"
+    ],
+    "28": [
+      "electrics"
+    ],
+    "29": [
+      "plastic pieces",
+      "in plastic"
+    ],
+    "30": [
+      "1 July"
+    ],
+    "34": [
+      "fans",
+      "feather fans",
+      "ladies’ fans",
+      "ladies’ feather fans",
+      "ladies' fans",
+      "ladies' feather fans"
+    ],
+    "35": [
+      "leather",
+      "delicate leather",
+      "fine leather",
+      "good quality leather",
+      "delicate fine leather",
+      "delicate good quality leather",
+      "fine good quality leather",
+      "delicate fine good quality leather"
+    ],
+    "38": [
+      "C",
+      "the price of ostrich eggs"
+    ]
+  },
+  "additionalConflicts": {
+    "1": [
+      "Rajdoot"
+    ],
+    "5": [
+      "no smoking section",
+      "no smoking area",
+      "non-smoking section",
+      "non-smoking area",
+      "nonsmoking section",
+      "nonsmoking area"
+    ],
+    "6": [
+      "Lentil curry"
+    ],
+    "11": [
+      "9.50",
+      "£9.50"
+    ],
+    "19": [
+      "Squash Courts"
+    ],
+    "21": [
+      "Anne Rea"
+    ],
+    "22": [
+      "16",
+      "both 16",
+      "16 years old",
+      "both 16 years old"
+    ],
+    "23": [
+      "Blind Puzzle",
+      "Blind Jigsaw Puzzle"
+    ],
+    "33": [
+      "beef"
+    ]
+  },
+  "confirmation": "User screenshot confirms Q28 electrics (not electric), Q29 plastic pieces/in plastic (not pieces), Q30 1 July. Other corrections verified from printed book key page 153."
+}

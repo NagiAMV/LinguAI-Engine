@@ -1242,3 +1242,54 @@ test('Cambridge 1 Listening Test 4 Q21 accepts complete times and has no duplica
  assert.ok(data.parts[1].questions.includes('name="ielts_listening_answer_3167509_9"'));
  assert.ok(!data.parts[1].questions.includes('</span> or 5 pm during the week.'));
 });
+
+test('Cambridge 2 Listening Tests 2 and 4 preserve required components and unordered variants', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['listening-2-2'],b=keys['listening-2-4'];
+ assert.equal(Object.keys(a.answers).length,40);
+ for(const [n,v] of [[34,'cool and wet'],[35,'wool timber'],[38,'warm wet']])assert.equal(reviewAnswer(v,[n],a).status,'correct');
+ for(const [n,v] of [[34,'cool'],[35,'wool'],[38,'wet'],[6,'184 monthly']])assert.equal(reviewAnswer(v,[n],a).status,'incorrect');
+ assert.equal(reviewAnswer('the balconys',[18],a).status,'correct');
+ assert.equal(reviewAnswer(['long trousers','walking boots','socks'],[16,17,18],b,true).status,'correct');
+ assert.equal(reviewAnswer(['plants','poisonous snakes'],[19,20],b,true).status,'correct');
+ assert.equal(reviewAnswer(['plants','plants'],[19,20],b,true).status,'incorrect');
+ assert.equal(reviewAnswer('check over your errors',[26],b).status,'correct');
+});
+
+test('Cambridge 2 Listening Test 3 mapping and Test 4 full time range are complete', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['listening-2-3'],b=keys['listening-2-4'];
+ assert.equal(Object.keys(a.answers).length,43);assert.equal(Object.keys(b.answers).length,40);
+ for(const [nums,set] of [[[5,6],['E','A']],[[7,8],['C','A']],[[9,10],['E','C']],[[14,15,16,17],['G','E','C','A']],[[18,19],['E','B']],[[41,42,43],['E','D','B']]]){
+  assert.equal(reviewAnswer(set,nums,a,true).status,'correct');
+  assert.equal(reviewAnswer(set.slice(1),nums,a,true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer('research',[26],a).status,'incorrect');
+ assert.equal(reviewAnswer('research methods',[26],a).status,'correct');
+ assert.equal(reviewAnswer('18,000 - 20,000',[25],a).status,'correct');
+ assert.equal(reviewAnswer('20,000',[25],a).status,'incorrect');
+ for(const v of b.answers[10])assert.equal(reviewAnswer(v,[10],b).status,'correct');
+ assert.equal(reviewAnswer('5 pm',[10],b).status,'incorrect');
+});
+
+test('Cambridge 3 Listening additions preserve required words, groups and unresolved keys', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=k['listening-3-2'],b=k['listening-3-3'],c=k['listening-3-4'];
+ assert.equal(Object.keys(a.answers).length,40);assert.equal(Object.keys(c.answers).length,40);assert.equal(Object.keys(b.answers).length,40);
+ for(const [n,v] of [[1,'Hall'],[13,'essay'],[29,'expert'],[34,'side'],[37,'white brown']])assert.equal(reviewAnswer(v,[n],a).status,'incorrect');
+ assert.equal(reviewAnswer('2/3',[28],a).status,'correct');
+ assert.equal(reviewAnswer(['army','ancient Chinese'],[26,27],a,true).status,'correct');
+ assert.equal(reviewAnswer('white grey brown',[37],a).status,'correct');
+ assert.equal(reviewAnswer('7.30 to 5.30',[31],c).status,'incorrect');
+ assert.equal(reviewAnswer('25,000',[34],c).status,'incorrect');
+ assert.equal(reviewAnswer('$25,000',[34],c).status,'correct');
+ for(const n of [8,9,10,15,24,28,29,34,35,38])assert.equal(reviewAnswer('anything',[n],b).status,'incorrect');
+});
+
+test('Cambridge 3 Listening Test 3 verified corrections reject transcription errors', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-3-3'];
+ for(const [n,v] of [[1,'Rajdoot'],[6,'lentil curry'],[11,'9.50'],[15,'book'],[21,'Anne Rea'],[22,'16'],[24,'2.5'],[28,'electrics'],[29,'in plastic'],[30,'1 July'],[33,'beef'],[38,'C']])assert.equal(reviewAnswer(v,[n],k).status,'correct');
+ for(const [n,v] of [[1,'Radisson'],[6,'lentil soup'],[11,'20'],[22,'18'],[28,'electric'],[29,'pieces'],[38,'B']])assert.equal(reviewAnswer(v,[n],k).status,'incorrect');
+ assert.equal(reviewAnswer(['cheap','safe for children','educational'],[25,26,27],k,true).status,'correct');
+ assert.equal(reviewAnswer(['cheap','cheap','educational'],[25,26,27],k,true).status,'incorrect');
+});

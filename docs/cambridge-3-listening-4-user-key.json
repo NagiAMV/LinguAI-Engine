@@ -1,0 +1,245 @@
+{
+  "note": "User transcription; explicit optional components expanded. Test 2 Q37 requires all three colors, either grey spelling; no order specified. Test 4 Q31 requires am/pm and Q34 currency. No inferred synonyms.",
+  "parts": [
+    {
+      "book": 3,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "4.25",
+          "4 1/4",
+          "four and quarter",
+          "four and a quarter"
+        ],
+        "2": [
+          "46",
+          "forty-six"
+        ],
+        "3": [
+          "A",
+          "State Bank"
+        ],
+        "4": [
+          "D",
+          "Library"
+        ],
+        "5": [
+          "C",
+          "Garage"
+        ],
+        "6": [
+          "chocolates",
+          "a box of chocolates",
+          "box of chocolates",
+          "a box chocolates",
+          "box chocolates",
+          "a chocolates"
+        ],
+        "7": [
+          "toy",
+          "soft toy",
+          "a toy",
+          "a soft toy",
+          "teddy",
+          "teddy bear",
+          "a teddy",
+          "a teddy bear",
+          "bear",
+          "a bear"
+        ],
+        "8": [
+          "market",
+          "markets",
+          "at the market",
+          "at the markets"
+        ],
+        "9": [
+          "market",
+          "markets",
+          "at the market",
+          "at the markets"
+        ],
+        "10": [
+          "35",
+          "$35",
+          "thirty-five",
+          "thirty-five dollars",
+          "35 dollars"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "glass"
+        ],
+        "12": [
+          "eighteen hours",
+          "18 hours",
+          "eighteen hrs",
+          "18 hrs"
+        ],
+        "13": [
+          "taste",
+          "a taste",
+          "strange taste",
+          "a strange taste"
+        ],
+        "14": [
+          "small size",
+          "the small size",
+          "small",
+          "size",
+          "the size"
+        ],
+        "15": [
+          "metal"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "outside activities",
+          "outdoor activities",
+          "outdoors"
+        ],
+        "18": [
+          "underwater",
+          "under water",
+          "beneath water"
+        ],
+        "19": [
+          "weak light",
+          "a weak light"
+        ],
+        "20": [
+          "flashing light"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "B",
+          "hospital"
+        ],
+        "22": [
+          "C",
+          "the middle section"
+        ],
+        "23": [
+          "C",
+          "found it difficult to do"
+        ],
+        "24": [
+          "C",
+          "remove completely"
+        ],
+        "25": [
+          "B",
+          "rewrite"
+        ],
+        "26": [
+          "C",
+          "remove completely"
+        ],
+        "27": [
+          "Sight and Sound"
+        ],
+        "28": [
+          "Support Tutor"
+        ],
+        "29": [
+          "proof reading",
+          "proof read"
+        ],
+        "30": [
+          "10 July"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-4-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "7.30pm to 5.30am",
+          "7.30pm and 5.30am",
+          "7.30pm 5.30am"
+        ],
+        "32": [
+          "housewives",
+          "house-wives"
+        ],
+        "33": [
+          "Sunday",
+          "Sundays"
+        ],
+        "34": [
+          "$25,000",
+          "about $25,000",
+          "twenty-five thousand dollars",
+          "about twenty-five thousand dollars"
+        ],
+        "35": [
+          "C",
+          "67 decibels"
+        ],
+        "36": [
+          "C",
+          "for ceilings"
+        ],
+        "37": [
+          "W",
+          "for walls"
+        ],
+        "38": [
+          "C",
+          "for ceilings"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

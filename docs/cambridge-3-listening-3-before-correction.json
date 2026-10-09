@@ -1,0 +1,186 @@
+{
+  "book": 3,
+  "test": 3,
+  "module": "listening",
+  "answers": {
+    "1": [
+      "Radisson"
+    ],
+    "2": [
+      "Park View",
+      "Park View Hotel"
+    ],
+    "3": [
+      "London Arms"
+    ],
+    "4": [
+      "208657"
+    ],
+    "5": [
+      "no smoking",
+      "non smoking",
+      "non-smoking"
+    ],
+    "6": [
+      "Lentil soup"
+    ],
+    "7": [
+      "fifty pound deposit",
+      "fifty pounds deposit",
+      "£50 deposit",
+      "50 deposit",
+      "£50",
+      "50",
+      "fifty pounds"
+    ],
+    "11": [
+      "20",
+      "£20"
+    ],
+    "12": [
+      "year",
+      "annum"
+    ],
+    "13": [
+      "reception"
+    ],
+    "14": [
+      "card"
+    ],
+    "16": [
+      "weekdays"
+    ],
+    "17": [
+      "Reception",
+      "Reception Area"
+    ],
+    "18": [
+      "Dance Studio"
+    ],
+    "19": [
+      "Squash Court"
+    ],
+    "20": [
+      "Fitness Room"
+    ],
+    "21": [
+      "Anna Task"
+    ],
+    "22": [
+      "18",
+      "both 18",
+      "18 years old",
+      "both 18 years old"
+    ],
+    "23": [
+      "Puzzle",
+      "Hand Puzzle",
+      "glow Puzzle",
+      "Handglow Puzzle"
+    ],
+    "30": [
+      "1 July"
+    ],
+    "31": [
+      "rabbit",
+      "rabbit meat"
+    ],
+    "32": [
+      "tough",
+      "rather tough"
+    ],
+    "33": [
+      "local"
+    ],
+    "36": [
+      "meat"
+    ],
+    "37": [
+      "A",
+      "has more protein than beef"
+    ],
+    "39": [
+      "C",
+      "need looking after carefully"
+    ],
+    "40": [
+      "B",
+      "farmed birds are very productive"
+    ]
+  },
+  "parts": {
+    "1": {
+      "questionNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "groups": []
+    },
+    "2": {
+      "questionNumbers": [
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "groups": []
+    },
+    "3": {
+      "questionNumbers": [
+        21,
+        22,
+        23,
+        30
+      ],
+      "groups": []
+    },
+    "4": {
+      "questionNumbers": [
+        31,
+        32,
+        33,
+        36,
+        37,
+        39,
+        40
+      ],
+      "groups": []
+    }
+  },
+  "sources": [
+    {
+      "part": 1,
+      "type": "user-transcription",
+      "label": "User-provided answer key transcription",
+      "reference": "docs/cambridge-3-listening-3-user-key.json"
+    },
+    {
+      "part": 2,
+      "type": "user-transcription",
+      "label": "User-provided answer key transcription",
+      "reference": "docs/cambridge-3-listening-3-user-key.json"
+    },
+    {
+      "part": 3,
+      "type": "user-transcription",
+      "label": "User-provided answer key transcription",
+      "reference": "docs/cambridge-3-listening-3-user-key.json"
+    },
+    {
+      "part": 4,
+      "type": "user-transcription",
+      "label": "User-provided answer key transcription",
+      "reference": "docs/cambridge-3-listening-3-user-key.json"
+    }
+  ]
+}

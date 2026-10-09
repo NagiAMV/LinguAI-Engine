@@ -1,0 +1,219 @@
+{
+  "note": "User transcription. Explicit optional words expanded. Test 2 Q6 excludes per month/monthly; Q34,35,38 require both words. Test 4 malformed waterfall s() omitted, regular supplied singular/plural retained. User explicitly specifies unordered clothing and hazards despite imported in-order wording.",
+  "unresolved": [],
+  "parts": [
+    {
+      "book": 2,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "A"
+        ],
+        "3": [
+          "fridge",
+          "refrigerator"
+        ],
+        "4": [
+          "stereo",
+          "stereo system"
+        ],
+        "5": [
+          "books"
+        ],
+        "6": [
+          "184",
+          "$184",
+          "184 dollars"
+        ],
+        "7": [
+          "Murray"
+        ],
+        "8": [
+          "16C"
+        ],
+        "9": [
+          "South Hills"
+        ],
+        "10": [
+          "English",
+          "British"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "north",
+          "N"
+        ],
+        "13": [
+          "floor",
+          "floor number",
+          "2nd floor",
+          "second floor",
+          "2nd floor number",
+          "second floor number"
+        ],
+        "14": [
+          "room",
+          "room number"
+        ],
+        "15": [
+          "8 pm",
+          "8 pm and 7 am"
+        ],
+        "16": [
+          "fire doors",
+          "emergency doors",
+          "the fire doors",
+          "the emergency doors"
+        ],
+        "17": [
+          "laundry",
+          "washing"
+        ],
+        "18": [
+          "balconies",
+          "balconys",
+          "the balconies",
+          "the balconys"
+        ],
+        "19": [
+          "meal times"
+        ],
+        "20": [
+          "floor senior",
+          "floor seniors",
+          "elected floor senior",
+          "elected floor seniors"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "newspaper",
+          "newspapers"
+        ],
+        "22": [
+          "map",
+          "maps"
+        ],
+        "23": [
+          "radio",
+          "radios"
+        ],
+        "24": [
+          "television",
+          "TV"
+        ],
+        "25": [
+          "computer",
+          "computers"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-2-listening-2-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "A"
+        ],
+        "32": [
+          "training"
+        ],
+        "33": [
+          "technology"
+        ],
+        "34": [
+          "cool wet",
+          "cool and wet"
+        ],
+        "35": [
+          "wool timber",
+          "wool and timber"
+        ],
+        "36": [
+          "fertile soil",
+          "fertile soils",
+          "land",
+          "earth",
+          "ground"
+        ],
+        "37": [
+          "vegetables",
+          "high quality vegetables"
+        ],
+        "38": [
+          "warm wet",
+          "warm and wet"
+        ],
+        "39": [
+          "800",
+          "eight hundred"
+        ],
+        "40": [
+          "B"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

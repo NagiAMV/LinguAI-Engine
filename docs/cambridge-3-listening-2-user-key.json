@@ -1,0 +1,392 @@
+{
+  "note": "User transcription; explicit optional components expanded. Test 2 Q37 requires all three colors, either grey spelling; no order specified. Test 4 Q31 requires am/pm and Q34 currency. No inferred synonyms.",
+  "parts": [
+    {
+      "book": 3,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "Main Hall",
+          "the Main Hall"
+        ],
+        "2": [
+          "Director",
+          "the Director",
+          "Director of Studies",
+          "the Director of Studies",
+          "Director Studies",
+          "the Director Studies",
+          "DOS"
+        ],
+        "3": [
+          "Advisor",
+          "Adviser",
+          "Student Advisor",
+          "Student Adviser",
+          "Students Advisor",
+          "Students Adviser",
+          "Student's Advisor",
+          "Student's Adviser",
+          "the Advisor",
+          "the Adviser",
+          "the Student Advisor",
+          "the Student Adviser",
+          "the Students Advisor",
+          "the Students Adviser",
+          "the Student's Advisor",
+          "the Student's Adviser"
+        ],
+        "4": [
+          "eleven",
+          "11 o'clock",
+          "eleven o'clock",
+          "11.00",
+          "11.00 am"
+        ],
+        "5": [
+          "placement",
+          "English",
+          "placement test",
+          "English test"
+        ],
+        "6": [
+          "L",
+          "Library"
+        ],
+        "7": [
+          "MH",
+          "Main Hall"
+        ],
+        "8": [
+          "CL",
+          "Computer Laboratory"
+        ],
+        "9": [
+          "SR",
+          "Staff Room"
+        ],
+        "10": [
+          "SCR",
+          "Student Common Room"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "fees",
+          "tuition fees",
+          "student fees",
+          "student tuition fees",
+          "student's fees",
+          "student's tuition fees",
+          "overseas fees",
+          "overseas tuition fees",
+          "overseas student fees",
+          "overseas student tuition fees",
+          "overseas student's fees",
+          "overseas student's tuition fees"
+        ],
+        "12": [
+          "domestic",
+          "domestic area",
+          "the domestic",
+          "the domestic area"
+        ],
+        "13": [
+          "deadlines",
+          "essay deadlines",
+          "essay's deadlines"
+        ],
+        "14": [
+          "social",
+          "social life"
+        ],
+        "15": [
+          "outings",
+          "trips"
+        ],
+        "16": [
+          "KOUACHI"
+        ],
+        "17": [
+          "3269940"
+        ],
+        "18": [
+          "ten-four",
+          "ten-fourpm",
+          "ten-4",
+          "ten-4pm",
+          "ten four",
+          "ten fourpm",
+          "ten 4",
+          "ten 4pm",
+          "tenam-four",
+          "tenam-fourpm",
+          "tenam-4",
+          "tenam-4pm",
+          "tenam four",
+          "tenam fourpm",
+          "tenam 4",
+          "tenam 4pm",
+          "10-four",
+          "10-fourpm",
+          "10-4",
+          "10-4pm",
+          "10 four",
+          "10 fourpm",
+          "10 4",
+          "10 4pm",
+          "10am-four",
+          "10am-fourpm",
+          "10am-4",
+          "10am-4pm",
+          "10am four",
+          "10am fourpm",
+          "10am 4",
+          "10am 4pm"
+        ],
+        "19": [
+          "appointment",
+          "appointments",
+          "an appointment"
+        ],
+        "20": [
+          "waiting list"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "B",
+          "staff selection"
+        ],
+        "22": [
+          "C",
+          "disagrees with the rest of the group"
+        ],
+        "23": [
+          "A",
+          "colleagues' ability"
+        ],
+        "24": [
+          "C",
+          "already a part of job interviews"
+        ],
+        "25": [
+          "selection",
+          "selection procedure"
+        ],
+        "26": [
+          "Chinese",
+          "ancient Chinese",
+          "the Chinese",
+          "the ancient Chinese"
+        ],
+        "27": [
+          "military",
+          "the military",
+          "army",
+          "the army"
+        ],
+        "28": [
+          "two thirds",
+          "almost two thirds",
+          "2/3"
+        ],
+        "29": [
+          "experts"
+        ],
+        "30": [
+          "A",
+          "describe one selection technique"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            26,
+            27
+          ],
+          "acceptedSets": [
+            [
+              "Chinese",
+              "military"
+            ],
+            [
+              "Chinese",
+              "the military"
+            ],
+            [
+              "Chinese",
+              "army"
+            ],
+            [
+              "Chinese",
+              "the army"
+            ],
+            [
+              "ancient Chinese",
+              "military"
+            ],
+            [
+              "ancient Chinese",
+              "the military"
+            ],
+            [
+              "ancient Chinese",
+              "army"
+            ],
+            [
+              "ancient Chinese",
+              "the army"
+            ],
+            [
+              "the Chinese",
+              "military"
+            ],
+            [
+              "the Chinese",
+              "the military"
+            ],
+            [
+              "the Chinese",
+              "army"
+            ],
+            [
+              "the Chinese",
+              "the army"
+            ],
+            [
+              "the ancient Chinese",
+              "military"
+            ],
+            [
+              "the ancient Chinese",
+              "the military"
+            ],
+            [
+              "the ancient Chinese",
+              "army"
+            ],
+            [
+              "the ancient Chinese",
+              "the army"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 3,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-2-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "secondary"
+        ],
+        "32": [
+          "14",
+          "fourteen",
+          "14 years old",
+          "fourteen years old",
+          "14 years olds",
+          "fourteen years olds"
+        ],
+        "33": [
+          "overlap",
+          "overlapping",
+          "overt lap",
+          "over-lapping"
+        ],
+        "34": [
+          "underside",
+          "underneath",
+          "bottom"
+        ],
+        "35": [
+          "on paper",
+          "in two dimensions"
+        ],
+        "36": [
+          "3 dimensional",
+          "3-dimensional",
+          "three dimensional",
+          "three-dimensional",
+          "3D",
+          "3-D"
+        ],
+        "37": [
+          "white grey brown",
+          "white, grey, brown",
+          "white brown grey",
+          "white, brown, grey",
+          "grey white brown",
+          "grey, white, brown",
+          "grey brown white",
+          "grey, brown, white",
+          "brown white grey",
+          "brown, white, grey",
+          "brown grey white",
+          "brown, grey, white",
+          "white gray brown",
+          "white, gray, brown",
+          "white brown gray",
+          "white, brown, gray",
+          "gray white brown",
+          "gray, white, brown",
+          "gray brown white",
+          "gray, brown, white",
+          "brown white gray",
+          "brown, white, gray",
+          "brown gray white",
+          "brown, gray, white"
+        ],
+        "38": [
+          "C"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "A"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

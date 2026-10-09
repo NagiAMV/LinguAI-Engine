@@ -1,0 +1,284 @@
+{
+  "note": "User approved mapping: original Q5-7 become site Q5-10; original Q8-40 shift +3. Original transcription preserved in pending-user-key file. Both range endpoints required. Unordered groups follow user key. Field names and existing session identities unchanged.",
+  "parts": [
+    {
+      "book": 2,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "A"
+        ],
+        "4": [
+          "B"
+        ],
+        "5": [
+          "A",
+          "E"
+        ],
+        "6": [
+          "A",
+          "E"
+        ],
+        "7": [
+          "A",
+          "C"
+        ],
+        "8": [
+          "A",
+          "C"
+        ],
+        "9": [
+          "C",
+          "E"
+        ],
+        "10": [
+          "C",
+          "E"
+        ],
+        "11": [
+          "B"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "B"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            5,
+            6
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            7,
+            8
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            9,
+            10
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 2,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      "answers": {
+        "14": [
+          "A"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "G"
+        ],
+        "18": [
+          "B"
+        ],
+        "19": [
+          "E"
+        ],
+        "20": [
+          "C"
+        ],
+        "21": [
+          "A"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "B"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C",
+              "E",
+              "G"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            18,
+            19
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 2,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      "answers": {
+        "24": [
+          "21 May"
+        ],
+        "25": [
+          "18,000 - 20,000",
+          "18 - 20,000",
+          "eighteen thousand to twenty thousand"
+        ],
+        "26": [
+          "research methods"
+        ],
+        "27": [
+          "plan",
+          "draft plan"
+        ],
+        "28": [
+          "research",
+          "do research",
+          "carry out research",
+          "conduct research"
+        ],
+        "29": [
+          "March May",
+          "March to May"
+        ],
+        "30": [
+          "A"
+        ],
+        "31": [
+          "A"
+        ],
+        "32": [
+          "C"
+        ],
+        "33": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 2,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-approved mapping of transcribed key to imported question numbers",
+        "reference": "docs/cambridge-2-listening-3-user-key.json"
+      },
+      "answers": {
+        "34": [
+          "C"
+        ],
+        "35": [
+          "B"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "B"
+        ],
+        "39": [
+          "C"
+        ],
+        "40": [
+          "A"
+        ],
+        "41": [
+          "B"
+        ],
+        "42": [
+          "D"
+        ],
+        "43": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            41,
+            42,
+            43
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D",
+              "E"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

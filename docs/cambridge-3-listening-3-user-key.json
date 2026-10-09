@@ -1,0 +1,265 @@
+{
+  "note": "Partial key: incompatible or ambiguous responses excluded from scoring pending clarification. Q34-35 also conflict with feather/hide use prompts. Original supplied fragments retained below. Resolved by published-key verification; original transcription below retained for audit. See docs/cambridge-3-listening-3-verified-correction.json",
+  "unresolved": [],
+  "parts": [
+    {
+      "book": 3,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      "answers": {
+        "1": [
+          "Radisson"
+        ],
+        "2": [
+          "Park View",
+          "Park View Hotel"
+        ],
+        "3": [
+          "London Arms"
+        ],
+        "4": [
+          "208657"
+        ],
+        "5": [
+          "no smoking",
+          "non smoking",
+          "non-smoking"
+        ],
+        "6": [
+          "Lentil soup"
+        ],
+        "7": [
+          "fifty pound deposit",
+          "fifty pounds deposit",
+          "£50 deposit",
+          "50 deposit",
+          "£50",
+          "50",
+          "fifty pounds"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      "answers": {
+        "11": [
+          "20",
+          "£20"
+        ],
+        "12": [
+          "year",
+          "annum"
+        ],
+        "13": [
+          "reception"
+        ],
+        "14": [
+          "card"
+        ],
+        "16": [
+          "weekdays"
+        ],
+        "17": [
+          "Reception",
+          "Reception Area"
+        ],
+        "18": [
+          "Dance Studio"
+        ],
+        "19": [
+          "Squash Court"
+        ],
+        "20": [
+          "Fitness Room"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      "answers": {
+        "21": [
+          "Anna Task"
+        ],
+        "22": [
+          "18",
+          "both 18",
+          "18 years old",
+          "both 18 years old"
+        ],
+        "23": [
+          "Puzzle",
+          "Hand Puzzle",
+          "glow Puzzle",
+          "Handglow Puzzle"
+        ],
+        "30": [
+          "1 July"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 3,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-provided answer key transcription",
+        "reference": "docs/cambridge-3-listening-3-user-key.json"
+      },
+      "answers": {
+        "31": [
+          "rabbit",
+          "rabbit meat"
+        ],
+        "32": [
+          "tough",
+          "rather tough"
+        ],
+        "33": [
+          "local"
+        ],
+        "36": [
+          "meat"
+        ],
+        "37": [
+          "A",
+          "has more protein than beef"
+        ],
+        "39": [
+          "C",
+          "need looking after carefully"
+        ],
+        "40": [
+          "B",
+          "farmed birds are very productive"
+        ]
+      },
+      "groups": []
+    }
+  ],
+  "resolved": [
+    {
+      "question": 8,
+      "supplied": [
+        "4 November"
+      ]
+    },
+    {
+      "question": 9,
+      "supplied": [
+        "choose menu",
+        "choose the menu",
+        "decide menu",
+        "decide on menu",
+        "decide on the menu",
+        "select menu",
+        "select the menu"
+      ]
+    },
+    {
+      "question": 10,
+      "supplied": [
+        "the total price",
+        "total price"
+      ]
+    },
+    {
+      "question": 15,
+      "supplied": [
+        "peak hours"
+      ]
+    },
+    {
+      "question": 24,
+      "supplied": [
+        "20 cm x 50 cm x 2.5 cm"
+      ]
+    },
+    {
+      "question": 25,
+      "supplied": [
+        "educational price is good",
+        "inexpensive",
+        "not expensive",
+        "cheap price",
+        "good price"
+      ]
+    },
+    {
+      "question": 26,
+      "supplied": [
+        "electrics"
+      ]
+    },
+    {
+      "question": 27,
+      "supplied": [
+        "plastic pieces",
+        "it works"
+      ]
+    },
+    {
+      "question": 28,
+      "supplied": [
+        "1 July"
+      ]
+    },
+    {
+      "question": 29,
+      "supplied": [
+        "1 July"
+      ]
+    },
+    {
+      "question": 34,
+      "supplied": [
+        "fans",
+        "jacket fans",
+        "leather fans",
+        "jacket leather fans"
+      ]
+    },
+    {
+      "question": 35,
+      "supplied": [
+        "leather",
+        "delicate leather",
+        "meat leather",
+        "good quality leather"
+      ]
+    },
+    {
+      "question": 38,
+      "supplied": [
+        "B",
+        "the price of ostrich eggs"
+      ]
+    }
+  ]
+}
