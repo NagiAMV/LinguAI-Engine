@@ -1438,3 +1438,29 @@ test('Cambridge 12 Listening is complete and Test 4 accepts explicit alternative
  assert.equal(reviewAnswer('',[1],k).status,'blank');
  assert.equal(reviewAnswer('anything',[41],k).status,'pending');
 });
+
+test('Cambridge 13 Listening Tests 1–3 preserve verified corrections and independent pairs', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=3;t++)assert.equal(Object.keys(keys[`listening-13-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,7,'Arretsa'],[1,8,'vegetarian'],[1,9,'market'],[1,10,'knife'],[1,11,'B'],[1,17,'G'],[1,18,'C'],[1,39,'tails'],[2,3,'Jerriz'],[2,21,'B'],[2,30,'B'],[3,5,'weekends'],[3,6,'cinema'],[3,32,'plants'],[3,34,'sky'],[3,38,'tails'],[3,39,'steps']])assert.equal(reviewAnswer(v,[n],keys[`listening-13-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,7,'Arisa'],[1,39,'fats'],[2,3,'members'],[2,21,'D'],[3,32,'bush'],[3,34,'parasites'],[3,38,'mates']])assert.equal(reviewAnswer(v,[n],keys[`listening-13-${t}`]).status,'incorrect');
+ for(const [t,ns,vs] of [[2,[17,18],['E','C']],[2,[19,20],['D','B']],[3,[17,18],['C','B']],[3,[19,20],['D','B']]]){
+ assert.equal(reviewAnswer(vs,ns,keys[`listening-13-${t}`],true).status,'correct');
+ assert.equal(reviewAnswer([vs[0],vs[0]],ns,keys[`listening-13-${t}`],true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer(' BEHAVIOR ',[36],keys['listening-13-1']).status,'correct');
+ assert.equal(reviewAnswer('',[10],keys['listening-13-1']).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],keys['listening-13-1']).status,'pending');
+});
+
+test('Cambridge 13 Listening is complete and Test 4 preserves verified corrections', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(keys[`listening-13-${t}`].answers).length,40);
+ const k=keys['listening-13-4'];
+ for(const [n,vs] of [[2,['math','maths','mathematics']],[5,['holiday','holidays','vacation','vacations']],[8,['jeans']],[23,['C']],[32,['university','universities']],[34,['port','ports']],[35,['slaves','slavery']]])for(const v of vs)assert.equal(reviewAnswer(' '+v.toUpperCase()+' ',[n],k).status,'correct');
+ for(const [n,v] of [[8,'winter'],[23,'B'],[34,'portss']])assert.equal(reviewAnswer(v,[n],k).status,'incorrect');
+ for(const [ns,vs] of [[[27,28],['C','B']],[[29,30],['E','D']]]){assert.equal(reviewAnswer(vs,ns,k,true).status,'correct');assert.equal(reviewAnswer([vs[0],vs[0]],ns,k,true).status,'incorrect');}
+ assert.equal(reviewAnswer(['C','E'],[27,28],k,true).status,'incorrect');
+ assert.equal(reviewAnswer('',[1],k).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k).status,'pending');
+});

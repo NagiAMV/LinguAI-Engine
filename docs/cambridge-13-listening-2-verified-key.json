@@ -1,0 +1,335 @@
+{
+  "book": 13,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-13-listening-test-2-answers/",
+  "answers": {
+    "1": [
+      "races"
+    ],
+    "2": [
+      "insurance"
+    ],
+    "3": [
+      "Jerriz"
+    ],
+    "4": [
+      "25",
+      "twenty-five"
+    ],
+    "5": [
+      "stadium"
+    ],
+    "6": [
+      "park"
+    ],
+    "7": [
+      "coffee"
+    ],
+    "8": [
+      "leader"
+    ],
+    "9": [
+      "route"
+    ],
+    "10": [
+      "lights"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "E"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "location"
+    ],
+    "32": [
+      "world"
+    ],
+    "33": [
+      "personal"
+    ],
+    "34": [
+      "attention"
+    ],
+    "35": [
+      "name"
+    ],
+    "36": [
+      "network"
+    ],
+    "37": [
+      "frequency"
+    ],
+    "38": [
+      "colour",
+      "color"
+    ],
+    "39": [
+      "brain"
+    ],
+    "40": [
+      "self"
+    ]
+  },
+  "parts": [
+    {
+      "book": 13,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "races"
+        ],
+        "2": [
+          "insurance"
+        ],
+        "3": [
+          "Jerriz"
+        ],
+        "4": [
+          "25",
+          "twenty-five"
+        ],
+        "5": [
+          "stadium"
+        ],
+        "6": [
+          "park"
+        ],
+        "7": [
+          "coffee"
+        ],
+        "8": [
+          "leader"
+        ],
+        "9": [
+          "route"
+        ],
+        "10": [
+          "lights"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "B"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "E"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 13,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "G"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "location"
+        ],
+        "32": [
+          "world"
+        ],
+        "33": [
+          "personal"
+        ],
+        "34": [
+          "attention"
+        ],
+        "35": [
+          "name"
+        ],
+        "36": [
+          "network"
+        ],
+        "37": [
+          "frequency"
+        ],
+        "38": [
+          "colour",
+          "color"
+        ],
+        "39": [
+          "brain"
+        ],
+        "40": [
+          "self"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

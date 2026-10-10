@@ -1,0 +1,34 @@
+{
+  "book": 13,
+  "module": "listening",
+  "originalUserValues": {
+    "test1": {
+      "7": "Arisa",
+      "8": "market",
+      "9": "knife",
+      "10": null,
+      "11": "G",
+      "17": "A",
+      "18": "G",
+      "39": "fat(s)"
+    },
+    "test2": {
+      "3": "jents / members",
+      "21": "D",
+      "30": "E"
+    },
+    "test3": {
+      "5": "residential",
+      "6": "drama",
+      "32": "bush / bushes",
+      "34": "parasite(s)",
+      "38": "mate(s)",
+      "39": "shape",
+      "19-20": [
+        "A",
+        "E"
+      ]
+    }
+  },
+  "note": "Original user transcription preserved; verified corrections are stored in per-test key files. Verified with published keys and existing imported audio transcripts."
+}

@@ -1,0 +1,349 @@
+{
+  "book": 13,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsextremes.com/cambridge-13-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "850"
+    ],
+    "2": [
+      "bike",
+      "bicycle"
+    ],
+    "3": [
+      "parking"
+    ],
+    "4": [
+      "30",
+      "thirty"
+    ],
+    "5": [
+      "weekend",
+      "weekends"
+    ],
+    "6": [
+      "cinema"
+    ],
+    "7": [
+      "hospital"
+    ],
+    "8": [
+      "dentist"
+    ],
+    "9": [
+      "Thursday"
+    ],
+    "10": [
+      "café",
+      "cafe"
+    ],
+    "11": [
+      "F"
+    ],
+    "12": [
+      "D"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "G"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "F"
+    ],
+    "27": [
+      "H"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "E"
+    ],
+    "31": [
+      "tongue",
+      "tongues"
+    ],
+    "32": [
+      "plants"
+    ],
+    "33": [
+      "snake",
+      "snakes"
+    ],
+    "34": [
+      "sky"
+    ],
+    "35": [
+      "partner",
+      "partners"
+    ],
+    "36": [
+      "contact"
+    ],
+    "37": [
+      "protection"
+    ],
+    "38": [
+      "tail",
+      "tails"
+    ],
+    "39": [
+      "steps"
+    ],
+    "40": [
+      "injury",
+      "injuries"
+    ]
+  },
+  "parts": [
+    {
+      "book": 13,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "850"
+        ],
+        "2": [
+          "bike",
+          "bicycle"
+        ],
+        "3": [
+          "parking"
+        ],
+        "4": [
+          "30",
+          "thirty"
+        ],
+        "5": [
+          "weekend",
+          "weekends"
+        ],
+        "6": [
+          "cinema"
+        ],
+        "7": [
+          "hospital"
+        ],
+        "8": [
+          "dentist"
+        ],
+        "9": [
+          "Thursday"
+        ],
+        "10": [
+          "café",
+          "cafe"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "F"
+        ],
+        "12": [
+          "D"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "G"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "F"
+        ],
+        "27": [
+          "H"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked and corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "tongue",
+          "tongues"
+        ],
+        "32": [
+          "plants"
+        ],
+        "33": [
+          "snake",
+          "snakes"
+        ],
+        "34": [
+          "sky"
+        ],
+        "35": [
+          "partner",
+          "partners"
+        ],
+        "36": [
+          "contact"
+        ],
+        "37": [
+          "protection"
+        ],
+        "38": [
+          "tail",
+          "tails"
+        ],
+        "39": [
+          "steps"
+        ],
+        "40": [
+          "injury",
+          "injuries"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

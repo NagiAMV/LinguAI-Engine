@@ -1,0 +1,362 @@
+{
+  "book": 13,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-13-listening-test-4-answers/",
+  "originalUserDifferences": {
+    "8": "winter",
+    "23": "B",
+    "34": "ports(s); ports only",
+    "27-28": [
+      "C",
+      "E"
+    ],
+    "29-30": [
+      "B",
+      "D"
+    ]
+  },
+  "answers": {
+    "1": [
+      "finance"
+    ],
+    "2": [
+      "Maths",
+      "Math",
+      "Mathematics"
+    ],
+    "3": [
+      "business"
+    ],
+    "4": [
+      "17",
+      "seventeen"
+    ],
+    "5": [
+      "holiday",
+      "holidays",
+      "vacation",
+      "vacations"
+    ],
+    "6": [
+      "college"
+    ],
+    "7": [
+      "location"
+    ],
+    "8": [
+      "jeans"
+    ],
+    "9": [
+      "late"
+    ],
+    "10": [
+      "smile"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "E"
+    ],
+    "31": [
+      "destruction"
+    ],
+    "32": [
+      "university",
+      "universities"
+    ],
+    "33": [
+      "political"
+    ],
+    "34": [
+      "port",
+      "ports"
+    ],
+    "35": [
+      "slaves",
+      "slavery"
+    ],
+    "36": [
+      "taxation"
+    ],
+    "37": [
+      "sugar"
+    ],
+    "38": [
+      "tea"
+    ],
+    "39": [
+      "transportation"
+    ],
+    "40": [
+      "night"
+    ]
+  },
+  "parts": [
+    {
+      "book": 13,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "finance"
+        ],
+        "2": [
+          "Maths",
+          "Math",
+          "Mathematics"
+        ],
+        "3": [
+          "business"
+        ],
+        "4": [
+          "17",
+          "seventeen"
+        ],
+        "5": [
+          "holiday",
+          "holidays",
+          "vacation",
+          "vacations"
+        ],
+        "6": [
+          "college"
+        ],
+        "7": [
+          "location"
+        ],
+        "8": [
+          "jeans"
+        ],
+        "9": [
+          "late"
+        ],
+        "10": [
+          "smile"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "B"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "D"
+        ],
+        "30": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            27,
+            28
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            29,
+            30
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 13,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported audio transcript",
+        "reference": "docs/cambridge-13-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "destruction"
+        ],
+        "32": [
+          "university",
+          "universities"
+        ],
+        "33": [
+          "political"
+        ],
+        "34": [
+          "port",
+          "ports"
+        ],
+        "35": [
+          "slaves",
+          "slavery"
+        ],
+        "36": [
+          "taxation"
+        ],
+        "37": [
+          "sugar"
+        ],
+        "38": [
+          "tea"
+        ],
+        "39": [
+          "transportation"
+        ],
+        "40": [
+          "night"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
