@@ -1,0 +1,306 @@
+{
+  "book": 12,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://www.ieltsworldly.com/ielts-cambridge-book-12-listening-practice-test-02-with-answers/",
+  "answers": {
+    "1": [
+      "2.45"
+    ],
+    "2": [
+      "band"
+    ],
+    "3": [
+      "play"
+    ],
+    "4": [
+      "scientist"
+    ],
+    "5": [
+      "river"
+    ],
+    "6": [
+      "grandparents"
+    ],
+    "7": [
+      "Handsworth"
+    ],
+    "8": [
+      "traditional"
+    ],
+    "9": [
+      "outdoor"
+    ],
+    "10": [
+      "logo"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "E"
+    ],
+    "19": [
+      "G"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "G"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "bullying"
+    ],
+    "32": [
+      "superiority"
+    ],
+    "33": [
+      "personality"
+    ],
+    "34": [
+      "structural"
+    ],
+    "35": [
+      "absence"
+    ],
+    "36": [
+      "confidence"
+    ],
+    "37": [
+      "visions"
+    ],
+    "38": [
+      "democratic"
+    ],
+    "39": [
+      "respect"
+    ],
+    "40": [
+      "mediator"
+    ]
+  },
+  "parts": [
+    {
+      "book": 12,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 2 key",
+        "reference": "docs/cambridge-12-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "2.45"
+        ],
+        "2": [
+          "band"
+        ],
+        "3": [
+          "play"
+        ],
+        "4": [
+          "scientist"
+        ],
+        "5": [
+          "river"
+        ],
+        "6": [
+          "grandparents"
+        ],
+        "7": [
+          "Handsworth"
+        ],
+        "8": [
+          "traditional"
+        ],
+        "9": [
+          "outdoor"
+        ],
+        "10": [
+          "logo"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 2 key",
+        "reference": "docs/cambridge-12-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "E"
+        ],
+        "19": [
+          "G"
+        ],
+        "20": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 2 key",
+        "reference": "docs/cambridge-12-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "E"
+        ],
+        "27": [
+          "G"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 2 key",
+        "reference": "docs/cambridge-12-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "bullying"
+        ],
+        "32": [
+          "superiority"
+        ],
+        "33": [
+          "personality"
+        ],
+        "34": [
+          "structural"
+        ],
+        "35": [
+          "absence"
+        ],
+        "36": [
+          "confidence"
+        ],
+        "37": [
+          "visions"
+        ],
+        "38": [
+          "democratic"
+        ],
+        "39": [
+          "respect"
+        ],
+        "40": [
+          "mediator"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

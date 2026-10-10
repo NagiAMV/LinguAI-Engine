@@ -1393,3 +1393,48 @@ test('Cambridge 11 Listening verified keys preserve corrections and independent 
  assert.equal(reviewAnswer('',[31],k['listening-11-1']).status,'blank');
  assert.equal(reviewAnswer('anything',[41],k['listening-11-1']).status,'pending');
 });
+
+test('Cambridge 12 Listening Test 1 accepts verified alternatives and unordered pair', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-12-1'];
+ assert.equal(Object.keys(k.answers).length,40);
+ for(const [n,v] of [[3,'garden'],[3,'gardens'],[7,' rAtChEsOnS '],[32,'side   effects'],[37,'not necessary'],[37,'unnecessary']])assert.equal(reviewAnswer(v,[n],k).status,'correct');
+ assert.equal(reviewAnswer(['E','A'],[15,16],k,true).status,'correct');
+ assert.equal(reviewAnswer(['A','A'],[15,16],k,true).status,'incorrect');
+ assert.equal(reviewAnswer('necessary',[37],k).status,'incorrect');
+ assert.equal(reviewAnswer('',[1],k).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k).status,'pending');
+});
+
+test('Cambridge 12 Listening Test 2 preserves exact matching assignments and plural answers', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-12-2'];
+ assert.equal(Object.keys(k.answers).length,40);
+ for(const [n,v] of [[7,' HANDSWORTH '],[26,'e'],[27,'G'],[37,'VISIONS'],[40,'mediator']])assert.equal(reviewAnswer(v,[n],k).status,'correct');
+ assert.equal(reviewAnswer('G',[26],k).status,'incorrect');
+ assert.equal(reviewAnswer('vision',[37],k).status,'incorrect');
+ assert.equal(reviewAnswer('',[1],k).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k).status,'pending');
+});
+
+test('Cambridge 12 Listening Test 3 preserves all verified alternatives and independent pairs', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)))['listening-12-3'];
+ assert.equal(Object.keys(k.answers).length,40);
+ for(const [n,vs] of [[1,['travel','traveling','travelling']],[7,['appointment','booking']],[32,['behaviour','behavior']],[34,['complex','complicated']],[35,['reproduction','breeding']],[37,['duck','ducks']],[40,['cost','costs','price','prices','bill','bills']]])for(const v of vs)assert.equal(reviewAnswer(' '+v.toUpperCase()+' ',[n],k).status,'correct');
+ for(const [ns,vs] of [[[11,12],['E','D']],[[13,14],['C','A']]]){
+ assert.equal(reviewAnswer(vs,ns,k,true).status,'correct');
+ assert.equal(reviewAnswer([vs[0],vs[0]],ns,k,true).status,'incorrect');
+ assert.equal(reviewAnswer(vs.slice(1),ns,k,true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer('D',[21],k).status,'incorrect');
+ assert.equal(reviewAnswer('',[1],k).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k).status,'pending');
+});
+
+test('Cambridge 12 Listening is complete and Test 4 accepts explicit alternatives', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++){const k=keys[`listening-12-${t}`];assert.equal(Object.keys(k.answers).length,40);assert.equal(Object.keys(k.parts).length,4);}
+ const k=keys['listening-12-4'];
+ for(const [n,vs] of [[7,['Arbuthnot']],[8,['dg7   4ph']],[10,['talk','presentation']],[31,['garden','gardens']],[33,['work','study']]])for(const v of vs)assert.equal(reviewAnswer(' '+v.toUpperCase()+' ',[n],k).status,'correct');
+ assert.equal(reviewAnswer('G',[25],k).status,'incorrect');
+ assert.equal(reviewAnswer('',[1],k).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k).status,'pending');
+});

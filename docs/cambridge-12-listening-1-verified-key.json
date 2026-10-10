@@ -1,0 +1,323 @@
+{
+  "book": 12,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://www.ieltsday.com/10983.html",
+  "answers": {
+    "1": [
+      "mountains"
+    ],
+    "2": [
+      "horse"
+    ],
+    "3": [
+      "garden",
+      "gardens"
+    ],
+    "4": [
+      "lunch"
+    ],
+    "5": [
+      "map"
+    ],
+    "6": [
+      "experience"
+    ],
+    "7": [
+      "Ratchesons"
+    ],
+    "8": [
+      "helmet"
+    ],
+    "9": [
+      "shops"
+    ],
+    "10": [
+      "267"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "F"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "D"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "budget"
+    ],
+    "25": [
+      "employment"
+    ],
+    "26": [
+      "safety"
+    ],
+    "27": [
+      "insurance"
+    ],
+    "28": [
+      "diary"
+    ],
+    "29": [
+      "database"
+    ],
+    "30": [
+      "museum"
+    ],
+    "31": [
+      "damage"
+    ],
+    "32": [
+      "side effects"
+    ],
+    "33": [
+      "bridge"
+    ],
+    "34": [
+      "confusion"
+    ],
+    "35": [
+      "smartphone"
+    ],
+    "36": [
+      "resources"
+    ],
+    "37": [
+      "unnecessary",
+      "not necessary"
+    ],
+    "38": [
+      "chocolate bar"
+    ],
+    "39": [
+      "problem"
+    ],
+    "40": [
+      "market share"
+    ]
+  },
+  "parts": [
+    {
+      "book": 12,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 1 key",
+        "reference": "docs/cambridge-12-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "mountains"
+        ],
+        "2": [
+          "horse"
+        ],
+        "3": [
+          "garden",
+          "gardens"
+        ],
+        "4": [
+          "lunch"
+        ],
+        "5": [
+          "map"
+        ],
+        "6": [
+          "experience"
+        ],
+        "7": [
+          "Ratchesons"
+        ],
+        "8": [
+          "helmet"
+        ],
+        "9": [
+          "shops"
+        ],
+        "10": [
+          "267"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 1 key",
+        "reference": "docs/cambridge-12-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "F"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "B"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            15,
+            16
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 12,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 1 key",
+        "reference": "docs/cambridge-12-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "budget"
+        ],
+        "25": [
+          "employment"
+        ],
+        "26": [
+          "safety"
+        ],
+        "27": [
+          "insurance"
+        ],
+        "28": [
+          "diary"
+        ],
+        "29": [
+          "database"
+        ],
+        "30": [
+          "museum"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 1 key",
+        "reference": "docs/cambridge-12-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "damage"
+        ],
+        "32": [
+          "side effects"
+        ],
+        "33": [
+          "bridge"
+        ],
+        "34": [
+          "confusion"
+        ],
+        "35": [
+          "smartphone"
+        ],
+        "36": [
+          "resources"
+        ],
+        "37": [
+          "unnecessary",
+          "not necessary"
+        ],
+        "38": [
+          "chocolate bar"
+        ],
+        "39": [
+          "problem"
+        ],
+        "40": [
+          "market share"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

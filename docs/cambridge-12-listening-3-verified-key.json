@@ -1,0 +1,355 @@
+{
+  "book": 12,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://www.ieltsworldly.com/2023/07/22/ielts-cambridge-book-12-listening-practice-test-03-answer-keys/",
+  "answers": {
+    "1": [
+      "travel",
+      "traveling",
+      "travelling"
+    ],
+    "2": [
+      "history"
+    ],
+    "3": [
+      "study"
+    ],
+    "4": [
+      "teenagers"
+    ],
+    "5": [
+      "kitchen"
+    ],
+    "6": [
+      "crime"
+    ],
+    "7": [
+      "appointment",
+      "booking"
+    ],
+    "8": [
+      "sugar"
+    ],
+    "9": [
+      "stamps"
+    ],
+    "10": [
+      "parking"
+    ],
+    "11": [
+      "D"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "stress"
+    ],
+    "19": [
+      "weight"
+    ],
+    "20": [
+      "families"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "H"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "F"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "insects"
+    ],
+    "32": [
+      "behaviour",
+      "behavior"
+    ],
+    "33": [
+      "father"
+    ],
+    "34": [
+      "complex",
+      "complicated"
+    ],
+    "35": [
+      "reproduction",
+      "breeding"
+    ],
+    "36": [
+      "control"
+    ],
+    "37": [
+      "duck",
+      "ducks"
+    ],
+    "38": [
+      "language"
+    ],
+    "39": [
+      "food"
+    ],
+    "40": [
+      "cost",
+      "costs",
+      "price",
+      "prices",
+      "bill",
+      "bills"
+    ]
+  },
+  "parts": [
+    {
+      "book": 12,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 3 key",
+        "reference": "docs/cambridge-12-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "travel",
+          "traveling",
+          "travelling"
+        ],
+        "2": [
+          "history"
+        ],
+        "3": [
+          "study"
+        ],
+        "4": [
+          "teenagers"
+        ],
+        "5": [
+          "kitchen"
+        ],
+        "6": [
+          "crime"
+        ],
+        "7": [
+          "appointment",
+          "booking"
+        ],
+        "8": [
+          "sugar"
+        ],
+        "9": [
+          "stamps"
+        ],
+        "10": [
+          "parking"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 3 key",
+        "reference": "docs/cambridge-12-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "D"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "stress"
+        ],
+        "19": [
+          "weight"
+        ],
+        "20": [
+          "families"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 3 key",
+        "reference": "docs/cambridge-12-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "H"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "F"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 12,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 12 Listening Test 3 key",
+        "reference": "docs/cambridge-12-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "insects"
+        ],
+        "32": [
+          "behaviour",
+          "behavior"
+        ],
+        "33": [
+          "father"
+        ],
+        "34": [
+          "complex",
+          "complicated"
+        ],
+        "35": [
+          "reproduction",
+          "breeding"
+        ],
+        "36": [
+          "control"
+        ],
+        "37": [
+          "duck",
+          "ducks"
+        ],
+        "38": [
+          "language"
+        ],
+        "39": [
+          "food"
+        ],
+        "40": [
+          "cost",
+          "costs",
+          "price",
+          "prices",
+          "bill",
+          "bills"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
