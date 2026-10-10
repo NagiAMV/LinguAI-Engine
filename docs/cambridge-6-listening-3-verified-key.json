@@ -1,0 +1,186 @@
+{
+  "note": "Original source preserved separately. Test 1 Q19 Thursday only (Monday printed), Q32 leather only (metal printed). Test 3 Q2 year only (27/01/ printed), Q36 sand only (water and printed). Test 2 Q28 2000 and Q13 half hour confirmed by transcript source. All field identities retained.",
+  "verificationSources": [
+    "https://ieltsextremes.com/cambridge-6-test-3-listening-answers/",
+    "https://ieltsvault.com/resources/listening/tests/cambridge-ielts-6-listening-test-3"
+  ],
+  "parts": [
+    {
+      "book": 6,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Select"
+        ],
+        "2": [
+          "1973"
+        ],
+        "3": [
+          "15 Riverside"
+        ],
+        "4": [
+          "2 weeks"
+        ],
+        "5": [
+          "616295"
+        ],
+        "6": [
+          "engineer"
+        ],
+        "7": [
+          "mother"
+        ],
+        "8": [
+          "2,000"
+        ],
+        "9": [
+          "month"
+        ],
+        "10": [
+          "internet"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "H"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "field"
+        ],
+        "19": [
+          "footbridge"
+        ],
+        "20": [
+          "viewpoint"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "entertainment industry"
+        ],
+        "22": [
+          "telephone interviews"
+        ],
+        "23": [
+          "30",
+          "thirty"
+        ],
+        "24": [
+          "male and female"
+        ],
+        "25": [
+          "jazz"
+        ],
+        "26": [
+          "classical"
+        ],
+        "27": [
+          "concerts"
+        ],
+        "28": [
+          "department stores"
+        ],
+        "29": [
+          "club"
+        ],
+        "30": [
+          "opera house"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "C"
+        ],
+        "32": [
+          "A"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "B"
+        ],
+        "35": [
+          "people"
+        ],
+        "36": [
+          "sand"
+        ],
+        "37": [
+          "Scotland"
+        ],
+        "38": [
+          "outside"
+        ],
+        "39": [
+          "local"
+        ],
+        "40": [
+          "tops"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

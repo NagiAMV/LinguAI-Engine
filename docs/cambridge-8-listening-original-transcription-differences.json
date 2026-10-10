@@ -1,0 +1,47 @@
+{
+  "note": "Original conflicting user fragments retained; source corrections applied.",
+  "test1": {
+    "4": "WS2 2YH",
+    "7": "piano/peanut",
+    "19": "G",
+    "1618": [
+      "C",
+      "E",
+      "F"
+    ],
+    "2021": [
+      "B",
+      "E"
+    ],
+    "2527": [
+      "B",
+      "C",
+      "E"
+    ],
+    "2829": "unordered 12,000/horses"
+  },
+  "test2": {
+    "3": "20 November",
+    "11": "D",
+    "18": "A",
+    "25": "scouts",
+    "26": "fruit/growing",
+    "29": "cells",
+    "39": "B"
+  },
+  "test3": {
+    "2": "650",
+    "16": "283",
+    "18": "Three/3",
+    "30": "B",
+    "35": "consistency/system",
+    "36": "B",
+    "37": "culture(s)"
+  },
+  "test4": {
+    "16": "C",
+    "29": "small",
+    "34": "sense of smell",
+    "35": "A"
+  }
+}

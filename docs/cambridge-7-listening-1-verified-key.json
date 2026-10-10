@@ -1,0 +1,335 @@
+{
+  "book": 7,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-7-listening-test-1-answers/",
+  "answers": {
+    "1": [
+      "taxi",
+      "a taxi",
+      "cab",
+      "a cab"
+    ],
+    "2": [
+      "city centre",
+      "city center"
+    ],
+    "3": [
+      "wait"
+    ],
+    "4": [
+      "door-to-door"
+    ],
+    "5": [
+      "reserve",
+      "reserve a seat"
+    ],
+    "6": [
+      "17th October",
+      "the 17th October",
+      "17th of October",
+      "the 17th of October"
+    ],
+    "7": [
+      "12.30"
+    ],
+    "8": [
+      "Thomson"
+    ],
+    "9": [
+      "AC 936"
+    ],
+    "10": [
+      "3303 8450 2045 6837"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "attitude",
+      "attitudes"
+    ],
+    "22": [
+      "gender",
+      "sex"
+    ],
+    "23": [
+      "creativity",
+      "creativeness"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "culture"
+    ],
+    "29": [
+      "profit",
+      "profits"
+    ],
+    "30": [
+      "stress",
+      "strain"
+    ],
+    "31": [
+      "April"
+    ],
+    "32": [
+      "children"
+    ],
+    "33": [
+      "repeated"
+    ],
+    "34": [
+      "human"
+    ],
+    "35": [
+      "magic"
+    ],
+    "36": [
+      "distance"
+    ],
+    "37": [
+      "culture"
+    ],
+    "38": [
+      "fire",
+      "fires"
+    ],
+    "39": [
+      "touching"
+    ],
+    "40": [
+      "intact"
+    ]
+  },
+  "note": "Saved immediately from user key and source verification. Test 2 Q6 Paynter vs Painter pending additional verification; user spelling retained.",
+  "parts": [
+    {
+      "book": 7,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "taxi",
+          "a taxi",
+          "cab",
+          "a cab"
+        ],
+        "2": [
+          "city centre",
+          "city center"
+        ],
+        "3": [
+          "wait"
+        ],
+        "4": [
+          "door-to-door"
+        ],
+        "5": [
+          "reserve",
+          "reserve a seat"
+        ],
+        "6": [
+          "17th October",
+          "the 17th October",
+          "17th of October",
+          "the 17th of October"
+        ],
+        "7": [
+          "12.30"
+        ],
+        "8": [
+          "Thomson"
+        ],
+        "9": [
+          "AC 936"
+        ],
+        "10": [
+          "3303 8450 2045 6837"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "C"
+        ],
+        "20": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "attitude",
+          "attitudes"
+        ],
+        "22": [
+          "gender",
+          "sex"
+        ],
+        "23": [
+          "creativity",
+          "creativeness"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "culture"
+        ],
+        "29": [
+          "profit",
+          "profits"
+        ],
+        "30": [
+          "stress",
+          "strain"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "April"
+        ],
+        "32": [
+          "children"
+        ],
+        "33": [
+          "repeated"
+        ],
+        "34": [
+          "human"
+        ],
+        "35": [
+          "magic"
+        ],
+        "36": [
+          "distance"
+        ],
+        "37": [
+          "culture"
+        ],
+        "38": [
+          "fire",
+          "fires"
+        ],
+        "39": [
+          "touching"
+        ],
+        "40": [
+          "intact"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

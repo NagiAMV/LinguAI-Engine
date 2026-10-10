@@ -1334,3 +1334,32 @@ test('Cambridge 5 Listening Tests 3 and 4 use linked verified keys for changed s
  assert.equal(reviewAnswer('B',[19],b).status,'incorrect');
  assert.equal(reviewAnswer('individual',[31],b).status,'incorrect');
 });
+
+test('Cambridge 6 Listening keys handle printed context, corrected year and unordered groups', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-6-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,19,'Thursday'],[1,32,'leather'],[1,34,'ships'],[2,28,'2000'],[3,2,'1973'],[3,7,'mother'],[3,36,'sand'],[4,27,'7 working days']])assert.equal(reviewAnswer(v,[n],k[`listening-6-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,32,'metal'],[2,28,'200'],[3,7,'month'],[3,36,'water sand'],[4,27,'working days']])assert.equal(reviewAnswer(v,[n],k[`listening-6-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[1,[26,27],['printers','laptops']],[1,[38,39,40],['F','C','E']],[2,[18,19,20],['G','D','C']],[4,[28,29,30],['F','E','C']]]){
+ assert.equal(reviewAnswer(set,nums,k[`listening-6-${t}`],true).status,'correct');assert.equal(reviewAnswer(set.slice(1),nums,k[`listening-6-${t}`],true).status,'incorrect');}
+});
+
+test('Cambridge 7 Listening preserves verified corrections and independent pairs', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-7-${t}`].answers).length,40);
+ for(const [t,n,v] of [[2,6,'Paynter'],[2,18,'7 screen'],[3,1,'business'],[3,9,'answer the phone'],[3,21,'cigar'],[3,36,'kitchen'],[4,2,'JO6337'],[4,21,'5'],[4,37,'new taste']])assert.equal(reviewAnswer(v,[n],k[`listening-7-${t}`]).status,'correct');
+ for(const [t,n,v] of [[2,6,'Painter'],[2,18,'screen'],[3,21,'radar'],[4,37,'FDA']])assert.equal(reviewAnswer(v,[n],k[`listening-7-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[2,[29,30],['D','A']],[4,[35,36],['cheese','meat']]]){
+ assert.equal(reviewAnswer(set,nums,k[`listening-7-${t}`],true).status,'correct');assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-7-${t}`],true).status,'incorrect');}
+});
+
+test('Cambridge 8 Listening verified keys preserve numbering and independent groups', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-8-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,4,'WS6 2YH'],[1,7,'pianist'],[1,21,'A'],[2,25,'insects'],[2,29,'wings'],[3,18,'Three Lives'],[3,36,'safety'],[4,34,'A'],[4,29,'small tasks']])assert.equal(reviewAnswer(v,[n],k[`listening-8-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,7,'peanut'],[2,25,'scouts'],[3,18,'3'],[4,34,'sense of smell']])assert.equal(reviewAnswer(v,[n],k[`listening-8-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[1,[16,17,18],['G','F','C']],[1,[19,20],['E','B']],[1,[25,26,27],['F','B','C']],[3,[9,10],['E','B']],[4,[21,22],['E','B']],[4,[23,24],['C','A']]]){
+ assert.equal(reviewAnswer(set,nums,k[`listening-8-${t}`],true).status,'correct');assert.equal(reviewAnswer(set.slice(1),nums,k[`listening-8-${t}`],true).status,'incorrect');}
+ assert.equal(reviewAnswer('horses',[28],k['listening-8-1']).status,'incorrect');
+ assert.equal(reviewAnswer('12,000',[29],k['listening-8-1']).status,'incorrect');
+});

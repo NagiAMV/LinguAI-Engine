@@ -1,0 +1,227 @@
+{
+  "note": "Original source preserved separately. Test 1 Q19 Thursday only (Monday printed), Q32 leather only (metal printed). Test 3 Q2 year only (27/01/ printed), Q36 sand only (water and printed). Test 2 Q28 2000 and Q13 half hour confirmed by transcript source. All field identities retained.",
+  "verificationSources": [
+    "https://ieltsextremes.com/cambridge-6-test-1-listening-answers/"
+  ],
+  "parts": [
+    {
+      "book": 6,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "keep fit",
+          "keep-fit",
+          "keep fit studio",
+          "keep-fit studio",
+          "a keep fit studio",
+          "a keep-fit studio",
+          "a keep fit",
+          "a keep-fit"
+        ],
+        "2": [
+          "swimming"
+        ],
+        "3": [
+          "yoga",
+          "yoga classes"
+        ],
+        "4": [
+          "salad bar",
+          "a salad bar"
+        ],
+        "5": [
+          "500"
+        ],
+        "6": [
+          "1"
+        ],
+        "7": [
+          "10, 4.30",
+          "10 4.30",
+          "10am, 4.30pm",
+          "10 to 4.30"
+        ],
+        "8": [
+          "180"
+        ],
+        "9": [
+          "assessment"
+        ],
+        "10": [
+          "Kynchley"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "G"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "D"
+        ],
+        "17": [
+          "19th",
+          "the 19th",
+          "October 19th",
+          "October the 19th"
+        ],
+        "18": [
+          "7"
+        ],
+        "19": [
+          "Thursday"
+        ],
+        "20": [
+          "18"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "in advance"
+        ],
+        "23": [
+          "nursery"
+        ],
+        "24": [
+          "annual fee"
+        ],
+        "25": [
+          "tutor"
+        ],
+        "26": [
+          "laptops"
+        ],
+        "27": [
+          "printers"
+        ],
+        "28": [
+          "report writing"
+        ],
+        "29": [
+          "marketing"
+        ],
+        "30": [
+          "individual"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            26,
+            27
+          ],
+          "acceptedSets": [
+            [
+              "laptops",
+              "printers"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 6,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "feed"
+        ],
+        "32": [
+          "leather"
+        ],
+        "33": [
+          "restrictions"
+        ],
+        "34": [
+          "ships"
+        ],
+        "35": [
+          "England"
+        ],
+        "36": [
+          "built"
+        ],
+        "37": [
+          "poverty"
+        ],
+        "38": [
+          "C"
+        ],
+        "39": [
+          "E"
+        ],
+        "40": [
+          "F"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            38,
+            39,
+            40
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E",
+              "F"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "sourceUrl": "https://ieltsprogress.com/cambridge-8-listening-test-3-answers/",
+  "note": "Verified answers saved before importing each part. Existing 40-question numbering retained. User transcription errors corrected. Only explicit source variants used, with small tasks in Test 4 Q29 because the field asks for the complete revision unit.",
+  "parts": [
+    {
+      "book": 8,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "central"
+        ],
+        "2": [
+          "600"
+        ],
+        "3": [
+          "2 year",
+          "2 years"
+        ],
+        "4": [
+          "garage"
+        ],
+        "5": [
+          "garden"
+        ],
+        "6": [
+          "study"
+        ],
+        "7": [
+          "noisy"
+        ],
+        "8": [
+          "595"
+        ],
+        "9": [
+          "B"
+        ],
+        "10": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            9,
+            10
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 8,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "classical music",
+          "classical concerts",
+          "music concerts",
+          "concerts"
+        ],
+        "12": [
+          "bookshop",
+          "bookstore",
+          "book store"
+        ],
+        "13": [
+          "planned"
+        ],
+        "14": [
+          "1983",
+          "1980s",
+          "the 1980s"
+        ],
+        "15": [
+          "City Council"
+        ],
+        "16": [
+          "363"
+        ],
+        "17": [
+          "Garden Hall",
+          "the Garden Hall"
+        ],
+        "18": [
+          "Three Lives"
+        ],
+        "19": [
+          "4.50"
+        ],
+        "20": [
+          "Faces of China"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "B"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "B"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "combination",
+          "system"
+        ],
+        "36": [
+          "safety"
+        ],
+        "37": [
+          "attitude",
+          "attitudes"
+        ],
+        "38": [
+          "control",
+          "controls"
+        ],
+        "39": [
+          "factory",
+          "factories"
+        ],
+        "40": [
+          "skills"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

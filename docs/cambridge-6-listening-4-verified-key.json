@@ -1,0 +1,205 @@
+{
+  "note": "Original source preserved separately. Test 1 Q19 Thursday only (Monday printed), Q32 leather only (metal printed). Test 3 Q2 year only (27/01/ printed), Q36 sand only (water and printed). Test 2 Q28 2000 and Q13 half hour confirmed by transcript source. All field identities retained.",
+  "verificationSources": [
+    "https://ieltsextremes.com/cambridge-6-test-4-listening-answers/"
+  ],
+  "parts": [
+    {
+      "book": 6,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "75"
+        ],
+        "2": [
+          "check",
+          "cheque"
+        ],
+        "3": [
+          "15"
+        ],
+        "4": [
+          "25"
+        ],
+        "5": [
+          "10 minute",
+          "10 minutes",
+          "10 min",
+          "10 mins"
+        ],
+        "6": [
+          "conference pack"
+        ],
+        "7": [
+          "South"
+        ],
+        "8": [
+          "library"
+        ],
+        "9": [
+          "5"
+        ],
+        "10": [
+          "21A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "D"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "Tax"
+        ],
+        "15": [
+          "security"
+        ],
+        "16": [
+          "ground floor"
+        ],
+        "17": [
+          "lecture room 311"
+        ],
+        "18": [
+          "Safety at Work"
+        ],
+        "19": [
+          "Main Hall"
+        ],
+        "20": [
+          "team leaders"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "reference"
+        ],
+        "22": [
+          "textbooks"
+        ],
+        "23": [
+          "secondary"
+        ],
+        "24": [
+          "primary"
+        ],
+        "25": [
+          "back"
+        ],
+        "26": [
+          "overdue books",
+          "ones"
+        ],
+        "27": [
+          "7 working days"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "E"
+        ],
+        "30": [
+          "F"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            28,
+            29,
+            30
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E",
+              "F"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 6,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "B"
+        ],
+        "32": [
+          "A"
+        ],
+        "33": [
+          "B"
+        ],
+        "34": [
+          "C"
+        ],
+        "35": [
+          "1,450"
+        ],
+        "36": [
+          "disease"
+        ],
+        "37": [
+          "prince",
+          "wealthy prince"
+        ],
+        "38": [
+          "diet"
+        ],
+        "39": [
+          "attack humans"
+        ],
+        "40": [
+          "leadership"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

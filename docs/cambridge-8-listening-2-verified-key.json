@@ -1,0 +1,186 @@
+{
+  "sourceUrl": "https://ieltsprogress.com/cambridge-8-listening-test-2-answers/",
+  "note": "Verified answers saved before importing each part. Existing 40-question numbering retained. User transcription errors corrected. Only explicit source variants used, with small tasks in Test 4 Q29 because the field asks for the complete revision unit.",
+  "parts": [
+    {
+      "book": 8,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Milperra"
+        ],
+        "2": [
+          "First Class Movers"
+        ],
+        "3": [
+          "28 November"
+        ],
+        "4": [
+          "screen"
+        ],
+        "5": [
+          "bathroom"
+        ],
+        "6": [
+          "door"
+        ],
+        "7": [
+          "140"
+        ],
+        "8": [
+          "leg"
+        ],
+        "9": [
+          "plates"
+        ],
+        "10": [
+          "60"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "Forest",
+          "the Forest"
+        ],
+        "13": [
+          "Fish Farm",
+          "Fish Farms"
+        ],
+        "14": [
+          "Market Garden"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "B"
+        ],
+        "19": [
+          "C"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "insects"
+        ],
+        "26": [
+          "feeding",
+          "eating"
+        ],
+        "27": [
+          "laboratory"
+        ],
+        "28": [
+          "water"
+        ],
+        "29": [
+          "wings"
+        ],
+        "30": [
+          "reliable",
+          "accurate"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "B"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "C"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "B"
+        ],
+        "38": [
+          "F"
+        ],
+        "39": [
+          "D"
+        ],
+        "40": [
+          "C"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

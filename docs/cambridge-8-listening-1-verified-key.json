@@ -1,0 +1,241 @@
+{
+  "sourceUrl": "https://ieltsprogress.com/cambridge-8-listening-test-1-answers/",
+  "note": "Verified answers saved before importing each part. Existing 40-question numbering retained. User transcription errors corrected. Only explicit source variants used, with small tasks in Test 4 Q29 because the field asks for the complete revision unit.",
+  "parts": [
+    {
+      "book": 8,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "C"
+        ],
+        "2": [
+          "B"
+        ],
+        "3": [
+          "48 North Avenue"
+        ],
+        "4": [
+          "WS6 2YH"
+        ],
+        "5": [
+          "01674 553242"
+        ],
+        "6": [
+          "drink",
+          "drinks",
+          "free drink",
+          "free drinks",
+          "refreshment",
+          "refreshments",
+          "free refreshment",
+          "free refreshments"
+        ],
+        "7": [
+          "pianist",
+          "piano player"
+        ],
+        "8": [
+          "10.50"
+        ],
+        "9": [
+          "4"
+        ],
+        "10": [
+          "50%"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 8,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "1.30"
+        ],
+        "12": [
+          "25 December",
+          "Christmas Day"
+        ],
+        "13": [
+          "parking lot",
+          "car park"
+        ],
+        "14": [
+          "45"
+        ],
+        "15": [
+          "tables",
+          "some tables",
+          "picnic tables"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "F"
+        ],
+        "18": [
+          "G"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            16,
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "F",
+              "G"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 8,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "F"
+        ],
+        "28": [
+          "12,000"
+        ],
+        "29": [
+          "horses"
+        ],
+        "30": [
+          "cave",
+          "caves"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            25,
+            26,
+            27
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C",
+              "F"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 8,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked and corrected against published source",
+        "reference": "docs/cambridge-8-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "surface"
+        ],
+        "32": [
+          "environment"
+        ],
+        "33": [
+          "impact",
+          "impacts",
+          "effect",
+          "effects"
+        ],
+        "34": [
+          "urban"
+        ],
+        "35": [
+          "problems"
+        ],
+        "36": [
+          "images"
+        ],
+        "37": [
+          "patterns"
+        ],
+        "38": [
+          "distortion",
+          "distortions"
+        ],
+        "39": [
+          "traffic"
+        ],
+        "40": [
+          "weather"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

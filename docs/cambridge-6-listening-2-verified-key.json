@@ -1,0 +1,212 @@
+{
+  "note": "Original source preserved separately. Test 1 Q19 Thursday only (Monday printed), Q32 leather only (metal printed). Test 3 Q2 year only (27/01/ printed), Q36 sand only (water and printed). Test 2 Q28 2000 and Q13 half hour confirmed by transcript source. All field identities retained.",
+  "verificationSources": [
+    "https://ieltsextremes.com/cambridge-6-test-2-listening-answers/",
+    "https://ieltsvault.com/resources/listening/tests/cambridge-ielts-6-listening-test-2"
+  ],
+  "parts": [
+    {
+      "book": 6,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "8"
+        ],
+        "2": [
+          "Tamer",
+          "in Tamer",
+          "on Tamer"
+        ],
+        "3": [
+          "green button"
+        ],
+        "4": [
+          "library"
+        ],
+        "5": [
+          "education department",
+          "educational department"
+        ],
+        "6": [
+          "castles"
+        ],
+        "7": [
+          "old clothes"
+        ],
+        "8": [
+          "bottle tops"
+        ],
+        "9": [
+          "Undersea Worlds"
+        ],
+        "10": [
+          "Silver paper"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "King Street"
+        ],
+        "12": [
+          "central"
+        ],
+        "13": [
+          "half hour",
+          "half an hour",
+          "30 minutes"
+        ],
+        "14": [
+          "refreshments"
+        ],
+        "15": [
+          "10.15"
+        ],
+        "16": [
+          "Advance"
+        ],
+        "17": [
+          "reservations",
+          "seat reservations"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "G"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            18,
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D",
+              "G"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 6,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "catalogs",
+          "catalogues",
+          "catalog",
+          "catalogue"
+        ],
+        "22": [
+          "computer center",
+          "computer centre"
+        ],
+        "23": [
+          "checklist"
+        ],
+        "24": [
+          "teaching experience"
+        ],
+        "25": [
+          "classroom"
+        ],
+        "26": [
+          "review"
+        ],
+        "27": [
+          "schools"
+        ],
+        "28": [
+          "2000",
+          "year 2000",
+          "the year 2000"
+        ],
+        "29": [
+          "end of term"
+        ],
+        "30": [
+          "research"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 6,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key with verified source corrections and printed-context mapping",
+        "reference": "docs/cambridge-6-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "A"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "C"
+        ],
+        "37": [
+          "A"
+        ],
+        "38": [
+          "Great Train Robbery"
+        ],
+        "39": [
+          "Sound effects"
+        ],
+        "40": [
+          "poor sound quality"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

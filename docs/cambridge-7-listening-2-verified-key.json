@@ -1,0 +1,343 @@
+{
+  "book": 7,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-7-listening-test-2-answers/",
+  "answers": {
+    "1": [
+      "27 Bank Road"
+    ],
+    "2": [
+      "dentist",
+      "a dentist"
+    ],
+    "3": [
+      "Sable"
+    ],
+    "4": [
+      "Northern Star"
+    ],
+    "5": [
+      "stolen"
+    ],
+    "6": [
+      "Paynter"
+    ],
+    "7": [
+      "brother-in-law"
+    ],
+    "8": [
+      "work",
+      "to work",
+      "travelling to work",
+      "traveling to work"
+    ],
+    "9": [
+      "Red Flag"
+    ],
+    "10": [
+      "450"
+    ],
+    "11": [
+      "City Bridge"
+    ],
+    "12": [
+      "Newtown"
+    ],
+    "13": [
+      "6.30"
+    ],
+    "14": [
+      "garden",
+      "formal garden"
+    ],
+    "15": [
+      "Restaurant",
+      "Tower Restaurant"
+    ],
+    "16": [
+      "view",
+      "views"
+    ],
+    "17": [
+      "history"
+    ],
+    "18": [
+      "7 screen"
+    ],
+    "19": [
+      "every 20 minutes"
+    ],
+    "20": [
+      "Central Station",
+      "from Central Station",
+      "the Central Station"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "1882-1883",
+      "1882 to 1883",
+      "1882-83"
+    ],
+    "28": [
+      "signed"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "C"
+    ],
+    "32": [
+      "B"
+    ],
+    "33": [
+      "C"
+    ],
+    "34": [
+      "A"
+    ],
+    "35": [
+      "A"
+    ],
+    "36": [
+      "2 directions"
+    ],
+    "37": [
+      "confident"
+    ],
+    "38": [
+      "vision"
+    ],
+    "39": [
+      "corrections"
+    ],
+    "40": [
+      "balance"
+    ]
+  },
+  "note": "Paynter verified from spelled P-A-Y-N-T-E-R transcript; Painter rejected.",
+  "verificationSource": "https://ieltsvault.com/resources/listening/tests/cambridge-ielts-7-listening-test-2",
+  "parts": [
+    {
+      "book": 7,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "27 Bank Road"
+        ],
+        "2": [
+          "dentist",
+          "a dentist"
+        ],
+        "3": [
+          "Sable"
+        ],
+        "4": [
+          "Northern Star"
+        ],
+        "5": [
+          "stolen"
+        ],
+        "6": [
+          "Paynter"
+        ],
+        "7": [
+          "brother-in-law"
+        ],
+        "8": [
+          "work",
+          "to work",
+          "travelling to work",
+          "traveling to work"
+        ],
+        "9": [
+          "Red Flag"
+        ],
+        "10": [
+          "450"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "City Bridge"
+        ],
+        "12": [
+          "Newtown"
+        ],
+        "13": [
+          "6.30"
+        ],
+        "14": [
+          "garden",
+          "formal garden"
+        ],
+        "15": [
+          "Restaurant",
+          "Tower Restaurant"
+        ],
+        "16": [
+          "view",
+          "views"
+        ],
+        "17": [
+          "history"
+        ],
+        "18": [
+          "7 screen"
+        ],
+        "19": [
+          "every 20 minutes"
+        ],
+        "20": [
+          "Central Station",
+          "from Central Station",
+          "the Central Station"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "1882-1883",
+          "1882 to 1883",
+          "1882-83"
+        ],
+        "28": [
+          "signed"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            29,
+            30
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 7,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "C"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "C"
+        ],
+        "34": [
+          "A"
+        ],
+        "35": [
+          "A"
+        ],
+        "36": [
+          "2 directions"
+        ],
+        "37": [
+          "confident"
+        ],
+        "38": [
+          "vision"
+        ],
+        "39": [
+          "corrections"
+        ],
+        "40": [
+          "balance"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "book": 7,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-7-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "business"
+    ],
+    "2": [
+      "third"
+    ],
+    "3": [
+      "Sport Centre",
+      "Sports Centre"
+    ],
+    "4": [
+      "cleaner",
+      "a cleaner"
+    ],
+    "5": [
+      "Library"
+    ],
+    "6": [
+      "International House"
+    ],
+    "7": [
+      "B659"
+    ],
+    "8": [
+      "office assistant",
+      "an office assistant"
+    ],
+    "9": [
+      "answer phone",
+      "answer the phone"
+    ],
+    "10": [
+      "11.30"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "forest"
+    ],
+    "18": [
+      "temple"
+    ],
+    "19": [
+      "waterfall"
+    ],
+    "20": [
+      "village"
+    ],
+    "21": [
+      "cigar"
+    ],
+    "22": [
+      "13 countries",
+      "13 different countries"
+    ],
+    "23": [
+      "activated"
+    ],
+    "24": [
+      "50 km",
+      "50 kms"
+    ],
+    "25": [
+      "temperature"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "B"
+    ],
+    "33": [
+      "A"
+    ],
+    "34": [
+      "C"
+    ],
+    "35": [
+      "business"
+    ],
+    "36": [
+      "kitchen"
+    ],
+    "37": [
+      "world"
+    ],
+    "38": [
+      "escape"
+    ],
+    "39": [
+      "baby"
+    ],
+    "40": [
+      "chocolate"
+    ]
+  },
+  "note": "Saved immediately from user key and source verification. Test 2 Q6 Paynter vs Painter pending additional verification; user spelling retained.",
+  "parts": [
+    {
+      "book": 7,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "business"
+        ],
+        "2": [
+          "third"
+        ],
+        "3": [
+          "Sport Centre",
+          "Sports Centre"
+        ],
+        "4": [
+          "cleaner",
+          "a cleaner"
+        ],
+        "5": [
+          "Library"
+        ],
+        "6": [
+          "International House"
+        ],
+        "7": [
+          "B659"
+        ],
+        "8": [
+          "office assistant",
+          "an office assistant"
+        ],
+        "9": [
+          "answer phone",
+          "answer the phone"
+        ],
+        "10": [
+          "11.30"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "forest"
+        ],
+        "18": [
+          "temple"
+        ],
+        "19": [
+          "waterfall"
+        ],
+        "20": [
+          "village"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "cigar"
+        ],
+        "22": [
+          "13 countries",
+          "13 different countries"
+        ],
+        "23": [
+          "activated"
+        ],
+        "24": [
+          "50 km",
+          "50 kms"
+        ],
+        "25": [
+          "temperature"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 7,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription checked against published keys and transcript",
+        "reference": "docs/cambridge-7-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "B"
+        ],
+        "32": [
+          "B"
+        ],
+        "33": [
+          "A"
+        ],
+        "34": [
+          "C"
+        ],
+        "35": [
+          "business"
+        ],
+        "36": [
+          "kitchen"
+        ],
+        "37": [
+          "world"
+        ],
+        "38": [
+          "escape"
+        ],
+        "39": [
+          "baby"
+        ],
+        "40": [
+          "chocolate"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
