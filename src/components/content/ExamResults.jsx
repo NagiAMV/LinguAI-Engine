@@ -14,7 +14,7 @@ export default function ExamResults({ test, answerKey, questions, answers, flags
   const visible = rows.filter(row => (partFilter === 'all' || String(row.part) === partFilter) && (filter === 'all' || (filter === 'unanswered' ? !row.response.trim() : filter === 'answered' ? Boolean(row.response.trim()) : row.status === filter)));
   const availableCount = questions.filter(question => answerKey?.answers?.[question.number]?.length).length;
   const duration = session.startedAt && session.finishedAt ? Math.min(3600, Math.max(0, Math.floor((session.finishedAt - session.startedAt) / 1000))) : null;
-  if (review) return <ExamPassageReview test={test} answers={answers} rows={rows} initialRow={review.row} onBack={() => setReview(null)} />;
+  if (review) return <ExamPassageReview test={test} answers={answers} rows={rows} initialRow={review.row} highlights={session.highlights || []} onBack={() => setReview(null)} />;
   return <section className="exam-results" aria-labelledby="results-heading">
     <div className="results-sheet">
       <header className="results-heading"><span className="results-seal" aria-hidden="true">✓</span><p className="section-kicker">Attempt submitted</p><h2 id="results-heading">Your answers, at a glance.</h2><p>{test.title} · {test.resource === 'reading' ? 'Reading' : 'Listening'}</p></header>

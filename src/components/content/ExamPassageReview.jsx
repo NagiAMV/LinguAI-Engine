@@ -1,9 +1,10 @@
 "use client";
+import TextHighlights from "./TextHighlights";
 import CambridgeRecording from "./CambridgeRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
-function AnnotatedContent({ html, answers, rows, active }) {
+function AnnotatedContent({ html, answers, rows, active, highlights, part, area }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: html }), [html]);
   useEffect(() => {
@@ -31,10 +32,10 @@ function AnnotatedContent({ html, answers, rows, active }) {
       (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
     }
   }, [html, answers, rows, active]);
-  return <div ref={root} className="cd-content review-content" dangerouslySetInnerHTML={markup} />;
+  return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={active} /><div ref={root} className="cd-content review-content" dangerouslySetInnerHTML={markup} /></>;
 }
 
-export default function ExamPassageReview({ test, answers, rows, initialRow, onBack }) {
+export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [] }) {
   const [partId, setPartId] = useState(initialRow?.part || test.parts[0].id);
   const [active, setActive] = useState(initialRow?.name || null);
   const [errorsOnly, setErrorsOnly] = useState(false);
@@ -54,8 +55,8 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button><label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label><label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><span>Read-only review</span></div>
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     <div className="review-reading-panes" key={part.id}>
-      <article aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} answers={answers} rows={partRows} active={active} /></article>
-      <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} answers={answers} rows={partRows} active={active} /></article>
+      <article aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} /></article>
+      <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} /></article>
     </div>
   </section>;
 }

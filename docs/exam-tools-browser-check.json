@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "reading": true,
+      "allParts": true,
+      "flags": true,
+      "darkTheme": true,
+      "highlights": true,
+      "notes": true,
+      "refresh": true,
+      "reviewHighlights": true,
+      "mobile": {
+        "width": 390,
+        "scroll": 390,
+        "bottom": 844,
+        "top": 725,
+        "height": 844
+      }
+    },
+    {
+      "listening": true,
+      "allFourParts": true,
+      "questionHighlights": true
+    }
+  ]
+}

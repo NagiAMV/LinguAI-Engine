@@ -35,3 +35,12 @@ test('display cannot exceed 60 minutes between Start and the next tick', () => {
  const s=transition(restoreSession({}),{type:'start'},1000);
  assert.equal(countdown(remaining(s,750)),'60:00');
 });
+
+test('annotations and notes survive refresh and archival data without altering answers or timer', () => {
+ const started=transition(restoreSession({answers:{q1:'saved'}}),{type:'start'},1000);
+ const highlighted=transition(started,{type:'edit',patch:{highlights:[{id:'h1',part:1,area:'passage',start:0,end:5,text:'hello',color:'yellow'}],notes:[{id:'n1',part:1,quote:'hello',body:'Remember this'}],flags:['0:1']}},2000);
+ const refreshed=restoreSession(highlighted,3000);
+ assert.deepEqual(refreshed.highlights,highlighted.highlights);assert.deepEqual(refreshed.notes,highlighted.notes);assert.deepEqual(refreshed.answers,{q1:'saved'});assert.equal(refreshed.deadline,started.deadline);
+ const expired=restoreSession(refreshed,started.deadline);
+ assert.equal(transition(expired,{type:'edit',patch:{notes:[]}},started.deadline).notes.length,1);
+});
