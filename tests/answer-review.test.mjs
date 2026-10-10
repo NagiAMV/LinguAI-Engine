@@ -1321,3 +1321,16 @@ test('Cambridge 5 Listening Tests 1 and 2 use verified corrections and unordered
  assert.equal(reviewAnswer('UI',[38],b).status,'incorrect');
  assert.equal(reviewAnswer('',[37],b).status,'blank');
 });
+
+test('Cambridge 5 Listening Tests 3 and 4 use linked verified keys for changed sections', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['listening-5-3'],b=keys['listening-5-4'];
+ for(const k of [a,b])assert.equal(Object.keys(k.answers).length,40);
+ assert.equal(reviewAnswer(['E','C'],[11,12],a,true).status,'correct');
+ assert.equal(reviewAnswer(['C','C'],[11,12],a,true).status,'incorrect');
+ for(const [n,v] of [[13,'references'],[21,'5th May'],[25,'the 2nd half'],[30,'support for students']])assert.equal(reviewAnswer(v,[n],a).status,'correct');
+ assert.equal(reviewAnswer('placement',[21],a).status,'incorrect');
+ for(const [n,v] of [[2,'between 9 and 9.30'],[19,'send out newsletters'],[20,'supervise teams'],[28,'C'],[30,'D'],[31,'B'],[40,'C']])assert.equal(reviewAnswer(v,[n],b).status,'correct');
+ assert.equal(reviewAnswer('B',[19],b).status,'incorrect');
+ assert.equal(reviewAnswer('individual',[31],b).status,'incorrect');
+});

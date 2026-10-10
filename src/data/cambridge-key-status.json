@@ -330,14 +330,14 @@
     "status": "complete"
   },
   "listening-5-3": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-5-4": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-6-1": {
     "available": 0,

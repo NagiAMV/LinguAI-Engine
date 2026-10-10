@@ -1,0 +1,47 @@
+{
+  "note": "Original pasted conflicting fragments retained; linked published keys used.",
+  "test3": {
+    "section2": [
+      "B",
+      "C",
+      "A",
+      "B",
+      "B",
+      "A",
+      "A",
+      "C",
+      "B",
+      "B"
+    ],
+    "section3": [
+      "placement",
+      "interview",
+      "head/director",
+      "staff/teachers",
+      "technical skills",
+      "training",
+      "culture",
+      "language skills",
+      "organization",
+      "experience"
+    ]
+  },
+  "test4": {
+    "19": "B",
+    "20": "A",
+    "28": "B",
+    "30": "C",
+    "section4": [
+      "individual",
+      "department stores",
+      "club",
+      "opera house",
+      "1,450",
+      "disease",
+      "prince",
+      "outside",
+      "local",
+      "tops"
+    ]
+  }
+}

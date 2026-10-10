@@ -23837,36 +23837,6 @@
       ],
       "30": [
         "D"
-      ],
-      "31": [
-        "B"
-      ],
-      "32": [
-        "A"
-      ],
-      "33": [
-        "A"
-      ],
-      "34": [
-        "C"
-      ],
-      "35": [
-        "A"
-      ],
-      "36": [
-        "B"
-      ],
-      "37": [
-        "B"
-      ],
-      "38": [
-        "A"
-      ],
-      "39": [
-        "B"
-      ],
-      "40": [
-        "C"
       ]
     },
     "parts": {
@@ -23914,21 +23884,6 @@
           30
         ],
         "groups": []
-      },
-      "4": {
-        "questionNumbers": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ],
-        "groups": []
       }
     },
     "sources": [
@@ -23946,12 +23901,6 @@
       },
       {
         "part": 3,
-        "type": "user-transcription",
-        "label": "User-linked published key verified against imported questions",
-        "reference": "docs/cambridge-5-listening-4-verified-key.json"
-      },
-      {
-        "part": 4,
         "type": "user-transcription",
         "label": "User-linked published key verified against imported questions",
         "reference": "docs/cambridge-5-listening-4-verified-key.json"

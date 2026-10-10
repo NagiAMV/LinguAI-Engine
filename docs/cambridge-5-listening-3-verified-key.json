@@ -1,0 +1,352 @@
+{
+  "book": 5,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsextremes.com/cambridge-5-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "1.4 litres",
+      "1.4 liters"
+    ],
+    "2": [
+      "automatic"
+    ],
+    "3": [
+      "light",
+      "sky"
+    ],
+    "4": [
+      "credit"
+    ],
+    "5": [
+      "Harries"
+    ],
+    "6": [
+      "Dr",
+      "Doctor"
+    ],
+    "7": [
+      "Alton"
+    ],
+    "8": [
+      "messages"
+    ],
+    "9": [
+      "Lion"
+    ],
+    "10": [
+      "reasonable"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "references"
+    ],
+    "14": [
+      "country"
+    ],
+    "15": [
+      "weather"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "5th May"
+    ],
+    "22": [
+      "16th July",
+      "Friday 16th July"
+    ],
+    "23": [
+      "clear",
+      "was clear"
+    ],
+    "24": [
+      "outline",
+      "an outline",
+      "the outline",
+      "course outline",
+      "a course outline",
+      "the course outline"
+    ],
+    "25": [
+      "2nd half",
+      "the 2nd half"
+    ],
+    "26": [
+      "teaching",
+      "standard of teaching",
+      "teachers",
+      "standard of teachers"
+    ],
+    "27": [
+      "discussion",
+      "group discussion"
+    ],
+    "28": [
+      "handouts"
+    ],
+    "29": [
+      "written work"
+    ],
+    "30": [
+      "student support",
+      "support for students"
+    ],
+    "31": [
+      "12.5%"
+    ],
+    "32": [
+      "incineration plants"
+    ],
+    "33": [
+      "drop-off"
+    ],
+    "34": [
+      "cooking"
+    ],
+    "35": [
+      "500,000"
+    ],
+    "36": [
+      "roads"
+    ],
+    "37": [
+      "soil conditioner"
+    ],
+    "38": [
+      "containers"
+    ],
+    "39": [
+      "pencils"
+    ],
+    "40": [
+      "business cards"
+    ]
+  },
+  "note": "Verified from user-linked page, saved immediately. Source differs from the pasted transcription in several sections. Test 4 Q2 full range uses a field with no prefilled between 9 and; only question wording adjusted, input identity retained.",
+  "parts": [
+    {
+      "book": 5,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-linked published key verified against imported questions",
+        "reference": "docs/cambridge-5-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "1.4 litres",
+          "1.4 liters"
+        ],
+        "2": [
+          "automatic"
+        ],
+        "3": [
+          "light",
+          "sky"
+        ],
+        "4": [
+          "credit"
+        ],
+        "5": [
+          "Harries"
+        ],
+        "6": [
+          "Dr",
+          "Doctor"
+        ],
+        "7": [
+          "Alton"
+        ],
+        "8": [
+          "messages"
+        ],
+        "9": [
+          "Lion"
+        ],
+        "10": [
+          "reasonable"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-linked published key verified against imported questions",
+        "reference": "docs/cambridge-5-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "references"
+        ],
+        "14": [
+          "country"
+        ],
+        "15": [
+          "weather"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 5,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-linked published key verified against imported questions",
+        "reference": "docs/cambridge-5-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "5th May"
+        ],
+        "22": [
+          "16th July",
+          "Friday 16th July"
+        ],
+        "23": [
+          "clear",
+          "was clear"
+        ],
+        "24": [
+          "outline",
+          "an outline",
+          "the outline",
+          "course outline",
+          "a course outline",
+          "the course outline"
+        ],
+        "25": [
+          "2nd half",
+          "the 2nd half"
+        ],
+        "26": [
+          "teaching",
+          "standard of teaching",
+          "teachers",
+          "standard of teachers"
+        ],
+        "27": [
+          "discussion",
+          "group discussion"
+        ],
+        "28": [
+          "handouts"
+        ],
+        "29": [
+          "written work"
+        ],
+        "30": [
+          "student support",
+          "support for students"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 5,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User-linked published key verified against imported questions",
+        "reference": "docs/cambridge-5-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "12.5%"
+        ],
+        "32": [
+          "incineration plants"
+        ],
+        "33": [
+          "drop-off"
+        ],
+        "34": [
+          "cooking"
+        ],
+        "35": [
+          "500,000"
+        ],
+        "36": [
+          "roads"
+        ],
+        "37": [
+          "soil conditioner"
+        ],
+        "38": [
+          "containers"
+        ],
+        "39": [
+          "pencils"
+        ],
+        "40": [
+          "business cards"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
