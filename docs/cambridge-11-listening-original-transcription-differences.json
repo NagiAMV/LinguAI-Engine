@@ -1,0 +1,47 @@
+{
+  "note": "Original conflicting user fragments preserved.",
+  "test1": {
+    "32": "food/plants"
+  },
+  "test2": {
+    "7": "drama",
+    "8": "transport",
+    "9": "4.45/quarter to five",
+    "22": "B",
+    "25": "C",
+    "38": "current",
+    "1314": [
+      "D",
+      "E"
+    ],
+    "2728": [
+      "A",
+      "E"
+    ]
+  },
+  "test3": {
+    "21": "stars",
+    "25": "grant",
+    "29": "B",
+    "30": "E"
+  },
+  "test4": {
+    "3": "drums",
+    "6": "Bywater",
+    "11": "B",
+    "12": "C",
+    "13": "B",
+    "20": "E",
+    "38": "plants/gardening",
+    "39": "grass",
+    "2324": [
+      "A",
+      "D"
+    ],
+    "2526": [
+      "B",
+      "C"
+    ],
+    "section2Title": "Improvements to Red Hill Suburb"
+  }
+}

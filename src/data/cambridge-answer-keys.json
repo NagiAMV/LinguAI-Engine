@@ -28681,5 +28681,989 @@
         "reference": "docs/cambridge-10-listening-4-verified-key.json"
       }
     ]
+  },
+  "listening-11-1": {
+    "book": 11,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Charlton"
+      ],
+      "2": [
+        "115",
+        "£115",
+        "one hundred fifteen",
+        "one hundred and fifteen",
+        "a hundred fifteen",
+        "a hundred and fifteen"
+      ],
+      "3": [
+        "cash"
+      ],
+      "4": [
+        "parking"
+      ],
+      "5": [
+        "music"
+      ],
+      "6": [
+        "entry"
+      ],
+      "7": [
+        "stage"
+      ],
+      "8": [
+        "code"
+      ],
+      "9": [
+        "floor",
+        "floors"
+      ],
+      "10": [
+        "decoration",
+        "decorations"
+      ],
+      "11": [
+        "animal",
+        "animals"
+      ],
+      "12": [
+        "tool",
+        "tools"
+      ],
+      "13": [
+        "shoes"
+      ],
+      "14": [
+        "dog",
+        "dogs"
+      ],
+      "15": [
+        "F"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "H"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "conservation"
+      ],
+      "32": [
+        "food",
+        "foods"
+      ],
+      "33": [
+        "surface"
+      ],
+      "34": [
+        "oxygen",
+        "O2"
+      ],
+      "35": [
+        "mammals"
+      ],
+      "36": [
+        "ice"
+      ],
+      "37": [
+        "decline",
+        "declining",
+        "decrease"
+      ],
+      "38": [
+        "map"
+      ],
+      "39": [
+        "migration"
+      ],
+      "40": [
+        "consumption"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-11-2": {
+    "book": 11,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "hostel"
+      ],
+      "2": [
+        "Buckleigh"
+      ],
+      "3": [
+        "PE9 7QT"
+      ],
+      "4": [
+        "waiter"
+      ],
+      "5": [
+        "politics"
+      ],
+      "6": [
+        "cycling"
+      ],
+      "7": [
+        "cinema"
+      ],
+      "8": [
+        "disabled"
+      ],
+      "9": [
+        "4.30",
+        "4.30 pm",
+        "half past four"
+      ],
+      "10": [
+        "07788 136711"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "D"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "G"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "F"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "D"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "E"
+      ],
+      "31": [
+        "social"
+      ],
+      "32": [
+        "factory"
+      ],
+      "33": [
+        "canal"
+      ],
+      "34": [
+        "bridge"
+      ],
+      "35": [
+        "box"
+      ],
+      "36": [
+        "screen"
+      ],
+      "37": [
+        "rubber"
+      ],
+      "38": [
+        "curved"
+      ],
+      "39": [
+        "curtains"
+      ],
+      "40": [
+        "international"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              15,
+              16
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              27,
+              28
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              29,
+              30
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-11-3": {
+    "book": 11,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "B"
+      ],
+      "2": [
+        "C"
+      ],
+      "3": [
+        "B"
+      ],
+      "4": [
+        "A"
+      ],
+      "5": [
+        "C"
+      ],
+      "6": [
+        "A"
+      ],
+      "7": [
+        "birds"
+      ],
+      "8": [
+        "flowers"
+      ],
+      "9": [
+        "mushrooms"
+      ],
+      "10": [
+        "river"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "A"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "F"
+      ],
+      "21": [
+        "cave"
+      ],
+      "22": [
+        "tiger"
+      ],
+      "23": [
+        "dancing"
+      ],
+      "24": [
+        "crying"
+      ],
+      "25": [
+        "grass"
+      ],
+      "26": [
+        "scarf"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "D"
+      ],
+      "30": [
+        "B"
+      ],
+      "31": [
+        "attitude",
+        "attitudes"
+      ],
+      "32": [
+        "numbers"
+      ],
+      "33": [
+        "time",
+        "minutes"
+      ],
+      "34": [
+        "software"
+      ],
+      "35": [
+        "patients"
+      ],
+      "36": [
+        "emotions",
+        "feelings"
+      ],
+      "37": [
+        "income"
+      ],
+      "38": [
+        "comfortable"
+      ],
+      "39": [
+        "observation"
+      ],
+      "40": [
+        "analysis"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-11-4": {
+    "book": 11,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "secondary"
+      ],
+      "2": [
+        "flute"
+      ],
+      "3": [
+        "cinema"
+      ],
+      "4": [
+        "concert"
+      ],
+      "5": [
+        "market"
+      ],
+      "6": [
+        "Bythwaite"
+      ],
+      "7": [
+        "actor"
+      ],
+      "8": [
+        "A"
+      ],
+      "9": [
+        "B"
+      ],
+      "10": [
+        "C"
+      ],
+      "11": [
+        "E"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "G"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "F"
+      ],
+      "18": [
+        "H"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "E"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "dry"
+      ],
+      "32": [
+        "hard"
+      ],
+      "33": [
+        "sugar",
+        "sugars"
+      ],
+      "34": [
+        "roots"
+      ],
+      "35": [
+        "moist",
+        "damp",
+        "wet"
+      ],
+      "36": [
+        "variety"
+      ],
+      "37": [
+        "cattle"
+      ],
+      "38": [
+        "gardens",
+        "gardening"
+      ],
+      "39": [
+        "grasses"
+      ],
+      "40": [
+        "payment",
+        "payments",
+        "money"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      }
+    ]
   }
 }

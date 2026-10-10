@@ -1,0 +1,356 @@
+{
+  "book": 11,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-11-listening-test-4-answers/",
+  "answers": {
+    "1": [
+      "secondary"
+    ],
+    "2": [
+      "flute"
+    ],
+    "3": [
+      "cinema"
+    ],
+    "4": [
+      "concert"
+    ],
+    "5": [
+      "market"
+    ],
+    "6": [
+      "Bythwaite"
+    ],
+    "7": [
+      "actor"
+    ],
+    "8": [
+      "A"
+    ],
+    "9": [
+      "B"
+    ],
+    "10": [
+      "C"
+    ],
+    "11": [
+      "E"
+    ],
+    "12": [
+      "D"
+    ],
+    "13": [
+      "G"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "F"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "dry"
+    ],
+    "32": [
+      "hard"
+    ],
+    "33": [
+      "sugar",
+      "sugars"
+    ],
+    "34": [
+      "roots"
+    ],
+    "35": [
+      "moist",
+      "damp",
+      "wet"
+    ],
+    "36": [
+      "variety"
+    ],
+    "37": [
+      "cattle"
+    ],
+    "38": [
+      "gardens",
+      "gardening"
+    ],
+    "39": [
+      "grasses"
+    ],
+    "40": [
+      "payment",
+      "payments",
+      "money"
+    ]
+  },
+  "note": "Verified source answers saved before importing.",
+  "parts": [
+    {
+      "book": 11,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "secondary"
+        ],
+        "2": [
+          "flute"
+        ],
+        "3": [
+          "cinema"
+        ],
+        "4": [
+          "concert"
+        ],
+        "5": [
+          "market"
+        ],
+        "6": [
+          "Bythwaite"
+        ],
+        "7": [
+          "actor"
+        ],
+        "8": [
+          "A"
+        ],
+        "9": [
+          "B"
+        ],
+        "10": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 11,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "E"
+        ],
+        "12": [
+          "D"
+        ],
+        "13": [
+          "G"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "F"
+        ],
+        "18": [
+          "H"
+        ],
+        "19": [
+          "C"
+        ],
+        "20": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 11,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "E"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "B"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 11,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "dry"
+        ],
+        "32": [
+          "hard"
+        ],
+        "33": [
+          "sugar",
+          "sugars"
+        ],
+        "34": [
+          "roots"
+        ],
+        "35": [
+          "moist",
+          "damp",
+          "wet"
+        ],
+        "36": [
+          "variety"
+        ],
+        "37": [
+          "cattle"
+        ],
+        "38": [
+          "gardens",
+          "gardening"
+        ],
+        "39": [
+          "grasses"
+        ],
+        "40": [
+          "payment",
+          "payments",
+          "money"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

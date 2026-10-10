@@ -1,0 +1,313 @@
+{
+  "book": 11,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-11-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "B"
+    ],
+    "2": [
+      "C"
+    ],
+    "3": [
+      "B"
+    ],
+    "4": [
+      "A"
+    ],
+    "5": [
+      "C"
+    ],
+    "6": [
+      "A"
+    ],
+    "7": [
+      "birds"
+    ],
+    "8": [
+      "flowers"
+    ],
+    "9": [
+      "mushrooms"
+    ],
+    "10": [
+      "river"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "G"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "F"
+    ],
+    "21": [
+      "cave"
+    ],
+    "22": [
+      "tiger"
+    ],
+    "23": [
+      "dancing"
+    ],
+    "24": [
+      "crying"
+    ],
+    "25": [
+      "grass"
+    ],
+    "26": [
+      "scarf"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "D"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "attitude",
+      "attitudes"
+    ],
+    "32": [
+      "numbers"
+    ],
+    "33": [
+      "time",
+      "minutes"
+    ],
+    "34": [
+      "software"
+    ],
+    "35": [
+      "patients"
+    ],
+    "36": [
+      "emotions",
+      "feelings"
+    ],
+    "37": [
+      "income"
+    ],
+    "38": [
+      "comfortable"
+    ],
+    "39": [
+      "observation"
+    ],
+    "40": [
+      "analysis"
+    ]
+  },
+  "note": "Verified source answers saved before importing.",
+  "parts": [
+    {
+      "book": 11,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "B"
+        ],
+        "2": [
+          "C"
+        ],
+        "3": [
+          "B"
+        ],
+        "4": [
+          "A"
+        ],
+        "5": [
+          "C"
+        ],
+        "6": [
+          "A"
+        ],
+        "7": [
+          "birds"
+        ],
+        "8": [
+          "flowers"
+        ],
+        "9": [
+          "mushrooms"
+        ],
+        "10": [
+          "river"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 11,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "B"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "G"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "F"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 11,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "cave"
+        ],
+        "22": [
+          "tiger"
+        ],
+        "23": [
+          "dancing"
+        ],
+        "24": [
+          "crying"
+        ],
+        "25": [
+          "grass"
+        ],
+        "26": [
+          "scarf"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "D"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 11,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-11-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "attitude",
+          "attitudes"
+        ],
+        "32": [
+          "numbers"
+        ],
+        "33": [
+          "time",
+          "minutes"
+        ],
+        "34": [
+          "software"
+        ],
+        "35": [
+          "patients"
+        ],
+        "36": [
+          "emotions",
+          "feelings"
+        ],
+        "37": [
+          "income"
+        ],
+        "38": [
+          "comfortable"
+        ],
+        "39": [
+          "observation"
+        ],
+        "40": [
+          "analysis"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

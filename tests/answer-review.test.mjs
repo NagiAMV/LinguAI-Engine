@@ -1379,3 +1379,17 @@ test('Cambridge 10 Listening verified keys preserve corrected words and independ
  for(const [t,n,v] of [[1,31,'gone'],[1,32,'powerful'],[2,4,'cash'],[3,9,'hurt'],[4,16,'tourist attractions in Manham']])assert.equal(reviewAnswer(v,[n],k[`listening-10-${t}`]).status,'incorrect');
  for(const [t,nums,set] of [[1,[11,12],['C','A']],[2,[21,22],['C','B']],[2,[23,24],['E','B']],[3,[11,12],['E','C']],[4,[21,22],['E','A']],[4,[23,24],['C','B']]]){assert.equal(reviewAnswer(set,nums,k[`listening-10-${t}`],true).status,'correct');assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-10-${t}`],true).status,'incorrect');}
 });
+
+test('Cambridge 11 Listening verified keys preserve corrections and independent pairs', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-11-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,32,'foods'],[1,34,'O2'],[2,7,'cinema'],[2,8,'disabled'],[2,38,'curved'],[3,21,'cave'],[3,25,'grass'],[4,6,'Bythwaite'],[4,39,'grasses']])assert.equal(reviewAnswer(v,[n],k[`listening-11-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,32,'plants'],[2,38,'current'],[3,21,'stars'],[3,25,'grant'],[4,39,'grass']])assert.equal(reviewAnswer(v,[n],k[`listening-11-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[2,[11,12],['B','A']],[2,[13,14],['D','B']],[2,[15,16],['E','C']],[2,[27,28],['D','A']],[2,[29,30],['E','C']],[4,[21,22],['D','B']],[4,[23,24],['B','A']],[4,[25,26],['E','B']]]){
+ assert.equal(reviewAnswer(set,nums,k[`listening-11-${t}`],true).status,'correct');
+ assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-11-${t}`],true).status,'incorrect');
+ }
+ assert.equal(reviewAnswer('  CoNSerVation  ',[31],k['listening-11-1']).status,'correct');
+ assert.equal(reviewAnswer('',[31],k['listening-11-1']).status,'blank');
+ assert.equal(reviewAnswer('anything',[41],k['listening-11-1']).status,'pending');
+});
