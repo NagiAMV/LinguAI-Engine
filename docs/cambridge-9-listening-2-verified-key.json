@@ -1,0 +1,321 @@
+{
+  "book": 9,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-9-listening-test-2-answers/",
+  "answers": {
+    "1": [
+      "Bhatt"
+    ],
+    "2": [
+      "31 March"
+    ],
+    "3": [
+      "nursing"
+    ],
+    "4": [
+      "2"
+    ],
+    "5": [
+      "meat"
+    ],
+    "6": [
+      "bedsit"
+    ],
+    "7": [
+      "theatre",
+      "theater"
+    ],
+    "8": [
+      "mature",
+      "older"
+    ],
+    "9": [
+      "town"
+    ],
+    "10": [
+      "shared"
+    ],
+    "11": [
+      "trees"
+    ],
+    "12": [
+      "Friday"
+    ],
+    "13": [
+      "farm"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "I"
+    ],
+    "19": [
+      "F"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "reading"
+    ],
+    "26": [
+      "CD"
+    ],
+    "27": [
+      "workbooks"
+    ],
+    "28": [
+      "timetable",
+      "schedule"
+    ],
+    "29": [
+      "alarm"
+    ],
+    "30": [
+      "email",
+      "emails"
+    ],
+    "31": [
+      "central"
+    ],
+    "32": [
+      "conversation",
+      "conversations"
+    ],
+    "33": [
+      "effectively"
+    ],
+    "34": [
+      "risk",
+      "risks"
+    ],
+    "35": [
+      "levels"
+    ],
+    "36": [
+      "description",
+      "descriptions"
+    ],
+    "37": [
+      "technical"
+    ],
+    "38": [
+      "change"
+    ],
+    "39": [
+      "responsibility"
+    ],
+    "40": [
+      "flexible"
+    ]
+  },
+  "note": "User key corrected from published source and saved immediately. Test 1 Q33 needs adjustment for preprinted or animals in the imported field. Q33 Test 1 uses plants only in the actual field because or animals is already printed. Source full pair remains recorded in answers.",
+  "parts": [
+    {
+      "book": 9,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Bhatt"
+        ],
+        "2": [
+          "31 March"
+        ],
+        "3": [
+          "nursing"
+        ],
+        "4": [
+          "2"
+        ],
+        "5": [
+          "meat"
+        ],
+        "6": [
+          "bedsit"
+        ],
+        "7": [
+          "theatre",
+          "theater"
+        ],
+        "8": [
+          "mature",
+          "older"
+        ],
+        "9": [
+          "town"
+        ],
+        "10": [
+          "shared"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "trees"
+        ],
+        "12": [
+          "Friday"
+        ],
+        "13": [
+          "farm"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "I"
+        ],
+        "19": [
+          "F"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "reading"
+        ],
+        "26": [
+          "CD"
+        ],
+        "27": [
+          "workbooks"
+        ],
+        "28": [
+          "timetable",
+          "schedule"
+        ],
+        "29": [
+          "alarm"
+        ],
+        "30": [
+          "email",
+          "emails"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "central"
+        ],
+        "32": [
+          "conversation",
+          "conversations"
+        ],
+        "33": [
+          "effectively"
+        ],
+        "34": [
+          "risk",
+          "risks"
+        ],
+        "35": [
+          "levels"
+        ],
+        "36": [
+          "description",
+          "descriptions"
+        ],
+        "37": [
+          "technical"
+        ],
+        "38": [
+          "change"
+        ],
+        "39": [
+          "responsibility"
+        ],
+        "40": [
+          "flexible"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

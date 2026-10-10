@@ -27566,68 +27566,6 @@
       "20": [
         "Thursday",
         "Thursdays"
-      ],
-      "21": [
-        "A"
-      ],
-      "22": [
-        "C"
-      ],
-      "23": [
-        "approach"
-      ],
-      "24": [
-        "mature"
-      ],
-      "25": [
-        "interest"
-      ],
-      "26": [
-        "groups"
-      ],
-      "27": [
-        "every 2 days"
-      ],
-      "28": [
-        "2 weeks"
-      ],
-      "29": [
-        "confident"
-      ],
-      "30": [
-        "education system"
-      ],
-      "31": [
-        "C"
-      ],
-      "32": [
-        "A"
-      ],
-      "33": [
-        "B"
-      ],
-      "34": [
-        "B"
-      ],
-      "35": [
-        "A"
-      ],
-      "36": [
-        "C"
-      ],
-      "37": [
-        "frog",
-        "frogs"
-      ],
-      "38": [
-        "predators"
-      ],
-      "39": [
-        "count"
-      ],
-      "40": [
-        "seed",
-        "seeds"
       ]
     },
     "parts": {
@@ -27673,36 +27611,6 @@
           20
         ],
         "groups": []
-      },
-      "3": {
-        "questionNumbers": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ],
-        "groups": []
-      },
-      "4": {
-        "questionNumbers": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ],
-        "groups": []
       }
     },
     "sources": [
@@ -27714,18 +27622,6 @@
       },
       {
         "part": 2,
-        "type": "user-transcription",
-        "label": "User transcription verified and corrected against published key",
-        "reference": "docs/cambridge-9-listening-4-verified-key.json"
-      },
-      {
-        "part": 3,
-        "type": "user-transcription",
-        "label": "User transcription verified and corrected against published key",
-        "reference": "docs/cambridge-9-listening-4-verified-key.json"
-      },
-      {
-        "part": 4,
         "type": "user-transcription",
         "label": "User transcription verified and corrected against published key",
         "reference": "docs/cambridge-9-listening-4-verified-key.json"

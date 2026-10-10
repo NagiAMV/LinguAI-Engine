@@ -1363,3 +1363,11 @@ test('Cambridge 8 Listening verified keys preserve numbering and independent gro
  assert.equal(reviewAnswer('horses',[28],k['listening-8-1']).status,'incorrect');
  assert.equal(reviewAnswer('12,000',[29],k['listening-8-1']).status,'incorrect');
 });
+
+test('Cambridge 9 Listening verified keys preserve printed context and reject transcription errors', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-9-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,2,'Hillsdunne Road'],[1,7,'clear voice'],[1,33,'plants'],[2,6,'bedsit'],[2,12,'Friday'],[2,34,'risks'],[3,10,'Ludlow'],[3,29,'three times'],[3,33,'glass'],[4,1,'babies'],[4,38,'predators']])assert.equal(reviewAnswer(v,[n],k[`listening-9-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,21,'D'],[2,12,'Sunday'],[3,33,'B'],[4,38,'pesticides']])assert.equal(reviewAnswer(v,[n],k[`listening-9-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[1,[19,20],['E','A']],[4,[5,6],['E','B']]]){assert.equal(reviewAnswer(set,nums,k[`listening-9-${t}`],true).status,'correct');assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-9-${t}`],true).status,'incorrect');}
+});

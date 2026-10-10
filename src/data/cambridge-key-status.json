@@ -400,24 +400,24 @@
     "status": "complete"
   },
   "listening-9-1": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-9-2": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-9-3": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-9-4": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "reading-1-1": {
     "available": 40,

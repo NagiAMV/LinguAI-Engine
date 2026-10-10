@@ -1,0 +1,44 @@
+{
+  "note": "Original conflicting fragments preserved; verified source used.",
+  "test1": {
+    "2": "Highbury District",
+    "7": "view",
+    "21": "D",
+    "31": "tethys",
+    "33": "plants, animals both required",
+    "1920": [
+      "A",
+      "F"
+    ]
+  },
+  "test2": {
+    "6": "hostel",
+    "12": "Friday/Sunday",
+    "18": "C",
+    "20": "B",
+    "34": "relationships"
+  },
+  "test3": {
+    "1": "400",
+    "10": "India",
+    "14": "C",
+    "17": "G",
+    "18": "C",
+    "28": "organization",
+    "29": "3",
+    "33": "B"
+  },
+  "test4": {
+    "1": "tables",
+    "2": "school",
+    "9": "430",
+    "11": "D",
+    "13": "F",
+    "14": "D",
+    "38": "pesticides",
+    "56": [
+      "A",
+      "E"
+    ]
+  }
+}

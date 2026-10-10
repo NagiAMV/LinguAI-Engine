@@ -1,0 +1,315 @@
+{
+  "book": 9,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-9-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "300"
+    ],
+    "2": [
+      "Sunshade"
+    ],
+    "3": [
+      "balcony"
+    ],
+    "4": [
+      "forest",
+      "forests",
+      "woods"
+    ],
+    "5": [
+      "319"
+    ],
+    "6": [
+      "10,000"
+    ],
+    "7": [
+      "relative"
+    ],
+    "8": [
+      "missed"
+    ],
+    "9": [
+      "item"
+    ],
+    "10": [
+      "Ludlow"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "H"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "G"
+    ],
+    "19": [
+      "120"
+    ],
+    "20": [
+      "5 to 12"
+    ],
+    "21": [
+      "fishing industry"
+    ],
+    "22": [
+      "statistics"
+    ],
+    "23": [
+      "note-taking"
+    ],
+    "24": [
+      "confidence"
+    ],
+    "25": [
+      "ideas"
+    ],
+    "26": [
+      "student support"
+    ],
+    "27": [
+      "places"
+    ],
+    "28": [
+      "general"
+    ],
+    "29": [
+      "3 times",
+      "three times"
+    ],
+    "30": [
+      "25"
+    ],
+    "31": [
+      "B"
+    ],
+    "32": [
+      "A"
+    ],
+    "33": [
+      "glass"
+    ],
+    "34": [
+      "insulation"
+    ],
+    "35": [
+      "windows"
+    ],
+    "36": [
+      "electricity"
+    ],
+    "37": [
+      "floor",
+      "floors"
+    ],
+    "38": [
+      "waste"
+    ],
+    "39": [
+      "concrete"
+    ],
+    "40": [
+      "15 years"
+    ]
+  },
+  "note": "Verified key saved immediately. User transcription errors corrected from source. Q33 Test 1 uses plants only in the actual field because or animals is already printed. Source full pair remains recorded in answers.",
+  "parts": [
+    {
+      "book": 9,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "300"
+        ],
+        "2": [
+          "Sunshade"
+        ],
+        "3": [
+          "balcony"
+        ],
+        "4": [
+          "forest",
+          "forests",
+          "woods"
+        ],
+        "5": [
+          "319"
+        ],
+        "6": [
+          "10,000"
+        ],
+        "7": [
+          "relative"
+        ],
+        "8": [
+          "missed"
+        ],
+        "9": [
+          "item"
+        ],
+        "10": [
+          "Ludlow"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "H"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "G"
+        ],
+        "19": [
+          "120"
+        ],
+        "20": [
+          "5 to 12"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "fishing industry"
+        ],
+        "22": [
+          "statistics"
+        ],
+        "23": [
+          "note-taking"
+        ],
+        "24": [
+          "confidence"
+        ],
+        "25": [
+          "ideas"
+        ],
+        "26": [
+          "student support"
+        ],
+        "27": [
+          "places"
+        ],
+        "28": [
+          "general"
+        ],
+        "29": [
+          "3 times",
+          "three times"
+        ],
+        "30": [
+          "25"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 9,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published key",
+        "reference": "docs/cambridge-9-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "B"
+        ],
+        "32": [
+          "A"
+        ],
+        "33": [
+          "glass"
+        ],
+        "34": [
+          "insulation"
+        ],
+        "35": [
+          "windows"
+        ],
+        "36": [
+          "electricity"
+        ],
+        "37": [
+          "floor",
+          "floors"
+        ],
+        "38": [
+          "waste"
+        ],
+        "39": [
+          "concrete"
+        ],
+        "40": [
+          "15 years"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
