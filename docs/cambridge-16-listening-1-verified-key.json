@@ -1,0 +1,338 @@
+{
+  "book": 16,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-16-listening-test-1-answers/",
+  "originalUserDifferences": {
+    "9": "Gladstone"
+  },
+  "answers": {
+    "1": [
+      "egg"
+    ],
+    "2": [
+      "tower"
+    ],
+    "3": [
+      "car"
+    ],
+    "4": [
+      "animals"
+    ],
+    "5": [
+      "bridge"
+    ],
+    "6": [
+      "movie",
+      "film"
+    ],
+    "7": [
+      "decorate"
+    ],
+    "8": [
+      "Wednesdays"
+    ],
+    "9": [
+      "Fradstone"
+    ],
+    "10": [
+      "parking"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "H"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "G"
+    ],
+    "18": [
+      "B"
+    ],
+    "19": [
+      "I"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "E"
+    ],
+    "25": [
+      "D"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "H"
+    ],
+    "29": [
+      "F"
+    ],
+    "30": [
+      "G"
+    ],
+    "31": [
+      "practical"
+    ],
+    "32": [
+      "publication"
+    ],
+    "33": [
+      "choices"
+    ],
+    "34": [
+      "negative"
+    ],
+    "35": [
+      "play"
+    ],
+    "36": [
+      "capitalism"
+    ],
+    "37": [
+      "depression"
+    ],
+    "38": [
+      "logic"
+    ],
+    "39": [
+      "opportunity"
+    ],
+    "40": [
+      "practice",
+      "practise"
+    ]
+  },
+  "parts": [
+    {
+      "book": 16,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "egg"
+        ],
+        "2": [
+          "tower"
+        ],
+        "3": [
+          "car"
+        ],
+        "4": [
+          "animals"
+        ],
+        "5": [
+          "bridge"
+        ],
+        "6": [
+          "movie",
+          "film"
+        ],
+        "7": [
+          "decorate"
+        ],
+        "8": [
+          "Wednesdays"
+        ],
+        "9": [
+          "Fradstone"
+        ],
+        "10": [
+          "parking"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "H"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "G"
+        ],
+        "18": [
+          "B"
+        ],
+        "19": [
+          "I"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "D"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "H"
+        ],
+        "29": [
+          "F"
+        ],
+        "30": [
+          "G"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 16,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "practical"
+        ],
+        "32": [
+          "publication"
+        ],
+        "33": [
+          "choices"
+        ],
+        "34": [
+          "negative"
+        ],
+        "35": [
+          "play"
+        ],
+        "36": [
+          "capitalism"
+        ],
+        "37": [
+          "depression"
+        ],
+        "38": [
+          "logic"
+        ],
+        "39": [
+          "opportunity"
+        ],
+        "40": [
+          "practice",
+          "practise"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

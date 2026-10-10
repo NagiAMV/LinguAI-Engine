@@ -1,0 +1,317 @@
+{
+  "book": 20,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsbeacon.com/ielts-answers/listening/cambridge-ielts-20-test-2/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "break"
+    ],
+    "2": [
+      "time"
+    ],
+    "3": [
+      "shower"
+    ],
+    "4": [
+      "money"
+    ],
+    "5": [
+      "memory"
+    ],
+    "6": [
+      "lifting"
+    ],
+    "7": [
+      "fall"
+    ],
+    "8": [
+      "taxi"
+    ],
+    "9": [
+      "insurance"
+    ],
+    "10": [
+      "stress"
+    ],
+    "11": [
+      "D"
+    ],
+    "12": [
+      "I"
+    ],
+    "13": [
+      "H"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "D"
+    ],
+    "22": [
+      "G"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "E"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "photos",
+      "photographs",
+      "pictures"
+    ],
+    "32": [
+      "vegan"
+    ],
+    "33": [
+      "chefs",
+      "cooks"
+    ],
+    "34": [
+      "journalists",
+      "reporters"
+    ],
+    "35": [
+      "health"
+    ],
+    "36": [
+      "coffee"
+    ],
+    "37": [
+      "environment"
+    ],
+    "38": [
+      "reputation"
+    ],
+    "39": [
+      "price",
+      "cost"
+    ],
+    "40": [
+      "soil"
+    ]
+  },
+  "parts": [
+    {
+      "book": 20,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "break"
+        ],
+        "2": [
+          "time"
+        ],
+        "3": [
+          "shower"
+        ],
+        "4": [
+          "money"
+        ],
+        "5": [
+          "memory"
+        ],
+        "6": [
+          "lifting"
+        ],
+        "7": [
+          "fall"
+        ],
+        "8": [
+          "taxi"
+        ],
+        "9": [
+          "insurance"
+        ],
+        "10": [
+          "stress"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "D"
+        ],
+        "12": [
+          "I"
+        ],
+        "13": [
+          "H"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "D"
+        ],
+        "22": [
+          "G"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "E"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "photos",
+          "photographs",
+          "pictures"
+        ],
+        "32": [
+          "vegan"
+        ],
+        "33": [
+          "chefs",
+          "cooks"
+        ],
+        "34": [
+          "journalists",
+          "reporters"
+        ],
+        "35": [
+          "health"
+        ],
+        "36": [
+          "coffee"
+        ],
+        "37": [
+          "environment"
+        ],
+        "38": [
+          "reputation"
+        ],
+        "39": [
+          "price",
+          "cost"
+        ],
+        "40": [
+          "soil"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

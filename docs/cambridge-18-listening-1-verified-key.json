@@ -1,0 +1,349 @@
+{
+  "book": 18,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsextremes.com/cambridge-18-listening-test-1-answers/",
+  "originalUserDifferences": {
+    "1": "DN30 7YZ"
+  },
+  "answers": {
+    "1": [
+      "DW30 7YZ"
+    ],
+    "2": [
+      "24 April",
+      "24th April"
+    ],
+    "3": [
+      "dentist"
+    ],
+    "4": [
+      "parking"
+    ],
+    "5": [
+      "Claxby"
+    ],
+    "6": [
+      "late"
+    ],
+    "7": [
+      "evening"
+    ],
+    "8": [
+      "supermarket"
+    ],
+    "9": [
+      "pollution"
+    ],
+    "10": [
+      "storage"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "E"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "G"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "F"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "B"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "E"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "fences"
+    ],
+    "32": [
+      "family"
+    ],
+    "33": [
+      "helicopters"
+    ],
+    "34": [
+      "stress"
+    ],
+    "35": [
+      "sides"
+    ],
+    "36": [
+      "breathing"
+    ],
+    "37": [
+      "feet"
+    ],
+    "38": [
+      "employment"
+    ],
+    "39": [
+      "weapons"
+    ],
+    "40": [
+      "tourism"
+    ]
+  },
+  "parts": [
+    {
+      "book": 18,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "DW30 7YZ"
+        ],
+        "2": [
+          "24 April",
+          "24th April"
+        ],
+        "3": [
+          "dentist"
+        ],
+        "4": [
+          "parking"
+        ],
+        "5": [
+          "Claxby"
+        ],
+        "6": [
+          "late"
+        ],
+        "7": [
+          "evening"
+        ],
+        "8": [
+          "supermarket"
+        ],
+        "9": [
+          "pollution"
+        ],
+        "10": [
+          "storage"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 18,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "G"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "F"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            14,
+            15
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 18,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "B"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "E"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            27,
+            28
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            29,
+            30
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 18,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "fences"
+        ],
+        "32": [
+          "family"
+        ],
+        "33": [
+          "helicopters"
+        ],
+        "34": [
+          "stress"
+        ],
+        "35": [
+          "sides"
+        ],
+        "36": [
+          "breathing"
+        ],
+        "37": [
+          "feet"
+        ],
+        "38": [
+          "employment"
+        ],
+        "39": [
+          "weapons"
+        ],
+        "40": [
+          "tourism"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

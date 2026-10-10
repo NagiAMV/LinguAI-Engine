@@ -31541,5 +31541,7848 @@
         "reference": "docs/cambridge-13-listening-4-verified-key.json"
       }
     ]
+  },
+  "listening-14-1": {
+    "book": 14,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Canadian"
+      ],
+      "2": [
+        "furniture"
+      ],
+      "3": [
+        "Park"
+      ],
+      "4": [
+        "250",
+        "250 sterling"
+      ],
+      "5": [
+        "phone"
+      ],
+      "6": [
+        "10 September",
+        "10th September"
+      ],
+      "7": [
+        "museum"
+      ],
+      "8": [
+        "time"
+      ],
+      "9": [
+        "blond",
+        "blonde"
+      ],
+      "10": [
+        "87954 82361"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "F"
+      ],
+      "29": [
+        "G"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "industry"
+      ],
+      "32": [
+        "constant"
+      ],
+      "33": [
+        "direction"
+      ],
+      "34": [
+        "floor"
+      ],
+      "35": [
+        "predictable"
+      ],
+      "36": [
+        "bay"
+      ],
+      "37": [
+        "gates"
+      ],
+      "38": [
+        "fuel"
+      ],
+      "39": [
+        "jobs"
+      ],
+      "40": [
+        "migration"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-14-2": {
+    "book": 14,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "219 442 9785"
+      ],
+      "2": [
+        "10 October",
+        "10th October"
+      ],
+      "3": [
+        "manager"
+      ],
+      "4": [
+        "Cawley"
+      ],
+      "5": [
+        "knee"
+      ],
+      "6": [
+        "3 weeks"
+      ],
+      "7": [
+        "tennis"
+      ],
+      "8": [
+        "running"
+      ],
+      "9": [
+        "shoulder"
+      ],
+      "10": [
+        "vitamins"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "H"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "F"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "E"
+      ],
+      "26": [
+        "D"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "H"
+      ],
+      "29": [
+        "G"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "dances"
+      ],
+      "32": [
+        "survival"
+      ],
+      "33": [
+        "clouds"
+      ],
+      "34": [
+        "festivals"
+      ],
+      "35": [
+        "comets"
+      ],
+      "36": [
+        "sky"
+      ],
+      "37": [
+        "instruments"
+      ],
+      "38": [
+        "thermometer"
+      ],
+      "39": [
+        "storms"
+      ],
+      "40": [
+        "telegraph"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-14-3": {
+    "book": 14,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Tesla"
+      ],
+      "2": [
+        "microphone"
+      ],
+      "3": [
+        "exhibition"
+      ],
+      "4": [
+        "wifi"
+      ],
+      "5": [
+        "45"
+      ],
+      "6": [
+        "135"
+      ],
+      "7": [
+        "pool"
+      ],
+      "8": [
+        "airport"
+      ],
+      "9": [
+        "sea"
+      ],
+      "10": [
+        "clubs"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "F"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "E"
+      ],
+      "18": [
+        "G"
+      ],
+      "19": [
+        "D"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "50"
+      ],
+      "22": [
+        "regional"
+      ],
+      "23": [
+        "carnival"
+      ],
+      "24": [
+        "drummer"
+      ],
+      "25": [
+        "film"
+      ],
+      "26": [
+        "parade"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "E"
+      ],
+      "30": [
+        "F"
+      ],
+      "31": [
+        "violin"
+      ],
+      "32": [
+        "energy"
+      ],
+      "33": [
+        "complex"
+      ],
+      "34": [
+        "opera"
+      ],
+      "35": [
+        "disturbing"
+      ],
+      "36": [
+        "clarinet"
+      ],
+      "37": [
+        "diversity"
+      ],
+      "38": [
+        "physics"
+      ],
+      "39": [
+        "dance"
+      ],
+      "40": [
+        "Olympics"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-14-4": {
+    "book": 14,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "85"
+      ],
+      "2": [
+        "roses"
+      ],
+      "3": [
+        "trees"
+      ],
+      "4": [
+        "stage"
+      ],
+      "5": [
+        "speech"
+      ],
+      "6": [
+        "support"
+      ],
+      "7": [
+        "cabins"
+      ],
+      "8": [
+        "C"
+      ],
+      "9": [
+        "A"
+      ],
+      "10": [
+        "B"
+      ],
+      "11": [
+        "G"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "F"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "F"
+      ],
+      "27": [
+        "E"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "G"
+      ],
+      "31": [
+        "spring"
+      ],
+      "32": [
+        "tools"
+      ],
+      "33": [
+        "maps"
+      ],
+      "34": [
+        "heavy"
+      ],
+      "35": [
+        "marble"
+      ],
+      "36": [
+        "light"
+      ],
+      "37": [
+        "camera",
+        "cameras"
+      ],
+      "38": [
+        "medical"
+      ],
+      "39": [
+        "eyes"
+      ],
+      "40": [
+        "wine"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-15-1": {
+    "book": 15,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Jamieson"
+      ],
+      "2": [
+        "afternoon"
+      ],
+      "3": [
+        "communication"
+      ],
+      "4": [
+        "week"
+      ],
+      "5": [
+        "10",
+        "ten"
+      ],
+      "6": [
+        "suit"
+      ],
+      "7": [
+        "passport"
+      ],
+      "8": [
+        "personality"
+      ],
+      "9": [
+        "feedback"
+      ],
+      "10": [
+        "time"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "river"
+      ],
+      "16": [
+        "1422"
+      ],
+      "17": [
+        "top"
+      ],
+      "18": [
+        "pass"
+      ],
+      "19": [
+        "steam"
+      ],
+      "20": [
+        "capital"
+      ],
+      "21": [
+        "G"
+      ],
+      "22": [
+        "F"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "shelter"
+      ],
+      "32": [
+        "oil"
+      ],
+      "33": [
+        "roads"
+      ],
+      "34": [
+        "insects"
+      ],
+      "35": [
+        "grass",
+        "grasses"
+      ],
+      "36": [
+        "water"
+      ],
+      "37": [
+        "soil"
+      ],
+      "38": [
+        "dry"
+      ],
+      "39": [
+        "simple"
+      ],
+      "40": [
+        "nest",
+        "nests"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              29,
+              30
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-15-2": {
+    "book": 15,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Eustatis"
+      ],
+      "2": [
+        "review"
+      ],
+      "3": [
+        "dance"
+      ],
+      "4": [
+        "chat"
+      ],
+      "5": [
+        "healthy"
+      ],
+      "6": [
+        "posters"
+      ],
+      "7": [
+        "wood"
+      ],
+      "8": [
+        "lake"
+      ],
+      "9": [
+        "insects"
+      ],
+      "10": [
+        "blog"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "E"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "G"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "G"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "H"
+      ],
+      "30": [
+        "F"
+      ],
+      "31": [
+        "irrigation"
+      ],
+      "32": [
+        "women"
+      ],
+      "33": [
+        "wire",
+        "wires"
+      ],
+      "34": [
+        "seed",
+        "seeds"
+      ],
+      "35": [
+        "posts"
+      ],
+      "36": [
+        "transport"
+      ],
+      "37": [
+        "preservation"
+      ],
+      "38": [
+        "fish",
+        "fishes"
+      ],
+      "39": [
+        "bees"
+      ],
+      "40": [
+        "design"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-15-3": {
+    "book": 15,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "furniture"
+      ],
+      "2": [
+        "meetings"
+      ],
+      "3": [
+        "diary"
+      ],
+      "4": [
+        "detail",
+        "details"
+      ],
+      "5": [
+        "1 year",
+        "one year"
+      ],
+      "6": [
+        "deliveries"
+      ],
+      "7": [
+        "tidy"
+      ],
+      "8": [
+        "team"
+      ],
+      "9": [
+        "heavy"
+      ],
+      "10": [
+        "customer"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "page"
+      ],
+      "22": [
+        "size"
+      ],
+      "23": [
+        "graphic",
+        "graphics"
+      ],
+      "24": [
+        "structure"
+      ],
+      "25": [
+        "purpose"
+      ],
+      "26": [
+        "assumption",
+        "assumptions"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "B"
+      ],
+      "31": [
+        "mud"
+      ],
+      "32": [
+        "clay"
+      ],
+      "33": [
+        "metal"
+      ],
+      "34": [
+        "hair"
+      ],
+      "35": [
+        "bath",
+        "baths"
+      ],
+      "36": [
+        "disease",
+        "diseases"
+      ],
+      "37": [
+        "perfume"
+      ],
+      "38": [
+        "salt"
+      ],
+      "39": [
+        "science"
+      ],
+      "40": [
+        "tax"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-15-4": {
+    "book": 15,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "journalist"
+      ],
+      "2": [
+        "shopping"
+      ],
+      "3": [
+        "Staunfirth"
+      ],
+      "4": [
+        "return"
+      ],
+      "5": [
+        "23.70"
+      ],
+      "6": [
+        "online"
+      ],
+      "7": [
+        "delay"
+      ],
+      "8": [
+        "information"
+      ],
+      "9": [
+        "platform",
+        "platforms"
+      ],
+      "10": [
+        "parking"
+      ],
+      "11": [
+        "D"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "G"
+      ],
+      "14": [
+        "H"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "wealth"
+      ],
+      "32": [
+        "technology"
+      ],
+      "33": [
+        "power"
+      ],
+      "34": [
+        "textile",
+        "textiles"
+      ],
+      "35": [
+        "machines"
+      ],
+      "36": [
+        "newspapers"
+      ],
+      "37": [
+        "local"
+      ],
+      "38": [
+        "lighting"
+      ],
+      "39": [
+        "windows"
+      ],
+      "40": [
+        "advertising"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-16-1": {
+    "book": 16,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "egg"
+      ],
+      "2": [
+        "tower"
+      ],
+      "3": [
+        "car"
+      ],
+      "4": [
+        "animals"
+      ],
+      "5": [
+        "bridge"
+      ],
+      "6": [
+        "movie",
+        "film"
+      ],
+      "7": [
+        "decorate"
+      ],
+      "8": [
+        "Wednesdays"
+      ],
+      "9": [
+        "Fradstone"
+      ],
+      "10": [
+        "parking"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "H"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "G"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "I"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "D"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "H"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "G"
+      ],
+      "31": [
+        "practical"
+      ],
+      "32": [
+        "publication"
+      ],
+      "33": [
+        "choices"
+      ],
+      "34": [
+        "negative"
+      ],
+      "35": [
+        "play"
+      ],
+      "36": [
+        "capitalism"
+      ],
+      "37": [
+        "depression"
+      ],
+      "38": [
+        "logic"
+      ],
+      "39": [
+        "opportunity"
+      ],
+      "40": [
+        "practice",
+        "practise"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-16-2": {
+    "book": 16,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "frame"
+      ],
+      "2": [
+        "195"
+      ],
+      "3": [
+        "payment"
+      ],
+      "4": [
+        "Grandparents"
+      ],
+      "5": [
+        "colour",
+        "color"
+      ],
+      "6": [
+        "hand"
+      ],
+      "7": [
+        "background"
+      ],
+      "8": [
+        "focus"
+      ],
+      "9": [
+        "ten days",
+        "10 days"
+      ],
+      "10": [
+        "plastic"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "A"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "D"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "history"
+      ],
+      "26": [
+        "paper"
+      ],
+      "27": [
+        "humans",
+        "people"
+      ],
+      "28": [
+        "stress"
+      ],
+      "29": [
+        "graph"
+      ],
+      "30": [
+        "evaluate"
+      ],
+      "31": [
+        "creativity"
+      ],
+      "32": [
+        "therapy"
+      ],
+      "33": [
+        "fitness"
+      ],
+      "34": [
+        "balance"
+      ],
+      "35": [
+        "brain"
+      ],
+      "36": [
+        "motivation"
+      ],
+      "37": [
+        "isolation"
+      ],
+      "38": [
+        "calories"
+      ],
+      "39": [
+        "obesity"
+      ],
+      "40": [
+        "habit"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-16-3": {
+    "book": 16,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "park"
+      ],
+      "2": [
+        "blue"
+      ],
+      "3": [
+        "reference"
+      ],
+      "4": [
+        "story"
+      ],
+      "5": [
+        "rain"
+      ],
+      "6": [
+        "snack"
+      ],
+      "7": [
+        "medication"
+      ],
+      "8": [
+        "helmet"
+      ],
+      "9": [
+        "tent"
+      ],
+      "10": [
+        "199"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "D"
+      ],
+      "16": [
+        "F"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "H"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "G"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "grandmother"
+      ],
+      "32": [
+        "decade"
+      ],
+      "33": [
+        "equipment"
+      ],
+      "34": [
+        "economic"
+      ],
+      "35": [
+        "basic"
+      ],
+      "36": [
+        "round"
+      ],
+      "37": [
+        "bone"
+      ],
+      "38": [
+        "rough"
+      ],
+      "39": [
+        "style"
+      ],
+      "40": [
+        "sheep"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-16-4": {
+    "book": 16,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "28th"
+      ],
+      "2": [
+        "550"
+      ],
+      "3": [
+        "Chervil"
+      ],
+      "4": [
+        "garage"
+      ],
+      "5": [
+        "garden"
+      ],
+      "6": [
+        "parking"
+      ],
+      "7": [
+        "wood"
+      ],
+      "8": [
+        "bridge"
+      ],
+      "9": [
+        "monument"
+      ],
+      "10": [
+        "March"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "F"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "I"
+      ],
+      "19": [
+        "E"
+      ],
+      "20": [
+        "H"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "F"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "spice",
+        "spices"
+      ],
+      "32": [
+        "colony",
+        "settlement"
+      ],
+      "33": [
+        "fat"
+      ],
+      "34": [
+        "head"
+      ],
+      "35": [
+        "movement"
+      ],
+      "36": [
+        "balance",
+        "balancing"
+      ],
+      "37": [
+        "brain"
+      ],
+      "38": [
+        "smell"
+      ],
+      "39": [
+        "rats"
+      ],
+      "40": [
+        "forest"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-17-1": {
+    "book": 17,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "litter"
+      ],
+      "2": [
+        "dogs"
+      ],
+      "3": [
+        "insects"
+      ],
+      "4": [
+        "butterflies"
+      ],
+      "5": [
+        "wall"
+      ],
+      "6": [
+        "island"
+      ],
+      "7": [
+        "boots"
+      ],
+      "8": [
+        "beginners"
+      ],
+      "9": [
+        "spoons"
+      ],
+      "10": [
+        "35",
+        "thirty five"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "D"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "D"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "puzzle"
+      ],
+      "32": [
+        "logic"
+      ],
+      "33": [
+        "confusion"
+      ],
+      "34": [
+        "meditation"
+      ],
+      "35": [
+        "stone"
+      ],
+      "36": [
+        "coins"
+      ],
+      "37": [
+        "tree"
+      ],
+      "38": [
+        "breathing"
+      ],
+      "39": [
+        "paper"
+      ],
+      "40": [
+        "anxiety"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              15,
+              16
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-17-2": {
+    "book": 17,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "collecting"
+      ],
+      "2": [
+        "records"
+      ],
+      "3": [
+        "West"
+      ],
+      "4": [
+        "transport"
+      ],
+      "5": [
+        "art"
+      ],
+      "6": [
+        "hospital"
+      ],
+      "7": [
+        "garden"
+      ],
+      "8": [
+        "quiz"
+      ],
+      "9": [
+        "tickets"
+      ],
+      "10": [
+        "poster"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "D"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "G"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "E"
+      ],
+      "20": [
+        "F"
+      ],
+      "21": [
+        "D"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "D"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "E"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "321,000"
+      ],
+      "32": [
+        "vocabulary"
+      ],
+      "33": [
+        "podcast"
+      ],
+      "34": [
+        "smartphones"
+      ],
+      "35": [
+        "bilingual"
+      ],
+      "36": [
+        "playground"
+      ],
+      "37": [
+        "picture"
+      ],
+      "38": [
+        "grammar"
+      ],
+      "39": [
+        "identity"
+      ],
+      "40": [
+        "fluent"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-17-3": {
+    "book": 17,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "family"
+      ],
+      "2": [
+        "fit"
+      ],
+      "3": [
+        "hotels"
+      ],
+      "4": [
+        "Carrowniskey"
+      ],
+      "5": [
+        "week"
+      ],
+      "6": [
+        "bay"
+      ],
+      "7": [
+        "September"
+      ],
+      "8": [
+        "19",
+        "nineteen"
+      ],
+      "9": [
+        "30",
+        "thirty"
+      ],
+      "10": [
+        "boots"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "G"
+      ],
+      "19": [
+        "F"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "H"
+      ],
+      "31": [
+        "mud"
+      ],
+      "32": [
+        "feathers"
+      ],
+      "33": [
+        "shape"
+      ],
+      "34": [
+        "moon"
+      ],
+      "35": [
+        "neck"
+      ],
+      "36": [
+        "evidence"
+      ],
+      "37": [
+        "destinations"
+      ],
+      "38": [
+        "oceans"
+      ],
+      "39": [
+        "recovery"
+      ],
+      "40": [
+        "atlas"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-17-4": {
+    "book": 17,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "floor",
+        "floors"
+      ],
+      "2": [
+        "fridge"
+      ],
+      "3": [
+        "shirts"
+      ],
+      "4": [
+        "windows"
+      ],
+      "5": [
+        "balcony"
+      ],
+      "6": [
+        "electrician"
+      ],
+      "7": [
+        "dust"
+      ],
+      "8": [
+        "police"
+      ],
+      "9": [
+        "training"
+      ],
+      "10": [
+        "review"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "D"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "F"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "D"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "G"
+      ],
+      "31": [
+        "golden"
+      ],
+      "32": [
+        "healthy"
+      ],
+      "33": [
+        "climate"
+      ],
+      "34": [
+        "rock",
+        "rocks"
+      ],
+      "35": [
+        "diameter"
+      ],
+      "36": [
+        "tube"
+      ],
+      "37": [
+        "fire"
+      ],
+      "38": [
+        "steam"
+      ],
+      "39": [
+        "cloudy"
+      ],
+      "40": [
+        "litre",
+        "liter"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-18-1": {
+    "book": 18,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "DW30 7YZ"
+      ],
+      "2": [
+        "24 April",
+        "24th April"
+      ],
+      "3": [
+        "dentist"
+      ],
+      "4": [
+        "parking"
+      ],
+      "5": [
+        "Claxby"
+      ],
+      "6": [
+        "late"
+      ],
+      "7": [
+        "evening"
+      ],
+      "8": [
+        "supermarket"
+      ],
+      "9": [
+        "pollution"
+      ],
+      "10": [
+        "storage"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "E"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "G"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "F"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "fences"
+      ],
+      "32": [
+        "family"
+      ],
+      "33": [
+        "helicopters"
+      ],
+      "34": [
+        "stress"
+      ],
+      "35": [
+        "sides"
+      ],
+      "36": [
+        "breathing"
+      ],
+      "37": [
+        "feet"
+      ],
+      "38": [
+        "employment"
+      ],
+      "39": [
+        "weapons"
+      ],
+      "40": [
+        "tourism"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              14,
+              15
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              27,
+              28
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              29,
+              30
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-18-2": {
+    "book": 18,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "training"
+      ],
+      "2": [
+        "discount"
+      ],
+      "3": [
+        "taxi"
+      ],
+      "4": [
+        "service"
+      ],
+      "5": [
+        "English"
+      ],
+      "6": [
+        "Wivenhoe"
+      ],
+      "7": [
+        "equipment"
+      ],
+      "8": [
+        "9.75"
+      ],
+      "9": [
+        "deliveries"
+      ],
+      "10": [
+        "Sunday"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "G"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "H"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "D"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "F"
+      ],
+      "31": [
+        "convenient"
+      ],
+      "32": [
+        "suits"
+      ],
+      "33": [
+        "tailor"
+      ],
+      "34": [
+        "profession"
+      ],
+      "35": [
+        "visible"
+      ],
+      "36": [
+        "string",
+        "strings"
+      ],
+      "37": [
+        "waist",
+        "waists"
+      ],
+      "38": [
+        "perfume"
+      ],
+      "39": [
+        "image"
+      ],
+      "40": [
+        "handbag"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-18-3": {
+    "book": 18,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Marrowfield"
+      ],
+      "2": [
+        "relative"
+      ],
+      "3": [
+        "socialise",
+        "socialize"
+      ],
+      "4": [
+        "full"
+      ],
+      "5": [
+        "domestic life"
+      ],
+      "6": [
+        "clouds"
+      ],
+      "7": [
+        "timing"
+      ],
+      "8": [
+        "animal magic"
+      ],
+      "9": [
+        "movement",
+        "animal movement"
+      ],
+      "10": [
+        "dark"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "D"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "D"
+      ],
+      "25": [
+        "G"
+      ],
+      "26": [
+        "E"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "technical"
+      ],
+      "32": [
+        "cheap"
+      ],
+      "33": [
+        "thousands"
+      ],
+      "34": [
+        "identification"
+      ],
+      "35": [
+        "tracking"
+      ],
+      "36": [
+        "military"
+      ],
+      "37": [
+        "location"
+      ],
+      "38": [
+        "prediction"
+      ],
+      "39": [
+        "database"
+      ],
+      "40": [
+        "trust"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-18-4": {
+    "book": 18,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "receptionist"
+      ],
+      "2": [
+        "medical"
+      ],
+      "3": [
+        "Chastons"
+      ],
+      "4": [
+        "appointments"
+      ],
+      "5": [
+        "database"
+      ],
+      "6": [
+        "experience"
+      ],
+      "7": [
+        "confident"
+      ],
+      "8": [
+        "temporary"
+      ],
+      "9": [
+        "1.15"
+      ],
+      "10": [
+        "parking"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "F"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "E"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "D"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "G"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "plot"
+      ],
+      "32": [
+        "poverty"
+      ],
+      "33": [
+        "Europe"
+      ],
+      "34": [
+        "poetry"
+      ],
+      "35": [
+        "drawings"
+      ],
+      "36": [
+        "furniture"
+      ],
+      "37": [
+        "lamps"
+      ],
+      "38": [
+        "harbour",
+        "harbor"
+      ],
+      "39": [
+        "children"
+      ],
+      "40": [
+        "relatives"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 18 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-18-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-19-1": {
+    "book": 19,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "69",
+        "sixty-nine"
+      ],
+      "2": [
+        "stream"
+      ],
+      "3": [
+        "data"
+      ],
+      "4": [
+        "map"
+      ],
+      "5": [
+        "visitors"
+      ],
+      "6": [
+        "sounds"
+      ],
+      "7": [
+        "freedom"
+      ],
+      "8": [
+        "skills"
+      ],
+      "9": [
+        "4.95"
+      ],
+      "10": [
+        "leaders"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "D"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "D"
+      ],
+      "26": [
+        "G"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "H"
+      ],
+      "31": [
+        "walls"
+      ],
+      "32": [
+        "son"
+      ],
+      "33": [
+        "fuel"
+      ],
+      "34": [
+        "oxygen"
+      ],
+      "35": [
+        "rectangular"
+      ],
+      "36": [
+        "lamps"
+      ],
+      "37": [
+        "family"
+      ],
+      "38": [
+        "winter"
+      ],
+      "39": [
+        "soil"
+      ],
+      "40": [
+        "rain"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-19-2": {
+    "book": 19,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Mathieson"
+      ],
+      "2": [
+        "beginners"
+      ],
+      "3": [
+        "college"
+      ],
+      "4": [
+        "New"
+      ],
+      "5": [
+        "11",
+        "eleven",
+        "11 am",
+        "eleven am"
+      ],
+      "6": [
+        "instrument"
+      ],
+      "7": [
+        "ear"
+      ],
+      "8": [
+        "clapping"
+      ],
+      "9": [
+        "recording"
+      ],
+      "10": [
+        "alone"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "E"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "E"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "C"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "move"
+      ],
+      "32": [
+        "short"
+      ],
+      "33": [
+        "discs"
+      ],
+      "34": [
+        "oxygen"
+      ],
+      "35": [
+        "tube"
+      ],
+      "36": [
+        "temperatures"
+      ],
+      "37": [
+        "protein"
+      ],
+      "38": [
+        "space"
+      ],
+      "39": [
+        "seaweed"
+      ],
+      "40": [
+        "endangered"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-19-3": {
+    "book": 19,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "harbour",
+        "harbor"
+      ],
+      "2": [
+        "bridge"
+      ],
+      "3": [
+        "3.30",
+        "3:30",
+        "three thirty",
+        "half past three",
+        "half three",
+        "half 3"
+      ],
+      "4": [
+        "Rose"
+      ],
+      "5": [
+        "sign"
+      ],
+      "6": [
+        "purple"
+      ],
+      "7": [
+        "samphire"
+      ],
+      "8": [
+        "melon"
+      ],
+      "9": [
+        "coconut"
+      ],
+      "10": [
+        "strawberry"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "F"
+      ],
+      "14": [
+        "G"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "H"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "E"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "H"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "F"
+      ],
+      "31": [
+        "clothing"
+      ],
+      "32": [
+        "mouths"
+      ],
+      "33": [
+        "salt"
+      ],
+      "34": [
+        "toothpaste"
+      ],
+      "35": [
+        "fertilisers",
+        "fertilizers"
+      ],
+      "36": [
+        "nutrients"
+      ],
+      "37": [
+        "growth"
+      ],
+      "38": [
+        "weight"
+      ],
+      "39": [
+        "acid"
+      ],
+      "40": [
+        "society"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-19-4": {
+    "book": 19,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Kaeden"
+      ],
+      "2": [
+        "locker",
+        "lockers"
+      ],
+      "3": [
+        "passport"
+      ],
+      "4": [
+        "uniform"
+      ],
+      "5": [
+        "third",
+        "3rd"
+      ],
+      "6": [
+        "0412 665 903"
+      ],
+      "7": [
+        "yellow"
+      ],
+      "8": [
+        "plastic"
+      ],
+      "9": [
+        "ice"
+      ],
+      "10": [
+        "gloves"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "D"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "D"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "G"
+      ],
+      "31": [
+        "competition"
+      ],
+      "32": [
+        "food"
+      ],
+      "33": [
+        "disease"
+      ],
+      "34": [
+        "agriculture"
+      ],
+      "35": [
+        "maps"
+      ],
+      "36": [
+        "cattle"
+      ],
+      "37": [
+        "speed"
+      ],
+      "38": [
+        "monkeys"
+      ],
+      "39": [
+        "fishing"
+      ],
+      "40": [
+        "flooding"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key corrected against published key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-19-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-20-1": {
+    "book": 20,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "fish"
+      ],
+      "2": [
+        "roof"
+      ],
+      "3": [
+        "Spanish"
+      ],
+      "4": [
+        "vegetarian"
+      ],
+      "5": [
+        "Audley"
+      ],
+      "6": [
+        "hotel"
+      ],
+      "7": [
+        "reviews"
+      ],
+      "8": [
+        "local"
+      ],
+      "9": [
+        "30",
+        "thirty",
+        "£30",
+        "£thirty"
+      ],
+      "10": [
+        "average"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "A"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "E"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "factories"
+      ],
+      "32": [
+        "dead"
+      ],
+      "33": [
+        "whale"
+      ],
+      "34": [
+        "apartments"
+      ],
+      "35": [
+        "park"
+      ],
+      "36": [
+        "art"
+      ],
+      "37": [
+        "beaches"
+      ],
+      "38": [
+        "ferry"
+      ],
+      "39": [
+        "bikes"
+      ],
+      "40": [
+        "drone"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-20-2": {
+    "book": 20,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "break"
+      ],
+      "2": [
+        "time"
+      ],
+      "3": [
+        "shower"
+      ],
+      "4": [
+        "money"
+      ],
+      "5": [
+        "memory"
+      ],
+      "6": [
+        "lifting"
+      ],
+      "7": [
+        "fall"
+      ],
+      "8": [
+        "taxi"
+      ],
+      "9": [
+        "insurance"
+      ],
+      "10": [
+        "stress"
+      ],
+      "11": [
+        "D"
+      ],
+      "12": [
+        "I"
+      ],
+      "13": [
+        "H"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "A"
+      ],
+      "21": [
+        "D"
+      ],
+      "22": [
+        "G"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "E"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "photos",
+        "photographs",
+        "pictures"
+      ],
+      "32": [
+        "vegan"
+      ],
+      "33": [
+        "chefs",
+        "cooks"
+      ],
+      "34": [
+        "journalists",
+        "reporters"
+      ],
+      "35": [
+        "health"
+      ],
+      "36": [
+        "coffee"
+      ],
+      "37": [
+        "environment"
+      ],
+      "38": [
+        "reputation"
+      ],
+      "39": [
+        "price",
+        "cost"
+      ],
+      "40": [
+        "soil"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-20-3": {
+    "book": 20,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "239",
+        "two hundred and thirty-nine",
+        "two hundred thirty-nine"
+      ],
+      "2": [
+        "modern"
+      ],
+      "3": [
+        "lamp"
+      ],
+      "4": [
+        "Aaron"
+      ],
+      "5": [
+        "damage"
+      ],
+      "6": [
+        "electronic"
+      ],
+      "7": [
+        "insurance"
+      ],
+      "8": [
+        "space"
+      ],
+      "9": [
+        "app"
+      ],
+      "10": [
+        "exchanges"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "G"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "E"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "adaptation"
+      ],
+      "32": [
+        "cognitive"
+      ],
+      "33": [
+        "desks"
+      ],
+      "34": [
+        "taps"
+      ],
+      "35": [
+        "blue"
+      ],
+      "36": [
+        "voice"
+      ],
+      "37": [
+        "pregnant"
+      ],
+      "38": [
+        "shoulders"
+      ],
+      "39": [
+        "police"
+      ],
+      "40": [
+        "temperature"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-20-4": {
+    "book": 20,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Kings",
+        "King's"
+      ],
+      "2": [
+        "125",
+        "£125",
+        "one hundred and twenty-five",
+        "one hundred twenty-five",
+        "£one hundred and twenty-five",
+        "£one hundred twenty-five"
+      ],
+      "3": [
+        "walking"
+      ],
+      "4": [
+        "boat"
+      ],
+      "5": [
+        "Tuesday"
+      ],
+      "6": [
+        "space"
+      ],
+      "7": [
+        "vegetarian"
+      ],
+      "8": [
+        "2.30",
+        "two thirty"
+      ],
+      "9": [
+        "75",
+        "seventy five"
+      ],
+      "10": [
+        "port"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "D"
+      ],
+      "16": [
+        "F"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "H"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "G"
+      ],
+      "21": [
+        "C"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "C"
+      ],
+      "31": [
+        "rats"
+      ],
+      "32": [
+        "snakes"
+      ],
+      "33": [
+        "tourism"
+      ],
+      "34": [
+        "traffic"
+      ],
+      "35": [
+        "rain"
+      ],
+      "36": [
+        "poison"
+      ],
+      "37": [
+        "building"
+      ],
+      "38": [
+        "dog"
+      ],
+      "39": [
+        "noise"
+      ],
+      "40": [
+        "combination"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-4-verified-key.json"
+      }
+    ]
+  },
+  "listening-21-1": {
+    "book": 21,
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "10",
+        "ten"
+      ],
+      "2": [
+        "weather"
+      ],
+      "3": [
+        "safety"
+      ],
+      "4": [
+        "discount"
+      ],
+      "5": [
+        "dictionary"
+      ],
+      "6": [
+        "certificate"
+      ],
+      "7": [
+        "towel"
+      ],
+      "8": [
+        "café",
+        "cafe"
+      ],
+      "9": [
+        "videos"
+      ],
+      "10": [
+        "lockers"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "A"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "G"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "H"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "E"
+      ],
+      "31": [
+        "metals",
+        "metal"
+      ],
+      "32": [
+        "slow"
+      ],
+      "33": [
+        "demand"
+      ],
+      "34": [
+        "equator"
+      ],
+      "35": [
+        "recycle"
+      ],
+      "36": [
+        "fungus"
+      ],
+      "37": [
+        "weather"
+      ],
+      "38": [
+        "strong"
+      ],
+      "39": [
+        "roots"
+      ],
+      "40": [
+        "soil"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      }
+    ]
+  },
+  "listening-21-2": {
+    "book": 21,
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "13th January",
+        "13 January",
+        "January 13",
+        "January 13th",
+        "13.01",
+        "13.1"
+      ],
+      "2": [
+        "48"
+      ],
+      "3": [
+        "pizza"
+      ],
+      "4": [
+        "India"
+      ],
+      "5": [
+        "mirror"
+      ],
+      "6": [
+        "6th April",
+        "6 April",
+        "April 6",
+        "April 6th",
+        "06.04",
+        "6.4"
+      ],
+      "7": [
+        "natural"
+      ],
+      "8": [
+        "67.50"
+      ],
+      "9": [
+        "shirt"
+      ],
+      "10": [
+        "hammer"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "D"
+      ],
+      "15": [
+        "F"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "H"
+      ],
+      "20": [
+        "E"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "D"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "D"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "A"
+      ],
+      "31": [
+        "pollution"
+      ],
+      "32": [
+        "tax"
+      ],
+      "33": [
+        "chocolate"
+      ],
+      "34": [
+        "timing"
+      ],
+      "35": [
+        "cost"
+      ],
+      "36": [
+        "rules"
+      ],
+      "37": [
+        "diving"
+      ],
+      "38": [
+        "vegan"
+      ],
+      "39": [
+        "wifi",
+        "wi-fi"
+      ],
+      "40": [
+        "videos"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      }
+    ]
+  },
+  "listening-21-3": {
+    "book": 21,
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Northern"
+      ],
+      "2": [
+        "week"
+      ],
+      "3": [
+        "250"
+      ],
+      "4": [
+        "voucher"
+      ],
+      "5": [
+        "window"
+      ],
+      "6": [
+        "books"
+      ],
+      "7": [
+        "blanket"
+      ],
+      "8": [
+        "dolphins"
+      ],
+      "9": [
+        "Drum"
+      ],
+      "10": [
+        "Italian"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "F"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "D"
+      ],
+      "23": [
+        "D"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "G"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "H"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "disease"
+      ],
+      "32": [
+        "ecosystem"
+      ],
+      "33": [
+        "holidays",
+        "holiday"
+      ],
+      "34": [
+        "pets"
+      ],
+      "35": [
+        "sugar"
+      ],
+      "36": [
+        "light"
+      ],
+      "37": [
+        "virus"
+      ],
+      "38": [
+        "behaviour",
+        "behavior"
+      ],
+      "39": [
+        "database"
+      ],
+      "40": [
+        "photograph"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "E"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      }
+    ]
+  },
+  "listening-21-4": {
+    "book": 21,
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Leigh"
+      ],
+      "2": [
+        "motorbike"
+      ],
+      "3": [
+        "hairdresser"
+      ],
+      "4": [
+        "suit"
+      ],
+      "5": [
+        "laptop"
+      ],
+      "6": [
+        "Monday"
+      ],
+      "7": [
+        "coffee"
+      ],
+      "8": [
+        "books"
+      ],
+      "9": [
+        "plants"
+      ],
+      "10": [
+        "cinema"
+      ],
+      "11": [
+        "C"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "F"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "E"
+      ],
+      "26": [
+        "I"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "D"
+      ],
+      "29": [
+        "H"
+      ],
+      "30": [
+        "G"
+      ],
+      "31": [
+        "routine"
+      ],
+      "32": [
+        "trials"
+      ],
+      "33": [
+        "calming"
+      ],
+      "34": [
+        "pillows"
+      ],
+      "35": [
+        "anxiety"
+      ],
+      "36": [
+        "medication"
+      ],
+      "37": [
+        "awake"
+      ],
+      "38": [
+        "distraction"
+      ],
+      "39": [
+        "nature"
+      ],
+      "40": [
+        "volume"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "B"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      {
+        "part": 2,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      {
+        "part": 4,
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      }
+    ]
   }
 }

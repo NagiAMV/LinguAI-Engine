@@ -1,0 +1,338 @@
+{
+  "book": 14,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-14-listening-test-3-answers/",
+  "originalUserDifferences": {
+    "21": "30",
+    "13-14": [
+      "B",
+      "C"
+    ]
+  },
+  "answers": {
+    "1": [
+      "Tesla"
+    ],
+    "2": [
+      "microphone"
+    ],
+    "3": [
+      "exhibition"
+    ],
+    "4": [
+      "wifi"
+    ],
+    "5": [
+      "45"
+    ],
+    "6": [
+      "135"
+    ],
+    "7": [
+      "pool"
+    ],
+    "8": [
+      "airport"
+    ],
+    "9": [
+      "sea"
+    ],
+    "10": [
+      "clubs"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "F"
+    ],
+    "16": [
+      "A"
+    ],
+    "17": [
+      "E"
+    ],
+    "18": [
+      "G"
+    ],
+    "19": [
+      "D"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "50"
+    ],
+    "22": [
+      "regional"
+    ],
+    "23": [
+      "carnival"
+    ],
+    "24": [
+      "drummer"
+    ],
+    "25": [
+      "film"
+    ],
+    "26": [
+      "parade"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "E"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "violin"
+    ],
+    "32": [
+      "energy"
+    ],
+    "33": [
+      "complex"
+    ],
+    "34": [
+      "opera"
+    ],
+    "35": [
+      "disturbing"
+    ],
+    "36": [
+      "clarinet"
+    ],
+    "37": [
+      "diversity"
+    ],
+    "38": [
+      "physics"
+    ],
+    "39": [
+      "dance"
+    ],
+    "40": [
+      "Olympics"
+    ]
+  },
+  "parts": [
+    {
+      "book": 14,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Tesla"
+        ],
+        "2": [
+          "microphone"
+        ],
+        "3": [
+          "exhibition"
+        ],
+        "4": [
+          "wifi"
+        ],
+        "5": [
+          "45"
+        ],
+        "6": [
+          "135"
+        ],
+        "7": [
+          "pool"
+        ],
+        "8": [
+          "airport"
+        ],
+        "9": [
+          "sea"
+        ],
+        "10": [
+          "clubs"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "A"
+        ],
+        "17": [
+          "E"
+        ],
+        "18": [
+          "G"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "50"
+        ],
+        "22": [
+          "regional"
+        ],
+        "23": [
+          "carnival"
+        ],
+        "24": [
+          "drummer"
+        ],
+        "25": [
+          "film"
+        ],
+        "26": [
+          "parade"
+        ],
+        "27": [
+          "D"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "E"
+        ],
+        "30": [
+          "F"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "violin"
+        ],
+        "32": [
+          "energy"
+        ],
+        "33": [
+          "complex"
+        ],
+        "34": [
+          "opera"
+        ],
+        "35": [
+          "disturbing"
+        ],
+        "36": [
+          "clarinet"
+        ],
+        "37": [
+          "diversity"
+        ],
+        "38": [
+          "physics"
+        ],
+        "39": [
+          "dance"
+        ],
+        "40": [
+          "Olympics"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

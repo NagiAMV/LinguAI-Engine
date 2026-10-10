@@ -1,0 +1,337 @@
+{
+  "book": 15,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-15-listening-test-4-answers/",
+  "additionalSourceUrls": [],
+  "note": "",
+  "answers": {
+    "1": [
+      "journalist"
+    ],
+    "2": [
+      "shopping"
+    ],
+    "3": [
+      "Staunfirth"
+    ],
+    "4": [
+      "return"
+    ],
+    "5": [
+      "23.70"
+    ],
+    "6": [
+      "online"
+    ],
+    "7": [
+      "delay"
+    ],
+    "8": [
+      "information"
+    ],
+    "9": [
+      "platform",
+      "platforms"
+    ],
+    "10": [
+      "parking"
+    ],
+    "11": [
+      "D"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "G"
+    ],
+    "14": [
+      "H"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "E"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "B"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "wealth"
+    ],
+    "32": [
+      "technology"
+    ],
+    "33": [
+      "power"
+    ],
+    "34": [
+      "textile",
+      "textiles"
+    ],
+    "35": [
+      "machines"
+    ],
+    "36": [
+      "newspapers"
+    ],
+    "37": [
+      "local"
+    ],
+    "38": [
+      "lighting"
+    ],
+    "39": [
+      "windows"
+    ],
+    "40": [
+      "advertising"
+    ]
+  },
+  "parts": [
+    {
+      "book": 15,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "journalist"
+        ],
+        "2": [
+          "shopping"
+        ],
+        "3": [
+          "Staunfirth"
+        ],
+        "4": [
+          "return"
+        ],
+        "5": [
+          "23.70"
+        ],
+        "6": [
+          "online"
+        ],
+        "7": [
+          "delay"
+        ],
+        "8": [
+          "information"
+        ],
+        "9": [
+          "platform",
+          "platforms"
+        ],
+        "10": [
+          "parking"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "D"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "G"
+        ],
+        "14": [
+          "H"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "E"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "B"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "wealth"
+        ],
+        "32": [
+          "technology"
+        ],
+        "33": [
+          "power"
+        ],
+        "34": [
+          "textile",
+          "textiles"
+        ],
+        "35": [
+          "machines"
+        ],
+        "36": [
+          "newspapers"
+        ],
+        "37": [
+          "local"
+        ],
+        "38": [
+          "lighting"
+        ],
+        "39": [
+          "windows"
+        ],
+        "40": [
+          "advertising"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

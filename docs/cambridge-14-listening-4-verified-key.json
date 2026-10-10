@@ -1,0 +1,334 @@
+{
+  "book": 14,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-14-listening-test-4-answers/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "85"
+    ],
+    "2": [
+      "roses"
+    ],
+    "3": [
+      "trees"
+    ],
+    "4": [
+      "stage"
+    ],
+    "5": [
+      "speech"
+    ],
+    "6": [
+      "support"
+    ],
+    "7": [
+      "cabins"
+    ],
+    "8": [
+      "C"
+    ],
+    "9": [
+      "A"
+    ],
+    "10": [
+      "B"
+    ],
+    "11": [
+      "G"
+    ],
+    "12": [
+      "D"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "F"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "A"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "F"
+    ],
+    "27": [
+      "E"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "G"
+    ],
+    "31": [
+      "spring"
+    ],
+    "32": [
+      "tools"
+    ],
+    "33": [
+      "maps"
+    ],
+    "34": [
+      "heavy"
+    ],
+    "35": [
+      "marble"
+    ],
+    "36": [
+      "light"
+    ],
+    "37": [
+      "camera",
+      "cameras"
+    ],
+    "38": [
+      "medical"
+    ],
+    "39": [
+      "eyes"
+    ],
+    "40": [
+      "wine"
+    ]
+  },
+  "parts": [
+    {
+      "book": 14,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "85"
+        ],
+        "2": [
+          "roses"
+        ],
+        "3": [
+          "trees"
+        ],
+        "4": [
+          "stage"
+        ],
+        "5": [
+          "speech"
+        ],
+        "6": [
+          "support"
+        ],
+        "7": [
+          "cabins"
+        ],
+        "8": [
+          "C"
+        ],
+        "9": [
+          "A"
+        ],
+        "10": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "G"
+        ],
+        "12": [
+          "D"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "A"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "F"
+        ],
+        "27": [
+          "E"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "G"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "spring"
+        ],
+        "32": [
+          "tools"
+        ],
+        "33": [
+          "maps"
+        ],
+        "34": [
+          "heavy"
+        ],
+        "35": [
+          "marble"
+        ],
+        "36": [
+          "light"
+        ],
+        "37": [
+          "camera",
+          "cameras"
+        ],
+        "38": [
+          "medical"
+        ],
+        "39": [
+          "eyes"
+        ],
+        "40": [
+          "wine"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

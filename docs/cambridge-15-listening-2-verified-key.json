@@ -1,0 +1,339 @@
+{
+  "book": 15,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-15-listening-test-2-answers/",
+  "additionalSourceUrls": [],
+  "note": "",
+  "answers": {
+    "1": [
+      "Eustatis"
+    ],
+    "2": [
+      "review"
+    ],
+    "3": [
+      "dance"
+    ],
+    "4": [
+      "chat"
+    ],
+    "5": [
+      "healthy"
+    ],
+    "6": [
+      "posters"
+    ],
+    "7": [
+      "wood"
+    ],
+    "8": [
+      "lake"
+    ],
+    "9": [
+      "insects"
+    ],
+    "10": [
+      "blog"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "E"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "G"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "C"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "F"
+    ],
+    "31": [
+      "irrigation"
+    ],
+    "32": [
+      "women"
+    ],
+    "33": [
+      "wire",
+      "wires"
+    ],
+    "34": [
+      "seed",
+      "seeds"
+    ],
+    "35": [
+      "posts"
+    ],
+    "36": [
+      "transport"
+    ],
+    "37": [
+      "preservation"
+    ],
+    "38": [
+      "fish",
+      "fishes"
+    ],
+    "39": [
+      "bees"
+    ],
+    "40": [
+      "design"
+    ]
+  },
+  "parts": [
+    {
+      "book": 15,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Eustatis"
+        ],
+        "2": [
+          "review"
+        ],
+        "3": [
+          "dance"
+        ],
+        "4": [
+          "chat"
+        ],
+        "5": [
+          "healthy"
+        ],
+        "6": [
+          "posters"
+        ],
+        "7": [
+          "wood"
+        ],
+        "8": [
+          "lake"
+        ],
+        "9": [
+          "insects"
+        ],
+        "10": [
+          "blog"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "G"
+        ],
+        "20": [
+          "D"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "C"
+        ],
+        "25": [
+          "G"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "D"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "H"
+        ],
+        "30": [
+          "F"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 15,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "irrigation"
+        ],
+        "32": [
+          "women"
+        ],
+        "33": [
+          "wire",
+          "wires"
+        ],
+        "34": [
+          "seed",
+          "seeds"
+        ],
+        "35": [
+          "posts"
+        ],
+        "36": [
+          "transport"
+        ],
+        "37": [
+          "preservation"
+        ],
+        "38": [
+          "fish",
+          "fishes"
+        ],
+        "39": [
+          "bees"
+        ],
+        "40": [
+          "design"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

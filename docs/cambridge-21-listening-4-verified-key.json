@@ -1,0 +1,332 @@
+{
+  "book": 21,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://www.hightargets.com/answers/cambridge-21-listening-test-4/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "Leigh"
+    ],
+    "2": [
+      "motorbike"
+    ],
+    "3": [
+      "hairdresser"
+    ],
+    "4": [
+      "suit"
+    ],
+    "5": [
+      "laptop"
+    ],
+    "6": [
+      "Monday"
+    ],
+    "7": [
+      "coffee"
+    ],
+    "8": [
+      "books"
+    ],
+    "9": [
+      "plants"
+    ],
+    "10": [
+      "cinema"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "G"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "F"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "E"
+    ],
+    "26": [
+      "I"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "G"
+    ],
+    "31": [
+      "routine"
+    ],
+    "32": [
+      "trials"
+    ],
+    "33": [
+      "calming"
+    ],
+    "34": [
+      "pillows"
+    ],
+    "35": [
+      "anxiety"
+    ],
+    "36": [
+      "medication"
+    ],
+    "37": [
+      "awake"
+    ],
+    "38": [
+      "distraction"
+    ],
+    "39": [
+      "nature"
+    ],
+    "40": [
+      "volume"
+    ]
+  },
+  "parts": [
+    {
+      "book": 21,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Leigh"
+        ],
+        "2": [
+          "motorbike"
+        ],
+        "3": [
+          "hairdresser"
+        ],
+        "4": [
+          "suit"
+        ],
+        "5": [
+          "laptop"
+        ],
+        "6": [
+          "Monday"
+        ],
+        "7": [
+          "coffee"
+        ],
+        "8": [
+          "books"
+        ],
+        "9": [
+          "plants"
+        ],
+        "10": [
+          "cinema"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "G"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "F"
+        ],
+        "20": [
+          "B"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "B"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "E"
+        ],
+        "26": [
+          "I"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "H"
+        ],
+        "30": [
+          "G"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "routine"
+        ],
+        "32": [
+          "trials"
+        ],
+        "33": [
+          "calming"
+        ],
+        "34": [
+          "pillows"
+        ],
+        "35": [
+          "anxiety"
+        ],
+        "36": [
+          "medication"
+        ],
+        "37": [
+          "awake"
+        ],
+        "38": [
+          "distraction"
+        ],
+        "39": [
+          "nature"
+        ],
+        "40": [
+          "volume"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "book": 14,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-14-listening-test-1-answers/",
+  "originalUserDifferences": {
+    "20": "C"
+  },
+  "answers": {
+    "1": [
+      "Canadian"
+    ],
+    "2": [
+      "furniture"
+    ],
+    "3": [
+      "Park"
+    ],
+    "4": [
+      "250",
+      "250 sterling"
+    ],
+    "5": [
+      "phone"
+    ],
+    "6": [
+      "10 September",
+      "10th September"
+    ],
+    "7": [
+      "museum"
+    ],
+    "8": [
+      "time"
+    ],
+    "9": [
+      "blond",
+      "blonde"
+    ],
+    "10": [
+      "87954 82361"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "F"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "industry"
+    ],
+    "32": [
+      "constant"
+    ],
+    "33": [
+      "direction"
+    ],
+    "34": [
+      "floor"
+    ],
+    "35": [
+      "predictable"
+    ],
+    "36": [
+      "bay"
+    ],
+    "37": [
+      "gates"
+    ],
+    "38": [
+      "fuel"
+    ],
+    "39": [
+      "jobs"
+    ],
+    "40": [
+      "migration"
+    ]
+  },
+  "parts": [
+    {
+      "book": 14,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Canadian"
+        ],
+        "2": [
+          "furniture"
+        ],
+        "3": [
+          "Park"
+        ],
+        "4": [
+          "250",
+          "250 sterling"
+        ],
+        "5": [
+          "phone"
+        ],
+        "6": [
+          "10 September",
+          "10th September"
+        ],
+        "7": [
+          "museum"
+        ],
+        "8": [
+          "time"
+        ],
+        "9": [
+          "blond",
+          "blonde"
+        ],
+        "10": [
+          "87954 82361"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 14,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "F"
+        ],
+        "29": [
+          "G"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "industry"
+        ],
+        "32": [
+          "constant"
+        ],
+        "33": [
+          "direction"
+        ],
+        "34": [
+          "floor"
+        ],
+        "35": [
+          "predictable"
+        ],
+        "36": [
+          "bay"
+        ],
+        "37": [
+          "gates"
+        ],
+        "38": [
+          "fuel"
+        ],
+        "39": [
+          "jobs"
+        ],
+        "40": [
+          "migration"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

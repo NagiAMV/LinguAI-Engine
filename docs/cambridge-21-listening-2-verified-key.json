@@ -1,0 +1,391 @@
+{
+  "book": 21,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://www.hightargets.com/answers/cambridge-21-listening-test-2/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "13th January",
+      "13 January",
+      "January 13",
+      "January 13th",
+      "13.01",
+      "13.1"
+    ],
+    "2": [
+      "48"
+    ],
+    "3": [
+      "pizza"
+    ],
+    "4": [
+      "India"
+    ],
+    "5": [
+      "mirror"
+    ],
+    "6": [
+      "6th April",
+      "6 April",
+      "April 6",
+      "April 6th",
+      "06.04",
+      "6.4"
+    ],
+    "7": [
+      "natural"
+    ],
+    "8": [
+      "67.50"
+    ],
+    "9": [
+      "shirt"
+    ],
+    "10": [
+      "hammer"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "D"
+    ],
+    "15": [
+      "F"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "H"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "D"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "F"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "pollution"
+    ],
+    "32": [
+      "tax"
+    ],
+    "33": [
+      "chocolate"
+    ],
+    "34": [
+      "timing"
+    ],
+    "35": [
+      "cost"
+    ],
+    "36": [
+      "rules"
+    ],
+    "37": [
+      "diving"
+    ],
+    "38": [
+      "vegan"
+    ],
+    "39": [
+      "wifi",
+      "wi-fi"
+    ],
+    "40": [
+      "videos"
+    ]
+  },
+  "parts": [
+    {
+      "book": 21,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "13th January",
+          "13 January",
+          "January 13",
+          "January 13th",
+          "13.01",
+          "13.1"
+        ],
+        "2": [
+          "48"
+        ],
+        "3": [
+          "pizza"
+        ],
+        "4": [
+          "India"
+        ],
+        "5": [
+          "mirror"
+        ],
+        "6": [
+          "6th April",
+          "6 April",
+          "April 6",
+          "April 6th",
+          "06.04",
+          "6.4"
+        ],
+        "7": [
+          "natural"
+        ],
+        "8": [
+          "67.50"
+        ],
+        "9": [
+          "shirt"
+        ],
+        "10": [
+          "hammer"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "D"
+        ],
+        "15": [
+          "F"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "H"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "D"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "F"
+        ],
+        "30": [
+          "A"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            25,
+            26
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "pollution"
+        ],
+        "32": [
+          "tax"
+        ],
+        "33": [
+          "chocolate"
+        ],
+        "34": [
+          "timing"
+        ],
+        "35": [
+          "cost"
+        ],
+        "36": [
+          "rules"
+        ],
+        "37": [
+          "diving"
+        ],
+        "38": [
+          "vegan"
+        ],
+        "39": [
+          "wifi",
+          "wi-fi"
+        ],
+        "40": [
+          "videos"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

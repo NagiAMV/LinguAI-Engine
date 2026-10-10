@@ -1,0 +1,314 @@
+{
+  "book": 20,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsbeacon.com/ielts-answers/listening/cambridge-ielts-20-test-3/",
+  "originalUserDifferences": {
+    "1": "£239 (currency symbol in transcript; imported question uses dollars)",
+    "4": "Apron"
+  },
+  "answers": {
+    "1": [
+      "239",
+      "two hundred and thirty-nine",
+      "two hundred thirty-nine"
+    ],
+    "2": [
+      "modern"
+    ],
+    "3": [
+      "lamp"
+    ],
+    "4": [
+      "Aaron"
+    ],
+    "5": [
+      "damage"
+    ],
+    "6": [
+      "electronic"
+    ],
+    "7": [
+      "insurance"
+    ],
+    "8": [
+      "space"
+    ],
+    "9": [
+      "app"
+    ],
+    "10": [
+      "exchanges"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "G"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "E"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "adaptation"
+    ],
+    "32": [
+      "cognitive"
+    ],
+    "33": [
+      "desks"
+    ],
+    "34": [
+      "taps"
+    ],
+    "35": [
+      "blue"
+    ],
+    "36": [
+      "voice"
+    ],
+    "37": [
+      "pregnant"
+    ],
+    "38": [
+      "shoulders"
+    ],
+    "39": [
+      "police"
+    ],
+    "40": [
+      "temperature"
+    ]
+  },
+  "parts": [
+    {
+      "book": 20,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "239",
+          "two hundred and thirty-nine",
+          "two hundred thirty-nine"
+        ],
+        "2": [
+          "modern"
+        ],
+        "3": [
+          "lamp"
+        ],
+        "4": [
+          "Aaron"
+        ],
+        "5": [
+          "damage"
+        ],
+        "6": [
+          "electronic"
+        ],
+        "7": [
+          "insurance"
+        ],
+        "8": [
+          "space"
+        ],
+        "9": [
+          "app"
+        ],
+        "10": [
+          "exchanges"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "G"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "F"
+        ],
+        "28": [
+          "E"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "D"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 20,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-20-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "adaptation"
+        ],
+        "32": [
+          "cognitive"
+        ],
+        "33": [
+          "desks"
+        ],
+        "34": [
+          "taps"
+        ],
+        "35": [
+          "blue"
+        ],
+        "36": [
+          "voice"
+        ],
+        "37": [
+          "pregnant"
+        ],
+        "38": [
+          "shoulders"
+        ],
+        "39": [
+          "police"
+        ],
+        "40": [
+          "temperature"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

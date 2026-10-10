@@ -1,0 +1,309 @@
+{
+  "book": 14,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-14-listening-test-2-answers/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "219 442 9785"
+    ],
+    "2": [
+      "10 October",
+      "10th October"
+    ],
+    "3": [
+      "manager"
+    ],
+    "4": [
+      "Cawley"
+    ],
+    "5": [
+      "knee"
+    ],
+    "6": [
+      "3 weeks"
+    ],
+    "7": [
+      "tennis"
+    ],
+    "8": [
+      "running"
+    ],
+    "9": [
+      "shoulder"
+    ],
+    "10": [
+      "vitamins"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "H"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "F"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "E"
+    ],
+    "26": [
+      "D"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "H"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "dances"
+    ],
+    "32": [
+      "survival"
+    ],
+    "33": [
+      "clouds"
+    ],
+    "34": [
+      "festivals"
+    ],
+    "35": [
+      "comets"
+    ],
+    "36": [
+      "sky"
+    ],
+    "37": [
+      "instruments"
+    ],
+    "38": [
+      "thermometer"
+    ],
+    "39": [
+      "storms"
+    ],
+    "40": [
+      "telegraph"
+    ]
+  },
+  "parts": [
+    {
+      "book": 14,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "219 442 9785"
+        ],
+        "2": [
+          "10 October",
+          "10th October"
+        ],
+        "3": [
+          "manager"
+        ],
+        "4": [
+          "Cawley"
+        ],
+        "5": [
+          "knee"
+        ],
+        "6": [
+          "3 weeks"
+        ],
+        "7": [
+          "tennis"
+        ],
+        "8": [
+          "running"
+        ],
+        "9": [
+          "shoulder"
+        ],
+        "10": [
+          "vitamins"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "H"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "F"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "E"
+        ],
+        "26": [
+          "D"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "H"
+        ],
+        "29": [
+          "G"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 14,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 14 key and imported questions",
+        "reference": "docs/cambridge-14-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "dances"
+        ],
+        "32": [
+          "survival"
+        ],
+        "33": [
+          "clouds"
+        ],
+        "34": [
+          "festivals"
+        ],
+        "35": [
+          "comets"
+        ],
+        "36": [
+          "sky"
+        ],
+        "37": [
+          "instruments"
+        ],
+        "38": [
+          "thermometer"
+        ],
+        "39": [
+          "storms"
+        ],
+        "40": [
+          "telegraph"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

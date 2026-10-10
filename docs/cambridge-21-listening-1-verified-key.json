@@ -1,0 +1,338 @@
+{
+  "book": 21,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsroom.uz/cambridge/cambridge-21-listening-test-1",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "10",
+      "ten"
+    ],
+    "2": [
+      "weather"
+    ],
+    "3": [
+      "safety"
+    ],
+    "4": [
+      "discount"
+    ],
+    "5": [
+      "dictionary"
+    ],
+    "6": [
+      "certificate"
+    ],
+    "7": [
+      "towel"
+    ],
+    "8": [
+      "café",
+      "cafe"
+    ],
+    "9": [
+      "videos"
+    ],
+    "10": [
+      "lockers"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "B"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "C"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "E"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "H"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "E"
+    ],
+    "31": [
+      "metals",
+      "metal"
+    ],
+    "32": [
+      "slow"
+    ],
+    "33": [
+      "demand"
+    ],
+    "34": [
+      "equator"
+    ],
+    "35": [
+      "recycle"
+    ],
+    "36": [
+      "fungus"
+    ],
+    "37": [
+      "weather"
+    ],
+    "38": [
+      "strong"
+    ],
+    "39": [
+      "roots"
+    ],
+    "40": [
+      "soil"
+    ]
+  },
+  "parts": [
+    {
+      "book": 21,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "10",
+          "ten"
+        ],
+        "2": [
+          "weather"
+        ],
+        "3": [
+          "safety"
+        ],
+        "4": [
+          "discount"
+        ],
+        "5": [
+          "dictionary"
+        ],
+        "6": [
+          "certificate"
+        ],
+        "7": [
+          "towel"
+        ],
+        "8": [
+          "café",
+          "cafe"
+        ],
+        "9": [
+          "videos"
+        ],
+        "10": [
+          "lockers"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "B"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "G"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "F"
+        ],
+        "28": [
+          "H"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "metals",
+          "metal"
+        ],
+        "32": [
+          "slow"
+        ],
+        "33": [
+          "demand"
+        ],
+        "34": [
+          "equator"
+        ],
+        "35": [
+          "recycle"
+        ],
+        "36": [
+          "fungus"
+        ],
+        "37": [
+          "weather"
+        ],
+        "38": [
+          "strong"
+        ],
+        "39": [
+          "roots"
+        ],
+        "40": [
+          "soil"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

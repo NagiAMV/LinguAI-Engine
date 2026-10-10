@@ -1,0 +1,345 @@
+{
+  "book": 15,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-15-listening-test-3-answers/",
+  "additionalSourceUrls": [],
+  "note": "Q5 alternatives are 1 year and one year; year is not preprinted in the imported question.",
+  "answers": {
+    "1": [
+      "furniture"
+    ],
+    "2": [
+      "meetings"
+    ],
+    "3": [
+      "diary"
+    ],
+    "4": [
+      "detail",
+      "details"
+    ],
+    "5": [
+      "1 year",
+      "one year"
+    ],
+    "6": [
+      "deliveries"
+    ],
+    "7": [
+      "tidy"
+    ],
+    "8": [
+      "team"
+    ],
+    "9": [
+      "heavy"
+    ],
+    "10": [
+      "customer"
+    ],
+    "11": [
+      "B"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "B"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "E"
+    ],
+    "21": [
+      "page"
+    ],
+    "22": [
+      "size"
+    ],
+    "23": [
+      "graphic",
+      "graphics"
+    ],
+    "24": [
+      "structure"
+    ],
+    "25": [
+      "purpose"
+    ],
+    "26": [
+      "assumption",
+      "assumptions"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "C"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "B"
+    ],
+    "31": [
+      "mud"
+    ],
+    "32": [
+      "clay"
+    ],
+    "33": [
+      "metal"
+    ],
+    "34": [
+      "hair"
+    ],
+    "35": [
+      "bath",
+      "baths"
+    ],
+    "36": [
+      "disease",
+      "diseases"
+    ],
+    "37": [
+      "perfume"
+    ],
+    "38": [
+      "salt"
+    ],
+    "39": [
+      "science"
+    ],
+    "40": [
+      "tax"
+    ]
+  },
+  "parts": [
+    {
+      "book": 15,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "furniture"
+        ],
+        "2": [
+          "meetings"
+        ],
+        "3": [
+          "diary"
+        ],
+        "4": [
+          "detail",
+          "details"
+        ],
+        "5": [
+          "1 year",
+          "one year"
+        ],
+        "6": [
+          "deliveries"
+        ],
+        "7": [
+          "tidy"
+        ],
+        "8": [
+          "team"
+        ],
+        "9": [
+          "heavy"
+        ],
+        "10": [
+          "customer"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "B"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "B"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "E"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            17,
+            18
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            19,
+            20
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 15,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "page"
+        ],
+        "22": [
+          "size"
+        ],
+        "23": [
+          "graphic",
+          "graphics"
+        ],
+        "24": [
+          "structure"
+        ],
+        "25": [
+          "purpose"
+        ],
+        "26": [
+          "assumption",
+          "assumptions"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "C"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 15,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 15 key and imported questions",
+        "reference": "docs/cambridge-15-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "mud"
+        ],
+        "32": [
+          "clay"
+        ],
+        "33": [
+          "metal"
+        ],
+        "34": [
+          "hair"
+        ],
+        "35": [
+          "bath",
+          "baths"
+        ],
+        "36": [
+          "disease",
+          "diseases"
+        ],
+        "37": [
+          "perfume"
+        ],
+        "38": [
+          "salt"
+        ],
+        "39": [
+          "science"
+        ],
+        "40": [
+          "tax"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

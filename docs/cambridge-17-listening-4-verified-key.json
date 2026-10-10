@@ -1,0 +1,338 @@
+{
+  "book": 17,
+  "test": 4,
+  "module": "listening",
+  "sourceUrl": "https://ieltsextremes.com/cambridge-17-listening-test-4-answers/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "floor",
+      "floors"
+    ],
+    "2": [
+      "fridge"
+    ],
+    "3": [
+      "shirts"
+    ],
+    "4": [
+      "windows"
+    ],
+    "5": [
+      "balcony"
+    ],
+    "6": [
+      "electrician"
+    ],
+    "7": [
+      "dust"
+    ],
+    "8": [
+      "police"
+    ],
+    "9": [
+      "training"
+    ],
+    "10": [
+      "review"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "A"
+    ],
+    "13": [
+      "A"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "A"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "B"
+    ],
+    "18": [
+      "C"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "E"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "D"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "F"
+    ],
+    "27": [
+      "A"
+    ],
+    "28": [
+      "D"
+    ],
+    "29": [
+      "C"
+    ],
+    "30": [
+      "G"
+    ],
+    "31": [
+      "golden"
+    ],
+    "32": [
+      "healthy"
+    ],
+    "33": [
+      "climate"
+    ],
+    "34": [
+      "rock",
+      "rocks"
+    ],
+    "35": [
+      "diameter"
+    ],
+    "36": [
+      "tube"
+    ],
+    "37": [
+      "fire"
+    ],
+    "38": [
+      "steam"
+    ],
+    "39": [
+      "cloudy"
+    ],
+    "40": [
+      "litre",
+      "liter"
+    ]
+  },
+  "parts": [
+    {
+      "book": 17,
+      "test": 4,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "floor",
+          "floors"
+        ],
+        "2": [
+          "fridge"
+        ],
+        "3": [
+          "shirts"
+        ],
+        "4": [
+          "windows"
+        ],
+        "5": [
+          "balcony"
+        ],
+        "6": [
+          "electrician"
+        ],
+        "7": [
+          "dust"
+        ],
+        "8": [
+          "police"
+        ],
+        "9": [
+          "training"
+        ],
+        "10": [
+          "review"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 17,
+      "test": 4,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "A"
+        ],
+        "13": [
+          "A"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "A"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "B"
+        ],
+        "18": [
+          "C"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 17,
+      "test": 4,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "E"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "D"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "F"
+        ],
+        "27": [
+          "A"
+        ],
+        "28": [
+          "D"
+        ],
+        "29": [
+          "C"
+        ],
+        "30": [
+          "G"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "D"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 17,
+      "test": 4,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key verified against published Cambridge 17 key and imported question numbering",
+        "reference": "docs/cambridge-17-listening-4-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "golden"
+        ],
+        "32": [
+          "healthy"
+        ],
+        "33": [
+          "climate"
+        ],
+        "34": [
+          "rock",
+          "rocks"
+        ],
+        "35": [
+          "diameter"
+        ],
+        "36": [
+          "tube"
+        ],
+        "37": [
+          "fire"
+        ],
+        "38": [
+          "steam"
+        ],
+        "39": [
+          "cloudy"
+        ],
+        "40": [
+          "litre",
+          "liter"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

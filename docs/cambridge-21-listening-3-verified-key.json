@@ -1,0 +1,361 @@
+{
+  "book": 21,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://www.hightargets.com/answers/cambridge-21-listening-test-3/",
+  "originalUserDifferences": {},
+  "answers": {
+    "1": [
+      "Northern"
+    ],
+    "2": [
+      "week"
+    ],
+    "3": [
+      "250"
+    ],
+    "4": [
+      "voucher"
+    ],
+    "5": [
+      "window"
+    ],
+    "6": [
+      "books"
+    ],
+    "7": [
+      "blanket"
+    ],
+    "8": [
+      "dolphins"
+    ],
+    "9": [
+      "Drum"
+    ],
+    "10": [
+      "Italian"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "E"
+    ],
+    "15": [
+      "B"
+    ],
+    "16": [
+      "C"
+    ],
+    "17": [
+      "F"
+    ],
+    "18": [
+      "A"
+    ],
+    "19": [
+      "B"
+    ],
+    "20": [
+      "D"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "D"
+    ],
+    "24": [
+      "E"
+    ],
+    "25": [
+      "G"
+    ],
+    "26": [
+      "B"
+    ],
+    "27": [
+      "F"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "H"
+    ],
+    "30": [
+      "D"
+    ],
+    "31": [
+      "disease"
+    ],
+    "32": [
+      "ecosystem"
+    ],
+    "33": [
+      "holidays",
+      "holiday"
+    ],
+    "34": [
+      "pets"
+    ],
+    "35": [
+      "sugar"
+    ],
+    "36": [
+      "light"
+    ],
+    "37": [
+      "virus"
+    ],
+    "38": [
+      "behaviour",
+      "behavior"
+    ],
+    "39": [
+      "database"
+    ],
+    "40": [
+      "photograph"
+    ]
+  },
+  "parts": [
+    {
+      "book": 21,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Northern"
+        ],
+        "2": [
+          "week"
+        ],
+        "3": [
+          "250"
+        ],
+        "4": [
+          "voucher"
+        ],
+        "5": [
+          "window"
+        ],
+        "6": [
+          "books"
+        ],
+        "7": [
+          "blanket"
+        ],
+        "8": [
+          "dolphins"
+        ],
+        "9": [
+          "Drum"
+        ],
+        "10": [
+          "Italian"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 21,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "E"
+        ],
+        "15": [
+          "B"
+        ],
+        "16": [
+          "C"
+        ],
+        "17": [
+          "F"
+        ],
+        "18": [
+          "A"
+        ],
+        "19": [
+          "B"
+        ],
+        "20": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "D"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "G"
+        ],
+        "26": [
+          "B"
+        ],
+        "27": [
+          "F"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "H"
+        ],
+        "30": [
+          "D"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "D",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 21,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key checked against published answer key and imported question numbering",
+        "reference": "docs/cambridge-21-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "disease"
+        ],
+        "32": [
+          "ecosystem"
+        ],
+        "33": [
+          "holidays",
+          "holiday"
+        ],
+        "34": [
+          "pets"
+        ],
+        "35": [
+          "sugar"
+        ],
+        "36": [
+          "light"
+        ],
+        "37": [
+          "virus"
+        ],
+        "38": [
+          "behaviour",
+          "behavior"
+        ],
+        "39": [
+          "database"
+        ],
+        "40": [
+          "photograph"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

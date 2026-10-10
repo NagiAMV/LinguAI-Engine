@@ -1,0 +1,365 @@
+{
+  "book": 16,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-16-listening-test-3-answers/",
+  "originalUserDifferences": {
+    "16": "B",
+    "19": "F",
+    "28": "B",
+    "13-14": [
+      "C",
+      "E"
+    ]
+  },
+  "answers": {
+    "1": [
+      "park"
+    ],
+    "2": [
+      "blue"
+    ],
+    "3": [
+      "reference"
+    ],
+    "4": [
+      "story"
+    ],
+    "5": [
+      "rain"
+    ],
+    "6": [
+      "snack"
+    ],
+    "7": [
+      "medication"
+    ],
+    "8": [
+      "helmet"
+    ],
+    "9": [
+      "tent"
+    ],
+    "10": [
+      "199"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "C"
+    ],
+    "15": [
+      "D"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "A"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "C"
+    ],
+    "20": [
+      "G"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "D"
+    ],
+    "23": [
+      "C"
+    ],
+    "24": [
+      "E"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "A"
+    ],
+    "27": [
+      "B"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "A"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "grandmother"
+    ],
+    "32": [
+      "decade"
+    ],
+    "33": [
+      "equipment"
+    ],
+    "34": [
+      "economic"
+    ],
+    "35": [
+      "basic"
+    ],
+    "36": [
+      "round"
+    ],
+    "37": [
+      "bone"
+    ],
+    "38": [
+      "rough"
+    ],
+    "39": [
+      "style"
+    ],
+    "40": [
+      "sheep"
+    ]
+  },
+  "parts": [
+    {
+      "book": 16,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "park"
+        ],
+        "2": [
+          "blue"
+        ],
+        "3": [
+          "reference"
+        ],
+        "4": [
+          "story"
+        ],
+        "5": [
+          "rain"
+        ],
+        "6": [
+          "snack"
+        ],
+        "7": [
+          "medication"
+        ],
+        "8": [
+          "helmet"
+        ],
+        "9": [
+          "tent"
+        ],
+        "10": [
+          "199"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "C"
+        ],
+        "15": [
+          "D"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "A"
+        ],
+        "18": [
+          "H"
+        ],
+        "19": [
+          "C"
+        ],
+        "20": [
+          "G"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            13,
+            14
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "D"
+        ],
+        "23": [
+          "C"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "A"
+        ],
+        "27": [
+          "B"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "A"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "D"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 16,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User key corrected against published Cambridge 16 key and imported questions/audio transcripts",
+        "reference": "docs/cambridge-16-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "grandmother"
+        ],
+        "32": [
+          "decade"
+        ],
+        "33": [
+          "equipment"
+        ],
+        "34": [
+          "economic"
+        ],
+        "35": [
+          "basic"
+        ],
+        "36": [
+          "round"
+        ],
+        "37": [
+          "bone"
+        ],
+        "38": [
+          "rough"
+        ],
+        "39": [
+          "style"
+        ],
+        "40": [
+          "sheep"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}
