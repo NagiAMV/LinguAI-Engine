@@ -1371,3 +1371,11 @@ test('Cambridge 9 Listening verified keys preserve printed context and reject tr
  for(const [t,n,v] of [[1,21,'D'],[2,12,'Sunday'],[3,33,'B'],[4,38,'pesticides']])assert.equal(reviewAnswer(v,[n],k[`listening-9-${t}`]).status,'incorrect');
  for(const [t,nums,set] of [[1,[19,20],['E','A']],[4,[5,6],['E','B']]]){assert.equal(reviewAnswer(set,nums,k[`listening-9-${t}`],true).status,'correct');assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-9-${t}`],true).status,'incorrect');}
 });
+
+test('Cambridge 10 Listening verified keys preserve corrected words and independent pairs', () => {
+ const k=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ for(let t=1;t<=4;t++)assert.equal(Object.keys(k[`listening-10-${t}`].answers).length,40);
+ for(const [t,n,v] of [[1,9,'429'],[1,31,'gene'],[1,32,'powers'],[2,3,'GT8 2LC'],[2,4,'hairdresser'],[3,9,'aunt'],[3,34,'friend'],[3,35,'aspirations'],[4,16,'trains']])assert.equal(reviewAnswer(v,[n],k[`listening-10-${t}`]).status,'correct');
+ for(const [t,n,v] of [[1,31,'gone'],[1,32,'powerful'],[2,4,'cash'],[3,9,'hurt'],[4,16,'tourist attractions in Manham']])assert.equal(reviewAnswer(v,[n],k[`listening-10-${t}`]).status,'incorrect');
+ for(const [t,nums,set] of [[1,[11,12],['C','A']],[2,[21,22],['C','B']],[2,[23,24],['E','B']],[3,[11,12],['E','C']],[4,[21,22],['E','A']],[4,[23,24],['C','B']]]){assert.equal(reviewAnswer(set,nums,k[`listening-10-${t}`],true).status,'correct');assert.equal(reviewAnswer([set[0],set[0]],nums,k[`listening-10-${t}`],true).status,'incorrect');}
+});

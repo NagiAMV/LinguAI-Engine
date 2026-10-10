@@ -1,0 +1,330 @@
+{
+  "book": 10,
+  "test": 1,
+  "module": "listening",
+  "sourceUrl": "https://ieltsextremes.com/cambridge-10-listening-test-1-answers/",
+  "answers": {
+    "1": [
+      "Ardleigh"
+    ],
+    "2": [
+      "newspaper"
+    ],
+    "3": [
+      "theme"
+    ],
+    "4": [
+      "tent"
+    ],
+    "5": [
+      "castle"
+    ],
+    "6": [
+      "beach",
+      "beaches"
+    ],
+    "7": [
+      "2020"
+    ],
+    "8": [
+      "flight"
+    ],
+    "9": [
+      "429"
+    ],
+    "10": [
+      "dinner"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "health problems"
+    ],
+    "14": [
+      "safety rules"
+    ],
+    "15": [
+      "plan"
+    ],
+    "16": [
+      "joining"
+    ],
+    "17": [
+      "free entry"
+    ],
+    "18": [
+      "peak"
+    ],
+    "19": [
+      "guests"
+    ],
+    "20": [
+      "photo card",
+      "photo cards"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "A"
+    ],
+    "25": [
+      "C"
+    ],
+    "26": [
+      "presentation"
+    ],
+    "27": [
+      "model"
+    ],
+    "28": [
+      "material",
+      "materials"
+    ],
+    "29": [
+      "grant"
+    ],
+    "30": [
+      "technical"
+    ],
+    "31": [
+      "gene"
+    ],
+    "32": [
+      "power",
+      "powers"
+    ],
+    "33": [
+      "strangers"
+    ],
+    "34": [
+      "erosion"
+    ],
+    "35": [
+      "islands"
+    ],
+    "36": [
+      "roads"
+    ],
+    "37": [
+      "fishing"
+    ],
+    "38": [
+      "reproduction"
+    ],
+    "39": [
+      "method",
+      "methods"
+    ],
+    "40": [
+      "expansion"
+    ]
+  },
+  "note": "Verified source answers saved before import.",
+  "parts": [
+    {
+      "book": 10,
+      "test": 1,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-1-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Ardleigh"
+        ],
+        "2": [
+          "newspaper"
+        ],
+        "3": [
+          "theme"
+        ],
+        "4": [
+          "tent"
+        ],
+        "5": [
+          "castle"
+        ],
+        "6": [
+          "beach",
+          "beaches"
+        ],
+        "7": [
+          "2020"
+        ],
+        "8": [
+          "flight"
+        ],
+        "9": [
+          "429"
+        ],
+        "10": [
+          "dinner"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 1,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-1-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "health problems"
+        ],
+        "14": [
+          "safety rules"
+        ],
+        "15": [
+          "plan"
+        ],
+        "16": [
+          "joining"
+        ],
+        "17": [
+          "free entry"
+        ],
+        "18": [
+          "peak"
+        ],
+        "19": [
+          "guests"
+        ],
+        "20": [
+          "photo card",
+          "photo cards"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "A",
+              "C"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 10,
+      "test": 1,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-1-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "A"
+        ],
+        "25": [
+          "C"
+        ],
+        "26": [
+          "presentation"
+        ],
+        "27": [
+          "model"
+        ],
+        "28": [
+          "material",
+          "materials"
+        ],
+        "29": [
+          "grant"
+        ],
+        "30": [
+          "technical"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 1,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-1-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "gene"
+        ],
+        "32": [
+          "power",
+          "powers"
+        ],
+        "33": [
+          "strangers"
+        ],
+        "34": [
+          "erosion"
+        ],
+        "35": [
+          "islands"
+        ],
+        "36": [
+          "roads"
+        ],
+        "37": [
+          "fishing"
+        ],
+        "38": [
+          "reproduction"
+        ],
+        "39": [
+          "method",
+          "methods"
+        ],
+        "40": [
+          "expansion"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

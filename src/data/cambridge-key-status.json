@@ -20,24 +20,24 @@
     "status": "complete"
   },
   "listening-10-1": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-10-2": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-10-3": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-10-4": {
-    "available": 0,
+    "available": 40,
     "total": 40,
-    "status": "missing"
+    "status": "complete"
   },
   "listening-11-1": {
     "available": 0,

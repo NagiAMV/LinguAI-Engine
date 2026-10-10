@@ -1,0 +1,336 @@
+{
+  "book": 10,
+  "test": 2,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-10-listening-test-2-answers/",
+  "answers": {
+    "1": [
+      "Hardie"
+    ],
+    "2": [
+      "19"
+    ],
+    "3": [
+      "GT8 2LC"
+    ],
+    "4": [
+      "hairdresser"
+    ],
+    "5": [
+      "dentist",
+      "dentist’s",
+      "dentist's"
+    ],
+    "6": [
+      "lighting"
+    ],
+    "7": [
+      "trains"
+    ],
+    "8": [
+      "safe"
+    ],
+    "9": [
+      "shower"
+    ],
+    "10": [
+      "training"
+    ],
+    "11": [
+      "A"
+    ],
+    "12": [
+      "C"
+    ],
+    "13": [
+      "C"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "E"
+    ],
+    "16": [
+      "F"
+    ],
+    "17": [
+      "D"
+    ],
+    "18": [
+      "H"
+    ],
+    "19": [
+      "A"
+    ],
+    "20": [
+      "B"
+    ],
+    "21": [
+      "B"
+    ],
+    "22": [
+      "C"
+    ],
+    "23": [
+      "B"
+    ],
+    "24": [
+      "E"
+    ],
+    "25": [
+      "A"
+    ],
+    "26": [
+      "C"
+    ],
+    "27": [
+      "C"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "B"
+    ],
+    "30": [
+      "A"
+    ],
+    "31": [
+      "competition"
+    ],
+    "32": [
+      "global"
+    ],
+    "33": [
+      "demand"
+    ],
+    "34": [
+      "customers"
+    ],
+    "35": [
+      "regulation"
+    ],
+    "36": [
+      "project"
+    ],
+    "37": [
+      "flexible"
+    ],
+    "38": [
+      "leadership"
+    ],
+    "39": [
+      "women"
+    ],
+    "40": [
+      "self-employed"
+    ]
+  },
+  "note": "Verified source answers saved immediately; original transcription differences will be retained.",
+  "parts": [
+    {
+      "book": 10,
+      "test": 2,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-2-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "Hardie"
+        ],
+        "2": [
+          "19"
+        ],
+        "3": [
+          "GT8 2LC"
+        ],
+        "4": [
+          "hairdresser"
+        ],
+        "5": [
+          "dentist",
+          "dentist’s",
+          "dentist's"
+        ],
+        "6": [
+          "lighting"
+        ],
+        "7": [
+          "trains"
+        ],
+        "8": [
+          "safe"
+        ],
+        "9": [
+          "shower"
+        ],
+        "10": [
+          "training"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 2,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-2-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "A"
+        ],
+        "12": [
+          "C"
+        ],
+        "13": [
+          "C"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "E"
+        ],
+        "16": [
+          "F"
+        ],
+        "17": [
+          "D"
+        ],
+        "18": [
+          "H"
+        ],
+        "19": [
+          "A"
+        ],
+        "20": [
+          "B"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 2,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-2-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "B"
+        ],
+        "22": [
+          "C"
+        ],
+        "23": [
+          "B"
+        ],
+        "24": [
+          "E"
+        ],
+        "25": [
+          "A"
+        ],
+        "26": [
+          "C"
+        ],
+        "27": [
+          "C"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "B"
+        ],
+        "30": [
+          "A"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            21,
+            22
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "C"
+            ]
+          ]
+        },
+        {
+          "questions": [
+            23,
+            24
+          ],
+          "acceptedSets": [
+            [
+              "B",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 10,
+      "test": 2,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-2-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "competition"
+        ],
+        "32": [
+          "global"
+        ],
+        "33": [
+          "demand"
+        ],
+        "34": [
+          "customers"
+        ],
+        "35": [
+          "regulation"
+        ],
+        "36": [
+          "project"
+        ],
+        "37": [
+          "flexible"
+        ],
+        "38": [
+          "leadership"
+        ],
+        "39": [
+          "women"
+        ],
+        "40": [
+          "self-employed"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

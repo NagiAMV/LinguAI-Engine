@@ -1,0 +1,328 @@
+{
+  "book": 10,
+  "test": 3,
+  "module": "listening",
+  "sourceUrl": "https://ieltsprogress.com/cambridge-10-listening-test-3-answers/",
+  "answers": {
+    "1": [
+      "4"
+    ],
+    "2": [
+      "46 Wombat"
+    ],
+    "3": [
+      "Thursday"
+    ],
+    "4": [
+      "8.30"
+    ],
+    "5": [
+      "red"
+    ],
+    "6": [
+      "lunch"
+    ],
+    "7": [
+      "glasses"
+    ],
+    "8": [
+      "ball"
+    ],
+    "9": [
+      "aunt"
+    ],
+    "10": [
+      "month"
+    ],
+    "11": [
+      "C"
+    ],
+    "12": [
+      "E"
+    ],
+    "13": [
+      "B"
+    ],
+    "14": [
+      "A"
+    ],
+    "15": [
+      "C"
+    ],
+    "16": [
+      "B"
+    ],
+    "17": [
+      "C"
+    ],
+    "18": [
+      "D"
+    ],
+    "19": [
+      "D"
+    ],
+    "20": [
+      "A"
+    ],
+    "21": [
+      "C"
+    ],
+    "22": [
+      "A"
+    ],
+    "23": [
+      "A"
+    ],
+    "24": [
+      "B"
+    ],
+    "25": [
+      "B"
+    ],
+    "26": [
+      "E"
+    ],
+    "27": [
+      "D"
+    ],
+    "28": [
+      "A"
+    ],
+    "29": [
+      "G"
+    ],
+    "30": [
+      "C"
+    ],
+    "31": [
+      "achievement",
+      "achievements"
+    ],
+    "32": [
+      "personality",
+      "character"
+    ],
+    "33": [
+      "situational"
+    ],
+    "34": [
+      "friend"
+    ],
+    "35": [
+      "aspirations",
+      "ambitions"
+    ],
+    "36": [
+      "style"
+    ],
+    "37": [
+      "development"
+    ],
+    "38": [
+      "vision"
+    ],
+    "39": [
+      "structures"
+    ],
+    "40": [
+      "innovation",
+      "innovations"
+    ]
+  },
+  "note": "Verified source answers saved immediately; original transcription differences will be retained.",
+  "parts": [
+    {
+      "book": 10,
+      "test": 3,
+      "module": "listening",
+      "section": 1,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-3-verified-key.json"
+      },
+      "answers": {
+        "1": [
+          "4"
+        ],
+        "2": [
+          "46 Wombat"
+        ],
+        "3": [
+          "Thursday"
+        ],
+        "4": [
+          "8.30"
+        ],
+        "5": [
+          "red"
+        ],
+        "6": [
+          "lunch"
+        ],
+        "7": [
+          "glasses"
+        ],
+        "8": [
+          "ball"
+        ],
+        "9": [
+          "aunt"
+        ],
+        "10": [
+          "month"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 3,
+      "module": "listening",
+      "section": 2,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-3-verified-key.json"
+      },
+      "answers": {
+        "11": [
+          "C"
+        ],
+        "12": [
+          "E"
+        ],
+        "13": [
+          "B"
+        ],
+        "14": [
+          "A"
+        ],
+        "15": [
+          "C"
+        ],
+        "16": [
+          "B"
+        ],
+        "17": [
+          "C"
+        ],
+        "18": [
+          "D"
+        ],
+        "19": [
+          "D"
+        ],
+        "20": [
+          "A"
+        ]
+      },
+      "groups": [
+        {
+          "questions": [
+            11,
+            12
+          ],
+          "acceptedSets": [
+            [
+              "C",
+              "E"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "book": 10,
+      "test": 3,
+      "module": "listening",
+      "section": 3,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-3-verified-key.json"
+      },
+      "answers": {
+        "21": [
+          "C"
+        ],
+        "22": [
+          "A"
+        ],
+        "23": [
+          "A"
+        ],
+        "24": [
+          "B"
+        ],
+        "25": [
+          "B"
+        ],
+        "26": [
+          "E"
+        ],
+        "27": [
+          "D"
+        ],
+        "28": [
+          "A"
+        ],
+        "29": [
+          "G"
+        ],
+        "30": [
+          "C"
+        ]
+      },
+      "groups": []
+    },
+    {
+      "book": 10,
+      "test": 3,
+      "module": "listening",
+      "section": 4,
+      "source": {
+        "type": "user-transcription",
+        "label": "User transcription verified and corrected against published source",
+        "reference": "docs/cambridge-10-listening-3-verified-key.json"
+      },
+      "answers": {
+        "31": [
+          "achievement",
+          "achievements"
+        ],
+        "32": [
+          "personality",
+          "character"
+        ],
+        "33": [
+          "situational"
+        ],
+        "34": [
+          "friend"
+        ],
+        "35": [
+          "aspirations",
+          "ambitions"
+        ],
+        "36": [
+          "style"
+        ],
+        "37": [
+          "development"
+        ],
+        "38": [
+          "vision"
+        ],
+        "39": [
+          "structures"
+        ],
+        "40": [
+          "innovation",
+          "innovations"
+        ]
+      },
+      "groups": []
+    }
+  ]
+}

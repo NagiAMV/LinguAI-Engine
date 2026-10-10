@@ -1,0 +1,37 @@
+{
+  "note": "Original conflicting user fragments preserved.",
+  "test1": {
+    "9": "420",
+    "31": "gone",
+    "32": "powerful"
+  },
+  "test2": {
+    "3": "GT5 8JW",
+    "4": "cash",
+    "7": "train",
+    "15": "B",
+    "2122": [
+      "D",
+      "E"
+    ],
+    "2324": [
+      "B",
+      "C"
+    ]
+  },
+  "test3": {
+    "9": "hurt",
+    "27": "G",
+    "29": "C",
+    "30": "F",
+    "34": "merit",
+    "35": "opposition/resistance"
+  },
+  "test4": {
+    "16": "tourist attractions in Manham",
+    "2324": [
+      "B",
+      "E"
+    ]
+  }
+}
