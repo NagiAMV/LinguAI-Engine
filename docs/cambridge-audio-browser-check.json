@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-10T20:45:41.697Z",
+  "checks": [
+    {
+      "book": 1,
+      "test": 1,
+      "part": 1,
+      "metadata": {
+        "src": "https://ielts-listening-audio.engnovatemedia.com/3172294-cambridge-ielts-01-academic-listening-test-1-1.mp3",
+        "ready": 4,
+        "duration": 477.06,
+        "controls": true
+      },
+      "played": {
+        "time": 31.166308,
+        "paused": false
+      },
+      "seek": 30.738694
+    },
+    {
+      "book": 14,
+      "test": 1,
+      "part": 2,
+      "metadata": {
+        "src": "https://ielts-listening-audio.engnovatemedia.com/12557-cambridge-ielts-14-academic-listening-1-audio-2.mp3",
+        "ready": 4,
+        "duration": 404.65,
+        "controls": true
+      },
+      "played": {
+        "time": 31.146518,
+        "paused": false
+      },
+      "seek": 30.759308
+    },
+    {
+      "book": 19,
+      "test": 1,
+      "part": 1,
+      "metadata": {
+        "src": "https://ielts-listening-audio.engnovatemedia.com/156063-cambridge-ielts-19-academic-listening-1-audio-1.mp3",
+        "ready": 4,
+        "duration": 472.633469,
+        "controls": true
+      },
+      "played": {
+        "time": 1.083826,
+        "paused": false
+      },
+      "seek": 30.750535
+    },
+    {
+      "book": 21,
+      "test": 4,
+      "part": 4,
+      "metadata": {
+        "src": "https://ielts-listening-audio.engnovatemedia.com/3178702-cambridge-ielts-21-academic-listening-test-4-4.mp3",
+        "ready": 4,
+        "duration": 443.179116,
+        "controls": true
+      },
+      "played": {
+        "time": 0.972884,
+        "paused": false
+      },
+      "seek": 30.749335
+    },
+    {
+      "book": 2,
+      "test": 4,
+      "part": 2,
+      "metadata": {
+        "src": "https://engnovate.com/wp-content/uploads/2026/06/cambridge-ielts-02-academic-listening-test-4-2.mp3",
+        "ready": 3,
+        "duration": 306.05,
+        "controls": true
+      },
+      "played": {
+        "time": 0.942,
+        "paused": false
+      },
+      "seek": 30
+    },
+    {
+      "refresh": {
+        "ready": 1,
+        "time": 30,
+        "src": "https://engnovate.com/wp-content/uploads/2026/06/cambridge-ielts-02-academic-listening-test-4-2.mp3"
+      },
+      "review": {
+        "ready": 4,
+        "controls": true,
+        "src": "https://engnovate.com/wp-content/uploads/2026/06/cambridge-ielts-02-academic-listening-test-4-1.mp3"
+      }
+    }
+  ]
+}

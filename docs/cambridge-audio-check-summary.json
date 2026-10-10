@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-10T20:48:29.551Z",
+  "tests": 84,
+  "parts": 336,
+  "linksChecked": 672,
+  "linksPassed": 672,
+  "codecChecksPassed": 336,
+  "codecs": {
+    "mp3": 324,
+    "aac": 12
+  },
+  "browserPlaybackChecks": 5,
+  "refreshPositionPreserved": true,
+  "reviewPlaybackChecked": true,
+  "changes": [
+    "Shared exam/review audio component",
+    "Removed forced audio/mpeg declaration for AAC/M4A files",
+    "Explicit backup source on load error",
+    "Retry control after both sources fail"
+  ],
+  "validation": {
+    "regressionTests": 98,
+    "productionBuild": "passed"
+  },
+  "failures": []
+}

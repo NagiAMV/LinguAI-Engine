@@ -5,6 +5,7 @@ import { restoreSession, transition, remaining, countdown } from "./exam-session
 import { useEffect, useMemo, useRef, useState } from "react";
 import "./cambridge-exam.css";
 import ExamResults from "./ExamResults";
+import Recording from "./CambridgeRecording";
 
 // Build navigation from the existing sanitized markup, including grouped checkbox questions.
 function questionIndex(test) {
@@ -51,27 +52,6 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked }) {
     } else onAnswer(input.name, input.value);
   }
   return <div ref={root} className="cd-content cd-questions" onInput={change} onFocus={(event) => onFocusQuestion(event.target.name)} dangerouslySetInnerHTML={markup} />;
-}
-
-function Recording({ part, position, onPosition, sourceUrl, locked }) {
-  const audio = useRef(null);
-  useEffect(() => { if (locked) audio.current?.pause(); }, [locked]);
-  const [status, setStatus] = useState("Loading recording…");
-  return <>
-    <span className="recording-label">Part {part.id} recording</span>
-    <audio ref={audio} controls={!locked} preload="metadata" aria-label={`Part ${part.id} recording`}
-      onLoadedMetadata={(event) => { if (position > 0) event.currentTarget.currentTime = Math.min(position, event.currentTarget.duration || position); setStatus("Ready to play"); }}
-      onPlay={(event) => { if (locked) event.currentTarget.pause(); else setStatus("Playing"); }} onPause={() => setStatus("Paused")} onEnded={() => setStatus("Recording ended")}
-      onWaiting={() => setStatus("Buffering…")} onPlaying={() => setStatus("Playing")}
-      onError={() => setStatus("Could not load recording")}
-      onTimeUpdate={(event) => onPosition(Math.floor(event.currentTarget.currentTime))}>
-      {part.audioUrls.map((url) => <source key={url} src={url} type="audio/mpeg" />)}
-    </audio>
-    <p className="exam-audio-state" role="status">{status}</p>
-    {status === "Could not load recording" && <a href={sourceUrl} target="_blank" rel="noreferrer">Open source recording ↗</a>}
-
-
-  </>;
 }
 
 export default function CambridgeExam({ test, answerKey }) {

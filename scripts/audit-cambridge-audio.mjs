@@ -8,8 +8,8 @@ const report={checkedAt:new Date().toISOString(),results:[]};let cursor=0,blocke
 async function worker(){while(cursor<tasks.length&&!blocked){const item=tasks[cursor++];let result;try{
  const r=await fetch(item.url,{headers:{Range:'bytes=0-4095'},signal:AbortSignal.timeout(12000)});
  const reader=r.body?.getReader();let first=Buffer.alloc(0);while(reader&&first.length<4096){const x=await reader.read();if(x.done)break;first=Buffer.concat([first,Buffer.from(x.value)]);}await reader?.cancel();
- const type=r.headers.get('content-type')||'';const mp3=first.subarray(0,3).toString()==='ID3'||first.some((v,i)=>v===255&&(first[i+1]&224)===224);
- result={...item,status:r.status,contentType:type,contentRange:r.headers.get('content-range'),mp3,ok:r.ok&&type.includes('audio')&&mp3};
+ const type=r.headers.get('content-type')||'';const mp4=first.subarray(4,8).toString()==='ftyp';const mp3=first.subarray(0,3).toString()==='ID3'||first.some((v,i)=>v===255&&(first[i+1]&224)===224);
+ result={...item,status:r.status,contentType:type,contentRange:r.headers.get('content-range'),mp3,mp4,ok:r.ok&&(mp3||mp4)};
  if([429,403].includes(r.status)){blocked=true;report.stoppedReason=`Source returned ${r.status}; further requests stopped.`;}
  }catch(e){result={...item,ok:false,error:e.message};}
  report.results.push(result);if(report.results.length%40===0){fs.writeFileSync('docs/cambridge-audio-audit.json',JSON.stringify(report,null,2)+'\n');console.log(`Checked ${report.results.length}/${tasks.length}`);}
