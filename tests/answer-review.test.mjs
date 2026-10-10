@@ -1306,3 +1306,18 @@ test('Cambridge 4 Listening keys cover all slots and preserve combined answers',
  assert.equal(reviewAnswer('3,000 - 4,000',[24],keys['listening-4-2']).status,'correct');
  assert.equal(reviewAnswer('WHITE LIGHT',[26],keys['listening-4-4']).status,'correct');
 });
+
+test('Cambridge 5 Listening Tests 1 and 2 use verified corrections and unordered groups', () => {
+ const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
+ const a=keys['listening-5-1'],b=keys['listening-5-2'];
+ for(const k of [a,b])assert.equal(Object.keys(k.answers).length,40);
+ for(const [n,v] of [[8,'14'],[9,'20%'],[10,'39745t']])assert.equal(reviewAnswer(v,[n],a).status,'correct');
+ assert.equal(reviewAnswer('50',[10],a).status,'incorrect');
+ for(const [nums,set] of [[[5,6],['D','B']],[[24,25],['D','B']]])assert.equal(reviewAnswer(set,nums,a,true).status,'correct');
+ for(const [n,v] of [[13,'A'],[14,'C'],[16,'£75,000'],[17,'COMPUTERS'],[26,'persuading'],[37,'3,500'],[38,'ocean currents'],[39,'the pollution'],[40,'young']])assert.equal(reviewAnswer(v,[n],b).status,'correct');
+ assert.equal(reviewAnswer(['F','C','E'],[18,19,20],b,true).status,'correct');
+ assert.equal(reviewAnswer(['C','C','E'],[18,19,20],b,true).status,'incorrect');
+ assert.equal(reviewAnswer('B',[14],b).status,'incorrect');
+ assert.equal(reviewAnswer('UI',[38],b).status,'incorrect');
+ assert.equal(reviewAnswer('',[37],b).status,'blank');
+});

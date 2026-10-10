@@ -320,14 +320,14 @@
     "status": "complete"
   },
   "listening-5-1": {
-    "available": 37,
+    "available": 40,
     "total": 40,
-    "status": "partial"
+    "status": "complete"
   },
   "listening-5-2": {
-    "available": 25,
+    "available": 40,
     "total": 40,
-    "status": "partial"
+    "status": "complete"
   },
   "listening-5-3": {
     "available": 0,

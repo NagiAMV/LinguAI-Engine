@@ -1,25 +1,6 @@
 {
-  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred.",
-  "unresolved": [
-    {
-      "question": 8,
-      "supplied": [
-        "20%"
-      ]
-    },
-    {
-      "question": 9,
-      "supplied": [
-        "39745T"
-      ]
-    },
-    {
-      "question": 10,
-      "supplied": [
-        "50"
-      ]
-    }
-  ],
+  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred. Resolved through user-authorized verification: docs/cambridge-5-listening-1-verified-correction.json",
+  "unresolved": [],
   "parts": [
     {
       "book": 5,
@@ -226,6 +207,26 @@
         ]
       },
       "groups": []
+    }
+  ],
+  "resolved": [
+    {
+      "question": 8,
+      "supplied": [
+        "20%"
+      ]
+    },
+    {
+      "question": 9,
+      "supplied": [
+        "39745T"
+      ]
+    },
+    {
+      "question": 10,
+      "supplied": [
+        "50"
+      ]
     }
   ]
 }

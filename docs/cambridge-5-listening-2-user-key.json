@@ -1,101 +1,6 @@
 {
-  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred.",
-  "unresolved": [
-    {
-      "question": 13,
-      "supplied": [
-        "F"
-      ]
-    },
-    {
-      "question": 16,
-      "supplied": [
-        "C"
-      ]
-    },
-    {
-      "question": 17,
-      "supplied": [
-        "A"
-      ]
-    },
-    {
-      "question": 18,
-      "supplied": [
-        "B"
-      ]
-    },
-    {
-      "question": 19,
-      "supplied": [
-        "C"
-      ]
-    },
-    {
-      "question": 20,
-      "supplied": [
-        "B"
-      ]
-    },
-    {
-      "question": 26,
-      "supplied": [
-        "A"
-      ]
-    },
-    {
-      "question": 27,
-      "supplied": [
-        "B"
-      ]
-    },
-    {
-      "question": 28,
-      "supplied": [
-        "B"
-      ]
-    },
-    {
-      "question": 29,
-      "supplied": [
-        "C"
-      ]
-    },
-    {
-      "question": 30,
-      "supplied": [
-        "A"
-      ]
-    },
-    {
-      "question": 37,
-      "supplied": [
-        "public",
-        "the public"
-      ]
-    },
-    {
-      "question": 38,
-      "supplied": [
-        "UI",
-        "the UI",
-        "United Nations"
-      ]
-    },
-    {
-      "question": 39,
-      "supplied": [
-        "climate change"
-      ]
-    },
-    {
-      "question": 40,
-      "supplied": [
-        "tourism",
-        "the tourism"
-      ]
-    }
-  ],
+  "note": "User key saved immediately. Incompatible question types or ambiguous mapping withheld pending source verification; no missing answers inferred. Resolved through user-authorized verification: docs/cambridge-5-listening-2-verified-correction.json",
+  "unresolved": [],
   "parts": [
     {
       "book": 5,
@@ -241,6 +146,102 @@
         ]
       },
       "groups": []
+    }
+  ],
+  "resolved": [
+    {
+      "question": 13,
+      "supplied": [
+        "F"
+      ]
+    },
+    {
+      "question": 16,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 17,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 18,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 19,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 20,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 26,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 27,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 28,
+      "supplied": [
+        "B"
+      ]
+    },
+    {
+      "question": 29,
+      "supplied": [
+        "C"
+      ]
+    },
+    {
+      "question": 30,
+      "supplied": [
+        "A"
+      ]
+    },
+    {
+      "question": 37,
+      "supplied": [
+        "public",
+        "the public"
+      ]
+    },
+    {
+      "question": 38,
+      "supplied": [
+        "UI",
+        "the UI",
+        "United Nations"
+      ]
+    },
+    {
+      "question": 39,
+      "supplied": [
+        "climate change"
+      ]
+    },
+    {
+      "question": 40,
+      "supplied": [
+        "tourism",
+        "the tourism"
+      ]
     }
   ]
 }
