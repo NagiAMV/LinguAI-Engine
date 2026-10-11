@@ -3499,7 +3499,7 @@
         "cultural identity"
       ],
       "4": [
-        "traditional skills"
+        "traditional skill"
       ],
       "5": [
         "E"
@@ -3702,6 +3702,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-4-reading-2-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "verified-original-question-and-passage",
+        "label": "Q4 singular confirmed by original article a and passage traditional skill",
+        "reference": "docs/cambridge-4-reading-2-q4-correction.json"
       }
     ]
   },

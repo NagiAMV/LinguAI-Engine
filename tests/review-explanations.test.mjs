@@ -87,3 +87,30 @@ test('Cambridge 3 all four Reading tests cover all 161 current questions',()=>{
  assert.equal(data.tests['reading-3-3']['35–36–37'].quotes.length,3);
  assert.deepEqual(keys['reading-3-2'].answers['40'],['C']);
 });
+
+
+test('Cambridge 4 all four Reading tests cover all 160 questions with specific bilingual evidence',()=>{
+ const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
+ let total=0;
+ for(let number=1;number<=4;number++){
+  const id=`reading-4-${number}`,entries=data.tests[id];
+  const covered=Object.keys(entries).flatMap(numbers=>numbers.split('–').map(Number)).sort((a,b)=>a-b);
+  assert.deepEqual(covered,Object.keys(keys[id].answers).map(Number).sort((a,b)=>a-b),id);
+  total+=covered.length;
+  for(const entry of Object.values(entries))assert.ok(entry.en.length>160&&entry.ru.length>160,id);
+ }
+ assert.equal(total,160);
+ assert.equal(data.tests['reading-4-2']['33–34–35'].quotes.length,3);
+ assert.equal(data.tests['reading-4-3']['5'].quotes.length,2);
+ assert.equal(data.tests['reading-4-4']['20–21'].quotes.length,2);
+});
+
+import {reviewAnswer} from '../src/components/content/answer-review.mjs';
+test('Cambridge 4 Test 2 Q4 accepts the singular required by the original summary',()=>{
+ const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
+ const key=keys['reading-4-2'];
+ assert.equal(reviewAnswer('traditional skill',[4],key).status,'correct');
+ assert.equal(reviewAnswer('traditional skills',[4],key).status,'incorrect');
+ const history=JSON.parse(fs.readFileSync('docs/cambridge-4-reading-2-q4-correction.json','utf8'));
+ assert.deepEqual(history.previousAcceptedAnswers,['traditional skills']);
+});

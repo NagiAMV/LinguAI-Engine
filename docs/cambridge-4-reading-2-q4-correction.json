@@ -1,0 +1,14 @@
+{
+  "test": "reading-4-2",
+  "question": 4,
+  "previousAcceptedAnswers": [
+    "traditional skills"
+  ],
+  "acceptedAnswers": [
+    "traditional skill"
+  ],
+  "reason": "The original summary says teach people a [4]; the passage says learn a traditional skill. The copied plural does not fit the original sentence.",
+  "source": "https://www.hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-4.pdf",
+  "pdfPage": 39,
+  "originalQuestionUnchanged": true
+}

@@ -5142,6 +5142,1585 @@
           "ru": "Текст 3"
         }
       }
+    },
+    "reading-4-1": {
+      "1": {
+        "part": 1,
+        "quote": "frequent and often vivid media coverage",
+        "en": "Answer: FALSE. Rainforest loss receives frequent, vivid coverage, directly contradicting largely ignored. The opening example of football fields illustrates how prominently the issue is presented.\n\nTutor tip: compare the frequency stated, not whether reporting is accurate.",
+        "ru": "Ответ: FALSE. Проблему часто и ярко освещают СМИ, что прямо противоречит largely ignored. Пример с футбольными полями показывает заметность темы.\n\nСовет тьютора: вопрос о частоте освещения, а не о точности сообщений.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "independent of any formal tuition",
+        "en": "Answer: FALSE. Children can form ideas before formal teaching, through media exposure. Only opinions encountered in classrooms excludes this expressly mentioned outside source.\n\nTutor tip: only makes a statement exclusive; one counterexample disproves it.",
+        "ru": "Ответ: FALSE. Дети формируют представления и вне уроков, например из СМИ. Only ошибочно исключает этот прямо названный источник.\n\nСовет тьютора: утверждение с only опровергается одним подтверждённым исключением.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "children harbour misconceptions about 'pure', curriculum science",
+        "en": "Answer: TRUE. Studies have identified misconceptions about school science. Mistaken views paraphrases misconceptions, and curriculum science matches the science studied at school.\n\nTutor tip: recognise synonyms instead of demanding identical wording.",
+        "ru": "Ответ: TRUE. Исследования обнаружили ошибочные представления о школьной науке. Mistaken views соответствует misconceptions, а curriculum science — изучаемому в школе предмету.\n\nСовет тьютора: ищи смысловое совпадение, не только одинаковые слова.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "more robust but also accessible to modification",
+        "en": "Answer: TRUE. Although incorporation into a framework makes ideas robust, it also makes them accessible to modification. The statement reflects this second consequence rather than denying their persistence.\n\nTutor tip: read both sides of but also; the first adjective is not the whole argument.",
+        "ru": "Ответ: TRUE. Система представлений делает идеи устойчивее, но одновременно доступными для изменения. Утверждение отражает вторую часть этой связи.\n\nСовет тьютора: дочитывай конструкцию but also, а не останавливайся на robust.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "a questionnaire containing five open-form questions",
+        "en": "Answer: FALSE. Open-form questions invite children to express ideas, unlike yes/no questions with fixed alternatives. The statement changes the survey’s question format.\n\nTutor tip: the survey method can be the decisive detail, independent of its topic.",
+        "ru": "Ответ: FALSE. Open-form — открытые вопросы, позволяющие дать свой ответ, а не выбрать «да» или «нет». Утверждение меняет формат анкеты.\n\nСовет тьютора: проверяй метод исследования отдельно от его темы.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "more girls (13%) than boys (5%) said that rainforests provided human habitats",
+        "en": "Answer: NOT GIVEN. Gender differences are reported for habitat responses and sympathy for animals, not for mistaken beliefs about destruction. Those percentages cannot establish which gender holds more errors.\n\nTutor tip: keep the measured response separate from the claim being tested.",
+        "ru": "Ответ: NOT GIVEN. Половые различия даны для ответов о среде обитания и отношении к животным, а не для ошибок о разрушении лесов. Эти проценты не доказывают заявленную разницу.\n\nСовет тьютора: не переноси статистику на другую характеристику.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "our previous studies of pupils' views",
+        "en": "Answer: TRUE. The researchers explicitly compare observations with previous studies of pupils’ rainforest views. This supports the existence of an earlier series on the same subject.\n\nTutor tip: previous studies supplies the chronological link requested.",
+        "ru": "Ответ: TRUE. Исследователи прямо сопоставляют результаты с прежними работами о взглядах школьников на леса. Это подтверждает предшествующие исследования той же темы.\n\nСовет тьютора: previous studies указывает на нужную временную связь.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "Secondary school children were asked",
+        "en": "Answer: NOT GIVEN. The present study uses secondary pupils, but no future primary-school study is announced. References to similar studies and older children do not establish a plan for a second investigation.\n\nTutor tip: a future plan needs explicit evidence, not a plausible next step.",
+        "ru": "Ответ: NOT GIVEN. Сейчас опрошены ученики средней школы, однако будущая работа с младшими детьми не объявлена. Упоминания других исследований не подтверждают такой план.\n\nСовет тьютора: разумное продолжение проекта не равно заявленному намерению.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "Africa (given by 43% of children)",
+        "en": "Answer: M. Africa has the largest reported percentage for location, above South America at 30% and Brazil at 25%. The question asks what children answered most often, not the best geographical description.\n\nTutor tip: compare frequencies within the same survey question.",
+        "ru": "Ответ: M. Африка получила 43%, больше Южной Америки и Бразилии. Требуется самый частый ответ детей, а не наиболее точное географическое описание.\n\nСовет тьютора: сравнивай частоты ответов одного и того же вопроса.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "rainforests provide animals with habitats",
+        "en": "Answer: E. The dominant importance response, given by 64%, is animal habitat. Having nowhere to live without rainforests paraphrases that function; plant and human habitats were less frequent.\n\nTutor tip: identify the dominant idea before choosing its paraphrase.",
+        "ru": "Ответ: E. Главный ответ о важности лесов — место обитания животных, 64%. Формулировка «животным негде жить» передаёт этот смысл. Растения и люди упоминались реже.\n\nСовет тьютора: сначала найди преобладающую идею, затем её перефразирование.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "human activities which are destroying rainforests",
+        "en": "Answer: G. Fifty-nine percent identified human activity as responsible. Logging is a narrower response mentioned by only 18%, so it is not the majority answer.\n\nTutor tip: distinguish a broad cause from one particular example of it.",
+        "ru": "Ответ: G. 59% назвали причиной деятельность людей. Вырубка — частный пример, названный лишь 18%, поэтому это не ответ большинства.\n\nСовет тьютора: различай широкую причину и отдельное проявление.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "the majority of children simply said that we need rainforests to survive",
+        "en": "Answer: P. The majority linked conservation to human survival. This is a report of their belief; do not replace it with a more detailed oxygen argument, which the author treats as a misconception.\n\nTutor tip: answer the question about respondents’ views, not your own scientific explanation.",
+        "ru": "Ответ: P. Большинство объяснило сохранение лесов необходимостью для выживания людей. Это сообщённое мнение детей; не нужно заменять его ошибочной кислородной аргументацией.\n\nСовет тьютора: передавай ответ участников, а не свою версию причины.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "Only a few of the pupils (6%) mentioned",
+        "en": "Answer: J. Only 6% connected destruction with global warming, surprisingly few given strong media coverage. This matches the response that the world becomes warmer as rainforests disappear.\n\nTutor tip: surprisingly identifies the unusual finding the question seeks.",
+        "ru": "Ответ: J. Лишь 6% связали разрушение лесов с глобальным потеплением, что удивило автора из-за внимания СМИ. Это соответствует «мир становится теплее».\n\nСовет тьютора: surprising помогает найти необычный результат.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 1,
+        "quote": "to help teachers design their educational strategies",
+        "en": "Answer: B. The passage reports children’s ideas and considers how teaching can build on correct ones and address misconceptions. It is not merely a general account of rainforest destruction or a completed curriculum.\n\nTutor tip: a title should cover both the research topic and its educational purpose.",
+        "ru": "Ответ: B. Текст описывает представления детей и их значение для обучения: как поддержать верные идеи и исправить ошибки. Это не просто рассказ о разрушении лесов.\n\nСовет тьютора: заголовок должен охватывать исследование и его педагогическую цель.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "at least some cetaceans have taste buds",
+        "en": "Answer: taste buds. The nerves serving the taste buds are degenerated or rudimentary, explaining poor taste. The blank asks for the structures linked to those nerves, not for the nerves themselves.\n\nTutor tip: trace serving these back to its noun.",
+        "ru": "Ответ: taste buds. Связанные со вкусовыми рецепторами нервы недоразвиты, что объясняет слабый вкус. Пропуск требует рецепторы, а не сами нервы.\n\nСовет тьютора: установи, на какое существительное указывает these.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "the field of vision in baleen whales",
+        "en": "Answer: baleen. Baleen whales can track objects but probably lack stereoscopic vision because of eye placement. Dolphins and porpoises are contrasted as having stereoscopic vision.\n\nTutor tip: distinguish ability to see from binocular depth perception.",
+        "ru": "Ответ: baleen. Усатые киты видят объекты, но положение глаз, вероятно, исключает стереоскопическое зрение. Дельфины и морские свиньи противопоставлены им.\n\nСовет тьютора: способность видеть не равна объёмному зрению.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "stereoscopic vision forward and downward",
+        "en": "Answer: forward and downward. Both directions are required for the dolphins-and-porpoises row. Forward and upward belongs to freshwater dolphins in the next row.\n\nTutor tip: keep both coordinates and verify which species they describe.",
+        "ru": "Ответ: forward and downward. Нужны оба направления для дельфинов и морских свиней. Forward and upward относится к пресноводным дельфинам в следующей строке.\n\nСовет тьютора: сохраняй обе координаты и проверяй соответствующий вид.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "Eye position in freshwater dolphins",
+        "en": "Answer: freshwater dolphins. Their eye position suggests stereoscopic vision forward and upward, unlike the forward-and-downward pattern of most other dolphins.\n\nTutor tip: use the contrasting direction to select the species, not the general word dolphins alone.",
+        "ru": "Ответ: freshwater dolphins. Положение глаз пресноводных дельфинов указывает на зрение вперёд и вверх, в отличие от большинства остальных.\n\nСовет тьютора: направление помогает определить вид; просто dolphins теряет нужное уточнение.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "extremely keen vision in water",
+        "en": "Answer: water. The bottlenose dolphin has especially sharp underwater vision and can also see through the air-water boundary. The table asks where its vision is exceptional.\n\nTutor tip: keen paraphrases exceptional here; air-water interface is a separate ability.",
+        "ru": "Ответ: water. У афалины особенно острое зрение в воде, а также способность смотреть через границу воды и воздуха. В пропуске нужно место исключительной остроты.\n\nСовет тьютора: keen соответствует exceptional; интерфейс — отдельная характеристика.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "Large baleen whales primarily use the lower frequencies",
+        "en": "Answer: lower frequencies. Most large baleen whales mainly use this part of the sound spectrum and have limited repertoires. Toothed species generally use a broader spectrum.\n\nTutor tip: preserve lower, which distinguishes the groups.",
+        "ru": "Ответ: lower frequencies. Большинство крупных усатых китов использует низкие частоты и ограниченный набор звуков. Зубатые обычно охватывают более широкий спектр.\n\nСовет тьютора: слово lower необходимо для различия групп.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "Notable exceptions are the nearly song-like choruses of bowhead whales",
+        "en": "Answer: bowhead and humpback. Both are exceptions to the limited baleen repertoire: bowheads have song-like choruses and humpbacks complex utterances. The saved key requires both species, in either order.\n\nTutor tip: an exceptions sentence can supply more than one required item.",
+        "ru": "Ответ: bowhead and humpback. Оба вида — исключения: у гренландских китов песенные хоры, у горбатых сложные звуки. В ключе нужны оба названия в любом порядке.\n\nСовет тьютора: предложение об исключениях может содержать несколько обязательных элементов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "stroking or touching are part of the courtship ritual",
+        "en": "Answer: touch. Stroking and touching are part of courtship, linking this sense to mating. The sensitive blowhole is further evidence of touch, but it is not the name of the sense.\n\nTutor tip: courtship paraphrases the mating context.",
+        "ru": "Ответ: touch. Поглаживания и прикосновения входят в ухаживание, связывая осязание со спариванием. Дыхало — чувствительная область, но не название чувства.\n\nСовет тьютора: courtship передаёт контекст mating.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "often swim on their side or upside down while feeding",
+        "en": "Answer: freshwater dolphins. This feeding posture is attached specifically to freshwater dolphins. Do not select bottlenose dolphins just because they appear in the same paragraph.\n\nTutor tip: connect the relative clause to the species immediately before it.",
+        "ru": "Ответ: freshwater dolphins. Поза на боку или вверх животом при кормлении относится именно к пресноводным дельфинам. Афалины лишь упомянуты рядом.\n\nСовет тьютора: свяжи уточняющее предложение с предшествующим видом.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "watches and tracks airborne flying fish",
+        "en": "Answer: airborne flying fish. The dolphin follows fish moving above the water, demonstrating vision across the boundary. Flying fish alone loses airborne from the saved accepted answer.\n\nTutor tip: copy the complete three-word object phrase.",
+        "ru": "Ответ: airborne flying fish. Дельфин следит за летучими рыбами в воздухе, что демонстрирует зрение через границу сред. В сохранённом ответе требуется airborne.\n\nСовет тьютора: копируй целую трёхсловную группу объекта.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "vision is obviously more useful to species inhabiting clear open waters",
+        "en": "Answer: clear open waters. Clear habitats support useful vision, whereas turbid rivers and flooded plains are contrasted with limited vision. The answer names the water conditions, not an animal.\n\nTutor tip: clear is the essential contrast with turbid.",
+        "ru": "Ответ: clear open waters. В прозрачной открытой воде зрение полезнее, чем в мутных реках и затопленных равнинах. Нужен тип среды, а не вид животного.\n\nСовет тьютора: clear — ключевое противопоставление turbid.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "cetaceans' well-developed acoustic sense",
+        "en": "Answer: acoustic sense. Well-developed hearing compensates for weak taste, smell and uncertain vision. Vocalisations and echolocation illustrate that strength; echolocation alone is a use of the sense, not its general name.\n\nTutor tip: choose the sense rather than one application of it.",
+        "ru": "Ответ: acoustic sense. Развитое акустическое чувство компенсирует слабость других. Голосовые сигналы и эхолокация иллюстрируют эту способность, но эхолокация — её применение, а не общее название.\n\nСовет тьютора: называй чувство, а не частный способ использования.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "blind people can appreciate the use of outlines and perspectives",
+        "en": "Answer: C. The opening says blind people understand conventions of outlines and perspective in representing space. It does not claim all can draw accurately or want to study art.\n\nTutor tip: appreciate here means understand, not necessarily create.",
+        "ru": "Ответ: C. Начало говорит о понимании контуров и перспективы как способов изображения пространства. Точность рисования и интерес к изучению искусства не утверждаются.\n\nСовет тьютора: appreciate здесь означает понимание, не обязательно создание.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "To show this motion, she traced a curve inside the circle",
+        "en": "Answer: C. The surprise was her use of a symbolic motion line to represent spinning. She was not the first person in history to invent motion lines; their earlier artistic development is described next.\n\nTutor tip: identify what made this particular drawing unexpected.",
+        "ru": "Ответ: C. Удивил символ движения — кривая внутри круга. Женщина не была первым изобретателем линий движения в истории: дальше обсуждается их прежнее развитие в искусстве.\n\nСовет тьютора: выдели неожиданный элемент именно этого рисунка.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "the blind not only figured out meanings for each line of motion",
+        "en": "Answer: A. Blind participants interpreted the motion symbols well and largely agreed with sighted participants. This does not show they physically controlled wheels or achieved superior results.\n\nTutor tip: distinguish interpreting a representation from performing the represented action.",
+        "ru": "Ответ: A. Незрячие хорошо понимали символы движения и в основном совпали со зрячими. Это не управление настоящими колёсами и не превосходство результатов.\n\nСовет тьютора: толкование изображения не равно выполнению действия.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "spokes extending beyond the wheel's perimeter signified that the wheel had its brakes on",
+        "en": "Answer: E — use of brakes. Spokes extending beyond the perimeter were interpreted as braking. This feature distinguishes the diagram from dashed spokes for speed and curved spokes for steady spinning.\n\nTutor tip: match the line feature, not the appearance of a wheel alone.",
+        "ru": "Ответ: E — use of brakes. Выступающие за окружность спицы интерпретировали как торможение. Это отличается от пунктирных и изогнутых спиц.\n\nСовет тьютора: сопоставляй конкретный вид линии, а не сам факт изображения колеса.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "dashed spokes indicated the wheel was spinning quickly",
+        "en": "Answer: C — rapid spinning. Dashed spokes correspond to fast rotation in the experiment. Wavy spokes mean wobbling, so superficially irregular lines should not be treated as the same symbol.\n\nTutor tip: distinguish dashed from wavy.",
+        "ru": "Ответ: C — rapid spinning. Пунктирные спицы означают быстрое вращение. Волнистые линии обозначают покачивание, поэтому все необычные линии нельзя объединять.\n\nСовет тьютора: различай dashed и wavy.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "curved spokes indicated that the wheel was spinning steadily",
+        "en": "Answer: A — steady spinning. Curved spokes were generally assigned steady rotation. Bent spokes, by contrast, signalled jerking; the two shapes have different experimental meanings.\n\nTutor tip: curved and bent are separate descriptions in the passage.",
+        "ru": "Ответ: A — steady spinning. Изогнутые плавно спицы обычно означали ровное вращение. Угловые bent связывали с рывками.\n\nСовет тьютора: curved и bent — разные формы, а не взаимозаменяемые слова.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "a list of twenty pairs of words",
+        "en": "Answer: pairs. Participants received paired words, choosing which member suited each shape. The summary already supplies word, so pairs completes word pairs rather than repeating words.\n\nTutor tip: check both the research design and grammar around the gap.",
+        "ru": "Ответ: pairs. Участники получали пары слов и выбирали соответствие фигурам. Word уже стоит в задании, поэтому pairs образует нужное сочетание.\n\nСовет тьютора: проверяй и устройство эксперимента, и грамматику пропуска.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "the symbolism behind shapes such as hearts",
+        "en": "Answer: shapes. Circles, squares and hearts are shapes carrying symbolic associations beyond literal depiction. The blank refers to those abstract forms, not to the paired words used to investigate them.\n\nTutor tip: distinguish the symbols studied from the test materials.",
+        "ru": "Ответ: shapes. Круги, квадраты и сердца — фигуры с символическими значениями. Пропуск обозначает изучаемые формы, а не словесные пары анкеты.\n\nСовет тьютора: различай предмет исследования и инструмент проверки.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "to sighted subjects and asked them to pick",
+        "en": "Answer: sighted. The first word-pair experiment was given to sighted participants. Four totally blind volunteers took the same test later, so the summary’s initial group must be sighted.\n\nTutor tip: follow the order in which groups were tested.",
+        "ru": "Ответ: sighted. Сначала тест пар слов проводили со зрячими. Четверых полностью незрячих проверили позже, поэтому первая группа — sighted.\n\nСовет тьютора: отслеживай последовательность этапов эксперимента.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "only 51% linked deep to circle and shallow to square",
+        "en": "Answer: sighted. The 51% result belongs to the original sighted group, as the figure caption also confirms. Do not assign that percentage to the four blind volunteers introduced afterwards.\n\nTutor tip: statistics stay attached to the group that produced them.",
+        "ru": "Ответ: sighted. Число 51% относится к исходной группе зрячих, что подтверждает подпись таблицы. Оно не описывает четверых незрячих, упомянутых далее.\n\nСовет тьютора: сохраняй связь процента с его группой.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "And only 51% linked deep to circle",
+        "en": "Answer: deep. The passage pairs deep with circle and shallow with square. The summary asks specifically for the circle association, so shallow would reverse the pairing.\n\nTutor tip: keep the order of the two words aligned with the two shapes.",
+        "ru": "Ответ: deep. Круг связывают с deep, квадрат — с shallow. Пропуск спрашивает ассоциацию круга, поэтому shallow перевернуло бы соответствие.\n\nСовет тьютора: сохраняй порядок слов и фигур.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "four totally blind volunteers using the same list",
+        "en": "Answer: blind. The later test used four totally blind volunteers and the same word list. Using the same materials allowed a comparison with the sighted group.\n\nTutor tip: same list identifies the repeated test, not identical participants.",
+        "ru": "Ответ: blind. Повторный этап проводили с четырьмя полностью незрячими и тем же списком. Одинаковые материалы позволили сравнить группы.\n\nСовет тьютора: same list означает тот же тест, а не тех же участников.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "their choices closely resembled those made by the sighted subjects",
+        "en": "Answer: similar. Closely resembled supports similarity, not complete identity: one blind man differed on a pair. Identical is therefore too strong for the results reported.\n\nTutor tip: match the strength of the comparison.",
+        "ru": "Ответ: similar. Closely resembled означает близкое сходство, а не полное тождество: один участник дал отличающийся ответ. Identical слишком категорично.\n\nСовет тьютора: проверяй силу сравнительного утверждения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "the blind interpret abstract shapes as sighted people do",
+        "en": "Answer: B. Both experiments support similar understanding of visual metaphors in blind and sighted participants. Artistic training and exceptional artistry are not the overall findings.\n\nTutor tip: choose a conclusion broad enough to include both motion lines and abstract shapes.",
+        "ru": "Ответ: B. Оба эксперимента подтверждают сходное понимание визуальных метафор у незрячих и зрячих. Обучение искусству или художественная одарённость не являются общим выводом.\n\nСовет тьютора: итог должен охватывать линии движения и абстрактные фигуры.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-4-2": {
+      "1": {
+        "part": 1,
+        "quote": "Isolation breeds linguistic diversity",
+        "en": "Answer: isolation. Geographical separation generates linguistic variety, matching breeds diversity. The summary asks what caused the many languages, not what now threatens them.\n\nTutor tip: separate the historical cause of variety from present causes of decline.",
+        "ru": "Ответ: isolation. Географическая изоляция порождает языковое разнообразие. Требуется причина появления множества языков, а не нынешняя угроза им.\n\nСовет тьютора: различай происхождение разнообразия и причины его сокращения.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "the deadliest weapon is not government policy but economic globalisation",
+        "en": "Answer: economic globalisation. Mufwene contrasts economic pressure with government policy as a major threat. The next sentence gives socio-economic pressures as another accepted formulation.\n\nTutor tip: choose the force affecting language use, not the dominant language itself.",
+        "ru": "Ответ: economic globalisation. Муфвене выделяет экономическое давление как угрозу наряду с государственной политикой. Socio-economic pressures также сохранено как вариант.\n\nСовет тьютора: нужен фактор изменения, а не название господствующего языка.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "a growing interest in cultural identity",
+        "en": "Answer: cultural identity. Increased appreciation of identity may soften the bleak predictions and encourage learning ancestral languages. It does not guarantee every endangered language will survive.\n\nTutor tip: growing interest paraphrases increasing appreciation.",
+        "ru": "Ответ: cultural identity. Рост интереса к культурной идентичности может смягчить прогнозы и стимулировать изучение родного языка, но не гарантирует спасение всех языков.\n\nСовет тьютора: growing interest соответствует increasing appreciation.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "learn a traditional skill such as basket weaving",
+        "en": "Answer: traditional skill. Apprentices learn a practical skill, for example basket weaving, with instruction in the endangered language. The original summary prints a before the gap, so the singular skill is necessary.\n\nTutor tip: copy the passage and check singular/plural grammar; the language is the teaching medium, not the skill.",
+        "ru": "Ответ: traditional skill. Ученики осваивают традиционный навык, например плетение корзин, через исчезающий язык. В оригинальном задании перед пропуском стоит a, поэтому требуется единственное число skill.\n\nСовет тьютора: проверяй число существительного; язык здесь средство обучения, а не навык.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "Most of these languages will not survive without a large degree of bilingualism",
+        "en": "Answer: E — Doug Whalen. His statement makes bilingualism necessary: people must learn an ancestral language alongside the dominant language. It is not a claim that abandoning the dominant language is required.\n\nTutor tip: bilingualism means using two languages.",
+        "ru": "Ответ: E — Doug Whalen. Именно он считает необходимым двуязычие: изучать язык предков вместе с господствующим. Отказ от господствующего языка не требуется.\n\nСовет тьютора: bilingualism означает владение двумя языками.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "preventing a language dying out is not the same as giving it new life",
+        "en": "Answer: B — Salikoko Mufwene. He distinguishes preservation from active everyday use and compares preservation to fruit in a jar. This explains why preventing extinction alone is not a satisfactory end point.\n\nTutor tip: attribute the evaluation to the named speaker introducing it.",
+        "ru": "Ответ: B — Salikoko Mufwene. Он различает сохранение и повседневную живую практику, сравнивая консервацию языка с фруктами в банке. Поэтому одного предотвращения исчезновения недостаточно.\n\nСовет тьютора: проверяй автора именно этой оценки.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "structured by the linguistic habits of our community",
+        "en": "Answer: D — Mark Pagel. Pagel links language learning to brain changes and suggests linguistic habits can structure conceptual connections. This matches language influencing thought.\n\nTutor tip: do not assign all quoted opinions to the first linguist named in the passage.",
+        "ru": "Ответ: D — Mark Pagel. Пейджел связывает язык с изменениями мозга и построением концептуальных связей. Это соответствует влиянию языка на мышление.\n\nСовет тьютора: у каждого высказывания проверяй ближайшую атрибуцию.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "they might not want to be induced into the old traditions",
+        "en": "Answer: C — Nicholas Ostler. Ostler describes teenagers losing interest in older traditions after a community loses cultural confidence. The statement concerns young people’s rejection of established ways.\n\nTutor tip: resolve they to the next generation reaching its teens.",
+        "ru": "Ответ: C — Nicholas Ostler. Остлер описывает подростков, не желающих следовать старым традициям после утраты культурной уверенности.\n\nСовет тьютора: they относится к следующему поколению, достигающему подросткового возраста.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "If a person shifts from Navajo to English, they lose something",
+        "en": "Answer: B — Salikoko Mufwene. The quote follows the explanation that language and culture are closely connected. Switching languages may therefore entail losing part of traditional culture.\n\nTutor tip: use the explanatory sentence before a short quote to interpret its meaning.",
+        "ru": "Ответ: B — Salikoko Mufwene. Перед цитатой сказано о тесной связи языка и культуры. Поэтому переход на другой язык может означать культурную потерю.\n\nСовет тьютора: короткую цитату понимай через предшествующий контекст.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "endangered despite having 150,000 speakers",
+        "en": "Answer: NO. Navajo has 150,000 speakers, yet remains endangered; age and transmission to children matter. The claim wrongly attributes the danger simply to too few speakers.\n\nTutor tip: despite explicitly contrasts a substantial population with continuing risk.",
+        "ru": "Ответ: NO. У навахо 150000 носителей, однако язык под угрозой: важны возраст и передача детям. Поэтому объяснение только малым числом носителей неверно.\n\nСовет тьютора: despite выделяет противопоставление численности и риска.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "not just the number of speakers, but how old they are",
+        "en": "Answer: YES. A large speaker population does not ensure survival if younger generations do not use the language. Navajo serves as the example supporting this general principle.\n\nTutor tip: not just warns against using one variable as a guarantee.",
+        "ru": "Ответ: YES. Много носителей не гарантирует сохранение языка, если его не передают молодым. Навахо служит примером этого принципа.\n\nСовет тьютора: not just показывает, что одного показателя недостаточно.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "governments try to kill off a minority language",
+        "en": "Answer: NOT GIVEN. Harmful government policies are described, but the writer does not assess how much more protection governments could provide. A description of damaging actions is not that proposed judgement.\n\nTutor tip: distinguish what governments do from an unstated assessment of their capacity.",
+        "ru": "Ответ: NOT GIVEN. Описана вредная политика, но не оценено, насколько больше правительства могли бы защищать языки. Описание действий не равно такой оценке возможностей.\n\nСовет тьютора: проверяй именно утверждение could do more.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "many languages will disappear over the next century",
+        "en": "Answer: YES. The writer predicts that many languages will disappear despite preservation efforts. Cultural interest may prevent the worst outcome, but does not remove all loss.\n\nTutor tip: inevitable loss does not mean every minority language must vanish.",
+        "ru": "Ответ: YES. Автор ожидает исчезновения многих языков даже при усилиях по сохранению. Интерес к культуре может смягчить худший исход, но не устранить все потери.\n\nСовет тьютора: неизбежная потеря части разнообразия не означает исчезновение всех языков.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "a very conservative attitude to natural or alternative therapies",
+        "en": "Answer: C. The passage characterises Australian doctors as traditionally reluctant to accept alternative practitioners. Other industrialised countries are contrasted as combining the approaches.\n\nTutor tip: the question asks about the historical attitude, not the later trend towards collaboration.",
+        "ru": "Ответ: C. Текст описывает прежнее нежелание австралийских врачей принимать альтернативных практиков. Другие страны противопоставлены как более склонные к сотрудничеству.\n\nСовет тьютора: не заменяй историческое отношение последующим изменением.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "Americans made more visits to alternative therapists than to orthodox doctors in 1990",
+        "en": "Answer: B. The comparison is the number of visits in 1990. The nearby spending figure does not compare expenditure on alternative and conventional medicine, so C is unsupported.\n\nTutor tip: visits and spending are different measures.",
+        "ru": "Ответ: B. Сравнивается число обращений в 1990 году. Сумма расходов рядом не сопоставлена с обычной медициной, поэтому C не подтверждается.\n\nСовет тьютора: число посещений и денежные расходы — разные показатели.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "climb steadily during the past 20 years",
+        "en": "Answer: YES. The text directly reports a steady twenty-year increase in alternative therapies’ popularity in Australia. The survey percentages give examples of that trend.\n\nTutor tip: match the stated period as well as the direction of change.",
+        "ru": "Ответ: YES. Прямо указан устойчивый рост популярности в Австралии за последние двадцать лет. Проценты опросов иллюстрируют эту тенденцию.\n\nСовет тьютора: сверяй период вместе с направлением изменения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "this figure had risen to 2.6% of the population",
+        "en": "Answer: NO. The proportion rose from 1.9% to 2.6%, a difference of 0.7 percentage points, not an additional 8% of the population. The one-eighth figure concerns consultations, a different quantity.\n\nTutor tip: do not mix percentages from different denominators.",
+        "ru": "Ответ: NO. Доля выросла с 1,9% до 2,6%, то есть на 0,7 процентного пункта, а не на 8% населения. Одна восьмая относится к консультациям.\n\nСовет тьютора: проценты с разными основаниями нельзя подменять друг другом.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "The 550,000 consultations with alternative therapists reported in the 1990 survey",
+        "en": "Answer: YES. The number and year are explicitly attached to consultations with alternative therapists. These are consultations, not necessarily 550,000 distinct individual patients.\n\nTutor tip: preserve the unit being counted.",
+        "ru": "Ответ: YES. Число 550000 и год 1990 прямо связаны с консультациями альтернативных специалистов. Это не обязательно столько же разных пациентов.\n\nСовет тьютора: сохраняй указанную единицу подсчёта.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "The high standing of professionals, including doctors, has been eroded",
+        "en": "Answer: YES. Eroded standing means the public’s opinion of professionals has declined. The comparison with a formerly higher status supports the statement about past attitudes.\n\nTutor tip: a decline implies a higher earlier level, even without two numeric values.",
+        "ru": "Ответ: YES. Eroded standing означает снижение общественного авторитета врачей. Следовательно, прежде мнение о них было выше.\n\nСовет тьютора: снижение предполагает более высокий прежний уровень даже без чисел.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "taking courses themselves, particularly in acupuncture and herbalism",
+        "en": "Answer: YES. Some doctors are taking training in acupuncture and herbalism, as well as forming joint practices. This directly matches retraining in alternative therapies.\n\nTutor tip: distinguish doctors studying a therapy from referring patients elsewhere.",
+        "ru": "Ответ: YES. Некоторые врачи сами учатся акупунктуре и фитотерапии, помимо совместной работы с практиками. Это соответствует дополнительному обучению.\n\nСовет тьютора: обучение врача не равно направлению пациента к другому специалисту.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "Part of the incentive was financial",
+        "en": "Answer: NOT GIVEN. Financial motivation and potential clients are discussed, but no comparison of practitioners’ salaries is provided. Wanting to retain business does not prove alternative therapists earn more.\n\nTutor tip: motive is not a salary statistic.",
+        "ru": "Ответ: NOT GIVEN. Финансовый мотив и потеря клиентов упомянуты, но зарплаты двух групп не сравниваются. Желание сохранить клиентов не доказывает больший доход альтернативных специалистов.\n\nСовет тьютора: мотив не заменяет данные о заработке.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "a wide range of alternative therapies from 25 therapists",
+        "en": "Answer: NO. The 289 people attended practices offering a wide range of therapies, not exclusively acupuncture. The statement narrows the treatment category beyond the survey description.\n\nTutor tip: keep a broad survey population distinct from one therapy mentioned elsewhere.",
+        "ru": "Ответ: NO. 289 участников посещали практики с широким набором методов, а не только акупунктуру. Утверждение необоснованно сужает описание опроса.\n\nСовет тьютора: отдельный метод из текста не определяет всю выборку.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "Those surveyed had experienced chronic illnesses",
+        "en": "Answer: YES. Chronic illnesses are long-term complaints, directly matching the statement about the surveyed patients. The sentence describes this particular sample rather than all alternative-therapy users.\n\nTutor tip: chronic paraphrases long-term.",
+        "ru": "Ответ: YES. Chronic illnesses — хронические, длительные заболевания. Предложение относится именно к опрошенным, а не ко всем посетителям подобных практик.\n\nСовет тьютора: chronic соответствует long-term; сохраняй границы выборки.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "only 1% more than those suffering from emotional problems",
+        "en": "Answer: emotional problems. Digestive complaints account for 12%, one percentage point above emotional complaints, so the emotional category is 11%. Match that bar to label 24.\n\nTutor tip: derive a value from the comparison when it is not printed directly.",
+        "ru": "Ответ: emotional problems. Пищеварительные жалобы составляют 12%, на один пункт больше эмоциональных, значит последние дают 11%. Эта категория соответствует метке 24.\n\nСовет тьютора: иногда значение нужно вывести из сравнения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "Headache sufferers and those complaining of general ill health represent 6% and 5%",
+        "en": "Answer: headaches. Respectively assigns 6% to headaches and 5% to general ill health. Label 25 corresponds to the 6% headache category, not respiratory or candida complaints at 7%.\n\nTutor tip: respectively preserves the order of categories and values.",
+        "ru": "Ответ: headaches. Respectively связывает 6% с головными болями, 5% — с общим нездоровьем. Метка 25 относится к 6%, а не к соседним категориям по 7%.\n\nСовет тьютора: respectively сохраняет порядок категорий и чисел.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "general ill health represent 6% and 5% of patients respectively",
+        "en": "Answer: general ill health. This second item in the respectively pair accounts for 5%. General health maintenance is a separate 4% category, so it should not replace the illness category.\n\nTutor tip: distinguish a complaint from preventive maintenance.",
+        "ru": "Ответ: general ill health. Второй элемент пары с respectively составляет 5%. General health maintenance — другая категория с 4%, профилактика, а не жалоба.\n\nСовет тьютора: различай нездоровье и поддержание здоровья.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "link-ups between brain areas that might not normally communicate",
+        "en": "Answer: H. Paragraph H explains unusual connections between brain areas and suggests they enhance creativity. This specifically matches beneficial connections, rather than the more general stimulation in G.\n\nTutor tip: find the distinctive detail, not just any mention of the brain.",
+        "ru": "Ответ: H. Абзац H описывает связи между областями мозга, обычно не взаимодействующими, и возможное улучшение творчества. Это точнее, чем общее возбуждение в G.\n\nСовет тьютора: ищи отличительный признак, а не любое упоминание мозга.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "plot the amount of time a juvenile devotes to play each day",
+        "en": "Answer: F. Recording time spent playing reveals a pattern associated with a sensitive developmental period. This paragraph explicitly turns timing data into an insight about brain modification.\n\nTutor tip: recording how much time paraphrases plotting daily play duration.",
+        "ru": "Ответ: F. Учёт времени игры выявляет чувствительный период развития, когда мозг особенно изменяем. Именно здесь временные данные дают вывод.\n\nСовет тьютора: recording how much time соответствует построению графика длительности игры.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "playing pups fail to spot predators approaching",
+        "en": "Answer: A. Paragraph A describes juvenile seals dying because play distracts them from predators, as well as the energy cost of play. The predator example is the physical hazard requested.\n\nTutor tip: separate a danger from a developmental benefit.",
+        "ru": "Ответ: A. В абзаце A детёныши тюленей не замечают хищников во время игры; также обсуждается расход энергии. Пример хищников — требуемая физическая опасность.\n\nСовет тьютора: отличай риск от пользы развития.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "complex assessments of playmates, ideas of reciprocity",
+        "en": "Answer: H. Assessing partners, reciprocity, signals and rules are cognitive activities exercised in play. The paragraph connects them with flexibility, learning and creativity.\n\nTutor tip: mental activities are more specific than physical movement or energy use.",
+        "ru": "Ответ: H. Оценка партнёров, взаимность, сигналы и правила — умственные процессы игры. Далее они связаны с гибкостью поведения и обучением.\n\nСовет тьютора: когнитивные действия отличаются от движений и расхода энергии.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "With schooling beginning earlier and becoming increasingly exam-orientated",
+        "en": "Answer: I. The final paragraph considers reduced play in modern schooling and asks about its consequences for children. The rat example motivates that concern; it is not a direct claim that human outcomes have already been measured.\n\nTutor tip: identify a discussion of possible implications rather than completed human results.",
+        "ru": "Ответ: I. Заключение обсуждает сокращение игры из-за раннего и экзаменационного обучения и возможные последствия. Пример крыс обосновывает вопрос, но не доказывает уже измеренный эффект у людей.\n\nСовет тьютора: различай предположение и готовый результат.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "common only among mammals, although a few of the larger-brained birds also indulge",
+        "en": "Answer: B. Paragraph B names the animal classes associated with play: mammals and some larger-brained birds. It then reviews proposed functions of play.\n\nTutor tip: animal classes refers to broad groups, not the individual species used as examples.",
+        "ru": "Ответ: B. Абзац B называет классы животных: млекопитающие и некоторые птицы с крупным мозгом. Затем рассматривает функции игры.\n\nСовет тьютора: classes — широкие группы, а не отдельные виды-примеры.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33–34–35": {
+        "part": 3,
+        "quote": "helps juveniles develop the skills they will need to hunt, mate and socialise as adults",
+        "en": "Answer: A, C and F, in any order. The text mentions practising adult skills, fitness or muscle-building, and brain growth. Some older explanations are questioned, but the question asks which views are mentioned, not which are accepted.\n\nTutor tip: mentioned and proved are different requirements; select each letter once.",
+        "ru": "Ответ: A, C и F в любом порядке. Названы репетиция взрослых навыков, физическая подготовка и рост мозга. Старые объяснения оспариваются, но спрашивается, какие взгляды упомянуты.\n\nСовет тьютора: mentioned не означает proved; не повторяй буквы.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        },
+        "quotes": [
+          "helps juveniles develop the skills they will need to hunt, mate and socialise as adults",
+          "If play evolved to build muscle",
+          "play has evolved to build big brains"
+        ]
+      },
+      "36": {
+        "part": 3,
+        "quote": "the importance of environmental data to the brain during development",
+        "en": "Answer: B — Robert Barton. Barton links play to learning from environmental information during brain development. The statement about a specific brain chemical belongs to Siviy, not Barton.\n\nTutor tip: match the mechanism to the researcher who actually describes it.",
+        "ru": "Ответ: B — Robert Barton. Бартон связывает игру с усвоением информации о среде в процессе развития мозга. Конкретное химическое вещество обсуждает Сиви.\n\nСовет тьютора: связывай механизм с тем исследователем, который его называет.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "They use behaviour from a lot of different contexts",
+        "en": "Answer: G — Marc Bekoff. Bekoff compares play to a kaleidoscope mixing predation, aggression and reproduction behaviours. This matches a wide range of activities combined in play.\n\nTutor tip: the kaleidoscope analogy signals rapidly changing combinations.",
+        "ru": "Ответ: G — Marc Bekoff. Бекофф сравнивает игру с калейдоскопом, смешивающим охоту, агрессию и размножение. Это соответствует сочетанию разнообразных действий.\n\nСовет тьютора: образ калейдоскопа подчёркивает меняющиеся комбинации.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "the benefits of increased exercise disappear rapidly after training stops",
+        "en": "Answer: E — John Byers. Byers argues that fitness gained in juvenile play would fade before adulthood. This challenges play as preparation for future physical endurance.\n\nTutor tip: a researcher can be matched to a theory they reject.",
+        "ru": "Ответ: E — John Byers. Байерс считает, что физические преимущества игры исчезнут до взрослого возраста. Это возражение против будущей тренировки выносливости.\n\nСовет тьютора: исследователь может соответствовать отвергаемой им теории.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "larger brains (for a given body size) are linked to greater playfulness",
+        "en": "Answer: D — Sergio Pellis. Pellis reports a positive relation between relative brain size and playfulness, including the converse. Smaller brains therefore tend to accompany less play.\n\nTutor tip: preserve for a given body size; this is relative brain size.",
+        "ru": "Ответ: D — Sergio Pellis. Пеллис связывает относительный размер мозга с игривостью и подтверждает обратную связь: меньший мозг — меньше игры.\n\nСовет тьютора: for a given body size означает сравнение при одинаковом размере тела.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "the brain's levels of a particular chemical",
+        "en": "Answer: A — Stephen Siviy. Siviy studied a chemical associated with nerve-cell stimulation and growth during play. That is the specific-substance link in the options, unlike Barton’s environmental-data explanation.\n\nTutor tip: distinguish chemical evidence from broader developmental theories.",
+        "ru": "Ответ: A — Stephen Siviy. Сиви изучал вещество, связанное с возбуждением и ростом нервных клеток во время игры. Это пункт о конкретном веществе, а не теория об информации среды.\n\nСовет тьютора: отделяй химические данные от общих объяснений развития.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-4-3": {
+      "1": {
+        "part": 1,
+        "quote": "Now business is a part of our lives",
+        "en": "Answer: A. The opening participants describe improved breakfast, clothing, confidence, money management and friendships after joining the programme. Their testimonies illustrate its effects rather than explain its founding.\n\nTutor tip: identify the function of quoted examples in the article.",
+        "ru": "Ответ: A. Участники рассказывают об улучшении питания, одежды, уверенности, финансовых навыков и дружеских связей. Цитаты показывают результаты программы, а не причины её основания.\n\nСовет тьютора: определяй роль примеров в статье.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "business training, life skills training and access to credit",
+        "en": "Answer: D. S.K.I. supports income-generating businesses through training and access to loans. Schools and social support matter in the background, but they are not the principal programme described.\n\nTutor tip: choose the organisation’s intervention, not the problems it aims to address.",
+        "ru": "Ответ: D. S.K.I. помогает зарабатывать через обучение предпринимательству и доступ к кредитам. Школы и социальные проблемы упомянуты в фоне, но не определяют основное действие программы.\n\nСовет тьютора: различай проблему и способ её решения.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "the demand for income at home",
+        "en": "Answer: C — poverty. Need for household income and underfunded schools are economic pressures pushing children onto streets. Crime appears as a danger encountered there, not as the listed initial cause.\n\nTutor tip: separate why children arrive from what they face afterwards.",
+        "ru": "Ответ: C — poverty. Необходимость дохода семье и нехватка средств для школ — экономические причины. Преступность описана как опасность на улице, а не исходная причина.\n\nСовет тьютора: различай путь на улицу и последующие риски.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "entrepreneurship because it allows them a degree of independence",
+        "en": "Answer: C. Starting a business offers independence and flexibility, allowing education or domestic responsibilities. The passage does not say children must abandon their families or hire other children.\n\nTutor tip: entrepreneurship paraphrases setting up a business.",
+        "ru": "Ответ: C. Собственное дело даёт независимость и гибкость для учёбы и домашних обязанностей. Уход от семьи или найм других детей не предлагается.\n\nСовет тьютора: entrepreneurship соответствует созданию собственного бизнеса.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "A similar program was taken up in Bangalore, India",
+        "en": "Answer: Sudan and India. The bicycle courier project began in Sudan and was replicated in Bangalore, India. The key requires both countries, not just the first project location.\n\nTutor tip: follow references such as a similar program to find the second location.",
+        "ru": "Ответ: Sudan and India. Велокурьерский проект начался в Судане и был повторён в индийском Бангалоре. Нужны обе страны, не только первая.\n\nСовет тьютора: a similar program связывает второй пример с исходным.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        },
+        "quotes": [
+          "The S.K.I. Bicycle Courier Service first started in the Sudan",
+          "A similar program was taken up in Bangalore, India"
+        ]
+      },
+      "6": {
+        "part": 1,
+        "quote": "Participants in this enterprise were supplied with bicycles",
+        "en": "Answer: bicycles. Participants used the supplied bicycles to deliver parcels and messages, paying for them gradually from wages. Parcels are the delivery items, not the equipment provided.\n\nTutor tip: identify what is supplied rather than what is transported.",
+        "ru": "Ответ: bicycles. Детям предоставляли велосипеды для доставки, которые они постепенно оплачивали из заработка. Посылки — груз, а не предоставляемое оборудование.\n\nСовет тьютора: различай средство работы и перевозимый предмет.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "Another successful project, the Shoe Shine Collective",
+        "en": "Answer: Shoe Shine Collective. This Dominican Republic partnership offered loans for shoe-shine boxes, safe storage and savings facilities, matching the table’s support column.\n\nTutor tip: use several table features to identify a project reliably.",
+        "ru": "Ответ: Shoe Shine Collective. Проект в Доминиканской Республике сочетал займы для ящиков, безопасное хранение и накопления, как в таблице.\n\nСовет тьютора: подтверждай проект сразу несколькими характеристиками строки.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "life skills training and access to credit",
+        "en": "Answer: life skills. The Zambia programme provides business training, life-skills training and credit. Since training is already printed after the gap, copy only life skills.\n\nTutor tip: do not duplicate words supplied by the question.",
+        "ru": "Ответ: life skills. Замбийская программа включает предпринимательские и жизненные навыки и кредит. Training уже напечатано после пропуска, поэтому его повторять не нужно.\n\nСовет тьютора: учитывай готовые слова задания.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "Being an entrepreneur is not for everyone, nor for every street child",
+        "en": "Answer: NO. The writer explicitly rejects entrepreneurship as suitable for everyone. Enough support does not remove that stated limitation.\n\nTutor tip: any creates a universal claim contradicted by not for every.",
+        "ru": "Ответ: NO. Автор прямо говорит, что предпринимательство подходит не каждому ребёнку. Достаточная поддержка не отменяет это ограничение.\n\nСовет тьютора: универсальное any противоречит not for every.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "There are tremendous advantages to involving parents or guardians",
+        "en": "Answer: NOT GIVEN. Involving families and making home visits are recommended, but financial support to those families is not discussed. Participation in a programme does not imply receiving money from it.\n\nTutor tip: distinguish family involvement from a family loan or payment.",
+        "ru": "Ответ: NOT GIVEN. Рекомендуются участие родителей и домашние визиты, но денежная помощь семьям не описана. Вовлечение в программу не означает получение средств.\n\nСовет тьютора: участие и финансирование — разные утверждения.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "consideration can be given to increasing loan amounts",
+        "en": "Answer: NO. Loans start small and may grow as entrepreneurs gain experience and expand. This contradicts a rule that each child should receive only one fixed loan.\n\nTutor tip: initially and gradually signal a changing rather than fixed arrangement.",
+        "ru": "Ответ: NO. Займы сначала небольшие, затем могут увеличиваться вместе с опытом и расширением бизнеса. Это противоречит единственному фиксированному займу.\n\nСовет тьютора: initially и gradually обозначают развитие схемы.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "All S.K.I. programs have charged interest on the loans",
+        "en": "Answer: YES. Interest requires borrowers to repay more than the principal, and rates are described as modest. This supports slightly more rather than a large additional charge.\n\nTutor tip: connect the financial term interest with its repayment consequence.",
+        "ru": "Ответ: YES. Проценты означают возврат суммы больше основной, а ставки названы умеренными. Поэтому slightly more соответствует тексту.\n\nСовет тьютора: переводи термин interest в его практический смысл для возврата.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "credit must be extended in association with other types of support",
+        "en": "Answer: A. The conclusion makes loans part of broader support for life skills and productive businesses. Money alone is not presented as sufficient.\n\nTutor tip: the final recommendation often states the condition required by a conclusion question.",
+        "ru": "Ответ: A. В заключении кредит связан с другими видами помощи для жизненных навыков и бизнеса. Одних денег недостаточно.\n\nСовет тьютора: итоговая рекомендация часто прямо даёт условие заключительного вопроса.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "Vulcanism, the name given to volcanic processes, really has shaped the world",
+        "en": "Answer: iii. Section A explains volcanoes’ role in continents, ocean floors, atmosphere and water. These are planetary features, not merely the causes or unpredictability of individual eruptions.\n\nTutor tip: choose a heading covering all major products described.",
+        "ru": "Ответ: iii. Раздел A раскрывает вклад вулканов в материки, океанское дно, атмосферу и воду. Это особенности планеты, а не причины отдельных извержений.\n\nСовет тьютора: заголовок должен охватывать все основные результаты.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "fracture the 'eggshell' of the crust into plates",
+        "en": "Answer: i. Section B explains internal structure, convection and plate movement as the mechanism behind volcanic activity. The egg analogy clarifies causes, not a prediction method.\n\nTutor tip: an analogy serves the section’s explanation; it is not its main topic.",
+        "ru": "Ответ: i. Раздел B объясняет строение недр, конвекцию и движение плит как механизм вулканизма. Аналогия с яйцом поясняет причины, а не прогнозирование.\n\nСовет тьютора: сравнение обслуживает основную мысль, но не заменяет её.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "Sometimes the magma moves very swiftly indeed",
+        "en": "Answer: iv. Section C contrasts slow magma movement, broad sheets and violent explosions, illustrating different eruption types. Its many examples develop these contrasts.\n\nTutor tip: repeated sometimes marks a classification of alternatives.",
+        "ru": "Ответ: iv. Раздел C сопоставляет медленное движение магмы, широкие потоки и взрывы, то есть виды извержений. Примеры раскрывают эти различия.\n\nСовет тьютора: повтор sometimes помогает увидеть классификацию.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "But volcanoes are not very predictable",
+        "en": "Answer: vi. Section D explains long quiet periods and sudden eruptions with little warning. Prediction efforts or international relief are not its main subject.\n\nTutor tip: the topic sentence and the historical examples support the same heading.",
+        "ru": "Ответ: vi. Раздел D обсуждает долгий покой и внезапные извержения с малым предупреждением. Не усилия прогнозирования и не помощь составляют его тему.\n\nСовет тьютора: вводное предложение и примеры должны поддерживать один заголовок.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "the plates which make up the earth's crust and mantle",
+        "en": "Answer: plates. Tectonic plates are the sections whose boundaries outline earthquake and volcanic zones. A hot spot or crater is not the general name of those crustal sections.\n\nTutor tip: answer the definition requested, not a related geological feature.",
+        "ru": "Ответ: plates. Тектонические плиты — части, границы которых связаны с землетрясениями и вулканами. Кратер или горячая точка не являются общим названием этих частей.\n\nСовет тьютора: выбирай термин по определению вопроса.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "magma - molten rock from the mantle",
+        "en": "Answer: magma. The dash introduces an explicit definition of molten mantle rock. Lava refers to molten material at the surface, but the question requests the name supplied here.\n\nTutor tip: punctuation around definitions is a useful scanning clue.",
+        "ru": "Ответ: magma. После тире дано прямое определение расплавленной породы мантии. Вопрос просит именно названный здесь термин.\n\nСовет тьютора: тире и пояснения часто помогают быстро найти определение.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "the Pacific 'ring of fire'",
+        "en": "Answer: ring of fire. This is the named Pacific zone associated with dramatic volcanic explosions. Copy the three-word name rather than a volcano from the examples that follow.\n\nTutor tip: a zone name and one location within it are different answers.",
+        "ru": "Ответ: ring of fire. Так названа тихоокеанская зона крупных извержений. Нужны три слова названия, а не отдельный вулкан из последующих примеров.\n\nСовет тьютора: зона и объект внутри неё — разные понятия.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "In the case of Mount Pinatubo, this took 600 years",
+        "en": "Answer: 600 years. This period refers to pressure accumulating below the plug during inactivity. It is not the date of the eventual eruption or the duration of that eruption.\n\nTutor tip: resolve this to the long blocking-and-pressure process described immediately before.",
+        "ru": "Ответ: 600 years. Это период накопления давления под пробкой во время покоя. Не дата и не длительность самого извержения.\n\nСовет тьютора: this относится к процессу блокировки и накопления давления перед ним.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "provided all the water for the oceans, rivers and ice-caps",
+        "en": "Answer: water. Section A attributes the atmosphere and water supplies to volcanoes. Oceans is also an accepted key alternative, but the broad substance named is water.\n\nTutor tip: the summary compresses several destinations into one general item.",
+        "ru": "Ответ: water. Раздел A связывает атмосферу и водные запасы с вулканами. Oceans тоже принято ключом, однако общий названный материал — вода.\n\nСовет тьютора: краткое изложение может объединять несколько мест одним понятием.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "vast bubbles of magma",
+        "en": "Answer: magma. Slow-rising molten rock cools and appears as granite extrusions, matching the summary. The saved key also accepts lava or molten rock in this slot.\n\nTutor tip: match both slow movement and granite formation to the correct example.",
+        "ru": "Ответ: magma. Медленно поднимающаяся расплавленная порода охлаждается и образует гранитные выходы. В этом поле ключ также допускает lava и molten rock.\n\nСовет тьютора: проверяй одновременно скорость и итоговую породу.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "In the Deccan plateau in western India",
+        "en": "Answer: India / western India. The Deccan plateau example follows the description of faster magma spreading in thick horizontal sheets. It joins Northern Ireland, Wales and South Africa in that category.\n\nTutor tip: follow the example list past the first sentence.",
+        "ru": "Ответ: India / western India. Деканское плато приведено после описания толстых горизонтальных потоков. Индия дополняет перечисленные страны этого типа.\n\nСовет тьютора: дочитывай список примеров за пределами первого предложения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "it explodes with tremendous force",
+        "en": "Answer: explodes. Very rapid magma ascent allows gases to expand suddenly, causing a violent explosion. The summary’s singular lava requires the verb explodes.\n\nTutor tip: match the eruption mechanism and the grammatical verb form.",
+        "ru": "Ответ: explodes. Быстрый подъём вызывает внезапное расширение газов и мощный взрыв. Единственное число lava требует explodes.\n\nСовет тьютора: проверяй механизм и форму глагола вместе.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "The gases trapped inside the boiling rock expand suddenly",
+        "en": "Answer: gases. Trapped gases expand when magma rises too quickly to cool, producing frothing and explosion. Rocks and lava are the surrounding material, not the expanding component sought here.\n\nTutor tip: identify what expands, not what carries it.",
+        "ru": "Ответ: gases. Запертые газы резко расширяются при быстром подъёме магмы, вызывая вспенивание и взрыв. Нужен расширяющийся компонент, а не окружающая порода.\n\nСовет тьютора: различай содержимое и материал вокруг него.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "People talk abnormally when they know they are being recorded",
+        "en": "Answer: D. Paragraph D explicitly describes how awareness of recording changes speech, the observer’s paradox. Paragraph E concerns missing visual context, a different recording limitation.\n\nTutor tip: match the specific effect, not the shared word recording.",
+        "ru": "Ответ: D. Абзац D описывает изменение речи при осознании записи — парадокс наблюдателя. В E обсуждается отсутствие визуального контекста, другая проблема.\n\nСовет тьютора: выбирай конкретный эффект, не просто слово recording.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "the observer's written comments on the non-verbal behaviour",
+        "en": "Answer: E. Written notes supplement recordings with gestures, facial expression and context that affect meaning. This is the requested importance of observing body language.\n\nTutor tip: non-verbal behaviour paraphrases body language.",
+        "ru": "Ответ: E. Письменные наблюдения дополняют запись жестами, мимикой и контекстом, меняющими смысл. Это требуемая роль заметок о языке тела.\n\nСовет тьютора: non-verbal behaviour соответствует body language.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "the characteristics of the social setting",
+        "en": "Answer: C. Paragraph C lists social setting, conversation topic and formality among influences on language use. These factors guide informant selection and research design.\n\nTutor tip: find the social variable, not merely a paragraph mentioning speakers.",
+        "ru": "Ответ: C. Абзац C включает социальную ситуацию, тему и формальность в факторы, влияющие на речь и подбор информантов.\n\nСовет тьютора: ищи именно социальную переменную, а не любое упоминание говорящих.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "keeping the tape recorder out of sight",
+        "en": "Answer: D. Hiding equipment, using radio microphones or an engaging topic may help speakers forget recording and behave naturally. These are methods for reducing self-consciousness.\n\nTutor tip: scan for practical techniques following the problem statement.",
+        "ru": "Ответ: D. Скрытый прибор, радиомикрофон или увлекающая тема помогают забыть о записи и говорить естественно. Это способы уменьшить скованность.\n\nСовет тьютора: после описания проблемы ищи конкретные методы её решения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "several direct methods of elicitation",
+        "en": "Answer: F. Structured questions, translation, restricted word lists and correction prompts deliberately elicit specific linguistic data. General corpus analysis belongs to G, not this targeted generation.\n\nTutor tip: elicit means draw out or obtain a response.",
+        "ru": "Ответ: F. Структурированные вопросы, перевод, списки слов и исправления специально вызывают нужные речевые данные. Анализ корпуса в G — другой подход.\n\nСовет тьютора: elicit значит получить или вызвать определённый ответ.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "linguists act as their own informants",
+        "en": "Answer: linguist. A researcher analysing their mother tongue can supply their own judgements, making the approach convenient but potentially subjective. The table contrasts this with a non-linguist informant.\n\nTutor tip: identify the person serving as the data source.",
+        "ru": "Ответ: linguist. При изучении родного языка исследователь сам даёт суждения: удобно, но субъективно. Таблица противопоставляет этому информанта-нелингвиста.\n\nСовет тьютора: определи, кто выступает источником данных.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "unavoidable when working on foreign languages, or child speech",
+        "en": "Answer: foreign languages. Outside informants are necessary when the researcher cannot rely on their own native-language intuitions, including foreign languages and children’s speech. Child speech is already supplied.\n\nTutor tip: copy the missing member of the paired list.",
+        "ru": "Ответ: foreign languages. При иностранном языке или детской речи нельзя опираться только на собственные языковые ощущения исследователя. Child speech уже дано.\n\nСовет тьютора: вставляй недостающий элемент пары.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "sound quality can be poor",
+        "en": "Answer: quality. Audio recordings permit repeated checking, but their sound quality can be poor. The table already prints of sound, so quality completes the disadvantage without duplicating it.\n\nTutor tip: fit the noun into the words already present.",
+        "ru": "Ответ: quality. Запись позволяет перепроверять речь, но качество звука бывает плохим. Of sound уже стоит в таблице, поэтому нужно quality.\n\nСовет тьютора: вписывай существительное с учётом готового окружения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "A facial expression, for example, can dramatically alter the meaning",
+        "en": "Answer: non-verbal behaviour / facial expressions. Video captures visual signals that audio misses and that can change the meaning of speech. The blank asks what can be observed, not the recording device.\n\nTutor tip: distinguish information captured from equipment used.",
+        "ru": "Ответ: non-verbal behaviour / facial expressions. Видео фиксирует визуальные сигналы, отсутствующие в аудио и меняющие смысл речи. Требуется наблюдаемый признак, не оборудование.\n\nСовет тьютора: различай фиксируемые данные и прибор.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "the camera cannot be everywhere",
+        "en": "Answer: camera / video camera. Even video misses events outside its coverage, so observational notes remain useful. The limitation concerns the camera’s position rather than a complete absence of visual information.\n\nTutor tip: cannot be everywhere identifies the device with limited coverage.",
+        "ru": "Ответ: camera / video camera. Видео пропускает события вне кадра, поэтому заметки всё ещё полезны. Это ограничение охвата камеры, а не отсутствие всей визуальной информации.\n\nСовет тьютора: cannot be everywhere указывает на прибор.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "unbiased statements about frequency of usage",
+        "en": "Answer: frequency of usage. A corpus permits objective statements about how often forms occur. Unbiased paraphrases objectively; it does not mean a corpus includes every possible utterance.\n\nTutor tip: identify the measurable property rather than the corpus’s size.",
+        "ru": "Ответ: frequency of usage. Корпус позволяет объективно говорить о частоте употребления форм. Unbiased соответствует objectively, но не означает полный охват языка.\n\nСовет тьютора: ищи измеряемое свойство, не размер корпуса.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "deals only with a particular linguistic feature",
+        "en": "Answer: particular linguistic feature. Selective corpora focus on a specific feature, unlike collections covering many text types. All three words fit the stated limit and preserve the narrowing of scope.\n\nTutor tip: only contrasts selective with broad coverage.",
+        "ru": "Ответ: particular linguistic feature. Избирательные корпуса посвящены конкретному языковому признаку, в отличие от широких коллекций. Три слова сохраняют нужную конкретность.\n\nСовет тьютора: only противопоставляет узкий и широкий охват.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "The size of the corpus depends on practical factors",
+        "en": "Answer: size. Available time for collection, processing and storage limits how large the corpus can be. Slow transcription is an example explaining that size constraint.\n\nTutor tip: distinguish the limiting factor from the resulting property.",
+        "ru": "Ответ: size. Время сбора, обработки и хранения ограничивает размер корпуса. Долгая расшифровка иллюстрирует это ограничение.\n\nСовет тьютора: время — фактор, размер — зависимый результат.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "the intuitions of native speakers of the language",
+        "en": "Answer: intuitions. Since every corpus is limited, native-speaker intuitions add information through introspection or experiments. These supplement the corpus; they do not replace all collected evidence.\n\nTutor tip: follow supplemented by to locate the additional source.",
+        "ru": "Ответ: intuitions. Из-за ограниченности корпуса языковые ощущения носителей дополняют данные через самоанализ или эксперименты. Они не заменяют всю коллекцию.\n\nСовет тьютора: supplemented by вводит дополнительный источник.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-4-4": {
+      "1": {
+        "part": 1,
+        "quote": "Since the early years of the twentieth century",
+        "en": "Answer: TRUE. Official record keeping began in the early twentieth century, approximately 1900. The passage then describes improvements since that starting point.\n\nTutor tip: about allows an approximate date, not an exact first year.",
+        "ru": "Ответ: TRUE. Официальный учёт начался в первые годы двадцатого века, то есть примерно около 1900 года. Дальше описан прогресс с этого времени.\n\nСовет тьютора: about допускает приближение, а не требует точного года.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "there has been a steady improvement",
+        "en": "Answer: NOT GIVEN. Improvements are described from the start of modern records onward. Nothing compares the pace before the twentieth century, so little improvement in the earlier period cannot be inferred.\n\nTutor tip: absence of earlier records is not evidence of little earlier progress.",
+        "ru": "Ответ: NOT GIVEN. Прогресс описан с начала современных записей. Темп до двадцатого века не сравнивается, поэтому слабые прежние улучшения не установлены.\n\nСовет тьютора: отсутствие данных не доказывает отсутствие прогресса.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "In the endurance events the results have been more dramatic",
+        "en": "Answer: FALSE. Power events improved 10–20%, while the marathon example approaches 30%. The greater improvement is therefore in endurance, not the brief explosive events.\n\nTutor tip: identify which event category owns each percentage.",
+        "ru": "Ответ: FALSE. Силовые скоростные дисциплины улучшились на 10–20%, марафон — почти на 30%. Более сильный прогресс относится к выносливости.\n\nСовет тьютора: привязывай каждый процент к нужной категории.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "No one theory can explain improvements in performance",
+        "en": "Answer: FALSE. Genetics is called the most important factor, but no single theory fully explains improvement. Training, nutrition, biomechanics and equipment are discussed as additional influences.\n\nTutor tip: most important is not the same as sufficient on its own.",
+        "ru": "Ответ: FALSE. Генетика названа важнейшим фактором, однако ни одна теория не объясняет всё. Также рассматриваются обучение, питание, биомеханика и оборудование.\n\nСовет тьютора: «главный» не означает «единственный и достаточный».",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "The athlete must choose his parents carefully",
+        "en": "Answer: NOT GIVEN. This is an adage about inherited potential, not a statistic about elite athletes’ parents being successful competitors. The passage gives no parental sporting records.\n\nTutor tip: a humorous saying cannot establish a factual frequency claim.",
+        "ru": "Ответ: NOT GIVEN. Это поговорка о наследственном потенциале, а не сведения о спортивных успехах родителей чемпионов. Данных о таких родителях нет.\n\nСовет тьютора: образное высказывание не подтверждает частотное утверждение.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "individuals possessing the unique complement of genes for athletic performance can be identified early",
+        "en": "Answer: TRUE. Wider global participation and greater rewards make early recognition of gifted individuals more likely. The gene pool itself is said not to have changed appreciably.\n\nTutor tip: distinguish better discovery of talent from a genetic change in the population.",
+        "ru": "Ответ: TRUE. Международное участие и вознаграждения повышают вероятность раннего выявления талантов. Сам генофонд существенно не изменился.\n\nСовет тьютора: обнаружение способностей отличается от изменения генетики населения.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "running on their genetics",
+        "en": "Answer: genetics. Yessis says current US runners rely on inherited potential, while more scientific training could improve their performance further. The gap asks for the present basis of success.\n\nTutor tip: separate what athletes rely on now from what the expert recommends adding.",
+        "ru": "Ответ: genetics. Йессис считает, что американские бегуны пока опираются на наследственные способности, а научная тренировка могла бы улучшить результат.\n\nСовет тьютора: различай нынешнюю основу успеха и рекомендуемое дополнение.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "plyometrics focuses on increasing power",
+        "en": "Answer: power. Plyometrics targets the rate of energy expenditure during a brief movement, unlike ordinary exercises aimed at strength or endurance. The contrast makes power the specific term.\n\nTutor tip: do not replace a technical distinction with a near-synonym.",
+        "ru": "Ответ: power. Плиометрика развивает скорость высвобождения энергии в коротком движении, в отличие от общей силы или выносливости.\n\nСовет тьютора: сохраняй специальное различие терминов, а не подменяй его похожим словом.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "deficiencies in trace minerals can lead to injuries",
+        "en": "Answer: injuries. The text links inadequate mineral intake to injury risk. It does not give a particular injury type, so the general plural fits the one-word answer requirement.\n\nTutor tip: use the consequence explicitly named.",
+        "ru": "Ответ: injuries. Недостаток микроэлементов связан с травмами. Конкретный вид травмы не назван, поэтому нужен общий термин во множественном числе.\n\nСовет тьютора: используй прямо указанное последствие.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "as long as our training continues to improve",
+        "en": "Answer: training. Yessis expects new records as training improves, even if gains are only hundredths of a second. He does not claim precise ultimate limits are already known.\n\nTutor tip: as long as introduces the condition supporting the prediction.",
+        "ru": "Ответ: training. Йессис ожидает новые рекорды при улучшении тренировки, пусть на сотые доли секунды. Точные пределы он не называет.\n\nСовет тьютора: as long as вводит условие прогнозируемого результата.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "this one is not using his arms strongly enough during take-off",
+        "en": "Answer: A. Biomechanical filming identifies weaknesses in speed or arm use, indicating areas to improve. It is not described as a way to predict winners or select genetically talented athletes.\n\nTutor tip: choose the practical use illustrated by the examples.",
+        "ru": "Ответ: A. Съёмка выявляет недостатки скорости или работы рук и показывает, что улучшать. Предсказание победителей или генетический отбор здесь не описаны.\n\nСовет тьютора: выбирай применение, подтверждённое примерами.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "That understanding took the later analysis of biomechanics specialists",
+        "en": "Answer: D. Fosbury invented the movement; specialists analysed it afterwards to understand it. The passage explicitly says their mathematical simulations would not have invented such an unorthodox technique.\n\nTutor tip: later analysis means explanation after discovery, not creation beforehand.",
+        "ru": "Ответ: D. Движение придумал Фосбери, а специалисты позже объяснили его. Их математические модели не создали бы столь необычный приём.\n\nСовет тьютора: поздний анализ — объяснение после открытия, не предварительное изобретение.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "our understanding in many cases is fundamental",
+        "en": "Answer: B — basic. Raglin describes athletics as complex and says there is a long way to go. Fundamental here means rudimentary or basic, not fundamentally wrong.\n\nTutor tip: use the surrounding caution to choose the contextual meaning.",
+        "ru": "Ответ: B — basic. Рэглин подчёркивает сложность спорта и большой оставшийся путь. Fundamental здесь означает базовое, ещё ограниченное понимание, а не ошибочное.\n\nСовет тьютора: контекст уточняет значение многозначного слова.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "partly the exercise of the creative imagination",
+        "en": "Answer: YES. The opening combines discovery, scientific analysis and creative imagination. This directly supports creativity alongside careful investigation.\n\nTutor tip: parallel partly phrases list complementary aspects, not competing definitions.",
+        "ru": "Ответ: YES. Начало объединяет открытия, научный анализ и творческое воображение. Это подтверждает творчество вместе с тщательным исследованием.\n\nСовет тьютора: повтор partly перечисляет совместимые стороны деятельности.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "Conventional historical sources begin only with the introduction of written records",
+        "en": "Answer: NOT GIVEN. Written records are discussed as historical evidence, but the author does not say every archaeologist must translate ancient languages. Using evidence and personally translating it are different requirements.\n\nTutor tip: do not infer a mandatory skill from a source type.",
+        "ru": "Ответ: NOT GIVEN. Письменные источники обсуждаются как исторические данные, но обязательное умение археолога переводить древние языки не заявлено.\n\nСовет тьютора: использование источника не означает обязательный личный навык перевода.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "However far from reality such portrayals are",
+        "en": "Answer: NO. Films capture the excitement of archaeology but are explicitly described as far from reality. An emotional truth about adventure is not a realistic depiction of everyday work.\n\nTutor tip: distinguish the appeal of a portrayal from its factual realism.",
+        "ru": "Ответ: NO. Фильмы передают увлекательность археологии, но прямо названы далёкими от реальности. Эмоциональная правдивость не равна реалистичной работе.\n\nСовет тьютора: различай привлекательность изображения и точность деталей.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "Anthropologists also use the term 'culture' in a more restricted sense",
+        "en": "Answer: YES. Culture is first defined broadly as acquired human characteristics, then more narrowly as features unique to one society. Two explicit senses support more than one definition.\n\nTutor tip: also and more restricted signal a second use of the term.",
+        "ru": "Ответ: YES. Сначала культура определена широко, затем узко — как особенности конкретного общества. Это два прямо указанных значения.\n\nСовет тьютора: also и more restricted обозначают второй способ употребления.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "physical anthropology, cultural anthropology and archaeology",
+        "en": "Answer: NOT GIVEN. The disciplines’ scope and relationships are explained, but their difficulty or demands are not compared. A narrower field is not necessarily more demanding.\n\nTutor tip: classification cannot supply an unstated ranking of difficulty.",
+        "ru": "Ответ: NOT GIVEN. Описаны сферы и отношения дисциплин, но их трудность не сравнивается. Более узкая область не обязательно сложнее.\n\nСовет тьютора: классификация не даёт неуказанный рейтинг трудности.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "around 3000 BC in western Asia",
+        "en": "Answer: NO. The earliest written records are located in western Asia, with most other regions much later. The statement transfers that date to Europe, contradicting the geographical qualification.\n\nTutor tip: keep a historical date attached to its stated region.",
+        "ru": "Ответ: NO. Дата около 3000 года до н.э. относится к Западной Азии; для других мест письменность появилась позже. Утверждение переносит её на Европу.\n\nСовет тьютора: не отделяй историческую дату от её региона.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20–21": {
+        "part": 2,
+        "quote": "generally broken down into three smaller disciplines",
+        "en": "Answer: D and E, in either order. Anthropology is divided into physical anthropology, cultural anthropology and archaeology; its physical branch studies human characteristics and their evolution. The text does not specify long fieldwork duration.\n\nTutor tip: require explicit support for both selected statements, not just plausible facts about the subject.",
+        "ru": "Ответ: D и E в любом порядке. Антропология разделена на три дисциплины, а физическая ветвь изучает признаки человека и их эволюцию. Длительность полевых работ не указана.\n\nСовет тьютора: обе выбранные фразы требуют текстового подтверждения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        },
+        "quotes": [
+          "generally broken down into three smaller disciplines",
+          "human biological or physical characteristics and how they evolved"
+        ]
+      },
+      "22–23": {
+        "part": 2,
+        "quote": "Why are some dwellings round and others square?",
+        "en": "Answer: C and D, in either order. Archaeologists ask why dwellings have different shapes and use ethnoarchaeology to understand how communities make and use material objects. Other listed tasks are not given here.\n\nTutor tip: match the stated research questions and purposes rather than general archaeological possibilities.",
+        "ru": "Ответ: C и D в любом порядке. Названы причины формы жилищ и изучение изготовления и использования предметов разными обществами. Остальные задачи здесь не приведены.\n\nСовет тьютора: выбирай описанные цели, а не любые возможные занятия археолога.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        },
+        "quotes": [
+          "Why are some dwellings round and others square?",
+          "how they make their tools and weapons"
+        ]
+      },
+      "24": {
+        "part": 2,
+        "quote": "the useful information contained in oral histories",
+        "en": "Answer: oral histories. The distinction between history and prehistory does not diminish the value of orally transmitted information. The summary asks for this alternative to written evidence.\n\nTutor tip: oral and written are the key contrast.",
+        "ru": "Ответ: oral histories. Разделение истории и предыстории не уменьшает ценности устных свидетельств. Именно этот источник противопоставлен письменному.\n\nСовет тьютора: основное различие здесь oral и written.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25–26": {
+        "part": 2,
+        "quote": "it is a humanistic study",
+        "en": "Answer: humanistic study and historical discipline, in either order. Archaeology is humanistic because it seeks understanding of people and historical because it concerns their past. Both descriptions are explicitly linked to their reasons.\n\nTutor tip: provide both different phrases once; they describe complementary aspects.",
+        "ru": "Ответ: humanistic study и historical discipline в любом порядке. Археология гуманитарна, поскольку изучает людей, и исторична, поскольку обращается к прошлому. Обе характеристики прямо обоснованы.\n\nСовет тьютора: нужны две разные фразы без повторов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        },
+        "quotes": [
+          "it is a humanistic study",
+          "it is a historical discipline"
+        ]
+      },
+      "27": {
+        "part": 2,
+        "quote": "the practice of the archaeologist is rather like that of the scientist",
+        "en": "Answer: scientist. Objects do not directly state opinions, so archaeologists collect evidence, form and test hypotheses, and build explanatory models like scientists. This method is the explicit basis for the comparison.\n\nTutor tip: use the passage’s stated comparison, not an assumption about what archaeologists influence.",
+        "ru": "Ответ: scientist. Предметы не дают прямых суждений, поэтому археологи собирают данные, проверяют гипотезы и строят модели подобно учёным. Это прямо названная основа сравнения.\n\nСовет тьютора: опирайся на метод из текста, а не на догадки о влиянии археологов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "Every health system in an economically developed society",
+        "en": "Answer: iv. Section A presents resource-allocation decisions shared by every developed society: spending, priorities, eligibility and cost-effectiveness. It introduces a common problem rather than a particular market model.\n\nTutor tip: every defines the broad scope of the section.",
+        "ru": "Ответ: iv. Раздел A вводит общую для развитых обществ проблему распределения ресурсов: расходы, приоритеты и эффективность. Это не отдельная рыночная модель.\n\nСовет тьютора: every задаёт широкий охват раздела.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "basic health-care is a condition of the exercise of autonomy",
+        "en": "Answer: i. Section C links health care with the ability to exercise liberty and other rights, comparing it with education and law. State duties are developed mainly in D.\n\nTutor tip: distinguish why a right matters from who must guarantee it.",
+        "ru": "Ответ: i. Раздел C связывает медицину со свободой и другими правами, сравнивая с образованием и законом. Обязанности государства раскрываются в D.\n\nСовет тьютора: причина важности права и ответственный за него — разные темы.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "this right generates an obligation or duty for the state",
+        "en": "Answer: iii. Section D explains the state’s duty to ensure adequate publicly funded care. It carefully distinguishes ensuring provision from necessarily running the health system itself.\n\nTutor tip: the responsible institution is the section’s main focus.",
+        "ru": "Ответ: iii. Раздел D объясняет обязанность государства обеспечить доступную систему, причём обеспечение не обязательно означает собственное управление.\n\nСовет тьютора: основной фокус — роль ответственного института.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "dramatic rise in health costs",
+        "en": "Answer: v. Section E combines rising costs with demographic and social changes, especially expensive care for the elderly, and forecasts pressure on finite resources. These are the impacts of recent change.\n\nTutor tip: a heading must cover both costs and population trends.",
+        "ru": "Ответ: v. Раздел E объединяет рост расходов, демографические изменения и нагрузку на ограниченные ресурсы. Это последствия недавних перемен.\n\nСовет тьютора: учитывай одновременно стоимость и население.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "from the 1950s onwards",
+        "en": "Answer: B — between 1950 and 1980. The new awareness of finite resources is dated from the 1950s, contrasting with the post-war assumption that economic growth could meet all needs.\n\nTutor tip: classify the first recognition, not later consequences during the 1980s.",
+        "ru": "Ответ: B — 1950–1980. Осознание ограниченности ресурсов датируется 1950-ми и противопоставляется ранней послевоенной уверенности.\n\nСовет тьютора: классифицируй начало осознания, а не его последствия в 1980-х.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "from 3.8% of GDP",
+        "en": "Answer: B — between 1950 and 1980. The reported sharp rise runs from 1960 to 1980, entirely within category B. The later doomsday scenario is a response to that rise, not its first occurrence.\n\nTutor tip: separate a trend’s dates from the dates of its interpretation.",
+        "ru": "Ответ: B — 1950–1980. Рост доли расходов дан с 1960 до 1980 года, внутри периода B. Поздние мрачные прогнозы — реакция на рост, не его начало.\n\nСовет тьютора: различай время тенденции и время её осмысления.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "in the years immediately after the 1939",
+        "en": "Answer: A — between 1945 and 1950. Early post-war health systems assumed economic progress would provide all basic health needs. This belief preceded the later recognition of resource limits.\n\nTutor tip: immediately after the war points to the earliest category.",
+        "ru": "Ответ: A — 1945–1950. Сразу после войны считали, что экономический прогресс обеспечит все базовые потребности. Эта уверенность предшествовала осознанию пределов.\n\nСовет тьютора: immediately after указывает на самый ранний период.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "by the late 1970s it was recognised",
+        "en": "Answer: B — between 1950 and 1980. By the late 1970s, recognition of a health-care right was linked to a state duty to ensure resources. This falls before the after-1980 category.\n\nTutor tip: by sets a latest point, not a date after that point.",
+        "ru": "Ответ: B — 1950–1980. К концу 1970-х право на помощь связали с обязанностью государства обеспечить ресурсы. Это раньше категории «после 1980».\n\nСовет тьютора: by обозначает срок «к этому времени».",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "health-care came to be seen as one of the fundamental social facilities",
+        "en": "Answer: NO. Health care is explicitly linked to autonomy, liberty and exercising other rights. Never directly linked is therefore contradicted by the argument in Section C.\n\nTutor tip: never is disproved by an explicit instance of the relationship.",
+        "ru": "Ответ: NO. Медицинская помощь прямо связана с автономией, свободой и осуществлением других прав. Never противоречит этой связи в C.\n\nСовет тьютора: абсолютное «никогда» опровергается одним явным примером.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "at exactly the same time as this new realisation",
+        "en": "Answer: YES. Awareness of resource limits and recognition of the health-care right developed simultaneously. Contrary describes the tension between demands and limits, not a difference in timing.\n\nTutor tip: distinguish opposing implications from chronological separation.",
+        "ru": "Ответ: YES. Осознание ограничений и признание права развивались одновременно. Contrary обозначает противоположную направленность, а не разные даты.\n\nСовет тьютора: противоречие идей не означает разнесение во времени.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "large-scale demographic and social changes",
+        "en": "Answer: YES. The passage links population and social changes to rising costs, with the elderly as an example of expensive consumers. This directly supports demographic influence on health spending.\n\nTutor tip: demographic means relating to population structure.",
+        "ru": "Ответ: YES. Изменения населения и общества связаны с ростом расходов; пожилые — пример дорогой помощи. Это прямо подтверждает демографическое воздействие.\n\nСовет тьютора: demographic относится к структуре населения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "ever-rising health costs were matched against static or declining resources",
+        "en": "Answer: NOT GIVEN. The text describes a projected mismatch between costs and resources, but gives no record of governments consistently underestimating provision. A forecast of shortage is not evidence of repeated forecasting errors.\n\nTutor tip: consistently needs a pattern across occasions.",
+        "ru": "Ответ: NOT GIVEN. Описан прогноз несоответствия затрат и ресурсов, но не серия систематических недооценок правительств. Прогноз дефицита не доказывает ошибки прогнозирования.\n\nСовет тьютора: consistently требует повторяющейся закономерности.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "elderly people are now major (and relatively very expensive) consumers",
+        "en": "Answer: NOT GIVEN. The elderly are described as costly users, but no requirement for them to arrange special future provision is stated. Cost pressure does not specify how individuals must pay or prepare.\n\nTutor tip: do not turn an identified problem into an unstated future policy.",
+        "ru": "Ответ: NOT GIVEN. Пожилые названы дорогими потребителями, но обязательная особая подготовка к будущему лечению не заявлена. Проблема расходов не задаёт способ оплаты.\n\nСовет тьютора: не превращай описание проблемы в неуказанную будущую меру.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
     }
   }
 }
