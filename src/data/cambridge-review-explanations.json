@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "tests": {
+    "reading-1-1": {
+      "1": {
+        "part": 1,
+        "quote": "stored fire by keeping slow burning logs alight or by carrying charcoal in pots",
+        "en": "Keeping logs alight means preserving fire, so preserve completes the summary.",
+        "ru": "Поддерживать горение поленьев означает сохранять огонь: preserve."
+      },
+      "2": {
+        "part": 1,
+        "quote": "Unable to make flame for themselves",
+        "en": "They could not make fire themselves; unaware fits the summary about not knowing they could create it.",
+        "ru": "Люди не умели добывать огонь сами. В пересказе это передано словом unaware — не осознавая этой возможности."
+      },
+      "3": {
+        "part": 1,
+        "quote": "accidentally made during tool-making operations with wood or stone",
+        "en": "Accidentally means by chance, rather than a planned discovery.",
+        "ru": "Accidentally означает случайно; в пересказе этому соответствует chance."
+      },
+      "4": {
+        "part": 1,
+        "quote": "the earliest method of making fire was through friction",
+        "en": "The earliest method is explicitly named friction.",
+        "ru": "Самый ранний способ прямо назван friction — трение."
+      },
+      "5": {
+        "part": 1,
+        "quote": "rotate it briskly between their palms",
+        "en": "Rotate the drill corresponds to rotating in the summary.",
+        "ru": "Rotate the drill — вращать сверло; в пропуске нужна форма rotating."
+      },
+      "6": {
+        "part": 1,
+        "quote": "Percussion methods of fire-lighting date back to Paleolithic times",
+        "en": "Producing sparks by striking materials is the percussion method.",
+        "ru": "Получение искр ударами названо percussion — ударным способом."
+      },
+      "7": {
+        "part": 1,
+        "quote": "the Eskimos produced a slow-burning spark by striking quartz against iron pyrites",
+        "en": "The people using quartz and iron pyrites are identified as Eskimos.",
+        "ru": "Народ, использовавший кварц и железный колчедан, прямо назван: Eskimos."
+      },
+      "8": {
+        "part": 1,
+        "quote": "the combination of steel, flint and tinder remained the main method of fire-lighting until the mid 19th century",
+        "en": "The old method remained dominant despite the later invention of phosphorus matches; despite expresses this contrast.",
+        "ru": "Старый способ оставался основным, несмотря на изобретение фосфорных спичек. Контраст передаёт despite."
+      },
+      "9": {
+        "part": 1,
+        "quote": "Lundstrom’s safety matches were safe because the red phosphorus was non-toxic",
+        "en": "Non-toxic red phosphorus identifies Lundstrom’s safety match, option F.",
+        "ru": "Нетоксичный красный фосфор использован в безопасных спичках Лундстрёма: F."
+      },
+      "10": {
+        "part": 1,
+        "quote": "it was copied by a Samuel Jones, who marketed his product as Lucifers",
+        "en": "Copied means identical to an earlier invention. Jones sold these as Lucifers, option D.",
+        "ru": "Слово copied указывает на копию прежнего изобретения. Эти спички продавали как Lucifers: D."
+      },
+      "11": {
+        "part": 1,
+        "quote": "match-makers exposed to its fumes succumbed to necrosis",
+        "en": "The white phosphorus in the first strike-anywhere match caused necrosis; this identifies E.",
+        "ru": "Белый фосфор первых спичек strike-anywhere вызывал некроз. Это вариант E."
+      },
+      "12": {
+        "part": 1,
+        "quote": "The first matches resembling those used today were made in 1827 by John Walker",
+        "en": "Walker’s matches were called Congreves; resembling those used today answers the description, option C.",
+        "ru": "Спички Уокера назывались Congreves. Фраза resembling those used today указывает на сходство с современными: C."
+      },
+      "13": {
+        "part": 1,
+        "quote": "a brewery had the novel idea of advertising its product in match books",
+        "en": "Advertising in match books identifies book matches, option G.",
+        "ru": "Реклама пивоварни размещалась в match books — книжечках спичек: G."
+      },
+      "14": {
+        "part": 1,
+        "quote": "a sealed glass tube containing a twist of paper tipped with phosphorus",
+        "en": "The sealed glass tube is the Ethereal Match. Sealed corresponds to airtight, option A.",
+        "ru": "Герметичная стеклянная трубка описывает Ethereal Match. Sealed соответствует airtight: A."
+      },
+      "15": {
+        "part": 1,
+        "quote": "borrowed the formula from a military rocket-maker called Congreve",
+        "en": "A military rocket-maker supplied the formula for Congreves; military corresponds to army, option C.",
+        "ru": "Формулу для Congreves взяли у военного ракетчика. Military соответствует army: C."
+      }
+    },
+    "listening-1-1": {
+      "6": {
+        "part": 1,
+        "quote": "I'm Mary Prescott.",
+        "en": "The form already contains Mary, so only the surname Prescott belongs in the gap. The speaker then spells the surname.",
+        "ru": "Имя Mary уже напечатано в форме. В пропуск нужно вписать только фамилию Prescott; далее она произносится по буквам."
+      },
+      "7": {
+        "part": 1,
+        "quote": "Yes, number 41.",
+        "en": "The blank asks for the street number, not the flat number. The speaker confirms number 41; Flat 2 is already printed.",
+        "ru": "Здесь нужен номер дома, а не квартиры. Собеседница подтверждает number 41. Flat 2 уже указано в форме."
+      },
+      "8": {
+        "part": 1,
+        "quote": "Flat 2, 41, Fountain Road, Canterbury.",
+        "en": "The address contains Fountain Road. Road is already printed after the gap, so write Fountain.",
+        "ru": "В адресе звучит Fountain Road. Слово Road уже напечатано после пропуска, поэтому вписывается Fountain."
+      },
+      "9": {
+        "part": 1,
+        "quote": "Yes, it's 7-5 double 2-3-9.",
+        "en": "Double 2 means two consecutive twos. The full telephone number is therefore 752239.",
+        "ru": "Double 2 означает две двойки подряд. Полный телефонный номер: 752239."
+      },
+      "10": {
+        "part": 1,
+        "quote": "I suppose about £65.",
+        "en": "The question asks for the estimated value including the contents. £40 is the briefcase alone; the total estimate is £65.",
+        "ru": "Нужна оценка стоимости вместе с содержимым. £40 — цена самого портфеля; общая оценка составляет £65."
+      }
+    }
+  }
+}

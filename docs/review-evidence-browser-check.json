@@ -1,0 +1,20 @@
+[
+  {
+    "module": "reading",
+    "question": 1,
+    "autoEvidence": true,
+    "autoExplanation": true,
+    "bilingual": true,
+    "collapseAll": true,
+    "staleEvidenceCleared": true
+  },
+  {
+    "module": "listening",
+    "question": 6,
+    "autoEvidence": true,
+    "autoExplanation": true,
+    "bilingual": true,
+    "collapseAll": true,
+    "staleEvidenceCleared": true
+  }
+]
