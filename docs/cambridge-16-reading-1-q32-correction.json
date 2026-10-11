@@ -1,0 +1,15 @@
+{
+  "book": 16,
+  "test": 1,
+  "module": "reading",
+  "question": 32,
+  "previousAcceptedAnswers": [
+    "F"
+  ],
+  "acceptedAnswers": [
+    "E"
+  ],
+  "reason": "Question 32 requires reliance on recommendations; passage says workers become dependent on instructions. Option E is reliance.",
+  "authorization": "User explicitly confirmed correction to E on 2026-10-11.",
+  "originalSource": "docs/cambridge-16-reading-1-user-key.json"
+}

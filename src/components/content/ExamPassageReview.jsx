@@ -44,11 +44,13 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
       const explanation=explanations.tests[testId]?.[row.numbers];
       if(explanation?.part===part){
-        summary.addEventListener('click',()=>{if(!detail.open)onEvidence(explanation.quote,false);});
-        const text=document.createElement('p');text.textContent=explanation[language];detail.append(text);
-        const quote=document.createElement('blockquote');quote.textContent=explanation.quote;detail.append(quote);
-        const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':'Show in text ↗';show.onclick=()=>onEvidence(explanation.quote);detail.append(show);
-      } else {const missing=document.createElement('p');missing.className='review-explanation-missing';missing.textContent=ru?'Подробное объяснение по тексту ещё не добавлено.':'A detailed explanation based on the text has not been added yet.';detail.append(missing);}
+        const quotes=explanation.quotes?.length?explanation.quotes:[explanation.quote];
+        summary.addEventListener('click',()=>{if(!detail.open)onEvidence(quotes,false);});
+        if(explanation.location?.[language]){const location=document.createElement('p');location.className='review-evidence-location';location.textContent=(ru?'Где искать: ':'Where to look: ')+explanation.location[language];detail.append(location);}
+        for(const paragraph of explanation[language].split(/\n\s*\n/)){const text=document.createElement('p');text.className='review-tutor-paragraph';text.textContent=paragraph;detail.append(text);}
+        for(const citation of quotes){const quote=document.createElement('blockquote');quote.textContent=citation;detail.append(quote);}
+        const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);
+      }
       feedback.append(detail);
       (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
     }
@@ -71,13 +73,14 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   function showEvidence(quote, scroll = true) {
     const passage=root.current.querySelector('[data-review-passage] .review-content');
     const text=textNodes(passage).map(node=>node.textContent).join('');
-    const excerpt=evidenceExcerpt(text,quote);
+    const excerpts=(Array.isArray(quote)?quote:[quote]).map(citation=>evidenceExcerpt(text,citation));
     globalThis.CSS?.highlights?.delete('review-evidence');
-    if(!excerpt){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
-    const range=highlightRange(passage,excerpt);
-    if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(range));
-    else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);}
-    if(scroll)range.startContainer.parentElement.scrollIntoView({block:'center',behavior:'smooth'});
+    if(excerpts.some(excerpt=>!excerpt)){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
+    const ranges=excerpts.map(excerpt=>highlightRange(passage,excerpt));
+    if(ranges.some(range=>!range))return;
+    if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(...ranges));
+    else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(ranges[0]);}
+    if(scroll)ranges[0].startContainer.parentElement.scrollIntoView({block:'center',behavior:'smooth'});
     setEvidenceError('');
   }
   useEffect(()=>{globalThis.CSS?.highlights?.delete('review-evidence');setEvidenceError('');return()=>globalThis.CSS?.highlights?.delete('review-evidence');},[partId]);
@@ -93,7 +96,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
       const detail=[...root.current.querySelectorAll('[data-explanation]')].find(node=>node.dataset.explanation===row.name);
       if(detail)detail.open=true;
     }
-    if(explanation?.part===partId)showEvidence(explanation.quote,window.matchMedia('(min-width: 701px)').matches);
+    if(explanation?.part===partId)showEvidence(explanation.quotes||explanation.quote,window.matchMedia('(min-width: 701px)').matches);
     setJump(null);
   }, [jump, partId]);
   return <section ref={root} className="exam-passage-review" aria-label="Review passages and questions">

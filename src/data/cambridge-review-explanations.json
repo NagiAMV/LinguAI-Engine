@@ -124,6 +124,402 @@
         "en": "The question asks for the estimated value including the contents. £40 is the briefcase alone; the total estimate is £65.",
         "ru": "Нужна оценка стоимости вместе с содержимым. £40 — цена самого портфеля; общая оценка составляет £65."
       }
+    },
+    "reading-16-1": {
+      "1": {
+        "part": 1,
+        "quote": "Yet the polar bear experiences no such consequences.",
+        "en": "Answer: FALSE. Start with paragraph 1 and compare the two subjects carefully: humans with similar amounts of fat would risk diabetes and heart disease, but the next sentence explicitly says polar bears experience no such consequences. The statement assigns those health problems to polar bears, so it contradicts the passage.\n\nTutor tip: in TRUE/FALSE/NOT GIVEN questions, track who each claim describes. A fact about humans cannot be transferred to bears. This is FALSE rather than NOT GIVEN because the author directly denies the consequence.",
+        "ru": "Ответ: FALSE. Найди первый абзац и внимательно сравни, о ком говорится: люди с таким количеством жира рискуют получить диабет и болезни сердца. Следующая фраза прямо сообщает, что у белого медведя этих последствий нет. В задании болезни приписаны медведям — это противоречит тексту.\n\nСовет тьютора: в TRUE/FALSE/NOT GIVEN следи за субъектом утверждения. Информацию о людях нельзя переносить на медведей. Здесь FALSE, а не NOT GIVEN, потому что автор прямо отрицает эти последствия.",
+        "location": {
+          "ru": "Первый абзац: жир и здоровье",
+          "en": "Paragraph 1: fat and health"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "They compared the genetic structure of polar bears with that of their closest relatives from a warmer climate, the brown bears.",
+        "en": "Answer: FALSE. Paragraph 2 names the two groups in Liu’s comparison: polar bears and brown bears. The question says the comparison was between different groups of polar bears. These are different descriptions of the study, and the passage explicitly supports a comparison between two kinds of bear.\n\nTutor tip: identify both sides of a comparison. The phrase with that of refers back to genetic structure; it does not introduce another group of polar bears.",
+        "ru": "Ответ: FALSE. Во втором абзаце указаны обе стороны сравнения Лю: белые и бурые медведи. Вопрос утверждает, что сравнивали разные группы белых медведей. Это другое описание исследования и оно противоречит тексту.\n\nСовет тьютора: в сравнении всегда находи обе стороны. With that of отсылает к genetic structure — генетической структуре бурых медведей, а не другой группы белых.",
+        "location": {
+          "ru": "Второй абзац: исследование Лю",
+          "en": "Paragraph 2: Liu’s study"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "A 2014 study by Shi Ping Liu and colleagues sheds light on this mystery.",
+        "en": "Answer: NOT GIVEN. Paragraph 2 tells us when Liu’s study took place and what the researchers compared. It does not say whether anyone had made the same genetic comparison before them. A date for this study is not evidence that it was the first study of its kind.\n\nTutor tip: words such as first, only and most introduce extra claims. Check whether the text actually establishes priority. We cannot choose FALSE either: the passage does not identify an earlier study.",
+        "ru": "Ответ: NOT GIVEN. Во втором абзаце есть дата исследования Лю и описание сравнения. Но не сказано, проводил ли кто-то такое генетическое сравнение раньше. Дата работы сама по себе не доказывает, что она была первой.\n\nСовет тьютора: first, only, most добавляют к утверждению отдельный факт. Его нужно подтвердить текстом. FALSE тоже не подходит: более раннее исследование здесь не названо.",
+        "location": {
+          "ru": "Второй абзац: дата и описание исследования",
+          "en": "Paragraph 2: study date and description"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "a gene known as APoB, which reduces levels of low-density lipoproteins (LDLs)",
+        "en": "Answer: TRUE. In paragraph 2 the researchers identify APoB, a gene that reduces LDL levels. The passage then calls LDLs a form of bad cholesterol. Thus genetic means in the question corresponds to the gene, and control their levels corresponds to reduces levels.\n\nTutor tip: the answer is supported by a paraphrase, not necessarily repeated wording. Connect gene → genetic and LDLs → bad cholesterol before deciding.",
+        "ru": "Ответ: TRUE. Во втором абзаце назван ген APoB, который снижает уровень LDL. Далее LDL объясняется как разновидность плохого холестерина. Поэтому genetic means соответствует действию гена, а control their levels — снижению уровня холестерина.\n\nСовет тьютора: подтверждение часто выражено другими словами. Свяжи gene → genetic и LDLs → bad cholesterol; буквального повторения вопроса не требуется.",
+        "location": {
+          "ru": "Второй абзац: ген APoB",
+          "en": "Paragraph 2: the APoB gene"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "This process results in about six months of fasting",
+        "en": "Answer: TRUE. Paragraph 3 describes females staying in maternity dens through the winter. It explicitly says this results in about six months of fasting, during which they keep themselves and their cubs alive. Fasting means going without food, so the question accurately paraphrases the passage.\n\nTutor tip: preserve the qualification about. The question also says about six months; neither text claims an exact length for every bear.",
+        "ru": "Ответ: TRUE. В третьем абзаце самки остаются в снежных берлогах зимой. Автор прямо говорит об about six months of fasting: примерно шести месяцах без пищи, в течение которых они поддерживают жизнь себе и детёнышам. Fasting означает голодание.\n\nСовет тьютора: учитывай about — примерно. Это слово есть и в вопросе, и в тексте; речь не об одинаковом точном сроке для каждой самки.",
+        "location": {
+          "ru": "Третий абзац: зимовка и голодание",
+          "en": "Paragraph 3: winter fasting"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "there was no evidence of significant loss of bone density.",
+        "en": "Answer: FALSE. Paragraph 4 reports the measurements after the females emerged from their dens: there was no evidence of significant loss of bone density. The previous paragraph also says their bones remain strong and dense. Very weak in the question contradicts both descriptions.\n\nTutor tip: do not assume six months without food must weaken bones. The point of this passage is that polar bears are an exception to that expectation.",
+        "ru": "Ответ: FALSE. В четвёртом абзаце описаны измерения после выхода из берлоги: значительной потери плотности костей не обнаружили. В предыдущем абзаце также сказано, что кости остаются прочными и плотными. Very weak в вопросе противоречит этим данным.\n\nСовет тьютора: не подставляй бытовую логику «долго без еды — значит слабые кости». Автор как раз показывает необычное исключение у белых медведей.",
+        "location": {
+          "ru": "Четвёртый абзац: состояние костей после зимовки",
+          "en": "Paragraph 4: bones after leaving the den"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "If the mechanism of bone remodelling in polar bears can be understood, many bedridden humans, and even astronauts, could potentially benefit.",
+        "en": "Answer: TRUE. The final sentence of paragraph 4 explicitly links understanding the bears’ bone-remodelling mechanism to possible benefits for bedridden people and astronauts. Could potentially benefit matches could also be used by people one day: both describe a future possibility, not an existing treatment.\n\nTutor tip: modal verbs matter. Could does not mean the treatment already exists, but it is sufficient to support a statement about potential future use.",
+        "ru": "Ответ: TRUE. Последняя фраза четвёртого абзаца связывает понимание восстановления костей у медведей с возможной пользой для лежачих пациентов и космонавтов. Could potentially benefit соответствует could ... one day: оба выражения говорят о возможности в будущем.\n\nСовет тьютора: обращай внимание на модальные глаголы. Could не означает, что лечение уже существует; вопрос также не утверждает этого.",
+        "location": {
+          "ru": "Конец четвёртого абзаца: возможная польза для людей",
+          "en": "End of paragraph 4: potential human benefits"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "seem to be perceived as stupid and in many cases violent.",
+        "en": "Answer: violent. Locate the paragraph that starts discussing intelligence and emotions. Stupid corresponds to unintelligent in the table; the word paired with it in the passage is violent. The table asks what people think of bears, not what the author ultimately proves about them.\n\nTutor tip: ONE WORD ONLY means copy violent alone. Do not add in many cases or replace it with a synonym from your own vocabulary.",
+        "ru": "Ответ: violent. Найди абзац об интеллекте и эмоциях. Stupid соответствует unintelligent в таблице; рядом с ним автор ставит violent. Здесь спрашивают о представлении людей о медведях, а не об окончательном выводе автора.\n\nСовет тьютора: ONE WORD ONLY требует одного слова из текста. Впиши violent без in many cases и без собственного синонима.",
+        "location": {
+          "ru": "Пятый абзац: распространённое мнение о медведях",
+          "en": "Paragraph 5: perceptions of bears"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "has even been observed making use of a tool to manipulate his environment.",
+        "en": "Answer: tool. In the GoGo example, the author first describes the bear using a tool and then explains that the object was a tree branch. The question already supplies branch and asks what role it played: as a tool.\n\nTutor tip: distinguish the object from its function. Writing branch would repeat information already given instead of answering the gap after as a.",
+        "ru": "Ответ: tool. В примере с GoGo сначала говорится, что он использовал инструмент, а затем уточняется: этим предметом была ветка дерева. Branch уже дано в задании; пропуск спрашивает, в какой роли использовали ветку — as a tool.\n\nСовет тьютора: различай предмет и его функцию. Branch повторит уже указанную информацию, вместо того чтобы заполнить смысловой пропуск.",
+        "location": {
+          "ru": "Пятый абзац: пример GoGo",
+          "en": "Paragraph 5: the GoGo example"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "The bear used a tree branch on multiple occasions to dislodge a piece of meat hung out of his reach.",
+        "en": "Answer: meat. The same GoGo sentence says the branch dislodged a piece of meat hanging beyond the bear’s reach. Dislodge corresponds to knock down in the table. The thing knocked down was meat, not the branch.\n\nTutor tip: follow the action and its object: used a branch → knocked down meat. Copy the required single word, without a piece of.",
+        "ru": "Ответ: meat. В том же предложении GoGo с помощью ветки сбивал кусок мяса, висевший вне досягаемости. Dislodge соответствует knock down в таблице. То, что он сбил, — meat, а не сама ветка.\n\nСовет тьютора: восстанови действие и его объект: использовал ветку → сбил мясо. Нужное одно слово — meat, без a piece of.",
+        "location": {
+          "ru": "Пятый абзац: что GoGo сбивал веткой",
+          "en": "Paragraph 5: what GoGo knocked down"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "in an attempt to get to a photographer standing on a platform four metres high.",
+        "en": "Answer: photographer. Near the end of paragraph 5, a wild male bear runs and jumps onto barrels to reach a person on a four-metre platform. That person is explicitly identified as a photographer. The platform in the question is the location clue.\n\nTutor tip: scan for the distinctive word platform, then read the full sentence. The gap asks who was there, not how high it was or what the bear jumped onto.",
+        "ru": "Ответ: photographer. В конце пятого абзаца дикий самец использует бочки, чтобы добраться до человека на платформе высотой четыре метра. Этот человек прямо назван photographer. Platform в вопросе помогает найти нужное место.\n\nСовет тьютора: найди заметное слово platform и прочитай всё предложение. Пропуск спрашивает, кто там находился, а не высоту платформы или предметы, на которые прыгал медведь.",
+        "location": {
+          "ru": "Конец пятого абзаца: дикий медведь и платформа",
+          "en": "End of paragraph 5: the platform example"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "Annes observed bears putting objects in piles and then knocking them over in what appeared to be a game.",
+        "en": "Answer: game. In the next paragraph, Annes observes bears arranging objects into piles and knocking them over. The author calls this what appeared to be a game. That wording matches activity similar to a game in the table.\n\nTutor tip: the author presents an interpretation of the activity, not proof of the bears’ intention. The cautious wording appeared to be is preserved by similar to in the question.",
+        "ru": "Ответ: game. В следующем абзаце Annes наблюдает, как медведи складывают предметы и опрокидывают их. Автор называет это what appeared to be a game — действием, похожим на игру. Это соответствует activity similar to a ... в таблице.\n\nСовет тьютора: автор осторожно интерпретирует поведение, а не доказывает намерения животного. Appeared to be и similar to передают одинаковую осторожность.",
+        "location": {
+          "ru": "Шестой абзац: наблюдение Annes",
+          "en": "Paragraph 6: Annes’s observation"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "seemingly out of frustration",
+        "en": "Answer: frustration. The paragraph about emotions describes bears hitting ice and snow, seemingly out of frustration, after missing a kill. Disappointed when hunting in the table paraphrases this unsuccessful hunt; frustration names the emotion inferred from their movements.\n\nTutor tip: identify the emotion, not the physical action. Ice, snow and kill describe the scene; none names the feeling requested by the gap.",
+        "ru": "Ответ: frustration. В абзаце об эмоциях медведи бьют по льду и снегу, предположительно от frustration, когда упускают добычу. Disappointed when hunting в таблице пересказывает неудачную охоту; frustration называет предполагаемую эмоцию.\n\nСовет тьютора: нужен эмоциональный смысл, а не действие или предмет. Ice, snow и kill относятся к ситуации, но не отвечают на вопрос о чувстве.",
+        "location": {
+          "ru": "Седьмой абзац: эмоции после неудачной охоты",
+          "en": "Paragraph 7: emotions after a missed kill"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "However, there is no question that, as far as Egypt is concerned, it began with one monument to one king designed by one brilliant architect:",
+        "en": "Answer: iv — A single certainty among other less definite facts. Paragraph A first says the evolution of pyramids has been argued about for centuries, then uses However to introduce something that is not in doubt: the Egyptian development began with Djoser’s Step Pyramid. The heading captures this contrast between debate and certainty.\n\nTutor tip: choose the heading for the paragraph’s main argument, not a striking keyword. No question that signals certainty, while written and argued about signals uncertainty. The paragraph does not describe unexpected questions being answered, so ix is not the match.",
+        "ru": "Ответ: iv — A single certainty among other less definite facts. В абзаце A сначала говорится, что развитие пирамид обсуждают и оспаривают веками. Затем However вводит факт, который сомнений не вызывает: египетская история пирамид началась с сооружения Джосера. Заголовок передаёт контраст между спорными фактами и одной определённостью.\n\nСовет тьютора: заголовок должен отражать главную мысль абзаца. No question that означает несомненность, а written and argued about — спорность. Вариант ix про ответы на неожиданные вопросы здесь не раскрывается.",
+        "location": {
+          "en": "Paragraph A: debate versus certainty",
+          "ru": "Абзац A: спорные факты и одна определённость"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "conceived of building a taller, more impressive tomb for his king by stacking stone slabs on top of one another",
+        "en": "Answer: vii — An idea for changing the design of burial structures. Paragraph B contrasts earlier rectangular clay-brick tombs with Imhotep’s idea: stack increasingly smaller stone slabs to build a taller tomb. This is a change in the design of a burial structure.\n\nTutor tip: the paragraph also mentions uncertainty about Djoser’s reign, but that detail is not its main focus. Follow the contrast Prior to ... → conceived of building to identify the change in design rather than selecting a heading for one incidental sentence.",
+        "ru": "Ответ: vii — An idea for changing the design of burial structures. Абзац B сравнивает прежние прямоугольные гробницы из глиняного кирпича с идеей Имхотепа: складывать уменьшающиеся каменные плиты, чтобы получить более высокое сооружение. Это изменение конструкции погребального сооружения.\n\nСовет тьютора: в абзаце также есть спор о длительности правления, но это дополнительная деталь. Связка Prior to ... → conceived of building показывает основной переход от старой формы гробницы к новой.",
+        "location": {
+          "en": "Paragraph B: Imhotep’s new design",
+          "ru": "Абзац B: новая конструкция Имхотепа"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "The weight of the enormous mass was a challenge for the builders",
+        "en": "Answer: ii — A difficult task for those involved. Paragraph C explains that construction required experimentation and several plans. The huge weight challenged the builders, who had to incline stones inward to stop the monument breaking up. These details collectively describe a difficult building task.\n\nTutor tip: challenge is a direct paraphrase of difficult task. This paragraph is about the difficulty of construction; the original idea is in B, and later builders copying the pyramid is in G.",
+        "ru": "Ответ: ii — A difficult task for those involved. В абзаце C говорится об экспериментах и нескольких планах строительства. Огромный вес создавал трудность: строителям пришлось наклонять камни внутрь, чтобы сооружение не разрушилось. Все эти детали раскрывают сложность задачи.\n\nСовет тьютора: challenge соответствует difficult task. Здесь главное — трудности строительства. Идея новой формы описана в B, а подражание другим строителям — в G.",
+        "location": {
+          "en": "Paragraph C: construction challenges",
+          "ru": "Абзац C: трудности строительства"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "The complex in which it was built was the size of a city in ancient Egypt and included a temple, courtyards, shrines, and living quarters for the priests.",
+        "en": "Answer: v — An overview of the external buildings and areas. Paragraph D surveys the pyramid complex: temple, courtyards, shrines, priests’ accommodation, surrounding wall, doors and trench. Most of these features are around the pyramid, so external buildings and areas describes the paragraph as a whole.\n\nTutor tip: distinguish the surrounding complex from the chambers inside the pyramid. Heading i is reserved for the interior discussed in paragraph E.",
+        "ru": "Ответ: v — An overview of the external buildings and areas. Абзац D перечисляет сооружения комплекса: храм, дворы, святилища, жильё жрецов, стену, двери и ров. Это обзор территорий и сооружений вокруг пирамиды, поэтому подходит external buildings and areas.\n\nСовет тьютора: различай окружающий комплекс и внутренние помещения пирамиды. Вариант i про внутренние помещения относится к абзацу E.",
+        "location": {
+          "en": "Paragraph D: the surrounding complex",
+          "ru": "Абзац D: окружающий комплекс"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "One of the most mysterious discoveries found inside the pyramid was a large number of stone vessels.",
+        "en": "Answer: i — The areas and artefacts within the pyramid itself. Paragraph E moves underground to the burial chamber, tunnels, rooms and storerooms, then describes over 40,000 stone vessels. Areas corresponds to these interior spaces; artefacts corresponds to the vessels.\n\nTutor tip: both parts of the heading are supported. The paragraph discusses possible reasons for storing the vessels, but says scholars do not agree. It does not give settled answers to unexpected questions, so ix is a distraction.",
+        "ru": "Ответ: i — The areas and artefacts within the pyramid itself. Абзац E переносит нас внутрь: погребальная камера, туннели, комнаты и кладовые. Затем описаны более 40 000 каменных сосудов. Areas соответствует помещениям, artefacts — сосудам.\n\nСовет тьютора: текст подтверждает обе части заголовка. О назначении сосудов учёные спорят; окончательного ответа нет. Поэтому ix — «ответы на неожиданные вопросы» — не подходит.",
+        "location": {
+          "en": "Paragraph E: underground rooms and vessels",
+          "ru": "Абзац E: подземные помещения и сосуды"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "There was enough left throughout the pyramid and its complex, however, to astonish and amaze the archaeologists who excavated it.",
+        "en": "Answer: viii — An incredible experience despite the few remains. Paragraph F says robbers stole the grave goods and even Djoser’s body, leaving only a small number of valuables. However, the remaining pyramid and complex still astonished and amazed the excavators. The heading combines both ideas: little remained, yet the experience was remarkable.\n\nTutor tip: contrast words such as however often reveal the paragraph’s central point. A heading mentioning only theft would miss the reaction of the archaeologists.",
+        "ru": "Ответ: viii — An incredible experience despite the few remains. В абзаце F грабители унесли погребальные предметы и даже тело Джосера, оставив немного ценностей. Но сохранившихся частей комплекса всё равно хватило, чтобы поразить археологов. Заголовок объединяет оба факта: осталось мало, впечатление было огромным.\n\nСовет тьютора: слова контраста вроде however часто показывают центральную мысль. Если смотреть только на ограбление, можно пропустить важную реакцию археологов.",
+        "location": {
+          "en": "Paragraph F: few remains, a remarkable experience",
+          "ru": "Абзац F: мало находок, сильное впечатление"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "The Step Pyramid was a revolutionary advance in architecture and became the archetype which all the other great pyramid builders of Egypt would follow.",
+        "en": "Answer: vi — A pyramid design that others copied. The final sentence of paragraph G calls the Step Pyramid an archetype that later Egyptian pyramid builders would follow. Archetype means a model or prototype; would follow means later builders used it as their model. This directly supports a design copied by others.\n\nTutor tip: do not select vii merely because the paragraph praises the design. Vii concerns inventing the new design; vi concerns its influence on subsequent builders.",
+        "ru": "Ответ: vi — A pyramid design that others copied. В последнем предложении абзаца G Ступенчатая пирамида названа archetype, которому следовали другие египетские строители. Archetype — образец или прототип, а would follow означает использование этого образца позднее. Это и есть конструкция, которой подражали.\n\nСовет тьютора: vii относится к появлению новой идеи; vi — к её дальнейшему влиянию. Абзац G говорит именно о последующих строителях.",
+        "location": {
+          "en": "Paragraph G: the model for later pyramids",
+          "ru": "Абзац G: образец для последующих пирамид"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "the size of a city in ancient Egypt",
+        "en": "Answer: city. In paragraph D the author compares the size of the complex with a city in ancient Egypt. The notes paraphrase this as as big as an Egyptian ... of the past. Size of corresponds to as big as, and ancient Egypt corresponds to Egyptian ... of the past.\n\nTutor tip: the subject is the entire complex, not just the pyramid. ONE WORD ONLY requires city alone; do not copy a city or the measurements of the wall.",
+        "ru": "Ответ: city. В абзаце D размер комплекса сравнивается с городом в Древнем Египте. В заметках это перефразировано как as big as an Egyptian ... of the past. The size of соответствует as big as, а ancient Egypt — of the past.\n\nСовет тьютора: сравнивается весь комплекс, не одна пирамида. При ONE WORD ONLY нужно только city, без a и без размеров стены.",
+        "location": {
+          "en": "Paragraph D: the size of the complex",
+          "ru": "Абзац D: размер комплекса"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "living quarters for the priests",
+        "en": "Answer: priests. Paragraph D lists living quarters for the priests among the buildings in the complex. Living quarters means accommodation, so accommodation occupied by ... asks for the people who lived there: priests.\n\nTutor tip: follow the question’s grammar. Occupied by requires the occupants, not the name of the building. Copy the plural priests as it appears in the passage.",
+        "ru": "Ответ: priests. В абзаце D среди сооружений названы living quarters for the priests — жилые помещения для жрецов. Living quarters соответствует accommodation. Пропуск occupied by ... спрашивает, кто там жил: priests.\n\nСовет тьютора: учитывай грамматику. После occupied by нужны обитатели, а не название здания. Сохрани множественное число priests из текста.",
+        "location": {
+          "en": "Paragraph D: accommodation",
+          "ru": "Абзац D: жилые помещения"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "the entire wall was then ringed by a trench 750 meters long and 40 meters wide.",
+        "en": "Answer: trench. In paragraph D, the wall was ringed by a trench. Ringed by means surrounded by; the notes express the same relationship as a long ... encircled the wall. The structure encircling the wall is therefore the trench.\n\nTutor tip: do not confuse the wall with the feature surrounding it. Wall is already supplied in the question, while trench is the new information required.",
+        "ru": "Ответ: trench. В абзаце D стену окружал ров: was ringed by a trench. Ringed by означает окружён, а в задании та же связь выражена как ... encircled the wall. Следовательно, вокруг стены находился trench.\n\nСовет тьютора: не перепутай стену с сооружением вокруг неё. Wall уже есть в вопросе; пропущенное новое слово — trench.",
+        "location": {
+          "en": "Paragraph D: the feature surrounding the wall",
+          "ru": "Абзац D: что окружало стену"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "how to find the location of the true opening in the wall.",
+        "en": "Answer: location. Paragraph D explains that a visitor needed to know how to find the location of the true opening. The question changes true opening to real entrance and asks what visitors had to know. The shared meaning points to location.\n\nTutor tip: true opening and real entrance are paraphrases. The gap is not entrance because that word already follows it: the location of the real entrance.",
+        "ru": "Ответ: location. В абзаце D посетителю нужно было знать, как найти location of the true opening. В вопросе true opening заменено на real entrance. Спрашивается, что именно нужно знать: расположение входа — location.\n\nСовет тьютора: true opening и real entrance — перефразирование. Entrance уже стоит после пропуска; нужна конструкция the location of the real entrance.",
+        "location": {
+          "en": "Paragraph D: finding the real entrance",
+          "ru": "Абзац D: расположение настоящего входа"
+        }
+      },
+      "25–26": {
+        "part": 2,
+        "quote": "Djoser is thought to have reigned for 19 years, but some historians and scholars attribute a much longer time for his rule",
+        "en": "Answers: B and D, in either order. B is supported by paragraph B: one view gives Djoser a 19-year reign, while some historians attribute a much longer period. That disagreement matches the length of his reign. D is supported by paragraph F: a small number of his valuables escaped the thieves and were found by archaeologists.\n\nWhy the others fail: A says he had to be persuaded to use stone, but the passage does not state this. C claims he failed to appreciate Imhotep, whereas paragraph D says he honoured Imhotep by adding his name. E claims Djoser criticised other pyramids; the passage supplies no such criticism.\n\nTutor tip: check each option independently against a specific passage statement. Choose B and D only; two supporting facts can appear in different paragraphs.",
+        "ru": "Ответы: B и D в любом порядке. B подтверждается абзацем B: по одной версии Джосер правил 19 лет, а некоторые историки считают срок значительно длиннее. Это расхождение о длительности правления. D подтверждается абзацем F: грабители упустили небольшое число его ценностей, которые затем нашли археологи.\n\nПочему не другие варианты: A говорит, что Джосера пришлось убеждать строить из камня, но текст этого не сообщает. C утверждает, что он не оценил Имхотепа; напротив, в D он почтил его, добавив имя на монумент. E приписывает Джосеру критику других пирамид, которой в тексте нет.\n\nСовет тьютора: проверяй каждый вариант отдельно по конкретному факту. Нужно выбрать только B и D; подтверждения могут находиться в разных абзацах.",
+        "location": {
+          "en": "Paragraphs B and F: reign length and surviving valuables",
+          "ru": "Абзацы B и F: срок правления и сохранившиеся ценности"
+        },
+        "quotes": [
+          "Djoser is thought to have reigned for 19 years, but some historians and scholars attribute a much longer time for his rule",
+          "all archaeologists found were a small number of his valuables overlooked by the thieves."
+        ]
+      },
+      "27": {
+        "part": 3,
+        "quote": "all workers will need to adapt as their occupations evolve alongside increasingly capable machines.",
+        "en": "Answer: B. The first paragraph outlines the scale of change: some workers will switch occupations and all workers must adapt as machines become more capable. B summarises the extent to which AI will alter the nature of people’s work.\n\nWhy the others fail: A asks which kinds of job are most affected, but the paragraph does not rank job types. C changes workers switching occupations into people getting jobs in AI, which is a different claim. D focuses on a comparison of the effects of embodied and disembodied AI; the paragraph names both, but does not develop such a comparison.\n\nTutor tip: a paragraph-summary answer should cover its central message, not just reuse one of its terms or numbers.",
+        "ru": "Ответ: B. Первый абзац описывает масштаб изменений: часть работников сменит профессию, а всем придётся адаптироваться по мере развития машин. B обобщает, насколько ИИ изменит характер работы людей.\n\nПочему не другие: A спрашивает, какие виды работы пострадают сильнее, но такого ранжирования нет. C заменяет смену профессии работой в сфере ИИ — это другая мысль. В D есть сравнение влияния embodied и disembodied AI; текст называет оба вида, но не разбирает различия их воздействия.\n\nСовет тьютора: ответ на вопрос о смысле абзаца должен передавать центральную мысль, а не просто повторять термин или число.",
+        "location": {
+          "en": "Opening paragraph: the scale of change",
+          "ru": "Вступительный абзац: масштаб изменений"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "jobs that are dependent on data rather than on production",
+        "en": "Answer: D. The second paragraph says some of the most fundamental changes arise from algorithmication of data-dependent jobs, identified as the knowledge economy. Therefore this sector is a key factor driving developments in the workplace.\n\nWhy the others fail: the paragraph does not say it changes the number of jobs, changes workers’ attitudes, or causes production to decline. Rather than on production distinguishes two kinds of task; it is not a claim that production is declining.\n\nTutor tip: fundamental changes happening as a result of establishes a cause. Match that relationship to key factor driving, rather than reading extra economic consequences into the sentence.",
+        "ru": "Ответ: D. Во втором абзаце сказано, что некоторые самые фундаментальные изменения происходят из-за алгоритмизации работы, зависящей от данных: это knowledge economy. Значит, она — ключевой фактор текущих изменений на рабочем месте.\n\nПочему не другие: абзац не утверждает изменения числа рабочих мест, отношения работников к профессии или упадка производства. Rather than on production различает виды задач; это не утверждение о сокращении производственного сектора.\n\nСовет тьютора: happening as a result of задаёт причинную связь. Ей соответствует key factor driving. Не добавляй экономические последствия, которых автор не указал.",
+        "location": {
+          "en": "Second paragraph: Pachidi and the knowledge economy",
+          "ru": "Второй абзац: Пачиди и экономика знаний"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "workers feed the algorithm with false data to reach their targets",
+        "en": "Answer: C. In her observations Pachidi reports workers supplying false data so the algorithm helps them reach their targets. They are actively manipulating its input to get the output they want. That is what option C describes.\n\nWhy the others fail: the cited behaviour is not merely disagreeing with advice (A), expressing resentment (B), or letting AI do their own tasks (D). Those options introduce different actions or feelings.\n\nTutor tip: follow the sequence input → purpose → result. False data is the strategy; reaching their targets is the goal.",
+        "ru": "Ответ: C. Пачиди наблюдала, как сотрудники передавали алгоритму ложные данные, чтобы достичь своих целей. Они меняли входные данные ради нужного результата. Именно это описывает C.\n\nПочему не другие: это не просто несогласие с советами (A), не описание раздражения сотрудников (B) и не передача своих задач ИИ (D). В этих вариантах названы другие действия или чувства.\n\nСовет тьютора: восстанови цепочку «данные → цель → результат». False data — способ воздействия; reach their targets — то, чего сотрудники хотят добиться.",
+        "location": {
+          "en": "Pachidi’s observations: false data and targets",
+          "ru": "Наблюдение Пачиди: ложные данные ради целей"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "But social policies can tackle this through retraining and redeployment.",
+        "en": "Answer: D. McGaughey’s research recognises that historical change can cause redundancies, then explains that social policies can address the problem through retraining and redeployment. This illustrates how job-market changes can be successfully handled.\n\nWhy the others fail: the passage does not celebrate redundancy as positive (A), focus on the social effects of mass unemployment (B), or compare past and future job losses in detail (C). It identifies a response to disruption.\n\nTutor tip: the word But redirects the argument from the problem to its solution. Read beyond redundancies before choosing an option.",
+        "ru": "Ответ: D. Исследование Макгохи признаёт, что изменения приводили к сокращениям, но затем показывает решение: социальная политика, переобучение и перевод людей на другую работу. Это описание того, как успешно справляться с изменениями рынка труда.\n\nПочему не другие: автор не объявляет увольнения полезными (A), не концентрируется на последствиях массовой безработицы (B) и не проводит подробное сравнение прошлых и будущих потерь рабочих мест (C). Он указывает способ реагирования.\n\nСовет тьютора: But переводит аргумент от проблемы к решению. Не останавливайся на слове redundancies: важна следующая мысль.",
+        "location": {
+          "en": "McGaughey’s research: retraining and redeployment",
+          "ru": "Исследование Макгохи: переобучение и перевод работников"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "jobs that are dependent on data rather than on production",
+        "en": "Answer: G — information. The passage describes jobs dependent on data rather than production. The summary reverses the order: rely not on production but on ... . Data corresponds to information, so choose G.\n\nTutor tip: this task requires a letter from the word bank. Although data explains the answer, write G, not data or information. Check both meaning and the instruction.",
+        "ru": "Ответ: G — information. В тексте работа зависит от data, а не от production. В summary порядок перевёрнут: rely not on production but on ... . Data соответствует information, поэтому нужна буква G.\n\nСовет тьютора: здесь требуется буква из списка. Data помогает понять ответ, но вписывать нужно G, а не data или information. Проверяй и смысл, и инструкцию.",
+        "location": {
+          "en": "Second paragraph: data-dependent work",
+          "ru": "Второй абзац: работа, зависящая от данных"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "become dependent on its instructions.",
+        "en": "Answer: E — reliance. Pachidi says workers learn through the algorithm’s eyes and become dependent on its instructions. Dependent on means reliant on. The summary therefore describes growing reliance on AI recommendations.\n\nWhy F is not correct here: confidence means trust or belief, whereas this sentence is about dependence. The phrase reliance on also fits the grammar of the gap. Confidence belongs in question 34, whose context is making technology more trustworthy.\n\nTutor tip: combine a semantic check with the words surrounding the gap. Do not choose a word merely because it is generally associated with AI.",
+        "ru": "Ответ: E — reliance. Пачиди говорит, что сотрудники учатся смотреть «глазами алгоритма» и become dependent on its instructions — становятся зависимыми от его указаний. Dependent on соответствует reliant on. Поэтому summary описывает растущую reliance on рекомендации ИИ.\n\nПочему не F: confidence означает доверие или уверенность, а здесь говорится о зависимости. Кроме того, reliance on подходит грамматически. Confidence требуется в №34, где речь о повышении доверия к технологии.\n\nСовет тьютора: совмести смысловую проверку со словами вокруг пропуска. Общей ассоциации слова с ИИ недостаточно.",
+        "location": {
+          "en": "Pachidi: dependence on the algorithm",
+          "ru": "Пачиди: зависимость от алгоритма"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "where experimentation and human instinct lead to progress and new ideas",
+        "en": "Answer: C — intuition. The passage contrasts dependence on algorithms with alternative exploration, where experimentation and human instinct produce progress. Human instinct corresponds to intuition. Those explorations are discouraged, matching staff being deterred from using their own intuition.\n\nTutor tip: trace both the paraphrase and the direction of the statement. Discouraged and deterred both express prevention. Choosing a positive-sounding word without that link can reverse the meaning.",
+        "ru": "Ответ: C — intuition. Текст противопоставляет зависимость от алгоритма поиску других подходов, где эксперименты и human instinct приводят к новым идеям. Human instinct соответствует intuition. Такие исследования discouraged, что соответствует deterred в summary.\n\nСовет тьютора: свяжи и перефразирование, и направление мысли. Discouraged и deterred означают препятствование. Нельзя просто выбрать «положительное» слово, не проверив эту связь.",
+        "location": {
+          "en": "Pachidi: discouraged experimentation and instinct",
+          "ru": "Пачиди: ограничение экспериментов и инстинкта"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "make AI technologies more trustworthy and transparent",
+        "en": "Answer: F — confidence. Researchers want AI to be trustworthy and transparent so people understand its decisions. More trustworthy technology can increase users’ confidence; transparent decision-making corresponds to easier to comprehend in the summary.\n\nTutor tip: the sentence contains two linked aims: better understanding and greater trust. Reliance in question 32 describes dependence; confidence here describes trust. They are related concepts but are not interchangeable in these two gaps.",
+        "ru": "Ответ: F — confidence. Исследователи хотят сделать ИИ trustworthy и transparent, чтобы люди понимали его решения. Trustworthy связано с доверием — confidence; transparent соответствует easier to comprehend в summary.\n\nСовет тьютора: здесь две связанные цели: понятность и доверие. Reliance в №32 описывает зависимость, а confidence здесь — доверие. Эти понятия близки, но в двух пропусках не взаимозаменяемы.",
+        "location": {
+          "en": "Researchers’ aims: trustworthy and transparent AI",
+          "ru": "Цели исследователей: прозрачность и доверие к ИИ"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "The number of jobs will increase: we would expect there to be 150 jobs.",
+        "en": "Answer: B — Hamish Low. In the discussion of job losses, Low challenges the assumption that the number of jobs is fixed. His example begins with 100 jobs and predicts 150 in the future, even while robots perform some tasks. This supports the statement that more automation need not mean lower employment.\n\nTutor tip: identify the speaker of the argument, not simply someone else who shares an optimistic view. This numbered-jobs example is explicitly attributed to Low.",
+        "ru": "Ответ: B — Hamish Low. Рассуждая о потере рабочих мест, Лоу отвергает предположение, что их количество фиксировано. Его пример начинается со 100 рабочих мест и предполагает 150 в будущем, хотя часть работы выполнят роботы. Это подтверждает мысль, что больше автоматизации не обязательно означает меньше занятости.\n\nСовет тьютора: установи автора конкретного аргумента. Недостаточно выбрать другого человека с похожим оптимистичным взглядом: пример со 100 и 150 местами принадлежит Лоу.",
+        "location": {
+          "en": "Low’s example: the number of jobs is not fixed",
+          "ru": "Пример Лоу: число рабочих мест не фиксировано"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "as well as to reduce costs and enhance productivity.",
+        "en": "Answer: A — Stella Pachidi. Pachidi lists businesses’ reasons for using algorithms: making choices based on supposedly perfect information, reducing costs and improving productivity. A list of motives matches several reasons why AI is appealing to businesses.\n\nTutor tip: use the list itself as evidence, and check the attribution says Pachidi. The question asks who explains the appeal, not who predicts the future number of jobs.",
+        "ru": "Ответ: A — Stella Pachidi. Пачиди перечисляет причины интереса компаний к алгоритмам: решения на основе якобы идеальной информации, снижение расходов и повышение производительности. Это соответствует several reasons why AI is appealing to businesses.\n\nСовет тьютора: подтверждение — именно перечисление причин. Проверь подпись говорящего: Pachidi. Здесь не спрашивают, кто прогнозирует число рабочих мест.",
+        "location": {
+          "en": "Pachidi: why organisations use algorithms",
+          "ru": "Пачиди: причины использования алгоритмов компаниями"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "Just as the industrial revolution brought people past subsistence agriculture, and the corporate revolution enabled mass production",
+        "en": "Answer: C — Ewan McGaughey. At the end of the passage, McGaughey compares the promised changes with the industrial revolution and the corporate revolution. Those earlier transformations moved people beyond subsistence agriculture and enabled mass production. The comparison supports parallels with major shifts in earlier eras.\n\nTutor tip: names may not be repeated in every sentence of a speaker’s discussion. Follow the attribution from the preceding McGaughey paragraphs into the final quotation.",
+        "ru": "Ответ: C — Ewan McGaughey. В конце текста Макгохи сравнивает новые изменения с промышленной и корпоративной революциями. Прежние преобразования позволили уйти от натурального сельского хозяйства и перейти к массовому производству. Это и есть параллель с крупными изменениями прошлых эпох.\n\nСовет тьютора: имя не обязательно повторяется перед каждой фразой. Проследи, что заключительная цитата продолжает рассуждение Макгохи из предыдущих абзацев.",
+        "location": {
+          "en": "Final paragraph: McGaughey’s historical comparison",
+          "ru": "Последний абзац: историческое сравнение Макгохи"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "fully understand the dilemmas that this new world raises regarding expertise, occupational boundaries and control.",
+        "en": "Answer: A — Stella Pachidi. Pachidi explicitly calls for understanding dilemmas involving expertise, occupational boundaries and control. These are several kinds of problem raised by the new AI-driven workplace. Fully understand matches be aware of in the statement.\n\nTutor tip: match a statement to its specific quoted argument. Other speakers discuss policies and transitions, but this three-part list of dilemmas belongs to Pachidi.",
+        "ru": "Ответ: A — Stella Pachidi. Пачиди прямо говорит о необходимости понимать dilemmas, связанные с экспертизой, границами профессий и контролем. Это разные проблемы, возникающие из-за нового устройства работы с ИИ. Fully understand соответствует be aware of в утверждении.\n\nСовет тьютора: привязывай утверждение к конкретной реплике. Другие авторы обсуждают политику и смену этапов жизни; перечень этих трёх проблем принадлежит Пачиди.",
+        "location": {
+          "en": "Pachidi: expertise, boundaries and control",
+          "ru": "Пачиди: экспертиза, границы профессий и контроль"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "he envisages a multistage employment life",
+        "en": "Answer: B — Hamish Low. Low contrasts the traditional sequence of education, full-time work and retirement with a multistage employment life. He expects retraining, several jobs and chosen periods without a job at different stages. That is a less conventional career path than in the past.\n\nTutor tip: identify a contrast between old and new patterns. The passage is describing a life-course structure, not simply one person changing jobs once.",
+        "ru": "Ответ: B — Hamish Low. Лоу противопоставляет традиционную последовательность «образование → полная занятость → пенсия» многоэтапной трудовой жизни. В неё входят переобучение, разные работы и добровольные периоды без работы. Это менее привычная карьерная траектория, чем раньше.\n\nСовет тьютора: найди контраст старой и новой модели. Автор описывает устройство всей трудовой жизни, а не единственную смену работы.",
+        "location": {
+          "en": "Low: the multistage employment life",
+          "ru": "Лоу: многоэтапная трудовая жизнь"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "bold new policies that guarantee full employment, fair incomes and a thriving economic democracy.",
+        "en": "Answer: C — Ewan McGaughey. McGaughey calls on organisational leaders, governments and banks to adopt policies guaranteeing full employment and fair incomes. Full employment corresponds to work for everyone, and fair incomes corresponds to adequately paid work. The call for policies matches authorities taking measures.\n\nTutor tip: verify all parts of the statement. It is not merely about creating jobs; the supporting sentence also includes income fairness, which explains adequately paid.",
+        "ru": "Ответ: C — Ewan McGaughey. Макгохи призывает руководителей организаций, правительства и банки принять политику, гарантирующую full employment и fair incomes. Full employment соответствует работе для всех, fair incomes — достойной оплате. Призыв к политическим мерам соответствует authorities should take measures.\n\nСовет тьютора: проверь все части утверждения. Здесь важно не только наличие работы: в подтверждающей фразе есть и справедливые доходы, что объясняет adequately paid.",
+        "location": {
+          "en": "McGaughey: employment and fair incomes",
+          "ru": "Макгохи: занятость и справедливые доходы"
+        }
+      }
     }
   }
 }

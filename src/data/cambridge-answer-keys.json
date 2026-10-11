@@ -13741,7 +13741,7 @@
         "G"
       ],
       "32": [
-        "F"
+        "E"
       ],
       "33": [
         "C"
@@ -13856,6 +13856,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-16-reading-1-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "user-confirmed-correction",
+        "label": "Question 32 correction confirmed by user",
+        "reference": "docs/cambridge-16-reading-1-q32-correction.json"
       }
     ]
   },

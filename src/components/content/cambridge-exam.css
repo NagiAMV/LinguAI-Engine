@@ -365,3 +365,9 @@
 .results-score p { grid-column:1/-1; margin:0; font-size:12px; color:var(--muted); text-align:center; }
 .results-score a { color:inherit; text-decoration:underline; }
 @media(max-width:600px){.results-score { padding:18px 12px; gap:12px; }.results-score strong {font-size:34px;}.results-score span {font-size:11px;}}
+
+.cd-content .exam-heading-options { list-style:none; margin:12px 0 24px; padding:14px 18px; border:1px solid var(--line); border-radius:8px; background:var(--surface-strong); }
+.cd-content .exam-heading-options li { margin:7px 0; padding:0; }
+
+.review-explanation .review-evidence-location { color:var(--teal-strong); font-weight:600; }
+.review-explanation .review-tutor-paragraph { line-height:1.75; }
