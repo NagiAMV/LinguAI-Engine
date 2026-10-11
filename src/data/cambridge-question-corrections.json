@@ -1,0 +1,65 @@
+{
+  "reading-1-3": {
+    "source": "https://www.hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-1.pdf",
+    "pdfPage": 73,
+    "printedPage": 68,
+    "reason": "Original questions confirm stored answer keys; imported wording was altered.",
+    "parts": {
+      "2": [
+        {
+          "question": 21,
+          "before": "because they make ",
+          "after": "because they "
+        },
+        {
+          "question": 25,
+          "before": "Japanese scientists are helping to ",
+          "after": "Japanese scientists are helping people "
+        },
+        {
+          "question": 25,
+          "before": " people who live an underground life.",
+          "after": " underground life."
+        },
+        {
+          "question": 26,
+          "before": "first underground room was used as a ",
+          "after": "first underground room was used for "
+        }
+      ]
+    }
+  },
+  "reading-1-4": {
+    "source": "https://www.hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-1.pdf",
+    "pdfPage": 96,
+    "printedPage": 91,
+    "reason": "Restore original sentence completion wording; preserve verified book answers.",
+    "parts": {
+      "3": [
+        {
+          "question": 36,
+          "before": "small isolated groups are susceptible to ",
+          "after": "small isolated groups "
+        },
+        {
+          "question": 38,
+          "before": " takes place</li>",
+          "after": "</li>"
+        }
+      ]
+    }
+  },
+  "reading-2-2": {
+    "source": "User confirmation of four categories and order-independent scoring in this chat",
+    "reason": "Match question instruction to the verified order-independent answer group.",
+    "parts": {
+      "2": [
+        {
+          "question": "21–24",
+          "before": "(in order)",
+          "after": "(in any order)"
+        }
+      ]
+    }
+  }
+}

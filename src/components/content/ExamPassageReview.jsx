@@ -1,19 +1,19 @@
 "use client";
 import { evidenceExcerpt } from "./review-evidence.mjs";
-import explanations from "../../data/cambridge-review-explanations.json";
 import { textNodes, highlightRange } from "./exam-annotations.mjs";
 import TextHighlights from "./TextHighlights";
 import CambridgeRecording from "./CambridgeRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
-function AnnotatedContent({ html, answers, rows, active, highlights, part, area, language, testId, onEvidence }) {
+function AnnotatedContent({ html, answers, rows, active, highlights, part, area, language, explanations, onEvidence }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: html }), [html]);
   useEffect(() => {
     const element = root.current;
     const opened = new Set([...element.querySelectorAll('details[open][data-explanation]')].map(node => node.dataset.explanation));
     element.querySelectorAll('[data-review-feedback]').forEach(node => node.remove());
+    element.querySelectorAll('[data-review-row]').forEach(node=>{node.classList.remove('review-active');delete node.dataset.reviewRow;});
     const annotated = new Set();
     for (const field of element.querySelectorAll('input[name], select[name]')) {
       const value = answers[field.name];
@@ -24,7 +24,7 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       const row = rows.find(item => item.names.includes(field.name));
       if (!row) continue;
       field.dataset.reviewStatus = row.status;
-      const host = field.closest('[class$="question-item"]') || field.parentElement;
+      const host = field.closest('.ielts-reading-question-item,.ielts-listening-question-item') || field.parentElement;
       host.dataset.reviewRow = row.name;
       host.classList.toggle('review-active', row.name === active);
       if (annotated.has(row.name)) continue;
@@ -42,7 +42,7 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:{correct:'Your answer matches an accepted answer in the key.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
       reason.textContent=reasons[row.status]+(row.status!=='pending'?(ru?' Регистр букв и лишние пробелы не учитываются.':' Letter case and extra whitespace are ignored.'):'');detail.append(reason);
       if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
-      const explanation=explanations.tests[testId]?.[row.numbers];
+      const explanation=explanations[row.numbers];
       if(explanation?.part===part){
         const quotes=explanation.quotes?.length?explanation.quotes:[explanation.quote];
         summary.addEventListener('click',()=>{if(!detail.open)onEvidence(quotes,false);});
@@ -54,11 +54,11 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       feedback.append(detail);
       (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
     }
-  }, [html, answers, rows, active, language, testId, part, onEvidence]);
+  }, [html, answers, rows, active, language, explanations, part, onEvidence]);
   return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={active} /><div ref={root} className="cd-content review-content" dangerouslySetInnerHTML={markup} /></>;
 }
 
-export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [] }) {
+export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [], explanations = {} }) {
   const [language, setLanguage] = useState('ru');
   useEffect(()=>{const saved=localStorage.getItem('linguai-review-language');if(['ru','en'].includes(saved))setLanguage(saved);},[]);
   const [evidenceError, setEvidenceError] = useState('');
@@ -90,7 +90,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     const target = [...root.current.querySelectorAll('[data-review-row]')].find(node => node.dataset.reviewRow === jump);
     if (target) { target.tabIndex = -1; target.scrollIntoView({ block: 'center', inline: 'nearest' }); target.focus({ preventScroll: true }); }
     const row=rows.find(item=>item.name===jump&&item.part===partId);
-    const explanation=row&&explanations.tests[test.id]?.[row.numbers];
+    const explanation=row&&explanations[row.numbers];
     globalThis.CSS?.highlights?.delete('review-evidence');
     if(row){
       const detail=[...root.current.querySelectorAll('[data-explanation]')].find(node=>node.dataset.explanation===row.name);
@@ -104,8 +104,8 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     {evidenceError&&<p role="status">{evidenceError}</p>}
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     <div className="review-reading-panes" key={part.id}>
-      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} testId={test.id} onEvidence={showEvidence} /></article>
-      <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} testId={test.id} onEvidence={showEvidence} /></article>
+      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
+      <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
     </div>
   </section>;
 }
