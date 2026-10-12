@@ -1,6 +1,6 @@
 {
   "originalBookPage": 152,
-  "source": "https://www.scribd.com/document/963938709/Cambridge-Ielts-6-test1-1",
+  "source": "https://studylib.net/doc/27113174/ielts-6",
   "corroboratingSource": "https://hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-6.pdf",
   "reason": "The supplied letter block does not match the headings and sentence-completion questions of Climate Change and the Inuit. Restored book answers; Q34–35 require both terms in either order.",
   "changes": [
@@ -132,5 +132,6 @@
         "imported"
       ]
     }
-  ]
+  ],
+  "additionalOriginalScan": "https://www.scribd.com/document/963938709/Cambridge-Ielts-6-test1-1"
 }
