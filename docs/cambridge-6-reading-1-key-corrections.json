@@ -1,0 +1,136 @@
+{
+  "originalBookPage": 152,
+  "source": "https://www.scribd.com/document/963938709/Cambridge-Ielts-6-test1-1",
+  "corroboratingSource": "https://hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-6.pdf",
+  "reason": "The supplied letter block does not match the headings and sentence-completion questions of Climate Change and the Inuit. Restored book answers; Q34–35 require both terms in either order.",
+  "changes": [
+    {
+      "question": 27,
+      "previousAcceptedAnswers": [
+        "D"
+      ],
+      "acceptedAnswers": [
+        "i"
+      ]
+    },
+    {
+      "question": 28,
+      "previousAcceptedAnswers": [
+        "C"
+      ],
+      "acceptedAnswers": [
+        "vi"
+      ]
+    },
+    {
+      "question": 29,
+      "previousAcceptedAnswers": [
+        "A"
+      ],
+      "acceptedAnswers": [
+        "iii"
+      ]
+    },
+    {
+      "question": 30,
+      "previousAcceptedAnswers": [
+        "D"
+      ],
+      "acceptedAnswers": [
+        "vii"
+      ]
+    },
+    {
+      "question": 31,
+      "previousAcceptedAnswers": [
+        "D"
+      ],
+      "acceptedAnswers": [
+        "iv"
+      ]
+    },
+    {
+      "question": 32,
+      "previousAcceptedAnswers": [
+        "D"
+      ],
+      "acceptedAnswers": [
+        "ii"
+      ]
+    },
+    {
+      "question": 33,
+      "previousAcceptedAnswers": [
+        "C"
+      ],
+      "acceptedAnswers": [
+        "farming"
+      ]
+    },
+    {
+      "question": 34,
+      "previousAcceptedAnswers": [
+        "B"
+      ],
+      "acceptedAnswers": [
+        "sea mammals",
+        "fish"
+      ]
+    },
+    {
+      "question": 35,
+      "previousAcceptedAnswers": [
+        "A"
+      ],
+      "acceptedAnswers": [
+        "fish",
+        "sea mammals"
+      ]
+    },
+    {
+      "question": 36,
+      "previousAcceptedAnswers": [
+        "C"
+      ],
+      "acceptedAnswers": [
+        "Thule"
+      ]
+    },
+    {
+      "question": 37,
+      "previousAcceptedAnswers": [
+        "A"
+      ],
+      "acceptedAnswers": [
+        "islands"
+      ]
+    },
+    {
+      "question": 38,
+      "previousAcceptedAnswers": [
+        "B"
+      ],
+      "acceptedAnswers": [
+        "nomadic"
+      ]
+    },
+    {
+      "question": 39,
+      "previousAcceptedAnswers": [
+        "C"
+      ],
+      "acceptedAnswers": [
+        "nature"
+      ]
+    },
+    {
+      "question": 40,
+      "previousAcceptedAnswers": [
+        "D"
+      ],
+      "acceptedAnswers": [
+        "imported"
+      ]
+    }
+  ]
+}

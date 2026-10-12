@@ -682,7 +682,7 @@ test("Cambridge 5 Test 4 preserves explicitly supplied answer variants", () => {
     assert.equal(reviewAnswer(value, [13], t4).status, "correct");
   for (const value of ["day neutral", "day-neutral plants"])
     assert.equal(reviewAnswer(value, [35], t4).status, "correct");
-  assert.equal(reviewAnswer("day-neutral", [35], t4).status, "incorrect");
+  assert.equal(reviewAnswer("day-neutral", [35], t4).status, "correct");
   for (const value of [
     "food",
     "food resources",
@@ -690,7 +690,7 @@ test("Cambridge 5 Test 4 preserves explicitly supplied answer variants", () => {
     "adequate food resources",
   ])
     assert.equal(reviewAnswer(value, [36], t4).status, "correct");
-  for (const value of ["insects", "fertilizations by insects"])
+  for (const value of ["insects", "fertilization by insects"])
     assert.equal(reviewAnswer(value, [37], t4).status, "correct");
   for (const value of ["rainfall", "suitable rainfall"])
     assert.equal(reviewAnswer(value, [38], t4).status, "correct");
@@ -715,7 +715,8 @@ test("Cambridge 6 Test 1 retains optional article and explicit percentage altern
     assert.equal(reviewAnswer(value, [13], saved).status, 'incorrect');
   assert.equal(reviewAnswer('the competition model', [12], saved).status, 'incorrect');
   assert.equal(reviewAnswer('', [13], saved).status, 'blank');
-  assert.equal(reviewAnswer('d', [40], saved).status, 'correct');
+  assert.equal(reviewAnswer('imported', [40], saved).status, 'correct');
+  assert.equal(reviewAnswer('d', [40], saved).status, 'incorrect');
   assert.deepEqual(Object.values(saved.parts).map(p => p.questionNumbers.length), [13, 13, 14]);
 });
 

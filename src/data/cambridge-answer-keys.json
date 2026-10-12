@@ -4308,7 +4308,7 @@
         "B"
       ],
       "38": [
-        "F"
+        "E"
       ],
       "39": [
         "D"
@@ -4407,6 +4407,11 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-5-reading-1-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "verified-original-key",
+        "reference": "docs/cambridge-5-reading-key-corrections.json"
       }
     ]
   },
@@ -4641,7 +4646,7 @@
         "D"
       ],
       "2": [
-        "D"
+        "B"
       ],
       "3": [
         "C"
@@ -4833,6 +4838,11 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-5-reading-3-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "verified-original-key",
+        "reference": "docs/cambridge-5-reading-key-corrections.json"
       }
     ]
   },
@@ -4908,7 +4918,7 @@
         "K"
       ],
       "22": [
-        "F"
+        "E"
       ],
       "23": [
         "L"
@@ -4947,6 +4957,7 @@
         "temperatures"
       ],
       "35": [
+        "day-neutral",
         "day neutral",
         "day-neutral plants"
       ],
@@ -4958,7 +4969,7 @@
       ],
       "37": [
         "insects",
-        "fertilizations by insects"
+        "fertilization by insects"
       ],
       "38": [
         "rainfall",
@@ -5046,6 +5057,11 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-5-reading-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-original-key",
+        "reference": "docs/cambridge-5-reading-key-corrections.json"
       }
     ]
   },
@@ -5136,46 +5152,48 @@
         "A"
       ],
       "27": [
-        "D"
+        "i"
       ],
       "28": [
-        "C"
+        "vi"
       ],
       "29": [
-        "A"
+        "iii"
       ],
       "30": [
-        "D"
+        "vii"
       ],
       "31": [
-        "D"
+        "iv"
       ],
       "32": [
-        "D"
+        "ii"
       ],
       "33": [
-        "C"
+        "farming"
       ],
       "34": [
-        "B"
+        "sea mammals",
+        "fish"
       ],
       "35": [
-        "A"
+        "fish",
+        "sea mammals"
       ],
       "36": [
-        "C"
+        "Thule"
       ],
       "37": [
-        "A"
+        "islands"
       ],
       "38": [
-        "B"
+        "nomadic"
       ],
       "39": [
-        "C"
+        "nature"
       ],
       "40": [
-        "D"
+        "imported"
       ]
     },
     "parts": {
@@ -5232,7 +5250,20 @@
           39,
           40
         ],
-        "groups": []
+        "groups": [
+          {
+            "questions": [
+              34,
+              35
+            ],
+            "acceptedSets": [
+              [
+                "sea mammals",
+                "fish"
+              ]
+            ]
+          }
+        ]
       }
     },
     "sources": [
@@ -5253,6 +5284,11 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-6-reading-1-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "verified-book-key-and-passage",
+        "reference": "docs/cambridge-6-reading-1-key-corrections.json"
       }
     ]
   },
@@ -5469,7 +5505,7 @@
         "A"
       ],
       "2": [
-        "D"
+        "I"
       ],
       "3": [
         "J"
@@ -5661,6 +5697,11 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-6-reading-3-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "verified-original-book-key",
+        "reference": "docs/cambridge-6-reading-3-q2-correction.json"
       }
     ]
   },

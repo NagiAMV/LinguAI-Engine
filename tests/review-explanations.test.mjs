@@ -114,3 +114,28 @@ test('Cambridge 4 Test 2 Q4 accepts the singular required by the original summar
  const history=JSON.parse(fs.readFileSync('docs/cambridge-4-reading-2-q4-correction.json','utf8'));
  assert.deepEqual(history.previousAcceptedAnswers,['traditional skills']);
 });
+
+
+for(const book of [5,6])test(`Cambridge ${book} covers all 160 Reading questions with bilingual reasoning and evidence`,()=>{
+ const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
+ let total=0;
+ for(let number=1;number<=4;number++){
+  const id=`reading-${book}-${number}`,entries=data.tests[id];
+  const covered=Object.keys(entries).flatMap(numbers=>numbers.split('–').map(Number)).sort((a,b)=>a-b);
+  assert.deepEqual(covered,Object.keys(keys[id].answers).map(Number).sort((a,b)=>a-b),id);
+  total+=covered.length;
+  for(const entry of Object.values(entries)){assert.ok(entry.en.length>120&&entry.ru.length>120,id);assert.ok(entry.en.includes('\n\n')&&entry.ru.includes('\n\n'),id);}
+ }
+ assert.equal(total,160);
+});
+
+test('Cambridge 5 and 6 source corrections keep audit history and grade restored answers',()=>{
+ const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
+ for(const [id,n,value] of [['reading-5-1',38,'E'],['reading-5-3',2,'B'],['reading-5-4',22,'E'],['reading-6-3',2,'I']])assert.equal(reviewAnswer(value,[n],keys[id]).status,'correct');
+ const key=keys['reading-6-1'];
+ assert.equal(reviewAnswer('i',[27],key).status,'correct');assert.equal(reviewAnswer('D',[27],key).status,'incorrect');
+ assert.equal(reviewAnswer(['fish','sea mammals'],[34,35],key,true).status,'correct');
+ assert.equal(reviewAnswer(['fish','fish'],[34,35],key,true).status,'incorrect');
+ assert.deepEqual(Object.keys(data.tests['reading-6-1']).filter(n=>n.includes('–')),['34–35']);
+ const history=JSON.parse(fs.readFileSync('docs/cambridge-6-reading-1-key-corrections.json','utf8'));assert.equal(history.changes.length,14);
+});
