@@ -1,0 +1,9 @@
+{
+  "test": "reading-13-4",
+  "part": 3,
+  "previous": "In the 1970s he suggested",
+  "restored": "In the 1790s he suggested",
+  "evidence": "In the 1790s, he wrote to the Home Office",
+  "source": "public/cambridge/reading-13-4.json, Book Review passage",
+  "reason": "Imported summary date contradicts the passage and the stated lifetime 1748–1832. Presentation only; raw import and answer field names retained."
+}

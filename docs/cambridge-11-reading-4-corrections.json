@@ -1,0 +1,27 @@
+{
+  "test": "reading-11-4",
+  "source": "https://www.hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-11.pdf",
+  "printedPage": 131,
+  "pdfPage": 132,
+  "verification": "Original answer-key scan rendered and visually checked; questions and passage also checked. User transcription preserved unchanged.",
+  "corrections": [
+    {
+      "question": 7,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "B"
+      ]
+    },
+    {
+      "question": 12,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    }
+  ]
+}

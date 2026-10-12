@@ -8719,7 +8719,7 @@
         "G"
       ],
       "32": [
-        "F"
+        "E"
       ],
       "33": [
         "A"
@@ -8821,6 +8821,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-10-reading-1-user-key.json"
+      },
+      {
+        "part": 3,
+        "type": "passage-and-original-question-verification",
+        "label": "Change evokes playing safe; E is avoid risk",
+        "reference": "docs/cambridge-10-reading-corrections.json"
       }
     ]
   },
@@ -10104,7 +10110,7 @@
         "C"
       ],
       "7": [
-        "F"
+        "B"
       ],
       "8": [
         "A"
@@ -10119,7 +10125,7 @@
         "B"
       ],
       "12": [
-        "F"
+        "E"
       ],
       "13": [
         "F"
@@ -10281,6 +10287,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-11-reading-4-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "verified-original-key",
+        "label": "Cambridge IELTS 11 original answer key, printed page 131",
+        "reference": "docs/cambridge-11-reading-4-corrections.json"
       }
     ]
   },
@@ -11992,7 +12004,7 @@
         "TRUE"
       ],
       "14": [
-        "C"
+        "E"
       ],
       "15": [
         "C"
@@ -12016,7 +12028,7 @@
         "D"
       ],
       "22": [
-        "F"
+        "E"
       ],
       "23": [
         "activists"
@@ -12142,7 +12154,7 @@
             "acceptedSets": [
               [
                 "D",
-                "F"
+                "E"
               ]
             ]
           }
@@ -12186,6 +12198,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-14-reading-1-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-key-correction",
+        "label": "Bike-sharing question and key corrections",
+        "reference": "docs/cambridge-14-reading-1-corrections.json"
       }
     ]
   },
@@ -12457,7 +12475,7 @@
         "B"
       ],
       "20": [
-        "F"
+        "E"
       ],
       "21": [
         "B"
@@ -12484,7 +12502,7 @@
         "G"
       ],
       "29": [
-        "E"
+        "F"
       ],
       "30": [
         "E"
@@ -12608,6 +12626,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-14-reading-3-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-key-correction",
+        "label": "Drug example and researcher corrections",
+        "reference": "docs/cambridge-14-reading-3-corrections.json"
       }
     ]
   },
@@ -12944,7 +12968,7 @@
         "B"
       ],
       "33": [
-        "F"
+        "E"
       ],
       "34": [
         "A"
@@ -12953,7 +12977,7 @@
         "D"
       ],
       "36": [
-        "F"
+        "E"
       ],
       "37": [
         "B"
@@ -13071,6 +13095,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-15-reading-1-user-key.json"
+      },
+      {
+        "type": "verified-key-correction",
+        "label": "Passage and original printed key verification",
+        "reference": "docs/cambridge-15-1-corrections.json",
+        "part": 3
       }
     ]
   },
@@ -13187,7 +13217,7 @@
         "D"
       ],
       "36": [
-        "F"
+        "E"
       ],
       "37": [
         "NOT GIVEN"
@@ -13277,6 +13307,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-15-reading-2-user-key.json"
+      },
+      {
+        "type": "verified-key-correction",
+        "label": "Passage and original printed key verification",
+        "reference": "docs/cambridge-15-2-corrections.json",
+        "part": 3
       }
     ]
   },
@@ -13963,7 +13999,7 @@
         "Rhiannon"
       ],
       "14": [
-        "B"
+        "D"
       ],
       "15": [
         "C"
@@ -14119,6 +14155,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-16-reading-2-user-key.json"
+      },
+      {
+        "type": "verified-key-correction",
+        "label": "Passage and original printed key verification",
+        "reference": "docs/cambridge-16-2-corrections.json",
+        "part": 2
       }
     ]
   },

@@ -1,0 +1,55 @@
+{
+  "sources": [
+    "https://can-ada.net/wp-content/uploads/2022/07/Cambridge-IELTS-15-Academic-Cambridge-Assessment-English.pdf"
+  ],
+  "changes": [
+    {
+      "test": "reading-15-2",
+      "questions": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "previous": "TRUE/FALSE/NOT GIVEN inputs and instructions",
+      "corrected": "YES/NO/NOT GIVEN, matching original p48 and key p122",
+      "printedPages": [
+        48,
+        122
+      ]
+    },
+    {
+      "test": "reading-15-3",
+      "questions": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "previous": "nine paragraphs A-H",
+      "corrected": "seven paragraphs A-G, matching the seven passage sections",
+      "printedPages": [
+        62
+      ],
+      "verification": "Reproduced original p62 states seven sections A-G; seven raw passage sections retained."
+    },
+    {
+      "test": "reading-15-4",
+      "question": 7,
+      "previous": "Leaves and was prefilled before the answer input",
+      "corrected": "Full two-part answer entered in the existing field; original p82 leaves both parts blank around and",
+      "printedPages": [
+        82
+      ]
+    }
+  ],
+  "preserved": [
+    "raw imported JSON",
+    "answer field names",
+    "passages",
+    "existing correct answer keys"
+  ]
+}

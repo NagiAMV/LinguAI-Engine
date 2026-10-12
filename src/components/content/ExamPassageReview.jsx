@@ -1,6 +1,5 @@
 "use client";
-import { evidenceExcerpt } from "./review-evidence.mjs";
-import { textNodes, highlightRange } from "./exam-annotations.mjs";
+import { evidenceRange } from "./review-evidence.mjs";
 import TextHighlights from "./TextHighlights";
 import CambridgeRecording from "./CambridgeRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -72,12 +71,9 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   const visible = partRows.filter(row => !errorsOnly || ['incorrect','blank'].includes(row.status));
   function showEvidence(quote, scroll = true) {
     const passage=root.current.querySelector('[data-review-passage] .review-content');
-    const text=textNodes(passage).map(node=>node.textContent).join('');
-    const excerpts=(Array.isArray(quote)?quote:[quote]).map(citation=>evidenceExcerpt(text,citation));
+    const ranges=(Array.isArray(quote)?quote:[quote]).map(citation=>evidenceRange(passage,citation));
     globalThis.CSS?.highlights?.delete('review-evidence');
-    if(excerpts.some(excerpt=>!excerpt)){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
-    const ranges=excerpts.map(excerpt=>highlightRange(passage,excerpt));
-    if(ranges.some(range=>!range))return;
+    if(ranges.some(range=>!range)){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
     if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(...ranges));
     else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(ranges[0]);}
     if(scroll)ranges[0].startContainer.parentElement.scrollIntoView({block:'center',behavior:'smooth'});

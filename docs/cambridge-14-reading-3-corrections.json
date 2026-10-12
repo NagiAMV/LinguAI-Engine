@@ -1,0 +1,32 @@
+{
+  "test": "reading-14-3",
+  "changes": [
+    {
+      "question": 20,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "question": 29,
+      "previousAcceptedAnswers": [
+        "E"
+      ],
+      "acceptedAnswers": [
+        "F"
+      ]
+    }
+  ],
+  "evidence": {
+    "20": "Paragraph E names alloferon used as an antiviral and antitumor agent; F only explains research obstacles.",
+    "29": "Joan Goodman explicitly describes hybrid work/play as optimal learning; F is Goodman in the question list, E is Pellegrini."
+  },
+  "sources": [
+    "https://ieltsextremes.com/cambridge-14-reading-test-3-answers/",
+    "https://it.scribd.com/document/513676748/IELTSXpress-com-Cambridge-IELTS-14-Academic-PDF-Free-download-119-126"
+  ],
+  "verification": "Question and passage checked; published numbered key confirms E and F. Reproduced printed key p124 also identifies F at Q29. Raw user transcription retained."
+}

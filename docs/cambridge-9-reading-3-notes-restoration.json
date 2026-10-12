@@ -1,0 +1,40 @@
+{
+  "test": "reading-9-3",
+  "part": 3,
+  "questions": [
+    33,
+    35
+  ],
+  "source": "https://hasanboy.uz/wp-content/uploads/2018/06/Cambridge-Practice-Tests-for-IELTS-9.pdf",
+  "printedPage": 74,
+  "pdfPage": 66,
+  "reason": "Original notes leave both planet names and both component names blank. The imported page prefilled Saturn and sensors, conflicting with the existing both-required keys.",
+  "changes": [
+    {
+      "question": 33,
+      "removedPrefilledText": "and Saturn",
+      "acceptedAnswersUnchanged": [
+        "Jupiter Saturn",
+        "Saturn Jupiter",
+        "Jupiter and Saturn",
+        "Saturn and Jupiter",
+        "Jupiter, Saturn",
+        "Saturn, Jupiter"
+      ]
+    },
+    {
+      "question": 35,
+      "removedPrefilledText": "sensors and",
+      "acceptedAnswersUnchanged": [
+        "sensors circuits",
+        "circuits sensors",
+        "sensors and circuits",
+        "circuits and sensors",
+        "sensors, circuits",
+        "circuits, sensors"
+      ]
+    }
+  ],
+  "fieldNamesPreserved": true,
+  "rawImportUnchanged": true
+}

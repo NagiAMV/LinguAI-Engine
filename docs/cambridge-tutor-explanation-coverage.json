@@ -349,6 +349,450 @@
         }
       ],
       "questions": 160
+    },
+    "8": {
+      "module": "reading",
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 35,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "9": {
+      "module": "reading",
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 36,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "10": {
+      "module": "reading",
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "11": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "12": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 38,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "13": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "14": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 37,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 38,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "15": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 38,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
+    },
+    "16": {
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 39,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 38,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
     }
   },
   "languages": [

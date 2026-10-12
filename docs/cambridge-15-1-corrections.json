@@ -1,0 +1,34 @@
+{
+  "test": "reading-15-1",
+  "changes": [
+    {
+      "question": 33,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "question": 36,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    }
+  ],
+  "evidence": {
+    "33": "Wilfred Thesiger contrasts camels with cars. E is Thesiger; F is not an offered option.",
+    "36": "Thesiger values insight regardless of self-discovery. Printed key confirms E."
+  },
+  "sources": [
+    "https://can-ada.net/wp-content/uploads/2022/07/Cambridge-IELTS-15-Academic-Cambridge-Assessment-English.pdf"
+  ],
+  "printedPages": [
+    120
+  ],
+  "verification": "Verified against the passage, offered choices and reproduced original printed key. Raw user transcription retained."
+}
