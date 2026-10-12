@@ -6798,7 +6798,7 @@
         "E"
       ],
       "5": [
-        "D"
+        "B"
       ],
       "6": [
         "F"
@@ -7028,6 +7028,12 @@
         "type": "user-transcription",
         "label": "Explicit user correction on 2026-10-04",
         "reference": "docs/cambridge-8-reading-1-2-user-correction.json"
+      },
+      {
+        "part": 1,
+        "type": "original-question-verification",
+        "label": "Original Cambridge 8 question and passage verify Egyptians (B)",
+        "reference": "docs/cambridge-8-reading-1-q5-correction.json"
       }
     ]
   },

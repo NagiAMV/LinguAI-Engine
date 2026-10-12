@@ -116,7 +116,7 @@ test('Cambridge 4 Test 2 Q4 accepts the singular required by the original summar
 });
 
 
-for(const book of [5,6])test(`Cambridge ${book} covers all 160 Reading questions with bilingual reasoning and evidence`,()=>{
+for(const book of [5,6,7])test(`Cambridge ${book} covers all 160 Reading questions with bilingual reasoning and evidence`,()=>{
  const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
  let total=0;
  for(let number=1;number<=4;number++){
@@ -138,4 +138,17 @@ test('Cambridge 5 and 6 source corrections keep audit history and grade restored
  assert.equal(reviewAnswer(['fish','fish'],[34,35],key,true).status,'incorrect');
  assert.deepEqual(Object.keys(data.tests['reading-6-1']).filter(n=>n.includes('–')),['34–35']);
  const history=JSON.parse(fs.readFileSync('docs/cambridge-6-reading-1-key-corrections.json','utf8'));assert.equal(history.changes.length,14);
+});
+
+
+test('Cambridge 7 Test 3 restores its original migration map without altering answer fields',()=>{
+ const corrections=JSON.parse(fs.readFileSync('src/data/cambridge-question-corrections.json','utf8'));
+ const raw=JSON.parse(fs.readFileSync('public/cambridge/reading-7-3.json','utf8'));
+ const fixed=withQuestionCorrections(raw,corrections);
+ assert.deepEqual(fixed.parts.map(p=>p.fieldNames),raw.parts.map(p=>p.fieldNames));
+ assert.deepEqual(fixed.parts.map(p=>p.passage),raw.parts.map(p=>p.passage));
+ assert.ok(fixed.parts[1].questions.includes('/cambridge/assets/reading-7-3-migration-map.png'));
+ assert.ok(!fixed.parts[1].questions.includes('cambridge-ielts-08-academic-listening-test-4-q20-21.png'));
+ assert.ok(fs.statSync('public/cambridge/assets/reading-7-3-migration-map.png').size>1000);
+ assert.deepEqual(withQuestionCorrections(fixed,corrections),fixed);
 });

@@ -9894,6 +9894,2769 @@
           "ru": "Текст 3"
         }
       }
+    },
+    "reading-8-1": {
+      "1": {
+        "part": 1,
+        "quote": "cloudy and often freezing weather of northern Europe",
+        "en": "D: sundials and water clocks were unreliable in cloudy or freezing northern weather. The mechanical clock discussion follows later.\n\nMatch the environmental limitation, not merely the earliest invention.",
+        "ru": "D: солнечные и водяные часы ненадёжны при облачной и морозной погоде севера. Механические часы обсуждаются позже.\n\nНужна погодная уязвимость, не просто древность устройства.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "where seasonal agriculture was practised",
+        "en": "B contrasts lunar calendars near the equator with solar-year importance farther north. Farming seasons explain the geographical difference.\n\nKeep latitude and the relevant natural cycle linked.",
+        "ru": "B противопоставляет лунный цикл у экватора солнечному году северного земледелия. Сезоны объясняют географическую разницу.\n\nСвязывай широту с нужным природным циклом.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "a pendulum clock had been devised",
+        "en": "F traces mechanical development to the early pendulum clock and its inefficient large swing. G describes the subsequent improvement.\n\nOrigins and later refinement belong to different paragraphs.",
+        "ru": "F прослеживает развитие до первых маятниковых часов и неэффективной большой дуги. G — последующее улучшение.\n\nИстоки и усовершенствование относятся к разным абзацам.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "a number of systems evolved",
+        "en": "E lists equal-hour systems starting at sunset, sunrise, noon or midnight. They differ in starting point despite uniformly dividing the day.\n\nMatch parallel systems, not temporal hours of unequal length in C.",
+        "ru": "E перечисляет системы равных часов с разным началом отсчёта. Различается начало, не равномерность деления.\n\nНе путай с неравными сезонными часами в C.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "'small clock', or French, hours",
+        "en": "F — French: the later system split the day into two twelve-hour periods. Earlier German great-clock hours used twenty-four parts.\n\nFollow the system that superseded the earlier schemes.",
+        "ru": "F — French: новая система разделяла сутки на два двенадцатичасовых периода. Немецкая прежняя имела 24 части.\n\nНужна заменившая старые схемы система.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "invented in 1670, in England",
+        "en": "D — English: the anchor escapement enabled a long pendulum and the floor-standing grandfather-clock case.\n\nThe cabinet was a consequence of the mechanism, not a separate nationality example.",
+        "ru": "D — English: анкерный механизм позволил длинный маятник и напольный корпус.\n\nНовая форма шкафа — следствие механизма, не отдельный пример другой страны.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "calendars to co-ordinate communal activities",
+        "en": "A — Babylonians: calendars organised communal activity, shipping and farming. The question asks the public purpose, not a later clock mechanism.\n\nMatch several listed uses to work schedules.",
+        "ru": "A — Babylonians: календарь организовывал общие дела, перевозки и земледелие. Требуется общественное назначение, не механизм часов.\n\nПеречень задач соответствует рабочему расписанию.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "shaped like a ship's anchor",
+        "en": "Anchor labels the lever-shaped device. Ship’s anchor is the explicit comparison and an accepted alternative.\n\nThe diagram asks for shape, while wheel and tooth name other parts.",
+        "ru": "Anchor обозначает рычажное устройство по форме якоря. Ship’s anchor — прямое сравнение и допустимый вариант.\n\nНужна форма, а колесо и зубец относятся к другим деталям.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "each tooth of the escape wheel",
+        "en": "Wheel / escape wheel is the rotating component whose teeth are alternately held and released.\n\nDo not substitute the lever-shaped anchor for the part it controls.",
+        "ru": "Wheel / escape wheel — вращающаяся деталь, зубцы которой поочерёдно удерживаются и отпускаются.\n\nНе подменяй управляемую деталь управляющим якорем.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "catches and then releases each tooth",
+        "en": "Tooth is the individual projection caught by the escapement. The wheel is the whole component; pendulum supplies motion.\n\nThe singular label matches one projecting part.",
+        "ru": "Tooth — отдельный выступ, удерживаемый механизмом. Колесо — целая деталь, маятник задаёт движение.\n\nЕдинственное число обозначает один выступ.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "the use of a long pendulum",
+        "en": "Pendulum / long pendulum labels the swinging element permitted by the improved escapement. Its long form fits the floor-standing case.\n\nUse the component name, not the surrounding cabinet.",
+        "ru": "Pendulum / long pendulum — качающийся элемент, допустимый новым механизмом. Длинная форма требует напольного корпуса.\n\nНужна деталь, не окружающий шкаф.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "could beat once a second",
+        "en": "Second is the beat interval of the long pendulum. This is a duration, not the time of day at which counting starts.\n\nOnce a supplies the interval relationship.",
+        "ru": "Second — интервал колебания длинного маятника. Это длительность, не время начала суток.\n\nOnce a задаёт повторяемый временной промежуток.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "resulted in the establishment of the Federal Aviation Administration",
+        "en": "ii: A links the Grand Canyon disaster to FAA creation and increased safety.\n\nDisaster prompts action summarises cause and institutional response, not ATC’s earliest origins.",
+        "ru": "ii: A связывает катастрофу с созданием FAA и безопасностью.\n\nПричина и институциональная реакция отличаются от первых истоков ATC.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "this was fortuitous",
+        "en": "iii: C pairs full regulation with the timely arrival of fast jets needing stricter separation.\n\nThe coincidence is between new regulation and technological change.",
+        "ru": "iii: C сопоставляет полноценное регулирование с появлением быстрых реактивных самолётов.\n\nСовпадение относится к правилам и технологической перемене.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "a very incomplete part of the picture",
+        "en": "v: D rejects the simple image of airport radar controllers as the whole ATC system.\n\nThe popular picture is presented to be corrected, not adopted.",
+        "ru": "v: D отвергает представление об одних диспетчерах у радара как полную систему ATC.\n\nПопулярная картина введена для исправления, не подтверждения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "from 365m above the ground and higher",
+        "en": "iv: E sets controlled-airspace altitude thresholds and airport exceptions.\n\nThe main organisation is vertical extent; alphabetic categories are explained in G.",
+        "ru": "iv: E задаёт высотные границы контролируемого пространства и исключения у аэропортов.\n\nГлавное — высота; буквенные категории пояснены в G.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "two types of operating environments",
+        "en": "viii: F distinguishes visual and instrument rules by visibility and weather. Licensing is an added condition, not the whole topic.\n\nChoose the rule-setting context rather than one requirement.",
+        "ru": "viii: F различает визуальные и приборные правила по видимости и погоде. Лицензия — дополнительное условие.\n\nВыбирай общий контекст, не одну деталь.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "designated by letters of the alphabet",
+        "en": "vii: G defines classes A–F, associated aircraft and airport regulations.\n\nSeveral class descriptions support a category heading, not only disobeying permission rules.",
+        "ru": "vii: G определяет классы, самолёты и правила у аэропортов.\n\nНесколько категорий дают общий заголовок, не только нарушение допуска.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "An accident that occurred",
+        "en": "FALSE: the stated cause of FAA creation was the accident, not the jet engine. Jets made the timing fortunate afterwards.\n\nA coinciding development is not the initiating cause.",
+        "ru": "FALSE: причиной создания названа авария, не реактивный двигатель. Самолёты сделали момент удачным.\n\nСовпавшее событие не заменяет исходную причину.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "existed well before the Grand Canyon disaster",
+        "en": "FALSE: rudimentary ATC existed in the 1920s, before 1956. Full regulation later should not be confused with the first control activity.\n\nDistinguish beginnings from expansion.",
+        "ru": "FALSE: начальная ATC существовала в 1920-х, раньше 1956. Полное регулирование позже не равно первому контролю.\n\nРазличай начало и расширение системы.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "beacons and flashing lights were placed",
+        "en": "NOT GIVEN: early visual aids are described historically, but their continued present use is not stated.\n\nWere used does not establish are still used.",
+        "ru": "NOT GIVEN: маяки описаны как исторические средства, продолжение использования не указано.\n\nWere used не подтверждает are still used.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "improved radio communication brought about by the Second World War",
+        "en": "TRUE: the text directly attributes improved radio communication to the war. Radar is another development in the same period.\n\nThe statement requires only some radio improvements.",
+        "ru": "TRUE: улучшение радиосвязи прямо связано с войной. Радар — другая разработка периода.\n\nДостаточно указанного улучшения связи, не всех технологий.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "below 365m",
+        "en": "TRUE: combining E’s uncontrolled zone away from airport exceptions with G’s Class F definition gives the location.\n\nUse both the geographic qualification and the category definition.",
+        "ru": "TRUE: неконтролируемая зона ниже порога вне аэропортовых исключений в E соответствует Class F в G.\n\nНужны и географическая оговорка, и определение категории.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        },
+        "quotes": [
+          "below 365m",
+          "Uncontrolled airspace is designated Class F"
+        ]
+      },
+      "25": {
+        "part": 2,
+        "quote": "in Class A, all operations are IFR",
+        "en": "FALSE: compulsory IFR belongs to Class A, not Class E. Controlled airspace can elsewhere accommodate both visual and instrument plans.\n\nKeep the two class letters distinct.",
+        "ru": "FALSE: обязательный IFR относится к Class A, не E. В иных контролируемых зонах возможны оба режима.\n\nРазличай буквы классов и их условия.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "medium-sized metropolitan",
+        "en": "TRUE: Class C corresponds roughly to medium-sized metropolitan airports. Class B is the major-city category.\n\nAverage-sized paraphrases medium-sized, not the largest airport class.",
+        "ru": "TRUE: Class C соответствует средним столичным аэропортам, Class B — крупным.\n\nAverage-sized передаёт medium-sized, не крупнейшую категорию.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "do concur on one issue",
+        "en": "E: both sides agree that ganzfeld experiments offer the most impressive evidence so far. They do not agree that telepathy is proven.\n\nAgreement on evidence significance is narrower than agreement on the phenomenon.",
+        "ru": "E: стороны признают значимость ganzfeld как лучшего массива данных, но не доказанность телепатии.\n\nЗначимость свидетельств не равна согласию о явлении.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "meditation-like tranquillity",
+        "en": "B: meditation reports suggested a quiet environment might reveal faint signals otherwise swamped by activity.\n\nThe hypothesis concerns conditions, not a discovered mechanism.",
+        "ru": "B: рассказы о медитации предположили спокойные условия для слабых сигналов.\n\nГипотеза касается среды, не найденного механизма.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "Answering such questions would transform parapsychology",
+        "en": "A: explaining a plausible mechanism would alter attitudes; current uncertainty concerns whether entanglement applies to human minds.\n\nDemonstration with prepared atoms is not demonstration of telepathy.",
+        "ru": "A: объяснение правдоподобного механизма изменило бы отношение; связь с человеческим умом пока неизвестна.\n\nОпыт с атомами не доказывает телепатию.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "creative and artistic people do much better than average",
+        "en": "F: selecting participants with stronger trial performance, such as musicians, is proposed to improve results.\n\nThis is subject selection, not repeatedly changing conditions.",
+        "ru": "F: отбор более успешных участников, например музыкантов, предлагается для лучших результатов.\n\nЭто выбор людей, не постоянная смена условий.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "a person acting as a 'sender'",
+        "en": "Sender is the person attempting to transmit the selected image. The receiver later identifies it.\n\nKeep experimental roles distinct rather than reversing the information direction.",
+        "ru": "Sender пытается передать выбранное изображение. Receiver затем его распознаёт.\n\nСохраняй направление передачи и различие ролей.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "identification of a picture chosen from a random selection of four",
+        "en": "Picture / image is the target chosen among four possibilities. Four is the selection size, not the object name.\n\nThe gap asks what was selected, not how many choices existed.",
+        "ru": "Picture / image — выбранная цель из четырёх вариантов. Four — размер набора, не название объекта.\n\nНужно что выбрано, не число альтернатив.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "the 'receiver' relaxing in the sealed room",
+        "en": "Receiver is the participant in the relaxing sealed environment who tries to identify the image after the session.\n\nThe room conditions help identify this role.",
+        "ru": "Receiver находится в спокойной закрытой комнате и после сеанса пытается распознать изображение.\n\nУсловия комнаты помогают определить нужную роль.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34–35": {
+        "part": 3,
+        "quote": "These ranged from 'sensory leakage'",
+        "en": "Sensory leakage and fraud are alternative explanations for positive results. Ruling out chance alone does not establish telepathy.\n\nSupply both different causes in either order; one accidental and one deliberate route are named.",
+        "ru": "Sensory leakage и fraud — альтернативные причины положительного результата. Исключение случайности не доказывает телепатию.\n\nНужны обе причины в любом порядке: случайная утечка и намеренный обман.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        },
+        "quotes": [
+          "These ranged from 'sensory leakage'",
+          "to outright fraud"
+        ]
+      },
+      "36": {
+        "part": 3,
+        "quote": "used computers to perform many of the key tasks",
+        "en": "Computers automated tasks such as random selection in autoganzfeld tests. They changed the procedure, not the identity of the human receiver.\n\nThe plural matches the subject of were used.",
+        "ru": "Computers автоматизировали выбор и другие задачи autoganzfeld. Они изменили процедуру, не заменили человека-получателя.\n\nМножественное число подходит к were used.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "By minimising human involvement",
+        "en": "Human involvement is reduced to lower flawed-result risks. Automation does not eliminate all possible bias or prove the outcome genuine.\n\nCopy the factor being minimised, not the hoped-for result.",
+        "ru": "Human involvement уменьшается ради снижения риска ошибок. Автоматизация не исключает всё смещение и не доказывает явление.\n\nНужен уменьшаемый фактор, не ожидаемый результат.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "in a 'meta-analysis'",
+        "en": "Meta-analysis combines study results statistically. It is the analysis method, whereas autoganzfeld names the experiment type.\n\nDo not confuse data collection with aggregation.",
+        "ru": "Meta-analysis статистически объединяет исследования. Это метод анализа, а autoganzfeld — тип опыта.\n\nРазличай сбор данных и их объединение.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "lack of consistency between individual ganzfeld studies",
+        "en": "Lack of consistency describes varying study outcomes. Defenders attribute this to small effects and samples, not necessarily proof of fraud in every study.\n\nThe gap asks for the observed inconsistency.",
+        "ru": "Lack of consistency — различие результатов исследований. Защитники объясняют его малыми эффектами и выборками.\n\nНужна наблюдаемая неоднородность, не вывод об обмане всех опытов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "the group is just not big enough",
+        "en": "Big enough / large enough describes inadequate sample size to detect a faint effect. Combining studies is proposed as a remedy.\n\nThe adjective concerns participant numbers, not signal strength itself.",
+        "ru": "Big enough / large enough относится к недостаточной выборке для слабого эффекта. Объединение исследований предлагается как решение.\n\nРазмер касается людей, не самой силы сигнала.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "the Egyptians had formulated a municipal calendar having 12 months of 30 days",
+        "en": "B, Egyptians: paragraph C attributes the civil calendar to Egyptians; all twelve months contained thirty days.\n\nThe original options confirm B is Egyptians. English refers to later clock developments, not this ancient calendar.",
+        "ru": "B, Egyptians: абзац C относит гражданский календарь к египтянам: каждый из двенадцати месяцев имел тридцать дней.\n\nВ оригинальных вариантах Egyptians — B. Англичане связаны с позднейшими часами, а не с этим древним календарём.",
+        "location": {
+          "en": "Passage 1, paragraph C",
+          "ru": "Текст 1, абзац C"
+        }
+      }
+    },
+    "reading-7-1": {
+      "1": {
+        "part": 1,
+        "quote": "Bats are not the only creatures to face this difficulty today.",
+        "en": "B: paragraph B lists insects, deep-sea fish, whales and dolphins that must navigate without useful vision.\n\nThe question asks for other wildlife, so choose the paragraph with examples, not the general explanation of nocturnal hunting.",
+        "ru": "B: абзац B перечисляет насекомых, глубоководных рыб, китов и дельфинов, которым трудно ориентироваться зрением.\n\nНужны примеры других животных, а не причина ночной охоты самих летучих мышей.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "our mammalian ancestors probably only managed to survive at all because they found ways of scraping a living at night.",
+        "en": "A: mammalian ancestors survived by finding food at night while dinosaurs dominated daytime activity.\n\nAvoided dying out paraphrases managed to survive; the historical reference identifies the right paragraph.",
+        "ru": "A: предки млекопитающих выживали благодаря ночной активности, пока днём господствовали динозавры.\n\nAvoided dying out означает managed to survive. Здесь нужно найти причину выживания, а не современный способ навигации.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "the daytime economy is already heavily exploited by other creatures such as birds.",
+        "en": "A: other creatures already occupy daytime feeding opportunities, so natural selection favoured night-hunting bats.\n\nRead the reason after the initial problem: competition during the day explains their habits.",
+        "ru": "A: дневные возможности добывать пищу уже заняты птицами и другими животными, поэтому отбор благоприятствовал ночной охоте.\n\nПричина — конкуренция днём. Само отсутствие света лишь описывает последующую трудность.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "much of our scientific understanding of the details of what bats are doing has come from applying radar theory to them.",
+        "en": "E: applying radar theory helped scientists understand bats. This matches a discovery helping our understanding.\n\nDo not confuse the human discovery of sonar with bats evolving the same principle much earlier.",
+        "ru": "E: применение теории радара помогло учёным понять работу эхолокации летучих мышей. Это и есть вклад открытия в понимание.\n\nНе путай научное объяснение с тем, что животные использовали этот принцип задолго до людей.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "weapons designers adapted it for the detection of submarines.",
+        "en": "D: weapons designers adapted echo-based instruments to detect submarines, and both sides used them in World War II.\n\nMilitary uses refers to this wartime application, not the earlier measurement of sea depth.",
+        "ru": "D: военные конструкторы приспособили приборы для обнаружения подлодок; далее названа Вторая мировая война.\n\nMilitary uses — военное применение. Измерение глубины моря описывает более раннее, другое использование.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "like the referred pain in a phantom limb.",
+        "en": "phantom: the passage compares facial vision with pain felt in a phantom limb. Arm or leg paraphrases limb.\n\nOnly one word is allowed; limb is already represented by arm or leg in the question.",
+        "ru": "phantom: ощущение сравнивается с болью в фантомной конечности. Arm or leg в задании заменяет слово limb.\n\nДописываем только phantom: ограничение ONE WORD ONLY не позволяет повторять всё словосочетание.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "are actually using echoes of their own footsteps and of other sounds, to sense the presence of obstacles.",
+        "en": "echoes: blind people hear returning sounds of footsteps and use them to detect obstacles. The input travels through their ears.\n\nDistinguish the sound being perceived from the obstacle being located; echoes is the direct textual completion.",
+        "ru": "echoes: люди слышат эхо шагов и других звуков и по нему определяют препятствия. Информация поступает через уши.\n\nРазличай сигнал и объект: непосредственно воспринимается эхо, а присутствие препятствия выводится из него.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "to measure the depth of the sea under a ship.",
+        "en": "depth: early instruments measured how deep the sea was beneath a ship. Calculated paraphrases measure.\n\nThe blank needs the measured quantity, not the instrument name or the location seabed.",
+        "ru": "depth: первые приборы измеряли глубину моря под кораблём. Calculated в вопросе соответствует measure в тексте.\n\nНужно назвать измеряемую величину — глубину, а не прибор или морское дно.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "adapted it for the detection of submarines.",
+        "en": "submarines: the later wartime adaptation was detection of submarines. Finding paraphrases detection.\n\nKeep the plural from the passage and do not substitute sonar, which names the technique rather than its target.",
+        "ru": "submarines: позднее военное применение заключалось в обнаружении подводных лодок. Finding заменяет detection.\n\nСохраняй множественное число. Sonar обозначает технологию, тогда как вопрос спрашивает, что находили.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "natural selection working on bats, had perfected the system tens of millions of years earlier",
+        "en": "natural selection: evolution perfected bats’ system long before human radar and sonar inventions.\n\nThe blank asks what produced the system, so the two-word cause is needed rather than bats, the animals possessing it.",
+        "ru": "natural selection: естественный отбор усовершенствовал систему животных за миллионы лет до человеческих изобретений.\n\nНужно назвать причину возникновения системы, а не самих животных. Два слова укладываются в лимит.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "since they do not use radio waves.",
+        "en": "radio waves: radar is technically the wrong term because bats do not navigate using radio waves; their system is sonar.\n\nFollow the explicit negative statement. Sound echoes are used, so they do not explain why radar is inaccurate.",
+        "ru": "radio waves: слово radar неточно, потому что летучие мыши не используют радиоволны; их система относится к сонару.\n\nИщи прямое отрицание. Звуковое эхо они как раз используют, поэтому оно не объясняет неточность названия.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "the underlying mathematical theories of radar and sonar are very similar",
+        "en": "mathematical theories: radar and sonar share very similar underlying theories, despite using different kinds of waves.\n\nThe adjective similar in the question directly matches very similar in the passage; copy the two-word noun phrase.",
+        "ru": "mathematical theories: у радара и сонара очень похожие математические теории, хотя используются разные волны.\n\nSimilar в вопросе повторяет very similar в тексте. Нужна именно двухсловная основа этих систем.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "The American zoologist Donald Griffin",
+        "en": "zoologist: Donald Griffin coined echolocation. The passage identifies his profession immediately before his name.\n\nSomeone working as asks for a job, not the person’s name or nationality; copy zoologist.",
+        "ru": "zoologist: термин echolocation ввёл Дональд Гриффин, названный в тексте зоологом. Профессия стоит перед именем.\n\nWorking as спрашивает, кем он работал, поэтому имя и национальность не подходят.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "At the height of the Roman Empire, nine major systems",
+        "en": "xi: paragraph A describes ancient water supplies, especially Rome’s pipes, sewers and nine major systems.\n\nA heading must cover the paragraph’s historical focus, not just one example of engineering.",
+        "ru": "xi: абзац A описывает древнее водоснабжение, особенно римские трубы, канализацию и девять крупных систем.\n\nЗаголовок должен передавать историческую тему всего абзаца, а не отдельный инженерный пример.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "Preventable water-related diseases kill an estimated 10,000 to 20,000 children every day",
+        "en": "vii: paragraph C links inadequate drinking water and sanitation to preventable disease and child deaths. Its focus is health.\n\nThe ancient comparison is introductory; the main point is the continuing human health cost.",
+        "ru": "vii: абзац C связывает недостаток чистой воды и санитарии с предотвратимыми болезнями и гибелью детей. Тема — здоровье.\n\nСравнение с древностью лишь вводит проблему; основная мысль касается её последствий для людей.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "dams and water withdrawals have destroyed the free-flowing river ecosystems",
+        "en": "v: paragraph D discusses damaged ecosystems, endangered fish, degraded soil and depleted aquifers. These are environmental effects.\n\nThe paragraph extends beyond health, explicitly moving to the wider consequences of water policies.",
+        "ru": "v: абзац D перечисляет разрушение экосистем, угрозу рыбам, ухудшение почвы и истощение подземных вод. Это экологические последствия.\n\nНачало специально расширяет тему за пределы здоровья людей.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "Some water experts are now demanding that existing infrastructure be used in smarter ways rather than building new facilities",
+        "en": "i: experts call for a change in policy: use existing infrastructure more intelligently and prioritise basic needs.\n\nThe heading concerns the proposed revision, not a claim that all new construction must stop.",
+        "ru": "i: специалисты требуют изменить подход: лучше использовать существующую инфраструктуру и поставить базовые потребности на первое место.\n\nРечь о пересмотре политики, а не о полном запрете новых сооружений.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "Fortunately - and unexpectedly - the demand for water is not rising as rapidly as some predicted.",
+        "en": "ix: paragraph F reports an unexpected slowdown and, in some places, an actual fall in water demand.\n\nUnexpectedly matches surprising. The causes of this trend belong to the following paragraph, not this heading.",
+        "ru": "ix: абзац F сообщает о неожиданном замедлении роста спроса, а местами — о его снижении.\n\nUnexpectedly соответствует surprising. Объяснение причин находится в следующем абзаце, поэтому здесь нужен заголовок о тенденции.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "Two factors: people have figured out how to use water more efficiently, and communities are rethinking their priorities for water use.",
+        "en": "ii: paragraph G explains lower consumption through efficiency, changed priorities and conservation technologies.\n\nWhat explains signals an explanation; the figures illustrate why use fell rather than simply announce the trend.",
+        "ru": "ii: абзац G объясняет снижение расхода эффективностью, сменой приоритетов и водосберегающими технологиями.\n\nWhat explains прямо вводит причины. Числа служат примерами объяснения, а не просто сообщением о тенденции.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "such projects must be built to higher specifications and with more accountability",
+        "en": "x: paragraph H says necessary new projects must meet higher specifications and show greater environmental accountability.\n\nHigher specifications matches raise standards; building less expensively is one supporting requirement.",
+        "ru": "x: абзац H требует более высоких стандартов и большей ответственности при строительстве новых объектов.\n\nHigher specifications соответствует raise standards. Меньший бюджет — дополнительное условие, а не главная тема.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "as much water per person as is provided in many parts of the industrial world today.",
+        "en": "NO: Rome supplied as much water per person as many industrial regions today. The statement replaces equality with higher modern use.\n\nAs much as means an equal amount; higher than changes the comparison and contradicts the writer.",
+        "ru": "NO: Рим обеспечивал столько же воды на человека, сколько многие промышленные регионы сегодня. Утверждение ошибочно заменяет равенство превышением.\n\nAs much as означает «столько же», а higher than — «больше».",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "Food production has kept pace with soaring populations mainly because of the expansion of artificial irrigation systems",
+        "en": "YES: food production has kept up with population growth mainly through expanded artificial irrigation. This matches the stated primary cause.\n\nMainly corresponds to primarily; the nearby electricity figure concerns a different benefit.",
+        "ru": "YES: производство еды успевало за ростом населения главным образом благодаря расширению искусственного орошения. Причина совпадает с утверждением.\n\nMainly соответствует primarily. Статистика электричества относится к другому преимуществу.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "with water services inferior to those available to the ancient Greeks and Romans.",
+        "en": "NOT GIVEN: the writer compares the quality of modern services with ancient ones, but does not say modern systems copy their designs.\n\nA comparison of performance is not evidence of imitation; do not infer a design relationship from it.",
+        "ru": "NOT GIVEN: автор сравнивает качество современных услуг с древними, но не говорит, что новые системы копируют древние конструкции.\n\nСравнение результатов не доказывает заимствование. Для imitate нужен отдельный факт.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "Although population, industrial output and economic productivity have continued to soar",
+        "en": "NO: despite industrial growth, withdrawals have slowed and demand has even fallen in some places. The writer rejects the assumed parallel rise.\n\nAlthough introduces the contrast: rising output does not entail rising water demand in this account.",
+        "ru": "NO: несмотря на рост промышленности, забор воды замедлился, а местами спрос снизился. Автор противопоставляет эти тенденции.\n\nAlthough вводит контраст: из роста выпуска продукции нельзя сделать вывод о росте потребления воды.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "new technologies that help to conserve water in homes and industry.",
+        "en": "YES: the passage explicitly credits new technologies that conserve water in homes as well as industry. Domestic means in homes.\n\nMatch the household reference, rather than relying only on the later national consumption totals.",
+        "ru": "YES: прямо названы новые технологии, экономящие воду дома и в промышленности. Domestic в задании означает бытовой расход.\n\nНайди homes: одних общенациональных цифр было бы недостаточно для вывода именно о домашнем потреблении.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "with more accountability to local people and their environment than in the past.",
+        "en": "NOT GIVEN: the writer recommends accountability and higher standards, but never specifies government ownership of infrastructure.\n\nWho should own a system differs from how it should be built or managed; the ownership claim is absent.",
+        "ru": "NOT GIVEN: автор требует ответственности и высоких стандартов, но не утверждает, что инфраструктура должна принадлежать государству.\n\nПраво собственности и требования к работе системы — разные вопросы. Факта о владельце здесь нет.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "looks at radical new approaches to learning",
+        "en": "D: the book covers radical new learning approaches. Suggestion is only one theory discussed, so A is too narrow.\n\nFor a main-topic question, use the opening description of the whole book rather than the example explored afterwards.",
+        "ru": "D: книга рассматривает новые нестандартные подходы к обучению. Внушение — лишь одна обсуждаемая теория, поэтому A слишком узок.\n\nДля основной темы опирайся на описание всей книги в начале, а не на один последующий пример.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "we often remember what we have perceived peripherally, long after we have forgotten what we set out to learn.",
+        "en": "A: peripheral, incidental details survive in memory after the intended content has been forgotten. This makes unimportant details easier to recall.\n\nThe claim contrasts incidental impressions with deliberate concentration; it does not praise harder effort.",
+        "ru": "A: случайные периферийные детали сохраняются после того, как целевой материал забыт. Поэтому их легче вспомнить.\n\nАвтор противопоставляет побочные впечатления намеренному сосредоточению, а не советует сильнее напрягаться.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "If we think of a book we studied months or years ago",
+        "en": "B: the book and lecture examples support the theory that incidental impressions are remembered better than intended content.\n\nThey illustrate the preceding claim; they do not compare reading and listening or prove that concentration improves recall.",
+        "ru": "B: примеры книги и лекции подтверждают мысль о том, что побочные впечатления запоминаются лучше целевого содержания.\n\nЭто иллюстрации предыдущего тезиса, а не сравнение чтения со слушанием и не доказательство пользы концентрации.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "consciousness is shifted away from the curriculum to focus on something peripheral.",
+        "en": "C: conscious attention should move away from the curriculum towards something peripheral, leaving the material to unconscious processing.\n\nAway from directly matches something other than; memorising curriculum details describes the opposite approach.",
+        "ru": "C: сознательное внимание переносится с программы на посторонний объект, а учебный материал обрабатывается без прямого усилия.\n\nAway from соответствует «не на содержании программы». Заучивание деталей описывает противоположный подход.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "the teacher reads the text in a normal speaking voice.",
+        "en": "FALSE: both the music and the teacher’s delivery change; students also move from following an open book to listening with books closed.\n\nOnly is decisive: one additional changed variable is enough to contradict the statement.",
+        "ru": "FALSE: меняются музыка и манера чтения преподавателя; кроме того, сначала книги открыты, а затем закрыты.\n\nКлючевое слово only: достаточно ещё одного изменения, чтобы утверждение стало неверным.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "learning will be easy and pleasant",
+        "en": "FALSE: students are prepared to expect easy, pleasant and successful learning, not a demanding experience.\n\nDemanding contradicts easy; this is an explicit opposite, so use FALSE rather than NOT GIVEN.",
+        "ru": "FALSE: студентов заранее убеждают, что обучение будет лёгким, приятным и успешным, а не требовательным и трудным.\n\nDemanding противоречит easy. Противоположная информация дана прямо, поэтому это не NOT GIVEN.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "Such methods are not unusual in language teaching.",
+        "en": "TRUE: games and improvised dramatisations used in the follow-up class are not unusual in language teaching. The activities are familiar.\n\nTheir purpose differs, but the statement compares activities, not the theoretical explanation for them.",
+        "ru": "TRUE: игры и импровизированные сценки на следующем занятии названы обычными для языкового преподавания. Сами задания похожи.\n\nИх назначение может отличаться, но утверждение сравнивает виды деятельности, а не теоретическое обоснование.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "assisting recall",
+        "en": "NOT GIVEN: the text describes recall and learning vocabulary, but does not report students noticing a general improvement in memory as a side benefit.\n\nLearning these words and perceiving an overall memory improvement are different claims.",
+        "ru": "NOT GIVEN: описывается воспроизведение слов, но не сообщается, что студенты замечают общее улучшение памяти как побочный эффект.\n\nОсвоение конкретной лексики не доказывает субъективно замеченное улучшение памяти вообще.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "few teachers are able to emulate the spectacular results",
+        "en": "NOT GIVEN: the writer discusses teachers’ results, not statements by teachers that they prefer suggestopedia to conventional teaching.\n\nSuccess or difficulty does not establish a stated preference; the required comparison of preferences is missing.",
+        "ru": "NOT GIVEN: автор оценивает результаты преподавателей, но не приводит их заявления о предпочтении этого метода обычному обучению.\n\nУспех или трудности не означают высказанное предпочтение. Нужного сравнения мнений нет.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "Another difference from conventional teaching is the evidence that students can regularly learn 1000 new words",
+        "en": "TRUE: the writer presents learning 1,000 words in a session as a difference from conventional teaching, supporting greater vocabulary acquisition.\n\nUse the passage’s comparison; the task asks what this author reports, not whether the method is scientifically proven today.",
+        "ru": "TRUE: способность освоить тысячу слов за занятие названа отличием от обычного преподавания, что подтверждает больший объём лексики.\n\nОцени утверждение по данному тексту, а не по современной научной оценке метода.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "the ritual surrounding suggestion in his own system is also a placebo",
+        "en": "F, ritual: Lozanov accepts that the ritual surrounding his method helps people access their reserve capacity.\n\nThe blank asks what is necessary, while the following blank asks what that ritual really is. Keep the two roles separate.",
+        "ru": "F, ritual: Лозанов признаёт необходимость ритуала вокруг метода, который помогает людям задействовать резервные возможности.\n\nПервый пропуск спрашивает, что необходимо, а следующий — чем это является. Не меняй эти роли местами.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "without such a placebo people are unable or afraid to tap the reserve capacity of their brains.",
+        "en": "H, placebo: the ritual is described as a placebo, yet considered useful for overcoming inability or fear.\n\nEven if introduces the qualification: the ritual need not have a direct mechanism to influence expectations.",
+        "ru": "H, placebo: ритуал назван плацебо, но считается полезным для преодоления страха или неспособности использовать резервы мозга.\n\nEven if вводит уступку: влияние через ожидания не требует самостоятельного механизма ритуала.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "suggestopedia has gained some notoriety through success",
+        "en": "K, well known: gained some notoriety means the method has become known through its language-teaching successes.\n\nHere notoriety concerns recognition; the text does not say it has become unpopular, so E would overstate the claim.",
+        "ru": "K, well known: gained some notoriety сообщает, что метод приобрёл известность благодаря успехам в обучении языкам.\n\nЗдесь речь об узнаваемости. Из этого нельзя заключить, что метод стал непопулярным, поэтому E не подходит.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "attribute mediocre results to an inadequate placebo effect.",
+        "en": "G, unspectacular: most other teachers cannot reproduce the spectacular results; mediocre is the contrasting description.\n\nThe summary contrasts fame with ordinary outcomes. Spectacular belongs to Lozanov’s results, not those of most imitators.",
+        "ru": "G, unspectacular: большинство других преподавателей не повторяют впечатляющие результаты; их успех назван посредственным.\n\nРезюме противопоставляет известность метода обычным результатам. Spectacular относится к Лозанову, а не к большинству последователей.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-7-2": {
+      "1": {
+        "part": 1,
+        "quote": "only two have collapsed during the past 1400 years.",
+        "en": "YES: the opening paragraph gives exactly two collapses over 1,400 years, matching both number and period.\n\nBuildings destroyed by fire are discussed separately; do not count every disappeared pagoda as a structural collapse.",
+        "ru": "YES: в начале прямо названы два обрушения за 1400 лет. Совпадают и число, и период.\n\nИсчезнувшие из-за пожара пагоды описываются отдельно. Не приравнивай любую уничтоженную постройку к обрушившейся.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "it left the magnificent five-storey pagoda at the Toji temple in nearby Kyoto unscathed",
+        "en": "NO: the earthquake left the Toji pagoda unscathed, meaning undamaged. Destroyed states the opposite.\n\nNearby buildings were levelled, but their fate cannot be transferred to the pagoda itself.",
+        "ru": "NO: землетрясение оставило пагоду Тодзи невредимой — unscathed. Destroyed утверждает прямо противоположное.\n\nСоседние здания были разрушены, но их судьбу нельзя переносить на саму пагоду.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "though it levelled a number of buildings in the neighbourhood.",
+        "en": "NOT GIVEN: neighbouring buildings were destroyed, but the text gives no construction dates for them.\n\nThe later reference to thirty years concerns confidence in tall office construction, not the age of those particular neighbours.",
+        "ru": "NOT GIVEN: о соседних зданиях известно, что они разрушились, но время их строительства не указано.\n\nУпоминание тридцати лет относится к освоению высотного строительства, а не к возрасту этих конкретных домов.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "allowing a building to sway and settle itself rather than fight nature",
+        "en": "YES: carpenters allowed buildings to sway and settle rather than rigidly resist natural forces. This describes absorbing their effects.\n\nThe question paraphrases the engineering principle; it does not require the same word absorb in the passage.",
+        "ru": "YES: мастера позволяли зданию качаться и возвращаться в устойчивое положение вместо жёсткого сопротивления природным силам.\n\nЭто перефразирование поглощения воздействия. Слово absorb не обязано повторяться дословно.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "with inner staircases",
+        "en": "B, only Chinese: Chinese pagodas had internal staircases, whereas the Japanese dispensed with them.\n\nAccess to the top depends on this staircase contrast; religious purpose is a separate shared feature.",
+        "ru": "B, только китайские: в китайских пагодах были внутренние лестницы, а японцы отказались от них.\n\nВозможность попасть наверх определяется именно этим различием. Общее религиозное назначение здесь не отвечает на вопрос.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "not with the porcelain tiles of many Chinese pagodas but with much heavier earthenware tiles.",
+        "en": "A, both: Chinese pagodas used porcelain tiles and Japanese ones used heavier earthenware tiles. Both have tiles on their eaves.\n\nDifferent materials do not mean the feature is absent in either country; classify the shared feature, not its material.",
+        "ru": "A, обе: у китайских пагод названа фарфоровая черепица, у японских — более тяжёлая глиняная. Черепица присутствует в обоих случаях.\n\nРазный материал не отменяет общего признака. Классифицируй наличие черепицы, а не её состав.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "used them in later centuries mainly as watchtowers.",
+        "en": "B, only Chinese: watchtowers are observation posts. Japanese pagodas instead became art objects without a practical use.\n\nMatch the function: watchtower paraphrases observation post, rather than a general ability to see from a tall building.",
+        "ru": "B, только китайские: watchtowers — наблюдательные башни. Японские пагоды, напротив, стали художественными объектами без практической функции.\n\nНужен заявленный способ использования, а не предположение, что с любого высокого здания можно наблюдать.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "by fifty per cent or more of the building",
+        "en": "C, only Japanese: Japanese roofs can overhang by fifty per cent or more of the building’s width; Chinese and Korean overhangs are smaller.\n\nThe passage supplies the percentage for Japan specifically. Do not confuse a shared roof feature with its unusually large size.",
+        "ru": "C, только японские: именно для японских построек указано выступание крыши на пятьдесят процентов ширины и более.\n\nНаличие свеса и его огромный размер — разные признаки. Про Китай и Корею сказано, что такого свеса там нет.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "As in China, they were first introduced with Buddhism and were attached to important temples.",
+        "en": "A, both: the phrase as in China makes the Buddhist introduction and temple connection shared by both countries.\n\nOriginal asks about their first purpose, so later use as watchtowers does not change this classification.",
+        "ru": "A, обе: фраза as in China показывает общее происхождение — буддизм и связь с важными храмами.\n\nOriginal спрашивает о первоначальном назначении. Позднее использование китайских пагод для наблюдения его не меняет.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "not actually connected to each other. They are simply stacked one on top of another like a pile of hats.",
+        "en": "C, only Japanese: Japanese storeys are stacked loosely and are not connected, unlike counterparts elsewhere.\n\nThe pile-of-hats comparison explains the fitting. Do not infer that loosely stacked means structurally unstable.",
+        "ru": "C, только японские: этажи не соединены друг с другом, а просто сложены один на другой, подобно стопке шляп.\n\nСравнение описывает устройство. Свободная укладка не означает автоматически неустойчивость всей конструкции.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "constrained individual storeys from moving too far",
+        "en": "D: the shinbashira limits how far each storey can move; after a certain distance the floor strikes the pillar and transfers energy.\n\nIt carries no load, so the apparently plausible weight-bearing options contradict the explanation.",
+        "ru": "D: центральный столб ограничивает перемещение этажей: после определённого смещения они ударяются о него и передают энергию.\n\nСтолб не несёт вес здания, поэтому варианты о несущей опоре противоречат тексту.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "because of his passion to understand the pagoda",
+        "en": "C: Ishida builds and shakes models to understand pagodas’ behaviour, or dynamics. The experiment demonstrates their movement.\n\nSkyscrapers provide a comparison, not his stated purpose; understanding ancient mathematics is also not the goal.",
+        "ru": "C: Исида создаёт модели и испытывает их на вибростенде, чтобы понять поведение пагод — их динамику.\n\nНебоскрёбы служат сравнением, а не целью опыта. Изучение древней математики также не названо его задачей.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "They are simply stacked one on top of another like a pile of hats.",
+        "en": "C: the storeys sit loosely on top of one another, exactly as the pile-of-hats comparison describes.\n\nThe text explicitly says they are not connected to each other; do not select a fastening or linking mechanism.",
+        "ru": "C: этажи свободно располагаются друг над другом, что прямо передаётся сравнением со стопкой шляп.\n\nАвтор специально говорит, что этажи не соединены. Варианты с креплением или связью не соответствуют конструкции.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "£23m for the removal of the bug cryptosporidium from drinking water by water companies",
+        "en": "E: paragraph E lists quantified cleaning costs, including removal of organisms and chemicals from drinking water.\n\nPurifying domestic water paraphrases these removals; paragraph D gives the overall total, not this specific item.",
+        "ru": "E: в абзаце E перечислены расходы на очистку питьевой воды, включая удаление микроорганизма cryptosporidium.\n\nPurifying domestic water перефразирует эту очистку. В D приведена общая сумма, а не нужная статья расходов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "First mechanisation, then mass use of chemical fertilisers and pesticides",
+        "en": "B: first, then and now introduce the sequence from mechanisation to chemicals, monocultures and genetic engineering.\n\nThese time markers identify stages of industry development; later wildlife damage is another topic within the same paragraph.",
+        "ru": "B: first, then и now задают последовательность от механизации до химикатов, монокультур и генной инженерии.\n\nЭти маркеры показывают этапы развития отрасли. Последующий экологический ущерб — другая тема того же абзаца.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "what economists refer to as externalities",
+        "en": "C: paragraph C names the hidden costs externalities and explains that they lie outside the main producer-consumer transaction.\n\nThe question asks for the term, so choose the defining paragraph rather than the paragraph containing monetary figures.",
+        "ru": "C: в абзаце C скрытые издержки названы externalities и объясняется, что они находятся вне основной сделки производителя с покупателем.\n\nНужен термин, поэтому ищи определение, а не абзац с денежными суммами.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "the growth of algae is increasing in lakes because of the fertiliser run-off.",
+        "en": "B: fertiliser run-off causes increased algae in lakes. This is the requested chemical effect on a water source.\n\nKeep cause and consequence linked: fertiliser is the chemical input, while algae growth is its effect.",
+        "ru": "B: сток удобрений усиливает рост водорослей в озёрах. Это прямо связывает химикаты с последствием для водоёма.\n\nРазличай причину и результат: удобрение — химический фактор, а рост водорослей — его воздействие.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "have vanished from huge stretches of countryside, as have even more wild flowers and insects.",
+        "en": "YES: birds, wild flowers and insects have disappeared from large countryside areas, supporting decline of several wildlife species.\n\nThe writer gives multiple examples; you need not assume every species nationwide has vanished.",
+        "ru": "YES: перечислены птицы, цветы и насекомые, исчезнувшие с обширных сельских территорий. Это подтверждает сокращение нескольких видов.\n\nПримеры не означают исчезновения всех видов по всей стране: утверждение гораздо уже.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "most food is now far cheaper to buy in relative terms than it was in 1960.",
+        "en": "NOT GIVEN: the passage discusses price, environmental damage and health, but does not compare food taste across recent years.\n\nCheaper food is not evidence of worse flavour; the missing taste comparison cannot be supplied by personal expectations.",
+        "ru": "NOT GIVEN: обсуждаются цена, экологический ущерб и здоровье, но вкус еды в разные годы не сравнивается.\n\nУдешевление продукта не доказывает ухудшение вкуса. Личные представления не заменяют отсутствующий факт.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "the costs may not even appear to be financial at all, but merely aesthetic",
+        "en": "NO: many consumers see the damage as merely aesthetic and fail to connect it with financial costs. This opposes widely recognised.\n\nThe existence of a calculation does not mean the public understands those costs; recognition is the tested claim.",
+        "ru": "NO: многие воспринимают ущерб лишь как эстетическую проблему и не видят денежных издержек. Это противоречит widely recognised.\n\nНаличие расчёта у профессора не означает, что общество осознаёт расходы: проверяется именно признание.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "£169m from food poisoning",
+        "en": "YES: food poisoning appears explicitly in Pretty’s cost list. It is illness caused by food.\n\nMatch the illness category rather than the nearby cattle-disease figure, which concerns a separate listed cost.",
+        "ru": "YES: пищевое отравление прямо включено в список расходов профессора Претти. Это болезнь, вызванная пищей.\n\nНужна эта категория, а не соседняя сумма ущерба от болезней скота, которая описывает другой пункт.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "our food bills are actually threefold.",
+        "en": "food bills: consumers pay at purchase, through subsidies funded by taxes and for cleaning up damage. This makes their real bills threefold.\n\nThe blank requires a plural noun phrase; the three payments explain why it exceeds the shop price.",
+        "ru": "food bills: платят при покупке, через налоги на субсидии и за устранение ущерба. Поэтому реальные расходы на еду тройные.\n\nНужно словосочетание во множественном числе; перечисление объясняет, почему кассовый чек не отражает весь расход.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "the enormous subsidies propping up modern intensive farming",
+        "en": "intensive farming: Britain is presented as able to move away from the intensive system whose costs and damage are clear.\n\nDo not fill organic farming here: that is the proposed alternative discussed in the next part of the summary.",
+        "ru": "intensive farming: Великобритания может уменьшить зависимость от интенсивного земледелия, ущерб и расходы которого уже видны.\n\nOrganic farming здесь не подходит: это возможная альтернатива, рассматриваемая в следующем пропуске.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "organic farming would be too big a jump in thinking and in practices for many farmers.",
+        "en": "organic farming: Pretty says it would require too large a change in thinking and practice for many farmers.\n\nUnable to adapt paraphrases too big a jump; it does not mean farmers are being asked to stop all food production.",
+        "ru": "organic farming: по мнению Претти, переход потребовал бы слишком большого изменения мышления и практик для многих фермеров.\n\nUnable to adapt перефразирует too big a jump. Речь о смене системы, а не прекращении производства пищи.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "Greener Food Standard",
+        "en": "Greener Food Standard: this is the named standard Pretty recommends introducing immediately as a practical intermediate step.\n\nCopy all three words, including Standard. The general idea sustainable practices is not the official name asked for.",
+        "ru": "Greener Food Standard: так называется стандарт, который Претти предлагает немедленно ввести как промежуточный практический шаг.\n\nПерепиши все три слова, включая Standard. Общее описание устойчивых практик не заменяет название.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "shifting consumers as well as farmers towards a more sustainable system of agriculture.",
+        "en": "farmers and consumers: the standard aims to shift both groups towards sustainability. Both are required in this single blank.\n\nEither order is acceptable, but it does not mean either group alone earns the mark; the summary explicitly says both.",
+        "ru": "farmers and consumers: стандарт должен изменить отношение обеих групп — фермеров и потребителей. В одном пропуске нужны оба названия.\n\nЛюбой порядок не означает один ответ на выбор: слово both требует назвать две группы.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "Before solutions could be proposed, the problems had to be understood.",
+        "en": "ii: section B describes isolation and then research identifying household transport needs. The survey is its central action.\n\nChoose identifying problems rather than improvements: the measures are introduced in section C.",
+        "ru": "ii: раздел B описывает изоляцию, затем исследование транспортных потребностей домохозяйств. Главная задача — выявление проблем.\n\nУлучшения относятся к C. Здесь прежде решения собирают сведения о потребностях.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "a number of approaches were implemented in an effort to improve mobility and access to transport.",
+        "en": "v: section C introduces the first practical measures: roads, paths, training, donkeys and wheelbarrows.\n\nThe heading must include the range of improvements; one vehicle type is too narrow for the whole section.",
+        "ru": "v: раздел C описывает первые меры — дороги, тропы, обучение, ослов и тачки. Это первоначальные улучшения мобильности.\n\nЗаголовок должен охватывать весь набор действий; один вид транспорта слишком узок.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "without the support and understanding of district authorities.",
+        "en": "x: section E explains why district authorities’ support was needed before responding effectively to village requests.\n\nAlthough top-down decisions are mentioned, the argument centres on necessary cooperation rather than a list of instructions.",
+        "ru": "x: раздел E объясняет, почему без поддержки районных властей было трудно отвечать на запросы деревень.\n\nРешения сверху упомянуты, но главная мысль — необходимость сотрудничества, а не перечень указаний чиновников.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "Makete District will act as a reference for future work.",
+        "en": "i: section F says Makete’s experience will guide future rural transport work in Tanzania. That makes the project a future model.\n\nThe conclusion moves beyond local outcomes to their use in later programmes; future work identifies the heading.",
+        "ru": "i: опыт Макете должен стать ориентиром для будущих транспортных программ Танзании. Проект выступает моделью на будущее.\n\nЗаключение переходит от местных результатов к последующим инициативам; future work указывает на заголовок.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "Phase III, from March 1991 to March 1993",
+        "en": "NO: the account describes Phase I, Phase II and Phase III, a three-phase project rather than five phases.\n\nKeep numbered phases separate from the many individual activities carried out within them.",
+        "ru": "NO: рассказ последовательно описывает Phase I, Phase II и Phase III — три этапа, а не пять.\n\nНе путай число этапов с количеством отдельных мероприятий: дорог, троп, обучения и новых средств перевозки.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "Makete District was virtually totally isolated during the rainy season.",
+        "en": "YES: virtually totally isolated paraphrases almost inaccessible during the rainy season. Access to major towns was impossible for three months.\n\nThe modifiers virtually and almost are equivalent here; they do not create a contradiction.",
+        "ru": "YES: virtually totally isolated соответствует «почти недоступен в дождливый сезон». Доступ к основным городам был невозможен около трёх месяцев.\n\nVirtually и almost передают одинаковое приближение, а не противоречие.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "spent, on average, seven hours a day on transporting themselves and their goods",
+        "en": "NO: Phase I surveyed transport demands, including time spent, journey location and purpose. It was not described as a survey of monetary expenditure.\n\nSpent seven hours refers to time. Expenditure on transport in the statement changes the subject to household spending.",
+        "ru": "NO: на первом этапе изучали потребности, затраты времени, места и цели перемещений, а не денежные расходы семьи на транспорт.\n\nSpent seven hours означает потраченное время. Expenditure в утверждении меняет предмет исследования на деньги.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "80% was within the locality",
+        "en": "YES: if 80% of transport was local, the remaining 20% was outside the locality. One-fifth equals 20%.\n\nCalculate the complement to 100%; the separate 95% walking figure measures a different dimension.",
+        "ru": "YES: если 80% перевозок было местными, остальные 20% приходились на перемещения за пределами района. Одна пятая — 20%.\n\nВычти из ста процентов. Показатель 95% пешком относится к способу передвижения, а не месту.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "ensure the import and export of goods to the district.",
+        "en": "NOT GIVEN: improving goods movement into and out of the district is stated, but no route to the national capital is specified.\n\nA general export goal does not establish a particular destination; the capital-city detail is missing.",
+        "ru": "NOT GIVEN: улучшение ввоза и вывоза товаров указано, но направление к столице страны не названо.\n\nОбщая цель экспорта не подтверждает конкретный конечный пункт. Для столицы требуется отдельная информация.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "improve the paths by building steps, handrails and footbridges.",
+        "en": "D: steps, handrails and footbridges improved the hillside paths used to transport goods. This directly completes the construction sentence.\n\nBus and truck training concerned road improvements, so A links the activity to the wrong result.",
+        "ru": "D: ступени, перила и мостики улучшали тропы, по которым переносили товары вверх и вниз по склонам.\n\nОбучение работе автобусов и грузовиков относилось к дорогам. Вариант A связывает это строительство с чужим результатом.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "most of the motorised vehicles in the district broke down and there were no resources to repair them.",
+        "en": "I: frequent breakdowns and lack of repair resources prevented effective improvement of existing transport services.\n\nBecause marks the causal link; choose the ending about hindering efficiency rather than an unrelated cost comparison.",
+        "ru": "I: поломки машин и отсутствие средств на ремонт мешали улучшать существующие транспортные услуги.\n\nBecause устанавливает причину неудачи. Нужен результат «препятствовало эффективности», а не постороннее сравнение цен.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "only at the request of communities who were willing to participate in construction and maintenance.",
+        "en": "G: secondary roads and paths were improved only when communities requested help and agreed to participate.\n\nLend a hand paraphrases participate. Both the request and willingness are conditions in the source sentence.",
+        "ru": "G: второстепенные дороги и тропы улучшали по запросам общин, готовых участвовать в строительстве и обслуживании.\n\nLend a hand заменяет participate. Важны оба условия: просьба и готовность помочь.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "make the district centre accessible throughout the year.",
+        "en": "E: road improvements removed the seasonal access problem by making the district centre reachable all year.\n\nThroughout the year contrasts with the earlier three-month isolation; match the changed accessibility.",
+        "ru": "E: улучшение дорог обеспечило доступ к районному центру круглый год, устранив прежнюю сезонную изоляцию.\n\nThroughout the year противопоставлено недоступности в течение трёх месяцев. Нужен результат именно для доступа.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "different degrees of success",
+        "en": "B: the passage follows the project from needs research through implementation to mixed outcomes and future use.\n\nA donkey-only answer is too narrow, and warnings about failure ignore successful roads and paths; B covers the entire account.",
+        "ru": "B: текст прослеживает проект от исследования потребностей до мер, неодинаковых результатов и будущего применения.\n\nРассказ только об ослах слишком узок, а предупреждение о провале игнорирует успех дорог и троп. B охватывает всё.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-7-3": {
+      "1": {
+        "part": 1,
+        "quote": "Ants store food, repel attackers and use chemical signals to contact one another",
+        "en": "FALSE: ants communicate chemically, while humans are compared through visual and auditory channels. Similar functions do not mean identical channels.\n\nThe comparison is about influencing moods and attitudes; same channels incorrectly changes the mechanism.",
+        "ru": "FALSE: муравьи используют химические сигналы, а люди в сравнении — зрительные и слуховые. Сходная функция не означает одинаковый канал.\n\nСравнивается воздействие на настроение. Same channels ошибочно приравнивает способы передачи.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "urban lifestyles – the forcing house of intelligence",
+        "en": "TRUE: urban lifestyles are called a forcing house of intelligence, meaning an environment promoting its development.\n\nThe metaphor states a positive link. It is not necessary for city life to be the only factor for the statement to agree.",
+        "ru": "TRUE: городской образ жизни назван forcing house of intelligence — средой, стимулирующей развитие интеллекта.\n\nМетафора устанавливает положительную связь. Городская жизнь не обязана быть единственной причиной.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "4,500 interconnected nests across a territory of 2.7 square kilometres.",
+        "en": "NOT GIVEN: the passage describes the enormous size of an ant supercolony, but gives no comparison of construction speed with humans.\n\nA large or ancient city does not prove faster building; the required time comparison is absent.",
+        "ru": "NOT GIVEN: приведён огромный размер муравьиной колонии, но скорость её строительства не сравнивается с человеческой.\n\nБольшой размер или древность города не доказывают, что его построили быстрее. Нужного сравнения времени нет.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "they navigate by integrating bearings and distances",
+        "en": "TRUE: desert ants combine bearings and distances, updating this information mentally as they return from foraging.\n\nPosition and distance paraphrase this navigation framework; the statement says some ants, not all species.",
+        "ru": "TRUE: пустынные муравьи объединяют направления и расстояния и постоянно обновляют эти данные при возвращении за пищей.\n\nЭто соответствует расчётам по положению и дистанции. Утверждение касается некоторых муравьёв, а не всех видов.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "Elaborate precautions were taken to prevent the foraging team using odour clues.",
+        "en": "FALSE: researchers deliberately prevented the foragers from using odour clues, so smell was unavailable as an explanation.\n\nPrevent reverses the statement were able to use; following the communicated route is the result being investigated.",
+        "ru": "FALSE: исследователи специально исключили возможность пользоваться запахом. Обоняние не могло объяснять нахождение пищи.\n\nPrevent прямо противоположно were able to use. Проверялось следование переданному маршруту.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "advises readers who ask what to do with the ants in their kitchen",
+        "en": "NOT GIVEN: the essay is mentioned for advice to be careful around ants. Its wider subject, including communication, is not described.\n\nCommunication experiments earlier in the passage are not automatically the subject of Wilson’s separately named essay.",
+        "ru": "NOT GIVEN: эссе упоминается из-за совета бережно относиться к муравьям. Его общая тема, включая коммуникацию, не описана.\n\nПредыдущие опыты о передаче сообщений нельзя автоматически приписывать отдельно названному эссе Уилсона.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "Ants can't digest the cellulose in leaves – but some fungi can.",
+        "en": "C, cellulose: fungi process the leaf material that ants cannot digest directly; ants then eat the cultivated fungi.\n\nThe blank names the original substance, not the fungi performing the conversion or the resulting food.",
+        "ru": "C, cellulose: грибы перерабатывают целлюлозу листьев, которую муравьи не переваривают непосредственно; затем муравьи едят грибы.\n\nПропуск обозначает исходное вещество, а не перерабатывающий его гриб или конечную пищу.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "Farmer ants secrete antibiotics to control other fungi",
+        "en": "M, secretions: ants secrete antibiotics that suppress unwanted fungi. The summary turns the verb secrete into the noun secretions.\n\nWeed-killers describes their function; the weeds here are competing fungi, not ordinary garden plants.",
+        "ru": "M, secretions: муравьи выделяют антибиотики против нежелательных грибов. Глагол secrete превращён в существительное secretions.\n\nWeed-killers описывает функцию выделений; сорняками здесь выступают конкурирующие грибы.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "spread waste to fertilise the crop.",
+        "en": "F, fertilizers: waste is spread to fertilise the cultivated fungi. Unwanted materials paraphrases waste.\n\nSeparate the two farming inputs: secretions suppress competitors, while waste provides fertiliser for the crop.",
+        "ru": "F, fertilizers: отходы распределяются для удобрения выращиваемых грибов. Unwanted materials соответствует waste.\n\nРазделяй две функции: выделения подавляют конкурентов, а отходы служат удобрением.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "regularly swapping and sharing strains with neighbouring ant colonies.",
+        "en": "D, exchanging: swapping and sharing fungal strains means exchanging them with neighbouring colonies.\n\nInterbreeding would describe reproduction, which is not the activity named here; use the direct synonym of swapping.",
+        "ru": "D, exchanging: swapping and sharing означает обмен разновидностями грибов с соседними колониями.\n\nInterbreeding описывало бы скрещивание. Здесь названа передача штаммов, поэтому нужен синоним swapping.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "The farming methods of ants are at least sustainable.",
+        "en": "N, sustainable: the writer explicitly labels ant farming sustainable before explaining its low environmental and energy costs.\n\nThe blank modifies methods, so an adjective is needed; environment and energy fit the next two noun positions.",
+        "ru": "N, sustainable: автор прямо называет методы устойчивыми, затем объясняет отсутствие разрушения среды и огромного расхода энергии.\n\nПеред methods нужно прилагательное. Environment и energy подходят следующим именным пропускам.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "They do not ruin environments",
+        "en": "O, environment: ant farming does not ruin the environment, matching the summary’s claim about not affecting it adversely.\n\nThis is the environmental benefit; do not substitute energy, which belongs to the separate consumption claim.",
+        "ru": "O, environment: муравьи не разрушают окружающую среду. Именно этот экологический результат передаёт резюме.\n\nНе подставляй energy: энергия относится к отдельной следующей мысли о расходовании ресурсов.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "or use enormous amounts of energy.",
+        "en": "E, energy: the passage says ant farming avoids enormous energy use. The summary paraphrases this as not wasting energy.\n\nRead the coordinated claims separately: sustainable methods, no environmental ruin, and low energy consumption.",
+        "ru": "E, energy: сказано, что муравьи не расходуют огромные объёмы энергии. Резюме передаёт это как отсутствие расточительства.\n\nРазбери три отдельные характеристики: устойчивость, сохранение среды и небольшой расход энергии.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "A number of techniques developed since the 1950s",
+        "en": "iv: section A contrasts older fossil and archaeological evidence with newer genetic techniques developed since the 1950s.\n\nIts main idea is methodological development, not a specific result or migration route.",
+        "ru": "iv: раздел A противопоставляет прежние археологические и ископаемые данные новым генетическим методам с 1950-х годов.\n\nГлавная тема — развитие способов исследования, а не конкретный результат или маршрут миграции.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "But was there one major wave of migration across the Bering Strait into the Americas, or several?",
+        "en": "vii: section B introduces unresolved questions about the number and timing of migrations into America.\n\nWhen and how many waves are asked; why people migrated is not, so the heading about causes is unsuitable.",
+        "ru": "vii: раздел B ставит давние вопросы о количестве и времени волн миграции в Америку.\n\nСпрашивается «когда» и «сколько волн», а не «почему люди переселялись». Заголовок о причинах не подходит.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "one can establish their genetic 'distance'",
+        "en": "x: section C explains how comparing blood-protein variants measures genetic distance and time since populations interbred.\n\nThis is the mechanism of the method; the actual sampled groups and findings follow in D.",
+        "ru": "x: раздел C объясняет, как сравнение вариантов белков крови определяет генетическую дистанцию и время разделения популяций.\n\nЗдесь описан принцип метода. Исследованные группы и конкретные результаты приведены в D.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "From this evidence it was deduced that there had been three major waves of migration",
+        "en": "i: section D reports the blood-variant study’s results: three groups and three inferred migration waves.\n\nSampling details introduce the findings. The heading about measuring relationships belongs to the preceding methodological section.",
+        "ru": "i: раздел D сообщает результаты анализа крови: три группы и выведенные из них три волны миграции.\n\nОписание выборки вводит выводы. Заголовок о способе измерения родства относится к предыдущему разделу.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "Geneticist Douglas Wallace has studied mitochondrial DNA",
+        "en": "vi: section E adds mitochondrial-DNA evidence supporting common Paleo-Indian ancestry in three separated groups.\n\nOther research support signals additional evidence for the theory, rather than the original blood-protein method.",
+        "ru": "vi: раздел E добавляет данные митохондриальной ДНК, подтверждающие общее происхождение трёх удалённых групп.\n\nOther research support вводит дополнительное подтверждение теории, а не первоначальный анализ белков крови.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "the analysis of changing physical characteristics in human teeth.",
+        "en": "ii: section F discusses tooth crowns, roots and dental evolution as evidence of population origins and migration waves.\n\nLanguages are introduced briefly, but the developed evidence throughout this section is dental.",
+        "ru": "ii: раздел F рассматривает коронки, корни и эволюцию зубов как свидетельства происхождения и волн миграции.\n\nЯзыки кратко упомянуты в начале, но развёрнутое доказательство этого раздела относится к зубам.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "The first, Paleo-Indian, wave more than 15,000 years ago was ancestral to all Central and South American Indians.",
+        "en": "E: the 15,000-or-more entry belongs to the first Paleo-Indian wave leading to Central and South American populations, represented by route E.\n\nMatch the destination as well as the date; the later Canadian southward movement belongs to another row.",
+        "ru": "E: период от 15000 лет относится к первой палеоиндейской волне, предкам населения Центральной и Южной Америки; ей соответствует маршрут E.\n\nСопоставляй дату с направлением. Позднее движение из Канады относится к другой строке.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "who only migrated south from Canada about 600 or 700 years ago",
+        "en": "D: 600–700 years refers to the later southward movement of Navajo and Apache ancestors from Canada, not initial entry into America.\n\nRoute D corresponds to this movement. The date is far more recent than the three original migration waves.",
+        "ru": "D: 600–700 лет относится к позднему движению предков навахо и апачей на юг из Канады, а не к первому заселению Америки.\n\nЭто маршрут D. Не смешивай сравнительно недавнее переселение с тремя древними волнами.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "groups ancestral to the modern Eskimo and Aleut.",
+        "en": "C, third wave: Inuit are identified as Eskimo, and the third wave brought the ancestors of modern Eskimo and Aleut.\n\nUse the equivalent group names in the passage and glossary; similarity of northern location alone is insufficient.",
+        "ru": "C, третья волна: Inuit названы Eskimo, а третья волна принесла предков современных эскимосов и алеутов.\n\nОпирайся на равнозначные названия группы в тексте и пояснениях, а не только на северное расположение.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "The second wave, about 14,000-12,000 years ago, brought Na-Dene hunters, ancestors of the Navajo and Apache",
+        "en": "B, second wave: Na-Dene hunters from the second migration were ancestors of Apache and Navajo.\n\nThe 600–700-year movement south happened later; it does not change the wave in which their ancestors first reached America.",
+        "ru": "B, вторая волна: охотники Na-Dene второй миграции названы предками апачей и навахо.\n\nПереселение на юг 600–700 лет назад было позднее. Оно не меняет волну первого появления предков на континенте.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "all three groups appear to be descended from the same ancestral (Paleo-Indian) population.",
+        "en": "A, first wave: Wallace’s three groups include Pima-Papago, and all descend from Paleo-Indians, identified earlier as the first wave.\n\nCombine the list of studied groups with its shared ancestry conclusion; the answer is not based on present location alone.",
+        "ru": "A, первая волна: Pima-Papago входят в три группы Уоллеса, происходящие от палеоиндейцев, ранее отнесённых к первой волне.\n\nСоедини список исследованных народов с общим выводом о предках; современное место жительства само по себе недостаточно.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "Ticuna Indians in the Upper Amazon region of Brazil.",
+        "en": "A, first wave: Ticuna is another of Wallace’s three groups sharing Paleo-Indian ancestry, the first migration wave.\n\nTheir Brazilian location identifies the group in the sample; the following shared-ancestry sentence determines the wave.",
+        "ru": "A, первая волна: Ticuna — ещё одна группа Уоллеса с общим палеоиндейским происхождением, относящимся к первой миграции.\n\nБразилия помогает найти народ в перечне; волну определяет последующий вывод об общих предках.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "many thousands of New and Old World specimens, both ancient and modern",
+        "en": "A: Turner studied dental specimens from the New and Old Worlds, both ancient and modern. This covers prehistoric and modern Americans and Asians.\n\nHe examined specimens, not thousands of living people; B replaces the research material with people.",
+        "ru": "A: Тёрнер изучал древние и современные зубные образцы Нового и Старого Света — Америки и Азии.\n\nИсследовались образцы, а не тысячи живых людей. Вариант B меняет материал исследования на участников.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "However, this does not mean that in future they will be ignored.",
+        "en": "NOT GIVEN: regional forest issues may be considered in future, but the next expert meeting’s agenda is not specified.\n\nIn future is not the same as at the next meeting; a broad possibility cannot establish that exact schedule.",
+        "ru": "NOT GIVEN: региональные проблемы не будут забыты в будущем, но повестка следующей встречи специалистов не указана.\n\nIn future не означает «на следующей встрече». Общая перспектива не подтверждает конкретный срок.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "Those confined to particular geographical areas",
+        "en": "FALSE: Nordic issues were excluded because they were geographically limited, rather than shared by many countries. EEC membership is not the stated reason.\n\nThe passage supplies a different explicit cause, so this is FALSE, not merely missing information.",
+        "ru": "FALSE: северные проблемы исключили из-за географической ограниченности, а не из-за членства в Европейском экономическом сообществе.\n\nВ тексте дана другая причина. Это противоречие утверждению, а не просто отсутствие информации.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "their constantly renewed production of wood.",
+        "en": "TRUE: forests continually renew their production of wood, a raw material. Renewed corresponds to renewable.\n\nThe claim concerns replenishment, not an assertion that wood resources are unlimited or immune to mismanagement.",
+        "ru": "TRUE: леса постоянно возобновляют производство древесины — сырья для людей. Renewed соответствует renewable.\n\nРечь о возобновлении, а не о бесконечности запасов или отсутствии риска неправильного управления.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "The other aspects have been recognised only for a few centuries",
+        "en": "FALSE: biological and recreational roles have been recognised for a few centuries, not only since the twentieth century.\n\nOther aspects contrasts with the economic role known much earlier; use the stated timescale rather than present awareness.",
+        "ru": "FALSE: биологическая и рекреационная роли известны уже несколько столетий, а не только с двадцатого века.\n\nOther aspects противопоставлены экономической роли, признанной ещё раньше. Проверяй именно срок признания.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "there are effectively no remaining 'primary' forests in Europe.",
+        "en": "FALSE: the writer says no primary natural forests effectively remain; European forests have been adapted and exploited for thousands of years.\n\nThe myth is contrasted with the stated reality. Do not treat survival of the myth as survival of natural forests.",
+        "ru": "FALSE: автор утверждает, что первичных естественных лесов практически не осталось: их тысячелетиями изменяли и использовали.\n\nСохранился миф о природном лесе, а не сам лес в исходном виде. Это важное противопоставление.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "it must transcend national frontiers and generations of people",
+        "en": "FALSE: policy must transcend national frontiers, meaning go beyond them. Limited by national boundaries says the opposite.\n\nTranscend is the decisive verb; international cooperation follows from threats crossing borders.",
+        "ru": "FALSE: политика должна transcend national frontiers — выходить за национальные границы. Ограничение ими означает противоположное.\n\nРешает глагол transcend. Международное сотрудничество необходимо из-за трансграничных угроз.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "the possible effects of unforeseen events",
+        "en": "TRUE: the declaration requires continuity and allowance for unforeseen events so forests’ potential is maintained.\n\nUnforeseen events are possible future changes. A continuing policy does not mean a rigid policy that can never adapt.",
+        "ru": "TRUE: декларация требует учитывать непредвиденные события наряду с преемственностью политики, чтобы сохранять потенциал лесов.\n\nНепредвиденные события — возможные изменения. Преемственность не означает запрета адаптировать политику.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "the extension and systematisation of surveillance sites to monitor forest decline.",
+        "en": "J: resolution 1 expands and systematises monitoring of forest decline. J captures systematic information about overall forest condition.\n\nLeaf loss is a symptom explained afterwards; F narrows the resolution to that symptom instead of its full monitoring aim.",
+        "ru": "J: первая резолюция расширяет и систематизирует наблюдение за ухудшением лесов. J охватывает состояние леса в целом.\n\nПотеря листьев — один симптом, описанный далее. F сужает общую задачу мониторинга до этого признака.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "preserve the genetic diversity of European forests.",
+        "en": "A: resolution 2 preserves genetic diversity and aims to retain genetic material from every tree species.\n\nAll kinds of species paraphrases this inclusive goal; it is not a proposal to prioritise only the most common trees.",
+        "ru": "A: вторая резолюция сохраняет генетическое разнообразие и материал всех видов деревьев.\n\nAll kinds of species передаёт полноту этой цели. Речь не об отборе только распространённых или экономически ценных видов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "the establishment of a European databank on the subject.",
+        "en": "E: the third resolution proposes a European forest-fire databank, making national prevention information generally available.\n\nCollected corresponds to databank, and shared to generally available; both parts of the ending are supported.",
+        "ru": "E: третья резолюция предлагает европейскую базу данных о лесных пожарах с общедоступной информацией национальных программ.\n\nCollected соответствует базе данных, shared — доступности. Подтверждаются обе части утверждения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "a preferential research program on mountain forests.",
+        "en": "B: resolution 4 prioritises research into mountain forests, described as the ecosystem changing fastest and most at risk.\n\nSkiing is a source of ecological pressure, not an activity the resolution encourages; H reverses its role.",
+        "ru": "B: четвёртая резолюция отдаёт приоритет исследованиям горных лесов — наиболее быстро меняющейся и уязвимой экосистемы.\n\nЛыжный отдых назван источником нагрузки, а не рекомендуемым развитием. H меняет его роль.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "scholarships and other financial support for doctoral theses and research projects in this area.",
+        "en": "G: resolution 5 supports research on tree diseases, including scholarships and financial support. Those are allocated resources.\n\nEurosilva is the named network; the matching statement concerns the work it funds, not simply the existence of a network.",
+        "ru": "G: пятая резолюция поддерживает изучение болезней деревьев, включая стипендии и финансирование исследований. Это выделение ресурсов.\n\nEurosilva — название сети. Сопоставляется её исследовательская задача и поддержка, а не просто наличие сети.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "harmonising activities in individual countries",
+        "en": "D: resolution 6 creates a European ecosystem research network and harmonises national activities, improving coordination.\n\nThis broad coordination is distinct from resolution 5’s specific support for physiology and disease research.",
+        "ru": "D: шестая резолюция создаёт европейскую исследовательскую сеть и согласует деятельность разных стран. Это улучшение координации.\n\nОбщая координация отличается от пятой резолюции о конкретной поддержке физиологии и болезней деревьев.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "The Strasbourg conference's main concern was to provide for the future.",
+        "en": "B: the passage presents Europe’s forest threats, the conference and six plans to protect forests in future.\n\nA covers only the introductory functions, C only research, and D incorrectly expands the geographical scope worldwide.",
+        "ru": "B: текст описывает угрозы европейским лесам, конференцию и шесть планов их будущей защиты.\n\nA охватывает только функции леса, C — лишь исследования, а D неверно расширяет географию до всего мира.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-7-4": {
+      "1": {
+        "part": 1,
+        "quote": "tens of thousands of slaves dragged stones on sledges.",
+        "en": "TRUE: the conventional account involves tens of thousands of workers dragging stones. This supports a generally held belief in large numbers.\n\nThe question asks what is believed, not what has been proved; lack of evidence does not erase the reported belief.",
+        "ru": "TRUE: традиционное объяснение предполагает десятки тысяч людей, тянувших камни на салазках. Это подтверждает распространённое представление.\n\nВопрос о том, что считают, а не о доказанном факте. Недостаток свидетельств не отменяет существования версии.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "While perusing a book on the monuments of Egypt",
+        "en": "FALSE: Clemmons saw the hieroglyph while reading a book about monuments, rather than on a monument wall.\n\nThe depicted monument and the place where she saw its image are different; the statement changes the discovery location.",
+        "ru": "FALSE: Клеммонс увидела иероглиф, листая книгу о памятниках, а не на стене самого памятника.\n\nИзображённый объект и место, где она увидела изображение, — разные вещи. Утверждение меняет место обнаружения.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "aeronautics professor at the California Institute of Technology.",
+        "en": "NOT GIVEN: Gharib’s aeronautics position and interest in Middle Eastern science are mentioned, but previous bird-flight experiments are not.\n\nA related profession does not prove a particular earlier experiment; no research history establishes the claim.",
+        "ru": "NOT GIVEN: названы должность профессора аэронавтики и интерес к ближневосточной науке, но прежние опыты с полётом птиц не описаны.\n\nПрофессия не доказывает проведение конкретного эксперимента. Нужных сведений о прошлом исследовании нет.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "Their initial calculations and scale-model wind-tunnel experiments convinced them",
+        "en": "TRUE: calculations and scale-model wind-tunnel tests preceded the full-sized lifting experiment. These were tests before application.\n\nInitial and the subsequent actual trial establish the sequence; the small models were not the final demonstration itself.",
+        "ru": "TRUE: расчёты и испытания масштабных моделей в аэродинамической трубе предшествовали полноразмерному подъёму колонны.\n\nInitial и последующее описание опыта показывают порядок. Модельная проверка не равна конечной демонстрации.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "The wind was blowing at a gentle 16 to 20 kilometres an hour",
+        "en": "FALSE: the wind was gentle and weaker than expected. Success came from a large initial force when the sail opened.\n\nDistinguish wind speed from the opening jerk; the text attributes the lift to the latter, not a powerful wind.",
+        "ru": "FALSE: ветер был слабым, меньше ожидаемого. Успех объясняется сильным первоначальным рывком при раскрытии паруса.\n\nНе путай скорость ветра с силой раскрытия. Подъём связан со вторым, а не с необычайно сильным ветром.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "what happened when the kite was opened.",
+        "en": "NOT GIVEN: the text compares opening force with steady force, but never compares wind strength at different flight heights.\n\nWhen it opened is a stage of the experiment, not as it flew higher; altitude must not be inferred from a stronger force.",
+        "ru": "NOT GIVEN: сравниваются силы при раскрытии и установившемся движении, но не ветер на разных высотах полёта.\n\n«Когда раскрылся» — момент опыта, а не «когда поднялся выше». Более сильная тяга не доказывает связь с высотой.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "the pyramid builders could have used kites to lift massive stones into place.",
+        "en": "TRUE: the team concluded kite lifting was physically possible for massive stones, even suggesting a 300-tonne column.\n\nCould have used is a possibility claim. It does not prove ancient builders actually used this method.",
+        "ru": "TRUE: команда решила, что змеи могли поднимать огромные камни, и обсуждает даже колонну массой 300 тонн.\n\nCould have used выражает возможность. Это не доказательство того, что древние строители действительно применяли метод.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "used wooden pulleys",
+        "en": "pulleys / wooden pulleys: the Egyptians had pulleys that could be made strong enough to bear massive stone blocks.\n\nThe blank names the lifting mechanism, not its material alone; wooden is optional within the two-word limit.",
+        "ru": "pulleys / wooden pulleys: египтяне использовали блоки, достаточно прочные для тяжёлых камней.\n\nНужно название подъёмного механизма, а не только материал wooden. Определение можно включить: получится два слова.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "massive blocks of stone.",
+        "en": "stone: the pulley system could bear massive blocks of stone, matching large pieces of stone in the summary.\n\nPieces already represents blocks, so copy only the material rather than repeating blocks of stone.",
+        "ru": "stone: блоки могли выдерживать огромные каменные глыбы. Large pieces в задании соответствует massive blocks.\n\nPieces уже выражает форму объекта, поэтому нужен только материал stone, а не полное blocks of stone.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "accomplished sailors like the Egyptians.",
+        "en": "sailors / accomplished sailors: sailing expertise explains why Egyptians could harness wind energy.\n\nThe blank follows skill as and needs the people’s role; wind is the energy source, not the profession.",
+        "ru": "sailors / accomplished sailors: мореплавательский опыт объясняет, почему египтяне умели использовать энергию ветра.\n\nПосле skill as нужно обозначение людей по занятию. Wind — источник энергии, а не профессия.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "looks uncannily like a modern glider.",
+        "en": "glider / modern glider: the wooden Saqqara artefact resembles a modern glider. This is the object used for comparison.\n\nResembled paraphrases looks like; do not answer kite, which is the proposed construction tool discussed elsewhere.",
+        "ru": "glider / modern glider: деревянный предмет из Саккары похож на современный планер. Нужен именно объект сравнения.\n\nResembled соответствует looks like. Kite — предполагаемый инструмент строительства, а не это сравнение.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "developing ideas of flight for a long time.",
+        "en": "flight: the artefact’s sophistication suggests a long-standing Egyptian interest in flight.\n\nMay have experimented preserves the passage’s uncertainty; it does not claim demonstrated ancient aviation.",
+        "ru": "flight: сложность найденного предмета позволяет предположить давний интерес египтян к полёту.\n\nMay have experimented сохраняет осторожность автора. Здесь не утверждается, что древняя авиация доказана.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "the Chinese were using them to deliver messages",
+        "en": "messages: the Chinese used kites to deliver messages as well as drop burning debris on enemies.\n\nAs well as separates communication from warfare. The blank asks for the transmitted content, not the weapon material.",
+        "ru": "messages: китайцы использовали змеи для передачи сообщений, а также сбрасывали горящий материал на врагов.\n\nAs well as разделяет связь и военное применение. Нужен передаваемый текст, а не материал оружия.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "called this land mass Aleyska, the 'Great Land'",
+        "en": "FALSE: Aleyska named the land mass north of the islands, today Alaska. It was not a new name for the islands themselves.\n\nTrace this land mass to its antecedent; the statement substitutes the islands for the mainland being described.",
+        "ru": "FALSE: Aleyska называли землю севернее островов, нынешнюю Аляску. Это не новое название самих Алеутских островов.\n\nПроследи, к чему относится this land mass. Утверждение подменяет северную землю островами.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "Alaska's commercial fisheries have developed into some of the largest in the world.",
+        "en": "NOT GIVEN: the fisheries themselves are among the world’s largest, but their owners and ownership companies are not identified.\n\nLarge fisheries does not imply ownership by large corporations; size and ownership are separate facts.",
+        "ru": "NOT GIVEN: сами промыслы названы одними из крупнейших, но владельцы и компании-собственники не указаны.\n\nРазмер промысла не доказывает владение крупной корпорацией. Масштаб и право собственности — разные факты.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "bringing rhythmic, circulating nourishment to land, animals and people.",
+        "en": "TRUE: salmon nourish land, animals and people, and their abundance enabled native cultures to flourish. This supports dependence of Alaskan life.\n\nThe blood-through-a-heart metaphor reinforces the central role rather than merely describing one commercial product.",
+        "ru": "TRUE: лосось питает землю, животных и людей; его изобилие позволило местным культурам развиваться. Это подтверждает зависимость жизни Аляски.\n\nСравнение с кровью в сердце подчёркивает центральную роль, а не только коммерческую ценность.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "90% of all Pacific salmon commercially caught in North America are produced there.",
+        "en": "NOT GIVEN: 90% refers to where North American commercial Pacific salmon are produced, not the proportion that are sockeye or pink.\n\nDo not transfer a geographical percentage to species composition; no such species breakdown is given.",
+        "ru": "NOT GIVEN: 90% относится к доле североамериканского промыслового лосося, происходящего из Аляски, а не к двум видам рыб.\n\nНельзя переносить географический процент на видовой состав. Нужной разбивки по видам нет.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18": {
+        "part": 2,
+        "quote": "commercial catches of Pacific salmon in Alaska exceeded 320,000 tonnes",
+        "en": "TRUE: exceeded 320,000 tonnes means more than that amount, and the passage specifies the year 2000.\n\nThe following dollar value measures earnings; do not confuse catch weight with commercial value.",
+        "ru": "TRUE: exceeded 320,000 tonnes означает больше 320 тысяч тонн, причём прямо указан 2000 год.\n\nСледующая сумма в долларах обозначает стоимость улова. Массу и денежную оценку нельзя смешивать.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "19": {
+        "part": 2,
+        "quote": "Between 1940 and 1959, overfishing led to crashes in salmon populations",
+        "en": "TRUE: crashes in salmon populations describes a severe, sharp decrease during precisely 1940–1959.\n\nOverfishing is the reported cause; subsequent sustainable management belongs to the later recovery period.",
+        "ru": "TRUE: crashes in salmon populations означает резкое сокращение численности именно между 1940 и 1959 годами.\n\nПричиной назван чрезмерный вылов. Позднейшее устойчивое управление относится уже к восстановлению.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "annual harvests were well in excess of 100 million",
+        "en": "FALSE: annual catches in the 1990s were well above 100 million, sometimes over 200 million. The statement understates them as 100 million.\n\nWell in excess of is stronger than exactly or on average 100 million; preserve the direction of the comparison.",
+        "ru": "FALSE: ежегодный улов в 1990-е значительно превышал 100 миллионов, иногда превышал 200 миллионов. Утверждение занижает показатель.\n\nWell in excess of означает «значительно больше». Не заменяй превышение точным числом.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "constantly monitoring adult fish as they show up to spawn.",
+        "en": "G: biologists monitor the number of returning adult fish to decide whether fishing can continue. This protects sufficient stocks.\n\nThey observe spawning fish; they are not trying to prevent spawning, as ending C incorrectly suggests.",
+        "ru": "G: биологи постоянно следят за возвращающимися взрослыми рыбами, чтобы решать, можно ли продолжать вылов при достаточной численности.\n\nОни наблюдают нерестящихся рыб, а не пытаются остановить нерест, как неверно предполагает C.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "Even sport fishing can be brought to a halt.",
+        "en": "E: biologists can stop fishing, including sport fishing. The explicit even sport sentence makes this ending a direct match.\n\nThe state’s later emergency closure is a separate event; keep the named actor and action together.",
+        "ru": "E: биологи вправе остановить вылов, включая спортивную рыбалку. Это прямо подтверждено отдельным предложением.\n\nПозднейшее чрезвычайное закрытие властями — другой эпизод. Не меняй местами действующих лиц.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "Alaska salmon fisheries - to prosper",
+        "en": "B: prosper means be successful. The management mechanism allowed stocks and fisheries to prosper despite problems elsewhere.\n\nThis sentence states the policy’s result, rather than the separate MSC certification process.",
+        "ru": "B: prosper означает процветать, быть успешными. Управление позволило запасам и промыслам развиваться вопреки проблемам других регионов.\n\nЭто результат системы регулирования, а не отдельного процесса сертификации MSC.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "certifies fisheries that meet high environmental standards",
+        "en": "A: the MSC certifies fisheries meeting environmental standards, recognising their responsibility towards the environment.\n\nCertification is recognition; the passage does not say MSC was created to legislate national environmental laws.",
+        "ru": "A: MSC сертифицирует промыслы, соответствующие высоким экологическим стандартам, признавая их ответственность перед средой.\n\nСертификация — признание, а не принятие государственных природоохранных законов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "closing down all fisheries, even those necessary for subsistence purposes.",
+        "en": "K: after the unexpected collapse, the state closed all fisheries, including those supporting subsistence communities.\n\nAll and even make the extent explicit. The closure was a protective response, not a refusal of certification by MSC.",
+        "ru": "K: после неожиданного сокращения власти закрыли все промыслы, даже необходимые для выживания местных общин.\n\nAll и even подчёркивают охват. Это защитная мера властей, а не отказ MSC в сертификации.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "permission to display the MSC logo on their products.",
+        "en": "F: seven companies received permission to put the MSC logo on their products following certification in September 2000.\n\nDisplay the logo paraphrases label their products. Keep this commercial permission separate from authority to regulate fishing.",
+        "ru": "F: семь компаний получили разрешение размещать логотип MSC на продукции после сертификации в сентябре 2000 года.\n\nDisplay the logo соответствует label their products. Это право маркировки, а не полномочие регулировать вылов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "because it was initially 'too quiet'",
+        "en": "D: unfamiliar quiet initially disrupts sleep, suggesting people had adapted to noisier surroundings such as the city.\n\nThis is an inference from adaptation; it does not mean humans inherently prefer noise or strange mountain sounds.",
+        "ru": "D: непривычная тишина сначала мешает спать, что указывает на адаптацию к более шумной среде, например городу.\n\nЭто вывод о привычке, а не утверждение, что люди по природе предпочитают шум или слышат странные горные звуки.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "after about four minutes the subjects were doing just as well on their tasks as control subjects",
+        "en": "C: subjects initially suffered disruption, then matched the quiet control group after about four minutes. Performance recovered in this experiment.\n\nDo not extend this brief result to lifelong noise exposure; later school studies concern lasting effects.",
+        "ru": "C: сначала шум мешал, но через примерно четыре минуты результаты сравнялись с контрольной группой в тишине. В этом опыте произошла адаптация.\n\nНе распространяй краткий результат на многолетнее воздействие: далее обсуждаются другие исследования.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "noise did not affect a subject's ability to track a moving line with a steering wheel",
+        "en": "A: a single tracking task was unaffected; adding number repetition or monitoring several dials introduced interference.\n\nThe contrast concerns task complexity, so the safe choice is a single task rather than the listed multitasking examples.",
+        "ru": "A: отслеживание линии само по себе не ухудшалось; добавление повторения чисел или контроля нескольких приборов вызывало помехи.\n\nСравнивается сложность задания. Поэтому подходит одна задача, а не перечисленные варианты многозадачности.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "its predictability is more important than how loud it is.",
+        "en": "B, unexpected: unpredictability matters more than loudness. Unexpected intrusions can be harder to tune out than intense steady noise.\n\nThe blank contrasts noise characteristics; it needs unexpected, not the amount of noise or whether someone controls it.",
+        "ru": "B, unexpected: предсказуемость важнее громкости. Неожиданные помехи труднее игнорировать, чем сильный постоянный шум.\n\nПропуск противопоставляет свойства шума: нужен unexpected, а не количество или контроль.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "others heard the same amount of noise overall",
+        "en": "D, the same amount of: predictable and unpredictable groups heard equal overall amounts, while timing differed.\n\nRandom intervals change the spacing, not the total exposure. This distinction keeps the experimental comparison meaningful.",
+        "ru": "D, the same amount of: группы получали одинаковое суммарное количество шума, но интервалы были регулярными или случайными.\n\nСлучайность меняет распределение во времени, а не общий объём воздействия. Не смешивай эти параметры.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "all subjects performed at about the same level during the noise portion of the experiment.",
+        "en": "F, performed at about the same level as: during the noisy task, groups performed similarly regardless of predictability.\n\nThe difference emerged afterwards in proofreading. Match the experimental stage before choosing a comparison.",
+        "ru": "F, performed at about the same level as: во время самого шумного этапа группы выполняли задание примерно одинаково.\n\nРазличие появилось позже при корректуре. Сначала установи, к какому этапу относится сравнение.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "the unpredictable noise produced more errors in the later proofreading task than predictable noise",
+        "en": "I, made more mistakes than: prior unpredictable noise led to more proofreading errors afterwards, when the room was quiet.\n\nMore errors equals more mistakes; this is an after-effect, not worse performance during noise exposure.",
+        "ru": "I, made more mistakes than: после непредсказуемого шума при корректуре в тишине делали больше ошибок.\n\nMore errors соответствует more mistakes. Это последействие, а не различие результатов во время самого шума.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "unpredictable noise produces more fatigue than predictable noise",
+        "en": "B, unexpected: unpredictable noise causes greater fatigue, whose performance cost becomes apparent later.\n\nUnexpected is the summary’s equivalent of unpredictable; neither intense nor no noise expresses the observed cause.",
+        "ru": "B, unexpected: непредсказуемый шум вызывает больше усталости, а ухудшение результатов проявляется с задержкой.\n\nUnexpected заменяет unpredictable. Ни сильный шум сам по себе, ни отсутствие шума не передают причину.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "The noise was quite disruptive at first",
+        "en": "A, Glass and Singer: their experiment initially disrupted problem-solving before subjects adapted within minutes.\n\nAt first identifies this study’s early phase; Cohen’s research instead concerns prolonged school exposure.",
+        "ru": "A, Glass and Singer: в их опыте шум сначала мешал решению задач, а затем испытуемые адаптировались за несколько минут.\n\nAt first указывает на раннюю фазу именно этого опыта. Коэн изучал длительное воздействие в школах.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "still showed greater distractibility one year later",
+        "en": "D, Cohen et al.: children moved to quieter classrooms remained more distractible a year later, demonstrating lasting behavioural effects.\n\nThe follow-up timing distinguishes this study from brief laboratory bursts and their short-term after-effects.",
+        "ru": "D, Cohen et al.: после перевода в тихие классы дети и через год оставались более отвлекаемыми. Это длительное изменение поведения.\n\nГодичное наблюдение отличает исследование от коротких лабораторных воздействий.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "Just the knowledge that one has control is sufficient.",
+        "en": "A, Glass and Singer: knowing the noise can be stopped removes the reported negative effects, even when the control is never used.\n\nThe statement concerns perceived control, not actually switching the sound off; that distinction is explicitly tested.",
+        "ru": "A, Glass and Singer: достаточно знать, что шум можно выключить, даже если человек ни разу не пользуется этой возможностью.\n\nПроверяется ощущение контроля, а не реальное выключение. Автор прямо подчёркивает это различие.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "some subjects heard loud bursts and others heard soft bursts.",
+        "en": "E, none of the above: the studies compare loudness, timing, control and exposure duration, not high versus low pitch.\n\nPitch means frequency and is different from loud or soft. Do not attribute an unreported pitch comparison to a researcher.",
+        "ru": "E, никто из перечисленных: сравниваются громкость, интервалы, контроль и длительность, но не высокая и низкая частота звука.\n\nPitch означает высоту тона, а не громкость. Нельзя приписывать исследователю отсутствующее сравнение.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "monitor three dials at a time",
+        "en": "B, Broadbent: his subjects monitored three dials simultaneously, and high noise levels interfered with this performance.\n\nThe three-dial detail uniquely identifies the study; repeating numbers while tracking belongs to another pair of researchers.",
+        "ru": "B, Broadbent: его испытуемые одновременно следили за тремя приборами, и сильный шум ухудшал выполнение.\n\nТри прибора отличают этот опыт. Повторение чисел при отслеживании линии относится к другим исследователям.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "repeat numbers while tracking (Finkelman and Glass, 1970).",
+        "en": "C, Finkelman and Glass: noise impaired number repetition when it was combined with tracking a moving line.\n\nTracking alone was unaffected. The question asks about the added concurrent task, not the simple tracking ability.",
+        "ru": "C, Finkelman and Glass: шум мешал повторять числа одновременно с отслеживанием движущейся линии.\n\nСамо отслеживание не страдало. Вопрос относится к дополнительной параллельной задаче, а не к простой способности вести линию.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-8-2": {
+      "1": {
+        "part": 1,
+        "quote": "involved spinning.",
+        "en": "spinning: the first flat-glass method rotated the glass while it hardened without surface contact.\n\nThe table asks for the method; fire finish describes its result.",
+        "ru": "spinning: первый способ вращал стекло при затвердевании без контакта с поверхностями.\n\nТаблица спрашивает метод. Fire finish описывает результат, а не способ.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "it stayed perfectly unblemished",
+        "en": "unblemished: absence of surface contact left the glass flawless. Perfectly is an explicitly optional modifier.\n\nCopy this description rather than clear, which does not capture the absence of surface marks.",
+        "ru": "unblemished: отсутствие контакта сохраняло стекло без дефектов. Perfectly можно включить как дополнительное определение.\n\nClear означает прозрачность, а здесь преимущество — отсутствие следов.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "was labour-intensive.",
+        "en": "labour-intensive: the spinning method required substantial labour as well as time. This is the second disadvantage.\n\nSlow already covers duration; repeat neither slow nor long time in this labour-related blank.",
+        "ru": "labour-intensive: вращение требовало много труда, помимо времени. Это второй недостаток метода.\n\nSlow уже описывает длительность. Нужен другой недостаток — трудоёмкость.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "4": {
+        "part": 1,
+        "quote": "glass of virtually any thickness",
+        "en": "thickness: rollers allowed continuous production at almost any thickness, matching varying thickness in the table.\n\nThe advantage is dimensional flexibility; glass sheets already identifies the product.",
+        "ru": "thickness: вальцы позволяли непрерывно получать стекло почти любой толщины. Это соответствует varying thickness.\n\nПреимущество — изменяемый размер; сам продукт уже назван glass sheets.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "leave both sides of the glass marked",
+        "en": "marked: the rollers left marks on both surfaces, requiring grinding and polishing afterwards.\n\nThe question asks for the defect before finishing; polished would incorrectly name the remedy.",
+        "ru": "marked: вальцы оставляли следы на обеих сторонах, после чего требовались шлифовка и полировка.\n\nПропуск описывает дефект до обработки. Polished называло бы исправление дефекта.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "pouring molten glass onto the molten tin",
+        "en": "glass / molten glass: the upper flowing material is the glass poured over the metal bath.\n\nDistinguish the product from its supporting liquid: tin is the layer beneath, for the next label.",
+        "ru": "glass / molten glass: верхний текучий материал — стекло, наливаемое на металлическую ванну.\n\nРазделяй продукт и жидкую опору: олово находится ниже и относится к следующей подписи.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "The best metal for the job was tin.",
+        "en": "tin / molten tin: the lower bath contains tin, selected for its melting and boiling properties. Metal is also explicitly accepted.\n\nThis is the supporting bath, not the glass ribbon resting on it.",
+        "ru": "tin / molten tin: нижняя ванна содержит олово, выбранное по температурам плавления и кипения. Metal тоже принят ключом.\n\nЭто опора для стеклянной ленты, а не сама лента.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "could be transported out of the cooling zone by rollers.",
+        "en": "rollers: cooled, hardened glass can be carried out on rollers without acquiring marks.\n\nThe float bath removed rollers from forming, not from all later transport; locate the exit stage.",
+        "ru": "rollers: остывшее твёрдое стекло можно выводить на роликах без повреждения поверхности.\n\nВальцы исключили из формирования в ванне, но не из последующей транспортировки.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "could not boil at a temperature below the temperature of the molten glass",
+        "en": "TRUE: the metal needed a low enough melting point and a high enough boiling point. These are specific required properties.\n\nTin was selected to satisfy both conditions; the requirement is not merely that any metal be liquid.",
+        "ru": "TRUE: металл должен плавиться достаточно рано и не кипеть при температуре жидкого стекла. Это конкретные необходимые свойства.\n\nОлово выбрали для выполнения обоих условий, а не только за жидкое состояние.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "costing the company £100,000 a month",
+        "en": "NOT GIVEN: the passage reports company expenditure, without identifying Pilkington’s personal financial contribution.\n\nCompany money and his own money are separate claims; the cost figure does not reveal the source of his investment.",
+        "ru": "NOT GIVEN: приведены расходы компании, но личное финансовое участие Пилкингтона не указано.\n\nДеньги компании и его собственные деньги — разные факты. Сумма расходов не подтверждает личный вклад.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "it took 14 months of non-stop production",
+        "en": "FALSE: fourteen months passed before usable glass appeared, followed by further difficulties after servicing. Success was not instant.\n\nThe eventual achievement does not erase the lengthy initial failure; instant is the decisive contradiction.",
+        "ru": "FALSE: до пригодного стекла прошло четырнадцать месяцев, затем возникли новые трудности после обслуживания. Успех не был мгновенным.\n\nПоздний успех не отменяет первоначальных неудач. Ключевое слово — instant.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "the product has changed dramatically",
+        "en": "TRUE: although the principle remains unchanged, thickness range and optical quality have improved dramatically.\n\nSeparate the basic principle from practical refinements; unchanged principle does not mean no improvements.",
+        "ru": "TRUE: основной принцип сохранился, но диапазон толщины и оптическое качество существенно улучшились.\n\nПринцип и практические усовершенствования — разные уровни. Неизменный принцип не исключает улучшений.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "locating flaws the unaided eye would be unable to see.",
+        "en": "TRUE: automated inspection locates flaws invisible to the unaided human eye. This directly establishes better defect detection.\n\nThe comparison concerns detecting faults, not making every manufacturing decision better than a person.",
+        "ru": "TRUE: автоматический контроль обнаруживает дефекты, невидимые невооружённому глазу. Это прямое сравнение способности находить ошибки.\n\nВывод относится к обнаружению дефектов, а не ко всем решениям производства.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14": {
+        "part": 2,
+        "quote": "context for the current unprecedented global warming",
+        "en": "ii: paragraph B relates the Little Ice Age to current warming, explaining its relevance today.\n\nIts variable historical weather supports this context; the heading is broader than a list of cold periods.",
+        "ru": "ii: абзац B связывает Малый ледниковый период с нынешним потеплением, показывая актуальность сегодня.\n\nИсторические колебания служат этому объяснению. Заголовок шире перечня холодных зим.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "15": {
+        "part": 2,
+        "quote": "during the past ten centuries",
+        "en": "vii: paragraph D states the book covers ten centuries, equivalent to a thousand years, and introduces Part One.\n\nMatch the scope of the study, not one three-century period nested within it.",
+        "ru": "vii: абзац D задаёт охват книги — десять столетий, то есть тысяча лет, — и представляет первую часть.\n\nНужен масштаб всего исследования, а не один трёхсотлетний период внутри него.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "16": {
+        "part": 2,
+        "quote": "offered effective protection against famine.",
+        "en": "ix: agricultural changes increased productivity and made countries self-sufficient, providing enough food and protection from famine.\n\nThe paragraph builds from scarcity to improved supply; a heading about fishing alone misses that outcome.",
+        "ru": "ix: изменения сельского хозяйства повысили урожайность и самообеспечение, защищая от голода.\n\nАбзац идёт от нехватки еды к достаточным запасам. Заголовок только о рыбалке упустил бы итог.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "17": {
+        "part": 2,
+        "quote": "triggering for the first time humanly caused global warming.",
+        "en": "iv: paragraph F links land clearance and fossil-fuel use to warming caused by people.\n\nHuman impact includes farming and industry, not only cities; a city-specific heading would be too narrow.",
+        "ru": "iv: абзац F связывает вырубку и ископаемое топливо с вызванным людьми потеплением.\n\nВоздействие включает сельское хозяйство и промышленность, а не только города. Городской заголовок слишком узок.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "18–19": {
+        "part": 2,
+        "quote": "tree rings and ice cores",
+        "en": "C and B, either order: tree rings and ice cores are the main proxy records used before systematic weather observations.\n\nBoth are required. Written accounts only supplement them, so I should not replace either main source.",
+        "ru": "C и B, любой порядок: годичные кольца и ледяные керны — основные косвенные данные до систематических наблюдений погоды.\n\nНужны оба. Письменные сведения лишь дополняют их, поэтому I не заменяет основной источник.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "an irregular seesaw of rapid climatic shifts",
+        "en": "A, climatic shifts: the Little Ice Age alternated between conditions instead of remaining consistently frozen.\n\nRather than introduces the contrast; the period’s name does not mean uninterrupted deep freezing.",
+        "ru": "A, climatic shifts: Малый ледниковый период состоял из сменяющихся условий, а не постоянного мороза.\n\nRather than вводит противопоставление. Название периода не означает непрерывного глубокого замерзания.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "frequent Atlantic storms",
+        "en": "H, storms: some intervals had mild winters, heavy rain and frequent Atlantic storms.\n\nFollow the paired weather conditions; glaciers are evidence of cold, not the event accompanying these rainy periods.",
+        "ru": "H, storms: отдельные интервалы характеризовались мягкими зимами, сильными дождями и частыми атлантическими штормами.\n\nИщи сочетание условий. Ледники относятся к холоду, а не к событиям дождливых периодов.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "periods of droughts, light northeasterly winds, and summer heat waves.",
+        "en": "G, heat waves: drought periods included summer heat waves, matching the summary’s no-rain intervals.\n\nNo rain paraphrases drought; the blank asks what occurred during those dry conditions.",
+        "ru": "G, heat waves: засушливые периоды сопровождались летними волнами жары. Это соответствует интервалам без дождя.\n\nNo rain перефразирует drought. Пропуск спрашивает, что происходило при этих сухих условиях.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "as intensive European farming methods expanded across the world.",
+        "en": "C, Modern Warm Period: migration and farming abroad occurred after 1850, the start of the Modern Warm Period.\n\nUse the date and paragraph context; earlier Norse exploration is a separate event.",
+        "ru": "C, Modern Warm Period: переселение и распространение европейского земледелия за рубежом описаны после 1850 года.\n\nДата связывает их с современным тёплым периодом. Ранние путешествия норманнов — другой эпизод.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "land clearance released vast quantities of carbon dioxide",
+        "en": "C: nineteenth-century forest clearance released carbon dioxide and caused warming during the Modern Warm Period.\n\nThe question concerns the climate effect of cutting trees, not simply human agriculture existing earlier.",
+        "ru": "C: вырубка девятнадцатого века выделяла углекислый газ и вызывала потепление в современный тёплый период.\n\nПроверяется влияние вырубки на климат, а не существование земледелия в более ранние времена.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "settled Greenland, and visited North America.",
+        "en": "A, Medieval Warm Period: Norse travellers explored seas, settled Greenland and visited North America in roughly 900–1200.\n\nThese are discoveries and settlement, distinct from mass farming migration after 1850.",
+        "ru": "A, Medieval Warm Period: норманны исследовали моря, заселяли Гренландию и посещали Америку примерно в 900–1200 годах.\n\nЭто открытия новых земель, в отличие от массовой фермерской миграции после 1850 года.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "forced fishing fleets to work further offshore",
+        "en": "B, Little Ice Age: changing water temperatures pushed fishing farther offshore, prompting new boats for colder, stormier seas.\n\nThe action follows the cooling discussion in E; do not assign it to the later industrial warming paragraph.",
+        "ru": "B, Little Ice Age: изменение температуры воды заставило флот уходить дальше от берега и создавать суда для холодного бурного моря.\n\nДействие описано в контексте похолодания E, а не позднейшего промышленного потепления.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "smell can evoke strong emotional responses.",
+        "en": "viii: paragraph A links scents to joy, disgust, experience and memories, so its focus is smell and feelings.\n\nThe survey is the method; emotional association is the main theme supported by its examples.",
+        "ru": "viii: абзац A связывает запахи с радостью, отвращением, опытом и воспоминаниями. Тема — запах и чувства.\n\nОпрос является методом исследования; основная мысль — эмоциональные ассоциации.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "Odours are also essential cues in social bonding.",
+        "en": "ii: paragraph B concerns bonds and identification within families, including mothers, children and spouses.\n\nClothing is one experimental example; the heading must cover personal relationships overall.",
+        "ru": "ii: абзац B рассматривает связь и узнавание в семье: матерей, детей и супругов.\n\nОдежда — один пример опыта. Заголовок должен отражать личные отношения в целом.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "the most undervalued sense in many cultures",
+        "en": "vi: paragraph C explains low appreciation of smell through the belief that human olfaction is weak, then challenges that belief.\n\nIt does not claim smell is our superior sense; undervalued describes public regard.",
+        "ru": "vi: абзац C объясняет недооценку обоняния представлением о его слабости, затем опровергает это представление.\n\nАвтор не объявляет его лучшим чувством. Undervalued описывает отношение общества.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "the specific vocabulary simply doesn't exist.",
+        "en": "i: paragraph D describes difficulty naming and describing smells, along with inability to preserve them for later reference.\n\nThe missing vocabulary directly supports difficulties talking about smells; brain anatomy is not discussed.",
+        "ru": "i: абзац D описывает трудность называть запахи и отсутствие способов сохранять их для дальнейшего сравнения.\n\nНедостаток слов прямо объясняет трудности разговора о запахах. Анатомия мозга здесь не обсуждается.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "many fundamental questions have yet to be answered.",
+        "en": "iii: paragraph E identifies unanswered questions and predicts growing psychological research into smell.\n\nExisting scientific advances are background; unresolved issues point towards future studies.",
+        "ru": "iii: абзац E перечисляет нерешённые вопросы и предсказывает рост психологических исследований обоняния.\n\nПрошлые научные успехи — фон. Основная перспектива связана с будущими исследованиями.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "our commonly held feelings about smells can help distinguish us from other cultures.",
+        "en": "v: paragraph F links shared smell values to cultural identity and distinctions between groups.\n\nThe focus is collective interpretation, not the earlier individual emotional memories in paragraph A.",
+        "ru": "v: абзац F связывает общие оценки запахов с культурной идентичностью и различиями между группами.\n\nТема — коллективная интерпретация, а не личные эмоциональные воспоминания из абзаца A.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33": {
+        "part": 3,
+        "quote": "when the faculty of smell is impaired",
+        "en": "C: we notice smell’s importance when our ability to smell is impaired, meaning damaged or reduced.\n\nSimply being surrounded by aromas normally happens without conscious attention, so D reverses the introduction.",
+        "ru": "C: важность обоняния осознаётся, когда способность чувствовать запахи нарушена. Impaired означает повреждена или ослаблена.\n\nОкружающие ароматы обычно не замечаются сознательно, поэтому D искажает вступление.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "34": {
+        "part": 3,
+        "quote": "even when not consciously considered, smells register.",
+        "en": "A: people recognised partners’ clothing by smell despite never consciously considering this identification cue.\n\nThe study shows unnoticed use of smell, not that relatives share identical smells or that men and women were compared.",
+        "ru": "A: люди распознавали одежду супругов по запаху, хотя прежде не думали об этом признаке.\n\nОпыт показывает неосознанное использование обоняния, а не одинаковый запах родственников или сравнение полов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "they are still remarkably acute.",
+        "en": "C: the writer challenges the common belief that human smell is feeble, citing thousands of detectable odours and tiny concentrations.\n\nThe concession about animals introduces the rebuttal; the paragraph’s purpose is rejecting the belief.",
+        "ru": "C: автор оспаривает мнение о слабом обонянии людей: мы различаем тысячи запахов и малые концентрации.\n\nУступка о животных вводит опровержение. Главная функция абзаца — отвергнуть распространённое мнение.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "whether smell is one sense or two",
+        "en": "D: researchers have not settled even the basic definition of smell as one or two senses.\n\nUnanswered classification supports yet to be defined; no claim says measurement is already becoming more accurate.",
+        "ru": "D: исследователи не решили даже базовый вопрос: является обоняние одним чувством или двумя.\n\nНерешённая классификация подтверждает yet to be defined. Об улучшении точности измерений здесь не сказано.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "clothing worn by their marriage partners",
+        "en": "clothing: participants distinguished garments worn by spouses from other people’s garments by smell.\n\nHusbands and wives paraphrases marriage partners; the blank asks what was recognised, not who recognised it.",
+        "ru": "clothing: участники отличали одежду супругов от одежды других людей по запаху.\n\nHusbands and wives заменяет marriage partners. Пропуск спрашивает объект распознавания, а не участника.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "specific vocabulary",
+        "en": "vocabulary: many languages lack specific terms for odours, making direct description difficult.\n\nThe missing linguistic resource is vocabulary; smells themselves are present even when suitable words are absent.",
+        "ru": "vocabulary: во многих языках нет специальных слов для запахов, поэтому их трудно описывать напрямую.\n\nНе хватает языкового ресурса — словаря. Запахи существуют независимо от наличия подходящих слов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "registering odourless chemicals in the air",
+        "en": "chemicals: one proposed component of smell responds to chemicals that themselves have no odour.\n\nOdourless corresponds to which do not smell; this is a research question, not an established conclusion of the passage.",
+        "ru": "chemicals: предполагаемый компонент обоняния реагирует на вещества без собственного запаха.\n\nOdourless соответствует which do not smell. Это исследовательский вопрос, а не доказанный вывод текста.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "offensive in some cultures may be perfectly acceptable in others.",
+        "en": "cultures: the same odour can be offensive in one culture and acceptable in another, reflecting learned shared values.\n\nThe blank names cultural groups, not individual memories; copy the plural form from the contrast.",
+        "ru": "cultures: один запах может быть неприятным в одной культуре и приемлемым в другой из-за общих усвоенных оценок.\n\nПропуск обозначает культурные группы, а не личные воспоминания. Сохраняй множественное число.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
+    },
+    "reading-8-3": {
+      "1": {
+        "part": 1,
+        "quote": "to try to use lasers to discharge lightning safely",
+        "en": "D: the central topic is the proposed laser method for controlling lightning; rockets provide background and comparison.\n\nA main-topic answer must cover the developed method, not only the opening damage examples.",
+        "ru": "D: основная тема — лазерный способ управления молнией; ракеты служат фоном и сравнением.\n\nОтвет об основной теме должен охватывать подробно рассматриваемый метод, а не только примеры ущерба во вступлении.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "2": {
+        "part": 1,
+        "quote": "And there is damage to property too.",
+        "en": "A: the passage explicitly adds damage to property to the human injuries caused by thunderstorms.\n\nThe 500 casualties are in the US alone, not worldwide; golfers are an example, not the majority of victims.",
+        "ru": "A: текст прямо добавляет материальный ущерб к травмам людей от гроз.\n\nПятьсот пострадавших относятся только к США, а не ко всему миру. Игроки в гольф — пример, а не большинство жертв.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "3": {
+        "part": 1,
+        "quote": "a project, which is backed by EPRI",
+        "en": "A: Florida’s rocket work receives EPRI support, and Diels’s New Mexico laser project is also backed by EPRI.\n\nTheir funding source is shared, while their techniques differ; rockets and lasers are not the same method.",
+        "ru": "A: ракетные исследования во Флориде и лазерный проект Дилса в Нью-Мексико поддерживает EPRI.\n\nОбщий источник финансирования не означает одинаковые методы: используются ракеты и лазеры.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        },
+        "quotes": [
+          "with support from the Electrical Power Research Institute",
+          "a project, which is backed by EPRI"
+        ]
+      },
+      "4": {
+        "part": 1,
+        "quote": "EPRI, which is funded by power companies",
+        "en": "power companies: EPRI’s financial backing comes from electricity companies. Funded by directly answers receives financial support from.\n\nThe institute’s location in California is not the source of money.",
+        "ru": "power companies: EPRI финансируют энергетические компании. Funded by соответствует receives financial support from.\n\nМестонахождение института в Калифорнии не является источником денег.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "5": {
+        "part": 1,
+        "quote": "use lasers to discharge lightning safely",
+        "en": "safely: the laser project aims to discharge lightning without endangering people or equipment.\n\nThe blank after used needs an adverb. Safety is the concept, but safely is the passage word fitting the grammar.",
+        "ru": "safely: лазерный проект должен разряжать молнию без риска для людей и техники.\n\nПосле used требуется наречие. Safety обозначает идею безопасности, но грамматически подходит слово safely из текста.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "6": {
+        "part": 1,
+        "quote": "Diels is trying to cut down the size",
+        "en": "size: the current laser occupies a whole room, so reducing its size is the stated stumbling block.\n\nCost is discussed later, but this question points to the immediate equipment difficulty under A stumbling block.",
+        "ru": "size: существующий лазер занимает целую комнату, поэтому главная названная трудность — уменьшить его размер.\n\nЦена обсуждается позднее. Здесь ориентиром служит раздел A stumbling block о габаритах оборудования.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "7": {
+        "part": 1,
+        "quote": "extract electrons out of atoms and create ions.",
+        "en": "B, atoms: lasers remove electrons from atoms, creating ions and a conducting path.\n\nAtoms are the starting material; ions are the result. The blank follows from, so choose the source of the removed electrons.",
+        "ru": "B, atoms: лазер выбивает электроны из атомов, создавая ионы и проводящий путь.\n\nАтомы — исходные частицы, ионы — результат. После from нужен источник электронов.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "8": {
+        "part": 1,
+        "quote": "a line of ionisation in the air all the way up to a storm cloud",
+        "en": "C, storm clouds: the conducting path extends to a storm cloud so its electrical charge can be discharged in a controlled way.\n\nThe summary’s destination is the cloud; the protective intermediate mirror belongs to Q10.",
+        "ru": "C, storm clouds: проводящий путь достигает грозовой тучи, чтобы её заряд можно было разрядить управляемо.\n\nЗдесь нужен конечный объект — туча. Промежуточное защитное зеркало относится к №10.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "9": {
+        "part": 1,
+        "quote": "who would want to fire streams of rockets in a populated area?",
+        "en": "G, rockets: rockets pose danger in populated areas because what goes up comes down. Lasers are proposed as the safer alternative.\n\nThe comparison is between discharge methods, not between lasers and the lightning conductors protecting the mirror.",
+        "ru": "G, rockets: ракеты опасны в населённой зоне, поскольку должны упасть обратно. Лазер предложен как более безопасная альтернатива.\n\nСравниваются способы разрядки, а не лазер с громоотводами около зеркала.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "10": {
+        "part": 1,
+        "quote": "it would be directed at a mirror, and from there into the sky.",
+        "en": "D, mirrors: the beam first reaches a mirror and then the sky, keeping the laser out of a direct strike path.\n\nConductors protect the mirror nearby; they are not the surface at which the beam is aimed.",
+        "ru": "D, mirrors: луч сначала направляют на зеркало, затем в небо, чтобы лазер не оказался на прямом пути разряда.\n\nГромоотводы защищают зеркало рядом с ним, но луч не направляется на них.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "11": {
+        "part": 1,
+        "quote": "they have not yet come up with the $5 million",
+        "en": "NO: companies are interested but have not provided the five million dollars needed for a commercial system.\n\nThe smaller amount already invested does not mean sufficient funding; enough is contradicted by the stated shortfall.",
+        "ru": "NO: компании проявляют интерес, но ещё не выделили пять миллионов долларов, необходимых коммерческой системе.\n\nУже вложенная меньшая сумма не означает достаточного финансирования. Enough противоречит названной нехватке.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "12": {
+        "part": 1,
+        "quote": "the forthcoming field tests will be the turning point",
+        "en": "YES: Bernstein expects interest and support to surge if the forthcoming real-storm field tests succeed.\n\nIf all goes well makes funding conditional on test results rather than guaranteed by current interest alone.",
+        "ru": "YES: Бернстайн ожидает рост интереса и поддержки при успехе предстоящих полевых испытаний в настоящих грозах.\n\nIf all goes well задаёт условие. Нынешний интерес компаний сам по себе денег не гарантирует.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "13": {
+        "part": 1,
+        "quote": "Diels also hopes to see the birth of",
+        "en": "NOT GIVEN: Diels hopes for weather control, and other scientists may benefit, but forecasters’ intense interest is not reported.\n\nThe inventor’s hopes are not evidence of another professional group’s reaction.",
+        "ru": "NOT GIVEN: Дилс надеется на управление погодой, другие учёные могут получить пользу, но интерес синоптиков не описан.\n\nНадежды изобретателя не доказывают реакцию другой профессиональной группы.",
+        "location": {
+          "en": "Passage 1",
+          "ru": "Текст 1"
+        }
+      },
+      "14–15–16–17–18": {
+        "part": 2,
+        "quote": "prodigies burn too brightly too soon and burn out",
+        "en": "B, C, F, H and J: the reported beliefs concern early exhaustion of talent, duty to use gifts, inheritance, lack of recognition, and adversity making people wise.\n\nAll five are reported myths, not necessarily the writer’s conclusions. A falsely changes talent in one area into talent in every area.",
+        "ru": "B, C, F, H и J: перечислены мифы о быстром исчерпании таланта, обязанности его использовать, наследовании, непризнании и развитии через трудности.\n\nНужны все пять. Это пересказ убеждений, а не выводы автора. A ошибочно заменяет талант в одной области талантом во всех.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        },
+        "quotes": [
+          "prodigies burn too brightly too soon and burn out",
+          "people with gifts have a responsibility to use them",
+          "genius runs in families",
+          "genius goes unrecognised and unrewarded",
+          "adversity makes men wise"
+        ]
+      },
+      "19": {
+        "part": 2,
+        "quote": "how common or exceptional these were at the time.",
+        "en": "TRUE: old studies lacked norm-referencing, failing to compare upbringing and illnesses with what was usual in that historical setting.\n\nUniqueness requires a baseline; an anecdote about home tutoring cannot show exceptionality if tutoring was common.",
+        "ru": "TRUE: ранние исследования не сравнивали воспитание и болезни с обычными условиями эпохи. Поэтому исключительность не устанавливалась.\n\nДля уникальности нужна норма сравнения: домашнее обучение не необычно, если тогда оно было распространено.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "20": {
+        "part": 2,
+        "quote": "studies could be carried out on a more objective, if still not always very scientific, basis.",
+        "en": "TRUE: more objective studies only became possible in the twentieth century; earlier anecdotal studies lacked a properly scientific baseline.\n\nThe qualification still not always scientific does not praise nineteenth-century methods; it limits even the later improvement.",
+        "ru": "TRUE: более объективные исследования стали возможны лишь в двадцатом веке; ранние рассказы не имели научной базы сравнения.\n\nОговорка still not always scientific ограничивает даже позднее улучшение, а не хвалит старые методы.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "21": {
+        "part": 2,
+        "quote": "we doubt if all musicians of genius could have become scientists of genius or vice versa",
+        "en": "FALSE: the writer doubts that genius musicians could automatically excel as scientists, rejecting universal excellence across fields.\n\nThe quotation about general powers is followed by disagreement; read the response before attributing the quotation to the writer.",
+        "ru": "FALSE: автор сомневается, что гениальный музыкант обязательно стал бы гениальным учёным, отвергая универсальность способностей.\n\nПосле цитаты о general powers следует несогласие. Не приписывай автору процитированное чужое мнение.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "22": {
+        "part": 2,
+        "quote": "skills or abilities which are similar to, but so much superior to, our own.",
+        "en": "TRUE: prodigies’ abilities are similar in kind to ours but developed to a much higher degree.\n\nIn essence the same concerns the nature of the skills, not equal performance; superior development does not contradict similarity.",
+        "ru": "TRUE: способности талантливых людей по природе похожи на наши, но развиты гораздо сильнее.\n\nIn essence the same касается природы навыка, а не одинакового результата. Высокий уровень не отменяет сходства.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "23": {
+        "part": 2,
+        "quote": "This does not minimise the supremacy of their achievements",
+        "en": "TRUE: ideas becoming school knowledge or designs entering everyday fabrics do not reduce the greatness of the original achievement.\n\nDoes not minimise directly matches fails to lessen; later familiarity should not be confused with original insignificance.",
+        "ru": "TRUE: превращение открытий в школьные знания и рисунков в привычные ткани не умаляет величия первоначальных достижений.\n\nDoes not minimise соответствует fails to lessen. Поздняя привычность не означает изначальную незначительность.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "24": {
+        "part": 2,
+        "quote": "relative descriptive terms of no real substance",
+        "en": "NOT GIVEN: the writer discusses definitions and context, but does not demand scientific research to retain all talent for humanity.\n\nA general discussion of genius does not supply this specific proposed research purpose.",
+        "ru": "NOT GIVEN: автор обсуждает определения и контекст, но не требует исследований ради сохранения всего таланта человечества.\n\nОбщее рассуждение о гениальности не подтверждает конкретную предлагаемую цель исследований.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "25": {
+        "part": 2,
+        "quote": "the price they may have paid in terms of perseverance",
+        "en": "TRUE: genius may demand perseverance, dedication, restricted personal lives, energy, time and courage. These form a high personal price.\n\nThe writer explicitly asks readers to recognise that cost rather than seeing fame alone.",
+        "ru": "TRUE: гениальность может требовать настойчивости, самоотдачи, ограничений личной жизни, времени, энергии и мужества. Это высокая цена.\n\nАвтор просит замечать эти затраты, а не только известность и достижения.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "26": {
+        "part": 2,
+        "quote": "We may envy their achievements and fame",
+        "en": "NOT GIVEN: the passage identifies the sacrifices behind fame but does not judge whether those sacrifices are worth making.\n\nDescribing a cost and envying success are not a final value judgement about whether the trade-off is worthwhile.",
+        "ru": "NOT GIVEN: описаны жертвы ради известности, но автор не решает, стоят ли достижения этих жертв.\n\nОписание цены и зависть к успеху не равны оценке того, оправдывает ли результат личные потери.",
+        "location": {
+          "en": "Passage 2",
+          "ru": "Текст 2"
+        }
+      },
+      "27": {
+        "part": 3,
+        "quote": "an organism is an open, dynamic system through which new material continuously flows.",
+        "en": "ix: paragraph B contrasts static manufactured objects with living systems that continually renew material.\n\nThe central difference is renewal, not a general limit on lifespan or a description of male and female ageing.",
+        "ru": "ix: абзац B противопоставляет статичные изделия живым системам, непрерывно обновляющим материал.\n\nГлавное различие — обновление, а не общий предел жизни или возрастные различия полов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "28": {
+        "part": 3,
+        "quote": "it needs room for new and better life.",
+        "en": "ii: paragraph C explains the evolutionary benefit of death: room is needed for better-adapted replacements.\n\nImmortality is presented as disrupting replacement, so the paragraph asks why dying benefits this system.",
+        "ru": "ii: абзац C объясняет эволюционную пользу смерти: требуется место для лучше приспособленных замен.\n\nБессмертие нарушило бы обновление. Заголовок передаёт, почему смерть полезна этой системе.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "29": {
+        "part": 3,
+        "quote": "the characteristic upper limit for most remains 80 years.",
+        "en": "vii: paragraph D says the characteristic lifespan remains stable despite improved medicine and nutrition helping more people reach old age.\n\nMore people reaching the limit and the limit itself increasing are different claims.",
+        "ru": "vii: абзац D утверждает сохранение характерного предела жизни, хотя медицина и питание помогают большему числу людей доживать до него.\n\nДостижение предела чаще не означает увеличения самого предела.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "30": {
+        "part": 3,
+        "quote": "the existence of an internal clock",
+        "en": "i: paragraph E proposes an internal biological clock measuring and controlling ageing, then relates metabolism to body mass.\n\nThe opening proposal gives the paragraph’s central framework; metabolic comparisons support it.",
+        "ru": "i: абзац E предполагает внутренние биологические часы, измеряющие и контролирующие старение, затем связывает обмен с массой тела.\n\nНачальное предположение задаёт основу, а сравнения обмена её развивают.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "31": {
+        "part": 3,
+        "quote": "Animals which behave",
+        "en": "viii: paragraph F connects energy expenditure and metabolism with lifespan across animals and the two sexes.\n\nSex differences are one example within the larger energy-consumption theme, so a sex-only heading is too narrow.",
+        "ru": "viii: абзац F связывает расход энергии и обмен веществ с жизнью разных животных и полов.\n\nРазличия полов — один пример широкой темы энергопотребления. Заголовок только о мужчинах и женщинах слишком узок.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "32": {
+        "part": 3,
+        "quote": "sparing use of energy reserves should tend to extend life.",
+        "en": "iv: paragraph G draws a conclusion about extending life through conserving energy, relaxation and sleep, according to this writer.\n\nThe heading concerns the paragraph’s stated advice, not present-day medical validation of its claims.",
+        "ru": "iv: абзац G выводит возможность продления жизни через экономию энергии, отдых и сон, согласно данному автору.\n\nЗаголовок отражает мысль текста, а не современную медицинскую оценку этих утверждений.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "33–34": {
+        "part": 3,
+        "quote": "the laws of physical chemistry and of thermodynamics.",
+        "en": "physical chemistry and thermodynamics, either order: these are the two scientific principles governing wear in objects.\n\nBoth distinct terms are required; do not repeat one or combine them into an answer exceeding a single blank’s two-word limit.",
+        "ru": "physical chemistry и thermodynamics, любой порядок: названы два закона, объясняющие изнашивание предметов.\n\nНужны два разных термина. Повтор одного не заменяет второй; в одном пропуске сохраняется лимит двух слов.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "35": {
+        "part": 3,
+        "quote": "the existent organisms either adapt",
+        "en": "adapt: mutations create characteristics tested for better adaptation to environmental conditions. The note requires the verb form.\n\nAfter can, use adapt rather than adaptation; both meaning and grammar must fit.",
+        "ru": "adapt: мутации создают признаки, проверяемые на лучшее приспособление к среде. В заметке нужна глагольная форма.\n\nПосле can подходит adapt, а не adaptation. Проверяй одновременно смысл и грамматику.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "36": {
+        "part": 3,
+        "quote": "Immortality would disturb this system",
+        "en": "immortality: endless survival would obstruct the evolutionary replacement system by leaving no room for new types.\n\nThe blank names what causes the problem; evolution is the system affected, not the problematic condition.",
+        "ru": "immortality: бесконечное существование мешало бы эволюционной замене, не оставляя места новым типам.\n\nПропуск спрашивает источник проблемы. Evolution — затронутая система, а не мешающее условие.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "37": {
+        "part": 3,
+        "quote": "the result of this law is not inexorable in the same way.",
+        "en": "NO: living systems renew material, so their ageing is not inevitable in the same way as wear in static objects.\n\nThe passage acknowledges shared physical laws but rejects the same simple wear-and-tear explanation for both.",
+        "ru": "NO: живые системы обновляют материал, поэтому старение не неизбежно тем же образом, что износ статичных вещей.\n\nОбщие физические законы признаются, но одинаковое простое объяснение износом отвергается.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "38": {
+        "part": 3,
+        "quote": "it could actually become older without ageing",
+        "en": "YES: the writer explicitly allows becoming older without ageing while a biological system can renew itself.\n\nIn principle keeps this conditional theoretical claim; it is not a promise that every organism does so.",
+        "ru": "YES: автор прямо допускает увеличение возраста без старения, пока биологическая система способна обновляться.\n\nIn principle сохраняет условный теоретический характер. Это не обещание для любого организма.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "39": {
+        "part": 3,
+        "quote": "our bodies continuously exchange old substance for new",
+        "en": "NOT GIVEN: continuous material renewal is stated, but neither seven years nor a ninety-percent replacement figure appears.\n\nA general renewal process cannot verify a precise percentage and timetable.",
+        "ru": "NOT GIVEN: непрерывное обновление вещества описано, но нет ни семилетнего срока, ни доли девяносто процентов.\n\nОбщий процесс обновления не подтверждает точную комбинацию процента и времени.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      },
+      "40": {
+        "part": 3,
+        "quote": "not only increases the life span but is also very healthy.",
+        "en": "YES: the final paragraph says an energy-saving lifestyle increases lifespan, matching the writer’s claim.\n\nAnswer according to this passage’s view; the reading task does not ask you to evaluate its medical reliability.",
+        "ru": "YES: заключительный абзац утверждает, что энергосберегающий образ жизни увеличивает её длительность.\n\nОцени соответствие позиции автора текста. Reading не просит проверять медицинскую достоверность утверждения.",
+        "location": {
+          "en": "Passage 3",
+          "ru": "Текст 3"
+        }
+      }
     }
   }
 }

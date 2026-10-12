@@ -299,6 +299,56 @@
         }
       ],
       "questions": 160
+    },
+    "7": {
+      "module": "reading",
+      "tests": [
+        {
+          "test": 1,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 2,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 3,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        },
+        {
+          "test": 4,
+          "questions": 40,
+          "reviewEntries": 40,
+          "passages": [
+            1,
+            2,
+            3
+          ],
+          "bilingualComplete": true
+        }
+      ],
+      "questions": 160
     }
   },
   "languages": [

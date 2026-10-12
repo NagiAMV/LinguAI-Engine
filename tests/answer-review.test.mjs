@@ -771,8 +771,8 @@ test('Cambridge 8 supplied keys preserve optional words and reject inferred syno
 test('Cambridge 8 explicit corrections replace Q5 and preserve unordered pairs', () => {
  const keys=JSON.parse(readFileSync(new URL('../src/data/cambridge-answer-keys.json',import.meta.url)));
  const a=keys['reading-8-1'],b=keys['reading-8-2'];
- assert.equal(reviewAnswer('D',[5],a).status,'correct');
- assert.equal(reviewAnswer('B',[5],a).status,'incorrect');
+ assert.equal(reviewAnswer('B',[5],a).status,'correct');
+ assert.equal(reviewAnswer('D',[5],a).status,'incorrect');
  for(const v of ['anchor',"ship's anchor",'an anchor','the anchor'])assert.equal(reviewAnswer(v,[9],a).status,'correct');
  for(const v of ['fraud','outright fraud','or fraud','or outright fraud'])for(const pair of [['sensory leakage',v],[v,'sensory leakage']])assert.equal(reviewAnswer(pair,[34,35],a,true).status,'correct');
  assert.equal(reviewAnswer(['fraud','fraud'],[34,35],a,true).status,'incorrect');
