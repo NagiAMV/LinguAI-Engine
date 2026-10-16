@@ -59,6 +59,36 @@
       "endAudioDecoded": true,
       "persistence": true,
       "mobile": true
+    },
+    {
+      "test": 7,
+      "duration": 1610.8,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 8,
+      "duration": 1812.7,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 9,
+      "duration": 1633.023979,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
     }
   ],
   "catalogFirst": true

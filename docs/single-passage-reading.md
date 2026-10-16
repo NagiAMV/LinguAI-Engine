@@ -22,3 +22,22 @@ Both papers live under `/practice/reading/single/{number}` and the separate Read
 The importer reads literal data and the specifically reviewed pure IQ option/row templates. Original authentication, advertising, page scripts and event handlers are not imported. Markup uses the existing allow-list sanitizer. Source-file hashes and normalized passage signatures are checked against existing papers, including full Reading tests, before adding a new record. Both repeated imports were detected and skipped.
 
 Browser checks cover all 26 controls, 13/13 scores, twenty-minute timers, EN/UZ explanations, mobile width, collection links and unavailable band conversion. See `single-reading-browser-check.json` and the corresponding desktop/mobile screenshots. This is an import and functional check, not a complete independent audit of every source answer.
+
+
+## Additional CDI papers (11–19)
+
+| Number | Passage | Original questions |
+| --- | --- | --- |
+| 11 | The Conquest of Malaria in Italy | 14–26 |
+| 12 | The Constant Evolution of the Humble Tomato | 14–26 |
+| 13 | Transport and transport systems during the Roman Empire | 1–13 |
+| 14 | What Lucy Taught Us | 1–13 |
+| 15 | Why don’t we sleep? | 14–26 |
+| 16 | Bovids | 1–13 |
+| 17 | How to Clean a Beach | 27–40 |
+| 18 | Images and Places | 27–40 |
+| 19 | Sign, Baby, Sign! | 27–40 |
+
+These nine supplied papers add 120 questions (19 passages / 253 questions total). Literal SECTIONS, PASSAGES and READING_EXPLANATIONS data are extracted without running page startup scripts. Question types become native controls; summary order, answer alternatives, all eight Images and Places headings, original numbering, English/Uzbek explanations and matching exact quotations are retained. Each passage has the existing 20-minute single-passage timer and no extrapolated band. New passages appear directly in the compact Reading grid.
+
+All 19 papers passed browser checks for perfect-score grading, both explanation languages and mobile width. Re-importing the full twelve-file batch rejected every source as a duplicate and left all paper/catalog/key/explanation hashes unchanged. This verifies import behaviour, not an independent editorial audit of every source answer.

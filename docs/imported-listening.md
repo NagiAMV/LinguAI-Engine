@@ -43,3 +43,18 @@ The full recording stays mounted across part changes and uses one saved playback
 `node scripts/extract-listening-html.cjs <first HTML path> <second HTML path>` extracts static data and the specifically reviewed pure question builders into `.cache/listening-extracted.json`. It does not execute page startup, libraries, trackers, PDF exporters or event handlers. `scripts/import-listening-html.py` uses the Python standard library to sanitize this markup and adapt the answer controls. It never modifies the supplied files. Runtime HTML includes only permitted elements and attributes; the original scripts, inline handlers, styles and remote image URLs are not shipped.
 
 Audio was downloaded from the URLs embedded in the supplied papers. Checks confirm real MP3 headers, browser metadata, playback near the beginning and end, continuous playback across parts, all 80 usable answer slots, perfect-score grading, unordered-group partial credit, excessive-selection rejection, answer persistence and mobile page width. See `imported-listening-browser-check.json` and the accompanying screenshots. The complete Node test suite passed (143 tests), and the production build succeeded.
+
+
+## Additional CDI papers (7–9)
+
+| Number | Supplied file | Questions | Full audio |
+| --- | --- | --- | --- |
+| 7 | Full Listening Test (4).html | 40 | 26:50.800 |
+| 8 | FULL LISTENING (5).html | 40 | 30:12.700 |
+| 9 | FULL LISTENING TEST (3).html | 40 | 27:13.024 |
+
+All three include four supplied transcripts. Recordings are stored locally; source audio URLs and SHA-256 checksums remain in provenance. No repeated source, normalized question content or recording was found. Test 7 retains the supplied Rivermead School campus map and its A–J choices; matching controls use their own source option bank. Test 8 has two unordered two-answer groups; Test 9 has an unordered three-answer group (28–30), with partial credit and rejection of excessive selections. Keys and transcript wording were transferred, not independently rewritten or editorially audited.
+
+Use `node scripts/extract-cdi-batch.cjs <supplied HTML paths...>` followed by `python scripts/import-cdi-batch.py`. The extractor reads literal data and only reviewed string-template Listening helpers in an isolated context; original startup logic, tracking, styles and event handlers are not shipped. Download audio from the extracted source URLs before verification. Source hashes prevent repeat imports. Reading data uses the existing single-passage importer.
+
+All nine Listening papers passed browser verification: 40/40 from their keys, persistent answers, full audio metadata and decoding near the end, continuous playback when switching parts, supplied transcripts in review and mobile width. All 63 Node tests passed; the production build succeeded.

@@ -5,7 +5,7 @@
     "title": "Test 1",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Manor Farm · Sports centre · House prices · Drama activities"
+    "topics": "Manor Farm Ãƒâ€šÃ‚Â· Sports centre Ãƒâ€šÃ‚Â· House prices Ãƒâ€šÃ‚Â· Drama activities"
   },
   {
     "id": "practice-listening-2",
@@ -13,7 +13,7 @@
     "title": "Test 2",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Activities for Lily · Volunteering · Tourism careers · Environmental reports"
+    "topics": "Activities for Lily Ãƒâ€šÃ‚Â· Volunteering Ãƒâ€šÃ‚Â· Tourism careers Ãƒâ€šÃ‚Â· Environmental reports"
   },
   {
     "id": "practice-listening-3",
@@ -21,7 +21,7 @@
     "title": "Test 3",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Insurance policies · Eyesaver charity · Study options · Leatherback turtles"
+    "topics": "Insurance policies Ãƒâ€šÃ‚Â· Eyesaver charity Ãƒâ€šÃ‚Â· Study options Ãƒâ€šÃ‚Â· Leatherback turtles"
   },
   {
     "id": "practice-listening-4",
@@ -29,7 +29,7 @@
     "title": "Test 4",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Birthday arrangements · Curling · Art authentication · Sustainability"
+    "topics": "Birthday arrangements Ãƒâ€šÃ‚Â· Curling Ãƒâ€šÃ‚Â· Art authentication Ãƒâ€šÃ‚Â· Sustainability"
   },
   {
     "id": "practice-listening-5",
@@ -37,7 +37,7 @@
     "title": "Test 5",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Student accommodation · Museum exhibitions · Course choices · Student support"
+    "topics": "Student accommodation Ãƒâ€šÃ‚Â· Museum exhibitions Ãƒâ€šÃ‚Â· Course choices Ãƒâ€šÃ‚Â· Student support"
   },
   {
     "id": "practice-listening-6",
@@ -45,6 +45,30 @@
     "title": "Test 6",
     "partCount": 4,
     "questionCount": 40,
-    "topics": "Travel arrangements · Volunteering · Laboratory work · High-speed trains"
+    "topics": "Travel arrangements Ãƒâ€šÃ‚Â· Volunteering Ãƒâ€šÃ‚Â· Laboratory work Ãƒâ€šÃ‚Â· High-speed trains"
+  },
+  {
+    "id": "practice-listening-7",
+    "number": 7,
+    "title": "Test 7",
+    "partCount": 4,
+    "questionCount": 40,
+    "topics": "Enquiries on Hot Air Balloon Trip Ã‚Â· Rivermead School: facilities open to the public Ã‚Â· Professor SmithÃ¢â‚¬â„¢s article on online learning Ã‚Â· Technology and Education"
+  },
+  {
+    "id": "practice-listening-8",
+    "number": 8,
+    "title": "Test 8",
+    "partCount": 4,
+    "questionCount": 40,
+    "topics": "Getting a job with an airline Â· Scholarships in the Scottish hospitality industry Â· Calotype photography in Britain and France"
+  },
+  {
+    "id": "practice-listening-9",
+    "number": 9,
+    "title": "Test 9",
+    "partCount": 4,
+    "questionCount": 40,
+    "topics": "Instructions for a new store assistant · College camping club — cycling tour · Tutorial on an assignment · Extinction of Species"
   }
 ]

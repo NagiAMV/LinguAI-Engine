@@ -1,357 +1,116 @@
 [
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "json,sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json.sys",
-        "description": "json.sys",
-        "detail": "json.sys",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "hashlib",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "hashlib",
-        "description": "hashlib",
-        "detail": "hashlib",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "shutil",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "shutil",
-        "description": "shutil",
-        "detail": "shutil",
-        "documentation": {}
-    },
-    {
-        "label": "subprocess",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
-        "documentation": {}
-    },
-    {
-        "label": "tempfile",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "tempfile",
-        "description": "tempfile",
-        "detail": "tempfile",
-        "documentation": {}
-    },
-    {
-        "label": "urljoin",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urljoin",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "urlparse",
-        "importPath": "urllib.parse",
-        "description": "urllib.parse",
-        "isExtraImport": true,
-        "detail": "urllib.parse",
-        "documentation": {}
-    },
-    {
-        "label": "httpx",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "httpx",
-        "description": "httpx",
-        "detail": "httpx",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "Comment",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Query",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FileResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
-        "isExtraImport": true,
-        "detail": "fastapi.responses",
-        "documentation": {}
-    },
-    {
-        "label": "JSONResponse",
-        "importPath": "fastapi.responses",
-        "description": "fastapi.responses",
-        "isExtraImport": true,
-        "detail": "fastapi.responses",
-        "documentation": {}
-    },
-    {
         "label": "argparse,hashlib,html,json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "argparse.hashlib.html.json",
         "description": "argparse.hashlib.html.json",
         "detail": "argparse.hashlib.html.json",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "base64,hashlib,html,json,re,runpy,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64.hashlib.html.json.re.runpy.sys",
+        "description": "base64.hashlib.html.json.re.runpy.sys",
+        "detail": "base64.hashlib.html.json.re.runpy.sys",
         "documentation": {}
     },
     {
@@ -373,12 +132,39 @@
         "documentation": {}
     },
     {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
         "label": "html",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "html",
         "description": "html",
         "detail": "html",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -443,12 +229,28 @@
         "documentation": {}
     },
     {
-        "label": "importlib.util",
+        "label": "os",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "importlib.util",
-        "description": "importlib.util",
-        "detail": "importlib.util",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
         "documentation": {}
     },
     {
@@ -484,174 +286,66 @@
         "documentation": {}
     },
     {
-        "label": "safe_cache_key",
+        "label": "clean",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def clean(s):return ''.join(serialize(n) for n in Tree(s).root.children)\ndef text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n return '<'+n.tag+''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef select(n,opts):return '<select data-lq=\"'+str(n)+'\"><option value=\"\">Choose an answer</option>'+''.join('<option value=\"'+html.escape(str(v),quote=True)+'\">'+html.escape(text(str(t)))+'</option>' for v,t in opts)+'</select>'\ndef dump(p,d):Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')\ndef sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "cached_json_path",
+        "label": "text",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n return '<'+n.tag+''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef select(n,opts):return '<select data-lq=\"'+str(n)+'\"><option value=\"\">Choose an answer</option>'+''.join('<option value=\"'+html.escape(str(v),quote=True)+'\">'+html.escape(text(str(t)))+'</option>' for v,t in opts)+'</select>'\ndef dump(p,d):Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')\ndef sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "read_cached_json",
+        "label": "raw",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n return '<'+n.tag+''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef select(n,opts):return '<select data-lq=\"'+str(n)+'\"><option value=\"\">Choose an answer</option>'+''.join('<option value=\"'+html.escape(str(v),quote=True)+'\">'+html.escape(text(str(t)))+'</option>' for v,t in opts)+'</select>'\ndef dump(p,d):Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')\ndef sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:\n if sha(Path(d['file']).read_bytes())!=d['sha256']:raise ValueError('Source changed')",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "write_cached_json",
+        "label": "select",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def write_cached_json(path: Path, payload):\n    path.write_text(json.dumps(payload, ensure_ascii=False), encoding=\"utf-8\")\ndef normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def select(n,opts):return '<select data-lq=\"'+str(n)+'\"><option value=\"\">Choose an answer</option>'+''.join('<option value=\"'+html.escape(str(v),quote=True)+'\">'+html.escape(text(str(t)))+'</option>' for v,t in opts)+'</select>'\ndef dump(p,d):Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')\ndef sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:\n if sha(Path(d['file']).read_bytes())!=d['sha256']:raise ValueError('Source changed')\n old=[json.loads(p.read_text(encoding='utf8')) for p in Path('public/practice').glob('*.json')]\n if any(t.get('provenance',{}).get('sourceFileSha256')==d['sha256'] for t in old):print('DUPLICATE',d['sourceFile']);continue\n if d['reading']:",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "normalize_text",
+        "label": "dump",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def normalize_text(value: str) -> str:\n    return re.sub(r\"\\s+\", \" \", value).strip()\ndef test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"\nasync def fetch_html(url: str) -> str:\n    headers = {\"User-Agent\": \"LinguAI-Bridge/1.0 educational research client\"}",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def dump(p,d):Path(p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\\n',encoding='utf8')\ndef sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:\n if sha(Path(d['file']).read_bytes())!=d['sha256']:raise ValueError('Source changed')\n old=[json.loads(p.read_text(encoding='utf8')) for p in Path('public/practice').glob('*.json')]\n if any(t.get('provenance',{}).get('sourceFileSha256')==d['sha256'] for t in old):print('DUPLICATE',d['sourceFile']);continue\n if d['reading']:\n  passage=next(iter(d['PASSAGES'].values()));sections=sum(d['SECTIONS'].values(),[]);qs='';answers={}",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "test_page_path",
+        "label": "sha",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def test_page_path(test_id: str, resource: str) -> str:\n    match = re.fullmatch(r\"cambridge_(\\d+)_test_([1-4])\", test_id)\n    if not match:\n        raise HTTPException(status_code=400, detail=\"testId must look like cambridge_19_test_1\")\n    book, test = match.groups()\n    return f\"{ENGNOVATE_BASE_URL}/cambridge-{book}-{resource}-test-{test}/\"\nasync def fetch_html(url: str) -> str:\n    headers = {\"User-Agent\": \"LinguAI-Bridge/1.0 educational research client\"}\n    async with httpx.AsyncClient(timeout=REQUEST_TIMEOUT, follow_redirects=True, headers=headers) as client:\n        response = await client.get(url)",
-        "detail": "backend.main",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def sha(b):return hashlib.sha256(b).hexdigest()\ndef signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:\n if sha(Path(d['file']).read_bytes())!=d['sha256']:raise ValueError('Source changed')\n old=[json.loads(p.read_text(encoding='utf8')) for p in Path('public/practice').glob('*.json')]\n if any(t.get('provenance',{}).get('sourceFileSha256')==d['sha256'] for t in old):print('DUPLICATE',d['sourceFile']);continue\n if d['reading']:\n  passage=next(iter(d['PASSAGES'].values()));sections=sum(d['SECTIONS'].values(),[]);qs='';answers={}\n  if any(signature(p['passage'])==signature('<h2>'+passage['title']+'</h2>'+passage['content']) for t in old for p in t['parts']):print('DUPLICATE TEXT',d['sourceFile']);continue",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
-        "label": "extract_audio_urls",
+        "label": "signature",
         "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def extract_audio_urls(html: str, page_url: str) -> list[str]:\n    soup = BeautifulSoup(html, \"html.parser\")\n    candidates = []\n    for tag in soup.find_all([\"audio\", \"source\", \"a\"]):\n        for attribute in (\"src\", \"href\"):\n            value = tag.get(attribute)\n            if value and re.search(r\"\\.mp3(?:\\?|$)\", value, re.IGNORECASE):\n                candidates.append(urljoin(page_url, value))\n    for value in re.findall(r\"https?[^\\\"'\\s<>]+\\.mp3(?:\\?[^\\\"'\\s<>]*)?\", html, re.IGNORECASE):\n        candidates.append(value.replace(\"\\\\/\", \"/\"))",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "extract_catalog",
-        "kind": 2,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "def extract_catalog(html: str, page_url: str, resource: str, query: str):\n    soup = BeautifulSoup(html, \"html.parser\")\n    items = []\n    for link in soup.find_all(\"a\", href=True):\n        href = urljoin(page_url, link[\"href\"])\n        text = normalize_text(link.get_text(\" \"))\n        if not text or \"engnovate.com\" not in href:\n            continue\n        if query.lower() not in f\"{text} {href}\".lower():\n            continue",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "kind": 5,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "app = FastAPI(title=\"LinguAI Engnovate Bridge\", version=\"1.0.0\")\nENGNOVATE_BASE_URL = os.getenv(\"ENGNOVATE_BASE_URL\", \"https://engnovate.com\").rstrip(\"/\")\nCACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "ENGNOVATE_BASE_URL",
-        "kind": 5,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "ENGNOVATE_BASE_URL = os.getenv(\"ENGNOVATE_BASE_URL\", \"https://engnovate.com\").rstrip(\"/\")\nCACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "CACHE_DIR",
-        "kind": 5,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "CACHE_DIR = Path(os.getenv(\"SCRAPER_CACHE_DIR\", \".cache/engnovate\"))\nCACHE_DIR.mkdir(parents=True, exist_ok=True)\nCACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "CACHE_TTL_SECONDS",
-        "kind": 5,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "CACHE_TTL_SECONDS = int(os.getenv(\"SCRAPER_CACHE_TTL_SECONDS\", \"900\"))\nREQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "REQUEST_TIMEOUT",
-        "kind": 5,
-        "importPath": "backend.main",
-        "description": "backend.main",
-        "peekOfCode": "REQUEST_TIMEOUT = float(os.getenv(\"SCRAPER_REQUEST_TIMEOUT\", \"25\"))\ndef safe_cache_key(value: str) -> str:\n    return hashlib.sha256(value.encode(\"utf-8\")).hexdigest()\ndef cached_json_path(resource: str, query: str) -> Path:\n    return CACHE_DIR / f\"{safe_cache_key(f'{resource}:{query}')}.json\"\ndef read_cached_json(path: Path):\n    if not path.exists() or (path.stat().st_mtime + CACHE_TTL_SECONDS) < __import__(\"time\").time():\n        return None\n    return json.loads(path.read_text(encoding=\"utf-8\"))\ndef write_cached_json(path: Path, payload):",
-        "detail": "backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "media_url",
-        "kind": 2,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "def media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")\n    soup = BeautifulSoup(html, 'html.parser')",
-        "detail": "scripts.import-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "clean_html",
-        "kind": 2,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "def clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")\n    soup = BeautifulSoup(html, 'html.parser')\n    for tag in soup.select('script, style, iframe, object, embed, form, button, .ielts-reading-practice-section-button, .ielts-listening-practice-section-button'):\n        tag.decompose()\n    # Replace source drag/drop widgets with native accessible selects.\n    for zone in soup.select('.dnd-zone'):\n        field = zone.find('input')\n        if not field:\n            continue",
-        "detail": "scripts.import-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "main",
-        "kind": 2,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "def main():\n    destination = ROOT / 'public' / 'cambridge'\n    destination.mkdir(parents=True, exist_ok=True)\n    catalog = []\n    for file in sorted((ROOT / '.cache' / 'cambridge-import').glob('*.json')):\n        raw = json.loads(file.read_text(encoding='utf-8'))\n        resource, book, test = raw['resource'], raw['book'], raw['test']\n        if resource not in ('reading','listening') or not (1 <= book <= 99 and 1 <= test <= 4):\n            raise ValueError(f'Invalid identity: {file}')\n        expected = 3 if resource == 'reading' else 4",
-        "detail": "scripts.import-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "ROOT",
-        "kind": 5,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "ROOT = Path(__file__).resolve().parent.parent\nALLOWED = set('p div span strong em b i u s sub sup br hr h2 h3 h4 ul ol li table thead tbody tfoot tr td th caption blockquote img input label select option'.split())\nATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''",
-        "detail": "scripts.import-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "ALLOWED",
-        "kind": 5,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "ALLOWED = set('p div span strong em b i u s sub sup br hr h2 h3 h4 ul ol li table thead tbody tfoot tr td th caption blockquote img input label select option'.split())\nATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):",
-        "detail": "scripts.import-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "ATTRS",
-        "kind": 5,
-        "importPath": "scripts.import-cambridge",
-        "description": "scripts.import-cambridge",
-        "peekOfCode": "ATTRS = {'class', 'id', 'for', 'name', 'type', 'value', 'placeholder', 'aria-label', 'colspan', 'rowspan', 'scope', 'start', 'alt', 'src'}\ndef media_url(value, base):\n    url = urljoin(base, value)\n    parsed = urlparse(url)\n    host = parsed.hostname or ''\n    if parsed.scheme == 'https' and (host == 'engnovate.com' or host.endswith('.engnovate.com') or host == 'engnovatemedia.com' or host.endswith('.engnovatemedia.com') or host == 'i0.wp.com'):\n        return url\n    return ''\ndef clean_html(html, base, option_html=\"\"):\n    options_soup = BeautifulSoup(option_html, \"html.parser\")",
-        "detail": "scripts.import-cambridge",
+        "importPath": "scripts.import-cdi-batch",
+        "description": "scripts.import-cdi-batch",
+        "peekOfCode": "def signature(s):return sha(re.sub(r'\\W+',' ',text(s).lower()).strip().encode())\nbatch=json.loads(Path('.cache/new-papers-rendered.json').read_text(encoding='utf8'));singles=[];report=[]\nfor d in batch:\n if sha(Path(d['file']).read_bytes())!=d['sha256']:raise ValueError('Source changed')\n old=[json.loads(p.read_text(encoding='utf8')) for p in Path('public/practice').glob('*.json')]\n if any(t.get('provenance',{}).get('sourceFileSha256')==d['sha256'] for t in old):print('DUPLICATE',d['sourceFile']);continue\n if d['reading']:\n  passage=next(iter(d['PASSAGES'].values()));sections=sum(d['SECTIONS'].values(),[]);qs='';answers={}\n  if any(signature(p['passage'])==signature('<h2>'+passage['title']+'</h2>'+passage['content']) for t in old for p in t['parts']):print('DUPLICATE TEXT',d['sourceFile']);continue\n  for sec in sections:",
+        "detail": "scripts.import-cdi-batch",
         "documentation": {}
     },
     {
@@ -785,7 +479,7 @@
         "kind": 2,
         "importPath": "scripts.import-reading-paper",
         "description": "scripts.import-reading-paper",
-        "peekOfCode": "def clean(s):return ''.join(serialize(n) for n in Tree(s).root.children)\ndef text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json'),*Path('public/cambridge').glob('reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))",
+        "peekOfCode": "def clean(s):return ''.join(serialize(n) for n in Tree(s).root.children)\ndef text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))",
         "detail": "scripts.import-reading-paper",
         "documentation": {}
     },
@@ -794,7 +488,7 @@
         "kind": 2,
         "importPath": "scripts.import-reading-paper",
         "description": "scripts.import-reading-paper",
-        "peekOfCode": "def text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json'),*Path('public/cambridge').glob('reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return",
+        "peekOfCode": "def text(s):return html.unescape(' '.join(n.text for n in Tree(s).root.all())).strip()\ndef signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return",
         "detail": "scripts.import-reading-paper",
         "documentation": {}
     },
@@ -803,7 +497,7 @@
         "kind": 2,
         "importPath": "scripts.import-reading-paper",
         "description": "scripts.import-reading-paper",
-        "peekOfCode": "def signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json'),*Path('public/cambridge').glob('reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return\n number=max([i['number'] for i in catalog],default=0)+1;tid=f'practice-reading-{number}';parts=[];answers={};explanations={}",
+        "peekOfCode": "def signature(passages):return hashlib.sha256(re.sub(r'\\s+',' ',' '.join(text(p) for p in passages)).strip().lower().encode()).hexdigest()\ndef main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return\n number=max([i['number'] for i in catalog],default=0)+1;tid=f'practice-reading-{number}';parts=[];answers={};explanations={}",
         "detail": "scripts.import-reading-paper",
         "documentation": {}
     },
@@ -812,7 +506,7 @@
         "kind": 2,
         "importPath": "scripts.import-reading-paper",
         "description": "scripts.import-reading-paper",
-        "peekOfCode": "def main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json'),*Path('public/cambridge').glob('reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return\n number=max([i['number'] for i in catalog],default=0)+1;tid=f'practice-reading-{number}';parts=[];answers={};explanations={}\n def control(n,options=None):",
+        "peekOfCode": "def main():\n data=json.loads(Path('.cache/reading-paper.json').read_text(encoding='utf8'))\n cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')\n catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}\n sig=signature(p['content'] for p in data['PASSAGES'].values())\n for path in [*Path('public/practice').glob('practice-reading-*.json')]:\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return\n number=max([i['number'] for i in catalog],default=0)+1;tid=f'practice-reading-{number}';parts=[];answers={};explanations={}\n def control(n,options=None):",
         "detail": "scripts.import-reading-paper",
         "documentation": {}
     },
@@ -886,33 +580,6 @@
         "description": "scripts.import-static-listening",
         "peekOfCode": "def main():\n    parser=argparse.ArgumentParser();parser.add_argument('file');parser.add_argument('--check-only',action='store_true');args=parser.parse_args()\n    source=Path(args.file);blob=source.read_bytes();markup=blob.decode('utf-8-sig')\n    root=Tree(markup).root\n    panels=[n for n in root.all() if n.attrs.get('id') in {'part1','part2','part3','part4'}]\n    if len(panels)!=4:raise ValueError('Expected four question panels')\n    # The extraction step supplies literal answer data; bind it to this exact file.\n    data=json.loads(Path('.cache/static-listening-paper.json').read_text(encoding='utf8'))\n    if data.get('_sourceSha256')!=digest(blob):raise ValueError('Extracted data does not match the supplied file')\n    keys_path=Path('src/data/practice-listening-keys.json');catalog_path=Path('src/data/practice-listening-catalog.json')",
         "detail": "scripts.import-static-listening",
-        "documentation": {}
-    },
-    {
-        "label": "root",
-        "kind": 5,
-        "importPath": "scripts.verify-cambridge",
-        "description": "scripts.verify-cambridge",
-        "peekOfCode": "root = Path(__file__).resolve().parent.parent\nspec = importlib.util.spec_from_file_location('cambridge_import',root/'scripts/import-cambridge.py')\nmodule = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):",
-        "detail": "scripts.verify-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "spec",
-        "kind": 5,
-        "importPath": "scripts.verify-cambridge",
-        "description": "scripts.verify-cambridge",
-        "peekOfCode": "spec = importlib.util.spec_from_file_location('cambridge_import',root/'scripts/import-cambridge.py')\nmodule = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):\n    test=json.loads(path.read_text(encoding='utf-8'))",
-        "detail": "scripts.verify-cambridge",
-        "documentation": {}
-    },
-    {
-        "label": "module",
-        "kind": 5,
-        "importPath": "scripts.verify-cambridge",
-        "description": "scripts.verify-cambridge",
-        "peekOfCode": "module = importlib.util.module_from_spec(spec)\nspec.loader.exec_module(module)\nmalicious='<script>alert(1)</script><img src=\"javascript:alert(1)\" onerror=\"alert(1)\"><iframe src=\"https://evil.example\"></iframe><input name=\"ielts_reading_answer_1\" type=\"text\" onclick=\"alert(1)\"><p>Keep me</p>'\nclean=module.clean_html(malicious,'https://engnovate.com/')\nassert all(x not in clean for x in ('script','onerror','onclick','iframe'))\nassert 'Keep me' in clean and '<input' in clean\nreport={'tests':0,'parts':0,'audioParts':0,'images':0,'answerFields':0}\nfor path in (root/'public/cambridge').glob('*.json'):\n    test=json.loads(path.read_text(encoding='utf-8'))\n    raw_path=root/'.cache/cambridge-import'/path.name",
-        "detail": "scripts.verify-cambridge",
         "documentation": {}
     },
     {

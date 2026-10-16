@@ -28,7 +28,7 @@ for(const item of catalog) {
   const q=questions.find(q=>q.multiple);
   if(!q){assert.equal(scoreExam(exam,questions,{...answers,[questions[0].name]:'wrong'},key).correct,39);return;}
   const options=answers[q.name];
-  assert.equal(scoreExam(exam,questions,{...answers,[q.name]:[options[0]]},key).correct,39);
-  assert.equal(scoreExam(exam,questions,{...answers,[q.name]:[...options,'Z']},key).correct,38);
+  assert.equal(scoreExam(exam,questions,{...answers,[q.name]:[options[0]]},key).correct,40-options.length+1);
+  assert.equal(scoreExam(exam,questions,{...answers,[q.name]:[...options,'Z']},key).correct,40-options.length);
  });
 }
