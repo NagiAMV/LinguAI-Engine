@@ -1,0 +1,205 @@
+{
+  "practice-reading-1": {
+    "test": 1,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "TRUE"
+      ],
+      "2": [
+        "FALSE"
+      ],
+      "3": [
+        "TRUE"
+      ],
+      "4": [
+        "NOT GIVEN"
+      ],
+      "5": [
+        "TRUE"
+      ],
+      "6": [
+        "trust"
+      ],
+      "7": [
+        "computers"
+      ],
+      "8": [
+        "language"
+      ],
+      "9": [
+        "travel"
+      ],
+      "10": [
+        "memory"
+      ],
+      "11": [
+        "status"
+      ],
+      "12": [
+        "conversation"
+      ],
+      "13": [
+        "tradition"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "G"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "H"
+      ],
+      "18": [
+        "D"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "C"
+      ],
+      "21": [
+        "TRUE"
+      ],
+      "22": [
+        "FALSE"
+      ],
+      "23": [
+        "FALSE"
+      ],
+      "24": [
+        "TRUE"
+      ],
+      "25": [
+        "FALSE"
+      ],
+      "26": [
+        "FALSE"
+      ],
+      "27": [
+        "G"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "F"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "I"
+      ],
+      "32": [
+        "A"
+      ],
+      "33": [
+        "NO"
+      ],
+      "34": [
+        "NOT GIVEN"
+      ],
+      "35": [
+        "YES"
+      ],
+      "36": [
+        "NO"
+      ],
+      "37": [
+        "C"
+      ],
+      "38": [
+        "C"
+      ],
+      "39": [
+        "A"
+      ],
+      "40": [
+        "B"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": []
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "FULL READING TEST (5).html",
+        "reference": "FULL READING TEST (5).html"
+      },
+      {
+        "part": 2,
+        "type": "user-provided-html",
+        "label": "FULL READING TEST (5).html",
+        "reference": "FULL READING TEST (5).html"
+      },
+      {
+        "part": 3,
+        "type": "user-provided-html",
+        "label": "FULL READING TEST (5).html",
+        "reference": "FULL READING TEST (5).html"
+      }
+    ]
+  }
+}

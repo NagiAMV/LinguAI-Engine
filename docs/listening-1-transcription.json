@@ -1,0 +1,19 @@
+{
+  "test": 1,
+  "duration": 2241.9,
+  "model": "small.en",
+  "status": "draft-not-fully-audited",
+  "sectionStarts": [
+    0.0,
+    441.98,
+    834.96,
+    1235.88
+  ],
+  "segmentsPerPart": [
+    74,
+    54,
+    65,
+    54
+  ],
+  "uncertainSegments": []
+}

@@ -148,6 +148,46 @@
 .exam-flag { font-size: 18px; padding: 4px 8px; border: 0; }
 .exam-submit { min-height: 36px; height: 36px; padding: 0 18px; font-size: 12px; }
 .exam-workspace.listening { display: flex; flex-direction: column; }
+/* Imported papers share the player, typography and theme instead of their original page CSS. */
+.imported-listening .cd-content .instruction { margin: 20px 0; padding: 16px 20px; border-left: 3px solid var(--teal); background: var(--surface); }
+.imported-listening .cd-content h2, .imported-listening .cd-content h3 { margin: 24px 0 18px; }
+.imported-listening .cd-content .center-title { text-align: center; }
+.imported-listening .cd-content label { display: block; padding: 8px 4px; cursor: pointer; }
+.imported-listening .cd-content .q-card, .imported-listening .cd-content .checkbox-group { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.imported-listening .cd-content .q-row, .imported-listening .cd-content .matching-item, .imported-listening .cd-content .drag-item-row { display: flex; align-items: baseline; gap: 12px; margin: 14px 0; flex-wrap: wrap; }
+.imported-listening .cd-content .mi-label, .imported-listening .cd-content .drag-item-label { flex: 1; min-width: 150px; }
+.imported-listening .cd-content .matching-box, .imported-listening .cd-content .opt-box { border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin: 20px 0; }
+.imported-listening .cd-content .mb-row, .imported-listening .cd-content .eh-opt { display: flex; gap: 16px; margin: 8px 0; }
+.imported-listening .cd-content .mb-letter, .imported-listening .cd-content .eh-opt-l { font-weight: 700; }
+.imported-listening .cd-content .opt-letter { display: inline-block; font-weight: 700; margin: 0 10px; }
+.imported-listening .cd-content .q-pill, .imported-listening .cd-content .mi-num { display: none; }
+.imported-listening .cd-content .q-list { list-style: none; padding: 0; }
+.imported-listening .cd-content .q-list > li { margin: 24px 0; }
+.imported-listening .cd-content .floorplan-wrap img { display: block; width: 100%; max-width: 900px; height: auto; border-radius: 10px; }
+.imported-listening .cd-content .floorplan-caption { color: var(--muted); font-size: .85em; margin: 10px 0 24px; }
+.imported-listening .cd-content .subhead, .imported-listening .cd-content .opt-box-ttl { font-weight: 700; }
+.imported-listening .cd-content .ielts-listening-question-number { margin-right: 8px; }
+.imported-listening .cd-content .q-card > .ielts-listening-question-number { float: left; }
+.listening-practice-collection { margin-bottom: 36px; }
+.single-passage-exam .cd-content .para-tag, .single-passage-exam .cd-content .para-label { display: inline-block; font-weight: 700; margin-right: 10px; color: var(--teal-strong); }
+.single-passage-exam .cd-content .q-num { display: none; }
+.single-passage-exam .cd-content .lt { display: inline-block; min-width: 1.2em; margin-right: 7px; }
+.single-passage-exam .cd-content .opt label { display: block; padding: 4px 0; cursor: pointer; }
+.single-passage-exam .cd-content .passage-title { font-size: 1.2em; font-weight: 700; margin-bottom: 14px; }
+.single-passage-exam .cd-content .passage-subtitle { font-style: italic; margin-bottom: 24px; }
+.single-passage-exam .cd-content .flow-box { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.single-passage-exam .cd-content .flow-arrow { text-align: center; padding: 5px; }
+.single-passage-exam .cd-content .headlist, .single-passage-exam .cd-content .ref-box { padding: 16px; border: 1px solid var(--line); border-radius: 10px; margin: 18px 0; }
+.single-passage-exam .cd-content .headlist li { display: flex; gap: 12px; margin: 8px 0; }
+.single-passage-exam .cd-content .q-head, .single-passage-exam .cd-content .q-sub, .single-passage-exam .cd-content .notes-subhdr, .single-passage-exam .cd-content .flow-title { font-weight: 700; margin: 20px 0 12px; }
+.imported-listening .cd-content .passage-title, .imported-listening .cd-content .form-title, .imported-listening .cd-content .section-title { font-size: 1.15em; font-weight: 700; margin: 22px 0 14px; }
+.imported-listening .cd-content .q-range, .imported-listening .cd-content .sub-head { font-weight: 700; margin: 22px 0 10px; }
+.imported-listening .cd-content .q-instruction { padding: 16px; background: var(--surface); border-left: 3px solid var(--teal); }
+.imported-listening .cd-content .multi-block, .imported-listening .cd-content .ms-block { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.imported-listening .cd-content .multi-letter { font-weight: 700; margin: 0 10px; }
+.imported-listening .cd-content .match-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin: 18px 0; }
+.imported-listening .cd-content .match-row .mtext { flex: 1; min-width: 150px; }
+.imported-listening .cd-content .optbank-block { border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin: 20px 0; }
 .exam-workspace.listening .exam-recording-bar { height: auto; flex-shrink: 0; display: flex; align-items: center; justify-content: center; gap: 16px; padding: 8px 24px; background: #f0f4ec; overflow: visible; }
 .recording-label { font-size: 12px; color: var(--muted); }
 .exam-recording-bar audio { width: min(480px, 55vw); height: 36px; margin: 0; }
@@ -263,6 +303,7 @@
  .review-reading-panes > article { overflow: visible; padding: 18px 12px; }
  .review-reading-panes > article + article { border-left: 0; border-top: 1px solid var(--line); }
  .review-content table { display: block; overflow-x: auto; max-width: 100%; }
+ .review-content td:has(.review-inline-feedback) { min-width: min(360px, calc(100vw - 80px)); }
 }
 /* Exam-only display themes. */
 .cambridge-exam[data-theme=light] { --surface:#fffdfa; --surface-strong:#f6f1e8; --text:#19231f; --ink:#111714; --muted:#69766f; --line:#dfe5df; --line-strong:#bdc9c0; --teal:#3e7d74; --teal-strong:#32685f; --exam-canvas:#f0f3ee; color-scheme:light; }

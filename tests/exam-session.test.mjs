@@ -1,6 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { restoreSession, transition, remaining, countdown, DURATION } from '../src/components/content/exam-session.mjs';
+test('a supplied 40-minute paper keeps its own deadline across refresh and expires on time',()=>{
+ const ready=restoreSession({durationMs:40*60*1000});assert.equal(countdown(remaining(ready)),'40:00');
+ const started=transition(ready,{type:'start'},1000);assert.equal(started.deadline,2401000);
+ const saved=restoreSession(JSON.parse(JSON.stringify(started)),61000);assert.equal(countdown(remaining(saved,61000)),'39:00');
+ assert.equal(restoreSession(saved,started.deadline).phase,'expired');
+});
 test('legacy answers survive migration without an unexpected expiry', () => {
  const s=restoreSession({answers:{q:'paint'},startedAt:1,partIndex:2},10000000);
  assert.equal(s.phase,'ready'); assert.equal(s.answers.q,'paint'); assert.equal(s.partIndex,2);

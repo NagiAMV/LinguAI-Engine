@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {scoreExam} from '../src/components/content/exam-score.mjs';
+const catalog=JSON.parse(fs.readFileSync('src/data/single-passage-reading-catalog.json','utf8')),keys=JSON.parse(fs.readFileSync('src/data/single-passage-reading-keys.json','utf8'));
+for(const item of catalog)test(`${item.title}: source controls, numbering, 20 minutes and no extrapolated band`,()=>{
+ const exam=JSON.parse(fs.readFileSync('public/practice/'+item.id+'.json','utf8'));assert.equal(exam.parts.length,1);assert.equal(exam.durationMinutes,20);assert.equal(exam.backUrl,'/?view=reading&format=single');const part=exam.parts[0];assert.equal(part.fieldNames.length,item.questionCount);
+ const questions=part.fieldNames.map(name=>({name,id:part.fieldLabels[name],number:part.fieldLabels[name].replace('Question ',''),partIndex:0}));assert.deepEqual(questions.map(q=>+q.number),item.originalQuestionNumbers);
+ assert.doesNotMatch(part.passage+part.questions,/<script|\son\w+=|javascript:/i);
+ const key=keys[item.id];const answers=Object.fromEntries(questions.map(q=>{const group=key.parts[1].groups.find(g=>g.questions.includes(+q.number));return[q.name,group?group.acceptedSets[0].toReversed()[group.questions.indexOf(+q.number)]:key.answers[q.number][0]];}));const score=scoreExam(exam,questions,answers,key);assert.equal(score.correct,item.questionCount);assert.equal(score.total,item.questionCount);assert.equal(score.band,null);
+ for(const group of key.parts[1].groups){const repeated={...answers};for(const q of questions.filter(q=>group.questions.includes(+q.number)))repeated[q.name]=group.acceptedSets[0][0];assert.equal(scoreExam(exam,questions,repeated,key).correct,item.questionCount-2,'one repeated letter earns only one mark');}
+});

@@ -1,0 +1,65 @@
+{
+  "tests": [
+    {
+      "test": 1,
+      "duration": 2241.9,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 2,
+      "duration": 1704.277333,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 3,
+      "duration": 1437.926825,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 4,
+      "duration": 1854.6,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 5,
+      "duration": 1625.7,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 6,
+      "duration": 1497.1,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    }
+  ],
+  "catalogFirst": true
+}

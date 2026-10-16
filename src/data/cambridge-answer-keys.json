@@ -298,7 +298,7 @@
         "injury"
       ],
       "20": [
-        "nerves"
+        "serves"
       ],
       "21": [
         "excitement"
@@ -466,6 +466,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-19-reading-2-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-key-correction",
+        "label": "Passage and original printed key verification",
+        "reference": "docs/cambridge-19-reading-2-corrections.json"
       }
     ]
   },
@@ -14662,7 +14668,7 @@
         "F"
       ],
       "16": [
-        "F"
+        "E"
       ],
       "17": [
         "D"
@@ -14837,6 +14843,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-17-reading-1-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-key-correction",
+        "label": "Passage and reproduced original key verification",
+        "reference": "docs/cambridge-17-reading-1-corrections.json"
       }
     ]
   },
@@ -16117,13 +16129,13 @@
     "module": "reading",
     "answers": {
       "1": [
-        "B"
+        "D"
       ],
       "2": [
         "C"
       ],
       "3": [
-        "F"
+        "E"
       ],
       "4": [
         "B"
@@ -16222,7 +16234,7 @@
         "H"
       ],
       "36": [
-        "F"
+        "E"
       ],
       "37": [
         "B"
@@ -16337,6 +16349,18 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-18-reading-4-user-key.json"
+      },
+      {
+        "part": 1,
+        "type": "verified-key-correction",
+        "label": "Passage and reproduced original key verification",
+        "reference": "docs/cambridge-18-reading-4-corrections.json"
+      },
+      {
+        "part": 3,
+        "type": "verified-key-correction",
+        "label": "Passage and reproduced original key verification",
+        "reference": "docs/cambridge-18-reading-4-corrections.json"
       }
     ]
   },
@@ -16611,7 +16635,7 @@
         "A"
       ],
       "21": [
-        "F"
+        "E"
       ],
       "22": [
         "B"
@@ -16746,6 +16770,12 @@
         "type": "user-transcription",
         "label": "User-provided answer key transcription",
         "reference": "docs/cambridge-19-reading-4-user-key.json"
+      },
+      {
+        "part": 2,
+        "type": "verified-key-correction",
+        "label": "Passage and original printed key verification",
+        "reference": "docs/cambridge-19-reading-4-corrections.json"
       }
     ]
   },

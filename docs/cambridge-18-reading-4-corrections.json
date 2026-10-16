@@ -1,0 +1,42 @@
+{
+  "test": "reading-18-4",
+  "changes": [
+    {
+      "question": 1,
+      "previousAcceptedAnswers": [
+        "B"
+      ],
+      "acceptedAnswers": [
+        "D"
+      ]
+    },
+    {
+      "question": 3,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    },
+    {
+      "question": 36,
+      "previousAcceptedAnswers": [
+        "F"
+      ],
+      "acceptedAnswers": [
+        "E"
+      ]
+    }
+  ],
+  "evidence": {
+    "1": "Section D enumerates drainage, safety, access, planning and installation obstacles.",
+    "3": "Section E recommends studying and replicating success stories; F is not an available section.",
+    "36": "A small circle of scientists matches E, select group, rather than F, professional interests."
+  },
+  "sources": [
+    "https://www.scribd.com/document/822143050/Cambridge-IELTS-18-Academic-2"
+  ],
+  "printedPage": 124,
+  "verification": "Checked passage, question choices and reproduced printed answer key. Original user transcription retained."
+}

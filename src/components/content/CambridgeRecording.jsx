@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function CambridgeRecording({ part, position = 0, onPosition, sourceUrl, locked = false }) {
+export default function CambridgeRecording({ part, position = 0, onPosition, sourceUrl, locked = false, fullTest = false }) {
  const audio = useRef(null);
  const [sourceIndex, setSourceIndex] = useState(0);
  const [status, setStatus] = useState("Loading recording…");
@@ -14,9 +14,9 @@ export default function CambridgeRecording({ part, position = 0, onPosition, sou
   else setStatus("Could not load recording");
  }
  return <>
-  <span className="recording-label">Part {part.id} recording</span>
+  <span className="recording-label">{fullTest ? 'Full test recording · Parts 1–4' : `Part ${part.id} recording`}</span>
   {/* Inspect the file rather than assuming MP3: some sources actually contain AAC/M4A. */}
-  <audio ref={audio} src={urls[sourceIndex]} controls={!locked} preload="metadata" aria-label={`Part ${part.id} recording`}
+  <audio ref={audio} src={urls[sourceIndex]} controls={!locked} preload="metadata" aria-label={fullTest ? 'Full test recording' : `Part ${part.id} recording`}
    onLoadedMetadata={event => { if (resume.current > 0) event.currentTarget.currentTime = Math.min(resume.current, event.currentTarget.duration || resume.current); setStatus("Ready to play"); }}
    onPlay={event => { if (locked) event.currentTarget.pause(); else setStatus("Playing"); }}
    onPause={() => setStatus("Paused")} onEnded={() => setStatus("Recording ended")}

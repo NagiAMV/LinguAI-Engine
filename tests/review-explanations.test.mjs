@@ -116,7 +116,7 @@ test('Cambridge 4 Test 2 Q4 accepts the singular required by the original summar
 });
 
 
-for(const book of [5,6,7,8,9,10,11,12,13,14,15,16])test(`Cambridge ${book} covers all 160 Reading questions with bilingual reasoning and evidence`,()=>{
+for(const book of [5,6,7,8,9,10,11,12,13,14,15,16,17,18,19])test(`Cambridge ${book} covers all 160 Reading questions with bilingual reasoning and evidence`,()=>{
  const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
  let total=0;
  for(let number=1;number<=4;number++){
@@ -254,4 +254,17 @@ test('Cambridge 15 corrected question presentation matches grading and preserves
    assert.equal(reviewAnswer('bark',[7],keys[id]).status,'incorrect');
   }
  }
+});
+
+test('Cambridge 17-19 corrections match verified evidence and preserve previous key history',()=>{
+ const keys=JSON.parse(fs.readFileSync('src/data/cambridge-answer-keys.json','utf8'));
+ for(const [id,n,correct,old] of [['reading-17-1',16,'E','F'],['reading-18-4',1,'D','B'],['reading-18-4',3,'E','F'],['reading-18-4',36,'E','F'],['reading-19-2',20,'serves','nerves'],['reading-19-4',21,'E','F']]){
+  assert.equal(reviewAnswer(correct,[n],keys[id]).status,'correct',id+' '+n);
+  assert.equal(reviewAnswer(old,[n],keys[id]).status,'incorrect',id+' '+n);
+  const file='docs/cambridge-'+id.slice(8).replace('-','-reading-')+'-corrections.json';
+  const history=JSON.parse(fs.readFileSync(file,'utf8'));
+  const change=history.changes.find(c=>c.question===n);
+  assert.deepEqual(change.previousAcceptedAnswers,[old]);assert.deepEqual(change.acceptedAnswers,[correct]);
+ }
+ assert.equal(keys['reading-19-1'].answers['32'][0],'J');
 });

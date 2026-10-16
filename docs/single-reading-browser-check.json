@@ -1,0 +1,13 @@
+{
+  "passages": 8,
+  "questions": 106,
+  "correct": 106,
+  "durationMinutes": 20,
+  "band": null,
+  "languages": [
+    "en",
+    "uz"
+  ],
+  "mobile": true,
+  "catalog": true
+}

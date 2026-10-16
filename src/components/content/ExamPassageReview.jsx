@@ -43,12 +43,12 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
       const explanation=explanations[row.numbers];
       if(explanation?.part===part){
-        const quotes=explanation.quotes?.length?explanation.quotes:[explanation.quote];
+        const quotes=explanation.quotes?.length?explanation.quotes:explanation.quote?[explanation.quote]:[];
         summary.addEventListener('click',()=>{if(!detail.open)onEvidence(quotes,false);});
         if(explanation.location?.[language]){const location=document.createElement('p');location.className='review-evidence-location';location.textContent=(ru?'Где искать: ':'Where to look: ')+explanation.location[language];detail.append(location);}
-        for(const paragraph of explanation[language].split(/\n\s*\n/)){const text=document.createElement('p');text.className='review-tutor-paragraph';text.textContent=paragraph;detail.append(text);}
+        for(const paragraph of (explanation[language] || explanation.en || '').split(/\n\s*\n/)){const text=document.createElement('p');text.className='review-tutor-paragraph';text.textContent=paragraph;detail.append(text);}
         for(const citation of quotes){const quote=document.createElement('blockquote');quote.textContent=citation;detail.append(quote);}
-        const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);
+        if(quotes.length){const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);}
       }
       feedback.append(detail);
       (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
@@ -58,8 +58,9 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
 }
 
 export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [], explanations = {} }) {
-  const [language, setLanguage] = useState('ru');
-  useEffect(()=>{const saved=localStorage.getItem('linguai-review-language');if(['ru','en'].includes(saved))setLanguage(saved);},[]);
+  const languages = test.reviewLanguages || ['ru','en'];
+  const [language, setLanguage] = useState(languages[0]);
+  useEffect(()=>{const saved=localStorage.getItem('linguai-review-language');if(languages.includes(saved))setLanguage(saved);},[]);
   const [evidenceError, setEvidenceError] = useState('');
   const [partId, setPartId] = useState(initialRow?.part || test.parts[0].id);
   const [active, setActive] = useState(initialRow?.name || null);
@@ -96,11 +97,11 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     setJump(null);
   }, [jump, partId]);
   return <section ref={root} className="exam-passage-review" aria-label="Review passages and questions">
-    <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button><label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label><label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><label>Language <select aria-label="Explanation language" value={language} onChange={event=>{setLanguage(event.target.value);localStorage.setItem('linguai-review-language',event.target.value);}}><option value="ru">Русский</option><option value="en">English</option></select></label><button className="review-collapse-all" onClick={()=>root.current.querySelectorAll('details[data-explanation]').forEach(node=>node.open=false)}>{language==='ru'?'Свернуть все':'Collapse all'}</button><span>Read-only review</span></div>
+    <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button><label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label><label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><label>Language <select aria-label="Explanation language" value={language} onChange={event=>{setLanguage(event.target.value);localStorage.setItem('linguai-review-language',event.target.value);}}>{languages.map(code=><option key={code} value={code}>{code === 'ru' ? 'Русский' : code === 'uz' ? 'Uzbek' : 'English'}</option>)}</select></label><button className="review-collapse-all" onClick={()=>root.current.querySelectorAll('details[data-explanation]').forEach(node=>node.open=false)}>{language==='ru'?'Свернуть все':'Collapse all'}</button><span>Read-only review</span></div>
     {evidenceError&&<p role="status">{evidenceError}</p>}
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     <div className="review-reading-panes" key={part.id}>
-      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
+      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
       <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
     </div>
   </section>;

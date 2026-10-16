@@ -1,0 +1,20 @@
+{
+  "test": "reading-19-2",
+  "changes": [
+    {
+      "question": 20,
+      "previousAcceptedAnswers": [
+        "nerves"
+      ],
+      "acceptedAnswers": [
+        "serves"
+      ]
+    }
+  ],
+  "evidence": "Cortisol is associated with more unsuccessful serves; the question asks for fewer good serves. Nerves occurs in a different sentence.",
+  "sources": [
+    "https://quantumleap.edu.np/admin/images/book/20250811093445file-book-19-academic-finalpdf.pdf"
+  ],
+  "printedPage": 123,
+  "verification": "Passage and original printed key checked; page rendered and visually inspected. Raw user transcription retained."
+}

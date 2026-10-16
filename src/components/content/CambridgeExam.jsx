@@ -59,7 +59,7 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
 
 export default function CambridgeExam({ test, answerKey, explanations }) {
   const router = useRouter();
-  const backUrl = `/?view=${test.resource}&book=${test.book}`;
+  const backUrl = test.backUrl || `/?view=${test.resource}&book=${test.book}`;
   const [now, setNow] = useState(Date.now());
   const [modal, setModal] = useState(null);
   const [history, setHistory] = useState([]);
@@ -93,6 +93,7 @@ export default function CambridgeExam({ test, answerKey, explanations }) {
     const startedAt = Number.isFinite(saved.startedAt) && saved.startedAt > 0 ? saved.startedAt : Date.now();
     const restored = restoreSession({
       ...saved,
+      durationMs: (test.durationMinutes || 60) * 60 * 1000,
       answers: saved.answers && typeof saved.answers === "object" && !Array.isArray(saved.answers) ? saved.answers : {},
       partIndex, startedAt,
       finishedAt: Number.isFinite(saved.finishedAt) && saved.finishedAt >= startedAt ? saved.finishedAt : null,
@@ -165,7 +166,7 @@ export default function CambridgeExam({ test, answerKey, explanations }) {
     try { localStorage.setItem(storageKey + "-history", JSON.stringify(archive)); }
     catch { setSaveError("Could not archive this attempt. Your current answers have been kept."); setModal(null); return; }
     setHistory(archive);
-    persist(restoreSession({ activeQuestion: questions[0]?.id }));
+    persist(restoreSession({ activeQuestion: questions[0]?.id, durationMs: (test.durationMinutes || 60) * 60 * 1000 }));
     setModal(null);
   }
   useEffect(() => {
@@ -214,7 +215,7 @@ export default function CambridgeExam({ test, answerKey, explanations }) {
     if (question) update({ activeQuestion: question.id });
   }
   const fieldProps = { answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
-  return <main ref={shell} data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`cambridge-exam ${finishedAt ? "exam-finished" : ""}`}>
+  return <main ref={shell} data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`cambridge-exam ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.audioScope === 'test' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>
       <div className="exam-identity"><h1>{test.title}</h1><p>{label} · {finishedAt ? "Results" : `Part ${part.id}`}</p></div><span className="exam-saved" title={`${answered} of ${questions.length} answered · Saved on this device`} aria-label={`${answered} of ${questions.length} answered · Saved on this device`}>●</span>
@@ -223,10 +224,10 @@ export default function CambridgeExam({ test, answerKey, explanations }) {
       {finishedAt ? <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button> : null}
     </header>
     {(fullscreenMessage || saveError) && <div className="exam-status" role="status">{saveError || fullscreenMessage}{!saveError && <button aria-label="Dismiss message" onClick={() => setFullscreenMessage("")}>×</button>}</div>}
-    {session.phase === "ready" ? <section className="exam-start"><p className="section-kicker">Ready when you are</p><h2>{test.title}</h2><p>{label} · {test.parts.length} parts · 60 minutes</p><p>The timer begins when you press Start. It continues if you leave or refresh. At 00:00, editing stops and you can submit your saved answers.</p>{Object.keys(answers).length > 0 && <p>Your previous answers are preserved. Continue with them, or archive them and start a new attempt.</p>}<div><button className="button" onClick={() => { dispatch({ type: "start" }); if (!document.fullscreenElement) toggleFullscreen(); }}>{Object.keys(answers).length ? "Start with saved answers" : "Start Test"}</button>{Object.keys(answers).length > 0 && <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button>}</div></section> : finishedAt ? <ExamResults explanations={explanations} test={test} answerKey={answerKey} questions={questions} answers={answers} flags={flags} session={session} answered={answered} /> : <>
+    {session.phase === "ready" ? <section className="exam-start"><p className="section-kicker">Ready when you are</p><h2>{test.title}</h2><p>{label} · {test.parts.length} parts · {test.durationMinutes || 60} minutes</p><p>The timer begins when you press Start. It continues if you leave or refresh. At 00:00, editing stops and you can submit your saved answers.</p>{Object.keys(answers).length > 0 && <p>Your previous answers are preserved. Continue with them, or archive them and start a new attempt.</p>}<div><button className="button" onClick={() => { dispatch({ type: "start" }); if (!document.fullscreenElement) toggleFullscreen(); }}>{Object.keys(answers).length ? "Start with saved answers" : "Start Test"}</button>{Object.keys(answers).length > 0 && <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button>}</div></section> : finishedAt ? <ExamResults explanations={explanations} test={test} answerKey={answerKey} questions={questions} answers={answers} flags={flags} session={session} answered={answered} /> : <>
       <div ref={workspace} className={`cd-columns exam-workspace ${test.resource}`}>
-        <article className={`cd-pane ${test.resource === "listening" ? "exam-recording-bar" : ""}`} aria-label={test.resource === "reading" ? `Part ${part.id} passage` : `Part ${part.id} recording`} key={`content-${part.id}`}>
-          {test.resource === "listening" ? <Recording locked={locked} part={part} sourceUrl={test.sourceUrl} position={session.audioTimes[part.id] || 0} onPosition={(value) => { if (current.current.audioTimes[part.id] !== value) update({ audioTimes: { ...current.current.audioTimes, [part.id]: value } }); }} /> : <><AnswerFields html={part.passage} area="passage" {...fieldProps} /></>}
+        <article className={`cd-pane ${test.resource === "listening" ? "exam-recording-bar" : ""}`} aria-label={test.resource === "reading" ? `Part ${part.id} passage` : test.audioScope === 'test' ? 'Full test recording' : `Part ${part.id} recording`} key={test.audioScope === 'test' ? 'full-recording' : `content-${part.id}`}>
+          {test.resource === "listening" ? <Recording locked={locked} part={test.audioScope === 'test' ? test.parts[0] : part} fullTest={test.audioScope === 'test'} sourceUrl={test.sourceUrl} position={session.audioTimes[test.audioScope === 'test' ? 'full' : part.id] || 0} onPosition={(value) => { const audioId = test.audioScope === 'test' ? 'full' : part.id; if (current.current.audioTimes[audioId] !== value) update({ audioTimes: { ...current.current.audioTimes, [audioId]: value } }); }} /> : <><AnswerFields html={part.passage} area="passage" {...fieldProps} /></>}
         </article>
         <div className={`exam-divider ${test.resource === "listening" ? "exam-divider-hidden" : ""}`} role="separator" aria-label="Resize passage and questions" aria-orientation="vertical" aria-valuemin={30} aria-valuemax={70} aria-valuenow={split} tabIndex={locked ? -1 : 0} onKeyDown={(event) => { if (["ArrowLeft", "ArrowRight"].includes(event.key)) { event.preventDefault(); setSplit((value) => Math.max(30, Math.min(70, value + (event.key === "ArrowLeft" ? -2 : 2)))); } }} onPointerDown={(event) => event.currentTarget.setPointerCapture(event.pointerId)} onPointerMove={(event) => { if (event.currentTarget.hasPointerCapture(event.pointerId)) { const bounds = workspace.current.getBoundingClientRect(); setSplit(Math.max(30, Math.min(70, (event.clientX - bounds.left) / bounds.width * 100))); } }} onPointerUp={(event) => event.currentTarget.releasePointerCapture(event.pointerId)} />
         <article className="cd-pane" aria-label={`Part ${part.id} questions`} key={`questions-${part.id}`}><AnswerFields html={part.questions} area="questions" {...fieldProps} /></article>
