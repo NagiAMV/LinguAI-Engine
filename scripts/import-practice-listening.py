@@ -25,8 +25,12 @@ for source in json.loads(Path('.cache/practice-listening-batch.json').read_text(
     if node.attrs.get('type')=='radio':
      host=h['ancestor'](node,lambda c:'multi-choice-question' in cls(c));
      if not host:
-      host=node.parent.parent.parent
-      assert {c.attrs.get('name') for c in host.all() if c.tag=='input' and c.attrs.get('type')=='radio'}=={node.attrs.get('name')},'Review radio grouping'
+      host=node.parent
+      while host.parent:
+       names={c.attrs.get('name') for c in host.parent.all() if c.tag=='input' and c.attrs.get('type')=='radio'}
+       if names!={node.attrs.get('name')}:break
+       host=host.parent
+      assert host.parent and {c.attrs.get('name') for c in host.all() if c.tag=='input' and c.attrs.get('type')=='radio'}=={node.attrs.get('name')},'Review radio grouping'
      host.attrs['class']='multi-choice-question q-card'
   content,fields=adapt(''.join(raw(c) for c in panel.children),number,p,{})
   if len(fields)!=10-sum(len(g['questions'])-1 for g in groups if (g['questions'][0]-1)//10+1==p):raise ValueError(f'{source["sourceFile"]} part {p}: {len(fields)} fields')

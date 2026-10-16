@@ -14,5 +14,53 @@
     "partCount": 3,
     "questionCount": 40,
     "topics": "Animal minds: Parrot Alex · Father of Modern Management · The Art of Deception"
+  },
+  {
+    "id": "practice-reading-3",
+    "number": 3,
+    "title": "Test 3",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "Book Review: Triumph of the City · Bird Migration · Improving Patient Safety"
+  },
+  {
+    "id": "practice-reading-4",
+    "number": 4,
+    "title": "Test 4",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "The Burgess Shale fossils · The Future of Food Packaging · Mark Strizic"
+  },
+  {
+    "id": "practice-reading-5",
+    "number": 5,
+    "title": "Test 5",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "Renewable Energy · The Fruit Book · Petrol power: an eco-revolution?"
+  },
+  {
+    "id": "practice-reading-6",
+    "number": 6,
+    "title": "Test 6",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "Sydney Opera House · The history of salt · The Rainmaker design"
+  },
+  {
+    "id": "practice-reading-7",
+    "number": 7,
+    "title": "Test 7",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "The Whale Goes to Court · The Future of Food Packaging · Memory Champions … or just good at tricks"
+  },
+  {
+    "id": "practice-reading-8",
+    "number": 8,
+    "title": "Test 8",
+    "partCount": 3,
+    "questionCount": 40,
+    "topics": "The development of plastics · The Constant Evolution of the Humble Tomato · Research into the effects of different teaching styles"
   }
 ]

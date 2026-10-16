@@ -15,7 +15,7 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
  if hashlib.sha256(blob).hexdigest()!=source['sha256']:raise ValueError('Source changed')
  root=Tree(blob.decode('utf-8-sig')).root
  if source.get('PASSAGE_HTML'):
-  title=source['PASSAGE_TITLE'];passage=clean('<h2>'+html.escape(title)+'</h2>'+source['PASSAGE_HTML']);questions=source['questions']
+  title=html.unescape(source['PASSAGE_TITLE']);passage=clean('<h2>'+html.escape(title)+'</h2>'+source['PASSAGE_HTML']);questions=source['questions']
  else:
   left=next(n for n in root.all() if n.attrs.get('id')=='pane-left');right=next(n for n in root.all() if n.attrs.get('id')=='pane-right');title=plain(next(n for n in left.all() if 'passage-title' in cls(n)).text or raw(next(n for n in left.all() if 'passage-title' in cls(n))))
   passage=clean(''.join(raw(n) for n in left.children if not any(c in cls(n) for c in ['watermark','passage-label'])));questions=''.join(raw(n) for n in right.children)
@@ -38,9 +38,9 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
  markup,fields=adapt(''.join(raw(n) for n in tree.children),f'single_reading_{number}',1,{})
  if len(fields)!=len(source['ANSWERS']):raise ValueError('Incomplete controls')
  part={'id':1,'passage':passage,'questions':markup,'fieldNames':list(fields),'fieldLabels':fields};numbers=sorted(map(int,source['ANSWERS']))
- test={'id':tid,'resource':'reading','test':number,'title':title,'backUrl':'/?view=reading&format=single','durationMinutes':20,'reviewLanguages':['en','uz'],'parts':[part],'provenance':{'type':'user-provided-html','file':source['sourceFile'],'sourceFileSha256':source['sha256'],'passageTextSha256':sig,'rightsStatus':'not-established'}}
+ test={'id':tid,'resource':'reading','test':number,'title':title,'backUrl':'/?view=reading&format=single','durationMinutes':20,'reviewLanguages':source.get('reviewLanguages',['en','uz']),'parts':[part],'provenance':{'type':'user-provided-html','file':source['sourceFile'],'sourceFileSha256':source['sha256'],'passageTextSha256':sig,'rightsStatus':'not-established'}}
  Path(f'public/practice/{tid}.json').write_text(json.dumps(test,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
- groups=[{'questions':[11,12,13],'acceptedSets':[['C','D','E']]}] if source['sourceFile']=='William_Gilbert_and_Magnetism.html' else []
+ groups=[{'questions':[11,12,13],'acceptedSets':[['C','D','E']]}] if source['sourceFile']=='William_Gilbert_and_Magnetism.html' else source.get('groups',[])
  keys[tid]={'test':number,'module':'reading','answers':source['ANSWERS'],'parts':{'1':{'questionNumbers':numbers,'groups':groups}},'sources':[{'part':1,'type':'user-provided-html','label':source['sourceFile'],'reference':source['sourceFile']}]}
  entries={}
  for n,e in source['EXPLANATIONS'].items():

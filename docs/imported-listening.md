@@ -63,3 +63,17 @@ All nine Listening papers passed browser verification: 40/40 from their keys, pe
 ## Additional papers 10–11
 
 `Listening (7).html` and `Listening (8).html` were new and became Tests 10 and 11. Both include forty answers and four supplied transcripts. Local recordings have browser-verified durations 27:31.700 and 23:57.292. Test 10's final choose-two question is stored as one unordered group spanning 39–40; native matching selectors and original options remain available. The importer now supports the source variants' native selectors and radio containers. Both tests passed perfect-score grading, transcript display, persisted answers, continuous audio across parts, decoding near the recording's end and mobile width.
+
+
+## Additional papers 12–15
+
+| Test | Supplied file |
+| --- | --- |
+| 12 | FULL LISTENING (4).html |
+| 13 | Listening test 7.html |
+| 14 | Listening (25).html |
+| 15 | Listening (26).html |
+
+All four retain forty source answers and local recordings. Tests 13–15 have four supplied transcripts; Test 12 has an empty source transcript array and displays an explicit not-supplied message. `Listening (27).html` was skipped because its complete key and recording URL match existing Test 5. The Test 13 source uses MP4/AAC despite its `.mp3` file name; it was converted with ffmpeg/libmp3lame to a real MP3. Source and output audio hashes are recorded separately. The source's choose-two groups are preserved with unordered scoring. Native radio containers are adapted by their question name, keeping different questions separate. Existing papers were not modified.
+
+Batch validation: production build and all 84 Node tests passed. Browser checks passed for new papers, correct scoring, explanation display, saved answers, full audio playback and mobile width. Re-importing the batch left existing paper, catalog, key and explanation checksums unchanged.

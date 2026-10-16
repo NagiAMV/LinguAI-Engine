@@ -48,3 +48,16 @@ All 19 papers passed browser checks for perfect-score grading, both explanation 
 `Flower_Power.html` adds fourteen questions (27–40) and the supplied English/Uzbek explanations. All eight headings and the first/second/third study options are retained. The original drag-only heading assignment is represented by native selectors, with adapted instructions. The catalog now contains twenty single passages / 267 questions. Flower Power passed perfect-score grading, both explanation languages and mobile-width checks.
 
 `Full Reading Test (4).html` separately became full Reading Test 2, with three passages, forty questions, all headings and word-bank choices, supplied English/Uzbek explanations and unordered answer groups 23–24 and 25–26. Its browser check verified 40/40, review explanations and mobile width.
+
+
+## Additional Reading papers 21–23 and full Test 3
+
+| Single passage | Source | Questions |
+| --- | --- | --- |
+| 21 — In Deep Water | In_Deep_Water_P1_V3.html | 1–13 |
+| 22 — Mercator the Map Maker | Mercator_the_Map_Maker.html | 27–40 |
+| 23 — Brains Trust: Learning About Ourselves | Brains_Trust_Learning_About_Ourselves.html | 14–26 |
+
+Source alternatives, numbering and supplied English/Uzbek explanations are preserved. Source question helpers are limited to reviewed pure string templates, not page startup logic. `Full_Reading_Test_5 (2).html` separately became full Reading Test 3. Its headings, word bank and matching-features name bank are retained with native controls; its choose-two answers remain unordered. Source code, tracking and styles are not shipped. These are functional import checks, not a new editorial audit of the supplied answer keys.
+
+Batch validation: production build and all 84 Node tests passed. Browser checks passed for new papers, correct scoring, explanation display, saved answers, full audio playback and mobile width. Re-importing the batch left existing paper, catalog, key and explanation checksums unchanged.

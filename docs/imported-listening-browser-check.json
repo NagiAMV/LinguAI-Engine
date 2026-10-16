@@ -1,8 +1,8 @@
 {
   "tests": [
     {
-      "test": 10,
-      "duration": 1651.7,
+      "test": 12,
+      "duration": 1717.2,
       "questions": 40,
       "score": 40,
       "continuousAudio": true,
@@ -11,8 +11,28 @@
       "mobile": true
     },
     {
-      "test": 11,
-      "duration": 1437.291973,
+      "test": 13,
+      "duration": 1595.373424,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 14,
+      "duration": 1589.1,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    },
+    {
+      "test": 15,
+      "duration": 1674.4,
       "questions": 40,
       "score": 40,
       "continuousAudio": true,

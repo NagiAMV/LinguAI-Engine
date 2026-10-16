@@ -71,7 +71,7 @@ for d in batch:
   shared=sum(len(g['questions'])-1 for g in groups if (g['questions'][0]-1)//10+1==p)
   assert len(fields)==10-shared,(d['sourceFile'],p,len(fields))
   topics+=re.findall(r'<h2>(.*?)</h2>',markup)[:1]
-  parts.append({'id':p,'passage':clean(''.join(transcripts[p])),'questions':content,'fieldNames':list(fields),'fieldLabels':fields,'audioUrls':[f'/practice/assets/listening-{number}.mp3'],'sourceAudioUrl':d['audio']})
+  parts.append({'id':p,'passage':clean(''.join(transcripts[p])) or '<p>No transcript was included in the supplied file.</p>','transcriptStatus':'supplied' if transcripts[p] else 'not-supplied','questions':content,'fieldNames':list(fields),'fieldLabels':fields,'audioUrls':[f'/practice/assets/listening-{number}.mp3'],'sourceAudioUrl':d['audio']})
  fingerprint=signature(''.join(p['questions'] for p in parts))
  if any(signature(''.join(p['questions'] for p in t['parts']))==fingerprint for t in old if t['resource']=='listening'):print('DUPLICATE QUESTIONS',d['sourceFile']);continue
  dump('public/practice/'+tid+'.json',{'id':tid,'resource':'listening','test':number,'title':f'Listening · Test {number}','backUrl':'/?view=listening','audioScope':'test','durationMinutes':40,'parts':parts,'provenance':{'type':'user-provided-html','file':d['sourceFile'],'rightsStatus':'not-established','sourceFileSha256':d['sha256'],'questionTextSha256':fingerprint}})

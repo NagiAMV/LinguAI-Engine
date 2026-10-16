@@ -113,6 +113,30 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "base64,hashlib,html,json,re,runpy,sys",
         "kind": 6,
         "isExtraImport": true,
@@ -128,6 +152,15 @@
         "importPath": "hashlib.html.json.re.runpy.sys",
         "description": "hashlib.html.json.re.runpy.sys",
         "detail": "hashlib.html.json.re.runpy.sys",
+        "documentation": {}
+    },
+    {
+        "label": "json,re,html,hashlib,runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.re.html.hashlib.runpy",
+        "description": "json.re.html.hashlib.runpy",
+        "detail": "json.re.html.hashlib.runpy",
         "documentation": {}
     },
     {
@@ -193,6 +226,24 @@
         "documentation": {}
     },
     {
+        "label": "json,re,runpy,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.re.runpy.sys",
+        "description": "json.re.runpy.sys",
+        "detail": "json.re.runpy.sys",
+        "documentation": {}
+    },
+    {
+        "label": "base64,hashlib,html,json,re,runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64.hashlib.html.json.re.runpy",
+        "description": "base64.hashlib.html.json.re.runpy",
+        "detail": "base64.hashlib.html.json.re.runpy",
+        "documentation": {}
+    },
+    {
         "label": "argparse",
         "kind": 6,
         "isExtraImport": true,
@@ -208,6 +259,15 @@
         "importPath": "runpy",
         "description": "runpy",
         "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "json,re,runpy,html,hashlib,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.re.runpy.html.hashlib.sys",
+        "description": "json.re.runpy.html.hashlib.sys",
+        "detail": "json.re.runpy.html.hashlib.sys",
         "documentation": {}
     },
     {
@@ -375,6 +435,15 @@
         "documentation": {}
     },
     {
+        "label": "raw",
+        "kind": 2,
+        "importPath": "scripts.import-lhtml-listening",
+        "description": "scripts.import-lhtml-listening",
+        "peekOfCode": "def raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n return '<'+n.tag+''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\nd=next(d for d in json.loads(Path('.cache/rendered-27.json').read_text(encoding='utf8')) if 'L_HTML'in d);v=d['vars'];cp=Path('src/data/practice-listening-catalog.json');kp=Path('src/data/practice-listening-keys.json');catalog=json.loads(cp.read_text(encoding='utf8'));keys=json.loads(kp.read_text(encoding='utf8'))\nif any(json.loads(Path('public/practice/'+i['id']+'.json').read_text(encoding='utf8'))['provenance'].get('sourceFileSha256')==d['sha256'] for i in catalog):print('DUPLICATE',d['name']);raise SystemExit()\nnumber=max(i['number'] for i in catalog)+1;tid=f'practice-listening-{number}';groups={ '_'.join(map(str,g['nums'])):{'qs':g['nums'],'correct':g['answers']} for g in v['GROUPS']};parts=[];topics=[]\nfor p in range(1,5):\n root=Tree(d['L_HTML'][str(p)]).root\n for n in root.all():\n  if n.tag!='input':continue",
+        "detail": "scripts.import-lhtml-listening",
+        "documentation": {}
+    },
+    {
         "label": "Node",
         "kind": 6,
         "importPath": "scripts.import-listening-html",
@@ -483,6 +552,15 @@
         "documentation": {}
     },
     {
+        "label": "cell",
+        "kind": 2,
+        "importPath": "scripts.import-qsections-reading",
+        "description": "scripts.import-qsections-reading",
+        "peekOfCode": "def cell(value):\n if isinstance(value,list):return ''.join(cell(x) for x in value)\n return '{{'+re.sub(r'\\D','',value)+'}}' if isinstance(value,str) and re.fullmatch(r'q\\d+',value) else str(value)\nfor d in json.loads(Path('.cache/rendered-27.json').read_text(encoding='utf8')):\n v=d['vars']\n if 'QSECTIONS'not in v:continue\n data={'sourceFile':d['name'],'sourceSha256':d['sha256'],'SECTIONS':{},'PASSAGES':{},'READING_EXPLANATIONS':v['EXPLANATIONS']}\n for p,passage in enumerate(v['PASSAGES'],1):\n  data['PASSAGES'][str(p)]={'title':passage['title'],'content':passage['html']};sections=[]\n  for sec in v['QSECTIONS'][p-1]:",
+        "detail": "scripts.import-qsections-reading",
+        "documentation": {}
+    },
+    {
         "label": "clean",
         "kind": 2,
         "importPath": "scripts.import-reading-paper",
@@ -550,7 +628,7 @@
         "kind": 2,
         "importPath": "scripts.import-single-reading",
         "description": "scripts.import-single-reading",
-        "peekOfCode": "def signature(s):return hashlib.sha256(re.sub(r'\\W+',' ',plain(s).lower()).strip().encode()).hexdigest()\ncp=Path('src/data/single-passage-reading-catalog.json');kp=Path('src/data/single-passage-reading-keys.json');ep=Path('src/data/single-passage-reading-explanations.json')\ncatalog=json.loads(cp.read_text(encoding='utf8'));keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {};explanations=json.loads(ep.read_text(encoding='utf8')) if ep.exists() else {}\nfor source in json.loads(Path('.cache/single-reading-batch.json').read_text(encoding='utf8')):\n blob=Path(source['file']).read_bytes()\n if hashlib.sha256(blob).hexdigest()!=source['sha256']:raise ValueError('Source changed')\n root=Tree(blob.decode('utf-8-sig')).root\n if source.get('PASSAGE_HTML'):\n  title=source['PASSAGE_TITLE'];passage=clean('<h2>'+html.escape(title)+'</h2>'+source['PASSAGE_HTML']);questions=source['questions']\n else:",
+        "peekOfCode": "def signature(s):return hashlib.sha256(re.sub(r'\\W+',' ',plain(s).lower()).strip().encode()).hexdigest()\ncp=Path('src/data/single-passage-reading-catalog.json');kp=Path('src/data/single-passage-reading-keys.json');ep=Path('src/data/single-passage-reading-explanations.json')\ncatalog=json.loads(cp.read_text(encoding='utf8'));keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {};explanations=json.loads(ep.read_text(encoding='utf8')) if ep.exists() else {}\nfor source in json.loads(Path('.cache/single-reading-batch.json').read_text(encoding='utf8')):\n blob=Path(source['file']).read_bytes()\n if hashlib.sha256(blob).hexdigest()!=source['sha256']:raise ValueError('Source changed')\n root=Tree(blob.decode('utf-8-sig')).root\n if source.get('PASSAGE_HTML'):\n  title=html.unescape(source['PASSAGE_TITLE']);passage=clean('<h2>'+html.escape(title)+'</h2>'+source['PASSAGE_HTML']);questions=source['questions']\n else:",
         "detail": "scripts.import-single-reading",
         "documentation": {}
     },
@@ -588,6 +666,78 @@
         "description": "scripts.import-static-listening",
         "peekOfCode": "def main():\n    parser=argparse.ArgumentParser();parser.add_argument('file');parser.add_argument('--check-only',action='store_true');args=parser.parse_args()\n    source=Path(args.file);blob=source.read_bytes();markup=blob.decode('utf-8-sig')\n    root=Tree(markup).root\n    panels=[n for n in root.all() if n.attrs.get('id') in {'part1','part2','part3','part4'}]\n    if len(panels)!=4:raise ValueError('Expected four question panels')\n    # The extraction step supplies literal answer data; bind it to this exact file.\n    data=json.loads(Path('.cache/static-listening-paper.json').read_text(encoding='utf8'))\n    if data.get('_sourceSha256')!=digest(blob):raise ValueError('Extracted data does not match the supplied file')\n    keys_path=Path('src/data/practice-listening-keys.json');catalog_path=Path('src/data/practice-listening-catalog.json')",
         "detail": "scripts.import-static-listening",
+        "documentation": {}
+    },
+    {
+        "label": "raw",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n return '<'+n.tag+''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef text(n):return ' '.join(c.text for c in n.all()).strip()\ndef parse_num(n):\n value=n.attrs.get('data-lq') or n.attrs.get('data-qnum') or n.attrs.get('data-q') or n.attrs.get('data-n') or n.attrs.get('name') or n.attrs.get('id','');m=re.findall(r'\\d+',value);return int(m[0]) if m else None\ndef host_num(n):\n while n:\n  v=n.attrs.get('id','');m=re.search(r'(?:qblock|qtarget|qcard|tfnblock|parablock|matchblock|qb|mcq|q)[-_]?(\\d+)',v)\n  if m:return int(m[1])",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def text(n):return ' '.join(c.text for c in n.all()).strip()\ndef parse_num(n):\n value=n.attrs.get('data-lq') or n.attrs.get('data-qnum') or n.attrs.get('data-q') or n.attrs.get('data-n') or n.attrs.get('name') or n.attrs.get('id','');m=re.findall(r'\\d+',value);return int(m[0]) if m else None\ndef host_num(n):\n while n:\n  v=n.attrs.get('id','');m=re.search(r'(?:qblock|qtarget|qcard|tfnblock|parablock|matchblock|qb|mcq|q)[-_]?(\\d+)',v)\n  if m:return int(m[1])\n  if n.attrs.get('data-qnum'):return int(n.attrs['data-qnum'])\n  n=n.parent\n return None",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "parse_num",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def parse_num(n):\n value=n.attrs.get('data-lq') or n.attrs.get('data-qnum') or n.attrs.get('data-q') or n.attrs.get('data-n') or n.attrs.get('name') or n.attrs.get('id','');m=re.findall(r'\\d+',value);return int(m[0]) if m else None\ndef host_num(n):\n while n:\n  v=n.attrs.get('id','');m=re.search(r'(?:qblock|qtarget|qcard|tfnblock|parablock|matchblock|qb|mcq|q)[-_]?(\\d+)',v)\n  if m:return int(m[1])\n  if n.attrs.get('data-qnum'):return int(n.attrs['data-qnum'])\n  n=n.parent\n return None\ndef select(n,values):",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "host_num",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def host_num(n):\n while n:\n  v=n.attrs.get('id','');m=re.search(r'(?:qblock|qtarget|qcard|tfnblock|parablock|matchblock|qb|mcq|q)[-_]?(\\d+)',v)\n  if m:return int(m[1])\n  if n.attrs.get('data-qnum'):return int(n.attrs['data-qnum'])\n  n=n.parent\n return None\ndef select(n,values):\n node=Node('select',{'data-lq':str(n)});node.add(Node('option',{'value':''},'Choose an answer'))\n for v in values:node.add(Node('option',{'value':str(v)},str(v)))",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def select(n,values):\n node=Node('select',{'data-lq':str(n)});node.add(Node('option',{'value':''},'Choose an answer'))\n for v in values:node.add(Node('option',{'value':str(v)},str(v)))\n return node\ndef normkeys(v):\n answers={}\n for key in ['CORRECT','ANSWERS','correctAnswers','PEOPLE_CORRECT','YN_CORRECT','DATE_CORRECT','TFNG_CORRECT','SC_ACCEPT']:\n  for n,a in v.get(key,{}).items():\n   if not re.fullmatch(r'q?\\d+',str(n)):continue\n   answers[str(int(re.sub(r'\\D','',str(n))))]=a if isinstance(a,list) else str(a).split('|')",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "normkeys",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def normkeys(v):\n answers={}\n for key in ['CORRECT','ANSWERS','correctAnswers','PEOPLE_CORRECT','YN_CORRECT','DATE_CORRECT','TFNG_CORRECT','SC_ACCEPT']:\n  for n,a in v.get(key,{}).items():\n   if not re.fullmatch(r'q?\\d+',str(n)):continue\n   answers[str(int(re.sub(r'\\D','',str(n))))]=a if isinstance(a,list) else str(a).split('|')\n for key,value in v.items():\n  if isinstance(value,list):\n   for q in value:\n    if not isinstance(q,dict) or not isinstance(q.get('id'),int):continue",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "grams",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def grams(s):\n words=re.findall(r'\\w+',html.unescape(s).lower());words=[w for w in words if len(w)>1];return set(zip(*(words[i:] for i in range(5))))\ndef existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))",
+        "detail": "scripts.prepare-varied-reading-batch",
+        "documentation": {}
+    },
+    {
+        "label": "existing_match",
+        "kind": 2,
+        "importPath": "scripts.prepare-varied-reading-batch",
+        "description": "scripts.prepare-varied-reading-batch",
+        "peekOfCode": "def existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))\n return best\nout=[];duplicates=[]",
+        "detail": "scripts.prepare-varied-reading-batch",
         "documentation": {}
     },
     {

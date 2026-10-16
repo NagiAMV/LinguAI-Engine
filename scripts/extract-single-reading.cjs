@@ -6,7 +6,7 @@ const result=process.argv.slice(2).map(file=>{
   const code=match[1],vars=new Map();function walk(n){if(!n||typeof n!=='object')return;if(n.type==='VariableDeclarator')vars.set(n.id.name,n.init);for(const v of Object.values(n))if(Array.isArray(v))v.forEach(walk);else if(v&&typeof v==='object')walk(v);}walk(parse(code));
   for(const name of ['ANSWERS','EXPLANATIONS','HIGHLIGHTS','PASSAGE_HTML','PASSAGE_TITLE'])if(vars.has(name))data[name]=literal(vars.get(name));
   if(vars.has('QUESTIONS_HTML')){
-   const names=['LETTERS','PARAS','ROW','MCQ','YNNG','TFNG','endSel','PEOPLE','HEAD_OPTS','headSel','THREE_OPTS','threeBox','paraSel','eventSel','G','WORD','SA','QUESTIONS_HTML'].filter(n=>vars.has(n));const selected=names.map(n=>`const ${n}=${code.slice(vars.get(n).start,vars.get(n).end)};`).join('\n');
+   const names=['LETTER_OPTS','WRITER_OPTS','gapItem','letterSel','writerSel','LETTERS','PARAS','ROW','MCQ','YNNG','TFNG','endSel','PEOPLE','HEAD_OPTS','headSel','THREE_OPTS','threeBox','paraSel','eventSel','G','WORD','SA','QUESTIONS_HTML'].filter(n=>vars.has(n));const selected=names.map(n=>`const ${n}=${code.slice(vars.get(n).start,vars.get(n).end)};`).join('\n');
    // Reviewed pure option/row templates, with no page startup code or event handlers.
    data.questions=vm.runInNewContext(selected+'\nQUESTIONS_HTML',{}, {timeout:1000,contextCodeGeneration:{strings:false,wasm:false}});
   }
