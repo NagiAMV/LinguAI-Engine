@@ -58,3 +58,8 @@ All three include four supplied transcripts. Recordings are stored locally; sour
 Use `node scripts/extract-cdi-batch.cjs <supplied HTML paths...>` followed by `python scripts/import-cdi-batch.py`. The extractor reads literal data and only reviewed string-template Listening helpers in an isolated context; original startup logic, tracking, styles and event handlers are not shipped. Download audio from the extracted source URLs before verification. Source hashes prevent repeat imports. Reading data uses the existing single-passage importer.
 
 All nine Listening papers passed browser verification: 40/40 from their keys, persistent answers, full audio metadata and decoding near the end, continuous playback when switching parts, supplied transcripts in review and mobile width. All 63 Node tests passed; the production build succeeded.
+
+
+## Additional papers 10–11
+
+`Listening (7).html` and `Listening (8).html` were new and became Tests 10 and 11. Both include forty answers and four supplied transcripts. Local recordings have browser-verified durations 27:31.700 and 23:57.292. Test 10's final choose-two question is stored as one unordered group spanning 39–40; native matching selectors and original options remain available. The importer now supports the source variants' native selectors and radio containers. Both tests passed perfect-score grading, transcript display, persisted answers, continuous audio across parts, decoding near the recording's end and mobile width.

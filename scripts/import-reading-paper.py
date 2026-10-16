@@ -30,24 +30,29 @@ def main():
     blocks.append('<div class="reading-word-bank">'+''.join('<p><strong>'+b['id']+'</strong> '+b['word']+'</p>' for b in sec['bank'])+'</div>')
     blocks.append('<p>'+re.sub(r'\{\{(\d+)\}\}',lambda m:control(int(m[1]),[b['id'] for b in sec['bank']]),sec['prose'])+'</p>')
    else:
+    if kind=='matching-headings':
+     blocks.append('<h3>List of Headings</h3><ul>'+''.join('<li>'+v['id']+'. '+v['text']+'</li>' for v in data['PASSAGES'][str(p)]['headings'])+'</ul>')
+    if kind=='mcq-multi':
+     blocks.append('<p>'+sec.get('prompt','')+'</p><ul>'+''.join('<li>'+o['l']+'. '+o['t']+'</li>' for o in sec['options'])+'</ul>')
     if kind in {'tfng','ynng'}:blocks.append('<p>'+('TRUE / FALSE / NOT GIVEN' if kind=='tfng' else 'YES / NO / NOT GIVEN')+'</p>')
     for item in items:
      n=item['id'];label=item.get('label','')
+     if kind=='matching-headings':label='Paragraph '+chr(65+items.index(item))
      if kind=='mcq':
       name=f'practice_reading_{number}_{n}'
       blocks.append(f'<div class="ielts-reading-question-item"><p><strong class="ielts-reading-question-number">{n}</strong> {label}</p>'+''.join(f'<label><input type="radio" name="{name}" aria-label="Question {n}: {o[0]}" value="{o[0]}"> {o}</label>' for o in item['options'])+'</div>')
      else:
-      options=['TRUE','FALSE','NOT GIVEN'] if kind=='tfng' else ['YES','NO','NOT GIVEN'] if kind=='ynng' else sec.get('paragraphs')
+      options=[v['id'] for v in data['PASSAGES'][str(p)]['headings']] if kind=='matching-headings' else [v['l'] for v in sec['options']] if kind=='mcq-multi' else ['TRUE','FALSE','NOT GIVEN'] if kind=='tfng' else ['YES','NO','NOT GIVEN'] if kind=='ynng' else sec.get('paragraphs')
       blocks.append('<p>'+label+' '+control(n,options)+' '+item.get('after','')+'</p>')
    for item in items:
-    n=item['id'];fields[f'practice_reading_{number}_{n}']=f'Question {n}';answers[str(n)]=item['answer'] if isinstance(item['answer'],list) else [item['answer']]
+    n=item['id'];fields[f'practice_reading_{number}_{n}']=f'Question {n}';answers[str(n)]=item['answer'] if isinstance(item['answer'],list) else item['answer'].split('|')
     source=data['READING_EXPLANATIONS'].get(str(n),{});quotes=[html.unescape(q) for q in source.get('highlights',[]) if text(data['PASSAGES'][str(p)]['content']).count(html.unescape(q))==1]
     explanations[str(n)]={'part':p,'en':text(source.get('en',source.get('explanation',''))),'uz':text(source.get('uz','')),'quotes':quotes}
   passage=data['PASSAGES'][str(p)];parts.append({'id':p,'passage':clean('<h2>'+passage['title']+'</h2>'+passage['content']),'questions':clean(''.join(blocks)),'fieldNames':list(fields),'fieldLabels':fields})
  test={'id':tid,'resource':'reading','test':number,'title':f'Reading · Test {number}','backUrl':'/?view=reading','durationMinutes':60,'reviewLanguages':['en','uz'],'parts':parts,'provenance':{'type':'user-provided-html','file':data['sourceFile'],'sourceFileSha256':data['sourceSha256'],'passageTextSha256':sig,'rightsStatus':'not-established'}}
  Path(f'public/practice/{tid}.json').write_text(json.dumps(test,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
- keys[tid]={'test':number,'module':'reading','answers':answers,'parts':{str(p):{'questionNumbers':[int(n.replace('Question ','')) for n in part['fieldLabels'].values()],'groups':[]} for p,part in enumerate(parts,1)},'sources':[{'part':p,'type':'user-provided-html','label':data['sourceFile'],'reference':data['sourceFile']} for p in range(1,4)]}
- catalog.append({'id':tid,'number':number,'title':f'Test {number}','partCount':3,'questionCount':40,'topics':'Business cards · Deserts · Communicating through art'})
+ keys[tid]={'test':number,'module':'reading','answers':answers,'parts':{str(p):{'questionNumbers':[int(n.replace('Question ','')) for n in part['fieldLabels'].values()],'groups':[{'questions':[it['id'] for it in sec['items']],'acceptedSets':[[it['answer'] for it in sec['items']]]} for sec in data['SECTIONS'][str(p)] if sec['type']=='mcq-multi']} for p,part in enumerate(parts,1)},'sources':[{'part':p,'type':'user-provided-html','label':data['sourceFile'],'reference':data['sourceFile']} for p in range(1,4)]}
+ catalog.append({'id':tid,'number':number,'title':f'Test {number}','partCount':3,'questionCount':40,'topics':' · '.join(html.unescape(v['title']) for v in data['PASSAGES'].values())})
  ep=Path('src/data/practice-reading-explanations.json');all_explanations=json.loads(ep.read_text(encoding='utf8')) if ep.exists() else {};all_explanations[tid]=explanations
  for path,value in [(cp,catalog),(kp,keys),(ep,all_explanations)]:path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  print(f'Imported Reading Test {number}: three passages, 40 questions and supplied English/Uzbek explanations.')

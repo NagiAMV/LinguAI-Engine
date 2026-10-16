@@ -41,3 +41,10 @@ Browser checks cover all 26 controls, 13/13 scores, twenty-minute timers, EN/UZ 
 These nine supplied papers add 120 questions (19 passages / 253 questions total). Literal SECTIONS, PASSAGES and READING_EXPLANATIONS data are extracted without running page startup scripts. Question types become native controls; summary order, answer alternatives, all eight Images and Places headings, original numbering, English/Uzbek explanations and matching exact quotations are retained. Each passage has the existing 20-minute single-passage timer and no extrapolated band. New passages appear directly in the compact Reading grid.
 
 All 19 papers passed browser checks for perfect-score grading, both explanation languages and mobile width. Re-importing the full twelve-file batch rejected every source as a duplicate and left all paper/catalog/key/explanation hashes unchanged. This verifies import behaviour, not an independent editorial audit of every source answer.
+
+
+## Flower Power (20)
+
+`Flower_Power.html` adds fourteen questions (27–40) and the supplied English/Uzbek explanations. All eight headings and the first/second/third study options are retained. The original drag-only heading assignment is represented by native selectors, with adapted instructions. The catalog now contains twenty single passages / 267 questions. Flower Power passed perfect-score grading, both explanation languages and mobile-width checks.
+
+`Full Reading Test (4).html` separately became full Reading Test 2, with three passages, forty questions, all headings and word-bank choices, supplied English/Uzbek explanations and unordered answer groups 23–24 and 25–26. Its browser check verified 40/40, review explanations and mobile width.

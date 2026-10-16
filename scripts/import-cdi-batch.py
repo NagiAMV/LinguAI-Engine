@@ -43,7 +43,7 @@ for d in batch:
    ex[n]={'en':text(e['en']),'uz':text(e['uz'])}
    high.extend({'q':n,'txt':text(q)} for q in e.get('highlights',[]))
   singles.append({**d,'PASSAGE_TITLE':html.unescape(passage['title']),'PASSAGE_HTML':passage['content'],'questions':qs,'ANSWERS':answers,'EXPLANATIONS':ex,'HIGHLIGHTS':high});continue
- catalog=json.loads(Path('src/data/practice-listening-catalog.json').read_text());keys=json.loads(Path('src/data/practice-listening-keys.json').read_text());number=max(i['number'] for i in catalog)+1;tid=f'practice-listening-{number}';parts=[];groups=[];answers={n:v.split('|') for n,v in d['LISTENING_ANSWERS'].items()};transcripts={p:[] for p in range(1,5)};p=1
+ catalog=json.loads(Path('src/data/practice-listening-catalog.json').read_text(encoding='utf8'));keys=json.loads(Path('src/data/practice-listening-keys.json').read_text(encoding='utf8'));number=max(i['number'] for i in catalog)+1;tid=f'practice-listening-{number}';parts=[];groups=[];answers={n:v.split('|') for n,v in d['LISTENING_ANSWERS'].items()};transcripts={p:[] for p in range(1,5)};p=1
  for line in d['TRANSCRIPT']:
   if line.get('type')=='break':p=int(re.search(r'Part (\d)',line['label'])[1]);continue
   transcripts[p].append('<p><strong>'+html.escape(line.get('sp',''))+':</strong> '+html.escape(line.get('tx',''))+'</p>')

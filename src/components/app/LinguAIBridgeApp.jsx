@@ -1,10 +1,14 @@
 "use client";
 
+import dynamic from "next/dynamic";
+
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 import PracticeLibrary from "@/components/content/PracticeLibrary";
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
+
+const SpeakingHub = dynamic(() => import("@/components/speaking-hub"));
 
 const navigation = [
   { id: "overview", label: "Overview", icon: "⌂" },
@@ -1233,7 +1237,7 @@ export default function LinguAIBridgeApp() {
         {activeView === "writing" && (
           <SkillStudio key="writing" skill="writing" />
         )}
-        {activeView === "speaking" && <SpeakingStudio key="speaking" />}
+        {activeView === "speaking" && <SpeakingHub><SpeakingStudio key="speaking" /></SpeakingHub>}
       </div>
     </div>
   );

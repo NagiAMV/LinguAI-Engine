@@ -1477,5 +1477,82 @@
         "reference": "Sign Baby Sign - Passage 3.html"
       }
     ]
+  },
+  "single-reading-20": {
+    "test": 20,
+    "module": "reading",
+    "answers": {
+      "27": [
+        "v"
+      ],
+      "28": [
+        "iv"
+      ],
+      "29": [
+        "vii"
+      ],
+      "30": [
+        "ii"
+      ],
+      "31": [
+        "viii"
+      ],
+      "32": [
+        "vi"
+      ],
+      "33": [
+        "iii"
+      ],
+      "34": [
+        "B"
+      ],
+      "35": [
+        "A"
+      ],
+      "36": [
+        "C"
+      ],
+      "37": [
+        "B"
+      ],
+      "38": [
+        "food"
+      ],
+      "39": [
+        "children"
+      ],
+      "40": [
+        "edible"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "C:\\Users\\user\\Downloads\\Telegram Desktop\\Flower_Power.html",
+        "reference": "C:\\Users\\user\\Downloads\\Telegram Desktop\\Flower_Power.html"
+      }
+    ]
   }
 }

@@ -201,5 +201,241 @@
         "reference": "FULL READING TEST (5).html"
       }
     ]
+  },
+  "practice-reading-2": {
+    "test": 2,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "NOT GIVEN"
+      ],
+      "2": [
+        "NOT GIVEN"
+      ],
+      "3": [
+        "FALSE"
+      ],
+      "4": [
+        "TRUE"
+      ],
+      "5": [
+        "TRUE"
+      ],
+      "6": [
+        "FALSE"
+      ],
+      "7": [
+        "100 English words",
+        "one hundred English words",
+        "English words"
+      ],
+      "8": [
+        "chimpanzees",
+        "chimps",
+        "chimpanzee"
+      ],
+      "9": [
+        "avian cognition"
+      ],
+      "10": [
+        "particularly chosen",
+        "especially smart"
+      ],
+      "11": [
+        "color",
+        "colour",
+        "co-lor"
+      ],
+      "12": [
+        "wrong pronunciation"
+      ],
+      "13": [
+        "teenager",
+        "a teenager"
+      ],
+      "14": [
+        "i"
+      ],
+      "15": [
+        "v"
+      ],
+      "16": [
+        "ix"
+      ],
+      "17": [
+        "vi"
+      ],
+      "18": [
+        "ii"
+      ],
+      "19": [
+        "viii"
+      ],
+      "20": [
+        "NOT GIVEN"
+      ],
+      "21": [
+        "YES"
+      ],
+      "22": [
+        "NO"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "E"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "B"
+      ],
+      "31": [
+        "B"
+      ],
+      "32": [
+        "C"
+      ],
+      "33": [
+        "E"
+      ],
+      "34": [
+        "H"
+      ],
+      "35": [
+        "D"
+      ],
+      "36": [
+        "F"
+      ],
+      "37": [
+        "NOT GIVEN"
+      ],
+      "38": [
+        "NO"
+      ],
+      "39": [
+        "NOT GIVEN"
+      ],
+      "40": [
+        "YES"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": [
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              25,
+              26
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "Full Reading Test (4).html",
+        "reference": "Full Reading Test (4).html"
+      },
+      {
+        "part": 2,
+        "type": "user-provided-html",
+        "label": "Full Reading Test (4).html",
+        "reference": "Full Reading Test (4).html"
+      },
+      {
+        "part": 3,
+        "type": "user-provided-html",
+        "label": "Full Reading Test (4).html",
+        "reference": "Full Reading Test (4).html"
+      }
+    ]
   }
 }
