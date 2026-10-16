@@ -20,7 +20,7 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
   left=next(n for n in root.all() if n.attrs.get('id')=='pane-left');right=next(n for n in root.all() if n.attrs.get('id')=='pane-right');title=plain(next(n for n in left.all() if 'passage-title' in cls(n)).text or raw(next(n for n in left.all() if 'passage-title' in cls(n))))
   passage=clean(''.join(raw(n) for n in left.children if not any(c in cls(n) for c in ['watermark','passage-label'])));questions=''.join(raw(n) for n in right.children)
  sig=signature(passage);duplicate=None
- for path in [*Path('public/practice').glob('*.json'),*Path('public/cambridge').glob('reading-*.json')]:
+ for path in [*Path('public/practice').glob('*.json')]:
   old=json.loads(path.read_text(encoding='utf8'))
   if old.get('provenance',{}).get('sourceFileSha256')==source['sha256'] or any(signature(p['passage'])==sig for p in old['parts']):duplicate=old['title'];break
  if duplicate:print('DUPLICATE:',source['sourceFile'],'matches',duplicate);continue

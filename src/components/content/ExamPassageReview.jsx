@@ -1,7 +1,7 @@
 "use client";
 import { evidenceRange } from "./review-evidence.mjs";
 import TextHighlights from "./TextHighlights";
-import CambridgeRecording from "./CambridgeRecording";
+import AudioRecording from "./AudioRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
@@ -101,7 +101,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     {evidenceError&&<p role="status">{evidenceError}</p>}
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     <div className="review-reading-panes" key={part.id}>
-      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <CambridgeRecording key={partId} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
+      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording key={partId} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
       <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
     </div>
   </section>;

@@ -1,46 +1,11 @@
-import { NextResponse } from "next/server";
-
-import importedCatalog from "@/data/cambridge-import.json";
-
-import { fetchEngnovateResource } from "@/lib/engnovate";
-
-const resourceTypes = new Set(["listening", "reading", "writing", "speaking"]);
-
-export async function GET(request) {
-  const params = new URL(request.url).searchParams;
-  const type = params.get("type") || "listening";
-  const query = params.get("query") || "";
-
-  if (!resourceTypes.has(type)) {
-    return NextResponse.json(
-      { error: "Unsupported content type." },
-      { status: 400 },
-    );
-  }
-
-  if (type === "reading" || type === "listening") {
-    const items = importedCatalog.items.filter((item) => item.resource === type && `${item.title} ${item.url}`.toLowerCase().includes(query.toLowerCase()));
-    return NextResponse.json({ resource: type, source: "local-import", items });
-  }
-
-  try {
-    const payload = await fetchEngnovateResource(type, query);
-    if (!payload) {
-      return NextResponse.json(
-        { error: "ENGNOVATE_SCRAPER_URL is not configured.", items: [] },
-        { status: 503 },
-      );
-    }
-    return NextResponse.json(payload, {
-      headers: {
-        "Cache-Control": "public, max-age=300, stale-while-revalidate=900",
-      },
-    });
-  } catch (error) {
-    console.error("Content catalog request failed", error);
-    return NextResponse.json(
-      { error: "Content catalog is temporarily unavailable.", items: [] },
-      { status: 502 },
-    );
-  }
+import {NextResponse} from 'next/server';
+import listening from '@/data/practice-listening-catalog.json';
+import reading from '@/data/practice-reading-catalog.json';
+import singles from '@/data/single-passage-reading-catalog.json';
+export async function GET(request){
+ const params=new URL(request.url).searchParams,type=params.get('type')||'listening',query=(params.get('query')||'').toLowerCase();
+ if(!['reading','listening','writing','speaking'].includes(type))return NextResponse.json({error:'Unsupported content type.'},{status:400});
+ const rows=type==='listening'?listening:type==='reading'?(params.get('format')==='single'?singles:reading):[];
+ const items=rows.map(item=>({...item,resource:type,url:`/practice/${type}/${type==='reading'&&params.get('format')==='single'?'single/':''}${item.number}`})).filter(item=>`${item.title} ${item.topics||''}`.toLowerCase().includes(query));
+ return NextResponse.json({resource:type,source:'local-import',items});
 }

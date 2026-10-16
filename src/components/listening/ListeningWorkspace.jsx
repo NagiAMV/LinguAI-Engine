@@ -1,7 +1,7 @@
 "use client";
 
-import CambridgeLibrary from "@/components/content/CambridgeLibrary";
+import PracticeLibrary from "@/components/content/PracticeLibrary";
 
 export default function ListeningWorkspace() {
-  return <CambridgeLibrary resource="listening" />;
+  return <PracticeLibrary resource="listening" />;
 }

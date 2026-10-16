@@ -26,6 +26,6 @@ Currently in **Active MVP Development**.
 
 ## Local practice backend
 
-The Next.js app can use the optional Python service in `backend/` for Engnovate catalog data and stitched listening audio. Start it with `uvicorn backend.main:app --reload --port 8000`, then set `ENGNOVATE_SCRAPER_URL` and `LISTENING_SCRAPER_URL` in `.env.local`.
+Reading and Listening use the local imported-paper catalog. Questions and audio are served from `public/practice`; single passages have a separate Reading collection. No external catalog or audio scraper is required.
 
 For free local AI feedback, install Ollama, pull a model such as `llama3.2:3b`, and set `AI_PROVIDER=ollama`. The Writing and Speaking evaluator will then use `http://127.0.0.1:11434` without a paid API key.

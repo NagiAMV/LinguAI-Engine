@@ -11,7 +11,7 @@ def main():
  cp=Path('src/data/practice-reading-catalog.json');kp=Path('src/data/practice-reading-keys.json')
  catalog=json.loads(cp.read_text(encoding='utf8')) if cp.exists() else [];keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {}
  sig=signature(p['content'] for p in data['PASSAGES'].values())
- for path in [*Path('public/practice').glob('practice-reading-*.json'),*Path('public/cambridge').glob('reading-*.json')]:
+ for path in [*Path('public/practice').glob('practice-reading-*.json')]:
   old=json.loads(path.read_text(encoding='utf8'))
   if old.get('provenance',{}).get('sourceFileSha256')==data['sourceSha256'] or signature(re.sub(r'<h2>.*?</h2>','',p['passage'],count=1) for p in old['parts'])==sig:print('DUPLICATE:',old['title'],'; no changes.');return
  number=max([i['number'] for i in catalog],default=0)+1;tid=f'practice-reading-{number}';parts=[];answers={};explanations={}

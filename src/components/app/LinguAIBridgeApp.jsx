@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import CambridgeLibrary from "@/components/content/CambridgeLibrary";
+import PracticeLibrary from "@/components/content/PracticeLibrary";
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
 
 const navigation = [
@@ -228,7 +228,7 @@ function Overview({ onNavigate }) {
             Continue practice <span>→</span>
           </button>
           <span className="hero-footnote">
-            Cambridge practice · Feedback powered by AI
+            IELTS practice · Feedback powered by AI
           </span>
         </div>
         <div className="hero-art" aria-hidden="true">
@@ -366,7 +366,7 @@ function Overview({ onNavigate }) {
 }
 
 function ReadingWorkspace() {
-  return <CambridgeLibrary resource="reading" />;
+  return <PracticeLibrary resource="reading" />;
 }
 
 function FeedbackPanel({ feedback }) {

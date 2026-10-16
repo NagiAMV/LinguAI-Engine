@@ -2342,21 +2342,21 @@ h3,
   line-height: 1.5;
 }
 
-/* Cambridge computer-delivered practice */
+/* Computer-delivered practice */
 .cd-test-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: 16px;
 }
 .cd-test-card {
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18px;
-  padding: 30px;
+  gap: 12px;
+  padding: 20px;
   border: 1px solid var(--line);
-  border-radius: 20px;
+  border-radius: 16px;
   background: var(--surface);
   color: var(--text);
   text-align: left;
@@ -2369,7 +2369,8 @@ h3,
   transform: translateY(-2px);
 }
 .cd-test-card strong {
-  font-size: 32px;
+  font-size: 22px;
+  line-height: 1.25;
   font-weight: 500;
   letter-spacing: -0.04em;
 }
@@ -2378,6 +2379,7 @@ h3,
   font-size: 12px;
 }
 .cd-test-card b {
+  margin-top: auto;
   color: var(--teal);
   font-size: 12px;
 }

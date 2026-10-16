@@ -10,6 +10,10 @@
 | 6 | Child's Play in Medieval England | Childs_Play_in_Medieval_England.html | 27–40 | 20 minutes |
 | 7 | Footprints in the Muds of Time | Footprints_in_the_Muds_of_Time (2).html | 1–13 | 20 minutes |
 | 8 | Sorry, Who Are You? | Sorry_Who_Are_You (2).html | 1–13 | 20 minutes |
+| 9 | The Art of Deception | The_Art_of_Deception.html | 27–40 | 20 minutes |
+| 10 | The University of Life | The_University_of_Life.html | 1–13 | 20 minutes |
+
+Passages 9–10 add 27 questions, bringing the collection to ten texts and 133 questions. Their explicit answer alternatives and EN/UZ explanations were retained. The three simultaneously resubmitted Listening files were byte-for-byte matches for Tests 5, 6 and 4, respectively, and were skipped. Re-importing the new Reading pair was also rejected as duplicate content/source.
 
 The six additional papers contribute 80 questions (106 total). All were new; re-importing the batch rejected all six as duplicates. The Gilbert paper explicitly requires C/D/E in any order across 11–13: the key includes an unordered group, scoring uses one-to-one matching, and repeating one letter cannot earn three marks. The grouped explanation combines the supplied individual explanations and available exact citations. All eight papers have supplied EN/UZ explanations; no new explanations were invented.
 

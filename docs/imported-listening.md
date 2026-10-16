@@ -8,7 +8,7 @@ The original source files still contain no scripts for Tests 1 and 4. All questi
 
 Reproduction: run `scripts/transcribe-practice-listening.py` in the isolated `.cache/transcription-venv` after downloading the model. It uses ffmpeg to decode locally and never uploads audio. Attach only completed outputs with `attach-listening-transcripts.py`, supplying the four reviewed start times. Models, dependencies and raw word-level ASR output stay in ignored `.cache`.
 
-The first two standalone Listening tests appear before the existing Cambridge book collections. They use `/practice/listening/1` and `/practice/listening/2`, separate IDs and browser storage. No Cambridge paper was removed.
+Standalone Listening tests use `/practice/listening/{number}`, independent IDs and browser storage. The library contains only the imported papers described below.
 
 | Number | Supplied file | Questions | Full audio |
 | --- | --- | --- | --- |
