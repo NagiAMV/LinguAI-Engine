@@ -999,5 +999,50 @@
       25,
       26
     ]
+  },
+  {
+    "id": "single-reading-46",
+    "number": 46,
+    "title": "Mark Strizic: A career of an Australian photographer",
+    "questionCount": 14,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "single-reading-47",
+    "number": 47,
+    "title": "Bird Migration",
+    "questionCount": 13,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
   }
 ]

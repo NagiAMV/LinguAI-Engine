@@ -1,139 +1,164 @@
 [
     {
+        "label": "json,re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json.re",
+        "description": "json.re",
+        "detail": "json.re",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "argparse,hashlib,html,json",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "argparse.hashlib.html.json",
         "description": "argparse.hashlib.html.json",
         "detail": "argparse.hashlib.html.json",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
-        "isExtraImport": true,
-        "detail": "pathlib",
         "documentation": {}
     },
     {
@@ -294,6 +319,15 @@
         "description": "faster_whisper",
         "isExtraImport": true,
         "detail": "faster_whisper",
+        "documentation": {}
+    },
+    {
+        "label": "concurrent.futures,hashlib,json,time,urllib.parse,urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "concurrent.futures.hashlib.json.time.urllib.parse.urllib.request",
+        "description": "concurrent.futures.hashlib.json.time.urllib.parse.urllib.request",
+        "detail": "concurrent.futures.hashlib.json.time.urllib.parse.urllib.request",
         "documentation": {}
     },
     {
@@ -601,7 +635,16 @@
         "kind": 2,
         "importPath": "scripts.import-single-reading",
         "description": "scripts.import-single-reading",
-        "peekOfCode": "def clean(markup):return ''.join(serialize(n) for n in Tree(markup).root.children)\ndef plain(markup):return ' '.join(n.text for n in Tree(markup).root.all()).strip()\ndef raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n attrs=''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())\n return '<'+n.tag+attrs+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef signature(s):return hashlib.sha256(re.sub(r'\\W+',' ',plain(s).lower()).strip().encode()).hexdigest()\ncp=Path('src/data/single-passage-reading-catalog.json');kp=Path('src/data/single-passage-reading-keys.json');ep=Path('src/data/single-passage-reading-explanations.json')\ncatalog=json.loads(cp.read_text(encoding='utf8'));keys=json.loads(kp.read_text(encoding='utf8')) if kp.exists() else {};explanations=json.loads(ep.read_text(encoding='utf8')) if ep.exists() else {}\nfor source in json.loads(Path('.cache/single-reading-batch.json').read_text(encoding='utf8')):",
+        "peekOfCode": "def clean(markup):return ''.join(serialize(n) for n in Tree(markup).root.children)\ndef native_instructions(markup):\n markup=markup.replace('Tap a letter, then tap the blank.', 'Choose a letter from each answer list.')\n return re.sub(r'👉 Tap (?:a section letter|a person\\x27s letter|a heading number|a paragraph letter), then tap the blank', 'Choose an answer from each list', markup)\ndef plain(markup):return ' '.join(n.text for n in Tree(markup).root.all()).strip()\ndef raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n attrs=''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())\n return '<'+n.tag+attrs+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef signature(s):return hashlib.sha256(re.sub(r'\\W+',' ',plain(s).lower()).strip().encode()).hexdigest()",
+        "detail": "scripts.import-single-reading",
+        "documentation": {}
+    },
+    {
+        "label": "native_instructions",
+        "kind": 2,
+        "importPath": "scripts.import-single-reading",
+        "description": "scripts.import-single-reading",
+        "peekOfCode": "def native_instructions(markup):\n markup=markup.replace('Tap a letter, then tap the blank.', 'Choose a letter from each answer list.')\n return re.sub(r'👉 Tap (?:a section letter|a person\\x27s letter|a heading number|a paragraph letter), then tap the blank', 'Choose an answer from each list', markup)\ndef plain(markup):return ' '.join(n.text for n in Tree(markup).root.all()).strip()\ndef raw(n):\n if not n.tag:return html.escape(n.text,quote=False)\n attrs=''.join(f' {k}=\"{html.escape(v or \"\",quote=True)}\"' for k,v in n.attrs.items())\n return '<'+n.tag+attrs+'>'+('' if n.tag in h['VOID'] else html.escape(n.text,quote=False)+''.join(raw(c) for c in n.children)+'</'+n.tag+'>')\ndef signature(s):return hashlib.sha256(re.sub(r'\\W+',' ',plain(s).lower()).strip().encode()).hexdigest()\ncp=Path('src/data/single-passage-reading-catalog.json');kp=Path('src/data/single-passage-reading-keys.json');ep=Path('src/data/single-passage-reading-explanations.json')",
         "detail": "scripts.import-single-reading",
         "documentation": {}
     },
@@ -727,7 +770,7 @@
         "kind": 2,
         "importPath": "scripts.prepare-varied-reading-batch",
         "description": "scripts.prepare-varied-reading-batch",
-        "peekOfCode": "def grams(s):\n words=re.findall(r'\\w+',html.unescape(s).lower());words=[w for w in words if len(w)>1];return set(zip(*(words[i:] for i in range(5))))\ndef existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))",
+        "peekOfCode": "def grams(s):\n words=re.findall(r'\\w+',html.unescape(s).lower());words=[w for w in words if len(w)>1];return set(zip(*(words[i:] for i in range(5))))\ndef existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('single-reading-*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))",
         "detail": "scripts.prepare-varied-reading-batch",
         "documentation": {}
     },
@@ -736,7 +779,7 @@
         "kind": 2,
         "importPath": "scripts.prepare-varied-reading-batch",
         "description": "scripts.prepare-varied-reading-batch",
-        "peekOfCode": "def existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))\n return best\nout=[];duplicates=[]",
+        "peekOfCode": "def existing_match(passage):\n g=grams(text(Tree(passage).root));best=(0,None)\n for path in Path('public/practice').glob('single-reading-*.json'):\n  old=json.loads(path.read_text(encoding='utf8'))\n  if old.get('resource')!='reading':continue\n  for p in old['parts']:\n   other=grams(text(Tree(p['passage']).root));ratio=len(g&other)/min(len(g),len(other)) if min(len(g),len(other)) else 0\n   if ratio>best[0]:best=(ratio,(old['id'],p['id']))\n return best\nout=[];duplicates=[]",
         "detail": "scripts.prepare-varied-reading-batch",
         "documentation": {}
     },
@@ -765,6 +808,15 @@
         "description": "scripts.repair-content-encoding",
         "peekOfCode": "def nested(v):\n if isinstance(v,str):return repair(v)\n if isinstance(v,list):return [nested(x) for x in v]\n if isinstance(v,dict):return {k:nested(x) for k,x in v.items()}\n return v\nif __name__=='__main__':\n changed=[]\n for p in [*Path('src/data').glob('*.json'),*Path('public/practice').glob('*.json')]:\n  original=json.loads(p.read_text(encoding='utf8'));fixed=nested(original)\n  if fixed!=original:",
         "detail": "scripts.repair-content-encoding",
+        "documentation": {}
+    },
+    {
+        "label": "translate",
+        "kind": 2,
+        "importPath": "scripts.translate-reading-explanations",
+        "description": "scripts.translate-reading-explanations",
+        "peekOfCode": "def translate(job):\n key,(language,source)=job\n query=urllib.parse.urlencode({'client':'gtx','sl':'en','tl':language,'dt':'t','q':source})\n request=urllib.request.Request('https://translate.googleapis.com/translate_a/single?'+query,headers={'User-Agent':'LinguAI-translation-import/1.0'})\n for attempt in range(4):\n  try:\n   with urllib.request.urlopen(request,timeout=30) as response:data=json.load(response)\n   result=''.join(piece[0] for piece in data[0] if piece[0])\n   if not result.strip() or result==source:raise ValueError('Empty or unchanged translation')\n   return key,result",
+        "detail": "scripts.translate-reading-explanations",
         "documentation": {}
     },
     {

@@ -3,7 +3,7 @@ import argparse,json,time,subprocess
 import numpy as np
 from pathlib import Path
 from faster_whisper import WhisperModel
-parser=argparse.ArgumentParser();parser.add_argument('--download-only',action='store_true');parser.add_argument('--test',type=int,choices=[1,4]);args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('--download-only',action='store_true');parser.add_argument('--test',type=int,choices=[1,4,16]);args=parser.parse_args()
 model=WhisperModel('small.en',device='cpu',compute_type='int8',cpu_threads=8,num_workers=1,download_root='.cache/speech-models',local_files_only=not args.download_only)
 print('Local small.en model ready.',flush=True)
 if args.download_only:raise SystemExit

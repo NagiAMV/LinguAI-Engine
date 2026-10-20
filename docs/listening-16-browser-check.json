@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "test": 16,
+      "duration": 1499.2,
+      "questions": 40,
+      "score": 40,
+      "continuousAudio": true,
+      "endAudioDecoded": true,
+      "persistence": true,
+      "mobile": true
+    }
+  ],
+  "catalogFirst": true
+}

@@ -173,6 +173,9 @@
 .single-passage-exam .cd-content .q-num { display: none; }
 .single-passage-exam .cd-content .lt { display: inline-block; min-width: 1.2em; margin-right: 7px; }
 .single-passage-exam .cd-content .opt label { display: block; padding: 4px 0; cursor: pointer; }
+.single-passage-exam .cd-content .q-card label { display: block; padding: 4px 0; cursor: pointer; }
+.single-passage-exam .cd-content .dragbank { padding: 14px; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
+.single-passage-exam .cd-content .dragbank-items { display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .single-passage-exam .cd-content .passage-title { font-size: 1.2em; font-weight: 700; margin-bottom: 14px; }
 .single-passage-exam .cd-content .passage-subtitle { font-style: italic; margin-bottom: 24px; }
 .single-passage-exam .cd-content .flow-box { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }

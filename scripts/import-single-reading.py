@@ -2,6 +2,9 @@ import hashlib,html,json,re,runpy
 from pathlib import Path
 h=runpy.run_path(str(Path(__file__).with_name('import-listening-html.py')));Node,Tree,cls,serialize,adapt=(h[n] for n in ['Node','Tree','cls','serialize','adapt'])
 def clean(markup):return ''.join(serialize(n) for n in Tree(markup).root.children)
+def native_instructions(markup):
+ markup=markup.replace('Tap a letter, then tap the blank.', 'Choose a letter from each answer list.')
+ return re.sub(r'👉 Tap (?:a section letter|a person\x27s letter|a heading number|a paragraph letter), then tap the blank', 'Choose an answer from each list', markup)
 def plain(markup):return ' '.join(n.text for n in Tree(markup).root.all()).strip()
 def raw(n):
  if not n.tag:return html.escape(n.text,quote=False)
@@ -20,7 +23,7 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
   left=next(n for n in root.all() if n.attrs.get('id')=='pane-left');right=next(n for n in root.all() if n.attrs.get('id')=='pane-right');title=plain(next(n for n in left.all() if 'passage-title' in cls(n)).text or raw(next(n for n in left.all() if 'passage-title' in cls(n))))
   passage=clean(''.join(raw(n) for n in left.children if not any(c in cls(n) for c in ['watermark','passage-label'])));questions=''.join(raw(n) for n in right.children)
  sig=signature(passage);duplicate=None
- for path in [*Path('public/practice').glob('*.json')]:
+ for path in Path('public/practice').glob('single-reading-*.json'):
   old=json.loads(path.read_text(encoding='utf8'))
   if old.get('provenance',{}).get('sourceFileSha256')==source['sha256'] or any(signature(p['passage'])==sig for p in old['parts']):duplicate=old['title'];break
  if duplicate:print('DUPLICATE:',source['sourceFile'],'matches',duplicate);continue
@@ -35,7 +38,7 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
   if node.tag in {'input','select'}:
    node.attrs['data-lq']=node.attrs.get('data-lq') or node.attrs.get('data-qnum') or node.attrs.get('data-q')
    if node.tag=='input':node.attrs.setdefault('type','text')
- markup,fields=adapt(''.join(raw(n) for n in tree.children),f'single_reading_{number}',1,{})
+ markup,fields=adapt(native_instructions(''.join(raw(n) for n in tree.children)),f'single_reading_{number}',1,{})
  if len(fields)!=len(source['ANSWERS']):raise ValueError('Incomplete controls')
  part={'id':1,'passage':passage,'questions':markup,'fieldNames':list(fields),'fieldLabels':fields};numbers=sorted(map(int,source['ANSWERS']))
  test={'id':tid,'resource':'reading','test':number,'title':title,'backUrl':'/?view=reading&format=single','durationMinutes':20,'reviewLanguages':source.get('reviewLanguages',['en','uz']),'parts':[part],'provenance':{'type':'user-provided-html','file':source['sourceFile'],'sourceFileSha256':source['sha256'],'passageTextSha256':sig,'rightsStatus':'not-established'}}

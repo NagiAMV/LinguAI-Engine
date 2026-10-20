@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "test": 7,
+      "questions": 40,
+      "score": 40,
+      "explanationLanguages": [
+        "en",
+        "uz"
+      ],
+      "mobile": true
+    },
+    {
+      "test": 8,
+      "questions": 40,
+      "score": 40,
+      "explanationLanguages": [
+        "en",
+        "uz"
+      ],
+      "mobile": true
+    }
+  ],
+  "catalog": true
+}

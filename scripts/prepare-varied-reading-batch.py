@@ -40,7 +40,7 @@ def grams(s):
  words=re.findall(r'\w+',html.unescape(s).lower());words=[w for w in words if len(w)>1];return set(zip(*(words[i:] for i in range(5))))
 def existing_match(passage):
  g=grams(text(Tree(passage).root));best=(0,None)
- for path in Path('public/practice').glob('*.json'):
+ for path in Path('public/practice').glob('single-reading-*.json'):
   old=json.loads(path.read_text(encoding='utf8'))
   if old.get('resource')!='reading':continue
   for p in old['parts']:

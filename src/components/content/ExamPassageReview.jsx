@@ -31,24 +31,25 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       const feedback = document.createElement('span');
       feedback.dataset.reviewFeedback = row.name;
       feedback.className = `review-inline-feedback ${row.status}`;
-      const ru = language === 'ru';
+      const ru = language === 'ru', uz = language === 'uz';
       function line(className, text) { const node=document.createElement('span');node.className=className;node.textContent=text;feedback.append(node); }
-      line('review-answer-user '+row.status, `${ru?'Твой ответ':'Your answer'}: ${row.response || (ru?'Нет ответа':'No answer')}`);
-      line('review-answer-key', `${ru?'Правильный ответ':'Correct answer'}: ${row.display || (ru?'Не проверено':'Not checked')}`);
+      line('review-answer-user '+row.status, `${ru?'Твой ответ':uz?'Javobingiz':'Your answer'}: ${row.response || (ru?'Нет ответа':uz?'Javob yo‘q':'No answer')}`);
+      line('review-answer-key', `${ru?'Правильный ответ':uz?'To‘g‘ri javob':'Correct answer'}: ${row.display || (ru?'Не проверено':uz?'Tekshirilmagan':'Not checked')}`);
       const detail=document.createElement('details');detail.dataset.explanation=row.name;detail.open=opened.has(row.name);detail.className='review-explanation';
-      const summary=document.createElement('summary');summary.textContent=ru?'Объяснение':'Explanation';detail.append(summary);
+      const summary=document.createElement('summary');summary.textContent=ru?'Объяснение':uz?'Izoh':'Explanation';detail.append(summary);
       const reason=document.createElement('p');
-      const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:{correct:'Your answer matches an accepted answer in the key.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
-      reason.textContent=reasons[row.status]+(row.status!=='pending'?(ru?' Регистр букв и лишние пробелы не учитываются.':' Letter case and extra whitespace are ignored.'):'');detail.append(reason);
-      if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
+      const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:uz?{correct:'Javobingiz kalitdagi qabul qilinadigan javobga mos.',incorrect:'Javobingiz kalitdagi qabul qilinadigan javoblarga mos emas.',blank:'Javob kiritilmagan.',pending:'Tasdiqlangan javob kaliti yo‘q, shu sababli bu javob baholanmaydi.'}:{correct:'Your answer matches an accepted answer in the key.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
+      reason.textContent=reasons[row.status]+(row.status!=='pending'?(ru?' Регистр букв и лишние пробелы не учитываются.':uz?' Katta-kichik harflar va ortiqcha bo‘shliqlar hisobga olinmaydi.':' Letter case and extra whitespace are ignored.'):'');detail.append(reason);
+      if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':uz?'Bu guruh uchun javoblarning to‘liq to‘plami kerak. Tartibi muhim emas.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
       const explanation=explanations[row.numbers];
       if(explanation?.part===part){
         const quotes=explanation.quotes?.length?explanation.quotes:explanation.quote?[explanation.quote]:[];
         summary.addEventListener('click',()=>{if(!detail.open)onEvidence(quotes,false);});
-        if(explanation.location?.[language]){const location=document.createElement('p');location.className='review-evidence-location';location.textContent=(ru?'Где искать: ':'Where to look: ')+explanation.location[language];detail.append(location);}
+        if(explanation.location?.[language]){const location=document.createElement('p');location.className='review-evidence-location';location.textContent=(ru?'Где искать: ':uz?'Qayerdan izlash kerak: ':'Where to look: ')+explanation.location[language];detail.append(location);}
+        if(explanation.translationProvenance?.[language]){const note=document.createElement('small');note.className='review-translation-note';note.textContent=ru?'Перевод с английского':uz?'Ingliz tilidan tarjima':'Translated from English';detail.append(note);}
         for(const paragraph of (explanation[language] || explanation.en || '').split(/\n\s*\n/)){const text=document.createElement('p');text.className='review-tutor-paragraph';text.textContent=paragraph;detail.append(text);}
         for(const citation of quotes){const quote=document.createElement('blockquote');quote.textContent=citation;detail.append(quote);}
-        if(quotes.length){const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);}
+        if(quotes.length){const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':uz?'Matnda ko‘rsatish ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);}
       }
       feedback.append(detail);
       (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
@@ -72,8 +73,10 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   const visible = partRows.filter(row => !errorsOnly || ['incorrect','blank'].includes(row.status));
   function showEvidence(quote, scroll = true) {
     const passage=root.current.querySelector('[data-review-passage] .review-content');
-    const ranges=(Array.isArray(quote)?quote:[quote]).map(citation=>evidenceRange(passage,citation));
+    const citations=(Array.isArray(quote)?quote:[quote]).filter(Boolean);
     globalThis.CSS?.highlights?.delete('review-evidence');
+    if(!citations.length){setEvidenceError('');return;}
+    const ranges=citations.map(citation=>evidenceRange(passage,citation));
     if(ranges.some(range=>!range)){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
     if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(...ranges));
     else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(ranges[0]);}

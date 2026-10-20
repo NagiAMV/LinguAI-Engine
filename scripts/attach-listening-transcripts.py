@@ -1,9 +1,9 @@
 """Attach local ASR drafts only after explicit section boundaries have been reviewed."""
 import argparse,hashlib,html,json
 from pathlib import Path
-parser=argparse.ArgumentParser();parser.add_argument('test',type=int,choices=[1,4]);parser.add_argument('--boundaries',required=True,help='Start seconds for parts 1,2,3,4, separated by commas');args=parser.parse_args()
+parser=argparse.ArgumentParser();parser.add_argument('test',type=int,choices=[1,4,16]);parser.add_argument('--boundaries',required=True,help='Start seconds for parts 1,2,3,4, separated by commas');args=parser.parse_args()
 starts=[float(n) for n in args.boundaries.split(',')]
-spellings={1:{"Carrara's":"Karrara's","Professor Messi":"Professor Massey","Professor Lounds":"Professor Lowndes"},4:{'Ciricini':'Seracini'}}[args.test]
+spellings={1:{"Carrara's":"Karrara's","Professor Messi":"Professor Massey","Professor Lounds":"Professor Lowndes"},4:{'Ciricini':'Seracini'}}.get(args.test,{})
 if len(starts)!=4 or starts!=sorted(set(starts)) or starts[0]!=0:raise ValueError('Four ascending part boundaries starting at zero required')
 source=Path(f'.cache/listening-{args.test}-transcription.json');data=json.loads(source.read_text(encoding='utf8'))
 if not data.get('complete'):raise ValueError('Transcription is not complete')

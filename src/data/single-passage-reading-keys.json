@@ -3488,5 +3488,175 @@
         "reference": "Mammoth Kill 2 (@reading_cdi) (2).html"
       }
     ]
+  },
+  "single-reading-46": {
+    "test": 46,
+    "module": "reading",
+    "answers": {
+      "27": [
+        "A"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "D"
+      ],
+      "31": [
+        "E"
+      ],
+      "32": [
+        "F"
+      ],
+      "33": [
+        "NO"
+      ],
+      "34": [
+        "YES"
+      ],
+      "35": [
+        "NOT GIVEN"
+      ],
+      "36": [
+        "NO"
+      ],
+      "37": [
+        "NO"
+      ],
+      "38": [
+        "A"
+      ],
+      "39": [
+        "C"
+      ],
+      "40": [
+        "D"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "Mark_Strizic (2).html",
+        "reference": "Mark_Strizic (2).html"
+      }
+    ]
+  },
+  "single-reading-47": {
+    "test": 47,
+    "module": "reading",
+    "answers": {
+      "14": [
+        "iv"
+      ],
+      "15": [
+        "v"
+      ],
+      "16": [
+        "ii"
+      ],
+      "17": [
+        "x"
+      ],
+      "18": [
+        "vii"
+      ],
+      "19": [
+        "i"
+      ],
+      "20": [
+        "viii"
+      ],
+      "21": [
+        "A",
+        "C"
+      ],
+      "22": [
+        "A",
+        "C"
+      ],
+      "23": [
+        "parental guidance",
+        "parents",
+        "parental help"
+      ],
+      "24": [
+        "compass"
+      ],
+      "25": [
+        "predators",
+        "daytime predators"
+      ],
+      "26": [
+        "visible",
+        "visible sign",
+        "visible signs"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "Bird_Migration (2).html",
+        "reference": "Bird_Migration (2).html"
+      }
+    ]
   }
 }
