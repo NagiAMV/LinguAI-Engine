@@ -1,5 +1,5 @@
 """Cache translations of supplied explanations; preserve English, quotes and keys."""
-import concurrent.futures,hashlib,json,time,urllib.parse,urllib.request
+import concurrent.futures,hashlib,json,re,time,urllib.parse,urllib.request
 from pathlib import Path
 
 files=[Path('src/data/'+name+'.json') for name in ['practice-reading-explanations','single-passage-reading-explanations']]
@@ -36,13 +36,26 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
   cache_path.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
   if count%25==0:print(f'Translated {count}/{len(jobs)}',flush=True)
 
+def preserve_answer_label(source,translated):
+ # Translators may turn option D into Cyrillic Г or translate TRUE into an adjective.
+ # Keep the answer notation identical to the source; translate only its explanation.
+ label=re.match(r'^(TRUE|FALSE|NOT GIVEN|YES|NO)\s*([.:—–-])\s*',source)
+ if label:
+  return re.sub(r'^.*?[.:—–-]\s*',lambda _:label.group(0),translated,count=1)
+ label=re.match(r'^([A-J])(?=[\s.:—–-])',source)
+ if label:
+  result=re.sub(r'^[А-ЯA-Z](?=[\s.:—–-])',label.group(1),translated,count=1)
+  return result if result.startswith(label.group(1)) else label.group(1)+'. '+result
+ return translated
+
 for path,data in datasets.items():
  for entries in data.values():
   for entry in entries.values():
    for language in ['ru','uz']:
     if not entry.get(language):
-     entry[language]=cache[language+':'+hashlib.sha256(entry['en'].encode()).hexdigest()]
+     entry[language]=preserve_answer_label(entry['en'],cache[language+':'+hashlib.sha256(entry['en'].encode()).hexdigest()])
      entry.setdefault('translationProvenance',{})[language]={'type':'machine-translation','sourceLanguage':'en','provider':'Google Translate','sourceSha256':hashlib.sha256(entry['en'].encode()).hexdigest()}
+    if entry.get('translationProvenance',{}).get(language):entry[language]=preserve_answer_label(entry['en'],entry[language])
  path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
  for paper_id in data:
   paper_path=Path('public/practice/'+paper_id+'.json')

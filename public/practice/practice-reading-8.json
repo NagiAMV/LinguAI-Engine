@@ -6,6 +6,7 @@
   "backUrl": "/?view=reading",
   "durationMinutes": 60,
   "reviewLanguages": [
+    "ru",
     "en",
     "uz"
   ],

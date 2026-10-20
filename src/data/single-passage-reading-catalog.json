@@ -1044,5 +1044,71 @@
       25,
       26
     ]
+  },
+  {
+    "id": "single-reading-48",
+    "number": 48,
+    "title": "The Seed Hunters",
+    "questionCount": 13,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "id": "single-reading-49",
+    "number": 49,
+    "title": "LONGAEVA: Ancient Bristlecone Pine",
+    "questionCount": 13,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "id": "single-reading-50",
+    "number": 50,
+    "title": "Dolls through the ages",
+    "questionCount": 13,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
   }
 ]

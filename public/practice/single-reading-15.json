@@ -6,6 +6,7 @@
   "backUrl": "/?view=reading&format=single",
   "durationMinutes": 20,
   "reviewLanguages": [
+    "ru",
     "en",
     "uz"
   ],

@@ -11,5 +11,8 @@
       "mobile": true
     }
   ],
-  "catalogFirst": true
+  "catalogFirst": true,
+  "timedDraftTranscript": true,
+  "transcriptPartsChecked": 4,
+  "sectionAudioPositionsChecked": true
 }

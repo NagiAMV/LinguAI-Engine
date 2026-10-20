@@ -3658,5 +3658,227 @@
         "reference": "Bird_Migration (2).html"
       }
     ]
+  },
+  "single-reading-48": {
+    "test": 48,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "TRUE"
+      ],
+      "2": [
+        "TRUE"
+      ],
+      "3": [
+        "FALSE"
+      ],
+      "4": [
+        "TRUE"
+      ],
+      "5": [
+        "FALSE"
+      ],
+      "6": [
+        "FALSE"
+      ],
+      "7": [
+        "D"
+      ],
+      "8": [
+        "E"
+      ],
+      "9": [
+        "F"
+      ],
+      "10": [
+        "C"
+      ],
+      "11": [
+        "B"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "B"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "The Seed Hunters.html",
+        "reference": "The Seed Hunters.html"
+      }
+    ]
+  },
+  "single-reading-49": {
+    "test": 49,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "I"
+      ],
+      "2": [
+        "C"
+      ],
+      "3": [
+        "D"
+      ],
+      "4": [
+        "A"
+      ],
+      "5": [
+        "B"
+      ],
+      "6": [
+        "A"
+      ],
+      "7": [
+        "D"
+      ],
+      "8": [
+        "energy"
+      ],
+      "9": [
+        "stratification"
+      ],
+      "10": [
+        "bands of bark",
+        "bark"
+      ],
+      "11": [
+        "dry mountain air",
+        "air"
+      ],
+      "12": [
+        "ground cover",
+        "ground cover vegetation"
+      ],
+      "13": [
+        "distance"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "LONGAEVA  Ancient Bristlecone Pine.html",
+        "reference": "LONGAEVA  Ancient Bristlecone Pine.html"
+      }
+    ]
+  },
+  "single-reading-50": {
+    "test": 50,
+    "module": "reading",
+    "answers": {
+      "1": [
+        "clay"
+      ],
+      "2": [
+        "goddesses"
+      ],
+      "3": [
+        "limbs"
+      ],
+      "4": [
+        "wax"
+      ],
+      "5": [
+        "plaster"
+      ],
+      "6": [
+        "composition"
+      ],
+      "7": [
+        "FALSE"
+      ],
+      "8": [
+        "TRUE"
+      ],
+      "9": [
+        "FALSE"
+      ],
+      "10": [
+        "TRUE"
+      ],
+      "11": [
+        "TRUE"
+      ],
+      "12": [
+        "FALSE"
+      ],
+      "13": [
+        "NOT GIVEN"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "passage 1 (2).html",
+        "reference": "passage 1 (2).html"
+      }
+    ]
   }
 }

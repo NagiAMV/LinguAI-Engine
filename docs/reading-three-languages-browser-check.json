@@ -1,0 +1,19 @@
+{
+  "languages": [
+    "ru",
+    "en",
+    "uz"
+  ],
+  "browserSinglePassages": [
+    24,
+    47
+  ],
+  "browserFullTests": [
+    1,
+    8
+  ],
+  "exactSingleExplanationText": true,
+  "allReadingExplanationsValidated": 953,
+  "originalEnglishAndQuotesUnchanged": true,
+  "mobile": true
+}

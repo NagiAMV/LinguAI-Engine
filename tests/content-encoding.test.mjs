@@ -9,9 +9,10 @@ test('Speaking bank retains 68 complete sets with questions and model answers in
  for(const s of bank.sessions){assert.ok(s.t2.length>4);assert.ok(s.p2.task&&s.p2.ans&&s.p2.bullets.length);for(const p of [s.p1,s.p3]){assert.ok(p.length);assert.ok(p.every(q=>q.length===2&&q[0]&&q[1]));}}
 });
 
-test('Listening 12 explicitly reports a missing script; 13–15 keep supplied scripts',()=>{
- for(let n=12;n<=15;n++){
+test('all sixteen Listening papers have four nonempty transcripts',()=>{
+ for(let n=1;n<=16;n++){
   const paper=JSON.parse(fs.readFileSync(`public/practice/practice-listening-${n}.json`,'utf8'));
-  for(const part of paper.parts){if(n===12){assert.equal(part.transcriptStatus,'not-supplied');assert.match(part.passage,/No transcript was included/);}else assert.ok(part.passage.length>1500);}
+  assert.equal(paper.parts.length,4);
+  for(const part of paper.parts){assert.ok(part.passage.length>1500,`Listening ${n} part ${part.id}`);assert.doesNotMatch(part.passage,/No transcript was included/);assert.notEqual(part.transcriptStatus,'not-supplied');}
  }
 });
