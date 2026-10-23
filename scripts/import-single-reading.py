@@ -18,7 +18,9 @@ for source in json.loads(Path('.cache/single-reading-batch.json').read_text(enco
  if hashlib.sha256(blob).hexdigest()!=source['sha256']:raise ValueError('Source changed')
  root=Tree(blob.decode('utf-8-sig')).root
  if source.get('PASSAGE_HTML'):
-  title=html.unescape(source['PASSAGE_TITLE']);passage=clean('<h2>'+html.escape(title)+'</h2>'+source['PASSAGE_HTML']);questions=source['questions']
+  title=html.unescape(source['PASSAGE_TITLE']);source_passage=source['PASSAGE_HTML'];first=next((n for n in Tree(source_passage).root.children if n.tag),None)
+  prefix='' if first and first.tag in ['h1','h2','h3'] and plain(raw(first))==title else '<h2>'+html.escape(title)+'</h2>'
+  passage=clean(prefix+source_passage);questions=source['questions']
  else:
   left=next(n for n in root.all() if n.attrs.get('id')=='pane-left');right=next(n for n in root.all() if n.attrs.get('id')=='pane-right');title=plain(next(n for n in left.all() if 'passage-title' in cls(n)).text or raw(next(n for n in left.all() if 'passage-title' in cls(n))))
   passage=clean(''.join(raw(n) for n in left.children if not any(c in cls(n) for c in ['watermark','passage-label'])));questions=''.join(raw(n) for n in right.children)

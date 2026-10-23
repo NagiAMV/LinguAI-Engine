@@ -1,0 +1,19 @@
+{
+  "tests": [
+    51,
+    52
+  ],
+  "questions": 27,
+  "correct": 27,
+  "languages": [
+    "ru",
+    "en",
+    "uz"
+  ],
+  "exactExplanationText": true,
+  "unorderedGroupsReversed": true,
+  "durationMinutes": 20,
+  "band": null,
+  "mobile": true,
+  "catalogCount": 52
+}

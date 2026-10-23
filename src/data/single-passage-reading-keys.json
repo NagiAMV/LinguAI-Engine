@@ -3880,5 +3880,180 @@
         "reference": "passage 1 (2).html"
       }
     ]
+  },
+  "single-reading-51": {
+    "test": 51,
+    "module": "reading",
+    "answers": {
+      "27": [
+        "v"
+      ],
+      "28": [
+        "iii"
+      ],
+      "29": [
+        "i"
+      ],
+      "30": [
+        "iv"
+      ],
+      "31": [
+        "vi"
+      ],
+      "32": [
+        "E"
+      ],
+      "33": [
+        "D"
+      ],
+      "34": [
+        "C"
+      ],
+      "35": [
+        "B"
+      ],
+      "36": [
+        "C"
+      ],
+      "37": [
+        "SUB-ARCTIC"
+      ],
+      "38": [
+        "SHORT"
+      ],
+      "39": [
+        "PREDATORY ANIMALS"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "Passage 3 NEANDERTHAL  TECHNOLOGY.html",
+        "reference": "Passage 3 NEANDERTHAL  TECHNOLOGY.html"
+      }
+    ]
+  },
+  "single-reading-52": {
+    "test": 52,
+    "module": "reading",
+    "answers": {
+      "14": [
+        "C"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "E"
+      ],
+      "23": [
+        "DECLINE"
+      ],
+      "24": [
+        "EGGS"
+      ],
+      "25": [
+        "BIODIVERSITY"
+      ],
+      "26": [
+        "BAIT"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "D"
+      ],
+      "21": [
+        "A"
+      ],
+      "22": [
+        "E"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "groups": [
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "Passage_2_The_horseshoe_crab_FIXED.html",
+        "reference": "Passage_2_The_horseshoe_crab_FIXED.html"
+      }
+    ]
   }
 }

@@ -1,0 +1,19 @@
+{
+  "tests": [
+    48,
+    49,
+    50
+  ],
+  "questions": 39,
+  "correct": 39,
+  "languages": [
+    "ru",
+    "en",
+    "uz"
+  ],
+  "exactExplanationText": true,
+  "durationMinutes": 20,
+  "band": null,
+  "mobile": true,
+  "catalogCount": 50
+}

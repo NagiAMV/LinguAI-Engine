@@ -1110,5 +1110,50 @@
       12,
       13
     ]
+  },
+  {
+    "id": "single-reading-51",
+    "number": 51,
+    "title": "Neanderthal Technology",
+    "questionCount": 14,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  {
+    "id": "single-reading-52",
+    "number": 52,
+    "title": "The horseshoe crab",
+    "questionCount": 13,
+    "durationMinutes": 20,
+    "originalQuestionNumbers": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ]
   }
 ]

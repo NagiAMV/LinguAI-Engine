@@ -176,6 +176,12 @@
 .single-passage-exam .cd-content .q-card label { display: block; padding: 4px 0; cursor: pointer; }
 .single-passage-exam .cd-content .dragbank { padding: 14px; margin: 16px 0; border: 1px solid var(--line); border-radius: 10px; }
 .single-passage-exam .cd-content .dragbank-items { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.single-passage-exam .cd-content .question-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin: 18px 0; }
+.single-passage-exam .cd-content .question-label { flex: 1; min-width: 220px; }
+.single-passage-exam .cd-content .question-label .qnum { display: none; }
+.single-passage-exam .cd-content .choice { display: flex; align-items: baseline; gap: 10px; margin: 10px 0; }
+.single-passage-exam .cd-content .choice-letter { font-weight: 700; min-width: 1em; }
+.single-passage-exam .cd-content .choices > .ielts-listening-question-item { margin: 10px 16px 0 0; }
 .single-passage-exam .cd-content .passage-title { font-size: 1.2em; font-weight: 700; margin-bottom: 14px; }
 .single-passage-exam .cd-content .passage-subtitle { font-style: italic; margin-bottom: 24px; }
 .single-passage-exam .cd-content .flow-box { padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }

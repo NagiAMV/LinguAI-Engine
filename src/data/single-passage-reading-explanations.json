@@ -10596,7 +10596,16 @@
       "uz": "TRUE — 'Millennium Seed Bank Partnership (MSBP) Buyuk Britaniyadagi Kyu Qirollik botanika bog'i tomonidan muvofiqlashtiriladi…' Kyu muvofiqlashtiradi = u yerda joylashgan.",
       "quotes": [
         "coordinated by the Royal Botanic Gardens at Kew in the United Kingdom"
-      ]
+      ],
+      "ru": "TRUE — «Партнерство Банка семян тысячелетия (MSBP), координируемое Королевским ботаническим садом в Кью в Соединенном Королевстве…» Координируется Кью = базируется там.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "5b42bb74f88a15a5ff5449913f7fba3590dac90319d4aec5d9d06e557bff9437"
+        }
+      }
     },
     "2": {
       "part": 1,
@@ -10604,7 +10613,16 @@
       "uz": "TRUE — '2009-yilda birinchi bosqichi tugaganda u dunyodagi yovvoyi o'simlik turlarining o'n foizidan — jami 24 000 dan ortiq turdan urug' saqlagan edi.'",
       "quotes": [
         "over 24,000 species in total"
-      ]
+      ],
+      "ru": "TRUE — «К концу первого этапа в 2009 году в банке были собраны семена десяти процентов дикорастущих видов растений мира — всего более 24 000 видов».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ead8578184b1a4d4d95b3e32a3be516cc56291eea0642e4c5effa26460c00489"
+        }
+      }
     },
     "3": {
       "part": 1,
@@ -10612,7 +10630,16 @@
       "uz": "FALSE — Aksincha: 'Hamma urug' ham an'anaviy saqlashga yaroqli emas — 'recalcitrant' deb ataladigan turlar quritilsa yoki muzlatilsa nobud bo'ladigan urug' beradi.'",
       "quotes": [
         "Not all seeds are suitable for conventional storage"
-      ]
+      ],
+      "ru": "FALSE — Обратное: «Не все семена подходят для обычного хранения — категория растений, известная как непокорные виды, дает семена, которые погибают при высушивании или замораживании».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3a995460ce3c4bfc661ed030aaa3c01d626d34e562e50c053626fb58f0b69f7e"
+        }
+      }
     },
     "4": {
       "part": 1,
@@ -10620,7 +10647,16 @@
       "uz": "TRUE — 'Ular populyatsiya ichidagi bir nechta o'simlikdan — odatda kamida ellikta — namuna olishi kerak, toki turning genetik xilma-xilligi yetarli aks etsin.'",
       "quotes": [
         "typically at least fifty"
-      ]
+      ],
+      "ru": "TRUE — «Они должны собрать образцы от нескольких отдельных растений в популяции — обычно не менее пятидесяти — чтобы гарантировать, что генетическое разнообразие видов представлено адекватно».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1e41cc41fdaef5db045675500fec47042e140ec8d58e28b1f9c62bfc0bd0c45b"
+        }
+      }
     },
     "5": {
       "part": 1,
@@ -10628,7 +10664,16 @@
       "uz": "FALSE — 'Shvalbard ham 2017-yilda muzloq erishi natijasida kirish tunneliga suv kirgan kichik buzilishni boshdan kechirdi.' Demak, muammo bo'lgan.",
       "quotes": [
         "experienced a minor breach in 2017 when melting permafrost allowed water to enter"
-      ]
+      ],
+      "ru": "FALSE — «Однако даже на Шпицбергене в 2017 году произошла небольшая трещина, когда таяние вечной мерзлоты позволило воде попасть в туннель доступа». Итак, у него возникла структурная проблема.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b0ad3bac46f558c5908088fc68e808c1f0bad7bc9e0d98027cca9c19083f9ca9"
+        }
+      }
     },
     "6": {
       "part": 1,
@@ -10636,7 +10681,16 @@
       "uz": "FALSE — Muallifning yakuniy fikri aksincha: 'urug' bankchiligi biologik xilma-xillik inqirozining yechimidan ko'ra, o'z bilimsizligimizga qarshi sug'urtaga o'xshaydi.'",
       "quotes": [
         "seed banking is less a solution to the biodiversity crisis than a form of insurance"
-      ]
+      ],
+      "ru": "FALSE — Заключительная точка зрения автора противоположна: «банки семян — это не столько решение кризиса биоразнообразия, сколько форма страховки от нашего собственного невежества».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "92d37b5ca478618a9186359ee93805702f516eab4b22a8d41912c6ffaa16eabb"
+        }
+      }
     },
     "7": {
       "part": 1,
@@ -10644,7 +10698,16 @@
       "uz": "D — D paragrafi yig'uvchilar kamida ellikta o'simlikdan namuna olishini tushuntiradi, chunki kam olish 'turni faqat nomigagina saqlaydigan, uzoq muddatli omon qolish uchun zarur genetik kenglikdan mahrum urug' banki' xavfini tug'diradi.",
       "quotes": [
         "without the genetic breadth necessary for long-term survival or adaptation"
-      ]
+      ],
+      "ru": "D — В пункте D поясняется, что коллекционеры берут образцы как минимум с пятидесяти растений, потому что слишком немногие из них «рискуют создать банк семян, который сохранит вид только по названию, без генетического разнообразия, необходимого для долгосрочного выживания».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "588a03cbaa0874a627f99acb5d16fc230bc8171eb715fff6ab4c6ae656741181"
+        }
+      }
     },
     "8": {
       "part": 1,
@@ -10652,7 +10715,16 @@
       "uz": "E — E paragrafi: 'Muassasadagi yong'in yoki uzoq davom etgan elektr uzilishi… o'nlab yillik bebaho materialni yo'q qilishi mumkin', hamda muzloq erishidan kelib chiqqan Shvalbard hodisasi. Ikkalasi ham haroratga bog'liq nosozlik.",
       "quotes": [
         "A fire or prolonged power cut at a facility"
-      ]
+      ],
+      "ru": "E — Параграф E: «Пожар или длительное отключение электроэнергии на объекте… могут уничтожить десятилетия незаменимого материала», а также нарушение Шпицбергена, вызванное таянием вечной мерзлоты. Оба являются авариями, связанными с температурой на складах.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "65b00fb5e6d21fd81050ea55ee81edae98918d449241af762da559a49899d1ab"
+        }
+      }
     },
     "9": {
       "part": 1,
@@ -10660,7 +10732,16 @@
       "uz": "F — F paragrafi: 'Har qanday turning qiymatini oldindan bilib bo'lmaydi; bugun oddiy ko'ringan o'simlik ertangi qishloq xo'jaligi uchun hal qiluvchi genlarni tashiyotgan bo'lishi mumkin.'",
       "quotes": [
         "The value of any individual species cannot be known in advance"
-      ]
+      ],
+      "ru": "F — Параграф F: «Ценность любого отдельного вида не может быть известна заранее; растение, которое сегодня кажется ничем не примечательным, может оказаться носителем генов, критически важных для сельскохозяйственных систем завтрашнего дня».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "cf9492312d49132f82e671512a20645ebd51fa4879e8bb8294f38ba66468e676"
+        }
+      }
     },
     "10": {
       "part": 1,
@@ -10668,7 +10749,16 @@
       "uz": "C — C paragrafida aniq saqlash sharoiti berilgan: 'urug'lar tozalanadi, namligi taxminan uch-yetti foizgacha quritiladi, havo o'tkazmaydigan idishlarga solinadi va minus yigirma daraja Selsiyda saqlanadi.'",
       "quotes": [
         "dried to a moisture content of around three to seven percent"
-      ]
+      ],
+      "ru": "C — В параграфе C указаны точные условия хранения: «семена можно очистить, высушить до влажности около трех-семи процентов, запечатать в герметичные контейнеры и хранить при минус двадцати градусах Цельсия».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1a40c054f6c1d42559b679c7f68bd839c5c781195b05a6e5678f6d5456898603"
+        }
+      }
     },
     "11": {
       "part": 1,
@@ -10676,7 +10766,16 @@
       "uz": "B — 'recalcitrant turlar quritilsa yoki muzlatilsa nobud bo'ladigan urug' beradi, shuning uchun ularni standart usulda saqlash juda qiyin.' Quritish va muzlatish — standart jarayon, bu urug'lar unga chiday olmaydi. A noto'g'ri — gap vaqt haqida emas.",
       "quotes": [
         "produce seeds that die if dried or frozen"
-      ]
+      ],
+      "ru": "B — «непокорные виды производят семена, которые погибают при высушивании или замораживании, что делает их чрезвычайно трудными для сохранения стандартными методами». Сушка и заморозка — стандартный процесс, и эти семена не могут его пережить. А ошибается — дело не в том, сколько времени это займет.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "edec97b8a62bc8e551b5937f46eb6950c0e95b6b6925db57b7329354c3392cea"
+        }
+      }
     },
     "12": {
       "part": 1,
@@ -10684,7 +10783,16 @@
       "uz": "B — 'Ba'zilar bu 'muzlatilgan bioxilma-xillik' — siyosatchilarga yashash joyi yo'q qilinishining asosiy sabablarini hal qilishdan qochish imkonini beruvchi texnik yechim deb hisoblaydi.' Bu tanqidchilar fikri, ya'ni aynan B varianti.",
       "quotes": [
         "a technical fix that allows policymakers to avoid addressing the root causes"
-      ]
+      ],
+      "ru": "B — «Некоторые утверждают, что это представляет собой форму замороженного биоразнообразия — техническое решение, которое позволяет политикам избежать устранения коренных причин разрушения среды обитания». Обратите внимание, именно это утверждают критики, точно соответствующие варианту Б.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7439c8014ac801c29768e059cb712a3e9b7f9ed71490a528a0bedf240626ae97"
+        }
+      }
     },
     "13": {
       "part": 1,
@@ -10692,7 +10800,16 @@
       "uz": "B — Sug'urta iborasi shunday davom etadi: 'o'z bilimsizligimizga qarshi sug'urta — noaniq kelajakda imkoniyatlarni ochiq qoldirish usuli.' Bilmaslik va noaniqlik = oldindan ko'ra olmaydigan xavflar. C noto'g'ri: hech narsa kafolatlanmagan.",
       "quotes": [
         "a way of keeping options open in an uncertain future"
-      ]
+      ],
+      "ru": "B — Страховая фраза завершается как «страховка от нашего собственного невежества — способ сохранить возможность выбора в неопределенном будущем». Незнание и неуверенность = риски, которые мы не можем полностью предвидеть. C ошибается: ничего не гарантировано.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4a54db47d48e24b0be73d10dece4e56580445e29c3e245236e52c37201f870b4"
+        }
+      }
     }
   },
   "single-reading-49": {
@@ -10702,7 +10819,16 @@
       "uz": "I — Faqat I paragrafi inson zarari haqida: 'asfalt yo'llar, kemping joylari va yo'l ko'rsatkichli so'qmoqlar faqat inson ta'sirini oshirdi', 20 000 dan ortiq tashrifchi 40 000 ga yaqinlashmoqda, iqlim isishi yashash joyining uchdan ikkisini yo'q qiladi.",
       "quotes": [
         "paved roads, campsites, and self-guided trails have led only to more human impact"
-      ]
+      ],
+      "ru": "I — Параграф I является единственным, касающимся человеческого ущерба: «асфальтированные дороги, места для кемпинга и самостоятельные тропы привели только к еще большему человеческому воздействию», плюс более 20 000 посетителей выросло до 40 000, а потепление разрушило две трети среды обитания.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "f6502866a6c7335026b3d2e536376951abfcece46d043bfe8335fa4db19beb7d"
+        }
+      }
     },
     "2": {
       "part": 1,
@@ -10710,7 +10836,16 @@
       "uz": "C — 'ring' bu yillik o'sish halqasi. C paragrafida har yili 'har bir bristlecone o'sib, mavsumning oson yoki og'irligini aks ettiruvchi yangi kambiy qatlamini hosil qilishi' tushuntiriladi.",
       "quotes": [
         "forms a new outer layer of cambium that reflects a season's particular ease or hardship"
-      ]
+      ],
+      "ru": "C — «кольцо щетинок сосен» означает годовое кольцо роста. В параграфе C объясняется, как каждый год «каждая щетинка растет и образует новый внешний слой камбия, который отражает особую легкость или трудности того или иного сезона».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "63d38dc35bc30fb4194937047b542df09019a9792ea2ea97616d0c7d273c0ef8"
+        }
+      }
     },
     "3": {
       "part": 1,
@@ -10718,7 +10853,16 @@
       "uz": "D — D paragrafida halqalar 'bizga o'tmishning tabiiy yozuvlarini, hozirgi kunning belgilarini va kelajakka ishoralarni qoldirgani' aytiladi — o'tmishdan bugungacha ishonchli yozuv.",
       "quotes": [
         "natural recordings of the past, markers of the present, and clues to the future"
-      ]
+      ],
+      "ru": "D — В пункте D говорится, что кольца «оставили нам естественные записи прошлого, маркеры настоящего и подсказки к будущему» — надежную запись, идущую от прошлого до настоящего.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "bda2913347e8763a314332c72e7913a72baea2a6e93fed6fd56abd8f857a774e"
+        }
+      }
     },
     "4": {
       "part": 1,
@@ -10726,7 +10870,16 @@
       "uz": "A — A paragrafida shafqatsiz sharoit tasvirlanadi ('kam yog'in… shiddatli shamol'), lekin bristlecone'lar 'bu qaqroq yon bag'irlarni doimiy uyi qilib olgan' va eng uzoq yashovchi daraxtga aylangan. Ya'ni og'ir muhitda omon qolish.",
       "quotes": [
         "bristlecone pines have claimed these barren slopes as their permanent home"
-      ]
+      ],
+      "ru": "A — В параграфе А описываются жестокие условия («небольшие осадки… свирепый ветер») и говорится, что щетинистые шишки, тем не менее, «провозгласили эти бесплодные склоны своим постоянным домом», став самыми старыми живыми деревьями. Это выживание во враждебной среде.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "bc388b009319b5bbf7095153eb643b513a8be8350494d208f47266fec6979e20"
+        }
+      }
     },
     "5": {
       "part": 1,
@@ -10734,7 +10887,16 @@
       "uz": "B — A paragrafining asosiy fikri: bristlecone'lar 'sayyoradagi eng uzoq yashovchi daraxtga aylanib, uzoq umr taxtiga o'tirgan'. Og'ir muhit tilga olinadi, lekin faqat shu uzoq umr sababi sifatida.",
       "quotes": [
         "earned their seat on the longevity throne by becoming the oldest living trees on the planet"
-      ]
+      ],
+      "ru": "B — Ключевое утверждение параграфа А заключается в том, что щетинки «заслужили свое место на троне долголетия, став старейшими живыми деревьями на планете». Суровая окружающая среда упоминается, но только как причина столь преклонного возраста.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "19ecb0b466b76f83e0e431768e396ae933a41e27f3aeeab457695d659da903a0"
+        }
+      }
     },
     "6": {
       "part": 1,
@@ -10742,7 +10904,16 @@
       "uz": "A — 'Bu tabiiy hududda eng qari va eng ko'p o'rganilgan bristlecone to'plamlari Kaliforniyaning Oq tog'larida joylashgan.' Eng qarilari o'sha yerda, shuning uchun tadqiqot ham o'sha yerda.",
       "quotes": [
         "the oldest and most widely researched stands of bristlecones occur in California's White Mountains"
-      ]
+      ],
+      "ru": "A — «В пределах этого естественного ареала самые старые и наиболее широко исследованные заросли щетинок встречаются в Белых горах Калифорнии». Там находятся самые старые экземпляры, поэтому именно здесь проводятся исследования.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "5f15e3affe207171c113ea03383ba29936c1e0ab4abc7856168988ee2c9150f6"
+        }
+      }
     },
     "7": {
       "part": 1,
@@ -10750,7 +10921,16 @@
       "uz": "D — 'hech qachon keng va tor halqalarning aynan bir xil uzoq ketma-ketligi takrorlanmaydi, chunki iqlimning yildan-yilga o'zgarishi hech qachon bir xil emas.'",
       "quotes": [
         "because year-to-year variations in climate are never exactly the same"
-      ]
+      ],
+      "ru": "D — «Нигде, во времени, не повторяется одна и та же долговременная последовательность широких и узких колец, потому что годовые изменения климата никогда не бывают совершенно одинаковыми».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "da8e97a21ce8911451c0aa3989ec2b9180921c4e04b30176ab4d0f420a90b44a"
+        }
+      }
     },
     "8": {
       "part": 1,
@@ -10758,7 +10938,16 @@
       "uz": "energy — 'Bu moslashuv bristlecone'ga eng og'ir oylarda fotosintez qilishga yordam beradi, doimiy igna almashtirish energiyasini (energy) tejaydi va barqaror xlorofill ta'minlaydi.' 'Reserving' = tejash.",
       "quotes": [
         "saving the energy of constant needle replacement"
-      ]
+      ],
+      "ru": "энергия — «Эта адаптация помогает щетине фотосинтезировать в особенно суровые месяцы, экономя энергию постоянной замены иглы и обеспечивая стабильный запас хлорофилла». «Резервирование» = сохранение.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "02d0eaa97a2dfa0406121a589cb1691f3bd6ebe2cdcfbf1c6976c7a049c71b71"
+        }
+      }
     },
     "9": {
       "part": 1,
@@ -10766,7 +10955,16 @@
       "uz": "stratification — 'Unib chiqish darajasi odatda yuqori, qisman urug'lar dastlabki stratifikatsiyani deyarli talab qilmagani uchun.' 'Initial' = 'primary'.",
       "quotes": [
         "seeds require little to no initial stratification"
-      ]
+      ],
+      "ru": "стратификация — «Всхожесть обычно высокая, отчасти потому, что семена практически не требуют начальной стратификации». «Начальный» соответствует «основному».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0893c423db179896f9d37f30b6cc9e9e07d59dc6af1c36e2ad622899c398337a"
+        }
+      }
     },
     "10": {
       "part": 1,
@@ -10774,7 +10972,16 @@
       "uz": "bands of bark — 'kambiy nobud bo'lishi po'stloqning ayrim joylarini yemirib ochadi va faqat tor po'stloq tasmalarini (bands of bark) butun qoldiradi.' 'Intact' = butun qoladi.",
       "quotes": [
         "leaving only narrow bands of bark intact"
-      ]
+      ],
+      "ru": "полосы коры — «отмирание камбия, которое разрушает и тем самым обнажает определенные участки ствола, оставляя нетронутыми только узкие полосы коры». «Нетронутый» = оставаться целым.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0f05f0921824c61a61f35ac41be4b4f01fa16bec5b45e3b70305c05796d96b4b"
+        }
+      }
     },
     "11": {
       "part": 1,
@@ -10782,7 +10989,16 @@
       "uz": "dry mountain air — 'Quruq, shamolli va ko'pincha muzlagan tog' havosi bilan birga sekin o'sish zich, tolali va smolaga boy halqalarni ta'minlaydi.' Xulosada shamol va sovuq allaqachon bor, demak yetishmayotgani — quruq tog' havosi.",
       "quotes": [
         "the dry, windy, and often freezing mountain air"
-      ]
+      ],
+      "ru": "сухой горный воздух — «В сочетании с сухим, ветреным и часто ледяным горным воздухом медленный рост гарантирует плотные волокнистые кольца щетинок с высоким содержанием смолы». В сводке и так ветрено и холодно, поэтому недостающим фактором является сухой горный воздух.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "49cc7d3526f07e25388c1ae2f485a9c57a33ac66889c45c8aa4d6e344d881d04"
+        }
+      }
     },
     "12": {
       "part": 1,
@@ -10790,7 +11006,16 @@
       "uz": "ground cover — 'Yer usti o'simliklari (ground cover) yo'qligi va bir tekis joylashuvi tufayli bristlecone to'plamlari yong'indan deyarli zarar ko'rmagan.'",
       "quotes": [
         "Due to a lack of ground cover vegetation"
-      ]
+      ],
+      "ru": "почвенный покров — «Из-за отсутствия почвенно-покровной растительности и равномерного расположения щетинистые насаждения… практически не пострадали от пожара».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "861c52801c0808ace46f7778f453fc2a6804cc0b45dceba84ffbbda95e9da432"
+        }
+      }
     },
     "13": {
       "part": 1,
@@ -10798,113 +11023,994 @@
       "uz": "distance — 'Ouens vodiysining janubidagi cho'qqilar uzoqdan (from a distance) ko'ringanidan balandroq.'",
       "quotes": [
         "higher up than they might appear from a distance"
-      ]
+      ],
+      "ru": "расстояние — «Пики к югу от долины Оуэнс находятся выше, чем может показаться издалека».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4c1f4c561f91f077e65ad86545e633be09655bba6f10059ee6c4b34a71683866"
+        }
+      }
     }
   },
   "single-reading-50": {
     "1": {
       "part": 1,
       "en": "clay. In the paragraph about Egypt in 2000 BC, the dolls have wooden bodies and hair made of clay. The gap asks for the hair material, so choose clay, not wood.",
-      "uz": "",
+      "uz": "loy. Miloddan avvalgi 2000-yildagi Misr haqidagi paragrafda qo'g'irchoqlarning yog'och tanasi va sochlari loydan qilingan. Bo'shliq soch materialini so'raydi, shuning uchun yog'ochni emas, balki loyni tanlang.",
       "quotes": [
         "'hair' made of clay"
-      ]
+      ],
+      "ru": "глина. В абзаце о Египте 2000 года до нашей эры у кукол деревянные тела и глиняные волосы. Зазор требует материала для волос, поэтому выбирайте глину, а не дерево.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8b7d871b4d16c69255390bfa35180ae91b64a2490eb6644f5c031fac46650e5f"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8b7d871b4d16c69255390bfa35180ae91b64a2490eb6644f5c031fac46650e5f"
+        }
+      }
     },
     "2": {
       "part": 1,
       "en": "goddesses. The paragraph about ancient Greece and Rome says that older girls offered their wooden dolls to goddesses when they had outgrown playing with them. The gap asks who received the dolls.",
-      "uz": "",
+      "uz": "ma'budalar. Qadimgi Yunoniston va Rim haqidagi paragrafda aytilishicha, katta yoshdagi qizlar o'zlarining yog'och qo'g'irchoqlarini ular bilan o'ynashdan oshib ketganlarida ma'budalarga taklif qilishgan. Bo'shliq qo'g'irchoqlarni kim olganini so'raydi.",
       "quotes": [
         "offered their wooden dolls to goddesses"
-      ]
+      ],
+      "ru": "богини. В абзаце о Древней Греции и Риме говорится, что девочки постарше предлагали богиням свои деревянные куклы, когда те переросли, играя с ними. Разрыв спрашивает, кто получил куклы.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "550e0fe2e488e1107b381202d7c291fb403c3de4f91b10fcac1eb7376541aa47"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "550e0fe2e488e1107b381202d7c291fb403c3de4f91b10fcac1eb7376541aa47"
+        }
+      }
     },
     "3": {
       "part": 1,
       "en": "limbs. To make dolls lifelike, makers introduced movable limbs and removable garments by 600 BC. The question paraphrases movable as being put in different positions; garments means clothes.",
-      "uz": "",
+      "uz": "oyoq-qo'llar. Qo'g'irchoqlarni jonli qilish uchun ishlab chiqaruvchilar miloddan avvalgi 600-yillarda harakatlanuvchi oyoq-qo'llari va olinadigan kiyimlarni taqdim etganlar. Savol turli o'rinlarda qo'yiladigan ko'chma so'zlarni ifodalaydi; kiyim-kechak, kiyim degani.",
       "quotes": [
         "movable limbs and removable garments"
-      ]
+      ],
+      "ru": "конечности. Чтобы сделать кукол реалистичными, к 600 г. до н.э. производители ввели подвижные конечности и съемную одежду. Вопрос перефразирует подвижное как находящееся в разных положениях; одежда означает одежду.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "22ff162a3276007acf0b96edc9f17c5991733e6ece27164e13db922a60f752d2"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "22ff162a3276007acf0b96edc9f17c5991733e6ece27164e13db922a60f752d2"
+        }
+      }
     },
     "4": {
       "part": 1,
       "en": "wax. The paragraph on the 17th and 18th centuries says wax dolls grew in popularity. More common paraphrases grew in popularity, and the gap needs the material wax.",
-      "uz": "",
+      "uz": "mum. 17 va 18-asrlardagi paragrafda mum qo'g'irchoqlarning mashhurligi oshgani aytiladi. Ko'proq keng tarqalgan parafrazlar mashhurlikka erishdi va bo'shliq moddiy mumga muhtoj.",
       "quotes": [
         "wax dolls grew in popularity in the 17th and 18th centuries"
-      ]
+      ],
+      "ru": "воск. В абзаце о 17 и 18 веках говорится, что популярность восковых кукол возросла. Популярность более распространенных фраз выросла, и для устранения пробела требуется материал-воск.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8452cdd6eb0d86c6c2f7decfd891a988ea23687573d59ae936bb4828f9e0d2f3"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8452cdd6eb0d86c6c2f7decfd891a988ea23687573d59ae936bb4828f9e0d2f3"
+        }
+      }
     },
     "5": {
       "part": 1,
       "en": "plaster. The modeller first shaped a head in wax or clay, then covered it with plaster to create a mould. The gap asks about the mould, not the material later poured into it.",
-      "uz": "",
+      "uz": "gips. Modeler avval boshni mum yoki loydan shakllantirdi, so'ngra qolip yaratish uchun uni gips bilan qopladi. Bo'shliq, keyinchalik unga quyilgan materialni emas, balki qolip haqida so'raydi.",
       "quotes": [
         "cover it with plaster to create a mould"
-      ]
+      ],
+      "ru": "штукатурка. Модельер сначала слепил голову из воска или глины, а затем покрыл ее гипсом, чтобы создать форму. Зазор спрашивает о форме, а не о материале, который позже в нее залили.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "cc341da40ac7a3a43df37f1aa861cdaf3e075a58e67353d17451944b1443f0f8"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "cc341da40ac7a3a43df37f1aa861cdaf3e075a58e67353d17451944b1443f0f8"
+        }
+      }
     },
     "6": {
       "part": 1,
       "en": "composition. The paragraph beginning with Composition defines it as a collective term for mixtures of pulped wood or paper. It also mentions pressure moulding and secret recipes. These details match the notes; copy the one-word term composition.",
-      "uz": "",
+      "uz": "tarkibi. Tarkibi bilan boshlangan paragraf uni yog'och yoki qog'oz massasi aralashmalari uchun umumiy atama sifatida belgilaydi. Shuningdek, u bosimli kalıplama va maxfiy retseptlar haqida gapiradi. Ushbu tafsilotlar eslatmalarga mos keladi; bir so‘zli atama kompozitsiyasini ko‘chiring.",
       "quotes": [
         "'Composition' is a collective term for mixtures of pulped wood or paper"
-      ]
+      ],
+      "ru": "состав. В абзаце, начинающемся со слова «Композиция», он определяется как собирательный термин для смесей целлюлозы из древесины или бумаги. Также упоминается литье под давлением и секретные рецепты. Эти детали соответствуют примечаниям; скопируйте состав термина из одного слова.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "38ca3d9e1a82cca1214f19dbe4af5b095f317dcfeaeb96781b5abf46fa855d7c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "38ca3d9e1a82cca1214f19dbe4af5b095f317dcfeaeb96781b5abf46fa855d7c"
+        }
+      }
     },
     "7": {
       "part": 1,
       "en": "FALSE. The porcelain paragraph says bisque looked more like skin than china did. More like skin means more realistic. The statement says bisque is less realistic, reversing the comparison, so it is FALSE.",
-      "uz": "",
+      "uz": "FALSE. Chinni paragrafda aytilishicha, pechene chindan ko'ra teriga ko'proq o'xshaydi. Ko'proq teriga o'xshab, haqiqiyroq degan ma'noni anglatadi. Bayonotda aytilishicha, biskvit kamroq realistik, taqqoslashni o'zgartiradi, shuning uchun u FALSE.",
       "quotes": [
         "looked more like skin than china did"
-      ]
+      ],
+      "ru": "FALSE. В параграфе о фарфоре говорится, что бисквит больше похож на кожу, чем на фарфор. Больше похоже на кожу, значит, более реалистично. В заявлении говорится, что бисквит менее реалистичен, что меняет сравнение на противоположное, поэтому оно ЛОЖНО.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8099b3f640d8ffc88e77576e31636e2de935f40d894e9c80638387ad0d9199b5"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8099b3f640d8ffc88e77576e31636e2de935f40d894e9c80638387ad0d9199b5"
+        }
+      }
     },
     "8": {
       "part": 1,
       "en": "TRUE. The paragraph about French and German dolls says German bisque dolls became popular because they were not as expensive. This means French dolls generally cost more, which agrees with the statement.",
-      "uz": "",
+      "uz": "TRUE. Fransuz va nemis qo'g'irchoqlari haqidagi paragrafda aytilishicha, nemis pechene qo'g'irchoqlari qimmat bo'lmagani uchun mashhur bo'lgan. Bu shuni anglatadiki, frantsuz qo'g'irchoqlari odatda qimmatroq turadi, bu bayonotga mos keladi.",
       "quotes": [
         "German bisque dolls became quite popular because they were not as expensive"
-      ]
+      ],
+      "ru": "TRUE. В параграфе о французских и немецких куклах говорится, что немецкие куклы из бисквита стали популярными, потому что они были не такими дорогими. Это означает, что французские куклы обычно стоят дороже, что согласуется с утверждением.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3ba649ab0b1e723405361da927419a2bd318441f14999b0d91f2dab65e4f58b6"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3ba649ab0b1e723405361da927419a2bd318441f14999b0d91f2dab65e4f58b6"
+        }
+      }
     },
     "9": {
       "part": 1,
       "en": "FALSE. Rag dolls had been made by mothers for many centuries. The 1850s date refers only to the first commercially produced rag dolls, not the first rag dolls of any kind. The statement confuses commercial production with their original creation.",
-      "uz": "",
+      "uz": "FALSE. Ko'p asrlar davomida latta qo'g'irchoqlar onalar tomonidan yasalgan. 1850-yillar sanasi har qanday turdagi birinchi latta qo'g'irchoqlarga emas, balki faqat tijorat maqsadida ishlab chiqarilgan birinchi latta qo'g'irchoqlarga tegishli. Bayonot tijorat ishlab chiqarishni asl ijodi bilan aralashtirib yuboradi.",
       "quotes": [
         "For many centuries, rag dolls were made by mothers for their children."
-      ]
+      ],
+      "ru": "FALSE. Тряпичные куклы изготавливались матерями на протяжении многих веков. Дата 1850-х годов относится только к первым коммерческим тряпичным куклам, а не к первым тряпичным куклам любого типа. Заявление путает коммерческое производство с их оригинальным творением.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7b4c8300506ffdcb987b68bd75b09a283ce9f75633c0b9ae61dcad7f4633bee1"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7b4c8300506ffdcb987b68bd75b09a283ce9f75633c0b9ae61dcad7f4633bee1"
+        }
+      }
     },
     "10": {
       "part": 1,
       "en": "TRUE. The text distinguishes rag dolls made of any fabric from the narrower category cloth dolls, made of linen or cotton. The statement uses the specific category cloth dolls and therefore agrees with this definition.",
-      "uz": "",
+      "uz": "TRUE. Matn har qanday matodan qilingan latta qo'g'irchoqlarni zig'ir yoki paxtadan qilingan tor toifadagi mato qo'g'irchoqlaridan ajratib turadi. Bayonot maxsus toifadagi mato qo'g'irchoqlaridan foydalanadi va shuning uchun bu ta'rifga mos keladi.",
       "quotes": [
         "'Cloth doll' refers to a subset of rag dolls made of linen or cotton."
-      ]
+      ],
+      "ru": "TRUE. Текст отличает тряпичные куклы из любой ткани от более узкой категории тканевых кукол, изготовленных из льна или хлопка. В заявлении используются тканевые куклы конкретной категории, и поэтому оно согласуется с этим определением.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c777a21d80c9b468f858cbf41d1b541f11f50104a44610e3392bc68bd760e4fa"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c777a21d80c9b468f858cbf41d1b541f11f50104a44610e3392bc68bd760e4fa"
+        }
+      }
     },
     "11": {
       "part": 1,
       "en": "TRUE. The celluloid paragraph describes its propensity to fade in bright light. Propensity means tendency, and fade means lose colour. This directly agrees with the statement.",
-      "uz": "",
+      "uz": "TRUE. Selüloid paragraf uning yorqin nurda pasayish moyilligini tasvirlaydi. Moyillik moyillikni bildiradi, so'nish esa rangni yo'qotadi. Bu bayonotga to'g'ridan-to'g'ri mos keladi.",
       "quotes": [
         "propensity to fade in bright light"
-      ]
+      ],
+      "ru": "TRUE. Абзац о целлулоиде описывает его склонность к выцветанию при ярком свете. Склонность означает тенденцию, а выцветание означает потерю цвета. Это прямо согласуется с утверждением.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b53961d9703b61c23add2f5931f7a42ac0fd52f03450fbd69aa285c7978e898a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b53961d9703b61c23add2f5931f7a42ac0fd52f03450fbd69aa285c7978e898a"
+        }
+      }
     },
     "12": {
       "part": 1,
       "en": "FALSE. The final paragraph describes hard plastic dolls made in the 1940s: they resembled composition dolls but were much more durable. Durable means long-lasting. The statement reverses which type lasted longer.",
-      "uz": "",
+      "uz": "FALSE. Oxirgi xatboshida 1940-yillarda ishlab chiqarilgan qattiq plastik qo'g'irchoqlar tasvirlangan: ular kompozitsion qo'g'irchoqlarga o'xshardi, lekin ancha bardoshli edi. Bardoshli degani uzoq umr degani. Bayonot qaysi tur uzoqroq davom etganini o'zgartiradi.",
       "quotes": [
         "They resembled composition dolls, but they were much more durable."
-      ]
+      ],
+      "ru": "FALSE. В последнем абзаце описываются куклы из твердого пластика, изготовленные в 1940-х годах: они напоминали композиционные куклы, но были гораздо более прочными. Прочный значит долговечный. Оператор меняет местами, какой тип просуществовал дольше.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "40fe829d9e6cbee6029d24cdabe6aca380a8d17212fd7145f2768c92e67758b4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "40fe829d9e6cbee6029d24cdabe6aca380a8d17212fd7145f2768c92e67758b4"
+        }
+      }
     },
     "13": {
       "part": 1,
       "en": "NOT GIVEN. The final paragraph mentions collectible dolls and the materials modern makers use. It does not state whether collectors prefer original clothing. There is no comparison of collectors' clothing preferences, so neither TRUE nor FALSE can be established.",
-      "uz": "",
+      "uz": "NOT GIVEN. Yakuniy paragrafda yig'iladigan qo'g'irchoqlar va zamonaviy ishlab chiqaruvchilar foydalanadigan materiallar haqida so'z boradi. Unda kollektsionerlar asl kiyimlarni afzal ko'rishlari aytilmagan. Kollektorlarning kiyim-kechak afzalliklarini taqqoslash yo'q, shuning uchun na TRUE, na FALSE aniqlanishi mumkin emas.",
       "quotes": [
         "many modern doll makers are still using the traditional materials of the past to make collectible dolls."
-      ]
+      ],
+      "ru": "NOT GIVEN. В последнем абзаце упоминаются коллекционные куклы и материалы, которые используют современные производители. Не уточняется, предпочитают ли коллекционеры оригинальную одежду. Сравнения предпочтений коллекционеров в одежде не проводится, поэтому ни ПРАВДА, ни ЛОЖЬ не могут быть установлены.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3bea95652918dac92afff2ed79db6014fe41c67206e19ca2e91a99ddadaf49e1"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3bea95652918dac92afff2ed79db6014fe41c67206e19ca2e91a99ddadaf49e1"
+        }
+      }
+    }
+  },
+  "single-reading-51": {
+    "27": {
+      "part": 1,
+      "en": "Section A contrasts caves in Western Europe with open-air shelters further east. Its main idea is the comparison between two types of home, followed by reasons why caves provide more evidence. Heading v fits the whole section.",
+      "uz": "A bo'limi G'arbiy Evropadagi g'orlar bilan sharqda ochiq havoda joylashgan boshpanalarni aks ettiradi. Uning asosiy g'oyasi ikki turdagi uy o'rtasidagi taqqoslash, keyin g'orlar nima uchun ko'proq dalillar keltirishi sabablari. v sarlavhasi butun qismga mos keladi.",
+      "quotes": [
+        "We now know much more about the cave sites than the open-air ones"
+      ],
+      "ru": "В разделе А пещеры Западной Европы сравниваются с убежищами под открытым небом на востоке. Его основная идея — сравнение двух типов домов, за которым следуют причины, по которым пещеры предоставляют больше доказательств. Заголовок v соответствует всему разделу.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1dfa52d14245571f86684820a8d0c0a059a783ed66b9acb4709acbf6d2b5f7d4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1dfa52d14245571f86684820a8d0c0a059a783ed66b9acb4709acbf6d2b5f7d4"
+        }
+      }
+    },
+    "28": {
+      "part": 1,
+      "en": "Section B describes why the Périgord region was a favourable home: flint, shelter from weather, sunshine and plentiful game. These advantages explain heading iii, A perfect place to live.",
+      "uz": "B bo'limida Perigord hududi nima uchun qulay uy bo'lganligi tasvirlangan: chaqmoqtosh, ob-havodan boshpana, quyosh nuri va mo'l-ko'l o'yin. Bu afzalliklar “Yashash uchun mukammal joy” iii sarlavhasini tushuntiradi.",
+      "quotes": [
+        "an exceptionally benign habitat for humans"
+      ],
+      "ru": "В разделе B описывается, почему регион Перигор был благоприятным домом: кремень, укрытие от непогоды, солнечный свет и изобилие дичи. Эти преимущества объясняют раздел iii «Идеальное место для жизни».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "f72d5a38ba2ac6013cb49cad9fac02ba7ba726f91c874c4507e36219298b6fd4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "f72d5a38ba2ac6013cb49cad9fac02ba7ba726f91c874c4507e36219298b6fd4"
+        }
+      }
+    },
+    "29": {
+      "part": 1,
+      "en": "Section C concerns open-air sites where caves were unavailable. Its example from Moldova describes evidence of windbreaks or a tent made with mammoth bones. Heading i focuses on evidence of outdoor dwellings.",
+      "uz": "S bo'limi g'orlar mavjud bo'lmagan ochiq joylarga tegishli. Uning Moldova misolida shamol to'siqlari yoki mamont suyaklaridan yasalgan chodirning dalillari tasvirlangan. i sarlavhasi ochiq turar-joylarning dalillariga qaratilgan.",
+      "quotes": [
+        "evidence that has been interpreted as the remains of wind-break structures, or even a large tent"
+      ],
+      "ru": "Раздел C касается мест под открытым небом, где пещеры были недоступны. В примере Молдовы описываются ветрозащитные полосы или палатка, сделанная из костей мамонта. В разделе I основное внимание уделяется свидетельствам существования жилищ на открытом воздухе.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c12210256908b6e2f53d1bb73b7eeb1178a893d1536ce0a5698c3ce394d93679"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c12210256908b6e2f53d1bb73b7eeb1178a893d1536ce0a5698c3ce394d93679"
+        }
+      }
+    },
+    "30": {
+      "part": 1,
+      "en": "Section D examines objects found inside caves: stones, animal foot bones, ash, shells and cobbles. Archaeologists use these contents to infer tents, bedding and drainage. Heading iv covers this examination of cave contents.",
+      "uz": "D bo'limi g'orlar ichida topilgan narsalarni o'rganadi: toshlar, hayvonlarning oyoq suyaklari, kul, qobiq va toshbo'ron. Arxeologlar bu tarkibdan chodirlar, choyshablar va drenajlarni aniqlash uchun foydalanadilar. IV sarlavha g'or tarkibini tekshirishni o'z ichiga oladi.",
+      "quotes": [
+        "From the west European caves more evidence of built structures is available"
+      ],
+      "ru": "В разделе D исследуются предметы, найденные внутри пещер: камни, кости стоп животных, пепел, ракушки и булыжники. Археологи используют это содержимое для определения палаток, подстилок и дренажа. Раздел IV посвящен исследованию содержимого пещеры.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e72edd8f5608f54eadae7b2bfeba7dedabd911673c4f2b2998b4b9f5c913eb56"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e72edd8f5608f54eadae7b2bfeba7dedabd911673c4f2b2998b4b9f5c913eb56"
+        }
+      }
+    },
+    "31": {
+      "part": 1,
+      "en": "Section E explains why fire was essential for survival and what remains of fires reveal. Its uses include warmth, light, cooking and defence. Heading vi, A vital source of power, covers the section; heading ii is too narrow because learning to make fire is not its central subject.",
+      "uz": "E bo'limida nima uchun yong'in omon qolish uchun zarur bo'lganligi va yong'in qoldiqlari nima ekanligini tushuntiradi. Uning ishlatilishi issiqlik, yorug'lik, pishirish va mudofaani o'z ichiga oladi. “Vi” sarlavhasi, “Quvvatning muhim manbai” bo‘limini qamrab oladi; ii sarlavha juda tor, chunki olov yoqishni o'rganish uning asosiy mavzusi emas.",
+      "quotes": [
+        "Fire gave warmth, light, heat for cooking and defence against predatory animals."
+      ],
+      "ru": "В разделе E объясняется, почему огонь был необходим для выживания и что показывают остатки пожаров. Его использование включает тепло, свет, приготовление пищи и защиту. Раздел VI «Жизненно важный источник энергии» охватывает этот раздел; заголовок 2 слишком узок, поскольку обучение добыче огня не является его центральной темой.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4877f52582df44424556db7b254af0fe6f4354af6f6422b9524aaae01b813a46"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4877f52582df44424556db7b254af0fe6f4354af6f6422b9524aaae01b813a46"
+        }
+      }
+    },
+    "32": {
+      "part": 1,
+      "en": "The burnt wood is the charred piece of birch found at Krapina in Croatia. Charred means burnt. In the List of Places, Krapina is E.",
+      "uz": "Kuygan o'tin - bu Xorvatiyaning Krapina shahrida topilgan kuygan qayin bo'lagi. Charred - kuygan degan ma'noni anglatadi. Joylar ro'yxatida Krapina E.",
+      "quotes": [
+        "A charred piece of birch from Krapina in Croatia"
+      ],
+      "ru": "Обгоревшая древесина — это обугленный кусок березы, найденный в Крапине в Хорватии. Обугленный значит сгоревший. В Списке мест Крапина — Е.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "754f16c004482bc954a7c99c1049ed011478c6a92233ee0dfeb83edb8586af86"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "754f16c004482bc954a7c99c1049ed011478c6a92233ee0dfeb83edb8586af86"
+        }
+      }
+    },
+    "33": {
+      "part": 1,
+      "en": "Baume-Bonne had river cobbles laid on the cave floor, apparently to deal with a puddle. This is the evidence of preventing pools of water. Baume-Bonne is place D.",
+      "uz": "Baume-Bonne g'or tagiga daryo toshlari yotqizilgan edi, ehtimol, ko'lmak bilan kurashish uchun. Bu suv havzalarining oldini olishning dalilidir. Baume-Bonne - D joyi.",
+      "quotes": [
+        "as though to take care of a puddle area in the cave"
+      ],
+      "ru": "Боме-Бонн уложил пол пещеры речной булыжником, видимо, чтобы справиться с лужей. Это свидетельство предотвращения образования луж. Бом-Бонн — это место D.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "32328ffc1e2cfba4662b9136d4674f894df1230aa311695e15254fc4554a6f74"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "32328ffc1e2cfba4662b9136d4674f894df1230aa311695e15254fc4554a6f74"
+        }
+      }
+    },
+    "34": {
+      "part": 1,
+      "en": "At Lazaret, small marine mollusc shells were found around patches of ash. Marine means connected with the sea, and shells are remains of sea creatures. Lazaret is C.",
+      "uz": "Lazaretda kul bo'laklari atrofida kichik dengiz mollyuskalari topilgan. Dengiz so'zi dengiz bilan bog'liq bo'lib, qobiqlar dengiz jonzotlarining qoldiqlari hisoblanadi. Lazaret - C.",
+      "quotes": [
+        "small marine mollusc shells"
+      ],
+      "ru": "В Лазаре вокруг участков пепла были обнаружены небольшие раковины морских моллюсков. Морское – значит, связанное с морем, а ракушки – останки морских существ. Лазарет - это С.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "efabd4485413d83b1d945c44ee1c6d21af822dbb073728eb83c8541db77c99c1"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "efabd4485413d83b1d945c44ee1c6d21af822dbb073728eb83c8541db77c99c1"
+        }
+      }
+    },
+    "35": {
+      "part": 1,
+      "en": "The circular arrangement is the ring of mammoth bones at Moldova, described in section C. It may have supported a windbreak or tent. Moldova is place B.",
+      "uz": "Dumaloq joylashuv Moldovadagi mamont suyaklarining halqasi bo'lib, C bo'limida tasvirlangan. U shamol yoki chodirni qo'llab-quvvatlagan bo'lishi mumkin. Moldova B o'rinda.",
+      "quotes": [
+        "a ring, up to about 8 x 5m in size, of mainly mammoth bones"
+      ],
+      "ru": "Круговое расположение представляет собой кольцо из костей мамонта в Молдове, описанное в разделе C. Возможно, оно служило опорой для ветрозащитной полосы или палатки. Молдова занимает место Б.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "305a301c68e297e492d568ac54568d9c6d46497c56a5aa1c64809e6ea2c1dd1c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "305a301c68e297e492d568ac54568d9c6d46497c56a5aa1c64809e6ea2c1dd1c"
+        }
+      }
+    },
+    "36": {
+      "part": 1,
+      "en": "At Lazaret, wolf and fox foot bones without the rest of the skeletons were interpreted as evidence that pelts had been used for bed coverings. Pelts are animal skins with fur, explaining the reference to warmth. Lazaret is C.",
+      "uz": "Lazaretda qolgan skeletlari bo'lmagan bo'ri va tulki oyog'i suyaklari po'stlog'i to'shak uchun ishlatilganligini isbotlovchi dalil sifatida talqin qilingan. Po'stlar - bu mo'ynali hayvonlarning terisi bo'lib, ular issiqlikka ishora qiladi. Lazaret - C.",
+      "quotes": [
+        "use of animal pelts as bed coverings"
+      ],
+      "ru": "В Лазарете кости стоп волка и лисы без остальных скелетов были интерпретированы как свидетельство того, что шкуры использовались для покрытия кроватей. Шкурки — это шкуры животных с мехом, что объясняет их теплоту. Лазарет - это С.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e06f6e3a3c9502115157aa9d7daa3cc69be07636f43141135421eff2a880c45d"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e06f6e3a3c9502115157aa9d7daa3cc69be07636f43141135421eff2a880c45d"
+        }
+      }
+    },
+    "37": {
+      "part": 1,
+      "en": "Section E says survival in the sub-arctic conditions was inconceivable without control of fire. The summary asks what the conditions were like, so copy sub-arctic. Keep the source spelling and hyphen.",
+      "uz": "E bo'limida aytilishicha, subarktika sharoitida omon qolishni yong'in nazoratisiz tasavvur qilib bo'lmaydi. Xulosa sharoitlar qanday bo'lganini so'raydi, shuning uchun subarktikadan nusxa ko'chiring. Manba imlo va defisni saqlang.",
+      "quotes": [
+        "survival in the sub-arctic conditions"
+      ],
+      "ru": "В разделе Е говорится, что выживание в субарктических условиях было немыслимо без контроля над огнем. В резюме спрашивается, каковы были условия, так что копируйте субарктические. Сохраните исходную орфографию и дефис.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "9ad1a36c93e145c9144250ac29bde1c692157bb36c89c266e22e8e32466fcacf"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "9ad1a36c93e145c9144250ac29bde1c692157bb36c89c266e22e8e32466fcacf"
+        }
+      }
+    },
+    "38": {
+      "part": 1,
+      "en": "The shallow heat penetration beneath the ash suggests that a fire was only of a short duration. Duration means the length of time. The summary already supplies time, leaving the adjective short.",
+      "uz": "Kul ostidagi sayoz issiqlik yong'inning qisqa muddatli ekanligini ko'rsatadi. Davomiylik vaqt uzunligini bildiradi. Xulosa sifatni qisqa qoldirib, allaqachon vaqtni ta'minlaydi.",
+      "quotes": [
+        "this fire was only of a short duration"
+      ],
+      "ru": "Неглубокое проникновение тепла под пепел позволяет предположить, что пожар был кратковременным. Продолжительность означает продолжительность времени. Резюме уже дает время, оставляя прилагательное коротким.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "467a610b48468eed2eab58fdf4bd235ac1498cc2832012efec513a52db6de5ed"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "467a610b48468eed2eab58fdf4bd235ac1498cc2832012efec513a52db6de5ed"
+        }
+      }
+    },
+    "39": {
+      "part": 1,
+      "en": "Fire provided defence against predatory animals. This matches protect the occupants from dangerous animals in the summary. Copy the two-word phrase predatory animals, staying within the word limit.",
+      "uz": "Yong'in yirtqich hayvonlardan himoyalangan. Bu gugurtlar yo'lovchilarni xavfli hayvonlardan himoya qiladi. Ikki so'zdan iborat yirtqich hayvonlar iborasini ko'chiring, so'z chegarasida qoling.",
+      "quotes": [
+        "defence against predatory animals"
+      ],
+      "ru": "Огонь обеспечивал защиту от хищных животных. Вкратце, эти спички защищают жильцов от опасных животных. Скопируйте фразу «хищные животные», состоящую из двух слов, не превышая лимита слов.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0fdceffa3acad734f9d2af441f595948a21dafdc3c316d05c746d094e45fe099"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0fdceffa3acad734f9d2af441f595948a21dafdc3c316d05c746d094e45fe099"
+        }
+      }
+    },
+    "40": {
+      "part": 1,
+      "en": "The article surveys what archaeological evidence reveals about Neanderthal settlements: their locations, shelters, cave contents and fires. Option C captures this overall purpose. It does not mainly argue about larger homes, explain migration, or trace developmental progress.",
+      "uz": "Maqolada neandertal aholi punktlari haqida arxeologik dalillar nimani ochib berishini o'rganadi: ularning joylashuvi, boshpanalari, g'or tarkibi va yong'inlari. Variant C bu umumiy maqsadni qamrab oladi. U asosan kattaroq uylar haqida bahslashmaydi, migratsiyani tushuntirmaydi yoki rivojlanish taraqqiyotini kuzatmaydi.",
+      "quotes": [
+        "Caves, moreover, aid the survival of archaeological material and can preserve the records of remote millennia."
+      ],
+      "ru": "В статье рассматривается, что археологические данные говорят о поселениях неандертальцев: их местонахождении, убежищах, содержимом пещер и пожарах. Вариант C отражает эту общую цель. В основном он не спорит о более крупных домах, не объясняет миграцию или не отслеживает прогресс в развитии.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "59ee70b40adf5b20d6b7a5db5807efb47e56666d21da31e6e3673fb6c1ed8ce8"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "59ee70b40adf5b20d6b7a5db5807efb47e56666d21da31e6e3673fb6c1ed8ce8"
+        }
+      }
+    }
+  },
+  "single-reading-52": {
+    "14": {
+      "part": 1,
+      "en": "Section C discusses medical uses of horseshoe crab blood, including testing equipment and vaccines for bacteria and investigating a protein as an antibiotic. The other sections focus on anatomy, reproduction, development or population decline.",
+      "uz": "C bo'limida taqa qisqichbaqasi qonidan tibbiy maqsadlarda foydalanish, shu jumladan bakteriyalar uchun asbob-uskunalar va vaktsinalarni tekshirish va oqsilni antibiotik sifatida tekshirish muhokama qilinadi. Boshqa bo'limlar anatomiya, ko'payish, rivojlanish yoki populyatsiyaning qisqarishiga qaratilgan.",
+      "quotes": [
+        "Another application is a protein from horseshoe crab blood that is under investigation as an antibiotic."
+      ],
+      "ru": "В разделе C обсуждается медицинское использование крови мечехвоста, включая тестирование оборудования и вакцин против бактерий, а также исследование белка в качестве антибиотика. Другие разделы посвящены анатомии, воспроизводству, развитию или сокращению численности населения.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "48f43db0f2e490e0ea7b2a0fccf88905facdb5afb9b49c143a5d198a1a2008d1"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "48f43db0f2e490e0ea7b2a0fccf88905facdb5afb9b49c143a5d198a1a2008d1"
+        }
+      }
+    },
+    "15": {
+      "part": 1,
+      "en": "Section B identifies the tail as the telson and explains that it helps the crab flip over when upside down under water. This is the requested function of the tail.",
+      "uz": "B bo'limida quyruq telson sifatida ko'rsatilgan va u qisqichbaqa suv ostida teskari bo'lganida ag'darilishiga yordam berishini tushuntiradi. Bu quyruqning talab qilingan funktsiyasi.",
+      "quotes": [
+        "Horseshoe crabs use it to flip over if they happen to be pushed on their backs"
+      ],
+      "ru": "В разделе B хвост идентифицируется как тельсон и объясняется, что он помогает крабу переворачиваться, когда он переворачивается под водой. Это запрошенная функция хвоста.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8c511936c832c845ea825313feda22d156b0f8c20fd96fd3a2c1f7c709ed08fb"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8c511936c832c845ea825313feda22d156b0f8c20fd96fd3a2c1f7c709ed08fb"
+        }
+      }
+    },
+    "16": {
+      "part": 1,
+      "en": "Section B describes both how the crab eats and its food: crawling allows it to open and close its mouth, and it eats mainly worms and clams. These are feeding habits.",
+      "uz": "B bo'limida Qisqichbaqa qanday ovqatlanishi va uning ovqati tasvirlangan: emaklash unga og'zini ochish va yopish imkonini beradi va u asosan qurtlarni va mollyuskalarni iste'mol qiladi. Bu ovqatlanish odatlari.",
+      "quotes": [
+        "Their diet consists mainly of worms and clams."
+      ],
+      "ru": "В разделе Б описано как питается краб, так и его пища: ползание позволяет ему открывать и закрывать рот, а питается он в основном червями и моллюсками. Это пищевые привычки.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "fb10c6b8d62e3491d0c1cde7be5064d54e0a3d03b0e7cf205f02fbae9d6279f2"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "fb10c6b8d62e3491d0c1cde7be5064d54e0a3d03b0e7cf205f02fbae9d6279f2"
+        }
+      }
+    },
+    "17": {
+      "part": 1,
+      "en": "Section D describes adults meeting on beaches, the female scent signal, breeding, nest digging and egg laying. Together these details form the description of reproduction.",
+      "uz": "D bo'limida kattalarning plyajlarda uchrashishi, ayol hidining signali, naslchilik, uya qazish va tuxum qo'yish tasvirlangan. Bu tafsilotlar birgalikda ko'payish tavsifini tashkil qiladi.",
+      "quotes": [
+        "Female horseshoe crabs communicate by releasing a scent to signal to the males."
+      ],
+      "ru": "В разделе D описаны встречи взрослых особей на пляжах, сигнал запаха самки, размножение, рытье гнезда и откладка яиц. Вместе эти детали составляют описание воспроизводства.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ad93d58b1fe27aebdd16d156c5a672c197bb2b09b1a3a35a176c186a50e66002"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ad93d58b1fe27aebdd16d156c5a672c197bb2b09b1a3a35a176c186a50e66002"
+        }
+      }
+    },
+    "18": {
+      "part": 1,
+      "en": "Section E follows the life cycle from hatching through the larval and juvenile periods to maturity. It describes growth, shell shedding and adult size, so it explains development to adulthood.",
+      "uz": "E bo'limi tuxumdan lichinka va balog'atga etishish davrigacha bo'lgan hayot tsiklini kuzatib boradi. U o'sishni, qobiqning to'kilishini va kattalar hajmini tasvirlaydi, shuning uchun u rivojlanishni kattalarga tushuntiradi.",
+      "quotes": [
+        "After the larval stage, horseshoe crabs move into the juvenile period."
+      ],
+      "ru": "В разделе E показан жизненный цикл от вылупления, личиночного и ювенильного периодов до зрелости. Он описывает рост, сбрасывание панциря и размер взрослой особи, поэтому объясняет развитие до взрослой жизни.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8d21ec221f67e6b138a213ef505b2cdaee4c091e9612fb167568bff1057b008a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8d21ec221f67e6b138a213ef505b2cdaee4c091e9612fb167568bff1057b008a"
+        }
+      }
+    },
+    "19": {
+      "part": 1,
+      "en": "Choose B and D in either order. Section B says they can only eat while crawling, which supports B, and can regrow lost limbs, which supports D. They mainly crawl rather than swim; upside-down swimming is not how they bury themselves, and they breathe through gills.",
+      "uz": "Ikkala tartibda ham B va D ni tanlang. B bo'limida aytilishicha, ular faqat emaklash paytida ovqatlanishlari mumkin, bu B ni qo'llab-quvvatlaydi va yo'qolgan oyoq-qo'llarini qayta o'sishi mumkin, bu esa D ni qo'llab-quvvatlaydi. Ular asosan suzishdan ko'ra emaklaydilar; teskari suzish, ular o'zlarini dafn etish emas va ular gillalar orqali nafas olishadi.",
+      "quotes": [
+        "They can only eat when crawling",
+        "the rare ability to regrow lost limbs"
+      ],
+      "ru": "Выберите B и D в любом порядке. В разделе B говорится, что они могут есть только ползая, что поддерживает B, и могут отращивать утраченные конечности, что поддерживает D. В основном они ползают, а не плавают; они не зарываются в перевернутое плавание и дышат жабрами.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        }
+      }
+    },
+    "20": {
+      "part": 1,
+      "en": "Choose B and D in either order. Section B says they can only eat while crawling, which supports B, and can regrow lost limbs, which supports D. They mainly crawl rather than swim; upside-down swimming is not how they bury themselves, and they breathe through gills.",
+      "uz": "Ikkala tartibda ham B va D ni tanlang. B bo'limida aytilishicha, ular faqat emaklash paytida ovqatlanishlari mumkin, bu B ni qo'llab-quvvatlaydi va yo'qolgan oyoq-qo'llarini qayta o'sishi mumkin, bu esa D ni qo'llab-quvvatlaydi. Ular asosan suzishdan ko'ra emaklaydilar; teskari suzish, ular o'zlarini dafn etish emas va ular gillalar orqali nafas olishadi.",
+      "quotes": [
+        "They can only eat when crawling",
+        "the rare ability to regrow lost limbs"
+      ],
+      "ru": "Выберите B и D в любом порядке. В разделе B говорится, что они могут есть только ползая, что поддерживает B, и могут отращивать утраченные конечности, что поддерживает D. В основном они ползают, а не плавают; они не зарываются в перевернутое плавание и дышат жабрами.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        }
+      }
+    },
+    "21": {
+      "part": 1,
+      "en": "Choose A and E in either order. Section C contrasts copper-containing hemocyanin with iron-containing hemoglobin, supporting a different mineral composition. It also places oxygen transport on the exterior of cells rather than inside red blood cells. The colour change is blue to colourless, not blue to red.",
+      "uz": "Ikkala tartibda ham A va E ni tanlang. S bo'limi mis o'z ichiga olgan gemosiyaninni temir o'z ichiga olgan gemoglobin bilan farq qiladi, boshqa mineral tarkibini qo'llab-quvvatlaydi. Shuningdek, u kislorod tashishni qizil qon hujayralari ichida emas, balki hujayralarning tashqi tomoniga joylashtiradi. Rang o'zgarishi ko'kdan rangsizgacha, ko'kdan qizil ranggacha emas.",
+      "quotes": [
+        "a copper-containing protein called hemocyanin",
+        "in a fluid on the exterior of the cell"
+      ],
+      "ru": "Выберите A и E в любом порядке. В разделе C медьсодержащий гемоцианин противопоставляется железосодержащему гемоглобину, что подтверждает другой минеральный состав. Он также обеспечивает перенос кислорода снаружи клеток, а не внутри эритроцитов. Изменение цвета происходит от синего к бесцветному, а не от синего к красному.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        }
+      }
+    },
+    "22": {
+      "part": 1,
+      "en": "Choose A and E in either order. Section C contrasts copper-containing hemocyanin with iron-containing hemoglobin, supporting a different mineral composition. It also places oxygen transport on the exterior of cells rather than inside red blood cells. The colour change is blue to colourless, not blue to red.",
+      "uz": "Ikkala tartibda ham A va E ni tanlang. S bo'limi mis o'z ichiga olgan gemosiyaninni temir o'z ichiga olgan gemoglobin bilan farq qiladi, boshqa mineral tarkibini qo'llab-quvvatlaydi. Shuningdek, u kislorod tashishni qizil qon hujayralari ichida emas, balki hujayralarning tashqi tomoniga joylashtiradi. Rang o'zgarishi ko'kdan rangsizgacha, ko'kdan qizil ranggacha emas.",
+      "quotes": [
+        "a copper-containing protein called hemocyanin",
+        "in a fluid on the exterior of the cell"
+      ],
+      "ru": "Выберите A и E в любом порядке. В разделе C медьсодержащий гемоцианин противопоставляется железосодержащему гемоглобину, что подтверждает другой минеральный состав. Он также обеспечивает перенос кислорода снаружи клеток, а не внутри эритроцитов. Изменение цвета происходит от синего к бесцветному, а не от синего к красному.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        }
+      }
+    },
+    "23": {
+      "part": 1,
+      "en": "Section F reports a widespread decline in abundance over the last twenty years, particularly in the Florida lagoon system. Abundance means population numbers. The summary requires a noun after a, so copy decline.",
+      "uz": "F bo'limi so'nggi yigirma yil ichida, ayniqsa Florida lagunasi tizimida mo'l-ko'llikning keng tarqalgan pasayishi haqida xabar beradi. Ko'plik aholi sonini bildiradi. Xulosa a dan keyin otni talab qiladi, shuning uchun rad etishni nusxa ko'chiring.",
+      "quotes": [
+        "A widespread decline in their abundance in the last 20 years"
+      ],
+      "ru": "В разделе F сообщается о повсеместном снижении численности за последние двадцать лет, особенно в системе лагун Флориды. Численность означает численность населения. В резюме требуется существительное после а, поэтому копируйте отказ.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b4e810a9139e3882e08137a4051a55a90e53dcc7d1f80e17b7fcda8680cef4a4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b4e810a9139e3882e08137a4051a55a90e53dcc7d1f80e17b7fcda8680cef4a4"
+        }
+      }
+    },
+    "24": {
+      "part": 1,
+      "en": "Section F says losing horseshoe crabs would affect species feeding on the animal and its eggs. The summary already mentions the crabs themselves and asks for the other food source, eggs.",
+      "uz": "F bo'limida taqa qisqichbaqalarini yo'qotish hayvon va uning tuxumlari bilan oziqlanadigan turlarga ta'sir qilishi aytiladi. Xulosa allaqachon Qisqichbaqalarning o'zlarini eslatib o'tadi va boshqa oziq-ovqat manbai, tuxumni so'raydi.",
+      "quotes": [
+        "species that feed on the animal and its eggs"
+      ],
+      "ru": "В разделе F говорится, что потеря мечехвостов повлияет на виды, питающиеся этим животным и его икрой. В резюме уже упоминаются сами крабы и запрашивается другой источник пищи — яйца.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "2c1cab9414d35d784eb72cd2165abafbeaee5aaf167e2df3e0ca24eda58b642e"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "2c1cab9414d35d784eb72cd2165abafbeaee5aaf167e2df3e0ca24eda58b642e"
+        }
+      }
+    },
+    "25": {
+      "part": 1,
+      "en": "Section F states that loss of the crab would decrease the biodiversity of the lagoon. The summary paraphrases this as affecting the lagoon system's biodiversity. Copy the one-word noun.",
+      "uz": "F bo'limida qisqichbaqaning yo'qolishi lagunaning biologik xilma-xilligini kamaytirishi aytiladi. Xulosa buni lagun tizimining biologik xilma-xilligiga ta'sir qiladi deb izohlaydi. Bir so'zli otni ko'chiring.",
+      "quotes": [
+        "would decrease the biodiversity of the lagoon"
+      ],
+      "ru": "В разделе F говорится, что потеря краба приведет к уменьшению биоразнообразия лагуны. В резюме это перефразируется как воздействие на биоразнообразие системы лагун. Скопируйте односложное существительное.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ab62c0bbbfe5c5e36594bc3c300812d2d120996da878f4daa7c6159c9adb0f4f"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ab62c0bbbfe5c5e36594bc3c300812d2d120996da878f4daa7c6159c9adb0f4f"
+        }
+      }
+    },
+    "26": {
+      "part": 1,
+      "en": "The final paragraph describes using horseshoe crabs as bait to catch fish. This is the suspected reason local fishermen remove them. Copy bait, not fish: fish are what the fishermen are trying to catch.",
+      "uz": "Oxirgi xatboshida baliq ovlash uchun o'lja sifatida taqa qisqichbaqasidan foydalanish tasvirlangan. Bu mahalliy baliqchilar ularni olib tashlashning shubhali sababidir. Baliq emas, o'lja nusxa ko'chiring: baliq baliqchilar ovlashga urinayotgan narsadir.",
+      "quotes": [
+        "the use of horseshoe crabs as bait to catch fish"
+      ],
+      "ru": "В последнем абзаце описывается использование мечехвоста в качестве наживки для ловли рыбы. Предполагаемая причина, по которой местные рыбаки их убирают. Копируйте наживку, а не рыбу: рыбаки пытаются поймать рыбу.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "fe0b465366202dc219dbc7a98ecb757fae518a823710f9bc12bd12e2056ea3f6"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "fe0b465366202dc219dbc7a98ecb757fae518a823710f9bc12bd12e2056ea3f6"
+        }
+      }
+    },
+    "19–20": {
+      "part": 1,
+      "en": "Choose B and D in either order. Section B says they can only eat while crawling, which supports B, and can regrow lost limbs, which supports D. They mainly crawl rather than swim; upside-down swimming is not how they bury themselves, and they breathe through gills.",
+      "uz": "Ikkala tartibda ham B va D ni tanlang. B bo'limida aytilishicha, ular faqat emaklash paytida ovqatlanishlari mumkin, bu B ni qo'llab-quvvatlaydi va yo'qolgan oyoq-qo'llarini qayta o'sishi mumkin, bu esa D ni qo'llab-quvvatlaydi. Ular asosan suzishdan ko'ra emaklaydilar; teskari suzish, ular o'zlarini dafn etish emas va ular gillalar orqali nafas olishadi.",
+      "quotes": [
+        "They can only eat when crawling",
+        "the rare ability to regrow lost limbs"
+      ],
+      "ru": "Выберите B и D в любом порядке. В разделе B говорится, что они могут есть только ползая, что поддерживает B, и могут отращивать утраченные конечности, что поддерживает D. В основном они ползают, а не плавают; они не зарываются в перевернутое плавание и дышат жабрами.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7b75c77601a5bb6b8bafc3113163251393f12b58a5c2676234b2af1c468319a"
+        }
+      }
+    },
+    "21–22": {
+      "part": 1,
+      "en": "Choose A and E in either order. Section C contrasts copper-containing hemocyanin with iron-containing hemoglobin, supporting a different mineral composition. It also places oxygen transport on the exterior of cells rather than inside red blood cells. The colour change is blue to colourless, not blue to red.",
+      "uz": "Ikkala tartibda ham A va E ni tanlang. S bo'limi mis o'z ichiga olgan gemosiyaninni temir o'z ichiga olgan gemoglobin bilan farq qiladi, boshqa mineral tarkibini qo'llab-quvvatlaydi. Shuningdek, u kislorod tashishni qizil qon hujayralari ichida emas, balki hujayralarning tashqi tomoniga joylashtiradi. Rang o'zgarishi ko'kdan rangsizgacha, ko'kdan qizil ranggacha emas.",
+      "quotes": [
+        "a copper-containing protein called hemocyanin",
+        "in a fluid on the exterior of the cell"
+      ],
+      "ru": "Выберите A и E в любом порядке. В разделе C медьсодержащий гемоцианин противопоставляется железосодержащему гемоглобину, что подтверждает другой минеральный состав. Он также обеспечивает перенос кислорода снаружи клеток, а не внутри эритроцитов. Изменение цвета происходит от синего к бесцветному, а не от синего к красному.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d90596403d1747a63a9cdfe1631b8c8426bc2026946cced9abd097db9a56690c"
+        }
+      }
     }
   }
 }
