@@ -1,0 +1,802 @@
+[
+  {
+    "id": "single-listening-1",
+    "number": 1,
+    "title": "Section 1 · Exercise 1",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 1
+  },
+  {
+    "id": "single-listening-2",
+    "number": 2,
+    "title": "Section 1 · Exercise 2",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 2
+  },
+  {
+    "id": "single-listening-3",
+    "number": 3,
+    "title": "Section 1 · Exercise 3",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 3
+  },
+  {
+    "id": "single-listening-4",
+    "number": 4,
+    "title": "Section 1 · Exercise 4",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 4
+  },
+  {
+    "id": "single-listening-5",
+    "number": 5,
+    "title": "Section 1 · Exercise 5",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 5
+  },
+  {
+    "id": "single-listening-6",
+    "number": 6,
+    "title": "Section 1 · Exercise 6",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 6
+  },
+  {
+    "id": "single-listening-7",
+    "number": 7,
+    "title": "Section 1 · Exercise 7",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 7
+  },
+  {
+    "id": "single-listening-8",
+    "number": 8,
+    "title": "Section 1 · Exercise 8",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 8
+  },
+  {
+    "id": "single-listening-9",
+    "number": 9,
+    "title": "Section 1 · Exercise 9",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 9
+  },
+  {
+    "id": "single-listening-10",
+    "number": 10,
+    "title": "Section 1 · Exercise 10",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 10
+  },
+  {
+    "id": "single-listening-11",
+    "number": 11,
+    "title": "Section 1 · Exercise 11",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 11
+  },
+  {
+    "id": "single-listening-12",
+    "number": 12,
+    "title": "Section 1 · Exercise 12",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 12
+  },
+  {
+    "id": "single-listening-13",
+    "number": 13,
+    "title": "Section 1 · Exercise 13",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 13
+  },
+  {
+    "id": "single-listening-14",
+    "number": 14,
+    "title": "Section 1 · Exercise 14",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 14
+  },
+  {
+    "id": "single-listening-15",
+    "number": 15,
+    "title": "Section 1 · Exercise 15",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 15
+  },
+  {
+    "id": "single-listening-16",
+    "number": 16,
+    "title": "Section 1 · Exercise 16",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 16
+  },
+  {
+    "id": "single-listening-17",
+    "number": 17,
+    "title": "Section 1 · Exercise 17",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 17
+  },
+  {
+    "id": "single-listening-18",
+    "number": 18,
+    "title": "Section 1 · Exercise 18",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 18
+  },
+  {
+    "id": "single-listening-19",
+    "number": 19,
+    "title": "Section 1 · Exercise 19",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 11,
+    "sourceExercise": 19
+  },
+  {
+    "id": "single-listening-20",
+    "number": 20,
+    "title": "Section 1 · Exercise 20",
+    "sectionNumber": 1,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 20
+  },
+  {
+    "id": "single-listening-21",
+    "number": 21,
+    "title": "Section 2 · Exercise 1",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 21
+  },
+  {
+    "id": "single-listening-22",
+    "number": 22,
+    "title": "Section 2 · Exercise 2",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 22
+  },
+  {
+    "id": "single-listening-23",
+    "number": 23,
+    "title": "Section 2 · Exercise 3",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 23
+  },
+  {
+    "id": "single-listening-24",
+    "number": 24,
+    "title": "Section 2 · Exercise 4",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 24
+  },
+  {
+    "id": "single-listening-25",
+    "number": 25,
+    "title": "Section 2 · Exercise 5",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 25
+  },
+  {
+    "id": "single-listening-26",
+    "number": 26,
+    "title": "Section 2 · Exercise 6",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 26
+  },
+  {
+    "id": "single-listening-27",
+    "number": 27,
+    "title": "Section 2 · Exercise 7",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 27
+  },
+  {
+    "id": "single-listening-28",
+    "number": 28,
+    "title": "Section 2 · Exercise 8",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 28
+  },
+  {
+    "id": "single-listening-29",
+    "number": 29,
+    "title": "Section 2 · Exercise 9",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 29
+  },
+  {
+    "id": "single-listening-30",
+    "number": 30,
+    "title": "Section 2 · Exercise 10",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 30
+  },
+  {
+    "id": "single-listening-31",
+    "number": 31,
+    "title": "Section 2 · Exercise 11",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 31
+  },
+  {
+    "id": "single-listening-32",
+    "number": 32,
+    "title": "Section 2 · Exercise 12",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 32
+  },
+  {
+    "id": "single-listening-33",
+    "number": 33,
+    "title": "Section 2 · Exercise 13",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 33
+  },
+  {
+    "id": "single-listening-34",
+    "number": 34,
+    "title": "Section 2 · Exercise 14",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 34
+  },
+  {
+    "id": "single-listening-35",
+    "number": 35,
+    "title": "Section 2 · Exercise 15",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 35
+  },
+  {
+    "id": "single-listening-36",
+    "number": 36,
+    "title": "Section 2 · Exercise 16",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 36
+  },
+  {
+    "id": "single-listening-37",
+    "number": 37,
+    "title": "Section 2 · Exercise 17",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 37
+  },
+  {
+    "id": "single-listening-38",
+    "number": 38,
+    "title": "Section 2 · Exercise 18",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 38
+  },
+  {
+    "id": "single-listening-39",
+    "number": 39,
+    "title": "Section 2 · Exercise 19",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 39
+  },
+  {
+    "id": "single-listening-40",
+    "number": 40,
+    "title": "Section 2 · Exercise 20",
+    "sectionNumber": 2,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 40
+  },
+  {
+    "id": "single-listening-41",
+    "number": 41,
+    "title": "Section 3 · Exercise 1",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 41
+  },
+  {
+    "id": "single-listening-42",
+    "number": 42,
+    "title": "Section 3 · Exercise 2",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 42
+  },
+  {
+    "id": "single-listening-43",
+    "number": 43,
+    "title": "Section 3 · Exercise 3",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 43
+  },
+  {
+    "id": "single-listening-44",
+    "number": 44,
+    "title": "Section 3 · Exercise 4",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 11,
+    "sourceExercise": 44
+  },
+  {
+    "id": "single-listening-45",
+    "number": 45,
+    "title": "Section 3 · Exercise 5",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 45
+  },
+  {
+    "id": "single-listening-46",
+    "number": 46,
+    "title": "Section 3 · Exercise 6",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 46
+  },
+  {
+    "id": "single-listening-47",
+    "number": 47,
+    "title": "Section 3 · Exercise 7",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 47
+  },
+  {
+    "id": "single-listening-48",
+    "number": 48,
+    "title": "Section 3 · Exercise 8",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 48
+  },
+  {
+    "id": "single-listening-49",
+    "number": 49,
+    "title": "Section 3 · Exercise 9",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 49
+  },
+  {
+    "id": "single-listening-50",
+    "number": 50,
+    "title": "Section 3 · Exercise 10",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 50
+  },
+  {
+    "id": "single-listening-51",
+    "number": 51,
+    "title": "Section 3 · Exercise 11",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 51
+  },
+  {
+    "id": "single-listening-52",
+    "number": 52,
+    "title": "Section 3 · Exercise 12",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 52
+  },
+  {
+    "id": "single-listening-53",
+    "number": 53,
+    "title": "Section 3 · Exercise 13",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 53
+  },
+  {
+    "id": "single-listening-54",
+    "number": 54,
+    "title": "Section 3 · Exercise 14",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 54
+  },
+  {
+    "id": "single-listening-55",
+    "number": 55,
+    "title": "Section 3 · Exercise 15",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 55
+  },
+  {
+    "id": "single-listening-56",
+    "number": 56,
+    "title": "Section 3 · Exercise 16",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 56
+  },
+  {
+    "id": "single-listening-57",
+    "number": 57,
+    "title": "Section 3 · Exercise 17",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 57
+  },
+  {
+    "id": "single-listening-58",
+    "number": 58,
+    "title": "Section 3 · Exercise 18",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 58
+  },
+  {
+    "id": "single-listening-59",
+    "number": 59,
+    "title": "Section 3 · Exercise 19",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 59
+  },
+  {
+    "id": "single-listening-60",
+    "number": 60,
+    "title": "Section 3 · Exercise 20",
+    "sectionNumber": 3,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 60
+  },
+  {
+    "id": "single-listening-61",
+    "number": 61,
+    "title": "Section 4 · Exercise 1",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 10,
+    "sourceExercise": 61
+  },
+  {
+    "id": "single-listening-62",
+    "number": 62,
+    "title": "Section 4 · Exercise 2",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 62
+  },
+  {
+    "id": "single-listening-63",
+    "number": 63,
+    "title": "Section 4 · Exercise 3",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 63
+  },
+  {
+    "id": "single-listening-64",
+    "number": 64,
+    "title": "Section 4 · Exercise 4",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 64
+  },
+  {
+    "id": "single-listening-65",
+    "number": 65,
+    "title": "Section 4 · Exercise 5",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 65
+  },
+  {
+    "id": "single-listening-66",
+    "number": 66,
+    "title": "Section 4 · Exercise 6",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 66
+  },
+  {
+    "id": "single-listening-67",
+    "number": 67,
+    "title": "Section 4 · Exercise 7",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 67
+  },
+  {
+    "id": "single-listening-68",
+    "number": 68,
+    "title": "Section 4 · Exercise 8",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 68
+  },
+  {
+    "id": "single-listening-69",
+    "number": 69,
+    "title": "Section 4 · Exercise 9",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 69
+  },
+  {
+    "id": "single-listening-70",
+    "number": 70,
+    "title": "Section 4 · Exercise 10",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 70
+  },
+  {
+    "id": "single-listening-71",
+    "number": 71,
+    "title": "Section 4 · Exercise 11",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 71
+  },
+  {
+    "id": "single-listening-72",
+    "number": 72,
+    "title": "Section 4 · Exercise 12",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 72
+  },
+  {
+    "id": "single-listening-73",
+    "number": 73,
+    "title": "Section 4 · Exercise 13",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 73
+  },
+  {
+    "id": "single-listening-74",
+    "number": 74,
+    "title": "Section 4 · Exercise 14",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 74
+  },
+  {
+    "id": "single-listening-75",
+    "number": 75,
+    "title": "Section 4 · Exercise 15",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 9,
+    "sourceExercise": 75
+  },
+  {
+    "id": "single-listening-76",
+    "number": 76,
+    "title": "Section 4 · Exercise 16",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 76
+  },
+  {
+    "id": "single-listening-77",
+    "number": 77,
+    "title": "Section 4 · Exercise 17",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 77
+  },
+  {
+    "id": "single-listening-78",
+    "number": 78,
+    "title": "Section 4 · Exercise 18",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 78
+  },
+  {
+    "id": "single-listening-79",
+    "number": 79,
+    "title": "Section 4 · Exercise 19",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 8,
+    "sourceExercise": 79
+  },
+  {
+    "id": "single-listening-80",
+    "number": 80,
+    "title": "Section 4 · Exercise 20",
+    "sectionNumber": 4,
+    "partCount": 1,
+    "questionCount": 10,
+    "durationMinutes": 7,
+    "sourceExercise": 80
+  }
+]

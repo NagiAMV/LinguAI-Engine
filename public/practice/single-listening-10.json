@@ -1,0 +1,154 @@
+{
+  "id": "single-listening-10",
+  "resource": "listening",
+  "practiceFormat": "single",
+  "test": 10,
+  "title": "Section 1 · Exercise 10",
+  "backUrl": "/?view=listening&format=single&part=1",
+  "durationMinutes": 8,
+  "audioScope": "section",
+  "parts": [
+    {
+      "id": 1,
+      "passage": "<p class=\"transcript-source-note\"><strong>Audio transcript · draft</strong><br>Transcribed locally from this recording. This is not an official transcript and has not been fully checked by a person. Names, numbers and uncertain words may contain recognition errors. Times are relative to this section recording.</p>\n<p><small>[00:00]</small> Test 2. You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four sections. At the end of the test, you will be given 10 minutes to transfer your answers to an answer sheet.</p>\n<p><small>[00:30]</small> Now turn to section 1. Section 1. You will hear a telephone conversation between a customer and a representative of an insurance company. First you have some time to look at questions 1 to 5. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first. Oh hello.</p>\n<p><small>[01:38]</small> I'd like to ask about insurance for my car. Yes, of course. I'll just take a few details. What's your name? Patrick Jones. The customer's name is Patrick Jones. So, Patrick Jones has been written in the space. Now we shall begin. You should answer the questions as you listen because you will not hear the recording a second time. Listen carefully and answer questions.</p>\n<p><small>[02:10]</small> One to five. Oh, hello. I'd like to ask about insurance for my car. Yes, of course. I'll just take a few details. What's your name? Patrick Jones. And your address? It's 27 Bank Road. 27 Bank Road. Is that in Greendale? Yes. And what's your daytime phone number? My work number is 730 453.</p>\n<p><small>[02:50]</small> And could I ask what your occupation is? Dentist. Okay. Now a few details about your car. What size is the engine? It's 1200cc's. Thank you. And the make and model? It's a Hooten sable. Could you spell the model name please? Yes. S-A-B-L-E. Oh yes. Thanks. And when was it made?</p>\n<p><small>[03:24]</small> Right. I presume you've had a previous insurer. Yes. Right. We need to know the name of the company. Yes, it was Northern Star. Thank you. And have you made any insurance claims in the last five years? Yes, one in 1999. And what was the problem? It was stolen, but...</p>\n<p><small>[03:54]</small> That's fine, Mr. Jones. That's all we need to know at the moment. Before you hear the rest of the conversation, you have some time to look at questions 6 to 10. Now listen and answer questions 6 to 10.</p>\n<p><small>[04:59]</small> Thank you. And what relationship is he to you? He's my brother-in-law. And what will you or Mr Painter be using the car for? Well, erm... mainly for social use. Will you be using it to travel to work? Yes, sometimes. Travel... anything else? No, that's it. And finally, when would you like to start the insurance? I'll need it from the 31st of January.</p>\n<p><small>[05:40]</small> Mr. Jones, I'm getting a couple of quotes coming up on the computer now. And the best bit looks like being with a company called Red Flag. Yeah? And that comes out at $450 per year. Cool. Well, that seems OK. It's quite a bit lower than I've been paying up to now. Great. So would you like me to go ahead with that? Sure. Why not?</p>\n<p><small>[06:10]</small> How would you like to pay? That is the end of section 1. You now have half a minute to check your answers.</p>",
+      "transcriptStatus": "asr-draft",
+      "questions": "<div class=\"section-practice-layout\"><div class=\"section-source-pages\"><img src=\"/practice/assets/single-listening-10-page-15.webp\" alt=\"Original worksheet, Section 1, page 15\" loading=\"lazy\"></div><aside class=\"section-answer-sheet\"><h2>Answer sheet</h2><p>Enter words, numbers or option letters as instructed on the worksheet.</p><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">1</strong><input type=\"text\" name=\"single_listening_10_1\" aria-label=\"Question 1\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">2</strong><input type=\"text\" name=\"single_listening_10_2\" aria-label=\"Question 2\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">3</strong><input type=\"text\" name=\"single_listening_10_3\" aria-label=\"Question 3\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">4</strong><input type=\"text\" name=\"single_listening_10_4\" aria-label=\"Question 4\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">5</strong><input type=\"text\" name=\"single_listening_10_5\" aria-label=\"Question 5\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">6</strong><input type=\"text\" name=\"single_listening_10_6\" aria-label=\"Question 6\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">7</strong><input type=\"text\" name=\"single_listening_10_7\" aria-label=\"Question 7\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">8</strong><input type=\"text\" name=\"single_listening_10_8\" aria-label=\"Question 8\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">9</strong><input type=\"text\" name=\"single_listening_10_9\" aria-label=\"Question 9\" autocomplete=\"off\" placeholder=\"Answer\"></label><label class=\"section-answer-row ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">10</strong><input type=\"text\" name=\"single_listening_10_10\" aria-label=\"Question 10\" autocomplete=\"off\" placeholder=\"Answer\"></label></aside></div>",
+      "fieldNames": [
+        "single_listening_10_1",
+        "single_listening_10_2",
+        "single_listening_10_3",
+        "single_listening_10_4",
+        "single_listening_10_5",
+        "single_listening_10_6",
+        "single_listening_10_7",
+        "single_listening_10_8",
+        "single_listening_10_9",
+        "single_listening_10_10"
+      ],
+      "fieldLabels": {
+        "single_listening_10_1": "Question 1",
+        "single_listening_10_2": "Question 2",
+        "single_listening_10_3": "Question 3",
+        "single_listening_10_4": "Question 4",
+        "single_listening_10_5": "Question 5",
+        "single_listening_10_6": "Question 6",
+        "single_listening_10_7": "Question 7",
+        "single_listening_10_8": "Question 8",
+        "single_listening_10_9": "Question 9",
+        "single_listening_10_10": "Question 10"
+      },
+      "audioDurationSeconds": 411.36,
+      "audioUrls": [
+        "/practice/assets/single-listening-10.mp3"
+      ],
+      "transcriptStartSeconds": 0,
+      "transcriptEndSeconds": 411.36
+    }
+  ],
+  "provenance": {
+    "type": "user-provided-pdf",
+    "file": "80 IELTS Listening Tests (2).pdf",
+    "sourceFileSha256": "7d0b45a0fcfe07879cab12c79b4b927a680446dd0a30e77d491075b0d2642712",
+    "pages": [
+      15
+    ],
+    "sourceExercise": 10,
+    "audioSourceFile": "book-7-test-2.mp3",
+    "audioSourceSha256": "d58ec7e7ace33b696fc1582d35c628ae15dfe552f6db21e9b89e2f4b5ec29266",
+    "audioStartSeconds": 0,
+    "audioEndSeconds": 411.36,
+    "audioMatchingMethod": "local-ASR-of-section-announcements",
+    "rawAnswerRecords": [
+      {
+        "questions": [
+          1
+        ],
+        "lines": [
+          "27 Bank Road"
+        ]
+      },
+      {
+        "questions": [
+          2
+        ],
+        "lines": [
+          "(a) dentist"
+        ]
+      },
+      {
+        "questions": [
+          3
+        ],
+        "lines": [
+          "Sable"
+        ]
+      },
+      {
+        "questions": [
+          4
+        ],
+        "lines": [
+          "Northern Star"
+        ]
+      },
+      {
+        "questions": [
+          5
+        ],
+        "lines": [
+          "stolen"
+        ]
+      },
+      {
+        "questions": [
+          6
+        ],
+        "lines": [
+          "Paynter"
+        ]
+      },
+      {
+        "questions": [
+          7
+        ],
+        "lines": [
+          "brother-in-law"
+        ]
+      },
+      {
+        "questions": [
+          8
+        ],
+        "lines": [
+          "(travel (ling/ing)) (to) work"
+        ]
+      },
+      {
+        "questions": [
+          9
+        ],
+        "lines": [
+          "Red Flag"
+        ]
+      },
+      {
+        "questions": [
+          10
+        ],
+        "lines": [
+          "450"
+        ]
+      }
+    ]
+  },
+  "transcriptProvenance": {
+    "type": "local-audio-transcription",
+    "model": "small.en",
+    "status": "draft-not-fully-audited",
+    "audioSha256": "2ef9c6ce1022896cedd68452b92345f57efb00f4bf90ecb1b9c292a5e4dede45",
+    "timedSegments": 10,
+    "uncertainSegmentStarts": [],
+    "inferenceDevice": "cuda",
+    "answerKeyUsedForGeneration": false
+  }
+}

@@ -5365,5 +5365,856 @@
         }
       }
     }
+  },
+  "practice-reading-9": {
+    "1": {
+      "part": 1,
+      "en": "FALSE.  The opposite: “they all originated from   a single wild plant  called   Brassica oleracea .” The whole passage turns on that one origin.",
+      "uz": "FALSE — Aksincha: «ularning barchasi   Brassica oleracea  deb atalgan bitta yovvoyi o‘simlikdan kelib chiqqan». Butun matn shu yagona kelib chiqishga asoslangan.",
+      "quotes": [
+        "they all originated from a single wild plant called"
+      ],
+      "ru": "FALSE.  Напротив: «все они произошли от одного дикого растения под названием Brassica oleracea». Весь отрывок вращается вокруг этого источника.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "de140032fde45a32fa272ff46312dd636a751c66c70b5b084a94fbf338207e37"
+        }
+      }
+    },
+    "2": {
+      "part": 1,
+      "en": "FALSE.  “Unlike modern genetic engineering, selective breeding   does not involve changing a plant’s DNA in a laboratory . Instead, it relies on naturally occurring genetic variation.”",
+      "uz": "FALSE — «Zamonaviy genetik muhandislikdan farqli o‘laroq, tanlab chatishtirish o‘simlik DNK sini laboratoriyada o‘zgartirishni talab qilmaydi; u tabiiy genetik xilma-xillikka tayanadi».",
+      "quotes": [
+        "selective breeding does not involve changing a plant"
+      ],
+      "ru": "FALSE.  \"В отличие от современной генной инженерии, селекция не предполагает изменение ДНК растения в лаборатории. Вместо этого она опирается на естественные генетические вариации\".",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a7a5c6908ab6cfdfcf7ca5de6feea23c5d7a07084985646648ee59a32ae99feb"
+        }
+      }
+    },
+    "3": {
+      "part": 1,
+      "en": "TRUE.  Selective breeding is defined as the process “in which farmers   repeatedly chose plants with desirable characteristics  and used them to produce the next generation”.",
+      "uz": "TRUE — Tanlab chatishtirish «dehqonlar kerakli xususiyatga ega o‘simliklarni qayta-qayta tanlab, ulardan keyingi avlodni yetishtirgan» jarayon sifatida izohlanadi.",
+      "quotes": [
+        "farmers repeatedly chose plants with desirable characteristics"
+      ],
+      "ru": "TRUE.  Селективное разведение определяется как процесс, «в котором фермеры неоднократно выбирают растения с желаемыми характеристиками и используют их для производства следующего поколения».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8a48f97b175276af864da3524ccd4e2a43b9448c61458fc6aa8a35c955830b9e"
+        }
+      }
+    },
+    "4": {
+      "part": 1,
+      "en": "FALSE.  Both came from the same species: all these vegetables “originated from a single wild plant”, and “they all belong to the   same species ”. Broccoli was selected for its flower buds and cauliflower for its undeveloped flower clusters – different parts of one plant, not different plants.",
+      "uz": "FALSE — Ikkalasi ham bitta turdan: barcha bu sabzavotlar «bitta yovvoyi o‘simlikdan» kelib chiqqan va «bir xil turga mansub». Brokkoli gul kurtaklari, gulkaram esa rivojlanmagan gul to‘plamlari uchun tanlangan – bitta o‘simlikning turli qismlari.",
+      "quotes": [
+        "Because they all belong to the same species"
+      ],
+      "ru": "FALSE.  Оба произошли от одного и того же вида: все эти овощи «происходили от одного дикого растения» и «все они принадлежат к одному и тому же виду». Брокколи была выбрана из-за ее цветочных бутонов, а цветная капуста из-за неразвитых цветочных гроздей — разных частей одного растения, а не разных растений.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "79dc5aef5118bfdacdf69b22160256975ea60248eae31bd40c17640e6c41aa18"
+        }
+      }
+    },
+    "5": {
+      "part": 1,
+      "en": "TRUE.  “The Brassica family is also well known for its   impressive nutritional benefits ” – vitamins C and K, dietary fibre, potassium and calcium – and experts recommend eating them.",
+      "uz": "TRUE — «Brassica oilasi ta’sirchan oziqaviy foydasi bilan tanilgan»: C va K vitaminlari, tolasi, kaliy va kalsiy; mutaxassislar ularni iste’mol qilishni tavsiya qiladi.",
+      "quotes": [
+        "well known for its impressive nutritional benefits"
+      ],
+      "ru": "TRUE.  «Семейство крестоцветных также хорошо известно своими впечатляющими питательными свойствами» — витаминами С и К, пищевыми волокнами, калием и кальцием — и эксперты рекомендуют их употреблять в пищу.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "53f35f3e3ccd4961a1ceb273b3596559510a21f8e927ab6d6e2a5ed69937b5b6"
+        }
+      }
+    },
+    "6": {
+      "part": 1,
+      "en": "TRUE.  “One of the most serious problems is clubroot disease, which   attacks the roots  and reduces plant growth.”",
+      "uz": "TRUE — «Eng jiddiy muammolardan biri kila kasalligi bo‘lib, u ildizlarga hujum qiladi va o‘sishni sekinlashtiradi».",
+      "quotes": [
+        "clubroot disease, which attacks the roots and reduces plant growth"
+      ],
+      "ru": "TRUE.  «Одной из наиболее серьезных проблем является болезнь кила, которая поражает корни и замедляет рост растений».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "3f3ccf1260ca9ac0673e623044b1cfd7541defc586b52dc7cee4e4f4e292a954"
+        }
+      }
+    },
+    "7": {
+      "part": 1,
+      "en": "FALSE.  They   combine  the two: scientists “combine traditional breeding methods with advanced genetic techniques” and produce crops “  while still relying on natural breeding methods ”. Nothing has been replaced.",
+      "uz": "FALSE — Ular ikkalasini   birlashtiradi : olimlar «an’anaviy chatishtirishni ilg‘or genetik usullar bilan qo‘shib» ishlaydi va «tabiiy usullarga tayangan holda» hosil yetishtiradi. Hech narsa almashtirilmagan.",
+      "quotes": [
+        "combine traditional breeding methods with advanced genetic techniques"
+      ],
+      "ru": "FALSE.  Они сочетают в себе два этих фактора: ученые «объединяют традиционные методы селекции с передовыми генетическими методами» и производят урожай, «по-прежнему полагаясь на естественные методы селекции». Ничего не заменено.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "505984805f601ba9eb045cfefd61bcd9938d6d578a72adc0a722107f1daa0f18"
+        }
+      }
+    },
+    "8": {
+      "part": 1,
+      "en": "characteristics.  “Farmers repeatedly chose plants with   desirable characteristics ”, and “by saving seeds only from these preferred plants, they gradually increased the frequency of these characteristics”.",
+      "uz": "characteristics — «Dehqonlar kerakli xususiyatlarga ega o‘simliklarni tanlagan» va «faqat shu o‘simliklardan urug‘ saqlab, bu xususiyatlar uchrashini oshirgan».",
+      "quotes": [
+        "they gradually increased the frequency of these characteristics"
+      ],
+      "ru": "характеристики.  «Фермеры неоднократно выбирали растения с желаемыми характеристиками» и «сохраняя семена только этих предпочтительных растений, они постепенно увеличивали частоту появления этих характеристик».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "f6dd882fd2005ba0c6fae1a31b043b398374aa57a1557fa78d8b3b81c3c12d44"
+        }
+      }
+    },
+    "9": {
+      "part": 1,
+      "en": "stem.  The list in paragraph 3 ends: “…kale for its loose leaves and kohlrabi for its   swollen stem ”.",
+      "uz": "stem — Uchinchi xatboshidagi ro‘yxat shunday tugaydi: «…kale yoyiq barglari, kolrabi esa shishgan poyasi uchun».",
+      "quotes": [
+        "kohlrabi for its swollen stem"
+      ],
+      "ru": "корень.  Список в пункте 3 заканчивается: «…капуста из-за ее рассыпчатых листьев и кольраби из-за ее раздутого стебля».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "67c1f4e7db863977cb1c020524fd898a0c5052b8fb4956af70a5d51fa68ef532"
+        }
+      }
+    },
+    "10": {
+      "part": 1,
+      "en": "fibre.  “Most Brassica vegetables contain large amounts of vitamins C and K,   dietary fibre  and important minerals such as potassium and calcium.”",
+      "uz": "fibre — «Ko‘pchilik Brassica sabzavotlarida C va K vitaminlari, oziqaviy tola hamda kaliy va kalsiy kabi muhim minerallar ko‘p».",
+      "quotes": [
+        "dietary fibre and important minerals such as potassium and calcium"
+      ],
+      "ru": "волокно.  «Большинство овощей Brassica содержат большое количество витаминов С и К, пищевых волокон и важных минералов, таких как калий и кальций».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "233f3f8a25e086dc5e3e5bb1be3730891eac257c32f792dfd878e229ee239139"
+        }
+      }
+    },
+    "11": {
+      "part": 1,
+      "en": "glucosinolates.  “They also contain natural plant chemicals called   glucosinolates , which give these vegetables their distinctive flavour.”",
+      "uz": "glucosinolates — «Ularda glyukozinolatlar deb ataluvchi tabiiy o‘simlik moddalari ham bor, ular bu sabzavotlarga o‘ziga xos ta’m beradi».",
+      "quotes": [
+        "natural plant chemicals called glucosinolates"
+      ],
+      "ru": "глюкозинолаты.  «Они также содержат натуральные растительные химические вещества, называемые глюкозинолатами, которые придают этим овощам особый вкус».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "33425780b205aab86751de2eac1fee635043b8fc53502b02786f852925dca3bf"
+        }
+      }
+    },
+    "12": {
+      "part": 1,
+      "en": "rotating.  “Farmers often reduce these risks by   rotating  crops, improving soil conditions and developing resistant varieties.”",
+      "uz": "rotating — «Dehqonlar bu xavfni ekinlarni almashlab ekish, tuproq holatini yaxshilash va chidamli navlar yaratish orqali kamaytiradi».",
+      "quotes": [
+        "Farmers often reduce these risks by rotating crops"
+      ],
+      "ru": "вращающийся.  «Фермеры часто снижают эти риски, чередуя культуры, улучшая состояние почвы и создавая устойчивые сорта».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "505eada2b99bcf1fc0f1b690deb74e2e6778b1fe63d0309934ff1fa5a6953ac8"
+        }
+      }
+    },
+    "13": {
+      "part": 1,
+      "en": "diversity.  “Scientists are also preserving wild Brassica populations because they contain valuable genetic   diversity  that may help future crops adapt to climate change.”",
+      "uz": "diversity — «Olimlar yovvoyi Brassica populyatsiyalarini saqlamoqda, chunki ularda kelajakdagi ekinlarga iqlim o‘zgarishiga moslashishga yordam beradigan qimmatli genetik xilma-xillik bor».",
+      "quotes": [
+        "they contain valuable genetic diversity"
+      ],
+      "ru": "разнообразие.  «Ученые также сохраняют дикие популяции Brassica, потому что они содержат ценное генетическое разнообразие, которое может помочь будущим культурам адаптироваться к изменению климата».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "44b881db70533b2166bc4cb905be8e3b2bf21da292a7d3156fa43d9b737bf868"
+        }
+      }
+    },
+    "14": {
+      "part": 2,
+      "en": "E.  Section E looks back at the first Antarctic explorers: research stations “provided the   bare essentials of survival ” and were “usually dirty, stuffy places, where tempers flared”. That is the early-days living conditions the question asks for.   Oʻzbekcha:  E — E boʻlimida XX asr boshidagi tadqiqot stansiyalari tasvirlangan: «omon qolish uchun eng zarur narsalarnigina» bergan, «iflos, dimiq joylar» boʻlgan. Savoldagi «early days» shu.",
+      "uz": "E. E bo'limi birinchi Antarktika tadqiqotchilariga qaraydi: tadqiqot stantsiyalari \"omon qolish uchun zarur bo'lgan narsalarni ta'minlagan\" va \"odatda iflos, bo'm-bo'sh joylar bo'lgan, kayfiyatlari ko'tarilgan\". Bu savol birinchi kunlarda yashash sharoitlari.   Oʻzbekcha: E — E boʻlimida XX asr boshidagi tadqiqot stansiyalari tasvirlangan: «omon qolish uchun eng zarur narsalargina» bergan, «iflos, dimiq joylar» boʻlgan. Savoldagi «ilk kunlar» shu.",
+      "quotes": [
+        "research stations provided the bare essentials of survival",
+        "They were usually dirty, stuffy places, where tempers flared"
+      ],
+      "ru": "E. Раздел E вспоминает первых исследователей Антарктики: исследовательские станции «обеспечивали самое необходимое для выживания» и были «обычно грязными, душными местами, где вспыхивали гневные настроения». Вопрос касается именно первых условий жизни.   Узбекча: Е — Е болимида XX аср бошидаги тадкикот стансиялари тасвирланган: «омон голиш учун эн зарур нарсаларнигина» берган, «ифлос, димик джойлар» болган. Саволдаги «Ранние дни» шу.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7fccf921e66a079fd6566c18a44af4a87368583f4d4b2d60b437fd5f19c8956a"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7fccf921e66a079fd6566c18a44af4a87368583f4d4b2d60b437fd5f19c8956a"
+        }
+      }
+    },
+    "15": {
+      "part": 2,
+      "en": "C.  Section C names two outside specialists Broughton brought in: “a   colour expert ” for the palette and “a   team ” for lighting that simulates the sun.   Consultants  = these hired experts;   pleasant surroundings  = the palette, the cedar and the light.   Oʻzbekcha:  C — C boʻlimida Broughton chaqirgan mutaxassislar aytilgan: rang boʻyicha ekspert va yorugʻlik ustida ishlagan jamoa. «Consultants» — ana shular.",
+      "uz": "C. C bo'limida Broughton olib kelgan ikkita tashqi mutaxassis nomi ko'rsatilgan: palitra uchun \"rang mutaxassisi\" va quyoshni taqlid qiluvchi yoritish uchun \"jamoa\".   Maslahatchilar = bu yollangan mutaxassislar;   yoqimli muhit = palitra, sadr va yorug'lik.   Oʻzbekcha: C — C boʻlimida Broughton chaqirgan mutaxassislar aytilgan: rang boʻyicha ekspert va yorugʻlik ustida ishlagan jamoa. «Maslahatchilar» — ana shular.",
+      "quotes": [
+        "enlisted the help of a colour expert to devise a palette",
+        "Broughton worked with a team to develop special lighting that simulates the sun"
+      ],
+      "ru": "C. В разделе C упоминаются два внешних специалиста, привлеченных Бротоном: «эксперт по цвету» по палитре и «команда» по освещению, имитирующему солнце.   Консультанты = эти наемные эксперты;   приятная обстановка = палитра, кедр и свет.   Узбекча: C — C болимида Бротон чакирган мутахассилар айтилган: позвонил бойича эксперт ва йоруглик устида ишлаган джамоа. «Консультанты» — ана шулар.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "6212b55367e6ce6989fa124edf37fd22cea6dc1b52f8c6bd8416364cbc338171"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "6212b55367e6ce6989fa124edf37fd22cea6dc1b52f8c6bd8416364cbc338171"
+        }
+      }
+    },
+    "16": {
+      "part": 2,
+      "en": "D.  Section D ends with the 2014 failure: “a   power outage  left the entire station exposed to record low temperatures for 19 hours”.   Technical failure  = power outage;   emergency situation  = record low temperatures inside the station.   Oʻzbekcha:  D — D boʻlimida 2014-yildagi avariya: «elektr uzilishi stansiyani 19 soat rekord sovuqda qoldirgan». Bu — texnik nosozlik va favqulodda vaziyat.",
+      "uz": "D. D bo'limi 2014 yildagi nosozlik bilan tugaydi: \"elektr quvvatining uzilishi butun stantsiyani 19 soat davomida rekord darajada past haroratga duchor qildi\".   Texnik nosozlik = elektr uzilishi;   favqulodda vaziyat = stantsiya ichidagi past haroratni qayd etish.   Oʻzbekcha: D — D boʻlimida 2014-yildagi avariya: «elektr uzilishi stansiyani 19 soat rekord sovuqda qoldirgan». Bu — texnik nosozlik va yuzaga kelgan vaziyatda.",
+      "quotes": [
+        "In 2014, a power outage left the entire station exposed to record low temperatures for 19 hours"
+      ],
+      "ru": "D. Раздел D заканчивается провалом 2014 года: «из-за отключения электроэнергии вся станция подверглась воздействию рекордно низких температур в течение 19 часов».   Технический сбой = отключение электроэнергии;   аварийная ситуация = рекордно низкие температуры внутри станции.   Узбекча: Д — Д боълимида 2014-йылдаги авария: «электр узилиши станции 19 соат рекорд совукда колдырган». Бу — техник носозлик ва фавкулодда вазият.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e518ee30769add32a1750744e8b777da1417d26b00e1655bc239907fc145de07"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e518ee30769add32a1750744e8b777da1417d26b00e1655bc239907fc145de07"
+        }
+      }
+    },
+    "17": {
+      "part": 2,
+      "en": "A.  Section A lists the three things the competition asked for, then says Broughton “ticked   zero  of those boxes” — he had none of the required experience, yet entered and won.   Oʻzbekcha:  A — A boʻlimida tanlov talablari sanalgan va Broughton «ularning birortasiga ham mos kelmagan» deyilgan. Yaʼni tajribasi yoʻq edi.",
+      "uz": "A. A bo'limi tanlov so'ragan uchta narsani sanab o'tadi, so'ngra Broughton \"bu qutilarning nolga belgi qo'yganini\" aytadi - u kerakli tajribaga ega bo'lmagan, lekin qatnashgan va g'alaba qozongan.   Oʻzbekcha: A — A boʻlimida tanlov talablari sanalgan va Broughton «ularning birortasiga ham mos kelmagan» deyilgan. Yaʼni qarab yoʻq edi.",
+      "quotes": [
+        "Broughton ticked zero of those boxes, but that didn’t prevent him from entering the competition"
+      ],
+      "ru": "A. В разделе А перечислены три вещи, которые просили конкурсанты, а затем говорится, что Бротон «отметил ноль из этих пунктов» — у него не было необходимого опыта, но он принял участие и выиграл.   Узбекча: А — А бо`лимида танлов талаблари саналган ва Бротон «уларнинг бирортасига хам мос кельмаган» дейилган. Яни таджрибаси йок эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4fadffedeaa5a9105a795e2ba46b5ea8d0789329df7576f61e0ec42e97ec79b2"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4fadffedeaa5a9105a795e2ba46b5ea8d0789329df7576f61e0ec42e97ec79b2"
+        }
+      }
+    },
+    "18": {
+      "part": 2,
+      "en": "C.  Again section C: the central module “is where staff meet to   watch movies, eat and play pool ” and the team built “a small   mini golf course ”. Those are the recreational activities.   Oʻzbekcha:  C — Yana C boʻlim: markaziy modulda xodimlar kino koʻradi, ovqatlanadi, bilyard oʻynaydi, hatto mini-golf maydonchasi qurilgan. Bular — dam olish mashgʻulotlari.",
+      "uz": "C. Yana C bo'limi: markaziy modul \"xodimlar kino tomosha qilish, ovqatlanish va hovuz o'ynash uchun uchrashadigan joy\" va jamoa \"kichik mini golf maydoni\" qurdi. Bu dam olish tadbirlari.   Oʻzbekcha: C — Yana C boʻlim: markaziy modulda kino koʻradi, ovqatlanadi, bilyard oʻynaydi, hatto mini-golf maydonchasi yuqori. Bular — dam olish mashgʻulotlari.",
+      "quotes": [
+        "where staff meet to watch movies, eat and play pool",
+        "has even constructed a small mini golf course there"
+      ],
+      "ru": "C. Снова раздел C: в центральном модуле «персонал собирается смотреть фильмы, есть и играть в бильярд», а команда построила «небольшое поле для мини-гольфа». Это развлекательные мероприятия.   Узбекча: C — Яна C бо'лим: марказий модулда ходимлар кино коъради, овкатланади, бильярд ойнайди, хетто мини-гольф майдончаси курилган. Булар — дам олиш машгулотлари.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ea975dff0dea2d447838914e7653b788b0fc7aae3cc25309090882ca7d5612ec"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ea975dff0dea2d447838914e7653b788b0fc7aae3cc25309090882ca7d5612ec"
+        }
+      }
+    },
+    "19": {
+      "part": 2,
+      "en": "pods.  “It’s made of eight   conjoined pods ” —   conjoined  paraphrases   linked together . One word only, so the answer is   pods .   Oʻzbekcha:  pods — «sakkizta birlashtirilgan pod (modul)dan iborat». «Conjoined» = «linked together». Javob bitta soʻz: pods.",
+      "uz": "podalar.  \"U sakkizta birikkan bo'laklardan iborat\" - bir-biriga bog'langan qo'shma parafrazlar. Faqat bitta so'z, shuning uchun javob pods.   Oʻzbekcha: pods — «sakkizta birlashtirilgan pod (modul)dan iborat». \"Birlashtirilgan\" = \"birga bog'langan\". Javob bitta soʻz: pods.",
+      "quotes": [
+        "made of eight conjoined pods"
+      ],
+      "ru": "стручки.  «Он состоит из восьми сросшихся стручков» — сросшиеся парафразы, связанные вместе. Всего одно слово, поэтому ответ — стручки.   Узбекча: стручки — «саккизта бирлаштирилган под (модуль)дан ибоат». «Соединены» = «связаны вместе». Javob bitta so`z: стручки.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "9166507a17606ff16be2c126e38c4e1a52e6a87799019dc2c11dcb3400864be2"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "9166507a17606ff16be2c126e38c4e1a52e6a87799019dc2c11dcb3400864be2"
+        }
+      }
+    },
+    "20": {
+      "part": 2,
+      "en": "bulldozers.  The skis at the foot of the hydraulic legs allow “the entire station to be moved by   bulldozers ”.   Transported using  =   moved by .   Oʻzbekcha:  bulldozers — gidravlik oyoqlar ostidagi chanalar stansiyani «buldozerlar yordamida» koʻchirishga imkon beradi.",
+      "uz": "buldozerlar.  Shlangi oyoqlarning tagidagi chang'ilar \"butun stantsiyani buldozerlar bilan harakatlantirishga\" imkon beradi.   Koʻchirilgan = orqali koʻchirilgan.   Oʻzbekcha: bulldozers — gidravlik oyoqlar ostidagi chanalar stansiyani «buldozerlar yordamida» koʻchirishga imkon beradi.",
+      "quotes": [
+        "allowing the entire station to be moved by bulldozers"
+      ],
+      "ru": "бульдозеры.  Лыжи у подножия гидравлических стоек позволяют «перемещать всю станцию ​​бульдозерами».   Перенесено с помощью = перемещено .   Узбекча: бульдозеры — гидравлик ойоклар остидаги чаналар станциисиани «бульдозерлар йордамида» коъчиришга ​​имкон беради.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7c97b7243adc3ba789484c39168740da39a587602bfaef2b5be78699a1e94560"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7c97b7243adc3ba789484c39168740da39a587602bfaef2b5be78699a1e94560"
+        }
+      }
+    },
+    "21": {
+      "part": 2,
+      "en": "summer.  “in a year, only the 12 weeks of   summer  were suitable for construction work”.   Building work could only take place  =   only the 12 weeks of summer were suitable .   Oʻzbekcha:  summer — «yilda faqat 12 haftalik yoz qurilish uchun mos edi». Shuning uchun javob: summer.",
+      "uz": "yoz.  \"Bir yil ichida yozning atigi 12 haftasi qurilish ishlari uchun mos edi\".   Qurilish ishlari faqat amalga oshirilishi mumkin edi = faqat yozning 12 haftasi mos edi.   Oʻzbekcha: summer — «yilda faqat 12 haftalik yoz qurilish uchun mos edi». uchun javob: yoz.",
+      "quotes": [
+        "only the 12 weeks of summer were suitable for construction work"
+      ],
+      "ru": "лето.  «В году только 12 недель лета были пригодны для строительных работ».   Строительные работы могли проводиться только = подходили только 12 недель лета.   Узбекча: лето — «йылда факат 12 хафталик йоз курилиш учун мос эди». Шунинг учун джавоб: лето.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b47e17270ae4a94a08f441dfa87aeae2e85301a19caac89783451d639b1dfa9b"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b47e17270ae4a94a08f441dfa87aeae2e85301a19caac89783451d639b1dfa9b"
+        }
+      }
+    },
+    "22": {
+      "part": 2,
+      "en": "ship.  Most of the base “had to be prefabricated in South Africa, transported by   ship ”.   Made off-site  =   prefabricated ;   brought in by  =   transported by .   Oʻzbekcha:  ship — baza qismlari «Janubiy Afrikada tayyorlanib, kema bilan tashilgan». «Prefabricated» = off-site tayyorlangan.",
+      "uz": "kema.  Bazaning ko'p qismi \"Janubiy Afrikada prefabrik bo'lib, kemada tashilishi kerak edi\".   Saytdan tashqarida tayyorlangan = prefabrik;   tomonidan keltirildi = tomonidan tashildi.   Oʻzbekcha: ship — baza qismlari «Janubiy Afrikada tayyorlanib, kema bilan tashilgan». «Prefabrik» = saytdan tashqarida.",
+      "quotes": [
+        "prefabricated in South Africa, transported by ship"
+      ],
+      "ru": "корабль.  Большую часть базы «пришлось изготовить в Южной Африке и перевезти на корабле».   Сделано за пределами площадки = сборное;   привезено = привезено.   Узбекча: корабль — база кисмлари «Джанубий Африкада тайёрланиб, кема билан ташилган». «Сборный» = выездной Тайёрланган.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4ca99c8a50af4279519f144bbfba0b64955a237b18339f07776befe607b4183f"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "4ca99c8a50af4279519f144bbfba0b64955a237b18339f07776befe607b4183f"
+        }
+      }
+    },
+    "23": {
+      "part": 2,
+      "en": "C — Pip Cheshire.  He says: “There were definitely a lot of people   living in very close contact with each other ”, speaking about the old Antarctic huts.   Crowded  = very close contact.   Oʻzbekcha:  C — Pip Cheshire: «juda koʻp odam bir-biriga juda yaqin yashagan». «Crowded» shu maʼnoda.",
+      "uz": "C - Pip Cheshir.  U shunday deydi: \"Albatta, juda ko'p odamlar bir-biri bilan juda yaqin aloqada yashagan\", - deydi eski Antarktika kulbalari haqida.   Olomon = juda yaqin aloqa.   Oʻzbekcha: C — Pip Cheshire: «juda koʻp odam bir-biriga juda yaqin yashagan». «Olomon» shu maʼnoda.",
+      "quotes": [
+        "There were definitely a lot of people living in very close contact with each other"
+      ],
+      "ru": "C — Пип Чешир.  Он говорит: «Там определенно было много людей, живших в очень тесном контакте друг с другом», имея в виду старые антарктические хижины.   Многолюдно = очень тесный контакт.   Узбекча: С — Пип Чешир: «иуда ко`п одам бир-бирига иуда якин яшаган». «Переполненный» шу манода.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "724b874a26b0b31dd3e91dcb1147d6b726a6e3e94c2cd7916ea96203d41fd532"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "724b874a26b0b31dd3e91dcb1147d6b726a6e3e94c2cd7916ea96203d41fd532"
+        }
+      }
+    },
+    "24": {
+      "part": 2,
+      "en": "D — Sam Jacob.  “Antarctica is the place on Earth that is the   least like Earth  … it’s the place most like another planet.” That is exactly ‘different from everywhere else’.   Oʻzbekcha:  D — Sam Jacob: «Antarktida Yerdagi eng Yerga oʻxshamagan joy… boshqa sayyoraga eng oʻxshash joy». Yaʼni butunlay boshqacha.",
+      "uz": "D - Sem Jeykob.  \"Antarktida - bu Yerdagi eng kam o'xshash joy ... bu boshqa sayyoraga eng o'xshash joy.\" Bu aniq \"boshqa joylardan farq qiladi\".   Oʻzbekcha: D — Sam Jacob: «Antarktida Yerdagi eng Yerga oʻxshamagan joy… boshqa sayyoraga eng oʻxshash joy». Yaʼni butunlay boshqacha.",
+      "quotes": [
+        "Antarctica is the place on Earth that is the least like Earth"
+      ],
+      "ru": "D — Сэм Джейкоб.  «Антарктида — это место на Земле, которое меньше всего похоже на Землю… это место больше всего похоже на другую планету». Это именно «отличается от всего остального».   Узбекча: Д — Сэм Джейкоб: «Антарктида Ердаги эн Йерга ошшамаган радость… бошка сайёрага анг ошшаш радость». Яни бутунлай бошкача.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "88dd41fc87985ee5f4b2d679812302385fc0f856b975c2e3b84a28b441b25212"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "88dd41fc87985ee5f4b2d679812302385fc0f856b975c2e3b84a28b441b25212"
+        }
+      }
+    },
+    "25": {
+      "part": 2,
+      "en": "A — George Ferguson and Chris Rapley.  They announced the competition and “listed a number of criteria”: “a   background in building in remote locations , knowledge of extreme climates”. That is asking for an architect who had done similar work before.   Oʻzbekcha:  A — Ferguson va Rapley tanlov shartlarini sanagan: «uzoq joylarda qurish tajribasi, ekstremal iqlimni bilish». Yaʼni oldin shunday ish qilgan arxitektor kerak edi.",
+      "uz": "A - Jorj Fergyuson va Kris Rapli.  Ular tanlovni e'lon qildilar va \"bir qator mezonlarni sanab o'tdilar\": \"chekka joylarda qurilish tajribasi, ekstremal iqlimni bilish\". Bu ilgari shunga o'xshash ishlarni qilgan me'morni so'ramoqda.   Oʻzbekcha: A — Ferguson va Rapley tanlov shartlarini sanagan: «uzoq qanday qurish, ekstremal iqlimni bilish». Yaʼni oldin shunday ish qilgan arxitektor kerak edi.",
+      "quotes": [
+        "a background in building in remote locations, knowledge of extreme climates"
+      ],
+      "ru": "A — Джордж Фергюсон и Крис Рэпли.  Они объявили конкурс и «перечислили ряд критериев»: «опыт строительства в отдаленных районах, знание экстремального климата». Для этого нужен архитектор, который уже делал подобную работу раньше.   Узбекча: А — Фергюсон ва Рапли танлов шартларини санаган: «узок джойларда куриш тайрибаси, экстремальный иклимни билиш». Яни Олдин Шундай иш Килган архитектор Керак Эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0882e7572735572d832265c06f14429fefd36dd3f26fea934f4074abdf3e6137"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "0882e7572735572d832265c06f14429fefd36dd3f26fea934f4074abdf3e6137"
+        }
+      }
+    },
+    "26": {
+      "part": 2,
+      "en": "D — Sam Jacob.  He ends: Halley “could also give an   idea of how we might actually colonise other places ”.   Difficult locations elsewhere  = other planets.   Oʻzbekcha:  D — Sam Jacob: Halley «boshqa joylarni qanday oʻzlashtirish mumkinligi haqida tasavvur berishi mumkin». Savoldagi «difficult locations elsewhere» shu.",
+      "uz": "D - Sem Jeykob.  U shunday tugatadi: Halley \"shuningdek, biz boshqa joylarni qanday qilib mustamlaka qilishimiz mumkinligi haqida ham fikr bera oladi\".   Boshqa joylarda qiyin joylar = boshqa sayyoralar.   Oʻ: D — Sam Jacob: Halley «boshzbekcha joylarni qanday oʻzlashtirish mumkinligi haqida tasavvur berishi mumkin». Savoldagi «boshqa yerdagi qiyin joylar» shu.",
+      "quotes": [
+        "could also give an idea of how we might actually colonise other places"
+      ],
+      "ru": "D — Сэм Джейкоб.  Он заканчивает: Галлей «также мог бы дать представление о том, как мы могли бы на самом деле колонизировать другие места».   Сложные локации в других местах = другие планеты.   Узбекча: Д — Сэм Джейкоб: Хэлли «бошка джойларни кандай озлаштириш мумкинлиги хакида тасаввур бериши мумкин». Саволдаги «Трудные места в других местах» шу.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c8acacbd8d3fcab5c2e8755126cc544a985b51e46055ce6db9dcdeb23f5c75e4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c8acacbd8d3fcab5c2e8755126cc544a985b51e46055ce6db9dcdeb23f5c75e4"
+        }
+      }
+    },
+    "27": {
+      "part": 3,
+      "en": "B.  Paragraph A contrasts two moments: in 1949 Hidcote drew “a mere   600 visitors ” and £30; now it attracts “  150,000 visitors ” and nearly £1 million. That is a rise in popularity over time.   A  — overseas visitors are never compared.   C  — nothing about the garden’s   size .   D  — it was the Trust’s   only  garden then, not the largest now.   Oʻzbekcha:  B — A bandida 1949-yilda 600 tashrifchi va 30 funt, hozir esa 150 000 tashrifchi va deyarli 1 million funt. Yaʼni mashhurligi yillar davomida oshgan. A — chet ellik tashrifchilar taqqoslanmagan; C — hajm haqida gap yoʻq; D — eng katta emas, oʻsha paytda yagona edi.",
+      "uz": "B. A paragrafi ikki lahzani bir-biriga qarama-qarshi qo'yadi: 1949 yilda Xidkot “atigi 600 nafar mehmon” va 30 funt sterlingni jalb qildi; hozir u \"150 000 tashrif buyuruvchi\" va deyarli 1 million funt sterlingni jalb qiladi. Bu vaqt o'tishi bilan mashhurlikning oshishi.   A - chet ellik mehmonlar hech qachon taqqoslanmaydi.   C - bog'ning kattaligi haqida hech narsa yo'q.   D - bu o'sha paytda Trestning yagona bog'i edi, hozir eng kattasi emas.   Oʻzbekcha: B — A bandida 1949-yilda 600 tashrifchi va 30 funt, hozir esa 150 000 tashrifchi va juda 1 million funt. Yaʼni mashhurligi yillar jamoasi oshgan. A — chet ellik tashrifchilar tekshirmagan; C — hajm haqida gap yoʻq; D — eng katta emas, oʻsha yagona yagona edi.",
+      "quotes": [
+        "In 1949 Hidcote attracted a mere 600 visitors",
+        "attracting 150,000 visitors and raising nearly £1 million from entrance tickets annually"
+      ],
+      "ru": "B. Параграф А противопоставляет два момента: в 1949 году Хидкот привлек «всего 600 посетителей» и 30 фунтов стерлингов; теперь он привлекает «150 000 посетителей» и почти 1 миллион фунтов стерлингов. Это рост популярности с течением времени.   А — зарубежных гостей никогда не сравнивают.   C — ничего о размере сада.   Д. Тогда это был единственный сад Треста, а не самый большой сейчас.   Узбекча: Б — А бандида 1949-йылда 600 ташрифчи ва 30 фунтов, хозир еса 150 000 ташрифчи ва деярли 1 миллион фунтов. Яни машхурлиги йиллар давомида ошган. А — чет эллик ташрифчилар таккосланмаган; C — хаджм хакида гэп йок; Д — англ катта эмас, оша пайтда ягона эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1d3af2948953bea818fffac9da097583052ad5c155c87d59546f870b9dde7d9d"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "1d3af2948953bea818fffac9da097583052ad5c155c87d59546f870b9dde7d9d"
+        }
+      }
+    },
+    "28": {
+      "part": 3,
+      "en": "A.  Sissinghurst is brought in only to measure Hidcote against it: Johnston “may rightly be   ranked  … beside Harold Nicolson and Vita Sackville-West, creators of Sissinghurst, his garden’s   only surviving equal ”. Being the one garden of equal standing shows how important Hidcote is.   D  is the trap: Sissinghurst   survives , so it has not ceased to exist.   Oʻzbekcha:  A — Sissinghurst faqat Hidcote bilan taqqoslash uchun keltirilgan: Johnston uning ijodkorlari bilan bir qatorga qoʻyilgan, Sissinghurst esa «yagona tirik tengdoshi». Bu Hidcote qanchalik muhimligini koʻrsatadi. D — tuzoq: Sissinghurst hali ham mavjud.",
+      "uz": "A. Sissinghurst faqat Hidkotni o'lchash uchun olib kelingan: Jonston \"to'g'ri ... Sissinghurst yaratuvchilari Garold Nikolson va Vita Sakvill-Vest bilan bir qatorda, uning bog'ining omon qolgan yagona tengi bo'lishi mumkin\". Yagona tenglik bog'i bo'lish Hidkotning qanchalik muhimligini ko'rsatadi.   D - tuzoq: Sissinghurst omon qoladi, shuning uchun u mavjud bo'lishni to'xtatmadi.   Oʻzbekcha: A — Sissinghurst faqat Hidcote bilan taqqoslash uchun: Johnston uning ijodkorlari bilan bir qatorga qoʻyilgan, Sissinghurst esa «yagona tirik tengdoshi». Bu Hidcote muhimligini koʻrsatadi. D — tuzoq: Sissinghurst hali ham mavjud.",
+      "quotes": [
+        "He may rightly be ranked at this time beside Harold Nicolson and Vita Sackville-West, creators of Sissinghurst, his garden’s only surviving equal"
+      ],
+      "ru": "A. Сиссингхерст привлечен только для того, чтобы сравнить с ним Хидкота: Джонстона «по праву можно поставить в ряд… рядом с Гарольдом Николсоном и Витой Саквилл-Уэст, создателями Сиссингхерста, единственными сохранившимися равными его саду». То, что он является единственным садом равного положения, показывает, насколько важен Хидкоте.   D — ловушка: Сиссингхерст выживает, а значит, не прекратил свое существование.   Узбекча: А — Сиссингхерст faqat Hidcote bilan taqqoslash uchun keltirilgan: Джонстон унинг йодкорлари билан бир qatorga qo'yilgan, Сиссингхерст - это «ягона тирик тенгдоши». Бу Хидкоте канчалик мухимлигини корсатади. D — тузок: Сиссингхерст хали хам мавджуд.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "920b10a6e97e91118c122af6f3c64c2a968c6da0745ec2761b97e82b0caf66f9"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "920b10a6e97e91118c122af6f3c64c2a968c6da0745ec2761b97e82b0caf66f9"
+        }
+      }
+    },
+    "29": {
+      "part": 3,
+      "en": "D.  Two hints: she “had many other talents as well, including one for   taking offence ”, and “some speculated that Lindsay had   burned them to hurt her employer ”. Both point to a falling-out with Johnston.   Suggest  means the answer is implied, not stated.   C  is contradicted: she was “undoubtedly a skilled plantswoman”.   Oʻzbekcha:  D — Ikki ishora: u «xafa boʻlishga moyil» edi va «xoʻjayinini xafa qilish uchun kundaliklarni yoqib yuborgan» degan taxmin bor. Ikkalasi ham nizoga ishora qiladi. C notoʻgʻri — u mohir bogʻbon edi.",
+      "uz": "D. Ikkita maslahat: u \"ko'plab boshqa iste'dodlarga ham ega edi, jumladan, xafa qilish uchun\" va \"ba'zilar Lindsi ish beruvchisini xafa qilish uchun ularni yoqib yuborgan deb taxmin qilishdi\". Ikkalasi ham Jonston bilan kelishmovchilikka ishora qiladi.   Suggest, javob aytilmagan, nazarda tutilgan degan ma'noni anglatadi.   C qarama-qarshidir: u \"shubhasiz, malakali o'simlikchi\" edi.   Oʻzbekcha: D — Ikki ishora: u «xafa boʻlish uchun» edi va «xoʻjayinini xafa qilish uchun kundaliklarni yoqib yuborgan» degan taxmin bor. Ikkalasi ham nizoga ishora qiladi. C notoʻgʻri — u mohir bogʻbon edi.",
+      "quotes": [
+        "including one for taking offence",
+        "some speculated that Lindsay had burned them to hurt her employer"
+      ],
+      "ru": "D. Два намека: у нее «было также много других талантов, в том числе талант обижаться», и «некоторые предполагали, что Линдси сожгла их, чтобы навредить своему работодателю». Оба указывают на ссору с Джонстоном.   «Предлагать» означает, что ответ подразумевается, а не утверждается.   С противоречит: она была «несомненно опытной растениеводкой».   Узбекча: Д — Икки ишора: у «xafa boʻlishga moyil» эди ва «xo'jayinini xafa qilish uchun kundaliklarni yoqib yuborgan» деган таксмин бор. Иккаласи хам низога ишора килади. C noto'g'ri — у мохир бог'бон эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "5f03c084be47bc7fd5084587ee6d1fe9feac84f40c2b937c60357972e6aeac92"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "5f03c084be47bc7fd5084587ee6d1fe9feac84f40c2b937c60357972e6aeac92"
+        }
+      }
+    },
+    "30": {
+      "part": 3,
+      "en": "A.  “since 1949, the visiting public has   innocently  been admiring   Thomas’s  flower plantings,   not Johnston’s own ”.   Innocently  = without realising — so visitors do not know how much of what they admire is his.   B  is the opposite: he knew the gardens needed to be “a commercial success”.   C  is wrong: the diaries were missing.   Oʻzbekcha:  A — «1949-yildan beri tashrifchilar bilmagan holda Johnstonniki emas, Thomasning gullarini tomosha qilmoqda». «Innocently» = bilmasdan. B teskari; C notoʻgʻri — kundaliklar yoʻq edi.",
+      "uz": "A. “1949-yildan buyon tashrif buyurgan jamoatchilik Jonstonnikini emas, Tomasning gul koʻchatlarini begunoh hayratda qoldirdi”.   Begunoh = tushunmasdan - shuning uchun tashrif buyuruvchilar o'zlari hayratga tushgan narsaning qanchalik uniki ekanligini bilishmaydi.   B buning aksi: u bog'larning \"tijoriy muvaffaqiyat\" bo'lishi kerakligini bilardi.   C noto'g'ri: kundaliklar yo'q edi.   Oʻzbekcha: A — «1949-yildan beri tashrifchilar bilmagan Johnstonniki emas, Thomasning gullarini tomosha qilmoqda». «Begunoh» = bilmasdan. B teskari; C notoʻgʻri — kundaliklar yoʻq edi.",
+      "quotes": [
+        "the visiting public has innocently been admiring Thomas’s flower plantings, not Johnston’s own"
+      ],
+      "ru": "A. «с 1949 года приезжая публика невинно любуется цветочными посадками Томаса, а не собственными Джонстона».   Невинно = не осознавая — поэтому посетители не знают, какая часть того, чем они восхищаются, принадлежит ему.   Б — наоборот: он знал, что сады должны иметь «коммерческий успех».   С ошибается: дневники пропали.   Узбекча: А — «1949-йилдан бери ташрифчилар билмаган холда Джонстонники эмас, Томаснинг гулларини томоша килмокда». «Невинно» = билмасдан. Б тескари; C noto'g'ri — кундаликлар йо'к эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a1c619c3a9bb3cb77f7e2e0c2952bf5ee0410c1168f2ac96ce8bdcd2eb818303"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "a1c619c3a9bb3cb77f7e2e0c2952bf5ee0410c1168f2ac96ce8bdcd2eb818303"
+        }
+      }
+    },
+    "31": {
+      "part": 3,
+      "en": "C.  Page praised the half-hardy plants in the summer house; “  But  Thomas later got rid of them and pulled the house down, fearing such relatively   colourless  exhibits would not capture the public’s imagination.” Page is mentioned so the writer can show what Thomas did with them — an example of his crowd-pleasing approach.   Oʻzbekcha:  C — Page yozgi uydagi oʻsimliklarni maqtagan, «ammo» Thomas ularni yoʻq qilib, uyni buzgan — omma uchun qiziq emas deb. Page Thomasning yondashuviga misol keltirish uchun tilga olingan.",
+      "uz": "C. Peyj yozgi uyda yarim chidamli o'simliklarni maqtadi; \"Ammo keyinchalik Tomas ulardan qutulib, bunday nisbatan rangsiz eksponatlar jamoatchilikning tasavvurini o'ziga jalb etmasligidan qo'rqib, uyni buzib tashladi.\" Yozuvchi Tomas ular bilan nima qilganini ko'rsatishi uchun sahifa eslatib o'tilgan - bu uning olomonni yoqtiradigan yondashuviga misol.   Oʻzbekcha: C — Page yozgi uydagi oʻsimliklarni maqtagan, «ammo» Thomas ularni yoʻq qilib, uyni buzgan — omma uchun qiziq emas deb. Page Thomasning misoliga misol keltirish uchun tilga olingan.",
+      "quotes": [
+        "But Thomas later got rid of them and pulled the house down, fearing such relatively colourless exhibits would not capture the public’s imagination"
+      ],
+      "ru": "C. Пейдж похвалил полузимостойкие растения в летнем домике; «Но позже Томас избавился от них и снес дом, опасаясь, что такие относительно бесцветные экспонаты не захватят воображение публики». Пейдж упоминается для того, чтобы писатель мог показать, что с ними сделал Томас — пример его подхода, который нравился публике.   Узбекча: C — Пейдж йозги уйдаги о`симликларни мактаган, «патроны» Томас уларни йок килиб, уйни бузган — омма учун кызык эмас деб. Страница Thomasning yondashuviga misol keltirish uchun tilga olingan.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c93f3d8489c3133e907693f7a9d8ae2e14736fc9cdb36a8734e86037d7e76e73"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "c93f3d8489c3133e907693f7a9d8ae2e14736fc9cdb36a8734e86037d7e76e73"
+        }
+      }
+    },
+    "32": {
+      "part": 3,
+      "en": "D — original plans.  The head gardener “started to give   lectures  about Hidcote’s   lost early designs ”, and an envelope followed.   Talks  = lectures;   lost early designs  = original plans.   Oʻzbekcha:  D — bosh bogʻbon «Hidcotening yoʻqolgan dastlabki loyihalari haqida maʼruzalar» oʻqigan. «Talks» = lectures, «lost early designs» = original plans.",
+      "uz": "D - original rejalar.  Bosh bog'bon \"Hidkotning yo'qolgan dastlabki dizaynlari haqida ma'ruzalar o'qiy boshladi\" va uning ortidan konvert keldi.   Suhbatlar = ma'ruzalar;   yo'qolgan dastlabki dizaynlar = original rejalar.   Oʻzbekcha: D — bosh bogʻbon «Hidcotening yoʻqolgan oldingi haqida maʼruzalar” oʻqigan. \"Suhbatlar\" = ma'ruzalar, \"yo'qolgan dastlabki dizaynlar\" = original rejalar.",
+      "quotes": [
+        "give lectures about Hidcote’s lost early designs"
+      ],
+      "ru": "D — первоначальные планы.  Главный садовник «начал читать лекции об утерянных ранних разработках Хидкота», после чего последовал конверт.   Доклады = лекции;   потерянные ранние проекты = оригинальные планы.   Узбекча: Д — бош богъбон «Hidcotening yoʻqolgan dastlabki loyihalari haqida ma'ruzalar» o'qigan. «Беседы» = лекции, «утраченные ранние проекты» = оригинальные планы.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "514c01366448fa18511971c44dd4c4c6ab065686b43dddd8b97cec67e059d6d4"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "514c01366448fa18511971c44dd4c4c6ab065686b43dddd8b97cec67e059d6d4"
+        }
+      }
+    },
+    "33": {
+      "part": 3,
+      "en": "A — drawings.  “even better still, detailed   sketches  by Johnston himself showing … how those relationships   evolve over the seasons ”.   Sketches  = drawings;   over the seasons  = in the course of the year;   even better still  = most valuable of all.   Oʻzbekcha:  A — «eng yaxshisi, Johnstonning batafsil eskizlari… fasllar davomida qanday oʻzgarishini» koʻrsatgan. Sketches = drawings.",
+      "uz": "A - chizmalar.  \"Bundan ham yaxshisi, Jonstonning o'zi tomonidan tuzilgan batafsil eskizlar ... bu munosabatlar fasllar davomida qanday rivojlanishini ko'rsatadi\".   Eskizlar = chizmalar;   fasllar davomida = yil davomida;   undan ham yaxshiroq = hammadan qimmatli.   Oʻzbekcha: A — «eng yaxshisi, Johnstonning eskizlari… fasllar qanday oʻchirishni» koʻrsatgan. Eskizlar = chizmalar.",
+      "quotes": [
+        "detailed sketches by Johnston himself",
+        "how those relationships evolve over the seasons"
+      ],
+      "ru": "A — рисунки.  «А еще лучше — подробные зарисовки самого Джонстона, показывающие… как эти отношения развиваются с течением времени».   Эскизы = чертежи;   по сезонам = в течение года;   еще лучше = самое ценное из всех.   Узбекча: А — «eng yaxshisi, Johnstonning batafsil eskizlari… fasllar davomida qanday oʻzgarishini» корсатган. Эскизы = рисунки.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "df74d8df4a6283741d3064eefbb90a4f153408d95ea3ec785965a299c4c1a7f3"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "df74d8df4a6283741d3064eefbb90a4f153408d95ea3ec785965a299c4c1a7f3"
+        }
+      }
+    },
+    "34": {
+      "part": 3,
+      "en": "C — private life.  “they   never dwell  on the issues so typically addressed in diaries —   relationships, loves and longings ”. That list is his private life, and   never dwell  = we learn little.   Oʻzbekcha:  C — «kundaliklarda odatda yoziladigan narsalar — munosabatlar, sevgi va orzular haqida hech toʻxtalmaydi». Bu — shaxsiy hayot.",
+      "uz": "C - shaxsiy hayot.  \"Ular hech qachon kundaliklarda ko'p uchraydigan masalalar - munosabatlar, sevgi va intizorlar haqida to'xtalmaydilar\". Bu ro'yxat uning shaxsiy hayoti bo'lib, hech qachon yashamaydi = biz oz narsani o'rganamiz.   Oʻzbekcha: C — «kundaliklarda yuklanadigan narsalar — hech qanday munosabatlar, sevgi va orzular haqida toʻxtalmaydi». Bu — shaxsiy hayot.",
+      "quotes": [
+        "they never dwell on the issues so typically addressed in diaries"
+      ],
+      "ru": "C — частная жизнь.  «Они никогда не останавливаются на проблемах, которые так обычно затрагиваются в дневниках, — отношениях, любви и стремлениях». Этот список — его личная жизнь, и никогда не останавливайтесь на нем = мы мало что узнаем.   Узбекча: Ц — «кундаликларда одатда йозиладиган нарсалар — муносабатлар, севги ва орзулар хакида хеч тохталмайди». Бу — шаксий хаёт.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "27964aa393015316fb904d07efd17abd9b0ca49d0ad1438ee846d95572b654b2"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "27964aa393015316fb904d07efd17abd9b0ca49d0ad1438ee846d95572b654b2"
+        }
+      }
+    },
+    "35": {
+      "part": 3,
+      "en": "G — visitors.  “interspersed … with that day’s   guests . The famous novelist   Edith Wharton  is recorded as coming for lunch”.   Guests  = visitors; a famous novelist is the ‘well-known’ part.   Oʻzbekcha:  G — «oʻsha kungi mehmonlar» bilan aralash yozilgan; mashhur yozuvchi Edith Wharton tushlikka kelgani qayd etilgan. Guests = visitors.",
+      "uz": "G - tashrif buyuruvchilar.  \"O'sha kunning mehmonlari bilan aralashib ketdi. Mashhur yozuvchi Edit Uorton tushlik uchun kelgan\".   Mehmonlar = tashrif buyuruvchilar; mashhur romanchi - \"taniqli\" qism.   Oʻzbekcha: G — «oʻsha kungi mehmonlar» bilan aralashtirib; mashhur yozuvchi Edith Wharton tushlikka kelgani qayd etilgan. Mehmonlar = tashrif buyuruvchilar.",
+      "quotes": [
+        "interspersed, for example, with that day’s guests",
+        "The famous novelist Edith Wharton is recorded as coming for lunch"
+      ],
+      "ru": "G — посетители.  \"вперемешку... с гостями того дня. Известно, что на обед пришла известная писательница Эдит Уортон\".   Гости = посетители; знаменитый писатель — это «хорошо известная» часть.   Узбекча: Г — «оша кунги мехмонлар» билан аралаш йозилган; машхур йозувчи Эдит Уортон тушликка келгани кайд этилган. Гости = посетители.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b2b88900aa2168dd7f0cad613d2481fe68659a143ac829baf6cedb8e2779f86e"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "b2b88900aa2168dd7f0cad613d2481fe68659a143ac829baf6cedb8e2779f86e"
+        }
+      }
+    },
+    "36": {
+      "part": 3,
+      "en": "F — craftsmen.  The diaries list “those who might one day be of service … including local   stone masons and glaziers , or   repairers of broken china  from as far away as   France ”. Those trades are craftsmen, and France is the foreign country.   Oʻzbekcha:  F — kundaliklarda «tosh ustalari, oynasozlar, singan chinni taʼmirlovchilar» sanalgan — hatto Fransiyadan. Bular hunarmandlar (craftsmen).",
+      "uz": "F - hunarmandlar.  Kundaliklarda \"bir kun xizmat qilishi mumkin bo'lganlar ... shu jumladan mahalliy tosh ustalari va oynakorlari yoki Frantsiyagacha bo'lgan singan chinni ta'mirchilari\" ro'yxati keltirilgan. Bu hunarmandlar hunarmandlar, Frantsiya esa xorijiy davlatdir.   Oʻzbekcha: F — kundaliklarda «tosh ustalari, oynasozlar, singan chinni taʼmirlovchilar» sanalgan — hatto Fransiyadan. Bular hunarmandlar (hunarmandlar).",
+      "quotes": [
+        "including local stone masons and glaziers, or repairers of broken china from as far away as France"
+      ],
+      "ru": "F — мастера.  В дневниках перечислены «те, кто однажды может оказаться полезным… включая местных каменщиков и стекольщиков или мастеров по ремонту разбитого фарфора даже из Франции». Эти профессии — мастера, а Франция — чужая страна.   Узбекча: Ф — кундаликларда «тош усталари, ойнасозлар, синган чинни таъмирловчилар» саналган — хатто Франсиядан. Булар хунармандлар (ремесленники).",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ac1fb755e181324ea298847f2c34876fe82f68d1cf414a2c627136f1819829ad"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "ac1fb755e181324ea298847f2c34876fe82f68d1cf414a2c627136f1819829ad"
+        }
+      }
+    },
+    "37": {
+      "part": 3,
+      "en": "YES.  In G the writer calls the central vista “the design I regard as the greatest in   British art  in the past century”. Placing a garden design inside   art  is the claim the statement makes.   Oʻzbekcha:  YES — G bandida muallif markaziy koʻrinishni «soʻnggi asrdagi Britaniya sanʼatidagi eng buyuk dizayn» deb ataydi. Yaʼni bogʻdorchilik ham sanʼat.",
+      "uz": "YES.  G'da yozuvchi markaziy vistani \"o'tgan asrdagi Britaniya san'atining eng buyuk dizayni\" deb ataydi. Bog 'dizaynini san'at ichiga joylashtirish bayonotda ko'rsatilgan da'vodir.   Oʻzbekcha: YES — G bandida muallif markaziy koʻrinishni “soʻnggi asrdagi Buyuk Britaniya sanʼatidagi eng dizayn” deb ataydi. Yaʼni bogʻdorchilik ham sanʼat.",
+      "quotes": [
+        "the design I regard as the greatest in British art in the past century"
+      ],
+      "ru": "YES.  В G писатель называет центральную перспективу «дизайном, который я считаю величайшим в британском искусстве прошлого века». В этом заявлении утверждается, что дизайн сада помещен в произведение искусства.   Узбекча: ДА — G бандида муаллиф марказий ко`ринишни «со’нгги асрдаги Британия санъатидаги эн буюк дизайн» деб атайди. Яни богдорчилик хам санат.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8c89abd04ef54d6224e65fa4f9803d3959eddb83d2dea1c61cc95705d6d134e8"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "8c89abd04ef54d6224e65fa4f9803d3959eddb83d2dea1c61cc95705d6d134e8"
+        }
+      }
+    },
+    "38": {
+      "part": 3,
+      "en": "NOT GIVEN.  The writer says the Trust “must take its collection of plants up one notch” and that Johnston’s plants “may not be easy to source, nor so appealing to contemporary tastes” — but he never says whether the original design   should  be kept. He states the problem and leaves the judgement open.   Oʻzbekcha:  NOT GIVEN — muallif Trust oʻsimliklar toʻplamini yaxshilashi kerakligini va eski oʻsimliklarni topish qiyinligini aytadi, lekin asl dizaynni saqlash   kerakmi  — bu haqda fikr bildirmaydi.",
+      "uz": "NOT GIVEN.  Yozuvchining ta'kidlashicha, Trest \"o'simliklar to'plamini bir pog'onaga ko'tarishi kerak\" va Jonstonning o'simliklari \"manba olish oson bo'lmasligi va zamonaviy ta'mga unchalik yoqmasligi mumkin\" - lekin u asl dizaynni saqlab qolish kerakligini hech qachon aytmaydi. U muammoni aytadi va hukmni ochiq qoldiradi.   Oʻzbekcha: NOT GIVEN — muallif Trust oʻsimliklar toʻplamini yaxshilashi mumkin emas va eski oʻsimliklarni lekin qiyinligini aytadi, asl dizaynni saqlash kerakmi — bu haqda fikr bildir.",
+      "quotes": [
+        "Today, these may not be easy to source, nor so appealing to contemporary tastes"
+      ],
+      "ru": "NOT GIVEN.  Автор говорит, что Фонд «должен поднять свою коллекцию растений на одну ступень выше» и что растения Джонстона «возможно, нелегко найти и они не настолько привлекательны для современных вкусов», но он никогда не говорит, следует ли сохранять оригинальный дизайн. Он формулирует проблему и оставляет решение открытым.   Узбекча: НЕ ДАНО — муаллиф Доверьтесь о`симликлар то`пламини яксшилаши кераклигини ва эски о`симликларни топиш кийинлигини айтади, лекин асл дизайнни саклаш керакми — бу хакда фикр билдирмайди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d93b9f5d54ccdbf5c1d108b85c4a28ab54fe01ab9315e6a06072e9c11cc88cbd"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "d93b9f5d54ccdbf5c1d108b85c4a28ab54fe01ab9315e6a06072e9c11cc88cbd"
+        }
+      }
+    },
+    "39": {
+      "part": 3,
+      "en": "NO.  The writer rejects exactly this: “I   do not believe  the fashionable guess nowadays that Johnston was informed by books … by Britain’s Thomas Mawson, an altogether   less innovative mind ”.   Oʻzbekcha:  NO — muallif buni rad etadi: «Johnston Thomas Mawsonning kitoblaridan taʼsirlangan degan fikrga ishonmayman», Mawson «ancha kam novator» edi.",
+      "uz": "NO.  Yozuvchi buni aniq rad etadi: \"Hozirgi kunda Jonstonga kitoblar orqali ma'lumot berilgan degan zamonaviy taxminlarga ishonmayman ... Britaniyalik Tomas Mouson, umuman olganda, unchalik innovatsion emas \".   Oʻzbekcha: NO — muallif buni rad etadi: «Johnston Thomas Mawsonning kitoblaridan taʼsirlangan degan fikrga ishonmayman», Mawson «ancha kam novator» edi.",
+      "quotes": [
+        "I do not believe the fashionable guess nowadays that Johnston was informed by books on contemporary design by Britain’s Thomas Mawson"
+      ],
+      "ru": "NO.  Писатель отвергает именно это: «Я не верю модной нынче догадке, будто Джонстон был информирован из книг… британцем Томасом Моусоном, совершенно менее новаторским умом».   Узбекча: НЕТ — муаллиф буни рад этади: «Джонстон Томас Моусоннинг китобларидан тасирланган деган фикрга ишонмайман», Моусон «анча кам новатор» эди.",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7a321ecc3fb1cda6e18d9aeb41c50bfb009eaa6b4164a7d417361f189a594d7d"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "7a321ecc3fb1cda6e18d9aeb41c50bfb009eaa6b4164a7d417361f189a594d7d"
+        }
+      }
+    },
+    "40": {
+      "part": 3,
+      "en": "YES.  The last sentence: “It is Johnston’s own   origins , the   events of his life , and his individual design flair that contribute to making Hidcote so unique.”   Events of his life  = life experience.   Oʻzbekcha:  YES — oxirgi gap: «Hidcoteni betakror qilgan narsa — Johnstonning kelib chiqishi, hayotidagi voqealar va oʻziga xos dizayn isteʼdodi».",
+      "uz": "YES.  Oxirgi jumla: \"Jonstonning kelib chiqishi, hayotidagi voqealar va uning individual dizayn qobiliyati Hidcote-ni juda noyob qilishiga yordam beradi.\"   Uning hayotidagi voqealar = hayotiy tajriba.   Oʻzbekcha: YES — oxirgi gap: «Hidcoteni betakror qilgan narsa — Johnstonning chiqishi, hayotidagi voqealar va oʻziga xos dizayn isteʼdodi».",
+      "quotes": [
+        "It is Johnston’s own origins, the events of his life, and his individual design flair that contribute to making Hidcote so unique"
+      ],
+      "ru": "YES.  Последнее предложение: «Именно собственное происхождение Джонстона, события его жизни и его индивидуальный дизайнерский талант делают Хидкота таким уникальным».   События его жизни = жизненный опыт.   Узбекча: ДА — оксирги гэп: «Hidcoteni betakror qilgan narsa — Johnstonning kelib chiqishi, hayotidagi voqealar va o’ziga xos dizayn iste’dodi».",
+      "translationProvenance": {
+        "ru": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e5c7d329357e95973e67acef430b363d94d8a92617cdc2e9f75a69f2bd88c16c"
+        },
+        "uz": {
+          "type": "machine-translation",
+          "sourceLanguage": "en",
+          "provider": "Google Translate",
+          "sourceSha256": "e5c7d329357e95973e67acef430b363d94d8a92617cdc2e9f75a69f2bd88c16c"
+        }
+      }
+    }
   }
 }

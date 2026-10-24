@@ -1,0 +1,5356 @@
+{
+  "single-listening-1": {
+    "test": 1,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "café",
+        "cafe"
+      ],
+      "2": [
+        "9",
+        "nine",
+        "9 am",
+        "nine am",
+        "9 o'clock",
+        "nine o'clock"
+      ],
+      "3": [
+        "5",
+        "five",
+        "5 km",
+        "five km",
+        "5 kilometers",
+        "five kilometers",
+        "5 kilometres",
+        "five kilometres"
+      ],
+      "4": [
+        "barcode",
+        "bar code",
+        "a barcode",
+        "bar-code",
+        "a bar-code"
+      ],
+      "5": [
+        "website",
+        "web site"
+      ],
+      "6": [
+        "1.50"
+      ],
+      "7": [
+        "Maughan"
+      ],
+      "8": [
+        "01444 732900",
+        "01444732900"
+      ],
+      "9": [
+        "guiding",
+        "guide"
+      ],
+      "10": [
+        "taking photos",
+        "take photos",
+        "taking photographs",
+        "take photographs"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 1"
+      }
+    ]
+  },
+  "single-listening-2": {
+    "test": 2,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "3000",
+        "3,000",
+        "three thousand",
+        "3000 words",
+        "3,000 words",
+        "three thousand words"
+      ],
+      "2": [
+        "surprise",
+        "surprising ending",
+        "surprise ending"
+      ],
+      "3": [
+        "16",
+        "sixteen"
+      ],
+      "4": [
+        "August"
+      ],
+      "5": [
+        "COMP4SS",
+        "comp4ss"
+      ],
+      "6": [
+        "post"
+      ],
+      "7": [
+        "famous authors"
+      ],
+      "8": [
+        "online"
+      ],
+      "9": [
+        "public"
+      ],
+      "10": [
+        "Spain"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 2"
+      }
+    ]
+  },
+  "single-listening-3": {
+    "test": 3,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Symonds"
+      ],
+      "2": [
+        "1996"
+      ],
+      "3": [
+        "fulltime",
+        "full-time"
+      ],
+      "4": [
+        "swimming"
+      ],
+      "5": [
+        "monthly"
+      ],
+      "6": [
+        "jogging",
+        "go jogging",
+        "do jogging"
+      ],
+      "7": [
+        "bad ankle"
+      ],
+      "8": [
+        "fitness level"
+      ],
+      "9": [
+        "charity worker"
+      ],
+      "10": [
+        "radio",
+        "the radio",
+        "on radio",
+        "on the radio"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 3"
+      }
+    ]
+  },
+  "single-listening-4": {
+    "test": 4,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "7.30",
+        "seven thirty"
+      ],
+      "2": [
+        "pencils"
+      ],
+      "3": [
+        "top"
+      ],
+      "4": [
+        "August"
+      ],
+      "5": [
+        "instructions"
+      ],
+      "6": [
+        "55",
+        "fifty-five"
+      ],
+      "7": [
+        "beginners"
+      ],
+      "8": [
+        "Kahui"
+      ],
+      "9": [
+        "battery"
+      ],
+      "10": [
+        "show"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 4"
+      }
+    ]
+  },
+  "single-listening-5": {
+    "test": 5,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "white"
+      ],
+      "2": [
+        "office"
+      ],
+      "3": [
+        "camera"
+      ],
+      "4": [
+        "umbrella"
+      ],
+      "5": [
+        "13th May",
+        "13 May",
+        "thirteenth May",
+        "May 13",
+        "May 13th",
+        "May thirteenth"
+      ],
+      "6": [
+        "airport"
+      ],
+      "7": [
+        "taxi"
+      ],
+      "8": [
+        "Docherty"
+      ],
+      "9": [
+        "River"
+      ],
+      "10": [
+        "07979605437"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 5"
+      }
+    ]
+  },
+  "single-listening-6": {
+    "test": 6,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "208 613 2978",
+        "2086132978"
+      ],
+      "2": [
+        "visiontech"
+      ],
+      "3": [
+        "doctor"
+      ],
+      "4": [
+        "garage"
+      ],
+      "5": [
+        "furniture"
+      ],
+      "6": [
+        "fridge"
+      ],
+      "7": [
+        "school"
+      ],
+      "8": [
+        "950",
+        "£950"
+      ],
+      "9": [
+        "quiet"
+      ],
+      "10": [
+        "friend"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 6"
+      }
+    ]
+  },
+  "single-listening-7": {
+    "test": 7,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "unfriendly"
+      ],
+      "2": [
+        "noisy"
+      ],
+      "3": [
+        "23.50",
+        "twenty-three fifty"
+      ],
+      "4": [
+        "insects"
+      ],
+      "5": [
+        "bathrooms"
+      ],
+      "6": [
+        "party"
+      ],
+      "7": [
+        "Shadforth"
+      ],
+      "8": [
+        "towel"
+      ],
+      "9": [
+        "breakfast"
+      ],
+      "10": [
+        "kitchen"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 7"
+      }
+    ]
+  },
+  "single-listening-8": {
+    "test": 8,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "documents",
+        "simple documents"
+      ],
+      "2": [
+        "keyboard"
+      ],
+      "3": [
+        "flowers"
+      ],
+      "4": [
+        "tools"
+      ],
+      "5": [
+        "Saturday"
+      ],
+      "6": [
+        "Mairead"
+      ],
+      "7": [
+        "Bridge"
+      ],
+      "8": [
+        "14 May",
+        "14th May",
+        "fourteenth May",
+        "the fourteenth of May",
+        "May 14",
+        "May 14th",
+        "May fourteenth",
+        "14.05",
+        "14.5",
+        "05.14",
+        "5.14"
+      ],
+      "9": [
+        "park"
+      ],
+      "10": [
+        "newspaper"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 8"
+      }
+    ]
+  },
+  "single-listening-9": {
+    "test": 9,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "taxi",
+        "cab",
+        "a taxi"
+      ],
+      "2": [
+        "city centre",
+        "city center"
+      ],
+      "3": [
+        "wait"
+      ],
+      "4": [
+        "door-to-door"
+      ],
+      "5": [
+        "reserve",
+        "reserve a seat"
+      ],
+      "6": [
+        "17th October",
+        "17th of October",
+        "the 17th October",
+        "the 17th of October"
+      ],
+      "7": [
+        "12.30"
+      ],
+      "8": [
+        "Thomson"
+      ],
+      "9": [
+        "AC 936"
+      ],
+      "10": [
+        "3303 8450 2045 6837",
+        "3303845020456837"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 9"
+      }
+    ]
+  },
+  "single-listening-10": {
+    "test": 10,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "27 Bank Road"
+      ],
+      "2": [
+        "dentist",
+        "a dentist"
+      ],
+      "3": [
+        "Sable"
+      ],
+      "4": [
+        "Northern Star"
+      ],
+      "5": [
+        "stolen"
+      ],
+      "6": [
+        "Paynter"
+      ],
+      "7": [
+        "brother-in-law"
+      ],
+      "8": [
+        "work",
+        "to work",
+        "travelling to work",
+        "traveling to work",
+        "travelling",
+        "traveling"
+      ],
+      "9": [
+        "Red Flag"
+      ],
+      "10": [
+        "450"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 10"
+      }
+    ]
+  },
+  "single-listening-11": {
+    "test": 11,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "business"
+      ],
+      "2": [
+        "third"
+      ],
+      "3": [
+        "Sport Centre",
+        "Sports Centre"
+      ],
+      "4": [
+        "cleaner",
+        "a cleaner"
+      ],
+      "5": [
+        "Library"
+      ],
+      "6": [
+        "International House"
+      ],
+      "7": [
+        "B659"
+      ],
+      "8": [
+        "office assistant",
+        "an office assistant"
+      ],
+      "9": [
+        "answer phone",
+        "answer the phone"
+      ],
+      "10": [
+        "11.30"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 11"
+      }
+    ]
+  },
+  "single-listening-12": {
+    "test": 12,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Keiko"
+      ],
+      "2": [
+        "JO6337"
+      ],
+      "3": [
+        "4 months"
+      ],
+      "4": [
+        "English",
+        "English Studies",
+        "Advanced English",
+        "Advanced English Studies"
+      ],
+      "5": [
+        "children",
+        "young children"
+      ],
+      "6": [
+        "pets"
+      ],
+      "7": [
+        "seafood"
+      ],
+      "8": [
+        "tennis"
+      ],
+      "9": [
+        "trains",
+        "train",
+        "the train"
+      ],
+      "10": [
+        "this",
+        "that afternoon"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 12"
+      }
+    ]
+  },
+  "single-listening-13": {
+    "test": 13,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "C"
+      ],
+      "2": [
+        "B"
+      ],
+      "3": [
+        "48 North Avenue"
+      ],
+      "4": [
+        "WS6 2YH"
+      ],
+      "5": [
+        "01674 553242",
+        "01674553242"
+      ],
+      "6": [
+        "drink",
+        "refreshment",
+        "refreshments",
+        "drinks",
+        "free drink",
+        "free drinks"
+      ],
+      "7": [
+        "pianist",
+        "the pianist",
+        "a pianist",
+        "piano player"
+      ],
+      "8": [
+        "10.50"
+      ],
+      "9": [
+        "4"
+      ],
+      "10": [
+        "50%"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 13"
+      }
+    ]
+  },
+  "single-listening-14": {
+    "test": 14,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Milperra"
+      ],
+      "2": [
+        "First Class Movers"
+      ],
+      "3": [
+        "28 November"
+      ],
+      "4": [
+        "screen"
+      ],
+      "5": [
+        "bathroom"
+      ],
+      "6": [
+        "door"
+      ],
+      "7": [
+        "140"
+      ],
+      "8": [
+        "leg"
+      ],
+      "9": [
+        "plates"
+      ],
+      "10": [
+        "60"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 14"
+      }
+    ]
+  },
+  "single-listening-15": {
+    "test": 15,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "central"
+      ],
+      "2": [
+        "600"
+      ],
+      "3": [
+        "2 year",
+        "2 years"
+      ],
+      "4": [
+        "garage"
+      ],
+      "5": [
+        "garden"
+      ],
+      "6": [
+        "study"
+      ],
+      "7": [
+        "noisy"
+      ],
+      "8": [
+        "595"
+      ],
+      "9": [
+        "B"
+      ],
+      "10": [
+        "E"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": [
+          {
+            "questions": [
+              9,
+              10
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 15"
+      }
+    ]
+  },
+  "single-listening-16": {
+    "test": 16,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "waiter",
+        "waiters"
+      ],
+      "2": [
+        "day off"
+      ],
+      "3": [
+        "break"
+      ],
+      "4": [
+        "meal",
+        "free meal"
+      ],
+      "5": [
+        "dark",
+        "dark coloured",
+        "dark colored"
+      ],
+      "6": [
+        "jacket"
+      ],
+      "7": [
+        "28 June"
+      ],
+      "8": [
+        "Urwin"
+      ],
+      "9": [
+        "12.00",
+        "noon",
+        "mid-day",
+        "12.00 pm"
+      ],
+      "10": [
+        "reference"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 16"
+      }
+    ]
+  },
+  "single-listening-17": {
+    "test": 17,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "answer phone",
+        "answer the phone",
+        "answering phone",
+        "answering the phone"
+      ],
+      "2": [
+        "Hillsdunne Road"
+      ],
+      "3": [
+        "library"
+      ],
+      "4": [
+        "4.45"
+      ],
+      "5": [
+        "national holidays"
+      ],
+      "6": [
+        "after 11",
+        "after 11 o’clock"
+      ],
+      "7": [
+        "clear voice"
+      ],
+      "8": [
+        "think quickly"
+      ],
+      "9": [
+        "22 October"
+      ],
+      "10": [
+        "Manuja"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 17"
+      }
+    ]
+  },
+  "single-listening-18": {
+    "test": 18,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "Bhatt"
+      ],
+      "2": [
+        "31 March"
+      ],
+      "3": [
+        "nursing"
+      ],
+      "4": [
+        "2"
+      ],
+      "5": [
+        "meat"
+      ],
+      "6": [
+        "bedsit"
+      ],
+      "7": [
+        "theatre",
+        "theater"
+      ],
+      "8": [
+        "mature",
+        "older"
+      ],
+      "9": [
+        "town"
+      ],
+      "10": [
+        "shared"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 18"
+      }
+    ]
+  },
+  "single-listening-19": {
+    "test": 19,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "300"
+      ],
+      "2": [
+        "Sunshade"
+      ],
+      "3": [
+        "balcony"
+      ],
+      "4": [
+        "forest",
+        "forests"
+      ],
+      "5": [
+        "319"
+      ],
+      "6": [
+        "10,000"
+      ],
+      "7": [
+        "relative"
+      ],
+      "8": [
+        "missed"
+      ],
+      "9": [
+        "item"
+      ],
+      "10": [
+        "Ludlow"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 19"
+      }
+    ]
+  },
+  "single-listening-20": {
+    "test": 20,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "babies"
+      ],
+      "2": [
+        "Eshcol"
+      ],
+      "3": [
+        "evening"
+      ],
+      "4": [
+        "Gormley"
+      ],
+      "5": [
+        "B"
+      ],
+      "6": [
+        "E"
+      ],
+      "7": [
+        "heart"
+      ],
+      "8": [
+        "primary school"
+      ],
+      "9": [
+        "4.30"
+      ],
+      "10": [
+        "ages"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": [
+          {
+            "questions": [
+              5,
+              6
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 20"
+      }
+    ]
+  },
+  "single-listening-21": {
+    "test": 21,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "sharks"
+      ],
+      "12": [
+        "old fishing village",
+        "Old Fishing Village"
+      ],
+      "13": [
+        "shopping"
+      ],
+      "14": [
+        "fountain",
+        "water fountain"
+      ],
+      "15": [
+        "student card"
+      ],
+      "16": [
+        "fifty minutes",
+        "50 minutes",
+        "fifty mins",
+        "50 mins"
+      ],
+      "17": [
+        "museum"
+      ],
+      "18": [
+        "tourist office"
+      ],
+      "19": [
+        "rainwear",
+        "rain-wear"
+      ],
+      "20": [
+        "eticket",
+        "e ticket",
+        "e-ticket"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 21"
+      }
+    ]
+  },
+  "single-listening-22": {
+    "test": 22,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "world of water",
+        "World of Water"
+      ],
+      "12": [
+        "splash ride",
+        "the splash ride"
+      ],
+      "13": [
+        "noon",
+        "midday",
+        "12 o'clock",
+        "12 pm",
+        "at noon"
+      ],
+      "14": [
+        "feed sharks",
+        "feed the sharks"
+      ],
+      "15": [
+        "birthday party",
+        "a birthday party"
+      ],
+      "16": [
+        "government",
+        "the government"
+      ],
+      "17": [
+        "quiz",
+        "the quiz",
+        "a quiz"
+      ],
+      "18": [
+        "E"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "B"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 22"
+      }
+    ]
+  },
+  "single-listening-23": {
+    "test": 23,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "C"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "ring a bell"
+      ],
+      "19": [
+        "lounge"
+      ],
+      "20": [
+        "speeches",
+        "speakers"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 23"
+      }
+    ]
+  },
+  "single-listening-24": {
+    "test": 24,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "E"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "G"
+      ],
+      "16": [
+        "I"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "E"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "A"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 24"
+      }
+    ]
+  },
+  "single-listening-25": {
+    "test": 25,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "G"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "B"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "A"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 25"
+      }
+    ]
+  },
+  "single-listening-26": {
+    "test": 26,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "contact details"
+      ],
+      "12": [
+        "emergency",
+        "an emergency"
+      ],
+      "13": [
+        "radio"
+      ],
+      "14": [
+        "keys",
+        "spare keys",
+        "extra keys"
+      ],
+      "15": [
+        "locks",
+        "window locks"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "D"
+      ],
+      "18": [
+        "F"
+      ],
+      "19": [
+        "G"
+      ],
+      "20": [
+        "E"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 26"
+      }
+    ]
+  },
+  "single-listening-27": {
+    "test": 27,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "A"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "E"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "F"
+      ],
+      "20": [
+        "A"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 27"
+      }
+    ]
+  },
+  "single-listening-28": {
+    "test": 28,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "C"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "H"
+      ],
+      "15": [
+        "G"
+      ],
+      "16": [
+        "films",
+        "movies"
+      ],
+      "17": [
+        "reports"
+      ],
+      "18": [
+        "region"
+      ],
+      "19": [
+        "job"
+      ],
+      "20": [
+        "housing"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 28"
+      }
+    ]
+  },
+  "single-listening-29": {
+    "test": 29,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "B"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 29"
+      }
+    ]
+  },
+  "single-listening-30": {
+    "test": 30,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "City Bridge"
+      ],
+      "12": [
+        "Newtown"
+      ],
+      "13": [
+        "6.30"
+      ],
+      "14": [
+        "gardens",
+        "formal gardens"
+      ],
+      "15": [
+        "Restaurant",
+        "Tower Restaurant"
+      ],
+      "16": [
+        "view",
+        "views"
+      ],
+      "17": [
+        "history"
+      ],
+      "18": [
+        "7 screen"
+      ],
+      "19": [
+        "every 20 minutes"
+      ],
+      "20": [
+        "Central Station",
+        "from Central Station",
+        "the Central Station"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 30"
+      }
+    ]
+  },
+  "single-listening-31": {
+    "test": 31,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "forest"
+      ],
+      "18": [
+        "temple"
+      ],
+      "19": [
+        "waterfall"
+      ],
+      "20": [
+        "village"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 31"
+      }
+    ]
+  },
+  "single-listening-32": {
+    "test": 32,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "C"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "A"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "car park"
+      ],
+      "16": [
+        "rose garden"
+      ],
+      "17": [
+        "café"
+      ],
+      "18": [
+        "cycling"
+      ],
+      "19": [
+        "biology lesson"
+      ],
+      "20": [
+        "viewing shelter"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 32"
+      }
+    ]
+  },
+  "single-listening-33": {
+    "test": 33,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "1.30"
+      ],
+      "12": [
+        "25 December",
+        "Christmas Day"
+      ],
+      "13": [
+        "car-park",
+        "parking lot"
+      ],
+      "14": [
+        "45"
+      ],
+      "15": [
+        "tables",
+        "some tables"
+      ],
+      "16": [
+        "C"
+      ],
+      "17": [
+        "F"
+      ],
+      "18": [
+        "G"
+      ],
+      "19": [
+        "B"
+      ],
+      "20": [
+        "E"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              16,
+              17,
+              18
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "F",
+                "G"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 33"
+      }
+    ]
+  },
+  "single-listening-34": {
+    "test": 34,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "Forest",
+        "the Forest"
+      ],
+      "13": [
+        "Fish Farm",
+        "Fish Farms"
+      ],
+      "14": [
+        "Market Garden"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "B"
+      ],
+      "19": [
+        "C"
+      ],
+      "20": [
+        "A"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 34"
+      }
+    ]
+  },
+  "single-listening-35": {
+    "test": 35,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "classical music",
+        "classical concerts",
+        "music concerts",
+        "concerts"
+      ],
+      "12": [
+        "bookshop",
+        "bookstore"
+      ],
+      "13": [
+        "planned"
+      ],
+      "14": [
+        "1983",
+        "1980s",
+        "the 1980s"
+      ],
+      "15": [
+        "City Council"
+      ],
+      "16": [
+        "363"
+      ],
+      "17": [
+        "Garden Hall",
+        "the Garden Hall"
+      ],
+      "18": [
+        "Three Lives"
+      ],
+      "19": [
+        "4.50"
+      ],
+      "20": [
+        "Faces of China"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 35"
+      }
+    ]
+  },
+  "single-listening-36": {
+    "test": 36,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "A"
+      ],
+      "12": [
+        "B"
+      ],
+      "13": [
+        "B"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "D"
+      ],
+      "16": [
+        "G"
+      ],
+      "17": [
+        "B"
+      ],
+      "18": [
+        "F"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "E"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 36"
+      }
+    ]
+  },
+  "single-listening-37": {
+    "test": 37,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "branch"
+      ],
+      "12": [
+        "west"
+      ],
+      "13": [
+        "clothing"
+      ],
+      "14": [
+        "10"
+      ],
+      "15": [
+        "running"
+      ],
+      "16": [
+        "bags"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "A"
+      ],
+      "19": [
+        "A"
+      ],
+      "20": [
+        "E"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              19,
+              20
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "E"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 37"
+      }
+    ]
+  },
+  "single-listening-38": {
+    "test": 38,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "trees"
+      ],
+      "12": [
+        "Friday",
+        "Sunday"
+      ],
+      "13": [
+        "farm"
+      ],
+      "14": [
+        "C"
+      ],
+      "15": [
+        "B"
+      ],
+      "16": [
+        "A"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "I"
+      ],
+      "19": [
+        "F"
+      ],
+      "20": [
+        "E"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 38"
+      }
+    ]
+  },
+  "single-listening-39": {
+    "test": 39,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "C"
+      ],
+      "12": [
+        "A"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "E"
+      ],
+      "15": [
+        "H"
+      ],
+      "16": [
+        "F"
+      ],
+      "17": [
+        "C"
+      ],
+      "18": [
+        "G"
+      ],
+      "19": [
+        "120"
+      ],
+      "20": [
+        "5 to 12"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 39"
+      }
+    ]
+  },
+  "single-listening-40": {
+    "test": 40,
+    "module": "listening",
+    "answers": {
+      "11": [
+        "B"
+      ],
+      "12": [
+        "C"
+      ],
+      "13": [
+        "E"
+      ],
+      "14": [
+        "B"
+      ],
+      "15": [
+        "E"
+      ],
+      "16": [
+        "D"
+      ],
+      "17": [
+        "A"
+      ],
+      "18": [
+        "C"
+      ],
+      "19": [
+        "732281"
+      ],
+      "20": [
+        "Thursday",
+        "Thursdays"
+      ]
+    },
+    "parts": {
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 2,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 40"
+      }
+    ]
+  },
+  "single-listening-41": {
+    "test": 41,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "C"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "management",
+        "managers",
+        "senior management"
+      ],
+      "28": [
+        "project request"
+      ],
+      "29": [
+        "meeting"
+      ],
+      "30": [
+        "conference call"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 41"
+      }
+    ]
+  },
+  "single-listening-42": {
+    "test": 42,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "D"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "mathematics",
+        "math",
+        "maths"
+      ],
+      "24": [
+        "theory",
+        "theoretical"
+      ],
+      "25": [
+        "jet engines"
+      ],
+      "26": [
+        "seminars"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "C"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "D",
+                "B"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 42"
+      }
+    ]
+  },
+  "single-listening-43": {
+    "test": 43,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "pine forests"
+      ],
+      "22": [
+        "water"
+      ],
+      "23": [
+        "print"
+      ],
+      "24": [
+        "sort"
+      ],
+      "25": [
+        "remove ink"
+      ],
+      "26": [
+        "introduction",
+        "the introduction"
+      ],
+      "27": [
+        "council",
+        "the council"
+      ],
+      "28": [
+        "data",
+        "some data"
+      ],
+      "29": [
+        "first draft"
+      ],
+      "30": [
+        "tutor",
+        "their tutor",
+        "the tutor"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 43"
+      }
+    ]
+  },
+  "single-listening-44": {
+    "test": 44,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "C"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "G"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "D"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "E"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 44"
+      }
+    ]
+  },
+  "single-listening-45": {
+    "test": 45,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "E"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "G"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "F"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 45"
+      }
+    ]
+  },
+  "single-listening-46": {
+    "test": 46,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "B"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "hunger",
+        "global hunger"
+      ],
+      "28": [
+        "pollution"
+      ],
+      "29": [
+        "wood"
+      ],
+      "30": [
+        "grass",
+        "grasses"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 46"
+      }
+    ]
+  },
+  "single-listening-47": {
+    "test": 47,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "A"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "background"
+      ],
+      "28": [
+        "theory"
+      ],
+      "29": [
+        "cost",
+        "costs"
+      ],
+      "30": [
+        "time"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 47"
+      }
+    ]
+  },
+  "single-listening-48": {
+    "test": 48,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "E"
+      ],
+      "22": [
+        "I"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "G"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "D"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "aims",
+        "objectives",
+        "goals"
+      ],
+      "29": [
+        "staff"
+      ],
+      "30": [
+        "feedback"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 48"
+      }
+    ]
+  },
+  "single-listening-49": {
+    "test": 49,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "attitude",
+        "attitudes"
+      ],
+      "22": [
+        "gender",
+        "sex"
+      ],
+      "23": [
+        "creativity",
+        "creativeness"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "B"
+      ],
+      "28": [
+        "culture"
+      ],
+      "29": [
+        "profit",
+        "profits"
+      ],
+      "30": [
+        "stress",
+        "strain"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 49"
+      }
+    ]
+  },
+  "single-listening-50": {
+    "test": 50,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "B"
+      ],
+      "22": [
+        "A"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "1882 to 1883",
+        "1882-1883",
+        "1882–1883",
+        "1882 to 83",
+        "1882-83"
+      ],
+      "28": [
+        "Signed"
+      ],
+      "29": [
+        "A"
+      ],
+      "30": [
+        "D"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              29,
+              30
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 50"
+      }
+    ]
+  },
+  "single-listening-51": {
+    "test": 51,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "cigar"
+      ],
+      "22": [
+        "13 countries",
+        "13 different countries"
+      ],
+      "23": [
+        "activated"
+      ],
+      "24": [
+        "50 km",
+        "50 kms"
+      ],
+      "25": [
+        "temperature"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "C"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 51"
+      }
+    ]
+  },
+  "single-listening-52": {
+    "test": 52,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "5"
+      ],
+      "22": [
+        "assessed"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "A"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "media room"
+      ],
+      "28": [
+        "resources room"
+      ],
+      "29": [
+        "embassy"
+      ],
+      "30": [
+        "statistics",
+        "stats"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 52"
+      }
+    ]
+  },
+  "single-listening-53": {
+    "test": 53,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "A"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "F"
+      ],
+      "28": [
+        "12,000"
+      ],
+      "29": [
+        "horses"
+      ],
+      "30": [
+        "caves"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              25,
+              26,
+              27
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "C",
+                "F"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 53"
+      }
+    ]
+  },
+  "single-listening-54": {
+    "test": 54,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "A"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "C"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "insects"
+      ],
+      "26": [
+        "feeding",
+        "eating"
+      ],
+      "27": [
+        "laboratory"
+      ],
+      "28": [
+        "water"
+      ],
+      "29": [
+        "wings"
+      ],
+      "30": [
+        "reliable",
+        "accurate"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 54"
+      }
+    ]
+  },
+  "single-listening-55": {
+    "test": 55,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "C"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "B"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "A"
+      ],
+      "27": [
+        "C"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "B"
+      ],
+      "30": [
+        "C"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 55"
+      }
+    ]
+  },
+  "single-listening-56": {
+    "test": 56,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "B"
+      ],
+      "22": [
+        "E"
+      ],
+      "23": [
+        "A"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "B"
+      ],
+      "26": [
+        "C"
+      ],
+      "27": [
+        "priorities"
+      ],
+      "28": [
+        "timetable"
+      ],
+      "29": [
+        "tasks",
+        "small tasks"
+      ],
+      "30": [
+        "paragraph",
+        "single paragraph"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              21,
+              22
+            ],
+            "acceptedSets": [
+              [
+                "B",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              23,
+              24
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 56"
+      }
+    ]
+  },
+  "single-listening-57": {
+    "test": 57,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "B"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "A"
+      ],
+      "25": [
+        "C"
+      ],
+      "26": [
+        "B"
+      ],
+      "27": [
+        "A"
+      ],
+      "28": [
+        "B"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "B"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 57"
+      }
+    ]
+  },
+  "single-listening-58": {
+    "test": 58,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "C"
+      ],
+      "22": [
+        "B"
+      ],
+      "23": [
+        "B"
+      ],
+      "24": [
+        "C"
+      ],
+      "25": [
+        "reading"
+      ],
+      "26": [
+        "CD"
+      ],
+      "27": [
+        "workbooks"
+      ],
+      "28": [
+        "timetable",
+        "schedule"
+      ],
+      "29": [
+        "alarm"
+      ],
+      "30": [
+        "email",
+        "emails"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 58"
+      }
+    ]
+  },
+  "single-listening-59": {
+    "test": 59,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "fishing industry"
+      ],
+      "22": [
+        "statistics"
+      ],
+      "23": [
+        "note-taking"
+      ],
+      "24": [
+        "confidence"
+      ],
+      "25": [
+        "ideas"
+      ],
+      "26": [
+        "student support"
+      ],
+      "27": [
+        "places"
+      ],
+      "28": [
+        "general"
+      ],
+      "29": [
+        "3 times"
+      ],
+      "30": [
+        "25"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 59"
+      }
+    ]
+  },
+  "single-listening-60": {
+    "test": 60,
+    "module": "listening",
+    "answers": {
+      "21": [
+        "A"
+      ],
+      "22": [
+        "C"
+      ],
+      "23": [
+        "approach"
+      ],
+      "24": [
+        "mature"
+      ],
+      "25": [
+        "interest"
+      ],
+      "26": [
+        "groups"
+      ],
+      "27": [
+        "every 2 days"
+      ],
+      "28": [
+        "2 weeks"
+      ],
+      "29": [
+        "confident"
+      ],
+      "30": [
+        "education system"
+      ]
+    },
+    "parts": {
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 3,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 60"
+      }
+    ]
+  },
+  "single-listening-61": {
+    "test": 61,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "29,000 years"
+      ],
+      "32": [
+        "southern Europe",
+        "south Europe"
+      ],
+      "33": [
+        "water"
+      ],
+      "34": [
+        "minerals"
+      ],
+      "35": [
+        "white gold"
+      ],
+      "36": [
+        "china stone"
+      ],
+      "37": [
+        "cooling",
+        "cooling down"
+      ],
+      "38": [
+        "windows"
+      ],
+      "39": [
+        "volcanic ash"
+      ],
+      "40": [
+        "harbours"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 61"
+      }
+    ]
+  },
+  "single-listening-62": {
+    "test": 62,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "supportive"
+      ],
+      "32": [
+        "pay attention"
+      ],
+      "33": [
+        "next steps"
+      ],
+      "34": [
+        "consistent"
+      ],
+      "35": [
+        "graphics"
+      ],
+      "36": [
+        "tone"
+      ],
+      "37": [
+        "silence",
+        "silences",
+        "a silence"
+      ],
+      "38": [
+        "weak verbs"
+      ],
+      "39": [
+        "repeat it"
+      ],
+      "40": [
+        "predicting"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 62"
+      }
+    ]
+  },
+  "single-listening-63": {
+    "test": 63,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "protection"
+      ],
+      "32": [
+        "flexible"
+      ],
+      "33": [
+        "elephants"
+      ],
+      "34": [
+        "100 000",
+        "100,000",
+        "100000"
+      ],
+      "35": [
+        "products"
+      ],
+      "36": [
+        "cap"
+      ],
+      "37": [
+        "oil"
+      ],
+      "38": [
+        "active"
+      ],
+      "39": [
+        "skin"
+      ],
+      "40": [
+        "blueberries",
+        "blue-berries"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 63"
+      }
+    ]
+  },
+  "single-listening-64": {
+    "test": 64,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "food"
+      ],
+      "32": [
+        "hero"
+      ],
+      "33": [
+        "feathers"
+      ],
+      "34": [
+        "shells"
+      ],
+      "35": [
+        "diamond"
+      ],
+      "36": [
+        "shark"
+      ],
+      "37": [
+        "teeth"
+      ],
+      "38": [
+        "messages"
+      ],
+      "39": [
+        "meeting"
+      ],
+      "40": [
+        "escape"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 64"
+      }
+    ]
+  },
+  "single-listening-65": {
+    "test": 65,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "migration"
+      ],
+      "32": [
+        "eyes"
+      ],
+      "33": [
+        "lizard"
+      ],
+      "34": [
+        "trade"
+      ],
+      "35": [
+        "survival"
+      ],
+      "36": [
+        "political"
+      ],
+      "37": [
+        "ships"
+      ],
+      "38": [
+        "horses"
+      ],
+      "39": [
+        "industry"
+      ],
+      "40": [
+        "tourism"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": [
+          {
+            "questions": [
+              37,
+              38
+            ],
+            "acceptedSets": [
+              [
+                "ships",
+                "horses"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              39,
+              40
+            ],
+            "acceptedSets": [
+              [
+                "industry",
+                "tourism"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 65"
+      }
+    ]
+  },
+  "single-listening-66": {
+    "test": 66,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "marketing"
+      ],
+      "32": [
+        "interests"
+      ],
+      "33": [
+        "jobs"
+      ],
+      "34": [
+        "health"
+      ],
+      "35": [
+        "C"
+      ],
+      "36": [
+        "E"
+      ],
+      "37": [
+        "A"
+      ],
+      "38": [
+        "D"
+      ],
+      "39": [
+        "A"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": [
+          {
+            "questions": [
+              35,
+              36
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "E"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              37,
+              38
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              39,
+              40
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 66"
+      }
+    ]
+  },
+  "single-listening-67": {
+    "test": 67,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "religion",
+        "religions"
+      ],
+      "32": [
+        "nature"
+      ],
+      "33": [
+        "flight"
+      ],
+      "34": [
+        "stars"
+      ],
+      "35": [
+        "practical"
+      ],
+      "36": [
+        "education"
+      ],
+      "37": [
+        "king"
+      ],
+      "38": [
+        "entertainment"
+      ],
+      "39": [
+        "opera"
+      ],
+      "40": [
+        "electricity"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 67"
+      }
+    ]
+  },
+  "single-listening-68": {
+    "test": 68,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "hook"
+      ],
+      "32": [
+        "string"
+      ],
+      "33": [
+        "danger"
+      ],
+      "34": [
+        "rubber"
+      ],
+      "35": [
+        "light"
+      ],
+      "36": [
+        "intelligence"
+      ],
+      "37": [
+        "tail",
+        "tails"
+      ],
+      "38": [
+        "energy"
+      ],
+      "39": [
+        "chemical"
+      ],
+      "40": [
+        "diet"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 68"
+      }
+    ]
+  },
+  "single-listening-69": {
+    "test": 69,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "April"
+      ],
+      "32": [
+        "children"
+      ],
+      "33": [
+        "repeated"
+      ],
+      "34": [
+        "human"
+      ],
+      "35": [
+        "magic"
+      ],
+      "36": [
+        "distance"
+      ],
+      "37": [
+        "culture"
+      ],
+      "38": [
+        "fire",
+        "fires"
+      ],
+      "39": [
+        "touching"
+      ],
+      "40": [
+        "intact"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 69"
+      }
+    ]
+  },
+  "single-listening-70": {
+    "test": 70,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "C"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "C"
+      ],
+      "34": [
+        "A"
+      ],
+      "35": [
+        "A"
+      ],
+      "36": [
+        "2 directions"
+      ],
+      "37": [
+        "confident"
+      ],
+      "38": [
+        "vision"
+      ],
+      "39": [
+        "corrections"
+      ],
+      "40": [
+        "balance"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 70"
+      }
+    ]
+  },
+  "single-listening-71": {
+    "test": 71,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "B"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "A"
+      ],
+      "34": [
+        "C"
+      ],
+      "35": [
+        "business"
+      ],
+      "36": [
+        "kitchen"
+      ],
+      "37": [
+        "world"
+      ],
+      "38": [
+        "escape"
+      ],
+      "39": [
+        "baby"
+      ],
+      "40": [
+        "chocolate"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 71"
+      }
+    ]
+  },
+  "single-listening-72": {
+    "test": 72,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "B"
+      ],
+      "32": [
+        "C"
+      ],
+      "33": [
+        "A"
+      ],
+      "34": [
+        "water"
+      ],
+      "35": [
+        "meat"
+      ],
+      "36": [
+        "cheese"
+      ],
+      "37": [
+        "5th",
+        "new taste"
+      ],
+      "38": [
+        "common"
+      ],
+      "39": [
+        "bitterness"
+      ],
+      "40": [
+        "minerals"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": [
+          {
+            "questions": [
+              35,
+              36
+            ],
+            "acceptedSets": [
+              [
+                "meat",
+                "cheese"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 72"
+      }
+    ]
+  },
+  "single-listening-73": {
+    "test": 73,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "surface"
+      ],
+      "32": [
+        "environment"
+      ],
+      "33": [
+        "impact",
+        "effect",
+        "effects",
+        "impacts"
+      ],
+      "34": [
+        "urban"
+      ],
+      "35": [
+        "problems"
+      ],
+      "36": [
+        "images"
+      ],
+      "37": [
+        "patterns"
+      ],
+      "38": [
+        "distortion",
+        "distortions"
+      ],
+      "39": [
+        "traffic"
+      ],
+      "40": [
+        "weather"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 73"
+      }
+    ]
+  },
+  "single-listening-74": {
+    "test": 74,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "B"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "A"
+      ],
+      "34": [
+        "A"
+      ],
+      "35": [
+        "C"
+      ],
+      "36": [
+        "C"
+      ],
+      "37": [
+        "B"
+      ],
+      "38": [
+        "F"
+      ],
+      "39": [
+        "D"
+      ],
+      "40": [
+        "C"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 74"
+      }
+    ]
+  },
+  "single-listening-75": {
+    "test": 75,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "B"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "B"
+      ],
+      "34": [
+        "A"
+      ],
+      "35": [
+        "combination",
+        "system"
+      ],
+      "36": [
+        "safety"
+      ],
+      "37": [
+        "attitude",
+        "attitudes"
+      ],
+      "38": [
+        "control",
+        "controls"
+      ],
+      "39": [
+        "factory",
+        "factories"
+      ],
+      "40": [
+        "skills"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 75"
+      }
+    ]
+  },
+  "single-listening-76": {
+    "test": 76,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "C"
+      ],
+      "32": [
+        "B"
+      ],
+      "33": [
+        "C"
+      ],
+      "34": [
+        "A"
+      ],
+      "35": [
+        "B"
+      ],
+      "36": [
+        "B"
+      ],
+      "37": [
+        "animal",
+        "creature"
+      ],
+      "38": [
+        "sea levels",
+        "sea level",
+        "water levels",
+        "water level"
+      ],
+      "39": [
+        "hunting"
+      ],
+      "40": [
+        "creation"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 76"
+      }
+    ]
+  },
+  "single-listening-77": {
+    "test": 77,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "tide",
+        "tides"
+      ],
+      "32": [
+        "hearing",
+        "ear",
+        "ears"
+      ],
+      "33": [
+        "plants and animals",
+        "plants, animals",
+        "plants & animals",
+        "plants animals",
+        "plants and fish",
+        "plants, fish",
+        "plants & fish",
+        "plants fish",
+        "plants and fishes",
+        "plants, fishes",
+        "plants & fishes",
+        "plants fishes",
+        "animals and plants",
+        "animals, plants",
+        "animals & plants",
+        "animals plants",
+        "fish and plants",
+        "fish, plants",
+        "fish & plants",
+        "fish plants",
+        "fishes and plants",
+        "fishes, plants",
+        "fishes & plants",
+        "fishes plants"
+      ],
+      "34": [
+        "feeding"
+      ],
+      "35": [
+        "noise",
+        "noises"
+      ],
+      "36": [
+        "healthy"
+      ],
+      "37": [
+        "group"
+      ],
+      "38": [
+        "social"
+      ],
+      "39": [
+        "leader"
+      ],
+      "40": [
+        "network",
+        "networks"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 77"
+      }
+    ]
+  },
+  "single-listening-78": {
+    "test": 78,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "central"
+      ],
+      "32": [
+        "conversation",
+        "conversations"
+      ],
+      "33": [
+        "effectively"
+      ],
+      "34": [
+        "risk",
+        "risks"
+      ],
+      "35": [
+        "levels"
+      ],
+      "36": [
+        "description",
+        "descriptions"
+      ],
+      "37": [
+        "technical"
+      ],
+      "38": [
+        "change"
+      ],
+      "39": [
+        "responsibility"
+      ],
+      "40": [
+        "flexible"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 78"
+      }
+    ]
+  },
+  "single-listening-79": {
+    "test": 79,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "B"
+      ],
+      "32": [
+        "A"
+      ],
+      "33": [
+        "glass"
+      ],
+      "34": [
+        "insulation"
+      ],
+      "35": [
+        "windows"
+      ],
+      "36": [
+        "electricity"
+      ],
+      "37": [
+        "floor",
+        "floors"
+      ],
+      "38": [
+        "waste"
+      ],
+      "39": [
+        "concrete"
+      ],
+      "40": [
+        "15 years"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 79"
+      }
+    ]
+  },
+  "single-listening-80": {
+    "test": 80,
+    "module": "listening",
+    "answers": {
+      "31": [
+        "C"
+      ],
+      "32": [
+        "A"
+      ],
+      "33": [
+        "B"
+      ],
+      "34": [
+        "B"
+      ],
+      "35": [
+        "A"
+      ],
+      "36": [
+        "C"
+      ],
+      "37": [
+        "frog",
+        "frogs"
+      ],
+      "38": [
+        "predators"
+      ],
+      "39": [
+        "count"
+      ],
+      "40": [
+        "seed",
+        "seeds"
+      ]
+    },
+    "parts": {
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 4,
+        "type": "user-provided-pdf",
+        "label": "80 IELTS Listening Tests (2).pdf",
+        "reference": "Test 80"
+      }
+    ]
+  }
+}

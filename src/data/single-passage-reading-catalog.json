@@ -19,7 +19,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-2",
@@ -41,7 +42,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-3",
@@ -64,7 +66,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-4",
@@ -86,7 +89,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-5",
@@ -108,7 +112,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-6",
@@ -131,7 +136,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-7",
@@ -153,7 +159,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-8",
@@ -175,7 +182,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-9",
@@ -198,7 +206,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-10",
@@ -220,7 +229,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-11",
@@ -242,7 +252,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-12",
@@ -264,7 +275,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-13",
@@ -286,7 +298,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-14",
@@ -308,7 +321,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-15",
@@ -330,7 +344,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-16",
@@ -352,7 +367,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-17",
@@ -375,7 +391,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-18",
@@ -398,7 +415,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-19",
@@ -421,7 +439,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-20",
@@ -444,7 +463,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-21",
@@ -466,7 +486,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-22",
@@ -489,7 +510,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-23",
@@ -511,7 +533,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-24",
@@ -533,7 +556,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-25",
@@ -555,7 +579,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-26",
@@ -577,7 +602,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-27",
@@ -600,7 +626,8 @@
       12,
       13,
       14
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-28",
@@ -622,7 +649,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-29",
@@ -644,7 +672,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-30",
@@ -666,7 +695,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-31",
@@ -688,7 +718,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-32",
@@ -710,7 +741,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-33",
@@ -733,7 +765,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-34",
@@ -755,7 +788,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-35",
@@ -778,7 +812,8 @@
       12,
       13,
       14
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-36",
@@ -800,7 +835,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-37",
@@ -822,7 +858,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-38",
@@ -844,7 +881,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-39",
@@ -866,7 +904,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-40",
@@ -888,7 +927,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-41",
@@ -910,7 +950,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-42",
@@ -932,7 +973,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-43",
@@ -954,7 +996,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-44",
@@ -976,7 +1019,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-45",
@@ -998,7 +1042,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-46",
@@ -1021,7 +1066,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-47",
@@ -1043,7 +1089,8 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   },
   {
     "id": "single-reading-48",
@@ -1065,7 +1112,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-49",
@@ -1087,7 +1135,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-50",
@@ -1109,7 +1158,8 @@
       11,
       12,
       13
-    ]
+    ],
+    "passageNumber": 1
   },
   {
     "id": "single-reading-51",
@@ -1132,7 +1182,8 @@
       38,
       39,
       40
-    ]
+    ],
+    "passageNumber": 3
   },
   {
     "id": "single-reading-52",
@@ -1154,6 +1205,7 @@
       24,
       25,
       26
-    ]
+    ],
+    "passageNumber": 2
   }
 ]

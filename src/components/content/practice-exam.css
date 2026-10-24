@@ -421,3 +421,16 @@
 
 .review-explanation .review-evidence-location { color:var(--teal-strong); font-weight:600; }
 .review-explanation .review-tutor-paragraph { line-height:1.75; }
+.single-listening-exam .exam-workspace.listening > .cd-pane:last-child { max-width:1300px; width:100%; margin:0 auto; padding:24px; }
+.section-practice-layout { display:grid; grid-template-columns:minmax(0,1fr) 220px; gap:24px; align-items:start; }
+.section-source-pages img { display:block; width:100%; height:auto; margin:0 0 20px; border-radius:4px; background:white; }
+.section-answer-sheet { position:sticky; top:0; padding:16px; border:1px solid var(--line); border-radius:12px; background:var(--surface-strong); }
+.section-answer-sheet h2 { margin:0 0 10px; font-size:20px; }
+.section-answer-sheet p { font-size:13px; line-height:1.5; margin:0 0 12px; }
+.section-answer-row { display:flex!important; align-items:center; gap:8px; margin:10px 0; }
+.section-answer-row input { width:100%!important; min-width:0!important; max-width:150px; }
+.exam-passage-review .section-practice-layout { grid-template-columns:minmax(0,1fr); }
+.exam-passage-review .section-answer-sheet { position:static; }
+.exam-passage-review .section-answer-row { flex-wrap:wrap; align-items:flex-start; }
+.exam-passage-review .section-answer-row .review-inline-feedback { flex-basis:100%; width:100%; }
+@media(max-width:700px) { .section-practice-layout { grid-template-columns:minmax(0,1fr); } .section-source-pages { overflow-x:auto; min-width:0; } .section-source-pages::before { content:"Swipe the worksheet sideways to read it at full size."; display:block; font-size:13px; line-height:1.5; margin-bottom:10px; } .section-source-pages img { width:760px; max-width:none; } .section-answer-sheet { position:static; } .section-answer-row input { max-width:none; } }
