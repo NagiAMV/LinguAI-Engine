@@ -89,6 +89,15 @@ export default function ExamPlayer({ test, answerKey, explanations }) {
     let saved = {};
     try { saved = JSON.parse(localStorage.getItem(storageKey) || "{}") || {}; }
     catch { setSaveError("Browser storage is unavailable. Keep this page open to retain your answers."); }
+    // Older worksheet attempts stored one string per answer slot; native choose-N
+    // controls store the selected letters together without losing those answers.
+    if (saved.answers && typeof saved.answers === 'object') {
+      for (const group of test.nativeAnswerGroups || []) {
+        if (!Array.isArray(saved.answers[group.target])) {
+          saved.answers[group.target] = group.sources.map(name => saved.answers[name]).filter(value => typeof value === 'string' && value.trim());
+        }
+      }
+    }
     const partIndex = Number.isInteger(saved.partIndex) && saved.partIndex >= 0 && saved.partIndex < test.parts.length ? saved.partIndex : 0;
     const startedAt = Number.isFinite(saved.startedAt) && saved.startedAt > 0 ? saved.startedAt : Date.now();
     const restored = restoreSession({

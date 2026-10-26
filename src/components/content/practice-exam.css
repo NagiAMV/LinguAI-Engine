@@ -434,3 +434,43 @@
 .exam-passage-review .section-answer-row { flex-wrap:wrap; align-items:flex-start; }
 .exam-passage-review .section-answer-row .review-inline-feedback { flex-basis:100%; width:100%; }
 @media(max-width:700px) { .section-practice-layout { grid-template-columns:minmax(0,1fr); } .section-source-pages { overflow-x:auto; min-width:0; } .section-source-pages::before { content:"Swipe the worksheet sideways to read it at full size."; display:block; font-size:13px; line-height:1.5; margin-bottom:10px; } .section-source-pages img { width:760px; max-width:none; } .section-answer-sheet { position:static; } .section-answer-row input { max-width:none; } }
+.inline-worksheet-scroll { overflow-x:auto; width:100%; }
+.inline-worksheets { width:100%; min-width:760px; max-width:1050px; margin:0 auto; }
+.inline-worksheet-page { position:relative; width:100%; margin:0 0 24px; container-type:inline-size; color:#172a25; }
+.inline-worksheet-page > img { display:block; width:100%; height:auto; background:#fff; }
+.cd-content .worksheet-input { position:absolute; display:block; margin:0; padding:0; z-index:2; }
+.cd-content .worksheet-input input { display:block; width:100%!important; min-width:0!important; max-width:none!important; height:100%; min-height:0; margin:0!important; padding:0 3px!important; border:1px solid #6f9385; border-radius:3px; background:#f7fbf0!important; color:#14392c!important; font-size:clamp(12px,2.1cqw,22px); line-height:1.1; box-sizing:border-box; }
+.cd-content .worksheet-input input:focus { outline:2px solid #387b6b; outline-offset:1px; background:#fff!important; }
+.worksheet-number { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.worksheet-input:focus-within { z-index:5; }
+.exam-passage-review .worksheet-input .review-inline-feedback { display:none; position:absolute; top:100%; right:0; width:280px; max-width:70vw; z-index:8; font-size:13px; box-shadow:0 8px 30px #0003; }
+.exam-passage-review .worksheet-input.review-active { z-index:10; }
+.exam-passage-review .worksheet-input.review-active .review-inline-feedback { display:block; }
+.native-section-tasks { max-width:960px; margin:0 auto; font-size:var(--exam-font-size,16px); line-height:1.7; }
+.native-section-tasks h2 { margin:30px 0 12px; font-size:22px; }
+.native-section-tasks h3 { font-size:18px; margin:0 0 12px; }
+.native-section-tasks p { margin:8px 0; }
+.native-question { min-width:0; margin:16px 0 28px; padding:18px; border:1px solid var(--line); border-radius:12px; }
+.native-question legend { padding:0 8px; font-weight:700; }
+.native-question legend strong+strong { margin-left:8px; }
+.native-option { display:flex!important; align-items:baseline; gap:10px; padding:10px 12px; margin:6px 0; border:1px solid var(--line); border-radius:8px; cursor:pointer; }
+.native-option:has(input:checked) { background:var(--surface-strong); border-color:var(--teal-strong); }
+.native-option input { width:18px!important; min-width:18px!important; height:18px; margin:0!important; accent-color:#397a6b; }
+.native-gap { display:inline-flex!important; align-items:center; gap:6px; margin:3px 4px!important; }
+.native-gap input { width:165px; max-width:100%; padding:7px 10px!important; }
+.native-gap select { min-width:165px; max-width:100%; padding:7px 10px; }
+.native-table-scroll { overflow-x:auto; margin:20px 0; }
+.native-task-table { border-collapse:collapse; width:100%; min-width:480px; }
+.native-task-table td { padding:14px; border:1px solid var(--line); vertical-align:top; min-width:120px; }
+.native-task-table td { overflow-wrap:normal; word-break:normal; }
+.native-task-table:not(.native-notes) { min-width:720px; table-layout:auto; }
+.native-task-table .native-table-title { font-weight:700; text-align:center; background:var(--surface-strong); }
+.native-task-table td p { margin:4px 0; }
+.cd-content .native-task-table, .cd-content .native-option { font-size:var(--exam-font-size,16px); }
+.native-task-table.native-notes { min-width:0; }
+.native-mcq { margin:24px 0; }
+.native-diagram-scroll { overflow:auto; margin:20px 0; }
+.native-diagram { min-width:580px; max-width:850px; margin:auto; }
+.native-diagram img { width:100%; display:block; }
+.exam-passage-review .native-gap { flex-wrap:wrap; }
+.exam-passage-review .native-gap .review-inline-feedback { flex-basis:100%; }

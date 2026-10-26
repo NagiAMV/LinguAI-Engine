@@ -17,13 +17,18 @@ try{
  const catalog=JSON.parse(fs.readFileSync('src/data/single-section-listening-catalog.json')),keys=JSON.parse(fs.readFileSync('src/data/single-section-listening-keys.json'));
  for(const item of catalog.filter(item=>!process.env.SECTION_CHECK_IDS||process.env.SECTION_CHECK_IDS.split(',').map(Number).includes(item.number))){
   await send('Page.navigate',{url:`${base}/practice/listening/single/${item.number}`});await until(`!!document.querySelector('.exam-start')`);await ev('localStorage.clear()');await send('Page.reload');await until(`!!document.querySelector('.exam-start')`);
-  await ev(`Array.from(document.querySelectorAll('button')).find(b=>b.textContent==='Start Test').click()`);await until(`document.querySelectorAll('.section-answer-sheet input').length===10`);
+  if(item.number===24){
+   await ev(`(()=>{const name='linguai-cd-single-listening-24';const s=JSON.parse(localStorage.getItem(name)||'{}');s.answers={'single_listening_24_11':'B','single_listening_24_12':'E'};localStorage.setItem(name,JSON.stringify(s));})()`);
+   await send('Page.reload');await until(`!!document.querySelector('.exam-start')`);
+   assert.ok(await ev(`JSON.stringify(JSON.parse(localStorage.getItem('linguai-cd-single-listening-24')).answers.single_listening_24_11)===JSON.stringify(['B','E'])`),'old worksheet answers migrated');
+  }
+  await ev(`Array.from(document.querySelectorAll('button')).find(b=>b.textContent==='Start Test'||b.textContent==='Start with saved answers').click()`);await until(`document.querySelectorAll('.exam-question-group > div button').length===10`);
   await until(`document.querySelector('audio')?.readyState>=1`);assert.ok(await ev(`Number.isFinite(document.querySelector('audio').duration)&&document.querySelector('audio').duration>180`));
   await ev(`var a=document.querySelector('audio');a.currentTime=2;a.play()`);await delay(80);assert.ok(await ev('!a.paused&&!a.error'));await ev('a.currentTime=a.duration-3');await delay(80);assert.ok(await ev('!a.error'));await ev('a.pause()');
-  await until(`Array.from(document.querySelectorAll('.section-source-pages img')).every(i=>i.complete&&i.naturalWidth>0)`);
-  await ev(`(()=>{const key=${JSON.stringify(keys[item.id])};for(const field of document.querySelectorAll('.section-answer-sheet input')){const n=field.getAttribute('aria-label').match(/[0-9]+/)[0];field.value=key.answers[n][0];field.dispatchEvent(new Event('input',{bubbles:true}));}})()`);
+  await until(`Array.from(document.querySelectorAll('.native-section-tasks img')).every(i=>i.complete&&i.naturalWidth>0)`);
+  await ev(`(()=>{const key=${JSON.stringify(keys[item.id])};for(const field of document.querySelectorAll('.native-section-tasks input,.native-section-tasks select')){const n=+field.getAttribute('aria-label').match(/[0-9]+/)[0];if(field.type==='checkbox'){const group=Object.values(key.parts).flatMap(p=>p.groups).find(g=>g.questions.includes(n));if(group.acceptedSets[0].includes(field.value)!==field.checked)field.click();}else if(field.type==='radio'){if(key.answers[n].includes(field.value))field.click();}else{field.value=key.answers[n][0];field.dispatchEvent(new Event('input',{bubbles:true}));}}})()`);
   assert.ok(await ev(`document.querySelector('.exam-saved').getAttribute('aria-label').startsWith('10 of 10')`));
-  if([1,24,41,61].includes(item.number)){
+  if([1,4,24,27,41,61].includes(item.number)){
    const shot=await send('Page.captureScreenshot',{format:'png'});fs.writeFileSync(`.cache/single-section-${item.number}-desktop.png`,Buffer.from(shot.data,'base64'));
    await send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});await delay(80);assert.ok(await ev('document.documentElement.scrollWidth<=innerWidth'));
    const mobile=await send('Page.captureScreenshot',{format:'png'});fs.writeFileSync(`.cache/single-section-${item.number}-mobile.png`,Buffer.from(mobile.data,'base64'));

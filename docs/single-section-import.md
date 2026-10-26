@@ -9,7 +9,7 @@ Audio acquisition references:
 - https://ieltsportal.com/books/official-cambridge-guide-to-ielts-pdf/
 - https://ieltsportal.com/cam-books/
 
-Original worksheet pages are rendered locally to preserve maps, tables and option banks; a native answer sheet provides saved answers and grading. Multiple-answer groups accept either order. Exercise 77 question 33 requires both plants and animals/fish for one mark. The PDF key for exercise 67 repeats question 39; the first entry, “entertainment”, belongs to worksheet blank 38. This correction is recorded in that paper's provenance.
+The worksheets are rebuilt as native HTML with selectable text, real tables, inline answers, radio choices and choose-N checkbox groups. Matching lists use letters explicitly provided by the source instructions. Full-page screenshots are not displayed. Only embedded maps and diagrams remain as cropped illustrations, with native fields where required. `scripts/native-single-sections.py` rebuilds this representation from source layout and reviewed question positions. Old per-slot answers are migrated into checkbox selections when an existing attempt opens. Audio and transcript data are preserved. Continuation pages are included through the next exercise heading, including pages without a repeated question heading. Multiple-answer groups accept either order. Exercise 77 question 33 requires both plants and animals/fish for one mark. The PDF key for exercise 67 repeats question 39; the first entry, “entertainment”, belongs to worksheet blank 38. This correction is recorded in that paper's provenance.
 
 Single Reading passage positions use explicit source filenames first, then the original question number range. The single and full collections remain independent.
 

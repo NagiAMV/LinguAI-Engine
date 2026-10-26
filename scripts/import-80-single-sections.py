@@ -87,6 +87,10 @@ def main():
   paper['parts'][0].pop('audio');paper['parts'][0]['audioUrls']=[f'/practice/assets/{tid}.mp3']
   if previous.exists():
    old=json.loads(previous.read_text(encoding='utf8'))
+   if old.get('worksheetInputPositions'):
+    paper['parts'][0]['questions']=old['parts'][0]['questions'];paper['worksheetInputPositions']=old['worksheetInputPositions'];paper['provenance']['questionPresentation']='native-inputs-on-original-worksheet';paper['provenance']['pages']=old['provenance']['pages']
+   if old.get('provenance',{}).get('questionPresentation')=='native-html-tasks-with-diagrams':
+    paper['parts'][0]['fieldNames']=old['parts'][0]['fieldNames'];paper['parts'][0]['fieldLabels']=old['parts'][0]['fieldLabels'];paper['nativeAnswerGroups']=old.get('nativeAnswerGroups',[]);paper['provenance']['questionPresentation']='native-html-tasks-with-diagrams'
    if old.get('transcriptProvenance',{}).get('audioSha256')==hashlib.sha256(out.read_bytes()).hexdigest():
     for field in ['passage','transcriptStatus','transcriptStartSeconds','transcriptEndSeconds']:
      if field in old['parts'][0]:paper['parts'][0][field]=old['parts'][0][field]

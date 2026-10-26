@@ -6,13 +6,14 @@ test('80 matched single recordings have ten answer slots and four balanced group
  for(let section=1;section<=4;section++)assert.equal(catalog.filter(x=>x.sectionNumber===section).length,20);
  for(const item of catalog){
   const paper=read(`public/practice/${item.id}.json`),part=paper.parts[0],key=keys[item.id],numbers=Array.from({length:10},(_,i)=>(item.sectionNumber-1)*10+i+1);
-  assert.equal(paper.parts.length,1);assert.equal(part.id,item.sectionNumber);assert.equal(part.fieldNames.length,10);assert.deepEqual(Object.keys(key.answers).map(Number),numbers);
+  assert.equal(paper.parts.length,1);assert.equal(part.id,item.sectionNumber);assert.equal(part.fieldNames.length,10-(paper.nativeAnswerGroups||[]).reduce((n,g)=>n+g.sources.length-1,0));assert.deepEqual(Object.keys(key.answers).map(Number),numbers);
   assert.ok(part.audioDurationSeconds>180&&part.audioDurationSeconds<800,item.id);
   for(const src of [...part.audioUrls,...Array.from(part.questions.matchAll(/src="([^"]+)"/g),m=>m[1])])assert.ok(fs.statSync('public'+src).size>10000,src);
-  assert.equal((part.questions.match(/<input /g)||[]).length,10);assert.ok(!/data:|<script|onload=/.test(part.questions));
-  const questions=numbers.map((number,i)=>({id:`0:${number}`,partIndex:0,number:String(number),name:part.fieldNames[i]})),answers=Object.fromEntries(questions.map(q=>[q.name,key.answers[q.number][0]]));
+  assert.ok(!/data:|<script|onload=/.test(part.questions));assert.ok(part.questions.includes('native-section-tasks'));assert.ok(!part.questions.includes('section-answer-sheet'));assert.ok(!/single-listening-\d+-page-\d+\.webp/.test(part.questions));
+  const positions=paper.worksheetInputPositions;for(let i=0;i<positions.length;i++)for(let j=i+1;j<positions.length;j++){const a=positions[i],b=positions[j];assert.ok(!(a.page===b.page&&Math.abs(a.y-b.y)<14&&a.x<b.x+b.width&&b.x<a.x+a.width),item.id+' overlapping inputs');}
+  const questions=numbers.map((number,i)=>{const group=paper.nativeAnswerGroups?.find(g=>g.sources.includes(`single_listening_${item.number}_${number}`));return {id:`0:${number}`,partIndex:0,number:String(number),name:group?.target||`single_listening_${item.number}_${number}`,multiple:!!group,slot:group?group.sources.indexOf(`single_listening_${item.number}_${number}`):0};}),answers=Object.fromEntries(questions.map(q=>[q.name,key.answers[q.number][0]]));
   // Reverse unordered groups: each distinct correct response still earns a mark.
-  for(const group of key.parts[part.id].groups){const values=[...group.acceptedSets[0]].reverse();group.questions.forEach((n,i)=>{answers[questions.find(q=>+q.number===n).name]=values[i];});}
+  for(const group of key.parts[part.id].groups){const values=[...group.acceptedSets[0]].reverse();const native=paper.nativeAnswerGroups?.find(g=>g.sources.includes(`single_listening_${item.number}_${group.questions[0]}`));if(native)answers[native.target]=values;else group.questions.forEach((n,i)=>{answers[questions.find(q=>+q.number===n).name]=values[i];});}
   assert.deepEqual(scoreExam(paper,questions,answers,key),{correct:10,total:10,checked:10,pending:0,band:null},item.id);
  }
 });
