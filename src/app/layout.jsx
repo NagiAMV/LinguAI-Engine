@@ -1,4 +1,6 @@
 import "./globals.css";
+import AccountProvider from '@/components/account/AccountProvider';
+import '@/components/account/account.css';
 
 export const metadata = {
   title: "LinguAI Bridge",
@@ -8,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>{children}</body>
+      <body><AccountProvider>{children}</AccountProvider></body>
     </html>
   );
 }

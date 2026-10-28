@@ -8,6 +8,7 @@ import ExamResults from "./ExamResults";
 import Recording from "./AudioRecording";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
+import { useAccount } from '@/components/account/AccountProvider';
 import { HIGHLIGHT_COLORS, validHighlight, selectionSnapshot, annotationId } from "./exam-annotations.mjs";
 
 // Build navigation from the existing sanitized markup, including grouped checkbox questions.
@@ -57,7 +58,12 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
   return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={html} /><div ref={root} data-annotation-area={area} className="cd-content cd-questions" onInput={change} onFocus={(event) => onFocusQuestion(event.target.name)} dangerouslySetInnerHTML={markup} /></>;
 }
 
-export default function ExamPlayer({ test, answerKey, explanations }) {
+export default function ExamPlayer(props) {
+  const { ready, user } = useAccount();
+  if (!ready) return <main className="exam-loading" role="status">Loading your workspace…</main>;
+  return <AccountExamPlayer key={`${user?.id || 'guest'}:${props.test.id}`} {...props} owner={user?.id} />;
+}
+function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   const router = useRouter();
   const backUrl = test.backUrl || `/?view=${test.resource}`;
   const [now, setNow] = useState(Date.now());
@@ -72,7 +78,7 @@ export default function ExamPlayer({ test, answerKey, explanations }) {
   const [fullscreen, setFullscreen] = useState(false);
   const [fullscreenMessage, setFullscreenMessage] = useState("");
   const shell = useRef(null);
-  const storageKey = `linguai-cd-${test.id}`;
+  const storageKey = owner ? `linguai-cd-account:${owner}:${test.id}` : `linguai-cd-${test.id}`;
   const [session, setSession] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [saveError, setSaveError] = useState("");

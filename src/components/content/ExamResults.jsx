@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useAccount } from '@/components/account/AccountProvider';
 import ExamPassageReview from './ExamPassageReview';
 import { scoreExam } from './exam-score.mjs';
 import { buildReviewRows } from './answer-review.mjs';
@@ -8,17 +9,23 @@ import { buildReviewRows } from './answer-review.mjs';
 const statusLabels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
 
 export default function ExamResults({ test, answerKey, explanations, questions, answers, flags, session, answered }) {
+  const { recordAttempt, user, syncMessage } = useAccount();
   const [review, setReview] = useState(null);
   const [partFilter, setPartFilter] = useState('all');
   const [filter, setFilter] = useState('all');
   const rows = useMemo(() => buildReviewRows(test, questions, answers, flags, answerKey), [test, questions, answers, flags, answerKey]);
   const score = useMemo(() => scoreExam(test, questions, answers, answerKey), [test, questions, answers, answerKey]);
+  useEffect(() => {
+    if (!questions.length || !session.finishedAt) return;
+    recordAttempt({ id: `${test.id}:${session.startedAt || session.finishedAt}`, test_id: test.id, title: test.title.slice(0, 240), resource: test.resource, correct: score.correct, total: score.total, checked: score.checked, band: score.band, finished_at: new Date(session.finishedAt).toISOString(), duration_seconds: Math.min(86400, Math.max(0, Math.floor((session.finishedAt - (session.startedAt || session.finishedAt)) / 1000))) });
+  }, [recordAttempt, session.finishedAt, session.startedAt, test.id, test.title, test.resource, score.correct, score.total, score.checked, score.band, questions.length]);
   const visible = rows.filter(row => (partFilter === 'all' || String(row.part) === partFilter) && (filter === 'all' || (filter === 'unanswered' ? !row.response.trim() : filter === 'answered' ? Boolean(row.response.trim()) : row.status === filter)));
   const availableCount = questions.filter(question => answerKey?.answers?.[question.number]?.length).length;
   const duration = session.startedAt && session.finishedAt ? Math.min(3600, Math.max(0, Math.floor((session.finishedAt - session.startedAt) / 1000))) : null;
   if (review) return <ExamPassageReview explanations={explanations} test={test} answers={answers} rows={rows} initialRow={review.row} highlights={session.highlights || []} onBack={() => setReview(null)} />;
   return <section className="exam-results" aria-labelledby="results-heading">
     <div className="results-sheet">
+      <p className="results-account-status">{user ? syncMessage || 'Result added to your account history.' : 'Guest result saved on this device.'} <a href="/?view=profile">{user ? 'My profile →' : 'Sign in to save future progress →'}</a></p>
       <header className="results-heading"><span className="results-seal" aria-hidden="true">✓</span><p className="section-kicker">Attempt submitted</p><h2 id="results-heading">Your answers, at a glance.</h2><p>{test.title} · {test.resource === 'reading' ? 'Reading' : 'Listening'}</p></header>
       <section className="results-score" aria-label="Test score">
         <div><span>Correct answers</span><strong data-testid="correct-score">{score.correct}<small> / {score.total}</small></strong><span>{score.pending ? `${score.pending} not checked` : `${Math.round(score.correct / score.total * 100)}% correct`}</span></div>

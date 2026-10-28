@@ -7,6 +7,9 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 import PracticeLibrary from "@/components/content/PracticeLibrary";
 import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
+import ProfileView, { ProgressCards } from '@/components/account/ProfileView';
+import { useAccount } from '@/components/account/AccountProvider';
+import { initials } from '@/lib/account-model.mjs';
 
 const SpeakingHub = dynamic(() => import("@/components/speaking-hub"));
 
@@ -16,13 +19,7 @@ const navigation = [
   { id: "reading", label: "Reading", icon: "▤" },
   { id: "writing", label: "Writing", icon: "✎" },
   { id: "speaking", label: "Speaking", icon: "◎" },
-];
-
-const scoreBreakdown = [
-  { label: "Listening", score: "8.0", tone: "teal" },
-  { label: "Reading", score: "7.5", tone: "blue" },
-  { label: "Writing", score: "7.0", tone: "amber" },
-  { label: "Speaking", score: "7.5", tone: "rose" },
+  { id: "profile", label: "Profile", icon: "○" },
 ];
 
 const dailyFocus = [
@@ -66,6 +63,7 @@ const STUDIO_CONFIG = {
 
 function AppIcon({ name, size = 20 }) {
   const paths = {
+    profile: <><circle cx="12" cy="8" r="4" /><path d="M4 22v-2a8 8 0 0 1 16 0v2" /></>,
     overview: (
       <>
         <rect x="3" y="3" width="7" height="7" rx="2" />
@@ -115,6 +113,7 @@ function AppIcon({ name, size = 20 }) {
 }
 
 function Sidebar({ activeView, onNavigate }) {
+  const { user, profile, attempts } = useAccount();
   return (
     <aside className="app-sidebar">
       <div className="sidebar-brand">
@@ -125,13 +124,13 @@ function Sidebar({ activeView, onNavigate }) {
         </div>
       </div>
 
-      <div className="profile-card">
-        <div className="profile-avatar">AM</div>
+      <button className="profile-card account-sidebar-profile" onClick={() => onNavigate('profile')} aria-label="Open your profile">
+        <div className={`profile-avatar ${profile.avatar}`}>{user ? initials(profile.name) : 'L'}</div>
         <div>
-          <strong>Alex Morgan</strong>
-          <span>Target band 8.0</span>
+          <strong>{user ? profile.name || 'Your profile' : 'Guest learner'}</strong>
+          <span>{user ? `Target band ${profile.targetBand.toFixed(1)}` : 'Sign in to save progress'}</span>
         </div>
-      </div>
+      </button>
 
       <p className="nav-label">Workspace</p>
       <nav className="app-nav" aria-label="Main navigation">
@@ -153,10 +152,10 @@ function Sidebar({ activeView, onNavigate }) {
 
       <div className="sidebar-bottom">
         <div className="streak-card">
-          <span className="streak-flame">12</span>
+          <span className="streak-flame">{attempts.length}</span>
           <div>
-            <strong>Day streak</strong>
-            <span>4h 20m this week</span>
+            <strong>Practice attempts</strong>
+            <span>{Math.round(attempts.reduce((n, a) => n + a.duration_seconds, 0) / 60)} minutes completed</span>
           </div>
         </div>
       </div>
@@ -164,7 +163,8 @@ function Sidebar({ activeView, onNavigate }) {
   );
 }
 
-function Topbar({ activeView }) {
+function Topbar({ activeView, onNavigate }) {
+  const { user, profile } = useAccount();
   const title =
     navigation.find((item) => item.id === activeView)?.label || "Workspace";
 
@@ -175,20 +175,15 @@ function Topbar({ activeView }) {
         <strong>{title}</strong>
       </div>
       <div className="topbar-actions">
-        <button
-          type="button"
-          className="icon-button"
-          aria-label="Notifications"
-        >
-          <span className="notification-dot" />!
-        </button>
-        <div className="topbar-avatar">AM</div>
+        <button type="button" className="account-topbar-link" onClick={() => onNavigate('profile')}>{user ? 'My profile' : 'Sign in'}</button>
+        <button className={`topbar-avatar ${profile.avatar}`} aria-label="Open profile" onClick={() => onNavigate('profile')}>{user ? initials(profile.name) : 'L'}</button>
       </div>
     </header>
   );
 }
 
 function Overview({ onNavigate }) {
+  const { user, profile, attempts } = useAccount();
   const formattedDate = useMemo(
     () =>
       new Intl.DateTimeFormat("en", {
@@ -205,7 +200,7 @@ function Overview({ onNavigate }) {
         <div>
           <p className="section-kicker">Your learning space</p>
           <h2>
-            Let&apos;s make progress, Alex<span>.</span>
+            Let&apos;s make progress{user && profile.name ? `, ${profile.name.split(' ')[0]}` : ''}<span>.</span>
           </h2>
         </div>
         <span className="overview-date">{formattedDate}</span>
@@ -243,7 +238,7 @@ function Overview({ onNavigate }) {
           <div className="goal-ticket">
             <span>THE NEXT CHAPTER</span>
             <div className="goal-number">
-              8.0<span>+</span>
+              {user ? profile.targetBand.toFixed(1) : '7.0'}<span>+</span>
             </div>
             <div className="goal-ticket-bottom">
               <span>YOUR TARGET BAND</span>
@@ -262,57 +257,9 @@ function Overview({ onNavigate }) {
         </div>
       </section>
 
-      <section className="overview-grid">
-        <div className="band-card">
-          <div className="card-heading-row">
-            <div>
-              <p className="section-kicker">Band estimate</p>
-              <h2>Your progress, at a glance</h2>
-            </div>
-            <span className="trend-up">+0.5 this month</span>
-          </div>
-          <div className="band-score">
-            7.5 <span>/ 9.0</span>
-          </div>
-          <div className="score-bars" aria-hidden="true">
-            {scoreBreakdown.map((item) => (
-              <span className={item.tone} key={item.label} />
-            ))}
-          </div>
-          <div className="score-legend">
-            {scoreBreakdown.map((item) => (
-              <span key={item.label}>
-                {item.label} <b>{item.score}</b>
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div className="weekly-card">
-          <p className="section-kicker">This week</p>
-          <h2>Finding your rhythm</h2>
-          <div className="week-chart" aria-label="Weekly practice activity">
-            <span style={{ height: "34%" }} />
-            <span style={{ height: "58%" }} />
-            <span style={{ height: "48%" }} />
-            <span style={{ height: "78%" }} />
-            <span style={{ height: "66%" }} />
-            <span style={{ height: "88%" }} />
-            <span style={{ height: "41%" }} />
-          </div>
-          <div className="chart-days" aria-hidden="true">
-            <span>M</span>
-            <span>T</span>
-            <span>W</span>
-            <span>T</span>
-            <span>F</span>
-            <span>S</span>
-            <span>S</span>
-          </div>
-          <p className="chart-caption">
-            <b>4h 20m</b> practiced across 12 sessions
-          </p>
-        </div>
+      <section className="overview-real-progress">
+        <div className="card-heading-row"><div><p className="section-kicker">Your actual results</p><h2>Progress, one attempt at a time.</h2></div><button className="text-action" onClick={() => onNavigate('profile')}>View history →</button></div>
+        <ProgressCards attempts={attempts} />
       </section>
 
       <section className="focus-grid">
@@ -320,7 +267,7 @@ function Overview({ onNavigate }) {
           <div className="card-heading-row">
             <div>
               <p className="section-kicker">One step at a time</p>
-              <h2>Today&apos;s focus</h2>
+              <h2>Practice ideas</h2>
             </div>
             <button
               type="button"
@@ -337,9 +284,7 @@ function Overview({ onNavigate }) {
                   <b>{item.label}</b>
                   <span>{item.detail}</span>
                 </div>
-                <div className="mini-progress" aria-hidden="true">
-                  <span style={{ width: `${item.progress}%` }} />
-                </div>
+
               </div>
             ))}
           </div>
@@ -349,7 +294,7 @@ function Overview({ onNavigate }) {
           <p className="section-kicker">Make time for your skills</p>
           <h2>Choose your practice</h2>
           <div className="skill-buttons">
-            {navigation.slice(1).map((item) => (
+            {navigation.slice(1).filter(item => item.id !== 'profile').map((item) => (
               <button
                 type="button"
                 key={item.id}
@@ -1230,7 +1175,8 @@ export default function LinguAIBridgeApp() {
     <div className="app-frame">
       <Sidebar activeView={activeView} onNavigate={setActiveView} />
       <div className="app-main">
-        <Topbar activeView={activeView} />
+        <Topbar activeView={activeView} onNavigate={setActiveView} />
+        {activeView === 'profile' && <ProfileView />}
         {activeView === "overview" && <Overview onNavigate={setActiveView} />}
         {activeView === "listening" && <ListeningWorkspace />}
         {activeView === "reading" && <ReadingWorkspace />}

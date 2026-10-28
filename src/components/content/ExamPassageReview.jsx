@@ -3,6 +3,7 @@ import { evidenceRange } from "./review-evidence.mjs";
 import TextHighlights from "./TextHighlights";
 import AudioRecording from "./AudioRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useAccount } from '@/components/account/AccountProvider';
 
 const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
 function AnnotatedContent({ html, answers, rows, active, highlights, part, area, language, explanations, onEvidence }) {
@@ -60,8 +61,9 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
 
 export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [], explanations = {} }) {
   const languages = test.reviewLanguages || ['ru','en'];
-  const [language, setLanguage] = useState(languages[0]);
-  useEffect(()=>{const saved=localStorage.getItem('linguai-review-language');if(languages.includes(saved))setLanguage(saved);},[]);
+  const { user, profile } = useAccount();
+  const [language, setLanguage] = useState(languages.includes(profile.language) ? profile.language : languages[0]);
+  useEffect(()=>{const saved=user ? profile.language : localStorage.getItem('linguai-review-language');if(languages.includes(saved))setLanguage(saved);},[user?.id, profile.language]);
   const [evidenceError, setEvidenceError] = useState('');
   const [partId, setPartId] = useState(initialRow?.part || test.parts[0].id);
   const [active, setActive] = useState(initialRow?.name || null);
