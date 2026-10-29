@@ -1614,7 +1614,7 @@ p {
   .overview-grid {
     margin-top: 34px;
   }
-
+б
   .band-card,
   .weekly-card,
   .focus-panel,
@@ -1777,6 +1777,10 @@ h3,
   background: #ffffff05;
 }
 .streak-card .streak-flame {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  line-height: 1;
   background: #d9ef8b;
   color: #14251f;
   border-radius: 10px;
