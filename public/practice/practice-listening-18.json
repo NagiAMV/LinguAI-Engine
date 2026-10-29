@@ -1,0 +1,139 @@
+{
+  "id": "practice-listening-18",
+  "resource": "listening",
+  "test": 18,
+  "title": "Listening · Test 18",
+  "backUrl": "/?view=listening",
+  "durationMinutes": 30,
+  "audioScope": "part",
+  "parts": [
+    {
+      "id": 1,
+      "passage": "<p>No transcript was included in the supplied file.</p>",
+      "questions": "<section class=\"part-section\">\n    <div class=\"qgroup\">\n      <h3>Questions 1–10</h3>\n      <div class=\"instr\">Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.</div>\n      <div class=\"note-card\">\n        <h2>Tour Booking Enquiry</h2>\n        <p>Type of holiday: <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">1</strong><input id=\"practice_18_1_\" placeholder=\"Answer\" name=\"practice_18_1\" autocomplete=\"off\" aria-label=\"Question 1\"></span></span></p>\n\n        <h4>Hotel</h4>\n        <ul>\n          <li>Meal: including <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">2</strong><input id=\"practice_18_2_\" placeholder=\"Answer\" name=\"practice_18_2\" autocomplete=\"off\" aria-label=\"Question 2\"></span></span></li>\n          <li>Facilities: a pool, a nightclub and a <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">3</strong><input id=\"practice_18_3_\" placeholder=\"Answer\" name=\"practice_18_3\" autocomplete=\"off\" aria-label=\"Question 3\"></span></span></li>\n          <li>Prices: reduce from £<span class=\"fillbox narrow\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">4</strong><input id=\"practice_18_4_\" placeholder=\"Answer\" name=\"practice_18_4\" autocomplete=\"off\" aria-label=\"Question 4\"></span></span> to £315</li>\n        </ul>\n\n        <h4>Self-catering Apartment</h4>\n        <ul>\n          <li>Stay in a <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">5</strong><input id=\"practice_18_5_\" placeholder=\"Answer\" name=\"practice_18_5\" autocomplete=\"off\" aria-label=\"Question 5\"></span></span> room</li>\n        </ul>\n\n        <h4>Equipment Rental</h4>\n        <ul>\n          <li>Rental for one week: £<span class=\"fillbox narrow\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">6</strong><input id=\"practice_18_6_\" placeholder=\"Answer\" name=\"practice_18_6\" autocomplete=\"off\" aria-label=\"Question 6\"></span></span></li>\n        </ul>\n\n        <h4>Types of Insurance</h4>\n        <ul>\n          <li><span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">7</strong><input id=\"practice_18_7_\" placeholder=\"Answer\" name=\"practice_18_7\" autocomplete=\"off\" aria-label=\"Question 7\"></span></span> Cover: £30</li>\n          <li>Premier cover: £<span class=\"fillbox narrow\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">8</strong><input id=\"practice_18_8_\" placeholder=\"Answer\" name=\"practice_18_8\" autocomplete=\"off\" aria-label=\"Question 8\"></span></span></li>\n        </ul>\n\n        <h4>Transport</h4>\n        <p>The cheapest way of going to the airport: by <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">9</strong><input id=\"practice_18_9_\" placeholder=\"Answer\" name=\"practice_18_9\" autocomplete=\"off\" aria-label=\"Question 9\"></span></span></p>\n\n        <h4>Payment Method</h4>\n        <p>Pay by <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">10</strong><input id=\"practice_18_10_\" placeholder=\"Answer\" name=\"practice_18_10\" autocomplete=\"off\" aria-label=\"Question 10\"></span></span>: no extra fee</p>\n      </div>\n    </div>\n  </section>",
+      "fieldNames": [
+        "practice_18_1",
+        "practice_18_2",
+        "practice_18_3",
+        "practice_18_4",
+        "practice_18_5",
+        "practice_18_6",
+        "practice_18_7",
+        "practice_18_8",
+        "practice_18_9",
+        "practice_18_10"
+      ],
+      "fieldLabels": {
+        "practice_18_1": "Question 1",
+        "practice_18_2": "Question 2",
+        "practice_18_3": "Question 3",
+        "practice_18_4": "Question 4",
+        "practice_18_5": "Question 5",
+        "practice_18_6": "Question 6",
+        "practice_18_7": "Question 7",
+        "practice_18_8": "Question 8",
+        "practice_18_9": "Question 9",
+        "practice_18_10": "Question 10"
+      },
+      "audioUrls": [],
+      "transcriptStatus": "missing"
+    },
+    {
+      "id": 2,
+      "passage": "<p>No transcript was included in the supplied file.</p>",
+      "questions": "<section class=\"part-section\">\n    <div class=\"qgroup\">\n      <h3>Questions 11–12</h3>\n      <div class=\"instr\">Choose TWO letters, A–E. Which TWO items will participants receive when they check in? (Your two answers can be in any order.)</div>\n      \n      \n    <div class=\"checkbox-group ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">11</strong><strong class=\"ielts-listening-question-number\">12</strong><label><input type=\"checkbox\" value=\"A\" name=\"practice_18_11_12\" id=\"practice_18_11_12_A\" autocomplete=\"off\" aria-label=\"Question 11: A\">A  a class list</label><label><input type=\"checkbox\" value=\"B\" name=\"practice_18_11_12\" id=\"practice_18_11_12_B\" autocomplete=\"off\" aria-label=\"Question 11: B\">B  a face towel</label><label><input type=\"checkbox\" value=\"C\" name=\"practice_18_11_12\" id=\"practice_18_11_12_C\" autocomplete=\"off\" aria-label=\"Question 11: C\">C  a name tag</label><label><input type=\"checkbox\" value=\"D\" name=\"practice_18_11_12\" id=\"practice_18_11_12_D\" autocomplete=\"off\" aria-label=\"Question 11: D\">D  a shoe bag</label><label><input type=\"checkbox\" value=\"E\" name=\"practice_18_11_12\" id=\"practice_18_11_12_E\" autocomplete=\"off\" aria-label=\"Question 11: E\">E  a water bottle</label></div></div>\n\n    <div class=\"qgroup\">\n      <h3>Questions 13–14</h3>\n      <div class=\"instr\">Choose TWO letters, A–E. Which TWO activities will be hosted in the first afternoon and evening? (Your two answers can be in any order.)</div>\n      \n      \n    <div class=\"checkbox-group ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">13</strong><strong class=\"ielts-listening-question-number\">14</strong><label><input type=\"checkbox\" value=\"A\" name=\"practice_18_13_14\" id=\"practice_18_13_14_A\" autocomplete=\"off\" aria-label=\"Question 13: A\">A  costume making</label><label><input type=\"checkbox\" value=\"B\" name=\"practice_18_13_14\" id=\"practice_18_13_14_B\" autocomplete=\"off\" aria-label=\"Question 13: B\">B  a musical show</label><label><input type=\"checkbox\" value=\"C\" name=\"practice_18_13_14\" id=\"practice_18_13_14_C\" autocomplete=\"off\" aria-label=\"Question 13: C\">C  an informal dance</label><label><input type=\"checkbox\" value=\"D\" name=\"practice_18_13_14\" id=\"practice_18_13_14_D\" autocomplete=\"off\" aria-label=\"Question 13: D\">D  a talk on dance history</label><label><input type=\"checkbox\" value=\"E\" name=\"practice_18_13_14\" id=\"practice_18_13_14_E\" autocomplete=\"off\" aria-label=\"Question 13: E\">E  a dance test</label></div></div>\n\n    <div class=\"qgroup\">\n      <h3>Questions 15–20</h3>\n      <div class=\"instr\">Label the map. Write the correct letter, A–J, next to each question.</div>\n      <div class=\"map-wrap\">\n        <img src=\"/practice/assets/listening-18-community-map.jpg\" alt=\"Map of the community centre with locations labelled A to J\">\n        \n        <div class=\"cap\">▲ You are here (bottom-centre)</div>\n      </div>\n      <table class=\"matchtable\">\n        <tr><th>Location</th><th>Answer</th></tr>\n        <tr><td>15. shower room</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">15</strong><select id=\"practice_18_15_\" name=\"practice_18_15\" autocomplete=\"off\" aria-label=\"Question 15\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n        <tr><td>16. bunkroom</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">16</strong><select id=\"practice_18_16_\" name=\"practice_18_16\" autocomplete=\"off\" aria-label=\"Question 16\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n        <tr><td>17. games room</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">17</strong><select id=\"practice_18_17_\" name=\"practice_18_17\" autocomplete=\"off\" aria-label=\"Question 17\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n        <tr><td>18. hall</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">18</strong><select id=\"practice_18_18_\" name=\"practice_18_18\" autocomplete=\"off\" aria-label=\"Question 18\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n        <tr><td>19. medical centre</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">19</strong><select id=\"practice_18_19_\" name=\"practice_18_19\" autocomplete=\"off\" aria-label=\"Question 19\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n        <tr><td>20. reception office</td><td class=\"sel-cell\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">20</strong><select id=\"practice_18_20_\" name=\"practice_18_20\" autocomplete=\"off\" aria-label=\"Question 20\"><option value=\"\">Choose an answer</option><option value=\"A\">A</option><option value=\"B\">B</option><option value=\"C\">C</option><option value=\"D\">D</option><option value=\"E\">E</option><option value=\"F\">F</option><option value=\"G\">G</option><option value=\"H\">H</option><option value=\"I\">I</option><option value=\"J\">J</option></select></span></td></tr>\n      </table>\n    </div>\n  </section>",
+      "fieldNames": [
+        "practice_18_11_12",
+        "practice_18_13_14",
+        "practice_18_15",
+        "practice_18_16",
+        "practice_18_17",
+        "practice_18_18",
+        "practice_18_19",
+        "practice_18_20"
+      ],
+      "fieldLabels": {
+        "practice_18_11_12": "Question 11",
+        "practice_18_13_14": "Question 13",
+        "practice_18_15": "Question 15",
+        "practice_18_16": "Question 16",
+        "practice_18_17": "Question 17",
+        "practice_18_18": "Question 18",
+        "practice_18_19": "Question 19",
+        "practice_18_20": "Question 20"
+      },
+      "audioUrls": [],
+      "transcriptStatus": "missing"
+    },
+    {
+      "id": 3,
+      "passage": "<p>No transcript was included in the supplied file.</p>",
+      "questions": "<section class=\"part-section\">\n    <div class=\"qgroup\">\n      <h3>Questions 21–22</h3>\n      <div class=\"instr\">Complete the notes below. Write ONE WORD ONLY for each answer.</div>\n      <div class=\"note-card\">\n        <h2>Assignment Feedback</h2>\n        <h4>Things that need to be done:</h4>\n        <ul>\n          <li>Hand in book reports with the next assignment</li>\n          <li>Check accuracy of the <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">21</strong><input id=\"practice_18_21_\" placeholder=\"Answer\" name=\"practice_18_21\" autocomplete=\"off\" aria-label=\"Question 21\"></span></span> in the last section</li>\n          <li>Give more <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">22</strong><input id=\"practice_18_22_\" placeholder=\"Answer\" name=\"practice_18_22\" autocomplete=\"off\" aria-label=\"Question 22\"></span></span></li>\n          <li>Expand ideas to improve the grade</li>\n        </ul>\n      </div>\n    </div>\n\n    <div class=\"qgroup\">\n      <h3>Questions 23–27</h3>\n      <div class=\"instr\">Answer the questions below. Write NO MORE THAN THREE WORDS for each answer.</div>\n      <div class=\"note-card\">\n        <p>23  When will Karen give her presentation? <span class=\"fillbox wide\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">23</strong><input id=\"practice_18_23_\" placeholder=\"Answer\" name=\"practice_18_23\" autocomplete=\"off\" aria-label=\"Question 23\"></span></span></p>\n        <p>24  What must she do during the presentation? <span class=\"fillbox wide\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">24</strong><input id=\"practice_18_24_\" placeholder=\"Answer\" name=\"practice_18_24\" autocomplete=\"off\" aria-label=\"Question 24\"></span></span></p>\n        <p>25  By which date does she have to submit an abstract? <span class=\"fillbox wide\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">25</strong><input id=\"practice_18_25_\" placeholder=\"Answer\" name=\"practice_18_25\" autocomplete=\"off\" aria-label=\"Question 25\"></span></span></p>\n        <p>26  Where will the presentation take place? <span class=\"fillbox wide\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">26</strong><input id=\"practice_18_26_\" placeholder=\"Answer\" name=\"practice_18_26\" autocomplete=\"off\" aria-label=\"Question 26\"></span></span></p>\n        <p>27  Who will grade her presentation? <span class=\"fillbox wide\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">27</strong><input id=\"practice_18_27_\" placeholder=\"Answer\" name=\"practice_18_27\" autocomplete=\"off\" aria-label=\"Question 27\"></span></span></p>\n      </div>\n    </div>\n\n    <div class=\"qgroup\">\n      <h3>Questions 28–30</h3>\n      <div class=\"instr\">Choose THREE letters, A–H. Which THREE modules will Karen study next year? (Your three answers can be in any order.)</div>\n      \n      \n    <div class=\"checkbox-group ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">28</strong><strong class=\"ielts-listening-question-number\">29</strong><strong class=\"ielts-listening-question-number\">30</strong><label><input type=\"checkbox\" value=\"A\" name=\"practice_18_28_30\" id=\"practice_18_28_30_A\" autocomplete=\"off\" aria-label=\"Question 28: A\">A  Communication Skills</label><label><input type=\"checkbox\" value=\"B\" name=\"practice_18_28_30\" id=\"practice_18_28_30_B\" autocomplete=\"off\" aria-label=\"Question 28: B\">B  Data Collection</label><label><input type=\"checkbox\" value=\"C\" name=\"practice_18_28_30\" id=\"practice_18_28_30_C\" autocomplete=\"off\" aria-label=\"Question 28: C\">C  Discourse Analysis</label><label><input type=\"checkbox\" value=\"D\" name=\"practice_18_28_30\" id=\"practice_18_28_30_D\" autocomplete=\"off\" aria-label=\"Question 28: D\">D  Language and Society</label><label><input type=\"checkbox\" value=\"E\" name=\"practice_18_28_30\" id=\"practice_18_28_30_E\" autocomplete=\"off\" aria-label=\"Question 28: E\">E  Phonology</label><label><input type=\"checkbox\" value=\"F\" name=\"practice_18_28_30\" id=\"practice_18_28_30_F\" autocomplete=\"off\" aria-label=\"Question 28: F\">F  Psycholinguistics</label><label><input type=\"checkbox\" value=\"G\" name=\"practice_18_28_30\" id=\"practice_18_28_30_G\" autocomplete=\"off\" aria-label=\"Question 28: G\">G  Research Methodology</label><label><input type=\"checkbox\" value=\"H\" name=\"practice_18_28_30\" id=\"practice_18_28_30_H\" autocomplete=\"off\" aria-label=\"Question 28: H\">H  Social Interaction</label></div></div>\n  </section>",
+      "fieldNames": [
+        "practice_18_21",
+        "practice_18_22",
+        "practice_18_23",
+        "practice_18_24",
+        "practice_18_25",
+        "practice_18_26",
+        "practice_18_27",
+        "practice_18_28_30"
+      ],
+      "fieldLabels": {
+        "practice_18_21": "Question 21",
+        "practice_18_22": "Question 22",
+        "practice_18_23": "Question 23",
+        "practice_18_24": "Question 24",
+        "practice_18_25": "Question 25",
+        "practice_18_26": "Question 26",
+        "practice_18_27": "Question 27",
+        "practice_18_28_30": "Question 28"
+      },
+      "audioUrls": [],
+      "transcriptStatus": "missing"
+    },
+    {
+      "id": 4,
+      "passage": "<p>No transcript was included in the supplied file.</p>",
+      "questions": "<section class=\"part-section\">\n    <div class=\"qgroup\">\n      <h3>Questions 31–40</h3>\n      <div class=\"instr\">Complete the notes below. Write ONE WORD ONLY for each answer.</div>\n      <div class=\"note-card\">\n        <h2>Research on Birds in Australia</h2>\n\n        <h4>The study by Cunningham in 1995</h4>\n        <ul>\n          <li>It aimed to study birds which were <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">31</strong><input id=\"practice_18_31_\" placeholder=\"Answer\" name=\"practice_18_31\" autocomplete=\"off\" aria-label=\"Question 31\"></span></span> in cities</li>\n        </ul>\n\n        <h4>Methodology</h4>\n        <ul>\n          <li>Researchers were able to <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">32</strong><input id=\"practice_18_32_\" placeholder=\"Answer\" name=\"practice_18_32\" autocomplete=\"off\" aria-label=\"Question 32\"></span></span> rather than count birds (e.g. random sampling)</li>\n          <li>Studied birds' companionship habits using a <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">33</strong><input id=\"practice_18_33_\" placeholder=\"Answer\" name=\"practice_18_33\" autocomplete=\"off\" aria-label=\"Question 33\"></span></span> system</li>\n          <li>Tags attached to birds' legs to identify their <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">34</strong><input id=\"practice_18_34_\" placeholder=\"Answer\" name=\"practice_18_34\" autocomplete=\"off\" aria-label=\"Question 34\"></span></span> over time</li>\n        </ul>\n\n        <h4>Findings</h4>\n        <ul>\n          <li>Birds tended to choose the same nesting site in which they were raised</li>\n          <li>Human activities such as <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">35</strong><input id=\"practice_18_35_\" placeholder=\"Answer\" name=\"practice_18_35\" autocomplete=\"off\" aria-label=\"Question 35\"></span></span> had a negative effect on birds' reproduction</li>\n        </ul>\n\n        <h4>Measures by local organisations</h4>\n        <ul>\n          <li>To increase birds' rate of <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">36</strong><input id=\"practice_18_36_\" placeholder=\"Answer\" name=\"practice_18_36\" autocomplete=\"off\" aria-label=\"Question 36\"></span></span> in various ways</li>\n          <li>To reduce dangers caused by <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">37</strong><input id=\"practice_18_37_\" placeholder=\"Answer\" name=\"practice_18_37\" autocomplete=\"off\" aria-label=\"Question 37\"></span></span> farms (e.g. colliding with turbines)</li>\n        </ul>\n\n        <h4>The study by Conway in 2006</h4>\n        <ul>\n          <li>Monitored the <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">38</strong><input id=\"practice_18_38_\" placeholder=\"Answer\" name=\"practice_18_38\" autocomplete=\"off\" aria-label=\"Question 38\"></span></span> of birds' nocturnal callings during flight</li>\n          <li><span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">39</strong><input id=\"practice_18_39_\" placeholder=\"Answer\" name=\"practice_18_39\" autocomplete=\"off\" aria-label=\"Question 39\"></span></span> were taken to listen to birds' sounds</li>\n          <li>Data collected through noise detection devices placed at a great <span class=\"fillbox\"><span class=\"ielts-listening-question-item\"><strong class=\"ielts-listening-question-number\">40</strong><input id=\"practice_18_40_\" placeholder=\"Answer\" name=\"practice_18_40\" autocomplete=\"off\" aria-label=\"Question 40\"></span></span></li>\n        </ul>\n      </div>\n    </div>\n  </section>",
+      "fieldNames": [
+        "practice_18_31",
+        "practice_18_32",
+        "practice_18_33",
+        "practice_18_34",
+        "practice_18_35",
+        "practice_18_36",
+        "practice_18_37",
+        "practice_18_38",
+        "practice_18_39",
+        "practice_18_40"
+      ],
+      "fieldLabels": {
+        "practice_18_31": "Question 31",
+        "practice_18_32": "Question 32",
+        "practice_18_33": "Question 33",
+        "practice_18_34": "Question 34",
+        "practice_18_35": "Question 35",
+        "practice_18_36": "Question 36",
+        "practice_18_37": "Question 37",
+        "practice_18_38": "Question 38",
+        "practice_18_39": "Question 39",
+        "practice_18_40": "Question 40"
+      },
+      "audioUrls": [],
+      "transcriptStatus": "missing"
+    }
+  ],
+  "audioStatus": "missing",
+  "sourceNotes": [
+    "The supplied HTML has an empty AUDIO_SRC and contains no recording or transcript.",
+    "Map labels corrected: Q18 hall; Q20 reception office. The supplied labels conflicted with the verified matching question and answer key."
+  ],
+  "provenance": {
+    "type": "user-provided-html",
+    "file": "ielts-listening-test-6.html",
+    "sourceFileSha256": "31ab4d234c8ce60ea6509b29fce13b1ca11bba1b08e2e1b92c343b029f1ed7f5",
+    "rightsStatus": "not-established",
+    "mapReference": "https://helik.net/listening/6931083771c0f37b083d9e9c"
+  }
+}

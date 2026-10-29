@@ -102,5 +102,11 @@
 @media(max-width:760px) { .app-nav { grid-template-columns:repeat(6,minmax(0,1fr)); } }
 .overview-real-progress { margin-top:28px; }
 .results-account-status { font-size:13px;color:var(--muted);padding-bottom:20px;border-bottom:1px solid var(--line); }
+.practice-ideas-caption { margin:18px 0 0;font-size:12px;color:var(--muted); }
+.practice-idea { grid-template-columns:minmax(0,1fr);gap:12px; }
+.practice-idea p { margin:10px 0 0;font-size:12px;line-height:1.6;color:var(--muted); }
+.practice-idea-actions { display:flex;gap:12px 20px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--teal); }
+.practice-idea-open { font-weight:700; }
+.practice-idea a:focus-visible { outline:3px solid var(--teal);outline-offset:4px; }
 @media(max-width:900px) { .account-profile-grid { grid-template-columns:1fr; }.account-goal-card { padding:26px; }.account-goal-card>strong { font-size:80px; }.account-connected { margin-top:20px; }.account-auth-intro { padding:30px; } }
 @media(max-width:650px) { .account-progress,.account-auth-card { grid-template-columns:1fr; }.account-auth-intro { padding:28px; }.account-auth-intro h2 { font-size:38px; }.account-auth-intro ul,.account-auth-intro>small { display:none; }.account-brand-mark { margin-bottom:24px; }.account-card,.account-progress-card { padding:22px; }.account-form-row { grid-template-columns:1fr;gap:0; }.account-section-heading { align-items:start; }.account-section-heading label { min-width:110px; }.account-heading { align-items:start; }.account-identity { gap:14px; }.account-avatar { width:60px;height:60px;border-radius:18px; }.account-identity h2 { font-size:20px; }.account-identity p { font-size:12px; }.account-import { align-items:start;flex-direction:column; } }

@@ -10,6 +10,7 @@ import ListeningWorkspace from "@/components/listening/ListeningWorkspace";
 import ProfileView, { ProgressCards } from '@/components/account/ProfileView';
 import { useAccount } from '@/components/account/AccountProvider';
 import { initials } from '@/lib/account-model.mjs';
+import PracticeIdeas from '@/components/account/PracticeIdeas';
 
 const SpeakingHub = dynamic(() => import("@/components/speaking-hub"));
 
@@ -20,12 +21,6 @@ const navigation = [
   { id: "writing", label: "Writing", icon: "✎" },
   { id: "speaking", label: "Speaking", icon: "◎" },
   { id: "profile", label: "Profile", icon: "○" },
-];
-
-const dailyFocus = [
-  { label: "Listening Part 3", detail: "Inference traps", progress: 76 },
-  { label: "Reading Passage 2", detail: "Matching headings", progress: 62 },
-  { label: "Writing Task 2", detail: "Examples and cohesion", progress: 44 },
 ];
 
 const STUDIO_CONFIG = {
@@ -263,32 +258,7 @@ function Overview({ onNavigate }) {
       </section>
 
       <section className="focus-grid">
-        <div className="focus-panel">
-          <div className="card-heading-row">
-            <div>
-              <p className="section-kicker">One step at a time</p>
-              <h2>Practice ideas</h2>
-            </div>
-            <button
-              type="button"
-              className="text-action"
-              onClick={() => onNavigate("reading")}
-            >
-              Open reading <span>→</span>
-            </button>
-          </div>
-          <div className="focus-list">
-            {dailyFocus.map((item) => (
-              <div className="focus-item" key={item.label}>
-                <div>
-                  <b>{item.label}</b>
-                  <span>{item.detail}</span>
-                </div>
-
-              </div>
-            ))}
-          </div>
-        </div>
+        <PracticeIdeas />
 
         <div className="skill-panel">
           <p className="section-kicker">Make time for your skills</p>

@@ -12,6 +12,7 @@ create table if not exists public.practice_attempts (
   band text check (band is null or (total = 40 and checked = 40 and band in ('< 2.5','2.5','3.0','3.5','4.0','4.5','5.0','5.5','6.0','6.5','7.0','7.5','8.0','8.5','9.0'))),
   finished_at timestamptz not null,
   duration_seconds integer not null check (duration_seconds between 0 and 86400),
+  focus_stats jsonb not null default '[]'::jsonb check (jsonb_typeof(focus_stats) = 'array' and jsonb_array_length(focus_stats) <= 4),
   primary key (user_id, id)
 );
 create index if not exists practice_attempts_recent on public.practice_attempts(user_id, finished_at desc);

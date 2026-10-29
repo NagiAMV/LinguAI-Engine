@@ -5,6 +5,9 @@ import { useAccount } from '@/components/account/AccountProvider';
 import ExamPassageReview from './ExamPassageReview';
 import { scoreExam } from './exam-score.mjs';
 import { buildReviewRows } from './answer-review.mjs';
+import { buildFocusStats } from '@/lib/practice-ideas.mjs';
+import singleReading from '@/data/single-passage-reading-catalog.json';
+import singleListening from '@/data/single-section-listening-catalog.json';
 
 const statusLabels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
 
@@ -15,10 +18,12 @@ export default function ExamResults({ test, answerKey, explanations, questions, 
   const [filter, setFilter] = useState('all');
   const rows = useMemo(() => buildReviewRows(test, questions, answers, flags, answerKey), [test, questions, answers, flags, answerKey]);
   const score = useMemo(() => scoreExam(test, questions, answers, answerKey), [test, questions, answers, answerKey]);
+  const source = (test.resource === 'reading' ? singleReading : singleListening).find(item => item.id === test.id);
+  const focusStats = useMemo(() => buildFocusStats(test, questions, answers, answerKey, source?.passageNumber || source?.sectionNumber), [test, questions, answers, answerKey, source]);
   useEffect(() => {
     if (!questions.length || !session.finishedAt) return;
-    recordAttempt({ id: `${test.id}:${session.startedAt || session.finishedAt}`, test_id: test.id, title: test.title.slice(0, 240), resource: test.resource, correct: score.correct, total: score.total, checked: score.checked, band: score.band, finished_at: new Date(session.finishedAt).toISOString(), duration_seconds: Math.min(86400, Math.max(0, Math.floor((session.finishedAt - (session.startedAt || session.finishedAt)) / 1000))) });
-  }, [recordAttempt, session.finishedAt, session.startedAt, test.id, test.title, test.resource, score.correct, score.total, score.checked, score.band, questions.length]);
+    recordAttempt({ id: `${test.id}:${session.startedAt || session.finishedAt}`, test_id: test.id, title: test.title.slice(0, 240), resource: test.resource, correct: score.correct, total: score.total, checked: score.checked, band: score.band, finished_at: new Date(session.finishedAt).toISOString(), duration_seconds: Math.min(86400, Math.max(0, Math.floor((session.finishedAt - (session.startedAt || session.finishedAt)) / 1000))), focus_stats: focusStats });
+  }, [recordAttempt, session.finishedAt, session.startedAt, test.id, test.title, test.resource, score.correct, score.total, score.checked, score.band, questions.length, focusStats]);
   const visible = rows.filter(row => (partFilter === 'all' || String(row.part) === partFilter) && (filter === 'all' || (filter === 'unanswered' ? !row.response.trim() : filter === 'answered' ? Boolean(row.response.trim()) : row.status === filter)));
   const availableCount = questions.filter(question => answerKey?.answers?.[question.number]?.length).length;
   const duration = session.startedAt && session.finishedAt ? Math.min(3600, Math.max(0, Math.floor((session.finishedAt - session.startedAt) / 1000))) : null;

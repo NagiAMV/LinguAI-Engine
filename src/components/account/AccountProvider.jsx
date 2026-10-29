@@ -66,9 +66,10 @@ export default function AccountProvider({ children }) {
         const ids = new Set(pending.map(a => a.id));
         writeAttempts(owner, readAttempts(owner).map(a => ids.has(a.id) ? { ...a, synced: true } : a));
       }
-      const { data, error } = await supabase.from('practice_attempts').select('id,test_id,title,resource,correct,total,checked,band,finished_at,duration_seconds').eq('user_id', owner).order('finished_at', { ascending: false }).limit(1000);
+      const { data, error } = await supabase.from('practice_attempts').select('id,test_id,title,resource,correct,total,checked,band,finished_at,duration_seconds,focus_stats').eq('user_id', owner).order('finished_at', { ascending: false }).limit(1000);
       if (error) throw error;
-      const merged = mergeAttempts(data.map(a => ({ ...a, synced: true })), readAttempts(owner));
+      const cached = readAttempts(owner);
+      const merged = mergeAttempts(cached.filter(a => a.synced), data.map(a => ({ ...a, synced: true })), cached.filter(a => !a.synced));
       writeAttempts(owner, merged);
       if (current()) setAttempts(merged);
     } catch (error) { if (current()) setSyncMessage(accountError(error)); }
@@ -87,7 +88,8 @@ export default function AccountProvider({ children }) {
     if (activeOwner.current !== owner) return;
     try {
       const local = readAttempts(owner);
-      if (local.some(a => a.id === attempt.id)) return;
+      const existing = local.find(a => a.id === attempt.id);
+      if (existing && JSON.stringify(existing.focus_stats || []) === JSON.stringify(attempt.focus_stats || [])) return;
       const next = mergeAttempts(local, [{ ...attempt, synced: false }]);
       writeAttempts(owner, next);
       setAttempts(next);

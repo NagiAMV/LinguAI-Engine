@@ -3952,5 +3952,264 @@
         "type": "user-provided-html"
       }
     ]
+  },
+  "practice-listening-18": {
+    "test": 18,
+    "module": "listening",
+    "answers": {
+      "1": [
+        "surfing"
+      ],
+      "2": [
+        "breakfast"
+      ],
+      "3": [
+        "gym"
+      ],
+      "4": [
+        "360"
+      ],
+      "5": [
+        "shared"
+      ],
+      "6": [
+        "75"
+      ],
+      "7": [
+        "basic"
+      ],
+      "8": [
+        "42.5",
+        "42.50"
+      ],
+      "9": [
+        "taxi"
+      ],
+      "10": [
+        "cheque",
+        "check"
+      ],
+      "11": [
+        "A"
+      ],
+      "12": [
+        "D"
+      ],
+      "13": [
+        "C"
+      ],
+      "14": [
+        "D"
+      ],
+      "15": [
+        "C"
+      ],
+      "16": [
+        "E"
+      ],
+      "17": [
+        "I"
+      ],
+      "18": [
+        "F"
+      ],
+      "19": [
+        "D"
+      ],
+      "20": [
+        "B"
+      ],
+      "21": [
+        "references"
+      ],
+      "22": [
+        "examples"
+      ],
+      "23": [
+        "next seminar"
+      ],
+      "24": [
+        "explain the experiment"
+      ],
+      "25": [
+        "26th November",
+        "26 November",
+        "November 26"
+      ],
+      "26": [
+        "chemistry lab",
+        "chemistry laboratory"
+      ],
+      "27": [
+        "professor"
+      ],
+      "28": [
+        "A"
+      ],
+      "29": [
+        "C"
+      ],
+      "30": [
+        "F"
+      ],
+      "31": [
+        "protected"
+      ],
+      "32": [
+        "estimate"
+      ],
+      "33": [
+        "mapping"
+      ],
+      "34": [
+        "trends"
+      ],
+      "35": [
+        "pollution"
+      ],
+      "36": [
+        "survival"
+      ],
+      "37": [
+        "wind"
+      ],
+      "38": [
+        "frequency"
+      ],
+      "39": [
+        "recordings"
+      ],
+      "40": [
+        "distance"
+      ]
+    },
+    "parts": {
+      "1": {
+        "questionNumbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "groups": []
+      },
+      "2": {
+        "questionNumbers": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "groups": [
+          {
+            "questions": [
+              11,
+              12
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "D"
+              ]
+            ]
+          },
+          {
+            "questions": [
+              13,
+              14
+            ],
+            "acceptedSets": [
+              [
+                "C",
+                "D"
+              ]
+            ]
+          }
+        ]
+      },
+      "3": {
+        "questionNumbers": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "groups": [
+          {
+            "questions": [
+              28,
+              29,
+              30
+            ],
+            "acceptedSets": [
+              [
+                "A",
+                "C",
+                "F"
+              ]
+            ]
+          }
+        ]
+      },
+      "4": {
+        "questionNumbers": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "groups": []
+      }
+    },
+    "sources": [
+      {
+        "part": 1,
+        "type": "user-provided-html",
+        "label": "ielts-listening-test-6.html",
+        "reference": "ielts-listening-test-6.html"
+      },
+      {
+        "part": 2,
+        "type": "user-provided-html",
+        "label": "ielts-listening-test-6.html",
+        "reference": "ielts-listening-test-6.html"
+      },
+      {
+        "part": 3,
+        "type": "user-provided-html",
+        "label": "ielts-listening-test-6.html",
+        "reference": "ielts-listening-test-6.html"
+      },
+      {
+        "part": 4,
+        "type": "user-provided-html",
+        "label": "ielts-listening-test-6.html",
+        "reference": "ielts-listening-test-6.html"
+      }
+    ]
   }
 }
