@@ -8,6 +8,7 @@ export default function AudioRecording({ part, position = 0, onPosition, sourceU
  const resume = useRef(position);
  const urls = part.audioUrls || [];
  useEffect(() => { if (locked) audio.current?.pause(); }, [locked]);
+ if (!urls.length) return <p className="exam-audio-state" role="status">No recording was supplied for this test yet.</p>;
  function failed(event) {
   resume.current = event.currentTarget.currentTime || resume.current;
   if (sourceIndex + 1 < urls.length) { setStatus("Trying backup recording…"); setSourceIndex(sourceIndex + 1); }

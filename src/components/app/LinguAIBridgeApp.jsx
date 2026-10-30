@@ -12,6 +12,7 @@ import { useAccount } from '@/components/account/AccountProvider';
 import { initials } from '@/lib/account-model.mjs';
 import PracticeIdeas from '@/components/account/PracticeIdeas';
 
+const WritingStudio = dynamic(() => import("@/components/writing/WritingStudio"));
 const SpeakingHub = dynamic(() => import("@/components/speaking-hub"));
 
 const navigation = [
@@ -1151,7 +1152,7 @@ export default function LinguAIBridgeApp() {
         {activeView === "listening" && <ListeningWorkspace />}
         {activeView === "reading" && <ReadingWorkspace />}
         {activeView === "writing" && (
-          <SkillStudio key="writing" skill="writing" />
+          <WritingStudio />
         )}
         {activeView === "speaking" && <SpeakingHub><SpeakingStudio key="speaking" /></SpeakingHub>}
       </div>

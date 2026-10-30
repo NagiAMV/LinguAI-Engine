@@ -1,0 +1,38 @@
+{
+  "test": 18,
+  "status": "draft-not-fully-audited",
+  "parts": [
+    {
+      "part": 1,
+      "sourceUrl": "https://murodkamilov.uz/listening/mkl006/audio/section1.mp3",
+      "audioSha256": "7eb1ba4535bd7fd838b37e9ad33e1b53493cff6bef91ea2516518b224f919669",
+      "audioDuration": 352.29,
+      "timedSegments": 11,
+      "wordCount": 821
+    },
+    {
+      "part": 2,
+      "sourceUrl": "https://murodkamilov.uz/listening/mkl006/audio/section2.mp3",
+      "audioSha256": "04fca0e2a8806bda814285904cf1a39547650ff0d7477a0bfdc68a0951d0cec5",
+      "audioDuration": 382.29,
+      "timedSegments": 13,
+      "wordCount": 895
+    },
+    {
+      "part": 3,
+      "sourceUrl": "https://murodkamilov.uz/listening/mkl006/audio/section3.mp3",
+      "audioSha256": "6e6235ae8903c60000929769a3a4832864b011874597b8235719603f1682c16e",
+      "audioDuration": 356.46,
+      "timedSegments": 12,
+      "wordCount": 935
+    },
+    {
+      "part": 4,
+      "sourceUrl": "https://murodkamilov.uz/listening/mkl006/audio/section4.mp3",
+      "audioSha256": "d54c538bb8117cc99c6916ffe259854ee40dea7e58b5e244aff987465d0a9ac8",
+      "audioDuration": 381.73,
+      "timedSegments": 12,
+      "wordCount": 790
+    }
+  ]
+}

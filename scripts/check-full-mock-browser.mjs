@@ -8,3 +8,4 @@ listening=listening.replaceAll("document.querySelectorAll('.listening-practice-c
 listening=listening.replaceAll('docs/imported-listening-browser-check.json','.cache/full-mock-listening-check.json');
 fs.writeFileSync('.cache/full-mock-listening-check.mjs',listening);
 for(const path of ['.cache/full-mock-reading-check.mjs','.cache/full-mock-listening-check.mjs']){const result=spawnSync(process.execPath,[path],{stdio:'inherit',env:process.env});if(result.status)process.exit(result.status);}
+    

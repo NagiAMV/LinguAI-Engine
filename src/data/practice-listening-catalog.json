@@ -141,7 +141,8 @@
     "title": "Test 18",
     "partCount": 4,
     "questionCount": 40,
-    "audioStatus": "missing",
-    "topics": "Tour Booking Enquiry · Community Centre · Assignment Feedback · Research on Birds in Australia"
+    "audioStatus": "available",
+    "topics": "Tour Booking Enquiry · Community Centre · Assignment Feedback · Research on Birds in Australia",
+    "audioScope": "part"
   }
 ]

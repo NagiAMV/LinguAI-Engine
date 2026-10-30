@@ -16,6 +16,8 @@ for(const item of catalog) {
   assert.deepEqual(questions.map(q=>+q.number).sort((a,b)=>a-b),Array.from({length:40},(_,i)=>i+1));
   assert.equal(exam.parts.length,4);
   for(const p of exam.parts){
+   if (exam.audioStatus === 'missing') { assert.equal(p.audioUrls.length,0); assert.equal(item.audioStatus,'missing'); }
+   else assert.ok(p.audioUrls.length > 0, 'available recording must have a source');
    assert.doesNotMatch(p.questions,/<(?:script|iframe|object|embed|style)\b|\son\w+\s*=|javascript:|type="hidden"/i);
    for(const url of p.audioUrls){const path='public'+url;assert.ok(fs.statSync(path).size>1e6);const head=fs.readFileSync(path).subarray(0,3);assert.ok(head.toString()==='ID3'||head[0]===255,'real audio header');}
    for(const name of p.fieldNames)assert.ok(p.questions.includes(`name="${name}"`));
