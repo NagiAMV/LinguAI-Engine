@@ -2,11 +2,10 @@ function buildSmartEvaluationPrompt(mode, submission, task = "") {
   const normalizedMode = String(mode || "writing").toLowerCase();
   const criteria = {
     writing: [
-      "Task Response",
+      /\bTask\s*1\b/i.test(task) ? "Task Achievement" : "Task Response",
       "Coherence and Cohesion",
       "Lexical Resource",
-      "Grammar Range and Accuracy",
-      "Spelling and punctuation",
+      "Grammatical Range and Accuracy",
     ],
     speaking: [
       "Fluency and Coherence",
@@ -28,13 +27,7 @@ function buildSmartEvaluationPrompt(mode, submission, task = "") {
     "Pronunciation": "short feedback string",
     "Interaction and Development of Ideas": "short feedback string"
   }`
-    : `{
-    "Task Response": "short feedback string",
-    "Coherence and Cohesion": "short feedback string",
-    "Lexical Resource": "short feedback string",
-    "Grammar Range and Accuracy": "short feedback string",
-    "Spelling and punctuation": "short feedback string"
-  }`;
+    : JSON.stringify(Object.fromEntries(list.map(label => [label, "band estimate, evidence and actionable feedback string"])));
 
   return `You are a senior IELTS examiner and elite coach. Evaluate the text as if it were a real IELTS ${normalizedMode} response.
 

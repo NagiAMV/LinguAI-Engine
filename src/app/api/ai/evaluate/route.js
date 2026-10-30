@@ -1,182 +1,39 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
+import review from '@/lib/ai-review-service';
 
-import {
-  buildSmartEvaluationPrompt,
-  parseStructuredFeedback,
-} from "@/lib/ai-evaluation";
-
-const allowedModes = new Set(["writing", "speaking"]);
-
-function getProviderConfig() {
-  const chosenProvider = (
-    process.env.AI_PROVIDER ||
-    (process.env.GEMINI_API_KEY ? "gemini" : "openai")
-  ).toLowerCase();
-
-  if (chosenProvider === "gemini") {
-    const apiKey =
-      process.env.GEMINI_API_KEY || process.env.GOOGLE_GENERATIVE_AI_API_KEY;
-    return {
-      provider: "gemini",
-      apiKey,
-      endpoint: `https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_MODEL || "gemini-2.0-flash"}:generateContent?key=${apiKey || ""}`,
-    };
-  }
-
-  if (chosenProvider === "ollama") {
-    return {
-      provider: "ollama",
-      apiKey: "",
-      endpoint: `${process.env.OLLAMA_BASE_URL || "http://127.0.0.1:11434"}/v1/chat/completions`,
-      model: process.env.OLLAMA_MODEL || "llama3.2:3b",
-    };
-  }
-
-  return {
-    provider: "openai",
-    apiKey: process.env.OPENAI_API_KEY,
-    endpoint:
-      process.env.OPENAI_API_URL ||
-      "https://api.openai.com/v1/chat/completions",
-    model: process.env.OPENAI_MODEL || "gpt-4o-mini",
-  };
+const limiter = globalThis.__linguaiReviewLimiter ||= review.createLimiter();
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+export async function GET() {
+  return NextResponse.json({ available: review.config().available }, { headers: { 'Cache-Control': 'no-store' } });
 }
-
-export async function POST(request) {
-  let body;
+async function readBody(request) {
+  const reader = request.body?.getReader();
+  if (!reader) throw new review.ReviewError('Request body is required.', 400);
+  const chunks = []; let size = 0;
   try {
-    body = await request.json();
-  } catch {
-    return NextResponse.json(
-      { error: "Request body must be valid JSON." },
-      { status: 400 },
-    );
-  }
-
-  const { mode, submission, task = "" } = body || {};
-  if (
-    !allowedModes.has(mode) ||
-    typeof submission !== "string" ||
-    submission.trim().length < 10
-  ) {
-    return NextResponse.json(
-      {
-        error:
-          "Provide mode (writing or speaking) and a submission of at least 10 characters.",
-      },
-      { status: 400 },
-    );
-  }
-
-  const providerConfig = getProviderConfig();
-  const isGemini = providerConfig.provider === "gemini";
-  const isOllama = providerConfig.provider === "ollama";
-
-  if (isGemini && !providerConfig.apiKey) {
-    return NextResponse.json(
-      {
-        error:
-          "Gemini is not configured. Add GEMINI_API_KEY or GOOGLE_GENERATIVE_AI_API_KEY to the server.",
-      },
-      { status: 503 },
-    );
-  }
-
-  if (!isGemini && !isOllama && !providerConfig.apiKey) {
-    return NextResponse.json(
-      {
-        error:
-          "AI evaluation is not configured. Set AI_PROVIDER=gemini, AI_PROVIDER=ollama or add OPENAI_API_KEY on the server.",
-      },
-      { status: 503 },
-    );
-  }
-
-  try {
-    let payload;
-    let result;
-
-    if (isGemini) {
-      const response = await fetch(providerConfig.endpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          contents: [
-            {
-              parts: [
-                {
-                  text: buildSmartEvaluationPrompt(
-                    mode,
-                    submission.trim(),
-                    task,
-                  ),
-                },
-              ],
-            },
-          ],
-          generationConfig: {
-            temperature: 0.2,
-            responseMimeType: "application/json",
-          },
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`Gemini provider returned ${response.status}`);
-      }
-
-      result = await response.json();
-      payload =
-        result?.candidates?.[0]?.content?.parts
-          ?.map((part) => part.text)
-          .join("") || "";
-    } else {
-      const response = await fetch(providerConfig.endpoint, {
-        method: "POST",
-        headers: {
-          ...(providerConfig.apiKey
-            ? { Authorization: `Bearer ${providerConfig.apiKey}` }
-            : {}),
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          model: providerConfig.model,
-          temperature: 0.2,
-          response_format: { type: "json_object" },
-          messages: [
-            {
-              role: "user",
-              content: buildSmartEvaluationPrompt(
-                mode,
-                submission.trim(),
-                task,
-              ),
-            },
-          ],
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`AI provider returned ${response.status}`);
-      }
-
-      result = await response.json();
-      payload = result?.choices?.[0]?.message?.content;
+    while (true) {
+      const { done, value } = await reader.read(); if (done) break;
+      size += value.byteLength;
+      if (size > 65536) { await reader.cancel(); throw new review.ReviewError('Request is too large.', 413); }
+      chunks.push(Buffer.from(value));
     }
-
-    if (!payload) {
-      throw new Error("AI provider returned an empty response");
-    }
-
-    return NextResponse.json({
-      mode,
-      feedback: parseStructuredFeedback(payload),
-    });
+    return JSON.parse(Buffer.concat(chunks).toString('utf8'));
   } catch (error) {
-    console.error("AI evaluation failed", error);
-    return NextResponse.json(
-      { error: "AI evaluation is temporarily unavailable." },
-      { status: 502 },
-    );
-  }
+    if (error instanceof review.ReviewError) throw error;
+    throw new review.ReviewError('Request body must be valid JSON.', 400);
+  } finally { reader.releaseLock(); }
+}
+export async function POST(request) {
+  let release;
+  try {
+    const cfg = review.config();
+    if (!cfg.available) throw new review.ReviewError('AI review is not enabled yet. Your draft can still be saved or downloaded.', 503);
+    const input = review.validateInput(await readBody(request));
+    release = limiter.acquire(cfg.daily);
+    const feedback = await review.evaluate(input, cfg);
+    return NextResponse.json({ mode: input.mode, feedback });
+  } catch (error) {
+    return NextResponse.json({ error: error instanceof review.ReviewError ? error.message : 'AI review is temporarily unavailable.' }, { status: error instanceof review.ReviewError ? error.status : 502 });
+  } finally { release?.(); }
 }
