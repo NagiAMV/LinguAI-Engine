@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./src/data/practice-listening-catalog.json":
+/*!**************************************************!*\
+  !*** ./src/data/practice-listening-catalog.json ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = /*#__PURE__*/JSON.parse('[{"id":"practice-listening-1","number":1,"title":"Test 1","partCount":4,"questionCount":40,"topics":"Manor Farm · Sports centre · House prices · Drama activities"},{"id":"practice-listening-2","number":2,"title":"Test 2","partCount":4,"questionCount":40,"topics":"Activities for Lily · Volunteering · Tourism careers · Environmental reports"},{"id":"practice-listening-3","number":3,"title":"Test 3","partCount":4,"questionCount":40,"topics":"Insurance policies · Eyesaver charity · Study options · Leatherback turtles"},{"id":"practice-listening-4","number":4,"title":"Test 4","partCount":4,"questionCount":40,"topics":"Birthday arrangements · Curling · Art authentication · Sustainability"},{"id":"practice-listening-5","number":5,"title":"Test 5","partCount":4,"questionCount":40,"topics":"Student accommodation · Museum exhibitions · Course choices · Student support"},{"id":"practice-listening-6","number":6,"title":"Test 6","partCount":4,"questionCount":40,"topics":"Travel arrangements · Volunteering · Laboratory work · High-speed trains"},{"id":"practice-listening-7","number":7,"title":"Test 7","partCount":4,"questionCount":40,"topics":"Enquiries on Hot Air Balloon Trip · Rivermead School: facilities open to the public · Professor Smith’s article on online learning · Technology and Education"},{"id":"practice-listening-8","number":8,"title":"Test 8","partCount":4,"questionCount":40,"topics":"Getting a job with an airline · Scholarships in the Scottish hospitality industry · Calotype photography in Britain and France"},{"id":"practice-listening-9","number":9,"title":"Test 9","partCount":4,"questionCount":40,"topics":"Instructions for a new store assistant · College camping club — cycling tour · Tutorial on an assignment · Extinction of Species"},{"id":"practice-listening-10","number":10,"title":"Test 10","partCount":4,"questionCount":40,"topics":""},{"id":"practice-listening-11","number":11,"title":"Test 11","partCount":4,"questionCount":40,"topics":""},{"id":"practice-listening-12","number":12,"title":"Test 12","partCount":4,"questionCount":40,"topics":"Student Accommodation · Pacific tapa cloth · Research findings"},{"id":"practice-listening-13","number":13,"title":"Test 13","partCount":4,"questionCount":40,"topics":"SHORT BREAK PACKAGES · Research Project · Peregrine Falcons"},{"id":"practice-listening-14","number":14,"title":"Test 14","partCount":4,"questionCount":40,"topics":""},{"id":"practice-listening-15","number":15,"title":"Test 15","partCount":4,"questionCount":40,"topics":""},{"id":"practice-listening-16","number":16,"title":"Test 16","partCount":4,"questionCount":40,"topics":"The London Relocation Services · Moving Office · Mona’s presentation · Graphical symbols"},{"id":"practice-listening-17","number":17,"title":"Test 17","partCount":4,"questionCount":40,"topics":"Local Newspaper Enquiry · Hospitality Training · Battery-Powered Motorbike · History of the Telescope"},{"id":"practice-listening-18","number":18,"title":"Test 18","partCount":4,"questionCount":40,"audioStatus":"missing","topics":"Tour Booking Enquiry · Community Centre · Assignment Feedback · Research on Birds in Australia"}]');
+
+/***/ })
+
+});

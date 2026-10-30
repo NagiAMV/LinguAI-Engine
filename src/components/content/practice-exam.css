@@ -207,7 +207,7 @@
 .exam-results { flex: 1; min-height: 0; overflow: auto; background: #e7ece5; padding: 28px 24px; }
 .results-sheet { max-width: 1040px; margin: 0 auto; padding: 32px 40px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; box-shadow: 0 18px 60px #1739270b; }
 .results-heading { text-align: center; }
-.results-seal { display: grid; place-items: center; width: 42px; height: 42px; margin: 0 auto 14px; background: var(--lime); color: var(--teal-strong); border-radius: 50%; font-size: 23px; }
+.results-seal { display: grid; place-items: center; width: 42px; height: 42px; margin: 0 auto 14px; background: var(--lime); color: #fff; border-radius: 50%; font-size: 23px; font-weight: 800; }
 .results-heading h2 { font-size: 36px; margin: 6px 0 8px; }
 .results-heading > p:last-child { font-size: 12px; color: var(--muted); }
 .results-stats { display: grid; grid-template-columns: repeat(3,1fr); padding: 22px 0; margin: 20px 0; border-block: 1px solid var(--line); }
@@ -474,3 +474,37 @@
 .native-diagram img { width:100%; display:block; }
 .exam-passage-review .native-gap { flex-wrap:wrap; }
 .exam-passage-review .native-gap .review-inline-feedback { flex-basis:100%; }
+
+/* Recording timestamps: shared by full-test and single-section transcripts. */
+.results-transcripts .cd-content p > small:first-child,
+.listening-transcript .cd-content p > small:first-child {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 0.95em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  margin-inline-end: 0.4em;
+}
+
+.results-score.results-score-single { grid-template-columns: 1fr; }
+
+/* Keep map labels beside the plan at desktop widths. Container sizing also
+   preserves legibility inside the narrower answer-review pane. */
+.cd-content { container-type: inline-size; }
+.listening-map-task { display: grid; gap: 20px; align-items: start; margin: 20px 0; }
+.listening-map-task .native-diagram-scroll { margin: 0; overflow: visible; }
+.listening-map-task .native-diagram { min-width: 0; max-width: 620px; }
+.listening-map-image, .listening-map-answers { min-width: 0; }
+.listening-map-answers .native-gap { display: flex!important; margin: 4px 0!important; }
+.listening-map-answers select { width: 100%; min-width: 0; }
+@container (min-width: 680px) {
+  .listening-map-task { grid-template-columns: minmax(0, 1.5fr) minmax(230px, 1fr); }
+  .listening-map-image { position: sticky; top: 12px; }
+}
+
+.listening-map-image img { display:block; width:100%; max-width:620px; height:auto; margin-inline:auto; }
+.listening-map-image .floorplan-wrap, .listening-map-image .map-wrap, .listening-map-image .map-container { width:100%; margin:0; }
+.listening-map-answers .matching-item, .listening-map-answers .drag-item-row { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:8px 0; }
+.listening-map-answers .drag-match-layout, .listening-map-answers .drag-left, .listening-map-answers .eh-side { width:100%; min-width:0; }
+.listening-map-answers table { width:100%; min-width:0; }
+.listening-map-answers input[type=text] { max-width:100%; }

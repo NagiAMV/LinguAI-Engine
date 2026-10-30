@@ -1,5 +1,6 @@
 "use client";
 import { evidenceRange } from "./review-evidence.mjs";
+import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
 import TextHighlights from "./TextHighlights";
 import AudioRecording from "./AudioRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -8,9 +9,10 @@ import { useAccount } from '@/components/account/AccountProvider';
 const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
 function AnnotatedContent({ html, answers, rows, active, highlights, part, area, language, explanations, onEvidence }) {
   const root = useRef(null);
-  const markup = useMemo(() => ({ __html: html }), [html]);
+  const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
     const element = root.current;
+    arrangeImportedMaps(element);
     const opened = new Set([...element.querySelectorAll('details[open][data-explanation]')].map(node => node.dataset.explanation));
     element.querySelectorAll('[data-review-feedback]').forEach(node => node.remove());
     element.querySelectorAll('[data-review-row]').forEach(node=>{node.classList.remove('review-active');delete node.dataset.reviewRow;});
@@ -60,6 +62,7 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
 }
 
 export default function ExamPassageReview({ test, answers, rows, initialRow, onBack, highlights = [], explanations = {} }) {
+  const singleListening = test.resource === 'listening' && test.parts.length === 1;
   const languages = test.reviewLanguages || ['ru','en'];
   const { user, profile } = useAccount();
   const [language, setLanguage] = useState(languages.includes(profile.language) ? profile.language : languages[0]);
@@ -102,11 +105,11 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     setJump(null);
   }, [jump, partId]);
   return <section ref={root} className="exam-passage-review" aria-label="Review passages and questions">
-    <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button><label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label><label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><label>Language <select aria-label="Explanation language" value={language} onChange={event=>{setLanguage(event.target.value);localStorage.setItem('linguai-review-language',event.target.value);}}>{languages.map(code=><option key={code} value={code}>{code === 'ru' ? 'Русский' : code === 'uz' ? 'O‘zbekcha' : 'English'}</option>)}</select></label><button className="review-collapse-all" onClick={()=>root.current.querySelectorAll('details[data-explanation]').forEach(node=>node.open=false)}>{language==='ru'?'Свернуть все':language==='uz'?'Hammasini yopish':'Collapse all'}</button><span>Read-only review</span></div>
+    <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button>{!singleListening && <label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label>}<label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><label>Language <select aria-label="Explanation language" value={language} onChange={event=>{setLanguage(event.target.value);localStorage.setItem('linguai-review-language',event.target.value);}}>{languages.map(code=><option key={code} value={code}>{code === 'ru' ? 'Русский' : code === 'uz' ? 'O‘zbekcha' : 'English'}</option>)}</select></label>{!singleListening && <button className="review-collapse-all" onClick={()=>root.current.querySelectorAll('details[data-explanation]').forEach(node=>node.open=false)}>{language==='ru'?'Свернуть все':language==='uz'?'Hammasini yopish':'Collapse all'}</button>}</div>
     {evidenceError&&<p role="status">{evidenceError}</p>}
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     <div className="review-reading-panes" key={part.id}>
-      <article data-review-passage aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording key={partId} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
+      <article data-review-passage className={test.resource === 'listening' ? 'listening-transcript' : undefined} aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording key={partId} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} sourceUrl={test.sourceUrl} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
       <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
     </div>
   </section>;

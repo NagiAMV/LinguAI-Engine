@@ -1,3 +1,4 @@
+import listeningExplanations from '@/data/listening-explanations.json';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { notFound } from 'next/navigation';
@@ -14,5 +15,6 @@ export default async function ListeningPracticePage({params}) {
   const item = catalog.find(item => String(item.number) === number);
   if (!item) notFound();
   const test = JSON.parse(await readFile(path.join(process.cwd(), 'public', 'practice', `${item.id}.json`), 'utf8'));
-  return <ExamPlayer key={test.id} test={test} answerKey={keys[test.id]} explanations={{}} />;
+  test.reviewLanguages = ['ru','en','uz'];
+  return <ExamPlayer key={test.id} test={test} answerKey={keys[test.id]} explanations={listeningExplanations[test.id] || {}} />;
 }

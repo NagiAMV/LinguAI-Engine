@@ -6,6 +6,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import "./practice-exam.css";
 import ExamResults from "./ExamResults";
 import Recording from "./AudioRecording";
+import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
 import { useAccount } from '@/components/account/AccountProvider';
@@ -36,8 +37,9 @@ function hasAnswer(question, answers) {
 // Reuse the existing sanitized HTML controls and input handling without changing the dataset.
 function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area }) {
   const root = useRef(null);
-  const markup = useMemo(() => ({ __html: html }), [html]);
+  const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
+    arrangeImportedMaps(root.current);
     for (const input of root.current.querySelectorAll("input[name], select[name]")) {
       input.disabled = locked;
       const value = answers[input.name];
