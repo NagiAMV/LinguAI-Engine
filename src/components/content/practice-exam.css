@@ -508,3 +508,9 @@
 .listening-map-answers .drag-match-layout, .listening-map-answers .drag-left, .listening-map-answers .eh-side { width:100%; min-width:0; }
 .listening-map-answers table { width:100%; min-width:0; }
 .listening-map-answers input[type=text] { max-width:100%; }
+
+.exam-highlight-toggle { display:inline-flex; align-items:center; gap:6px; }
+.exam-highlight-toggle[aria-pressed=true] { background:var(--surface-strong); outline:2px solid var(--teal); outline-offset:2px; }
+.highlight-mode [data-annotation-area] { cursor:crosshair; user-select:text; }
+.highlight-mode [data-annotation-area] input, .highlight-mode [data-annotation-area] select { cursor:auto; }
+.exam-highlight-toggle .highlight-dot { width:12px; height:12px; }

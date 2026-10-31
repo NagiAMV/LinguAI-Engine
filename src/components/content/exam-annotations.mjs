@@ -36,3 +36,12 @@ export function highlightRange(root, item) {
  if (!start || !end) return null;
  const range = document.createRange(); range.setStart(...start); range.setEnd(...end); return range;
 }
+
+// Preserve existing colours: only return the uncovered portions of a selection.
+export function uncoveredHighlights(selection, highlights) {
+ let segments = [[selection.start, selection.end]];
+ for (const h of highlights.filter(h=>h.part===selection.part && h.area===selection.area)) {
+  segments = segments.flatMap(([start,end]) => h.end<=start || h.start>=end ? [[start,end]] : [[start,Math.min(end,h.start)],[Math.max(start,h.end),end]].filter(([a,b])=>b>a));
+ }
+ return segments.map(([start,end])=>({...selection,start,end,text:selection.text.slice(start-selection.start,end-selection.start)})).filter(s=>s.text.trim());
+}

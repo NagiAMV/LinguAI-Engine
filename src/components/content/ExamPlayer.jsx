@@ -10,7 +10,7 @@ import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
 import { useAccount } from '@/components/account/AccountProvider';
-import { HIGHLIGHT_COLORS, validHighlight, selectionSnapshot, annotationId } from "./exam-annotations.mjs";
+import { HIGHLIGHT_COLORS, validHighlight, selectionSnapshot, annotationId, uncoveredHighlights } from "./exam-annotations.mjs";
 
 // Build navigation from the existing sanitized markup, including grouped checkbox questions.
 function questionIndex(test) {
@@ -62,7 +62,7 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
 
 export default function ExamPlayer(props) {
   const { ready, user } = useAccount();
-  if (!ready) return <main className="exam-loading" role="status">Loading your workspace…</main>;
+  if (!ready) return <main translate="no" className="exam-loading notranslate" role="status">Loading your workspace…</main>;
   return <AccountExamPlayer key={`${user?.id || 'guest'}:${props.test.id}`} {...props} owner={user?.id} />;
 }
 function AccountExamPlayer({ test, answerKey, explanations, owner }) {
@@ -73,6 +73,8 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   const [history, setHistory] = useState([]);
   const [fontSize, setFontSize] = useState(16);
   const [theme, setTheme] = useState("light");
+  const [highlightMode, setHighlightMode] = useState(false);
+  useEffect(() => { const stop = event => { if(event.key === "Escape") { setHighlightMode(false); setSelection(null); } }; window.addEventListener("keydown",stop); return () => window.removeEventListener("keydown",stop); }, []);
   const [highlightColor, setHighlightColor] = useState("yellow");
   const [selection, setSelection] = useState(null);
   const [notesOpen, setNotesOpen] = useState(false);
@@ -198,7 +200,7 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   useEffect(() => {
     document.querySelector('.exam-question-nav [aria-current]')?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
   }, [session?.activeQuestion]);
-  if (!session) return <main className="exam-loading" role="status">Preparing your exam workspace…</main>;
+  if (!session) return <main translate="no" className="exam-loading notranslate" role="status">Preparing your exam workspace…</main>;
   const { answers, partIndex, activeQuestion, flags, highlights = [], notes = [] } = session;
   const finishedAt = session.phase === "submitted";
   const locked = session.phase !== "running" || now >= session.deadline;
@@ -209,12 +211,18 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     const range=selected.getRangeAt(0);const element=(range.startContainer.nodeType===1?range.startContainer:range.startContainer.parentElement)?.closest("[data-annotation-area]");
     if(!element||!workspace.current?.contains(element)){setSelection(null);return;}
     const snapshot=selectionSnapshot(element,range,part.id,element.dataset.annotationArea);if(!snapshot)return;
+    if(highlightMode){ saveHighlight(snapshot); window.getSelection()?.removeAllRanges(); setSelection(null); return; }
     const rect=range.getBoundingClientRect();setSelection({...snapshot,x:Math.max(12,Math.min(rect.left,window.innerWidth-250)),y:Math.max(60,Math.min(rect.bottom+8,window.innerHeight-160))});
+  }
+  function saveHighlight(snapshot) {
+    const saved = current.current.highlights || [];
+    const additions = uncoveredHighlights(snapshot,saved).map(item=>({id:annotationId(),part:item.part,area:item.area,start:item.start,end:item.end,text:item.text,color:highlightColor}));
+    if(additions.length)update({highlights:[...saved,...additions]});
   }
   function annotate(kind) {
     if(!selection||locked)return;
     const id=annotationId();
-    if(kind==="highlight")update({highlights:[...highlights,{id,part:selection.part,area:selection.area,start:selection.start,end:selection.end,text:selection.text,color:highlightColor}]});
+    if(kind==="highlight")saveHighlight(selection);
     else {update({notes:[...notes,{id,part:selection.part,quote:selection.text,body:""}]});setNotesOpen(true);}
     window.getSelection()?.removeAllRanges();setSelection(null);
   }
@@ -232,11 +240,11 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     if (question) update({ activeQuestion: question.id });
   }
   const fieldProps = { answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
-  return <main ref={shell} data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`practice-exam ${test.id.startsWith("single-listening-") ? "single-listening-exam" : ""} ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.resource === 'listening' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
+  return <main ref={shell} translate="no" data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`practice-exam notranslate ${highlightMode && !locked ? "highlight-mode" : ""} ${test.id.startsWith("single-listening-") ? "single-listening-exam" : ""} ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.resource === 'listening' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>
       <div className="exam-identity"><h1>{test.title}</h1><p>{label} · {finishedAt ? "Results" : `Part ${part.id}`}</p></div><span className="exam-saved" title={`${answered} of ${questions.length} answered · Saved on this device`} aria-label={`${answered} of ${questions.length} answered · Saved on this device`}>●</span>
-      <details className="exam-settings"><summary aria-label="Display settings" title="Display settings">Aa</summary><div className="exam-settings-popover"><label>Text size<select aria-label="Text size" value={fontSize} onChange={event=>setFontSize(Number(event.target.value))}><option value={16}>Normal</option><option value={18}>Large</option><option value={20}>Extra large</option></select></label><label>Theme<select aria-label="Exam theme" value={theme} onChange={event=>displayPreference(event.target.value,highlightColor)}><option value="light">Light</option><option value="dark">Dark</option></select></label><fieldset><legend>Highlight colour</legend><div className="highlight-palette">{HIGHLIGHT_COLORS.map(color=><button key={color} className={"highlight-dot "+color} aria-label={color+" highlight"} aria-pressed={highlightColor===color} onClick={()=>displayPreference(theme,color)} />)}</div></fieldset></div></details><button className="exam-utility exam-notes-toggle" aria-label="Open notes" aria-pressed={notesOpen} onClick={()=>setNotesOpen(!notesOpen)}>Notes{notes.length>0?` ${notes.length}`:""}</button><button className="exam-utility exam-fullscreen" title={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} aria-label={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} onClick={toggleFullscreen}>⛶</button>
+      <details className="exam-settings"><summary aria-label="Display settings" title="Display settings">Aa</summary><div className="exam-settings-popover"><label>Text size<select aria-label="Text size" value={fontSize} onChange={event=>setFontSize(Number(event.target.value))}><option value={16}>Normal</option><option value={18}>Large</option><option value={20}>Extra large</option></select></label><label>Theme<select aria-label="Exam theme" value={theme} onChange={event=>displayPreference(event.target.value,highlightColor)}><option value="light">Light</option><option value="dark">Dark</option></select></label><fieldset><legend>Highlight colour</legend><div className="highlight-palette">{HIGHLIGHT_COLORS.map(color=><button key={color} className={"highlight-dot "+color} aria-label={color+" highlight"} aria-pressed={highlightColor===color} onClick={()=>displayPreference(theme,color)} />)}</div></fieldset></div></details>{!finishedAt && <button className="exam-utility exam-highlight-toggle" disabled={locked} aria-pressed={highlightMode} title="Drag over text to highlight · Esc to exit" onClick={()=>{setHighlightMode(value=>!value);setSelection(null);window.getSelection()?.removeAllRanges();}}><span className={"highlight-dot "+highlightColor}/> Highlight{highlightMode ? ' on' : ''}</button>}<button className="exam-utility exam-notes-toggle" aria-label="Open notes" aria-pressed={notesOpen} onClick={()=>setNotesOpen(!notesOpen)}>Notes{notes.length>0?` ${notes.length}`:""}</button><button className="exam-utility exam-fullscreen" title={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} aria-label={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} onClick={toggleFullscreen}>⛶</button>
       <div className={`exam-timer ${remaining(session, now) <= 300000 ? "exam-time-low" : ""}`}><strong role="timer" aria-label="Time remaining">{countdown(remaining(session, now))}</strong></div>
       {finishedAt ? <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button> : null}
     </header>
