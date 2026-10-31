@@ -11,7 +11,7 @@ export function validHighlight(item) {
 }
 // Ignore form options and review feedback so offsets remain stable in the read-only review.
 export function textNodes(root) {
- const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: node => node.parentElement?.closest('select,input,textarea,button,[data-review-feedback]') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+ const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: node => node.parentElement?.closest('select,input,textarea,button,[data-review-feedback],[data-reading-ui]') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
  const nodes = []; while (walker.nextNode()) nodes.push(walker.currentNode); return nodes;
 }
 export function selectionSnapshot(root, range, part, area) {

@@ -7,6 +7,7 @@ import "./practice-exam.css";
 import ExamResults from "./ExamResults";
 import Recording from "./AudioRecording";
 import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
+import { enhanceReadingQuestions, syncReadingAnswers } from "./reading-questions.mjs";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
 import { useAccount } from '@/components/account/AccountProvider';
@@ -35,11 +36,12 @@ function hasAnswer(question, answers) {
   return question.multiple ? Array.isArray(value) && value.length > question.slot : typeof value === "string" && Boolean(value.trim());
 }
 // Reuse the existing sanitized HTML controls and input handling without changing the dataset.
-function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area }) {
+function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area, reading }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
     arrangeImportedMaps(root.current);
+    if(reading && area === "questions")enhanceReadingQuestions(root.current);
     for (const input of root.current.querySelectorAll("input[name], select[name]")) {
       input.disabled = locked;
       const value = answers[input.name];
@@ -47,7 +49,8 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
       else if (input.type === "radio") input.checked = value === input.value;
       else if (input.value !== (typeof value === "string" ? value : "")) input.value = typeof value === "string" ? value : "";
     }
-  }, [html, answers, locked]);
+    if(reading && area === "questions")syncReadingAnswers(root.current);
+  }, [html, answers, locked, reading, area]);
   function change(event) {
     const input = event.target;
     if (locked || !input.name) return;
@@ -78,6 +81,7 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   const [highlightColor, setHighlightColor] = useState("yellow");
   const [selection, setSelection] = useState(null);
   const [notesOpen, setNotesOpen] = useState(false);
+  const [mobilePane, setMobilePane] = useState("passage");
   const [split, setSplit] = useState(50);
   const [fullscreen, setFullscreen] = useState(false);
   const [fullscreenMessage, setFullscreenMessage] = useState("");
@@ -191,12 +195,13 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   useEffect(() => {
     if (!jump || !workspace.current) return;
     const target = [...workspace.current.querySelectorAll("input[name],select[name]")].find((el) => el.name === jump.name);
+    const visibleTarget = target?.hidden ? target.nextElementSibling?.querySelector('button[aria-pressed="true"]') || target.nextElementSibling?.querySelector("button") : target;
     const marker = document.getElementById(`ielts-${test.resource}-question-number-${jump.number}`);
-    (marker || target)?.scrollIntoView({ block: "center", behavior: "instant" });
-    target?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
-    target?.focus({ preventScroll: true });
+    (marker || visibleTarget)?.scrollIntoView({ block: "center", behavior: "instant" });
+    visibleTarget?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
+    visibleTarget?.focus({ preventScroll: true });
     setJump(null);
-  }, [jump, session?.partIndex, test.resource]);
+  }, [jump, session?.partIndex, test.resource, mobilePane]);
   useEffect(() => {
     document.querySelector('.exam-question-nav [aria-current]')?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
   }, [session?.activeQuestion]);
@@ -231,6 +236,7 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   function goTo(question) {
     if (locked || !question) return;
     setSelection(null);
+    if(test.resource === 'reading')setMobilePane(test.parts[question.partIndex].passage.includes(`name="${question.name}"`)?'passage':'questions');
     update({ partIndex: question.partIndex, activeQuestion: question.id });
     setJump(question);
   }
@@ -239,7 +245,7 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     const question = questions.find((q) => q.partIndex === partIndex && q.name === name);
     if (question) update({ activeQuestion: question.id });
   }
-  const fieldProps = { answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
+  const fieldProps = { reading:test.resource === "reading", answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
   return <main ref={shell} translate="no" data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`practice-exam notranslate ${highlightMode && !locked ? "highlight-mode" : ""} ${test.id.startsWith("single-listening-") ? "single-listening-exam" : ""} ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.resource === 'listening' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>
@@ -250,7 +256,8 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     </header>
     {(fullscreenMessage || saveError) && <div className="exam-status" role="status">{saveError || fullscreenMessage}{!saveError && <button aria-label="Dismiss message" onClick={() => setFullscreenMessage("")}>×</button>}</div>}
     {session.phase === "ready" ? <section className="exam-start"><p className="section-kicker">Ready when you are</p><h2>{test.title}</h2><p>{label} · {test.parts.length} parts · {test.durationMinutes || 60} minutes</p><p>The timer begins when you press Start. It continues if you leave or refresh. At 00:00, editing stops and you can submit your saved answers.</p>{Object.keys(answers).length > 0 && <p>Your previous answers are preserved. Continue with them, or archive them and start a new attempt.</p>}<div><button className="button" onClick={() => { dispatch({ type: "start" }); if (!document.fullscreenElement) toggleFullscreen(); }}>{Object.keys(answers).length ? "Start with saved answers" : "Start Test"}</button>{Object.keys(answers).length > 0 && <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button>}</div></section> : finishedAt ? <ExamResults explanations={explanations} test={test} answerKey={answerKey} questions={questions} answers={answers} flags={flags} session={session} answered={answered} /> : <>
-      <div ref={workspace} className={`cd-columns exam-workspace ${test.resource}`}>
+      {test.resource === 'reading' && <nav className="reading-mobile-tabs" aria-label="Reading view">{[['passage','Text'],['questions','Questions']].map(([value,title])=><button key={value} aria-pressed={mobilePane===value} onClick={()=>setMobilePane(value)}>{title}</button>)}</nav>}
+      <div data-mobile-pane={mobilePane} ref={workspace} className={`cd-columns exam-workspace ${test.resource}`}>
         <article className={`cd-pane ${test.resource === "listening" ? "exam-recording-bar" : ""}`} aria-label={test.resource === "reading" ? `Part ${part.id} passage` : test.audioScope === 'test' ? 'Full test recording' : `Part ${part.id} recording`} key={test.audioScope === 'test' ? 'full-recording' : `content-${part.id}`}>
           {test.resource === "listening" ? <Recording locked={locked} part={test.audioScope === 'test' ? test.parts[0] : part} fullTest={test.audioScope === 'test'} sourceUrl={test.sourceUrl} position={session.audioTimes[test.audioScope === 'test' ? 'full' : part.id] || 0} onPosition={(value) => { const audioId = test.audioScope === 'test' ? 'full' : part.id; if (current.current.audioTimes[audioId] !== value) update({ audioTimes: { ...current.current.audioTimes, [audioId]: value } }); }} /> : <><AnswerFields html={part.passage} area="passage" {...fieldProps} /></>}
         </article>
