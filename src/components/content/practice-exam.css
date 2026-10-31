@@ -547,3 +547,21 @@
  .practice-exam .exam-identity { flex:1 1 calc(100% - 64px); }
  .practice-exam .exam-saved { margin-right:0; }
 }
+.listening-questions .listening-choice { display:flex!important; align-items:baseline; gap:8px; min-height:44px; padding:9px 12px!important; margin:7px 0; border:1px solid var(--line); border-radius:8px; cursor:pointer; box-sizing:border-box; }
+.listening-questions .listening-choice input { flex-shrink:0; width:18px!important; height:18px; min-width:18px; margin:0!important; }
+.listening-questions .listening-choice:has(input:checked) { background:var(--surface-strong); border-color:var(--teal); box-shadow:inset 3px 0 var(--teal); }
+.listening-questions .listening-choice:has(input:focus-visible) { outline:2px solid var(--teal); outline-offset:2px; }
+.listening-choice-count { color:var(--teal-strong); font-size:13px; font-weight:700; margin:10px 0!important; }
+.listening-word-limit { display:block; font-size:11px; line-height:1.5; color:var(--muted); margin:2px 4px 6px; font-weight:400; }
+.listening-questions .over-limit { color:#a14d15; }
+.practice-exam[data-theme=dark] .listening-questions .over-limit { color:#ffc38f; }
+.cd-content .listening-match-select { width:100%; max-width:100%; text-overflow:ellipsis; margin-inline:0; }
+.listening-nearby-options { display:block; margin:4px 0 12px; font-size:13px; }
+.listening-nearby-options summary { cursor:pointer; font-weight:600; color:var(--teal-strong); }
+.listening-nearby-options ul { margin:6px 0; padding:12px 12px 12px 30px; border:1px solid var(--line); border-radius:8px; background:var(--surface-strong); }
+.listening-answer-row { position:relative; padding-inline-start:40px; }
+.listening-answer-row .listening-row-number { position:absolute; inset-inline-start:8px; top:5px; font-weight:800; margin:0; }
+.listening-duplicate-number { display:none; }
+.listening-questions .native-gap:has(.listening-word-limit), .listening-questions .native-gap:has(.listening-nearby-options) { flex-wrap:wrap; max-width:100%; }
+.listening-questions .native-gap > .listening-word-limit, .listening-questions .native-gap > .listening-nearby-options { flex-basis:100%; }
+.listening-overlay-limit[hidden] { display:none!important; }

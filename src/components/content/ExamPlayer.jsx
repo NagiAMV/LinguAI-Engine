@@ -8,6 +8,7 @@ import ExamResults from "./ExamResults";
 import Recording from "./AudioRecording";
 import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
 import { enhanceReadingQuestions, syncReadingAnswers } from "./reading-questions.mjs";
+import { enhanceListeningQuestions, syncListeningQuestions } from "./listening-questions.mjs";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
 import { useAccount } from '@/components/account/AccountProvider';
@@ -36,12 +37,13 @@ function hasAnswer(question, answers) {
   return question.multiple ? Array.isArray(value) && value.length > question.slot : typeof value === "string" && Boolean(value.trim());
 }
 // Reuse the existing sanitized HTML controls and input handling without changing the dataset.
-function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area, reading }) {
+function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area, reading, listeningGroups }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
     arrangeImportedMaps(root.current);
     if(reading && area === "questions")enhanceReadingQuestions(root.current);
+    if(!reading && area === "questions")enhanceListeningQuestions(root.current,listeningGroups);
     for (const input of root.current.querySelectorAll("input[name], select[name]")) {
       input.disabled = locked;
       const value = answers[input.name];
@@ -50,7 +52,8 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
       else if (input.value !== (typeof value === "string" ? value : "")) input.value = typeof value === "string" ? value : "";
     }
     if(reading && area === "questions")syncReadingAnswers(root.current);
-  }, [html, answers, locked, reading, area]);
+    if(!reading && area === "questions")syncListeningQuestions(root.current);
+  }, [html, answers, locked, reading, area, listeningGroups]);
   function change(event) {
     const input = event.target;
     if (locked || !input.name) return;
@@ -245,7 +248,7 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     const question = questions.find((q) => q.partIndex === partIndex && q.name === name);
     if (question) update({ activeQuestion: question.id });
   }
-  const fieldProps = { reading:test.resource === "reading", answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
+  const fieldProps = { listeningGroups:answerKey?.parts?.[part.id]?.groups || [], reading:test.resource === "reading", answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
   return <main ref={shell} translate="no" data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`practice-exam notranslate ${highlightMode && !locked ? "highlight-mode" : ""} ${test.id.startsWith("single-listening-") ? "single-listening-exam" : ""} ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.resource === 'listening' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>
