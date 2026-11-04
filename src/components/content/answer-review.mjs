@@ -49,10 +49,24 @@ export function buildReviewRows(test, questions, answers, flags, key) {
       const multiple = Boolean(verified) || members[0]?.multiple;
       const value = multiple ? names.flatMap(n => Array.isArray(answers[n]) ? answers[n] : [answers[n] || '']) : answers[name];
       const response = Array.isArray(value) ? value.filter(v => String(v).trim()).join(', ') : value || '';
-      return [{ name, names, part: part.id, numbers: members.map(q => q.number).join('–'), response,
+      return [{ name, names, part: part.id, questionNumbers: members.map(q => q.number), responseValues: Array.isArray(value) ? value : [value || ''], numbers: members.map(q => q.number).join('–'), response,
         flagged: members.some(q => flags.includes(q.id)),
         ...reviewAnswer(value, members.map(q => q.number), key, multiple) }];
     });
   });
+}
+
+// The context review keeps groups together; the results table shows one mark per row.
+export function splitResultRows(rows) {
+ return rows.flatMap(row => {
+  if (!(row.questionNumbers?.length > 1)) return [row];
+  return row.questionNumbers.map((number, index) => {
+   const choice = row.choices?.[index];
+   const values = row.responseValues || [];
+   const response = index === row.questionNumbers.length - 1 ? values.slice(index).join(', ') : String(values[index] || '');
+   const status = row.status === 'pending' ? 'pending' : row.overSelected ? (response.trim() ? 'incorrect' : 'blank') : choice?.status || (response.trim() ? 'incorrect' : 'blank');
+   return {...row, name: `${row.name}:result:${number}`, numbers: String(number), response, status, choices: undefined, total: undefined, credit: undefined, groupStatus: row.status, groupRow: row};
+  });
+ });
 }
 

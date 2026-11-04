@@ -11,6 +11,7 @@ import { enhanceReadingQuestions, syncReadingAnswers } from "./reading-questions
 import { enhanceListeningQuestions, syncListeningQuestions } from "./listening-questions.mjs";
 import TextHighlights from "./TextHighlights";
 import ExamNotes from "./ExamNotes";
+import { prepareQuestionNavigation, syncActiveQuestion, focusAnswerField, adjacentQuestion } from './question-navigation.mjs';
 import { useAccount } from '@/components/account/AccountProvider';
 import { HIGHLIGHT_COLORS, validHighlight, selectionSnapshot, annotationId, uncoveredHighlights } from "./exam-annotations.mjs";
 
@@ -37,13 +38,15 @@ function hasAnswer(question, answers) {
   return question.multiple ? Array.isArray(value) && value.length > question.slot : typeof value === "string" && Boolean(value.trim());
 }
 // Reuse the existing sanitized HTML controls and input handling without changing the dataset.
-function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highlights, part, area, reading, listeningGroups }) {
+function AnswerFields({ html, answers, onAnswer, onFocusQuestion, onStepQuestion, activeNumber, activeName, partQuestions, locked, highlights, part, area, reading, listeningGroups }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
     arrangeImportedMaps(root.current);
     if(reading && area === "questions")enhanceReadingQuestions(root.current);
     if(!reading && area === "questions")enhanceListeningQuestions(root.current,listeningGroups);
+    prepareQuestionNavigation(root.current,partQuestions,listeningGroups);
+    syncActiveQuestion(root.current,activeNumber,activeName);
     for (const input of root.current.querySelectorAll("input[name], select[name]")) {
       input.disabled = locked;
       const value = answers[input.name];
@@ -54,6 +57,21 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
     if(reading && area === "questions")syncReadingAnswers(root.current);
     if(!reading && area === "questions")syncListeningQuestions(root.current);
   }, [html, answers, locked, reading, area, listeningGroups]);
+  useEffect(() => { syncActiveQuestion(root.current,activeNumber,activeName); }, [html,activeNumber,activeName]);
+  function keyDown(event) {
+    const field = event.target;
+    if (!locked && field.dataset.answerValue && ['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)) {
+      const buttons = [...field.parentElement.querySelectorAll('button:not(:disabled)')];
+      const direction = ['ArrowLeft','ArrowUp'].includes(event.key) ? -1 : 1;
+      buttons[(buttons.indexOf(field)+direction+buttons.length)%buttons.length]?.focus();
+      event.preventDefault();
+      return;
+    }
+    if (locked || event.key !== 'Tab' || event.ctrlKey || event.altKey || event.metaKey || !field.name) return;
+    // Native radio/checkbox keyboard navigation remains available for choosing options.
+    if (field.type === 'radio' || field.type === 'checkbox') return;
+    if (onStepQuestion(field.name,event.shiftKey ? -1 : 1)) event.preventDefault();
+  }
   function change(event) {
     const input = event.target;
     if (locked || !input.name) return;
@@ -63,7 +81,7 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, locked, highli
       onAnswer(input.name, values);
     } else onAnswer(input.name, input.value);
   }
-  return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={html} /><div ref={root} data-annotation-area={area} className="cd-content cd-questions" onInput={change} onFocus={(event) => onFocusQuestion(event.target.name)} dangerouslySetInnerHTML={markup} /></>;
+  return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={html} /><div ref={root} data-annotation-area={area} className="cd-content cd-questions" onInput={change} onKeyDown={keyDown} onFocus={(event) => onFocusQuestion(event.target.name)} dangerouslySetInnerHTML={markup} /></>;
 }
 
 export default function ExamPlayer(props) {
@@ -197,16 +215,11 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
   }
   useEffect(() => {
     if (!jump || !workspace.current) return;
-    const target = [...workspace.current.querySelectorAll("input[name],select[name]")].find((el) => el.name === jump.name);
-    const visibleTarget = target?.hidden ? target.nextElementSibling?.querySelector('button[aria-pressed="true"]') || target.nextElementSibling?.querySelector("button") : target;
-    const marker = document.getElementById(`ielts-${test.resource}-question-number-${jump.number}`);
-    (marker || visibleTarget)?.scrollIntoView({ block: "center", behavior: "instant" });
-    visibleTarget?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
-    visibleTarget?.focus({ preventScroll: true });
+    focusAnswerField(workspace.current,jump);
     setJump(null);
   }, [jump, session?.partIndex, test.resource, mobilePane]);
   useEffect(() => {
-    document.querySelector('.exam-question-nav [aria-current]')?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
+    shell.current?.querySelector('.exam-question-nav button[aria-current="true"]:not(.exam-part-tab)')?.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
   }, [session?.activeQuestion]);
   if (!session) return <main translate="no" className="exam-loading notranslate" role="status">Preparing your exam workspace…</main>;
   const { answers, partIndex, activeQuestion, flags, highlights = [], notes = [] } = session;
@@ -248,7 +261,13 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     const question = questions.find((q) => q.partIndex === partIndex && q.name === name);
     if (question) update({ activeQuestion: question.id });
   }
-  const fieldProps = { listeningGroups:answerKey?.parts?.[part.id]?.groups || [], reading:test.resource === "reading", answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
+  function stepQuestion(name,direction) {
+    const next = adjacentQuestion(questions,name,partIndex,direction);
+    if (!next) return false;
+    goTo(next);
+    return true;
+  }
+  const fieldProps = { activeNumber:active?.number, activeName:active?.name, partQuestions:questions.filter(q=>q.partIndex===partIndex), onStepQuestion:stepQuestion, listeningGroups:answerKey?.parts?.[part.id]?.groups || [], reading:test.resource === "reading", answers, locked, highlights, part:part.id, onAnswer: (name, value) => update({ answers: { ...current.current.answers, [name]: value } }), onFocusQuestion: focusQuestion };
   return <main ref={shell} translate="no" data-theme={theme} onPointerUp={captureSelection} onKeyUp={captureSelection} style={{ "--exam-font-size": `${fontSize}px`, "--exam-split": `${split}%` }} className={`practice-exam notranslate ${highlightMode && !locked ? "highlight-mode" : ""} ${test.id.startsWith("single-listening-") ? "single-listening-exam" : ""} ${test.id.startsWith("single-reading-") ? "single-passage-exam" : ""} ${test.resource === 'listening' ? 'imported-listening' : ''} ${finishedAt ? "exam-finished" : ""}`}>
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>

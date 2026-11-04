@@ -487,6 +487,22 @@
 }
 
 .results-score.results-score-single { grid-template-columns: 1fr; }
+.results-parts { margin: 24px 0; }
+.results-parts h3 { margin: 0 0 6px; font-size: 18px; }
+.results-parts > p { margin: 0 0 14px; color: var(--muted); font-size: 13px; }
+.results-part-scores { display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 12px; }
+.results-part-scores button { display: grid; gap: 8px; min-width: 0; padding: 18px; text-align: left; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-strong); color: var(--ink); cursor: pointer; }
+.results-part-scores button:hover { border-color: var(--teal-strong); }
+.results-part-scores button[aria-pressed=true] { border-color: var(--teal-strong); box-shadow: inset 0 0 0 1px var(--teal-strong); }
+.results-part-scores button:focus-visible { outline: 3px solid var(--teal-strong); outline-offset: 3px; }
+.results-part-scores span { font-size: 13px; color: var(--muted); }
+.results-part-scores strong { font-size: 30px; color: var(--teal-strong); font-variant-numeric: tabular-nums; }
+.results-part-scores small { font-size: 17px; font-weight: 400; color: var(--muted); }
+.results-part-scores progress { width: 100%; height: 6px; appearance: none; border: 0; border-radius: 8px; overflow: hidden; background: var(--line); }
+.results-part-scores progress::-webkit-progress-bar { background: var(--line); }
+.results-part-scores progress::-webkit-progress-value { background: var(--teal-strong); border-radius: 8px; }
+.results-part-scores progress::-moz-progress-bar { background: var(--teal-strong); border-radius: 8px; }
+@media(max-width:600px){.results-part-scores { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }.results-part-scores button { padding:14px; }}
 
 /* Keep map labels beside the plan at desktop widths. Container sizing also
    preserves legibility inside the narrower answer-review pane. */
@@ -658,3 +674,25 @@
 .practice-exam[data-theme=dark] .review-choice-response.incorrect { color:#ff9e9e; }
 .review-content input[data-review-status=correct] { accent-color:#409365; }
 .review-content input[data-review-status=incorrect] { accent-color:#bd5547; }
+/* Current question stays identifiable in both the worksheet and bottom navigator. */
+.practice-exam:not(.exam-finished) .exam-current-number {
+ background:var(--teal-strong)!important; color:var(--surface)!important;
+ border-radius:5px; padding:2px 5px; box-shadow:0 0 0 2px var(--teal);
+ font-weight:800; text-decoration:none;
+}
+.practice-exam:not(.exam-finished) .cd-content :is(input:not([type=radio]):not([type=checkbox]),select)[data-current-answer=true] { outline:2px solid var(--teal); outline-offset:2px; }
+.practice-exam .exam-question-nav button[aria-current=true]:not(.exam-part-tab) { background:var(--teal-strong); color:var(--surface); font-weight:800; box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--teal); }
+.exam-question-heading { font-size:1.1em!important; font-weight:800!important; color:var(--teal-strong); margin:18px 0 10px!important; }
+.exam-answer-group-heading { grid-column:1 / -1; display:table; margin:0 0 10px; padding:7px 11px; border:1px solid var(--line); border-radius:7px; color:var(--teal-strong); background:var(--surface-strong); font-size:14px; font-weight:800; line-height:1.5; }
+.exam-answer-group-heading.exam-current-group { border-color:var(--teal); box-shadow:inset 3px 0 var(--teal); }
+.imported-listening .cd-content .q-card:has(> .exam-answer-group-heading) > .exam-answer-group-heading { grid-row:1; }
+.imported-listening .cd-content .q-card:has(> .exam-answer-group-heading) > :is(.q-row,.ielts-listening-question-number) { grid-row:2; }
+/* Denser Listening layout, while keeping answer choices at least 44px high. */
+.imported-listening:not(.exam-finished) .cd-content :is(.q-card,.checkbox-group) { padding-block:12px; }
+.imported-listening:not(.exam-finished) .cd-content .q-list > li { margin-block:14px; }
+.imported-listening:not(.exam-finished) .cd-content :is(h2,h3) { margin-block:18px 10px; }
+.imported-listening:not(.exam-finished) .cd-content :is(.instruction,.q-instruction,.instr,.q-instr) { margin-block:12px; padding:12px 16px; }
+.imported-listening:not(.exam-finished) .cd-content .listening-choice { margin-block:4px; padding-block:7px!important; min-height:44px; }
+.imported-listening:not(.exam-finished) .cd-content .listening-matching-compact { gap:14px; margin-block:12px 18px; }
+.imported-listening:not(.exam-finished) .cd-content .listening-notes { gap:8px; margin-block:10px 16px; }
+.imported-listening:not(.exam-finished) .cd-content .listening-note-line { margin-block:3px; }

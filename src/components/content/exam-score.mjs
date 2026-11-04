@@ -29,3 +29,14 @@ export function scoreExam(test, questions, answers, key) {
   checked+=members.length;
   if(!multiple){correct+=Number(result.status==='correct');continue;}
   correct+=result.credit || 0;
+ }
+ const total=questions.length;
+ return {correct,total,checked,pending:total-checked,band:estimatedBand(correct,total,checked,test.resource)};
+}
+
+export function scoreParts(test, questions, answers, key) {
+ return test.parts.map((part, partIndex) => ({
+  part: part.id,
+  ...scoreExam(test, questions.filter(question => question.partIndex === partIndex), answers, key),
+ }));
+}

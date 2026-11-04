@@ -29,6 +29,7 @@ for(const id of ['single-listening-22','practice-listening-1','single-reading-1'
  assert.ok(markup.includes('Your answers, at a glance.'));
  if(id.startsWith('single-listening')){assert.ok(!markup.includes('Estimated IELTS Band'));assert.ok(markup.includes('>Answers<'));}
  else assert.ok(markup.includes('Estimated IELTS Band'));
+ assert.equal(markup.includes('id="part-scores-heading"'),paper.parts.length>1);
 });
 
 test('results filters keep correct, wrong, blank and pending rows separate',()=>{
@@ -41,6 +42,26 @@ test('results filters keep correct, wrong, blank and pending rows separate',()=>
    renderCall=0;renderStates=[null,part,filter];
    const markup=renderToStaticMarkup(React.createElement(module.exports.default,{test:paper,answerKey:key,explanations:{},questions,answers,flags:[],session:{finishedAt:1000,startedAt:1},answered:3}));
    assert.equal((markup.match(/<tr class="result-/g)||[]).length,expected,part+' '+filter);
+  }
+ }finally{renderStates=null;}
+});
+
+test('paired answers have separate rows and filters preserve each earned mark',()=>{
+ const paper={id:'partial-filter-test',title:'Partial group',resource:'listening',parts:[{id:2,fieldNames:['choices'],passage:'',questions:''}]};
+ const questions=[19,20].map(number=>({id:String(number),name:'choices',number:String(number),partIndex:0,multiple:true}));
+ const key={answers:{19:['A'],20:['E']},parts:{2:{groups:[{questions:[19,20],acceptedSets:[['A','E']]}]}}};
+ try{
+  for(const [filter,count] of [['all',2],['incorrect',1],['partial',2],['correct',1]]){
+   renderCall=0;renderStates=[null,'all',filter];
+   const markup=renderToStaticMarkup(React.createElement(module.exports.default,{test:paper,answerKey:key,explanations:{},questions,answers:{choices:['A','C']},flags:[],session:{finishedAt:1000,startedAt:1},answered:2}));
+   assert.equal((markup.match(/<tr class="result-/g)||[]).length,count,filter);
+   if(filter==='all'){
+    assert.ok(markup.includes('Review question 19 in context'));
+    assert.ok(markup.includes('Review question 20 in context'));
+    assert.equal((markup.match(/<tr class="result-correct"/g)||[]).length,1);
+    assert.equal((markup.match(/<tr class="result-incorrect"/g)||[]).length,1);
+    assert.ok(!markup.includes('>19–20 ↗'));
+   }
   }
  }finally{renderStates=null;}
 });
