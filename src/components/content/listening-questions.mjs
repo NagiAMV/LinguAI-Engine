@@ -70,6 +70,6 @@ export function syncListeningQuestions(root){
   const selected=counter._fields.filter(f=>f.checked).length,limit=counter._limit;counter.textContent=`Selected ${selected} of ${limit}`+(selected>limit?' — remove an extra choice':'');counter.classList.toggle('over-limit',selected>limit);
  }
  for(const hint of root.querySelectorAll('.listening-word-limit')){
-  const rule=hint._rule,field=hint._field,over=exceedsWordLimit(field.value,rule);hint.textContent=`Up to ${rule.words} word${rule.words===1?'':'s'}`+(rule.number==='allowed'?(rule.exclusive?' OR 1 number':' + up to 1 number'):'')+(over?' — check word limit':'');hint.classList.toggle('over-limit',over);if(hint.classList.contains('listening-overlay-limit')){hint.hidden=document.activeElement!==field;field.title=hint.textContent;}
+  const rule=hint._rule,field=hint._field,over=exceedsWordLimit(field.value,rule);hint.textContent=`Up to ${rule.words} word${rule.words===1?'':'s'}`+(rule.number==='allowed'?(rule.exclusive?' OR 1 number':' + up to 1 number'):'')+(over?' — check word limit':'');hint.classList.toggle('over-limit',over);hint.hidden=!over || (hint.classList.contains('listening-overlay-limit') && document.activeElement!==field);if(!over)hint.textContent='';if(hint.classList.contains('listening-overlay-limit'))field.title=over?hint.textContent:'';
  }
 }

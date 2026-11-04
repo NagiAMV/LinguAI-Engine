@@ -565,3 +565,41 @@
 .listening-questions .native-gap:has(.listening-word-limit), .listening-questions .native-gap:has(.listening-nearby-options) { flex-wrap:wrap; max-width:100%; }
 .listening-questions .native-gap > .listening-word-limit, .listening-questions .native-gap > .listening-nearby-options { flex-basis:100%; }
 .listening-overlay-limit[hidden] { display:none!important; }
+/* Instruction panel: stronger colour at the start, fading into the paper. */
+.imported-listening .cd-content :is(.instruction,.q-instruction,.instr,.q-instr) {
+  background:linear-gradient(90deg,rgba(73,137,111,.28) 0%,rgba(73,137,111,.10) 58%,rgba(73,137,111,0) 100%);
+  border-left:3px solid var(--teal);
+  padding:16px 20px;
+  border-radius:0 8px 8px 0;
+}
+.practice-exam[data-theme=dark] .cd-content :is(.instruction,.q-instruction,.instr,.q-instr) {
+  background:linear-gradient(90deg,rgba(151,203,185,.25) 0%,rgba(151,203,185,.08) 58%,rgba(151,203,185,0) 100%);
+}
+.listening-word-limit[hidden] { display:none!important; }
+/* Keep the question number and prompt on the same first line. */
+.imported-listening .cd-content .q-card:has(> .q-row) {
+  display:grid;
+  grid-template-columns:30px minmax(0,1fr);
+  column-gap:8px;
+  align-items:baseline;
+}
+.imported-listening .cd-content .q-card:has(> .q-row) > .ielts-listening-question-number {
+  float:none;
+  position:static;
+  grid-column:1;
+  grid-row:1;
+  margin:0;
+  font-weight:800;
+}
+.imported-listening .cd-content .q-card > .q-row {
+  grid-column:2;
+  grid-row:1;
+  margin:0 0 10px;
+  padding:0;
+  min-width:0;
+}
+.imported-listening .cd-content .q-card:has(> .q-row) > :is(.options,.opts,.choices) { grid-column:1 / -1; }
+.imported-listening .cd-content .q-card:has(> .q-row) > .ielts-listening-question-number { justify-self:start; }
+.imported-listening .cd-content .q-card:has(> .ielts-listening-question-number ~ .ielts-listening-question-number):has(> .q-row) { grid-template-columns:64px minmax(0,1fr); }
+.imported-listening .cd-content .q-card:has(> .q-row) > .ielts-listening-question-number:nth-of-type(2) { justify-self:center; }
+.imported-listening .cd-content .q-card:has(> .q-row) > .ielts-listening-question-number:last-of-type:not(:first-of-type) { justify-self:end; }
