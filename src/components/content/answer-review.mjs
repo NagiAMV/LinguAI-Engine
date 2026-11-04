@@ -1,43 +1,38 @@
-// Only explicit source alternatives are accepted. No inferred synonyms or band scores.
+// Only explicit source alternatives are accepted.
 export function normalizeAnswer(value) {
-  return String(value ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('en');
+ return String(value ?? '').normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase('en');
 }
-
-export function reviewAnswer(value, numbers, key, multiple = false) {
-  const group = multiple && Object.values(key?.parts || {}).flatMap(part => part.groups || []).find(group => group.questions.length === numbers.length && group.questions.every(n => numbers.map(Number).includes(n)));
-  if (group) {
-    const sets = group.acceptedSets;
-    if (!Array.isArray(sets) || !sets.length || sets.some(set => !Array.isArray(set) || set.length !== numbers.length || !set.every(answer => typeof answer === 'string' && answer.trim()))) return { status: 'pending', display: null };
-    const display = sets.map(set => set.join(', ')).join(' OR ');
-    const selected = (Array.isArray(value) ? value : [value]).map(normalizeAnswer).filter(Boolean).sort();
-    if (!selected.length) return { status: 'blank', display };
-    const correct = sets.some(set => JSON.stringify(set.map(normalizeAnswer).sort()) === JSON.stringify(selected));
-    return { status: correct ? 'correct' : 'incorrect', display };
-  }
-  const entries = numbers.map(number => key?.answers?.[number]);
-  const available = entries.length > 0 && entries.every(entry => Array.isArray(entry) && entry.length && entry.every(v => typeof v === 'string' && v.trim()));
-  const responses = (Array.isArray(value) ? value : [value]).map(normalizeAnswer).filter(Boolean);
-  const display = available ? entries.map(entry => entry.join(' / ')).join(', ') : null;
-  if (!available) return { status: 'pending', display: null };
-  if (!responses.length) return { status: 'blank', display };
-  if (!multiple) return { status: entries[0].some(answer => normalizeAnswer(answer) === responses[0]) ? 'correct' : 'incorrect', display };
-  // Match each choice to one answer slot, irrespective of selection order.
-  const choices = [...new Set(responses)];
-  const used = new Set();
-  function matches(index) {
-    if (index === entries.length) return true;
-    for (let i = 0; i < choices.length; i++) {
-      if (!used.has(i) && entries[index].some(answer => normalizeAnswer(answer) === choices[i])) {
-        used.add(i);
-        if (matches(index + 1)) return true;
-        used.delete(i);
-      }
-    }
-    return false;
-  }
-  return { status: choices.length === entries.length && matches(0) ? 'correct' : 'incorrect', display };
+function matchChoices(responses,slots) {
+ const owner=new Map();
+ function assign(index,visited){
+  for(let slot=0;slot<slots.length;slot++){
+   if(visited.has(slot)||!slots[slot].some(answer=>normalizeAnswer(answer)===normalizeAnswer(responses[index])))continue;
+   visited.add(slot);
+   if(!owner.has(slot)||assign(owner.get(slot),visited)){owner.set(slot,index);return true;}
+  }return false;
+ }
+ responses.forEach((value,index)=>{if(normalizeAnswer(value))assign(index,new Set());});
+ return new Set(owner.values());
 }
-
+export function reviewAnswer(value,numbers,key,multiple=false){
+ const group=multiple&&Object.values(key?.parts||{}).flatMap(part=>part.groups||[]).find(group=>group.questions.length===numbers.length&&group.questions.every(n=>numbers.map(Number).includes(n)));
+ let sets,display;
+ if(group){
+  if(!Array.isArray(group.acceptedSets)||!group.acceptedSets.length||group.acceptedSets.some(set=>!Array.isArray(set)||set.length!==numbers.length||!set.every(answer=>typeof answer==='string'&&answer.trim())))return {status:'pending',display:null};
+  sets=group.acceptedSets.map(set=>set.map(answer=>[answer]));display=group.acceptedSets.map(set=>set.join(', ')).join(' OR ');
+ }else{
+  const entries=numbers.map(number=>key?.answers?.[number]);
+  if(!entries.length||!entries.every(entry=>Array.isArray(entry)&&entry.length&&entry.every(v=>typeof v==='string'&&v.trim())))return {status:'pending',display:null};
+  display=entries.map(entry=>entry.join(' / ')).join(', ');sets=[entries];
+ }
+ const responses=(Array.isArray(value)?value:[value]).map(v=>String(v??''));
+ if(!multiple){const response=normalizeAnswer(responses[0]);return {status:!response?'blank':sets[0][0].some(v=>normalizeAnswer(v)===response)?'correct':'incorrect',display};}
+ const selected=responses.filter(v=>normalizeAnswer(v));
+ let matched=new Set();for(const slots of sets){const candidate=matchChoices(responses,slots);if(candidate.size>matched.size)matched=candidate;}
+ const overSelected=selected.length>numbers.length,credit=overSelected?0:matched.size;
+ const status=!selected.length?'blank':overSelected?'incorrect':credit===numbers.length?'correct':credit>0?'partial':'incorrect';
+ return {status,display,credit,total:numbers.length,overSelected,choices:responses.map((response,index)=>({response,status:!normalizeAnswer(response)?'blank':matched.has(index)?'correct':'incorrect'}))};
+}
 // Build review rows from existing field names without changing persisted answers.
 // A verified unordered group can span one checkbox field or several text fields.
 export function buildReviewRows(test, questions, answers, flags, key) {
@@ -60,3 +55,4 @@ export function buildReviewRows(test, questions, answers, flags, key) {
     });
   });
 }
+

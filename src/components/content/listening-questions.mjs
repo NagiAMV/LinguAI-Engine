@@ -20,6 +20,11 @@ function entriesFromBank(node) {
 }
 export function enhanceListeningQuestions(root,groups=[]) {
  root.classList.add('listening-questions');
+ for(const hint of root.querySelectorAll('.listening-word-limit')){
+  if(hint._field){const field=hint._field;field.removeAttribute('title');const ids=(field.getAttribute('aria-describedby')||'').split(/\s+/).filter(id=>id&&id!==hint.id);if(ids.length)field.setAttribute('aria-describedby',ids.join(' '));else field.removeAttribute('aria-describedby');}hint.remove();
+ }
+ tidyListeningNotes(root);
+
  const bankSelector='.matching-box,.opt-box,.optbank-block,.headlist,.match-key-box,.options-box,ul,ol';
  const banks=[...root.querySelectorAll(bankSelector)].filter(n=>!n.closest('[data-listening-ui]')).map(node=>({node,entries:entriesFromBank(node)}));
  // Native papers also have plain A/B/C lines immediately before matching rows.
@@ -36,8 +41,14 @@ export function enhanceListeningQuestions(root,groups=[]) {
   if(!bank)continue;
   for(const option of options)option.textContent=option.value+' — '+bank.entries.get(option.value);
   select.classList.add('listening-match-select');
-  const details=ui('details','listening-nearby-options'),summary=document.createElement('summary');summary.textContent='Show options';details.append(summary);
-  const list=document.createElement('ul');for(const option of options){const li=document.createElement('li');li.textContent=option.textContent;list.append(li);}details.append(list);select.after(details);
+
+ }
+ // Keep an existing option bank beside its matching rows without copying text.
+ for(const bank of root.querySelectorAll('.opt-box,.matching-box,.optbank-block')){
+  if(bank.closest('.listening-matching-compact,.listening-map-task'))continue;
+  const rows=bank.nextElementSibling;
+  if(!rows?.matches('.drag-match-layout')||!rows.querySelector('select.listening-match-select'))continue;
+  const nodes=[];for(let node=bank;node;node=node.nextSibling){nodes.push(node);if(node===rows)break;}const layout=document.createElement('div');layout.className='listening-matching-compact';bank.before(layout);layout.append(...nodes);
  }
  for(const label of root.querySelectorAll('label'))if(label.querySelectorAll('input[type=radio],input[type=checkbox]').length===1)label.classList.add('listening-choice');
  for(const row of root.querySelectorAll('.native-text-row,.q-row,.match-row,.matching-item,.drag-item-row')){
@@ -56,20 +67,32 @@ export function enhanceListeningQuestions(root,groups=[]) {
   const counter=ui('p','listening-choice-count');counter.dataset.listeningGroup=key;counter.setAttribute('role','status');counter.setAttribute('aria-live','polite');counter._fields=fields;counter._limit=group.questions.length;
   const label=fields[0].closest('label')||fields[0];label.before(counter);
  }
- for(const field of root.querySelectorAll('input[type=text][name]')){
-  if(field.dataset.listeningLimitChecked)continue;field.dataset.listeningLimitChecked='true';
-  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement.closest('select,button,[data-listening-ui],[data-reading-ui]')?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});let prefix='';while(walker.nextNode()){const n=walker.currentNode;if(n.compareDocumentPosition(field)&Node.DOCUMENT_POSITION_FOLLOWING)prefix+=n.textContent+' ';}
-  const rule=wordLimitFromText(prefix);if(!rule)continue;
-  const hint=ui('small','listening-word-limit');hint._field=field;hint._rule=rule;hint.id='limit-'+field.name;hint.setAttribute('aria-live','polite');field.setAttribute('aria-describedby',[field.getAttribute('aria-describedby'),hint.id].filter(Boolean).join(' '));const overlay=field.closest('.worksheet-input');
-  if(overlay){hint.classList.add('listening-overlay-limit');(overlay.closest('.native-diagram-scroll')||root).append(hint);field.addEventListener('focus',()=>syncListeningQuestions(root));field.addEventListener('blur',()=>syncListeningQuestions(root));}else field.after(hint);
- }
+
  syncListeningQuestions(root);
 }
 export function syncListeningQuestions(root){
  for(const counter of root.querySelectorAll('[data-listening-group]')){
   const selected=counter._fields.filter(f=>f.checked).length,limit=counter._limit;counter.textContent=`Selected ${selected} of ${limit}`+(selected>limit?' — remove an extra choice':'');counter.classList.toggle('over-limit',selected>limit);
  }
- for(const hint of root.querySelectorAll('.listening-word-limit')){
-  const rule=hint._rule,field=hint._field,over=exceedsWordLimit(field.value,rule);hint.textContent=`Up to ${rule.words} word${rule.words===1?'':'s'}`+(rule.number==='allowed'?(rule.exclusive?' OR 1 number':' + up to 1 number'):'')+(over?' — check word limit':'');hint.classList.toggle('over-limit',over);hint.hidden=!over || (hint.classList.contains('listening-overlay-limit') && document.activeElement!==field);if(!over)hint.textContent='';if(hint.classList.contains('listening-overlay-limit'))field.title=over?hint.textContent:'';
+}
+
+export function tidyListeningNotes(root){
+ for(const flow of root.querySelectorAll('.note-flow')){
+  if(flow.dataset.notesTidied||!flow.querySelector('input,select'))continue;flow.dataset.notesTidied='true';flow.classList.add('listening-notes');
+  const original=[...flow.childNodes];let section=null,line=[];
+  const ensureSection=()=>{if(!section){section=document.createElement('section');section.className='listening-note-section';flow.append(section);}return section;};
+  const flush=()=>{
+   if(!line.length)return;if(!section&&!line.some(n=>n.nodeType===Node.ELEMENT_NODE||n.textContent.trim())){flow.append(...line);line=[];return;}const host=ensureSection();
+   if(line.some(n=>n.nodeType===Node.ELEMENT_NODE||n.textContent.trim())){
+    const row=document.createElement('div');row.className='listening-note-line';host.append(row);row.append(...line);
+    const first=row.firstChild;if(first?.nodeType===Node.TEXT_NODE){const marker=first.textContent.match(/^\s*[-•]\s+/);if(marker){const span=document.createElement('span');span.className='listening-note-marker';const range=document.createRange();range.setStart(first,0);range.setEnd(first,marker[0].length);range.surroundContents(span);}}
+   }else host.append(...line);
+   line=[];
+  };
+  for(const node of original){
+   if(node.nodeType===Node.ELEMENT_NODE&&node.matches('.subhead,.notes-subhdr')){flush();section=document.createElement('section');section.className='listening-note-section';flow.append(section);section.append(node);}
+   else if(node.nodeType===Node.ELEMENT_NODE&&node.tagName==='BR'){flush();ensureSection().append(node);}
+   else line.push(node);
+  }flush();
  }
 }

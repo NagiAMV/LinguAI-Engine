@@ -1,18 +1,21 @@
 "use client";
+import { normalizeAnswer } from "./answer-review.mjs";
 import { evidenceRange } from "./review-evidence.mjs";
 import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
+import { prepareReviewTables } from "./review-tables.mjs";
 import TextHighlights from "./TextHighlights";
 import AudioRecording from "./AudioRecording";
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAccount } from '@/components/account/AccountProvider';
 
-const labels = { correct: '✓ Correct', incorrect: '× Incorrect', blank: '— Unanswered', pending: '○ Not checked' };
+const labels = { correct: '✓ Correct', incorrect: '× Incorrect', partial: '◐ Partially correct', blank: '— Unanswered', pending: '○ Not checked' };
 function AnnotatedContent({ html, answers, rows, active, highlights, part, area, language, explanations, onEvidence }) {
   const root = useRef(null);
   const markup = useMemo(() => ({ __html: layoutMapQuestions(html) }), [html]);
   useEffect(() => {
     const element = root.current;
     arrangeImportedMaps(element);
+    prepareReviewTables(element);
     const opened = new Set([...element.querySelectorAll('details[open][data-explanation]')].map(node => node.dataset.explanation));
     element.querySelectorAll('[data-review-feedback]').forEach(node => node.remove());
     element.querySelectorAll('[data-review-row]').forEach(node=>{node.classList.remove('review-active');delete node.dataset.reviewRow;});
@@ -25,7 +28,10 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       else field.value = typeof value === 'string' ? value : '';
       const row = rows.find(item => item.names.includes(field.name));
       if (!row) continue;
-      field.dataset.reviewStatus = row.status;
+      let fieldStatus=row.status;
+      if(field.type==='checkbox'||field.type==='radio')fieldStatus=field.checked?(row.choices?.find(choice=>normalizeAnswer(choice.response)===normalizeAnswer(field.value))?.status||row.status):null;
+      else if(row.choices)fieldStatus=row.choices[row.names.indexOf(field.name)]?.status||row.status;
+      if(fieldStatus)field.dataset.reviewStatus=fieldStatus;else delete field.dataset.reviewStatus;
       const host = field.closest('.ielts-reading-question-item,.ielts-listening-question-item') || field.parentElement;
       host.dataset.reviewRow = row.name;
       host.classList.toggle('review-active', row.name === active);
@@ -36,14 +42,18 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       feedback.className = `review-inline-feedback ${row.status}`;
       const ru = language === 'ru', uz = language === 'uz';
       function line(className, text) { const node=document.createElement('span');node.className=className;node.textContent=text;feedback.append(node); }
-      line('review-answer-user '+row.status, `${ru?'Твой ответ':uz?'Javobingiz':'Your answer'}: ${row.response || (ru?'Нет ответа':uz?'Javob yo‘q':'No answer')}`);
+      const userLine=document.createElement('span');userLine.className='review-answer-user';userLine.append((ru?'Твой ответ':uz?'Javobingiz':'Your answer')+': ');
+      if(row.choices){row.choices.forEach((choice,index)=>{if(index)userLine.append(', ');const item=document.createElement('span');item.className='review-choice-response '+choice.status;item.textContent=(choice.response||(ru?'Нет ответа':uz?'Javob yo‘q':'No answer'))+(choice.status==='correct'?' ✓':choice.status==='incorrect'?' ×':'');userLine.append(item);});}
+      else {userLine.classList.add(row.status);userLine.append(row.response||(ru?'Нет ответа':uz?'Javob yo‘q':'No answer'));}feedback.append(userLine);
+      if(row.total)line('review-group-credit',(ru?'Баллы':uz?'Ball':'Marks')+': '+row.credit+' / '+row.total);
+
       line('review-answer-key', `${ru?'Правильный ответ':uz?'To‘g‘ri javob':'Correct answer'}: ${row.display || (ru?'Не проверено':uz?'Tekshirilmagan':'Not checked')}`);
       const detail=document.createElement('details');detail.dataset.explanation=row.name;detail.open=opened.has(row.name);detail.className='review-explanation';
       const summary=document.createElement('summary');summary.textContent=ru?'Объяснение':uz?'Izoh':'Explanation';detail.append(summary);
       const reason=document.createElement('p');
-      const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:uz?{correct:'Javobingiz kalitdagi qabul qilinadigan javobga mos.',incorrect:'Javobingiz kalitdagi qabul qilinadigan javoblarga mos emas.',blank:'Javob kiritilmagan.',pending:'Tasdiqlangan javob kaliti yo‘q, shu sababli bu javob baholanmaydi.'}:{correct:'Your answer matches an accepted answer in the key.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
+      const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',partial:'Часть ответов верна; каждый засчитан отдельно.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:uz?{correct:'Javobingiz kalitdagi qabul qilinadigan javobga mos.',partial:'Javoblarning bir qismi to‘g‘ri; ular alohida hisoblangan.',incorrect:'Javobingiz kalitdagi qabul qilinadigan javoblarga mos emas.',blank:'Javob kiritilmagan.',pending:'Tasdiqlangan javob kaliti yo‘q, shu sababli bu javob baholanmaydi.'}:{correct:'Your answer matches an accepted answer in the key.',partial:'Some answers are correct; each is credited separately.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
       reason.textContent=reasons[row.status]+(row.status!=='pending'?(ru?' Регистр букв и лишние пробелы не учитываются.':uz?' Katta-kichik harflar va ortiqcha bo‘shliqlar hisobga olinmaydi.':' Letter case and extra whitespace are ignored.'):'');detail.append(reason);
-      if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Для этой группы нужен полный набор ответов. Порядок не важен.':uz?'Bu guruh uchun javoblarning to‘liq to‘plami kerak. Tartibi muhim emas.':'This group requires the complete answer set. Order does not matter.';detail.append(group);}
+      if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Каждый правильный ответ даёт один балл. Порядок не важен.':uz?'Har bir to‘g‘ri javob uchun bir ball beriladi. Tartibi muhim emas.':'Each correct answer earns one mark. Order does not matter.';detail.append(group);}
       const explanation=explanations[row.numbers];
       if(explanation?.part===part){
         const quotes=explanation.quotes?.length?explanation.quotes:explanation.quote?[explanation.quote]:[];
@@ -54,8 +64,15 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
         for(const citation of quotes){const quote=document.createElement('blockquote');quote.textContent=citation;detail.append(quote);}
         if(quotes.length){const show=document.createElement('button');show.type='button';show.className='review-show-evidence';show.textContent=ru?'Показать в тексте ↗':uz?'Matnda ko‘rsatish ↗':'Show in text ↗';show.onclick=()=>onEvidence(quotes);detail.append(show);}
       }
+      if(row.overSelected){const warning=document.createElement('p');warning.textContent=ru?'Выбрано больше ответов, чем требуется: за группу начислено 0 баллов.':uz?'Talab qilinganidan ko‘p javob tanlangan: guruh uchun 0 ball.':'More answers selected than requested: this group earns 0 marks.';detail.append(warning);}
       feedback.append(detail);
-      (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
+      const diagram = host.closest('.worksheet-input')?.closest('.native-diagram-scroll');
+      if (diagram) {
+        let list = diagram.nextElementSibling;
+        if (!list?.classList.contains('review-diagram-feedback')) { list=document.createElement('div');list.className='review-diagram-feedback';diagram.after(list); }
+        const title=document.createElement('strong');title.className='review-diagram-question';title.textContent=(ru?'Вопрос ':uz?'Savol ':'Question ')+row.numbers;feedback.prepend(title);
+        feedback.classList.toggle('review-active',row.name===active);list.append(feedback);
+      } else (host.tagName === 'TR' ? host.querySelector('td') || host : host).append(feedback);
     }
   }, [html, answers, rows, active, language, explanations, part, onEvidence]);
   return <><TextHighlights root={root} highlights={highlights} part={part} area={area} revision={active} /><div ref={root} className="cd-content review-content" dangerouslySetInnerHTML={markup} /></>;
@@ -75,7 +92,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   const root = useRef(null);
   const part = test.parts.find(p => p.id === partId);
   const partRows = useMemo(() => rows.filter(row => row.part === partId), [rows, partId]);
-  const visible = partRows.filter(row => !errorsOnly || ['incorrect','blank'].includes(row.status));
+  const visible = partRows.filter(row => !errorsOnly || ['incorrect','partial','blank'].includes(row.status));
   function showEvidence(quote, scroll = true) {
     const passage=root.current.querySelector('[data-review-passage] .review-content');
     const citations=(Array.isArray(quote)?quote:[quote]).filter(Boolean);
@@ -92,7 +109,8 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   function go(row) { setPartId(row.part); setActive(row.name); setJump(row.name); }
   useEffect(() => {
     if (!jump) return;
-    const target = [...root.current.querySelectorAll('[data-review-row]')].find(node => node.dataset.reviewRow === jump);
+    let target = [...root.current.querySelectorAll('[data-review-row]')].find(node => node.dataset.reviewRow === jump);
+    if(target?.matches('.worksheet-input'))target=[...root.current.querySelectorAll('.review-diagram-feedback [data-review-feedback]')].find(node=>node.dataset.reviewFeedback===jump)||target;
     if (target) { target.tabIndex = -1; target.scrollIntoView({ block: 'center', inline: 'nearest' }); target.focus({ preventScroll: true }); }
     const row=rows.find(item=>item.name===jump&&item.part===partId);
     const explanation=row&&explanations[row.numbers];

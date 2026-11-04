@@ -12,6 +12,11 @@ function bankEntries(bank) {
 export function enhanceReadingQuestions(root) {
  if(!root)return;
  root.classList.add('reading-questions');
+ for(const p of root.querySelectorAll('p')){
+  if(p.querySelector('input,select')||p.closest('.instruction,.q-instruction,.q-instr,.instr,table,[data-reading-ui]'))continue;
+  if(/^(?:Complete |Choose |Write |Match |Look at |Do the following |Reading Passage |You should spend )/i.test(p.textContent.trim()))p.classList.add('reading-instruction');
+ }
+
  for(const table of root.querySelectorAll('table')) {
   if(table.parentElement.classList.contains('reading-table-scroll'))continue;
   const wrapper=document.createElement('div');wrapper.className='reading-table-scroll';wrapper.tabIndex=0;wrapper.setAttribute('role','region');wrapper.setAttribute('aria-label','Question table — scroll horizontally to see all columns');table.before(wrapper);wrapper.append(table);

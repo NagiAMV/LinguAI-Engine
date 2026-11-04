@@ -24,6 +24,7 @@ export function arrangeImportedMaps(root) {
     const group = document.createElement('div'); group.className = 'listening-map-task';
     const left = document.createElement('div'); left.className = 'listening-map-image';
     const right = document.createElement('div'); right.className = 'listening-map-answers';
-    diagram.before(group); group.append(left,right); left.append(diagram); right.append(...rows);
+    const content=[];for(let node=diagram.nextSibling;node;node=node.nextSibling){content.push(node);if(node===rows.at(-1))break;}
+    diagram.before(group); group.append(left,right); left.append(diagram); right.append(...content);
   }
 }
