@@ -427,40 +427,6 @@
       "basis": "question-and-current-transcript",
       "audioVerified": false
     },
-    "17–18": {
-      "part": 2,
-      "en": "A + D, either order. All-in offers twelve months for the price of nine; off-peak is also explicitly reduced. The family pack is cheaper than separate purchases, but this is not described as a temporary introductory reduction.",
-      "ru": "A + D в любом порядке. All-in: 12 месяцев по цене 9; off-peak тоже прямо назван сниженным на этот месяц. Семейный тариф выгоднее отдельных покупок, но это не временная вводная скидка.",
-      "uz": "A + D, tartibi muhim emas. All-in: 9 oy narxiga 12 oy; off-peak ham shu oyga arzonlashtirilgan. Oilaviy paket alohida xaridlardan arzon, lekin vaqtinchalik boshlang‘ich chegirma deyilmagan.",
-      "quotes": [
-        "offering 12 months for the price of 9",
-        "only is the off-peak"
-      ],
-      "location": {
-        "en": "[11:39]",
-        "ru": "[11:39]",
-        "uz": "[11:39]"
-      },
-      "basis": "question-and-current-transcript",
-      "audioVerified": false
-    },
-    "19–20": {
-      "part": 2,
-      "en": "B + E, either order. New members receive a massage voucher and a heart-rate monitor. The bottle is for everyone attending, not a special membership gift; towels and clothing were considered but not chosen.",
-      "ru": "B + E в любом порядке. Новым участникам дают массажный ваучер и пульсометр. Бутылку получат все присутствующие; полотенца и одежду рассматривали, но не выбрали.",
-      "uz": "B + E, tartibi muhim emas. Yangi a’zolarga massaj vaucheri va yurak urishini o‘lchagich beriladi. Shisha barcha qatnashchilarga; sochiq va kiyim esa tanlanmagan takliflar.",
-      "quotes": [
-        "a voucher for a session in our massage centre",
-        "a drink bottle to take away with them"
-      ],
-      "location": {
-        "en": "[12:54]",
-        "ru": "[12:54]",
-        "uz": "[12:54]"
-      },
-      "basis": "question-and-current-transcript",
-      "audioVerified": false
-    },
     "21": {
       "part": 3,
       "en": "C. “That” refers to average workforce incomes. The measure compares house prices with earnings; the size of an affordable house is explicitly missing.",
@@ -787,6 +753,207 @@
         "en": "[25:48]",
         "ru": "[25:48]",
         "uz": "[25:48]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "17–18": {
+      "part": 2,
+      "en": "A + D, either order. All-in offers twelve months for the price of nine; off-peak is also explicitly reduced. The family pack is cheaper than separate purchases, but this is not described as a temporary introductory reduction.",
+      "ru": "A + D в любом порядке. All-in: 12 месяцев по цене 9; off-peak тоже прямо назван сниженным на этот месяц. Семейный тариф выгоднее отдельных покупок, но это не временная вводная скидка.",
+      "uz": "A + D, tartibi muhim emas. All-in: 9 oy narxiga 12 oy; off-peak ham shu oyga arzonlashtirilgan. Oilaviy paket alohida xaridlardan arzon, lekin vaqtinchalik boshlang‘ich chegirma deyilmagan.",
+      "quotes": [
+        "offering 12 months for the price of 9",
+        "only is the off-peak"
+      ],
+      "location": {
+        "en": "[11:39]",
+        "ru": "[11:39]",
+        "uz": "[11:39]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "19–20": {
+      "part": 2,
+      "en": "B + E, either order. New members receive a massage voucher and a heart-rate monitor. The bottle is for everyone attending, not a special membership gift; towels and clothing were considered but not chosen.",
+      "ru": "B + E в любом порядке. Новым участникам дают массажный ваучер и пульсометр. Бутылку получат все присутствующие; полотенца и одежду рассматривали, но не выбрали.",
+      "uz": "B + E, tartibi muhim emas. Yangi a’zolarga massaj vaucheri va yurak urishini o‘lchagich beriladi. Shisha barcha qatnashchilarga; sochiq va kiyim esa tanlanmagan takliflar.",
+      "quotes": [
+        "a voucher for a session in our massage centre",
+        "a drink bottle to take away with them"
+      ],
+      "location": {
+        "en": "[12:54]",
+        "ru": "[12:54]",
+        "uz": "[12:54]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    }
+  },
+  "single-listening-17": {
+    "1": {
+      "part": 1,
+      "en": "Answering the phone is the actual duty. Peter suggests washing up, but the employer corrects him. Waiting at tables is also explicitly excluded. The gap asks for the type of work, so use one of the accepted forms of “answer the phone”, within the three-word limit.",
+      "ru": "Обязанность — отвечать на телефонные звонки: «answering the phone». Питер предполагает мытьё посуды, но работодатель его поправляет. Обслуживание столиков тоже прямо исключается. В пропуск нужен вид работы, поэтому подходит допустимая форма «answer the phone» — не больше трёх слов.",
+      "uz": "Asosiy vazifa — telefonga javob berish: “answering the phone”. Peter idish yuvishni taxmin qiladi, lekin ish beruvchi uni to‘g‘rilaydi. Stolga xizmat qilish ham rad etiladi. Bo‘shliqqa ish turi kerak; uch so‘zdan oshmaydigan “answer the phone” variantlaridan biri mos.",
+      "quotes": [
+        "It's answering the phone.",
+        "And not waiting at tables."
+      ],
+      "location": {
+        "en": "[02:42]",
+        "ru": "[02:42]",
+        "uz": "[02:42]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "2": {
+      "part": 1,
+      "en": "The question asks which branch is recruiting, not the number of branches. The road name is spelled out: H-I-LL-S-D-U-NN-E. Therefore the key is Hillsdunne Road. The draft transcript’s “Hills Don Road” is a recognition error; follow the spelled letters and the verified key.",
+      "ru": "Нужно название филиала, а не количество филиалов. Название улицы диктуют по буквам: H-I-LL-S-D-U-NN-E, то есть Hillsdunne Road. Фраза «Hills Don Road» в черновом транскрипте — ошибка распознавания; ориентируйся на продиктованные буквы и ключ.",
+      "uz": "Savol filiallar sonini emas, qaysi filial ekanini so‘raydi. Ko‘cha nomi H-I-LL-S-D-U-NN-E deb harflab aytiladi: Hillsdunne Road. Qoralama transkriptdagi “Hills Don Road” tanib olish xatosi; harflangan nom va javob kalitiga tayaning.",
+      "quotes": [
+        "we have two branches.",
+        "H I double L S D U double N E road."
+      ],
+      "location": {
+        "en": "[03:11–03:41]",
+        "ru": "[03:11–03:41]",
+        "uz": "[03:11–03:41]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "3": {
+      "part": 1,
+      "en": "The nearest bus stop is beside the library. “Beside” in the recording matches “next to” in the question. Write library in the gap; do not add the bus stop or restaurant, because these identify the things whose location is being discussed.",
+      "ru": "Ближайшая остановка находится рядом с библиотекой. Слово «beside» в реплике соответствует «next to» в вопросе. Вписывай library: остановка и ресторан уже заданы контекстом, а спрашивают, рядом с каким объектом находится остановка.",
+      "uz": "Eng yaqin avtobus bekati kutubxona yonida. Audiodagi “beside” topshiriqdagi “next to” bilan bir ma’noda. Bo‘shliqqa library yoziladi; bekat yoki restoran emas, bekat yonidagi joy so‘ralgan.",
+      "quotes": [
+        "The nearest one would probably be just beside the library."
+      ],
+      "location": {
+        "en": "[03:41]",
+        "ru": "[03:41]",
+        "uz": "[03:41]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "4": {
+      "part": 1,
+      "en": "The new job pays 4.45 per hour. The 3.95 figure refers to Peter’s previous job and is a distractor. The pound sign and “an hour” are already printed, so 4.45 is sufficient in the answer box.",
+      "ru": "На новой работе предлагают 4.45 в час. Сумма 3.95 относится к предыдущей работе Питера — это отвлекающее число. Знак фунта и «an hour» уже напечатаны, поэтому в поле достаточно написать 4.45.",
+      "uz": "Yangi ish uchun soatiga 4.45 taklif qilinadi. 3.95 Peterning oldingi ish haqi bo‘lib, chalg‘ituvchi raqamdir. Funt belgisi va “an hour” topshiriqda bor; javob maydoniga 4.45 yetarli.",
+      "quotes": [
+        "We're offering £4.45 an hour.",
+        "My last job was £3.95 an hour."
+      ],
+      "location": {
+        "en": "[03:41]",
+        "ru": "[03:41]",
+        "uz": "[03:41]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "5": {
+      "part": 1,
+      "en": "Extra pay is offered for working on national holidays. The free dinner is another benefit, but it has already been supplied in the notes. The phrase “work on” needs the days when extra pay applies, so write national holidays, keeping the plural.",
+      "ru": "Доплачивают за работу в национальные праздничные дни — national holidays. Бесплатный ужин тоже является льготой, но он уже указан в заметках. После «work on» нужны дни, за которые платят больше; сохраняй множественное число holidays.",
+      "uz": "Qo‘shimcha haq national holidays — milliy bayramlarda ishlash uchun beriladi. Bepul kechki ovqat boshqa imtiyoz, ammo u qaydlarda allaqachon yozilgan. “Work on” dan keyin kunlar kerak; holidays ko‘plik shaklini saqlang.",
+      "quotes": [
+        "we also offer extra pay for working on national holidays."
+      ],
+      "location": {
+        "en": "[04:14]",
+        "ru": "[04:14]",
+        "uz": "[04:14]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "6": {
+      "part": 1,
+      "en": "Transport home is provided if work continues after 11. The condition is the time, not the place or the reason for the transport. Write after 11; 11 alone loses the meaning “later than”, while “before 11” reverses the condition.",
+      "ru": "Домой отвозят, если работа продолжается после 11 часов. Нужно условие по времени, а не место или причина поездки. Пиши after 11: одно число 11 теряет значение «после», а before 11 меняет условие на противоположное.",
+      "uz": "Ish soat 11 dan keyin davom etsa, uyga olib borishadi. Bo‘shliqqa transportning sababi yoki joyi emas, vaqt sharti kerak. After 11 yozing: faqat 11 “keyin” ma’nosini bermaydi, before 11 esa shartni teskarisiga o‘zgartiradi.",
+      "quotes": [
+        "if you're working after 11 o'clock, we drive you home."
+      ],
+      "location": {
+        "en": "[05:17]",
+        "ru": "[05:17]",
+        "uz": "[05:17]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "7": {
+      "part": 1,
+      "en": "The employer names a clear voice as a required quality. This fits the telephone duties identified in Question 1. Write clear voice; “think quickly” is the second requirement and belongs in Question 8.",
+      "ru": "Работодатель называет clear voice — чёткий голос — требуемым качеством. Это соответствует работе с телефонными звонками из вопроса 1. Ответ think quickly относится к следующему требованию и нужен в вопросе 8.",
+      "uz": "Ish beruvchi clear voice — aniq ovozni talab qiladi. Bu 1-savoldagi telefonga javob berish vazifasiga mos. Think quickly ikkinchi talab bo‘lib, 8-savolga tegishli.",
+      "quotes": [
+        "we want a clear voice"
+      ],
+      "location": {
+        "en": "[05:17]",
+        "ru": "[05:17]",
+        "uz": "[05:17]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "8": {
+      "part": 1,
+      "en": "The recording says the employee must be able to think quickly. The question already supplies “ability to”, so the gap takes the verb phrase think quickly. Adding “ability to” again would repeat the printed words and make the completed note awkward.",
+      "ru": "В записи требуется умение быстро думать: «be able to think quickly». В задании «ability to» уже напечатано, поэтому в пропуск нужен глагольный оборот think quickly. Повторять ability to в самом ответе не нужно.",
+      "uz": "Audioda xodim “be able to think quickly”, ya’ni tez fikrlay olishi kerakligi aytiladi. Topshiriqda “ability to” bor, shuning uchun bo‘shliqqa think quickly fe’l birikmasi yoziladi. Ability to ni qayta yozmang.",
+      "quotes": [
+        "you must be able to think quickly"
+      ],
+      "location": {
+        "en": "[05:47]",
+        "ru": "[05:47]",
+        "uz": "[05:47]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "9": {
+      "part": 1,
+      "en": "The agreed interview date is 22 October. Tonight and tomorrow are rejected, so neither is the final arrangement. Thursday and 6 p.m. are already printed in the question; only the date is missing. Use the accepted key form 22 October.",
+      "ru": "Согласованная дата собеседования — 22 October. Сегодня вечером и завтра не подходят, поэтому это не окончательная договорённость. Thursday и 6 p.m. уже напечатаны в вопросе: пропущена только дата. Пиши форму из ключа — 22 October.",
+      "uz": "Kelishilgan suhbat sanasi — 22 October. Bugun kechqurun va ertaga rad etiladi; ular yakuniy vaqt emas. Thursday va 6 p.m. topshiriqda yozilgan, faqat sana yetishmaydi. Kalitdagi 22 October shaklidan foydalaning.",
+      "quotes": [
+        "That'll be 22nd of October.",
+        "Would 6 o'clock be okay? Perfect."
+      ],
+      "location": {
+        "en": "[05:47]",
+        "ru": "[05:47]",
+        "uz": "[05:47]"
+      },
+      "basis": "question-and-current-transcript",
+      "audioVerified": false
+    },
+    "10": {
+      "part": 1,
+      "en": "Peter asks whom he should ask for at the interview. The employer gives the name Samira Manuja and spells the surname M-A-N-U-J-A. Samira is already supplied, so write only Manuja. The surname must follow the spelled letters.",
+      "ru": "Питер уточняет, кого спросить на собеседовании. Работодатель называет имя Samira Manuja и диктует фамилию M-A-N-U-J-A. Имя Samira уже дано, поэтому вписывай только Manuja, строго по продиктованным буквам.",
+      "uz": "Peter suhbatga kelganda kimni so‘rashini aniqlashtiradi. Ish beruvchi Samira Manuja deb, familiyasini M-A-N-U-J-A shaklida harflaydi. Samira allaqachon berilgan, shuning uchun faqat Manuja yoziladi.",
+      "quotes": [
+        "My name is Samira Manuja.",
+        "M-A-N-U-J-A."
+      ],
+      "location": {
+        "en": "[06:16]",
+        "ru": "[06:16]",
+        "uz": "[06:16]"
       },
       "basis": "question-and-current-transcript",
       "audioVerified": false

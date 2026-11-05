@@ -696,3 +696,42 @@
 .imported-listening:not(.exam-finished) .cd-content .listening-matching-compact { gap:14px; margin-block:12px 18px; }
 .imported-listening:not(.exam-finished) .cd-content .listening-notes { gap:8px; margin-block:10px 16px; }
 .imported-listening:not(.exam-finished) .cd-content .listening-note-line { margin-block:3px; }
+.error-tags { margin-top:10px; color:var(--text); font-size:12px; }
+.error-tags summary { cursor:pointer; color:var(--teal-strong); font-weight:600; overflow-wrap:anywhere; }
+.error-tag-options { display:flex; flex-wrap:wrap; gap:6px; border:0; padding:8px 0 0; margin:0; min-width:0; }
+.error-tag-options legend { font-size:12px; font-weight:700; color:var(--muted); margin-bottom:4px; }
+.error-tag-options button { border:1px solid var(--line); padding:7px 10px; border-radius:7px; background:var(--surface); color:var(--text); font:inherit; font-size:12px; cursor:pointer; min-height:36px; }
+.error-tag-options button[aria-pressed=true] { background:var(--teal-strong); color:var(--surface); border-color:var(--teal-strong); }
+.error-tag-options button:focus-visible { outline:2px solid var(--teal); outline-offset:2px; }
+.review-error-tags { flex-shrink:0; padding:8px 18px; border-bottom:1px solid var(--line); background:var(--surface); max-height:25vh; overflow:auto; }
+.review-error-tags .error-tag-options { display:inline-flex; margin:0 16px 4px 0; }
+.review-error-tags > small { display:block; font-size:11px; color:var(--muted); }
+.exam-question-nav button.answered:not([aria-current=true]):not(.exam-part-tab)::after { content:'✓'; position:absolute; right:1px; top:-4px; font-size:9px; font-weight:800; }
+.review-answer-line > .review-inline-feedback { display:block; flex:0 0 100%; width:100%; max-width:100%; box-sizing:border-box; margin:10px 0 14px; }
+.review-answer-line:has(> .review-inline-feedback) { flex-wrap:wrap; }
+.review-line-question { display:block; margin-bottom:6px; color:var(--teal-strong); }
+.transcript-follow-controls { display:flex; flex-wrap:wrap; gap:8px 16px; margin:12px 0 18px; padding:12px; border:1px solid var(--line); border-radius:9px; font-size:13px; }
+.transcript-follow-controls label { display:flex; align-items:center; gap:7px; cursor:pointer; }
+.transcript-follow-controls small { flex-basis:100%; color:var(--muted); font-size:11px; }
+.transcript-follow-controls input { accent-color:var(--teal-strong); }
+.listening-transcript .transcript-current { background:var(--surface-strong); outline:2px solid var(--teal); outline-offset:3px; border-radius:4px; }
+.transcript-speaker { color:var(--speaker-colour)!important; border-left:3px solid var(--speaker-colour); padding-left:10px; }
+.transcript-speaker[data-speaker] { display:block; margin-block:8px; }
+.transcript-speaker-legend { display:flex; flex-wrap:wrap; gap:8px 14px; }
+.transcript-speaker-legend span { color:var(--speaker-colour); font-weight:700; }
+[data-speaker-tone="0"] { --speaker-colour:#586674; }
+[data-speaker-tone="1"] { --speaker-colour:#245f91; }
+[data-speaker-tone="2"] { --speaker-colour:#814f92; }
+[data-speaker-tone="3"] { --speaker-colour:#27725a; }
+[data-speaker-tone="4"] { --speaker-colour:#9a5820; }
+[data-speaker-tone="5"] { --speaker-colour:#a5415d; }
+[data-speaker-tone="6"] { --speaker-colour:#506690; }
+[data-speaker-tone="7"] { --speaker-colour:#6b6d20; }
+.practice-exam[data-theme=dark] [data-speaker-tone="0"] { --speaker-colour:#bbcad8; }
+.practice-exam[data-theme=dark] [data-speaker-tone="1"] { --speaker-colour:#8fcaff; }
+.practice-exam[data-theme=dark] [data-speaker-tone="2"] { --speaker-colour:#d8adf0; }
+.practice-exam[data-theme=dark] [data-speaker-tone="3"] { --speaker-colour:#93dec0; }
+.practice-exam[data-theme=dark] [data-speaker-tone="4"] { --speaker-colour:#f0c08f; }
+.practice-exam[data-theme=dark] [data-speaker-tone="5"] { --speaker-colour:#f4a9be; }
+.practice-exam[data-theme=dark] [data-speaker-tone="6"] { --speaker-colour:#b0c4f2; }
+.practice-exam[data-theme=dark] [data-speaker-tone="7"] { --speaker-colour:#d2d995; }

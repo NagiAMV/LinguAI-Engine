@@ -15,8 +15,8 @@ test('Listening explanations have three languages and exact transcript evidence'
   }
  }
 });
-test('Published first full test and section 23 cover every key slot including grouped questions',()=>{
- for(const [id,keyFile] of [['practice-listening-1','practice-listening-keys'],['single-listening-23','single-section-listening-keys']]){
+test('Published first full test and sections 17 and 23 cover every key slot including grouped questions',()=>{
+ for(const [id,keyFile] of [['practice-listening-1','practice-listening-keys'],['single-listening-17','single-section-listening-keys'],['single-listening-23','single-section-listening-keys']]){
   const key=read('src/data/'+keyFile+'.json')[id];const covered=new Set();
   for(const number of Object.keys(explanations[id])){
    const [start,end]=number.split('–').map(Number);for(let n=start;n<=(end||start);n++)covered.add(String(n));

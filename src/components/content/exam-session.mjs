@@ -1,7 +1,8 @@
+import {cleanErrorTags, toggleErrorTag} from './error-tags.mjs';
 export const DURATION = 60 * 60 * 1000;
 function duration(session) { return Number.isFinite(session.durationMs) && session.durationMs > 0 && session.durationMs <= DURATION ? session.durationMs : DURATION; }
 export function restoreSession(saved = {}, now = Date.now()) {
-  const base = { ...saved, version: 2, answers: saved.answers || {}, flags: saved.flags || [], audioTimes: saved.audioTimes || {}, partIndex: saved.partIndex || 0 };
+  const base = { ...saved, version: 2, answers: saved.answers || {}, flags: saved.flags || [], audioTimes: saved.audioTimes || {}, partIndex: saved.partIndex || 0, errorTags: cleanErrorTags(saved.errorTags) };
   if (saved.version !== 2) return { ...base, phase: saved.finishedAt ? 'submitted' : 'ready', deadline: null, startedAt: null };
   if (saved.phase === 'running' && (!Number.isFinite(saved.deadline) || now >= saved.deadline)) return { ...base, phase: 'expired' };
   return base;
@@ -11,6 +12,7 @@ export function transition(session, action, now = Date.now()) {
   if (action.type === 'start' && state.phase === 'ready') return { ...state, phase: 'running', startedAt: now, deadline: now + duration(state), finishedAt: null };
   if (action.type === 'submit' && ['running', 'expired'].includes(state.phase)) return { ...state, phase: 'submitted', finishedAt: now };
   if (action.type === 'edit' && state.phase === 'running') return { ...state, ...action.patch };
+  if (action.type === 'tag-error' && state.phase === 'submitted') return {...state,errorTags:toggleErrorTag(state.errorTags,action.key,action.tag)};
   return state;
 }
 export function remaining(session, now = Date.now()) {

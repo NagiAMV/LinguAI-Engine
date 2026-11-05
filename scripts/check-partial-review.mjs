@@ -8,7 +8,7 @@ const require=createRequire(import.meta.url),React=require('react'),{renderToSta
 const filename='src/components/content/ExamResults.jsx',compiled=require('next/dist/compiled/babel/core').transformSync(fs.readFileSync(filename,'utf8'),{filename,presets:[require.resolve('next/babel')]}).code,module={exports:{}};
 vm.runInNewContext(compiled,{module,exports:module.exports,require:id=>{
  if(id.includes('AccountProvider'))return {useAccount:()=>({recordAttempt(){},user:null,syncMessage:''})};
- if(id==='./ExamPassageReview')return ()=>null;if(id==='./exam-score.mjs')return scoring;if(id==='./answer-review.mjs')return reviewRows;if(id==='@/lib/practice-ideas.mjs')return ideas;
+ if(id==='./ErrorTags')return require('../tests/helpers/error-tags-component.cjs');if(id==='./ExamPassageReview')return ()=>null;if(id==='./exam-score.mjs')return scoring;if(id==='./answer-review.mjs')return reviewRows;if(id==='@/lib/practice-ideas.mjs')return ideas;
  if(id.startsWith('@/data/'))return require('../src/data/'+id.slice(7));if(id.startsWith('@babel/runtime/'))return require('next/dist/compiled/'+id);return require(id);
 }});import {spawn} from 'node:child_process';import assert from 'node:assert/strict';
 const port=9400+Math.floor(Math.random()*1000),base=process.env.PRACTICE_BASE_URL||'http://localhost:3011';

@@ -10,6 +10,10 @@ export function layoutMapQuestions(html) {
 // Imported full tests use several different map wrappers. Group existing DOM
 // nodes so input names, selected answers and question navigation stay intact.
 export function arrangeImportedMaps(root) {
+  for (const bank of root.querySelectorAll('.drag-right')) {
+    const chips=[...bank.querySelectorAll('.drag-chip')];
+    if(chips.length && chips.every(chip=>/^([A-Z])\s*\1$/.test(chip.textContent.trim())) && bank.parentElement.querySelector('select')) bank.hidden=true;
+  }
   for (const image of root.querySelectorAll('img')) {
     if (image.closest('.listening-map-task,.native-diagram-scroll')) continue;
     let diagram = image.closest('.floorplan-wrap,.map-container,.map-wrap,.eh-diagram') || image;

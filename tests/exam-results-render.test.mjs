@@ -15,7 +15,7 @@ let renderStates=null,renderCall=0;
 vm.runInNewContext(compiled,{module,exports:module.exports,require:id=>{
  if(id==='react')return {...React,useState:initial=>React.useState(renderStates?(renderStates[renderCall++]??initial):initial)};
  if(id.includes('AccountProvider'))return {useAccount:()=>({recordAttempt(){},user:null,syncMessage:''})};
- if(id==='./ExamPassageReview')return ()=>null;
+ if(id==='./ErrorTags')return require('./helpers/error-tags-component.cjs');if(id==='./ExamPassageReview')return ()=>null;
  if(id==='./exam-score.mjs')return score;
  if(id==='./answer-review.mjs')return rows;
  if(id==='@/lib/practice-ideas.mjs')return ideas;

@@ -78,6 +78,7 @@ export function syncListeningQuestions(root){
 
 export function tidyListeningNotes(root){
  for(const flow of root.querySelectorAll('.note-flow')){
+  if(!flow.querySelector('br,.subhead,.notes-subhdr')){flow.classList.add('listening-note-line');continue;}
   if(flow.dataset.notesTidied||!flow.querySelector('input,select'))continue;flow.dataset.notesTidied='true';flow.classList.add('listening-notes');
   const original=[...flow.childNodes];let section=null,line=[];
   const ensureSection=()=>{if(!section){section=document.createElement('section');section.className='listening-note-section';flow.append(section);}return section;};
