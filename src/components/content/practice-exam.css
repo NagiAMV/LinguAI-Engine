@@ -735,3 +735,4 @@
 .practice-exam[data-theme=dark] [data-speaker-tone="5"] { --speaker-colour:#f4a9be; }
 .practice-exam[data-theme=dark] [data-speaker-tone="6"] { --speaker-colour:#b0c4f2; }
 .practice-exam[data-theme=dark] [data-speaker-tone="7"] { --speaker-colour:#d2d995; }
+.transcript-spoken { font-weight:800; background:var(--teal); color:var(--surface); border-radius:.18em; }

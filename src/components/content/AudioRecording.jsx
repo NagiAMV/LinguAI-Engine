@@ -1,12 +1,22 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function AudioRecording({ part, position = 0, onPosition, sourceUrl, locked = false, fullTest = false }) {
+export default function AudioRecording({ part, position = 0, onPosition, sourceUrl, locked = false, fullTest = false, precise = false }) {
  const audio = useRef(null);
  const [sourceIndex, setSourceIndex] = useState(0);
  const [status, setStatus] = useState("Loading recording…");
  const resume = useRef(position);
  const urls = part.audioUrls || [];
+ 
+ useEffect(()=>{
+  const player=audio.current;
+  if(!precise||!player||!onPosition)return;
+  let timer;
+  const stop=()=>clearInterval(timer);
+  const start=()=>{stop();timer=setInterval(()=>onPosition(player.currentTime),80);};
+  player.addEventListener('playing',start);player.addEventListener('pause',stop);player.addEventListener('ended',stop);
+  return ()=>{stop();player.removeEventListener('playing',start);player.removeEventListener('pause',stop);player.removeEventListener('ended',stop);};
+ },[precise,onPosition,sourceIndex]);
  useEffect(() => { if (locked) audio.current?.pause(); }, [locked]);
  if (!urls.length) return <p className="exam-audio-state" role="status">No recording was supplied for this test yet.</p>;
  function failed(event) {
@@ -18,15 +28,17 @@ export default function AudioRecording({ part, position = 0, onPosition, sourceU
   <span className="recording-label">{fullTest ? 'Full test recording · Parts 1–4' : `Part ${part.id} recording`}</span>
   {/* Inspect the file rather than assuming MP3: some sources actually contain AAC/M4A. */}
   <audio ref={audio} src={urls[sourceIndex]} controls={!locked} preload="metadata" aria-label={fullTest ? 'Full test recording' : `Part ${part.id} recording`}
-   onLoadedMetadata={event => { if (resume.current > 0) event.currentTarget.currentTime = Math.min(resume.current, event.currentTarget.duration || resume.current); onPosition?.(Math.floor(event.currentTarget.currentTime)); setStatus("Ready to play"); }}
+   onLoadedMetadata={event => { if (resume.current > 0) event.currentTarget.currentTime = Math.min(resume.current, event.currentTarget.duration || resume.current); onPosition?.(event.currentTarget.currentTime); setStatus("Ready to play"); }}
    onPlay={event => { if (locked) event.currentTarget.pause(); else setStatus("Playing"); }}
    onPause={() => setStatus("Paused")} onEnded={() => setStatus("Recording ended")}
    onWaiting={() => setStatus("Buffering…")} onPlaying={() => setStatus("Playing")}
    onError={failed}
-   onSeeking={event => onPosition?.(Math.floor(event.currentTarget.currentTime))}
-   onSeeked={event => onPosition?.(Math.floor(event.currentTarget.currentTime))}
-   onTimeUpdate={event => { resume.current = event.currentTarget.currentTime; onPosition?.(Math.floor(resume.current)); }} />
+   onSeeking={event => onPosition?.(event.currentTarget.currentTime)}
+   onSeeked={event => onPosition?.(event.currentTarget.currentTime)}
+   onTimeUpdate={event => { resume.current = event.currentTarget.currentTime; onPosition?.(precise?resume.current:Math.floor(resume.current)); }} />
   <p className="exam-audio-state" role="status">{status}</p>
   {status === "Could not load recording" && <><button type="button" disabled={locked} onClick={() => { setStatus("Loading recording…"); if (sourceIndex) setSourceIndex(0); else audio.current?.load(); }}>Retry recording</button> {sourceUrl && <a href={sourceUrl} target="_blank" rel="noreferrer">Open source recording ↗</a>}</>}
  </>;
 }
+
+
