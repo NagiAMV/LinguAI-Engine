@@ -735,4 +735,19 @@
 .practice-exam[data-theme=dark] [data-speaker-tone="5"] { --speaker-colour:#f4a9be; }
 .practice-exam[data-theme=dark] [data-speaker-tone="6"] { --speaker-colour:#b0c4f2; }
 .practice-exam[data-theme=dark] [data-speaker-tone="7"] { --speaker-colour:#d2d995; }
-.transcript-spoken { font-weight:800; background:var(--teal); color:var(--surface); border-radius:.18em; }
+.review-content [data-cue-start] {
+  display:inline-block;
+  position:relative;
+  transform-origin:50% 80%;
+  transition:transform 110ms ease-out;
+}
+.review-content .transcript-spoken {
+  transform:translateY(-.045em) scale(1.07);
+  text-decoration:underline currentColor;
+  text-decoration-thickness:.09em;
+  text-underline-offset:.19em;
+}
+@media (prefers-reduced-motion:reduce) {
+  .review-content [data-cue-start] { transition:none; }
+  .review-content .transcript-spoken { transform:none; }
+}
