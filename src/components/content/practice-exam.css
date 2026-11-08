@@ -715,7 +715,9 @@
 .transcript-follow-controls small { flex-basis:100%; color:var(--muted); font-size:11px; }
 .transcript-follow-controls input { accent-color:var(--teal-strong); }
 .listening-transcript .transcript-current { background:var(--surface-strong); outline:2px solid var(--teal); outline-offset:3px; border-radius:4px; }
-.transcript-speaker { color:var(--speaker-colour)!important; border-left:3px solid var(--speaker-colour); padding-left:10px; }
+.transcript-speaker { color:inherit; border-left:3px solid var(--speaker-colour); padding-left:10px; }
+.transcript-speaker > strong:first-child, .transcript-speaker > b:first-child { color:var(--speaker-colour); }
+.transcript-speaker[data-speaker]:not(:has(> strong:first-child, > b:first-child))::before { content:attr(data-speaker) ": "; color:var(--speaker-colour); font-weight:700; }
 .transcript-speaker[data-speaker] { display:block; margin-block:8px; }
 .transcript-speaker-legend { display:flex; flex-wrap:wrap; gap:8px 14px; }
 .transcript-speaker-legend span { color:var(--speaker-colour); font-weight:700; }
