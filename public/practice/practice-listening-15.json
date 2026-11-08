@@ -61,7 +61,9 @@
         "audioSha256": "003b0681c6cd0bdd59b846caab75d9220b75dc6f7e637a144b999d82f934e5d1",
         "matchedWords": 943,
         "totalWords": 986
-      }
+      },
+      "transcriptStartSeconds": 1.04,
+      "transcriptEndSeconds": 874.63
     },
     {
       "id": 2,
@@ -114,7 +116,9 @@
         "audioSha256": "003b0681c6cd0bdd59b846caab75d9220b75dc6f7e637a144b999d82f934e5d1",
         "matchedWords": 885,
         "totalWords": 911
-      }
+      },
+      "transcriptStartSeconds": 463.76,
+      "transcriptEndSeconds": 874.63
     },
     {
       "id": 3,
@@ -171,7 +175,9 @@
         "audioSha256": "003b0681c6cd0bdd59b846caab75d9220b75dc6f7e637a144b999d82f934e5d1",
         "matchedWords": 863,
         "totalWords": 874
-      }
+      },
+      "transcriptStartSeconds": 875.55,
+      "transcriptEndSeconds": 1263.86
     },
     {
       "id": 4,
@@ -228,7 +234,9 @@
         "audioSha256": "003b0681c6cd0bdd59b846caab75d9220b75dc6f7e637a144b999d82f934e5d1",
         "matchedWords": 759,
         "totalWords": 767
-      }
+      },
+      "transcriptStartSeconds": 1294.38,
+      "transcriptEndSeconds": 1669.89
     }
   ],
   "provenance": {

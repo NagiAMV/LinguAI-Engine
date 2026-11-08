@@ -1,5 +1,7 @@
 # Listening word timing
 
+Catalog processing completed for 18 full tests and 80 single sections (152 parts). The coverage report is `docs/listening-word-clock-coverage.json`. Validation found 112,002 word cues after removing matches outside known section boundaries. Browser checks covered forward/backward seeking and disabling Follow audio in full tests 1, 14, 17 and singles 1, 80. Test 14 part 1 required an unfiltered recognition retry. These checks do not constitute manual listening verification of every word; unmatched words remain unanimated.
+
 Run the resumable local processor from the repository root:
 
 ```powershell
