@@ -6390,31 +6390,36 @@
   {
     "word": "erratic",
     "translations": {
-      "ru": "Рассеянный"
+      "ru": "неустойчивый; непредсказуемый; нерегулярный"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
+    },
+    "definition": "Not regular or consistent in movement, quality, or behaviour.",
+    "grammar": {
+      "part_of_speech": "adjective",
+      "base_form": "erratic"
     }
   },
   {
     "word": "carvings",
     "translations": {
-      "ru": "резьба"
+      "ru": "резные изображения; резьба"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
     }
   },
   {
     "word": "face",
     "translations": {
-      "ru": "экскаватор"
+      "ru": "лицо; поверхность; сталкиваться (с)"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
     },
     "definition": "The front part of the head of a human or other animal, featuring the eyes, nose and mouth, and the surrounding area.",
     "transcription": "/feɪs/",
@@ -6534,11 +6539,11 @@
   {
     "word": "flight",
     "translations": {
-      "ru": "перелета"
+      "ru": "полёт; рейс"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
     },
     "definition": "The act of flying.",
     "transcription": "/flaɪt/",
@@ -6611,48 +6616,80 @@
   {
     "word": "reproduce",
     "translations": {
-      "ru": "воспроизводить себе подобных"
+      "ru": "воспроизводить; размножаться"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
     }
   },
   {
     "word": "the",
     "translations": {
-      "ru": "когда:"
+      "ru": "определённый артикль (обычно не переводится)"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
+    },
+    "definition": "The definite article, used before a noun to refer to a specific or already known person or thing.",
+    "grammar": {
+      "part_of_speech": "article",
+      "base_form": "the"
     }
   },
   {
     "word": "ask",
     "translations": {
-      "ru": "спрашивают"
+      "ru": "спрашивать; просить"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
+    },
+    "definition": "To say or write a question to obtain information, or to request something.",
+    "grammar": {
+      "part_of_speech": "verb",
+      "base_form": "ask",
+      "past": "asked",
+      "participle": "asked",
+      "third_person": "asks",
+      "present_participle": "asking"
     }
   },
   {
     "word": "tell",
     "translations": {
-      "ru": "Ты"
+      "ru": "рассказывать; сообщать; говорить"
     },
     "status": "learning",
     "translationSources": {
-      "ru": "MyMemory"
+      "ru": "LinguAI editorial"
     },
-    "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "definition": "To communicate information to someone in spoken or written words; to narrate a story.",
     "transcription": "/tɛl/",
     "grammar": {
-      "part_of_speech": "noun"
+      "part_of_speech": "verb",
+      "base_form": "tell",
+      "past": "told",
+      "participle": "told",
+      "third_person": "tells",
+      "present_participle": "telling"
     },
     "meanings": [
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To communicate information to someone in spoken or written words; to narrate a story.",
+            "example": "Please tell me what happened."
+          },
+          {
+            "definition": "To distinguish or recognise a difference.",
+            "example": "Can you tell the difference?"
+          }
+        ]
+      },
       {
         "partOfSpeech": "noun",
         "definitions": [
@@ -6669,28 +6706,11 @@
             "example": ""
           }
         ]
-      },
-      {
-        "partOfSpeech": "verb",
-        "definitions": [
-          {
-            "definition": "(archaic outside of idioms) To count, reckon, or enumerate.",
-            "example": "All told, there were over a dozen.  Can you tell time on a clock?  He had untold wealth."
-          },
-          {
-            "definition": "To narrate.",
-            "example": "I want to tell a story;  I want to tell you a story."
-          },
-          {
-            "definition": "To convey by speech; to say.",
-            "example": "Finally, someone told him the truth.  He seems to like to tell lies."
-          }
-        ]
       }
     ],
-    "examples": ["All told, there were over a dozen.  Can you tell time on a clock?  He had untold wealth.", "I want to tell a story;  I want to tell you a story.", "Finally, someone told him the truth.  He seems to like to tell lies.", "Please tell me how to do it.", "Tell him to go away."],
-    "synonyms": ["count", "number", "grass up", "snitch", "tattle", "narrate", "recount", "relate", "disclose", "make known", "advise", "apprise"],
-    "antonyms": ["ask"],
+    "examples": ["Please tell me what happened.", "She told us a story.", "Can you tell the difference?"],
+    "synonyms": ["inform", "say", "narrate", "relate"],
+    "antonyms": [],
     "dictionarySource": {
       "provider": "Free Dictionary API",
       "urls": ["https://en.wiktionary.org/wiki/tell"],

@@ -67,5 +67,17 @@ export default function TrainingWordTranslation({ root, enabled }) {
     } catch { if (current === sequence.current) setLookup({ ...box, detailsLoading: false, detailsError: true }); }
   }
   if (!enabled || !lookup) return null;
-  return <aside className={`training-word-translation${lookup.expanded ? ' is-expanded' : ''}`} style={{ left: lookup.x, top: lookup.y }} aria-label="Word translation" aria-live="polite"><button type="button" aria-label="Close translation" onClick={() => { sequence.current++; setLookup(null); }}>×</button><strong>{lookup.word}</strong><p>{lookup.loading ? 'Перевожу…' : lookup.error ? 'Перевод недоступен. Нажмите на слово ещё раз.' : lookup.translation}</p>{lookup.translation && <><small>{lookup.source === 'local' ? 'Локальный словарь' : 'Онлайн-перевод · MyMemory'} · EN → RU</small>{lookup.saved === false && <small className="vocabulary-save-warning">Не удалось сохранить на сервере. Перевод доступен в этой карточке.</small>}<div className="vocabulary-expand"><button type="button" aria-expanded={Boolean(lookup.expanded)} onClick={expand}>{lookup.expanded ? 'Свернуть ↑' : 'Подробнее о слове ↓'}</button></div></>}{lookup.expanded && (lookup.detailsLoading ? <p>Загружаю сведения…</p> : lookup.detailsError ? <p>Не удалось загрузить сведения. Сверните и попробуйте снова.</p> : <VocabularyWordDetails entry={lookup.entry}/>)}</aside>;
+  return <aside className={`training-word-translation${lookup.expanded ? ' is-expanded' : ''}`} style={{ left: lookup.x, top: lookup.y }} aria-label="Word translation" aria-live="polite">
+    <button type="button" aria-label="Close translation" onClick={() => { sequence.current++; setLookup(null); }}>×</button>
+    <strong>{lookup.word}</strong>
+    {lookup.headword && lookup.headword !== lookup.word && <small>Форма слова {lookup.headword}</small>}
+    <p>{lookup.loading ? 'Перевожу…' : lookup.error ? 'Перевод недоступен. Нажмите на слово ещё раз.' : lookup.translation}</p>
+    {lookup.translation && <>
+      <small>{lookup.machineTranslated ? 'Автоперевод · MyMemory' : lookup.translationProvider === 'LinguAI editorial' ? 'Проверенный перевод · LinguAI' : 'Локальный словарь'} · EN → RU</small>
+      {lookup.machineTranslated && <small>Без контекста: значение может отличаться. Сверьте с описанием слова.</small>}
+      {lookup.saved === false && <small className="vocabulary-save-warning">Не удалось сохранить на сервере. Перевод доступен в этой карточке.</small>}
+      <div className="vocabulary-expand"><button type="button" aria-expanded={Boolean(lookup.expanded)} onClick={expand}>{lookup.expanded ? 'Свернуть ↑' : 'Подробнее о слове ↓'}</button></div>
+    </>}
+    {lookup.expanded && (lookup.detailsLoading ? <p>Загружаю сведения…</p> : lookup.detailsError ? <p>Не удалось загрузить сведения. Сверните и попробуйте снова.</p> : <VocabularyWordDetails entry={lookup.entry}/>)}
+  </aside>;
 }
