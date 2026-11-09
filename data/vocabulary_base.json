@@ -1039,7 +1039,6 @@
     "category": "academic",
     "status": "learning"
   },
-
   {
     "word": "nowadays",
     "translations": {
@@ -5216,7 +5215,6 @@
     "category": "academic/general",
     "status": "learning"
   },
-
   {
     "word": "hatred",
     "translations": {
@@ -6223,7 +6221,6 @@
     "category": "academic",
     "status": "learning"
   },
-
   {
     "word": "pace",
     "translations": {
@@ -6389,5 +6386,149 @@
     "ielts_level": "6.5",
     "category": "general/academic",
     "status": "learning"
+  },
+  {
+    "word": "erratic",
+    "translations": {
+      "ru": "Рассеянный"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "carvings",
+    "translations": {
+      "ru": "резьба"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "face",
+    "translations": {
+      "ru": "экскаватор"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "The front part of the head of a human or other animal, featuring the eyes, nose and mouth, and the surrounding area.",
+    "transcription": "/feɪs/",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The front part of the head of a human or other animal, featuring the eyes, nose and mouth, and the surrounding area.",
+            "example": "That girl has a pretty face."
+          },
+          {
+            "definition": "One's facial expression.",
+            "example": "Why the sad face?"
+          },
+          {
+            "definition": "(in expressions such as 'make a face') A distorted facial expression; an expression of displeasure, insult, etc.",
+            "example": "Children! Stop making faces at each other!"
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "(of a person or animal) To position oneself or itself so as to have one's face closest to (something).",
+            "example": "Face the sun."
+          },
+          {
+            "definition": "(of an object) To have its front closest to, or in the direction of (something else).",
+            "example": "Turn the chair so it faces the table."
+          },
+          {
+            "definition": "To cause (something) to turn or present a face or front, as in a particular direction.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "examples": ["That girl has a pretty face.", "Why the sad face?", "Children! Stop making faces at each other!", "He managed to show a bold face despite his embarrassment.", "The face of the cliff loomed above them."],
+    "synonyms": ["countenance", "expression", "facial expression", "look", "visage", "facet", "surface", "phiz", "phizog", "image", "public image", "reputation"],
+    "antonyms": ["heel"],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/face"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  },
+  {
+    "word": "farm",
+    "translations": {
+      "ru": "ферма"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "A place where agricultural and similar activities take place, especially the growing of crops or the raising of livestock.",
+    "transcription": "/fɑːɹm/",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A place where agricultural and similar activities take place, especially the growing of crops or the raising of livestock.",
+            "example": ""
+          },
+          {
+            "definition": "A tract of land held on lease for the purpose of cultivation.",
+            "example": ""
+          },
+          {
+            "definition": "(usually in combination) A location used for an industrial purpose, having many similar structures",
+            "example": "antenna farm"
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To work on a farm, especially in the growing and harvesting of crops.",
+            "example": ""
+          },
+          {
+            "definition": "To devote (land) to farming.",
+            "example": ""
+          },
+          {
+            "definition": "To grow (a particular crop).",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "examples": ["antenna farm", "a render farm", "to farm the taxes"],
+    "synonyms": [],
+    "antonyms": [],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/farm"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   }
 ]

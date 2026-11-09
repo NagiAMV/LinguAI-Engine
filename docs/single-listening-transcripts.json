@@ -24,7 +24,7 @@
     "uncertainSegmentStarts": [
       17.49,
       185.9,
-      220.0
+      220
     ]
   },
   "single-listening-3": {
@@ -112,7 +112,15 @@
     "duration": 411.36,
     "timedSegments": 10,
     "wordCount": 559,
-    "uncertainSegmentStarts": []
+    "uncertainSegmentStarts": [],
+    "gapRepair": {
+      "method": "local-audio-crop-transcription",
+      "model": "small.en",
+      "startSeconds": 281.92,
+      "endSeconds": 296.28,
+      "spellingEvidence": "P-A-Y-N-T-E-R",
+      "humanVerified": false
+    }
   },
   "single-listening-11": {
     "section": 1,
@@ -178,11 +186,18 @@
     "section": 1,
     "model": "small.en",
     "status": "draft-not-fully-audited",
-    "audioSha256": "b042e9931ac07f5a64ba84a4b508b9eb2b0caf887d4e4dde596f932d09f963f3",
-    "duration": 327.63,
+    "audioSha256": "08387f59e556f7853321a5896bdea8d403d9de194546908c9b92b7174fda1b07",
+    "duration": 377,
     "timedSegments": 10,
     "wordCount": 701,
-    "uncertainSegmentStarts": []
+    "uncertainSegmentStarts": [],
+    "gapRepair": {
+      "method": "local-source-tail-restored-and-transcribed",
+      "model": "small.en",
+      "startSeconds": 326.8,
+      "endSeconds": 356.8,
+      "humanVerified": false
+    }
   },
   "single-listening-17": {
     "section": 1,
@@ -287,7 +302,7 @@
     "timedSegments": 13,
     "wordCount": 809,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-27": {
@@ -309,7 +324,7 @@
     "timedSegments": 12,
     "wordCount": 786,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-29": {
@@ -447,7 +462,7 @@
     "timedSegments": 13,
     "wordCount": 814,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-42": {
@@ -459,7 +474,7 @@
     "timedSegments": 13,
     "wordCount": 866,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-43": {
@@ -655,7 +670,7 @@
     "timedSegments": 15,
     "wordCount": 801,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-62": {
@@ -667,7 +682,7 @@
     "timedSegments": 14,
     "wordCount": 877,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-63": {
@@ -679,7 +694,7 @@
     "timedSegments": 13,
     "wordCount": 791,
     "uncertainSegmentStarts": [
-      6.0
+      6
     ]
   },
   "single-listening-64": {

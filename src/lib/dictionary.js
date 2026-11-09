@@ -1,11 +1,4 @@
-import fs from "node:fs/promises";
-import path from "node:path";
-
-const VOCABULARY_PATH = path.join(
-  process.cwd(),
-  "data",
-  "vocabulary_base.json",
-);
+import { vocabularyStore } from "./vocabulary-store.mjs";
 
 function normalizeWord(rawWord) {
   return String(rawWord || "")
@@ -53,51 +46,22 @@ function extractJson(text) {
 }
 
 export async function readVocabularyBase() {
-  try {
-    const raw = await fs.readFile(VOCABULARY_PATH, "utf8");
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
+  return vocabularyStore.read();
 }
 
 export async function saveVocabularyWord(entry) {
-  const items = await readVocabularyBase();
-  const normalizedWord = normalizeWord(entry.word);
-  const existingIndex = items.findIndex(
-    (item) => normalizeWord(item.word) === normalizedWord,
-  );
-
-  const nextItem = {
-    word: entry.word,
-    translations: {
-      ru: entry.translation || "",
-      uz: entry.translation || "",
-    },
-    grammar: entry.grammar || { part_of_speech: "word" },
-    definition:
-      entry.definition || "Added automatically during reading practice.",
-    etymology: entry.etymology || "",
+  const word = String(entry.word || '').trim().toLowerCase();
+  if (!word) throw new Error('Word is required');
+  return vocabularyStore.remember(word, {
+    translations: { ...entry.translations, ...(entry.translation ? { ru: entry.translation } : {}) },
+    grammar: entry.grammar || {},
+    definition: entry.definition || '',
+    etymology: entry.etymology || '',
     synonyms: Array.isArray(entry.synonyms) ? entry.synonyms : [],
     antonyms: Array.isArray(entry.antonyms) ? entry.antonyms : [],
-    ielts_level: entry.ielts_level || "7.0",
-    category: entry.category || "general",
-    status: "learning",
-  };
-
-  if (existingIndex >= 0) {
-    items[existingIndex] = { ...items[existingIndex], ...nextItem };
-  } else {
-    items.unshift(nextItem);
-  }
-
-  await fs.writeFile(
-    VOCABULARY_PATH,
-    `${JSON.stringify(items, null, 2)}\n`,
-    "utf8",
-  );
-  return { ...nextItem, word: normalizedWord };
+    ...(entry.ielts_level ? { ielts_level: entry.ielts_level } : {}),
+    ...(entry.category ? { category: entry.category } : {}),
+  });
 }
 
 export async function lookupDictionaryWord(word) {
