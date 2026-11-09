@@ -30,7 +30,7 @@ export default function ProfileView() {
     const url = URL.createObjectURL(blob); const link = document.createElement('a'); link.href = url; link.download = 'linguai-my-progress.json'; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
   if (!ready) return <main className="view-content" role="status">Loading your profile…</main>;
-  if (!user) return <main className="view-content account-view"><AuthForm /><ProgressCards attempts={attempts} /><p className="account-caption">Guest results are saved in this browser. Sign in to keep future results with your account.</p></main>;
+  if (!user) return <main className="view-content account-view"><AuthForm /></main>;
   const visible = attempts.filter(a => filter === 'all' || a.resource === filter);
   return <main className="view-content account-view">
     <header className="account-heading"><div><p className="section-kicker">Your learning passport</p><h1>Make it yours<span>.</span></h1><p>A clear goal. Every attempt. Your own pace.</p></div><button className="account-secondary" disabled={busy} onClick={() => action(signOut, '')}>Sign out ↗</button></header>

@@ -2,12 +2,16 @@
 import CollectionIllustration from './CollectionIllustration';
 import {useEffect,useMemo,useState} from 'react';
 import bank from '@/data/speaking-question-bank.json';
+import {useAccount} from './account/AccountProvider';
+import {recordActivity} from '@/lib/study-dashboard.mjs';
 function Phrase({text=''}){return text.split(/(\{[^{}]+\})/g).map((s,i)=>s.startsWith('{')?<abbr key={i} tabIndex={0} data-hint={s.slice(1,-1).split('|')[1]} title={s.slice(1,-1).split('|')[1]}>{s.slice(1,-1).split('|')[0]}</abbr>:s);}
 export default function SpeakingHub({children}){
+ const {user:studyUser}=useAccount();
+ useEffect(()=>{setRunning(false);},[studyUser?.id]);
  const [mode,setMode]=useState('bank'),[query,setQuery]=useState(''),[category,setCategory]=useState('All topics'),[savedOnly,setSavedOnly]=useState(false),[saved,setSaved]=useState([]),[ready,setReady]=useState(false),[selected,setSelected]=useState(bank.sessions[0].n),[part,setPart]=useState(2),[seconds,setSeconds]=useState(60),[running,setRunning]=useState(false),[stage,setStage]=useState('Prepare'),[note,setNote]=useState('');
  useEffect(()=>{try{setSaved(JSON.parse(localStorage.getItem('linguai-speaking-bookmarks')||'[]'));}catch{}setReady(true)},[]);
  useEffect(()=>{if(ready)localStorage.setItem('linguai-speaking-bookmarks',JSON.stringify(saved))},[saved,ready]);
- useEffect(()=>{if(!running)return;if(seconds===0){setRunning(false);return;}const t=setTimeout(()=>setSeconds(s=>s-1),1000);return()=>clearTimeout(t)},[running,seconds]);
+ useEffect(()=>{if(!running)return;if(seconds===0){setRunning(false);if(stage==='Speak')recordActivity(studyUser?.id,{id:'speaking-drill:'+Date.now(),kind:'speaking-drill',resource:'speaking',title:'Speaking topic '+selected+' · two-minute response',finished_at:new Date().toISOString(),duration_seconds:120});return;}const t=setTimeout(()=>setSeconds(s=>s-1),1000);return()=>clearTimeout(t)},[running,seconds]);
  const categories=useMemo(()=>['All topics',...new Set(bank.sessions.map(s=>s.t2cat).filter(Boolean))],[]);
  const filtered=bank.sessions.filter(s=>(category==='All topics'||s.t2cat===category)&&(!savedOnly||saved.includes(s.n))&&[s.t2,...s.t1,s.venue,...s.p1.map(q=>q[0]),...s.p3.map(q=>q[0])].join(' ').toLowerCase().includes(query.toLowerCase()));
  const session=bank.sessions.find(s=>s.n===selected)||bank.sessions[0];
