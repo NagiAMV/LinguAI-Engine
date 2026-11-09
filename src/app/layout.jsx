@@ -1,5 +1,6 @@
 import "./globals.css";
 import AccountProvider from '@/components/account/AccountProvider';
+import ContextMenuGuard from '@/components/ContextMenuGuard';
 import '@/components/account/account.css';
 
 export const metadata = {
@@ -10,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body><AccountProvider>{children}</AccountProvider></body>
+      <body><ContextMenuGuard/><AccountProvider>{children}</AccountProvider></body>
     </html>
   );
 }
