@@ -23,7 +23,6 @@ export default function AudioRecording({ part, position=0, onPosition, sourceUrl
  useEffect(()=>{if(locked)audio.current?.pause();},[locked]);
  if(!urls.length)return <p className="exam-audio-state" role="status">No recording was supplied for this test yet.</p>;
  function play(){audio.current?.play().catch(()=>setStatus('Press Start recording to enable audio.'));}
- function rewind(delta){const player=audio.current;if(!player||locked||examMode||!duration)return;player.currentTime=Math.max(0,Math.min(player.currentTime+delta,Math.max(0,duration-.05)));onPosition?.(player.currentTime);}
  function failed(event){resume.current=event.currentTarget.currentTime||resume.current;if(sourceIndex+1<urls.length){setStatus('Trying backup recording…');setSourceIndex(sourceIndex+1);}else setStatus('Could not load recording');}
  return <>
   <span className="recording-label">{fullTest?'Full test recording · Parts 1–4':`Part ${part.id} recording`}</span>
@@ -37,7 +36,7 @@ export default function AudioRecording({ part, position=0, onPosition, sourceUrl
     onSeeking={event=>{const p=event.currentTarget;if(examMode&&started&&Math.abs(p.currentTime-allowed.current)>1){p.currentTime=allowed.current;return;}onPosition?.(p.currentTime);}}
     onSeeked={event=>onPosition?.(event.currentTarget.currentTime)}
     onTimeUpdate={event=>{const p=event.currentTarget;if(examMode&&p.seeking)return;resume.current=p.currentTime;allowed.current=p.currentTime;setElapsed(p.currentTime);onPosition?.(precise?p.currentTime:Math.floor(p.currentTime));}}/>
-   {examMode?<div className="recording-exam-progress">{!started&&<button type="button" className="button" disabled={locked} onClick={play}>Start recording</button>}<span>{clock(elapsed)} / {clock(duration)}</span><progress value={elapsed} max={duration||1} aria-label="Recording progress"/><small>Exam Mode · playback locked</small></div>:<div className="recording-seek-buttons"><button type="button" aria-label="Back 10 seconds" disabled={locked||!duration} onClick={()=>rewind(-10)}>↶ 10s</button><button type="button" aria-label="Forward 10 seconds" disabled={locked||!duration} onClick={()=>rewind(10)}>10s ↷</button></div>}
+   {examMode?<div className="recording-exam-progress">{!started&&<button type="button" className="button" disabled={locked} onClick={play}>Start recording</button>}<span>{clock(elapsed)} / {clock(duration)}</span><progress value={elapsed} max={duration||1} aria-label="Recording progress"/><small>Exam Mode · playback locked</small></div>:null}
   </div>
   <p className="exam-audio-state" role="status">{status}</p>
   {status==='Could not load recording'&&<><button type="button" disabled={locked} onClick={()=>{setStatus('Loading recording…');if(sourceIndex)setSourceIndex(0);else audio.current?.load();}}>Retry recording</button>{sourceUrl&&<a href={sourceUrl} target="_blank" rel="noreferrer">Open source recording ↗</a>}</>}

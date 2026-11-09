@@ -12,6 +12,7 @@ function bankEntries(bank) {
 export function enhanceReadingQuestions(root) {
  if(!root)return;
  root.classList.add('reading-questions');
+ root.querySelectorAll('.reading-nearby-options,.listening-nearby-options').forEach(node=>node.remove());
  for(const p of root.querySelectorAll('p')){
   if(p.querySelector('input,select')||p.closest('.instruction,.q-instruction,.q-instr,.instr,table,[data-reading-ui]'))continue;
   if(/^(?:Complete |Choose |Write |Match |Look at |Do the following |Reading Passage |You should spend )/i.test(p.textContent.trim()))p.classList.add('reading-instruction');
@@ -44,8 +45,6 @@ export function enhanceReadingQuestions(root) {
   for(const option of options)option.textContent=option.value+' — '+bank.entries.get(option.value.toUpperCase());
   select.classList.add('reading-match-select');
   select.dataset.readingInlineBank=String(Boolean(bank.node.closest('.reading-word-bank')));
-  const details=document.createElement('details');details.className='reading-nearby-options';details.dataset.readingUi='';const summary=document.createElement('summary');summary.textContent='Show options';details.append(summary);
-  const list=document.createElement('ul');for(const option of options){const li=document.createElement('li');li.textContent=option.textContent;list.append(li);}details.append(list);select.after(details);
  }
  for(const field of root.querySelectorAll('select[name],input[name]')) {
   let card=field.closest('.q-item,.tfng-item,.match-block,.match-item,.tf-question,.dq-block,.question-row,.q-card');

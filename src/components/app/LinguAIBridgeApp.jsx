@@ -184,9 +184,68 @@ function Overview({ onNavigate }) {
   const [date, setDate] = useState('');
   useEffect(() => { setDate(new Intl.DateTimeFormat('en', { weekday: 'long', day: 'numeric', month: 'long' }).format(new Date())); }, []);
   return <div className="view-content overview-view">
-    <div className="overview-intro"><p className="section-kicker">Your study journal{user && profile.name ? ', ' + profile.name.split(' ')[0] : ''}</p><span className="overview-date">{date}</span></div>
-    <header className="overview-study-hero"><div><h1>Small steps. Real momentum.</h1><p>Your progress, your daily practice and a clear next step — together in one place.</p></div><button type="button" className="primary-action" onClick={() => onNavigate('listening')}>Choose a practice <span>→</span></button></header>
-    <StudyDashboard/>
+    <div className="overview-intro">
+        <div>
+          <p className="section-kicker">Your learning space</p>
+          <h2>
+            Let&apos;s make progress{user && profile.name ? `, ${profile.name.split(' ')[0]}` : ''}<span>.</span>
+          </h2>
+        </div>
+        <span className="overview-date">{date}</span>
+      </div>
+      <section className="welcome-row">
+        <div>
+          <p className="section-kicker hero-kicker">
+            <span /> A little focus. A big difference.
+          </p>
+          <h1>
+            Your next chapter
+            <br />
+            starts with <em>practice.</em>
+          </h1>
+          <p className="view-subtitle">
+            Build your confidence, one session at a time. Your IELTS goals are
+            closer than you think.
+          </p>
+          <button
+            type="button"
+            className="primary-action"
+            onClick={() => onNavigate("listening")}
+          >
+            Continue practice <span>→</span>
+          </button>
+          <span className="hero-footnote">
+            IELTS practice · One session at a time
+          </span>
+        </div>
+        <div className="hero-art" aria-hidden="true">
+          <div className="orbit orbit-one" />
+          <div className="orbit orbit-two" />
+          <div className="hero-spark spark-one">✦</div>
+          <div className="hero-spark spark-two">✦</div>
+          <div className="goal-ticket">
+            <span>THE NEXT CHAPTER</span>
+            <div className="goal-number">
+              {user ? profile.targetBand.toFixed(1) : '7.0'}<span>+</span>
+            </div>
+            <div className="goal-ticket-bottom">
+              <span>YOUR TARGET BAND</span>
+              <span>↗</span>
+            </div>
+          </div>
+          <div className="practice-ticket">
+            <span className="practice-ticket-icon">
+              <AppIcon name="listening" size={24} />
+            </span>
+            <div>
+              <strong>Small steps. Real progress.</strong>
+              <span>You&apos;ve got this.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <StudyDashboard/>
     <section className="skill-panel study-quick-skills"><p className="section-kicker">Make time for your skills</p><h2>Choose your practice</h2><div className="skill-buttons">{navigation.slice(1).filter(item => item.id !== 'profile').map(item => <button type="button" key={item.id} onClick={() => onNavigate(item.id)}><span><AppIcon name={item.id}/></span>{item.label}<span className="skill-arrow">↗</span></button>)}</div></section>
   </div>;
 }

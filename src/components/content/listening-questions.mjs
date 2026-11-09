@@ -20,6 +20,7 @@ function entriesFromBank(node) {
 }
 export function enhanceListeningQuestions(root,groups=[]) {
  root.classList.add('listening-questions');
+ root.querySelectorAll('.reading-nearby-options,.listening-nearby-options').forEach(node=>node.remove());
  for(const hint of root.querySelectorAll('.listening-word-limit')){
   if(hint._field){const field=hint._field;field.removeAttribute('title');const ids=(field.getAttribute('aria-describedby')||'').split(/\s+/).filter(id=>id&&id!==hint.id);if(ids.length)field.setAttribute('aria-describedby',ids.join(' '));else field.removeAttribute('aria-describedby');}hint.remove();
  }

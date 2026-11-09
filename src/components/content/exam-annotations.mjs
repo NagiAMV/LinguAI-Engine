@@ -45,3 +45,12 @@ export function uncoveredHighlights(selection, highlights) {
  }
  return segments.map(([start,end])=>({...selection,start,end,text:selection.text.slice(start-selection.start,end-selection.start)})).filter(s=>s.text.trim());
 }
+
+export function withoutSelectedHighlights(highlights, selection) {
+ return highlights.filter(h=>h.part!==selection.part||h.area!==selection.area||h.end<=selection.start||h.start>=selection.end);
+}
+
+export function highlightAtPoint(root, highlights, part, area, x, y) {
+ if(!Number.isFinite(x)||!Number.isFinite(y))return null;
+ return highlights.find(item=>item.part===part&&item.area===area&&[...(highlightRange(root,item)?.getClientRects()||[])].some(rect=>x>=rect.left&&x<=rect.right&&y>=rect.top&&y<=rect.bottom))||null;
+}
