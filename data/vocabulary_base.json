@@ -6637,5 +6637,97 @@
     "translationSources": {
       "ru": "MyMemory"
     }
+  },
+  {
+    "word": "tell",
+    "translations": {
+      "ru": "Ты"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "transcription": "/tɛl/",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+            "example": ""
+          },
+          {
+            "definition": "That which is told; a tale or account.",
+            "example": ""
+          },
+          {
+            "definition": "A private message to an individual in a chat room; a whisper.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "(archaic outside of idioms) To count, reckon, or enumerate.",
+            "example": "All told, there were over a dozen.  Can you tell time on a clock?  He had untold wealth."
+          },
+          {
+            "definition": "To narrate.",
+            "example": "I want to tell a story;  I want to tell you a story."
+          },
+          {
+            "definition": "To convey by speech; to say.",
+            "example": "Finally, someone told him the truth.  He seems to like to tell lies."
+          }
+        ]
+      }
+    ],
+    "examples": ["All told, there were over a dozen.  Can you tell time on a clock?  He had untold wealth.", "I want to tell a story;  I want to tell you a story.", "Finally, someone told him the truth.  He seems to like to tell lies.", "Please tell me how to do it.", "Tell him to go away."],
+    "synonyms": ["count", "number", "grass up", "snitch", "tattle", "narrate", "recount", "relate", "disclose", "make known", "advise", "apprise"],
+    "antonyms": ["ask"],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/tell"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  },
+  {
+    "word": "importance",
+    "translations": {
+      "ru": "значимость"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "what",
+    "translations": {
+      "ru": "что"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "audio",
+    "translations": {
+      "ru": "аудио"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
   }
 ]

@@ -8,6 +8,7 @@ import AudioRecording from "./AudioRecording";
 import ErrorTags from './ErrorTags';
 import TranscriptFollow from './TranscriptFollow';
 import { prepareTranscriptTimestamps } from './transcript-timestamps.mjs';
+import { prepareTranscriptGroups } from './transcript-groups.mjs';
 import {splitResultRows} from './answer-review.mjs';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAccount } from '@/components/account/AccountProvider';
@@ -56,9 +57,9 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
       const summary=document.createElement('summary');summary.textContent=ru?'Объяснение':uz?'Izoh':'Explanation';detail.append(summary);
       const reason=document.createElement('p');
       const reasons=ru?{correct:'Ответ совпадает с одним из допустимых вариантов ключа.',partial:'Часть ответов верна; каждый засчитан отдельно.',incorrect:'Ответ не совпадает с допустимыми вариантами ключа.',blank:'Ответ не введён.',pending:'Проверенного ключа нет, поэтому оценка не выставлена.'}:uz?{correct:'Javobingiz kalitdagi qabul qilinadigan javobga mos.',partial:'Javoblarning bir qismi to‘g‘ri; ular alohida hisoblangan.',incorrect:'Javobingiz kalitdagi qabul qilinadigan javoblarga mos emas.',blank:'Javob kiritilmagan.',pending:'Tasdiqlangan javob kaliti yo‘q, shu sababli bu javob baholanmaydi.'}:{correct:'Your answer matches an accepted answer in the key.',partial:'Some answers are correct; each is credited separately.',incorrect:'Your answer does not match the accepted answers in the key.',blank:'No answer was entered.',pending:'No verified answer key is available, so this answer is not graded.'};
-      reason.textContent=reasons[row.status]+(row.status!=='pending'?(ru?' Регистр букв и лишние пробелы не учитываются.':uz?' Katta-kichik harflar va ortiqcha bo‘shliqlar hisobga olinmaydi.':' Letter case and extra whitespace are ignored.'):'');detail.append(reason);
+      reason.textContent=reasons[row.status];detail.append(reason);
       if(row.names.length>1 || row.numbers.includes('–')) {const group=document.createElement('p');group.textContent=ru?'Каждый правильный ответ даёт один балл. Порядок не важен.':uz?'Har bir to‘g‘ri javob uchun bir ball beriladi. Tartibi muhim emas.':'Each correct answer earns one mark. Order does not matter.';detail.append(group);}
-      const explanation=explanations[row.numbers];
+      const explanation=explanations[row.numbers] || explanations[row.questionNumbers?.[0]];
       if(explanation?.part===part){
         const quotes=explanation.quotes?.length?explanation.quotes:explanation.quote?[explanation.quote]:[];
         summary.addEventListener('click',()=>{if(!detail.open)onEvidence(quotes,false);});
@@ -106,14 +107,16 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   const [jump, setJump] = useState(initialRow?.name || null);
   const [audioTime,setAudioTime] = useState(null);
   const [seekRequest, setSeekRequest] = useState(null);
-  useEffect(()=>setAudioTime(null),[partId]);
+  useEffect(()=>{setAudioTime(null);setSeekRequest(null);},[partId]);
   const root = useRef(null);
   const part = test.parts.find(p => p.id === partId);
   useEffect(() => {
     if (test.resource !== 'listening' || !part.audioUrls?.length) return;
     const element = root.current?.querySelector('[data-review-passage] .review-content');
     if (!element) return;
-    return prepareTranscriptTimestamps(element, time => setSeekRequest({ time, partId: part.id }), language);
+    const groups=prepareTranscriptGroups(element,part);
+    const timestamps=prepareTranscriptTimestamps(element, time => setSeekRequest({ time, partId: part.id }), language);
+    return()=>{timestamps();groups();};
   }, [test.resource, part.id, part.passage, language]);
   const partRows = useMemo(() => rows.filter(row => row.part === partId), [rows, partId]);
   const visible = partRows.filter(row => !errorsOnly || ['incorrect','partial','blank'].includes(row.status));
@@ -124,10 +127,11 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     globalThis.CSS?.highlights?.delete('review-evidence');
     if(!citations.length){setEvidenceError('');return;}
     const ranges=citations.map(citation=>evidenceRange(passage,citation));
-    if(ranges.some(range=>!range)){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
-    if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(...ranges));
-    else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(ranges[0]);}
-    if(scroll)ranges[0].startContainer.parentElement.scrollIntoView({block:'center',behavior:'smooth'});
+    const matched=ranges.filter(Boolean);
+    if(!matched.length){setEvidenceError(language==='ru'?'Цитата не найдена в этой версии текста.':'The quote was not found in this version of the text.');return;}
+    if(globalThis.CSS?.highlights&&globalThis.Highlight)CSS.highlights.set('review-evidence',new Highlight(...matched));
+    else {const selection=window.getSelection();selection.removeAllRanges();selection.addRange(matched[0]);}
+    if(scroll)matched[0].startContainer.parentElement.scrollIntoView({block:'center',behavior:'smooth'});
     setEvidenceError('');
   }
   useEffect(()=>{globalThis.CSS?.highlights?.delete('review-evidence');setEvidenceError('');return()=>globalThis.CSS?.highlights?.delete('review-evidence');},[partId]);
@@ -138,7 +142,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     if(target?.matches('.worksheet-input'))target=[...root.current.querySelectorAll('.review-diagram-feedback [data-review-feedback]')].find(node=>node.dataset.reviewFeedback===jump)||target;
     if (target) { target.tabIndex = -1; target.scrollIntoView({ block: 'center', inline: 'nearest' }); target.focus({ preventScroll: true }); }
     const row=rows.find(item=>item.name===jump&&item.part===partId);
-    const explanation=row&&explanations[row.numbers];
+    const explanation=row&&(explanations[row.numbers] || explanations[row.questionNumbers?.[0]]);
     globalThis.CSS?.highlights?.delete('review-evidence');
     if(row){
       const detail=[...root.current.querySelectorAll('[data-explanation]')].find(node=>node.dataset.explanation===row.name);
@@ -151,7 +155,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     <div className="review-toolbar"><button className="button cd-secondary" onClick={onBack}>← Results</button>{!singleListening && <label>Part <select value={partId} onChange={event => { const id = Number(event.target.value); setPartId(id); setActive(null); }}>{test.parts.map(p => <option key={p.id} value={p.id}>Part {p.id}</option>)}</select></label>}<label className="review-errors-toggle"><input type="checkbox" checked={errorsOnly} onChange={event => setErrorsOnly(event.target.checked)} /> Errors & unanswered</label><label>Language <select aria-label="Explanation language" value={language} onChange={event=>{setLanguage(event.target.value);localStorage.setItem('linguai-review-language',event.target.value);}}>{languages.map(code=><option key={code} value={code}>{code === 'ru' ? 'Русский' : code === 'uz' ? 'O‘zbekcha' : 'English'}</option>)}</select></label>{!singleListening && <button className="review-collapse-all" onClick={()=>root.current.querySelectorAll('details[data-explanation]').forEach(node=>node.open=false)}>{language==='ru'?'Свернуть все':language==='uz'?'Hammasini yopish':'Collapse all'}</button>}</div>
     {evidenceError&&<p role="status">{evidenceError}</p>}
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
-    {activeErrors.length > 0 && <div className="review-error-tags" aria-label="Tag the cause of an error">{activeErrors.map(row=><ErrorTags key={row.numbers} expanded number={row.numbers} part={row.part} tags={errorTags} onToggle={onToggleErrorTag} language={language} />)}<small>{language==='ru'?'Метки сохраняются с этой попыткой на устройстве.':language==='uz'?'Belgilar ushbu urinish bilan qurilmada saqlanadi.':'Tags are saved with this attempt on this device.'}</small></div>}
+    {activeErrors.length > 0 && <details className="review-error-tags review-error-tags-panel"><summary>{language==='ru'?'Причина ошибки':language==='uz'?'Xato sababi':'Error tags'}</summary>{activeErrors.map(row=><ErrorTags key={row.numbers} expanded number={row.numbers} part={row.part} tags={errorTags} onToggle={onToggleErrorTag} language={language} />)}<small>{language==='ru'?'Метки сохраняются с этой попыткой на устройстве.':language==='uz'?'Belgilar ushbu urinish bilan qurilmada saqlanadi.':'Tags are saved with this attempt on this device.'}</small></details>}
     <div className="review-reading-panes" key={part.id}>
       <article data-review-passage className={test.resource === 'listening' ? 'listening-transcript' : undefined} aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording seekRequest={seekRequest?.partId === part.id ? seekRequest : null} precise={part.passage.includes('data-cue-start')} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} onPosition={setAudioTime} sourceUrl={test.sourceUrl} />}{test.resource === 'listening' && <TranscriptFollow root={root} part={part} time={audioTime} language={language} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
       <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
