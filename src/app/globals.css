@@ -3437,3 +3437,18 @@ h3,
   .single-practice-groups { gap: 32px; }
   .single-practice-group + .single-practice-group { padding-top: 24px; }
 }
+.collection-illustration { width:clamp(190px,18vw,260px); height:clamp(190px,18vw,260px); flex:0 0 auto; display:grid; place-items:center; position:relative; }
+.collection-illustration img { display:block; width:100%; height:100%; object-fit:contain; filter:drop-shadow(0 12px 12px #183e3312); }
+.library-hero:has(.collection-illustration) { align-items:center; }
+.writing-workspace .writing-banner-illustrated { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:24px; }
+.writing-banner-illustrated .collection-illustration { width:220px; height:220px; }
+.sh-art-illustrated .collection-illustration { width:270px; height:270px; margin-bottom:30px; }
+.sh-art-illustrated .collection-illustration img { filter:drop-shadow(0 14px 20px #0002); }
+@media(max-width:1000px) { .writing-banner-illustrated .collection-illustration { width:170px; height:170px; } }
+@media(max-width:850px) { .speaking-hub .sh-art-illustrated { display:flex; min-height:190px; } .sh-art-illustrated .collection-illustration { width:170px; height:170px; } }
+@media(max-width:640px) {
+ .library-hero:has(.collection-illustration) { position:relative; padding-right:0; gap:12px; align-items:stretch; }
+ .library-hero .collection-illustration { width:128px; height:128px; align-self:flex-end; margin-top:-12px; }
+ .writing-workspace .writing-banner-illustrated { grid-template-columns:1fr; gap:8px; }
+ .writing-banner-illustrated .collection-illustration { width:128px; height:128px; justify-self:end; margin-top:-8px; }
+}

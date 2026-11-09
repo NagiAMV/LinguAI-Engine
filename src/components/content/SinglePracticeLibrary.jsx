@@ -1,4 +1,5 @@
 "use client";
+import CollectionIllustration from '../CollectionIllustration';
 import Link from 'next/link';
 import {useSearchParams} from 'next/navigation';
 import reading from '@/data/single-passage-reading-catalog.json';
@@ -17,5 +18,5 @@ export function SinglePracticeGrid({resource}){
 }
 export default function SinglePracticeLibrary({resource}){
  const reading=resource==='reading';
- return <div className="view-content reading-view"><section className="library-hero reading-hero"><div><p className="section-kicker blue">{reading?'Reading · Single passages':'Listening · Single sections'}</p><h1>{reading?'One passage at a time.':'One section at a time.'}</h1><p className="view-subtitle">{reading?'Choose Passage 1, 2 or 3 and practise one text with its questions.':'Choose Section 1, 2, 3 or 4. Each exercise has its own recording and answer sheet.'}</p></div><div className="library-orbit blue"><span>{reading?'R':'L'}</span></div></section><nav className="single-practice-filters" aria-label="Practice format"><Link href={`/?view=${resource}`}>Full tests</Link><Link href={`/?view=${resource}&format=single`} aria-current="page">Single {reading?'passages':'sections'}</Link></nav><SinglePracticeGrid resource={resource}/></div>;
+ return <div className="view-content reading-view"><section className="library-hero reading-hero"><div><p className="section-kicker blue">{reading?'Reading · Single passages':'Listening · Single sections'}</p><h1>{reading?'One passage at a time.':'One section at a time.'}</h1><p className="view-subtitle">{reading?'Choose Passage 1, 2 or 3 and practise one text with its questions.':'Choose Section 1, 2, 3 or 4. Each exercise has its own recording and answer sheet.'}</p></div><CollectionIllustration resource={resource}/></section><nav className="single-practice-filters" aria-label="Practice format"><Link href={`/?view=${resource}`}>Full tests</Link><Link href={`/?view=${resource}&format=single`} aria-current="page">Single {reading?'passages':'sections'}</Link></nav><SinglePracticeGrid resource={resource}/></div>;
 }

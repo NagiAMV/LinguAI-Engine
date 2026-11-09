@@ -6530,5 +6530,112 @@
         "url": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
+  },
+  {
+    "word": "flight",
+    "translations": {
+      "ru": "перелета"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "The act of flying.",
+    "transcription": "/flaɪt/",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "The act of flying.",
+            "example": "Most birds are capable of flight."
+          },
+          {
+            "definition": "An instance of flying.",
+            "example": "The migrating birds' flight took them to Africa."
+          },
+          {
+            "definition": "The act of fleeing.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "(of a spin bowler) To throw the ball in such a way that it has more airtime and more spin than usual.",
+            "example": ""
+          },
+          {
+            "definition": "(by extension) To throw or kick something so as to send it flying with more loft or airtime than usual.",
+            "example": ""
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "adjective",
+        "definitions": [
+          {
+            "definition": "Fast, swift, fleet.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "examples": ["Most birds are capable of flight.", "The migrating birds' flight took them to Africa.", "a flight of swallows", "The flight to Paris leaves at 7 o'clock tonight.", "How many flights is it up?"],
+    "synonyms": [],
+    "antonyms": [],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/flight"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  },
+  {
+    "word": "irene",
+    "translations": {
+      "ru": "Ирен"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "reproduce",
+    "translations": {
+      "ru": "воспроизводить себе подобных"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "the",
+    "translations": {
+      "ru": "когда:"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "ask",
+    "translations": {
+      "ru": "спрашивают"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
   }
 ]
