@@ -1,12 +1,26 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function AudioRecording({ part, position = 0, onPosition, sourceUrl, locked = false, fullTest = false, precise = false }) {
+export default function AudioRecording({ part, position = 0, onPosition, sourceUrl, locked = false, fullTest = false, precise = false, seekRequest = null }) {
  const audio = useRef(null);
  const [sourceIndex, setSourceIndex] = useState(0);
  const [status, setStatus] = useState("Loading recording…");
  const resume = useRef(position);
  const urls = part.audioUrls || [];
+ useEffect(() => {
+  const player = audio.current;
+  if (!player || locked || !seekRequest || !Number.isFinite(seekRequest.time)) return;
+  resume.current = Math.max(0, seekRequest.time);
+  const seek = () => {
+   const end = Number.isFinite(player.duration) ? Math.max(0, player.duration - 0.05) : Infinity;
+   player.currentTime = Math.min(resume.current, end);
+   onPosition?.(player.currentTime);
+   player.play().catch(() => setStatus('Position selected — press Play to listen.'));
+  };
+  if (player.readyState >= 1) seek();
+  else player.addEventListener('loadedmetadata', seek, { once: true });
+  return () => player.removeEventListener('loadedmetadata', seek);
+ }, [seekRequest, sourceIndex, locked, onPosition]);
  
  useEffect(()=>{
   const player=audio.current;

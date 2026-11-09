@@ -2,7 +2,6 @@
 import CollectionIllustration from './CollectionIllustration';
 import {useEffect,useMemo,useState} from 'react';
 import bank from '@/data/speaking-question-bank.json';
-import './speaking-hub.css';
 function Phrase({text=''}){return text.split(/(\{[^{}]+\})/g).map((s,i)=>s.startsWith('{')?<abbr key={i} tabIndex={0} data-hint={s.slice(1,-1).split('|')[1]} title={s.slice(1,-1).split('|')[1]}>{s.slice(1,-1).split('|')[0]}</abbr>:s);}
 export default function SpeakingHub({children}){
  const [mode,setMode]=useState('bank'),[query,setQuery]=useState(''),[category,setCategory]=useState('All topics'),[savedOnly,setSavedOnly]=useState(false),[saved,setSaved]=useState([]),[ready,setReady]=useState(false),[selected,setSelected]=useState(bank.sessions[0].n),[part,setPart]=useState(2),[seconds,setSeconds]=useState(60),[running,setRunning]=useState(false),[stage,setStage]=useState('Prepare'),[note,setNote]=useState('');

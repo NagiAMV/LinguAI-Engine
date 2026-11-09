@@ -2,6 +2,8 @@ import "./globals.css";
 import AccountProvider from '@/components/account/AccountProvider';
 import ContextMenuGuard from '@/components/ContextMenuGuard';
 import '@/components/account/account.css';
+import '@/components/writing/writing.css';
+import '@/components/speaking-hub.css';
 
 export const metadata = {
   title: "LinguAI Bridge",

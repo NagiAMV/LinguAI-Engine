@@ -3,7 +3,6 @@ import CollectionIllustration from '../CollectionIllustration';
 import {useEffect,useState,useRef} from 'react';
 import {useAccount} from '../account/AccountProvider';
 import {writingTasks} from './tasks';
-import './writing.css';
 export default function WritingStudio(){
  const {user,ready}=useAccount();const owner=user?.id||'guest';const [filter,setFilter]=useState('all'),[search,setSearch]=useState(''),[selected,setSelected]=useState(null),[draft,setDraft]=useState({text:'',notes:''}),[loaded,setLoaded]=useState(''),[status,setStatus]=useState(''),[feedback,setFeedback]=useState(null),[busy,setBusy]=useState(false),[deadline,setDeadline]=useState(null),[now,setNow]=useState(Date.now()),[language,setLanguage]=useState('English');const request=useRef(0);
  const [aiAvailable,setAiAvailable]=useState(false);

@@ -7,6 +7,7 @@ import TextHighlights from "./TextHighlights";
 import AudioRecording from "./AudioRecording";
 import ErrorTags from './ErrorTags';
 import TranscriptFollow from './TranscriptFollow';
+import { prepareTranscriptTimestamps } from './transcript-timestamps.mjs';
 import {splitResultRows} from './answer-review.mjs';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAccount } from '@/components/account/AccountProvider';
@@ -104,9 +105,16 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
   const [errorsOnly, setErrorsOnly] = useState(false);
   const [jump, setJump] = useState(initialRow?.name || null);
   const [audioTime,setAudioTime] = useState(null);
+  const [seekRequest, setSeekRequest] = useState(null);
   useEffect(()=>setAudioTime(null),[partId]);
   const root = useRef(null);
   const part = test.parts.find(p => p.id === partId);
+  useEffect(() => {
+    if (test.resource !== 'listening' || !part.audioUrls?.length) return;
+    const element = root.current?.querySelector('[data-review-passage] .review-content');
+    if (!element) return;
+    return prepareTranscriptTimestamps(element, time => setSeekRequest({ time, partId: part.id }), language);
+  }, [test.resource, part.id, part.passage, language]);
   const partRows = useMemo(() => rows.filter(row => row.part === partId), [rows, partId]);
   const visible = partRows.filter(row => !errorsOnly || ['incorrect','partial','blank'].includes(row.status));
   const activeErrors = splitResultRows(partRows.filter(row => row.name === active)).filter(row => ['incorrect','blank'].includes(row.status));
@@ -145,7 +153,7 @@ export default function ExamPassageReview({ test, answers, rows, initialRow, onB
     <nav className="review-question-links" aria-label="Review question navigation">{visible.map(row => <button key={row.name} className={row.status} aria-current={active === row.name ? 'true' : undefined} onClick={() => go(row)} aria-label={`Question ${row.numbers}: ${labels[row.status]}`}>{row.numbers} <span>{labels[row.status]}</span></button>)}{!visible.length && <p>No errors or unanswered questions with available keys in this part.</p>}</nav>
     {activeErrors.length > 0 && <div className="review-error-tags" aria-label="Tag the cause of an error">{activeErrors.map(row=><ErrorTags key={row.numbers} expanded number={row.numbers} part={row.part} tags={errorTags} onToggle={onToggleErrorTag} language={language} />)}<small>{language==='ru'?'Метки сохраняются с этой попыткой на устройстве.':language==='uz'?'Belgilar ushbu urinish bilan qurilmada saqlanadi.':'Tags are saved with this attempt on this device.'}</small></div>}
     <div className="review-reading-panes" key={part.id}>
-      <article data-review-passage className={test.resource === 'listening' ? 'listening-transcript' : undefined} aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording precise={part.passage.includes('data-cue-start')} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} onPosition={setAudioTime} sourceUrl={test.sourceUrl} />}{test.resource === 'listening' && <TranscriptFollow root={root} part={part} time={audioTime} language={language} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
+      <article data-review-passage className={test.resource === 'listening' ? 'listening-transcript' : undefined} aria-label={test.resource === 'reading' ? `Part ${partId} passage` : `Part ${partId} transcript`}><h3>{test.resource === 'reading' ? 'Passage' : 'Transcript'} · Part {partId}</h3>{test.resource === 'listening' && part.audioUrls?.length > 0 && <AudioRecording seekRequest={seekRequest?.partId === part.id ? seekRequest : null} precise={part.passage.includes('data-cue-start')} part={part} fullTest={test.audioScope === 'test'} position={part.transcriptStartSeconds || 0} onPosition={setAudioTime} sourceUrl={test.sourceUrl} />}{test.resource === 'listening' && <TranscriptFollow root={root} part={part} time={audioTime} language={language} />}<AnnotatedContent html={part.passage} highlights={highlights} part={partId} area="passage" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
       <article aria-label={`Part ${partId} reviewed questions`}><h3>Questions & answers</h3><AnnotatedContent html={part.questions} highlights={highlights} part={partId} area="questions" answers={answers} rows={partRows} active={active} language={language} explanations={explanations} onEvidence={showEvidence} /></article>
     </div>
   </section>;
