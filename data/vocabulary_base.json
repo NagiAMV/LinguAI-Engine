@@ -6749,5 +6749,15 @@
     "translationSources": {
       "ru": "MyMemory"
     }
+  },
+  {
+    "word": "samuel",
+    "translations": {
+      "ru": "Samuel"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
   }
 ]
