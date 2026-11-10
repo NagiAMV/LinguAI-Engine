@@ -6759,5 +6759,80 @@
     "translationSources": {
       "ru": "MyMemory"
     }
+  },
+  {
+    "word": "ticket",
+    "translations": {
+      "ru": "билет"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "laundry",
+    "translations": {
+      "ru": "стиркой. "
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "A laundering; a washing.",
+    "transcription": "/ˈlɑn.dɹi/",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A laundering; a washing.",
+            "example": ""
+          },
+          {
+            "definition": "A place or room where laundering is done - including, by extension, other forms of laundering than clothes washing.",
+            "example": ""
+          },
+          {
+            "definition": "That which needs to be, is being, or has been laundered.",
+            "example": "You've left your dirty laundry all over the house."
+          }
+        ]
+      }
+    ],
+    "examples": ["You've left your dirty laundry all over the house."],
+    "synonyms": ["washing", "laundrette", "laundromat", "lavatory", "washateria"],
+    "antonyms": [],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/laundry"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
+  },
+  {
+    "word": "lily",
+    "translations": {
+      "ru": "лилии"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "miller",
+    "translations": {
+      "ru": "МИЛЛЕР"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
   }
 ]
