@@ -6834,5 +6834,49 @@
     "translationSources": {
       "ru": "MyMemory"
     }
+  },
+  {
+    "word": "failures",
+    "translations": {
+      "ru": "."
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    },
+    "definition": "State or condition of not meeting a desirable or intended objective, opposite of success.",
+    "grammar": {
+      "part_of_speech": "noun"
+    },
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "State or condition of not meeting a desirable or intended objective, opposite of success.",
+            "example": ""
+          },
+          {
+            "definition": "An object, person or endeavour in a state of failure or incapable of success.",
+            "example": ""
+          },
+          {
+            "definition": "Termination of the ability of an item to perform its required function; breakdown.",
+            "example": ""
+          }
+        ]
+      }
+    ],
+    "examples": [],
+    "synonyms": ["loser"],
+    "antonyms": ["success", "triumph"],
+    "dictionarySource": {
+      "provider": "Free Dictionary API",
+      "urls": ["https://en.wiktionary.org/wiki/failure", "https://en.wiktionary.org/wiki/failures"],
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    }
   }
 ]
