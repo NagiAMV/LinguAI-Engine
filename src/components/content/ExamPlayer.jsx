@@ -153,6 +153,10 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     const restored = restoreSession({
       ...saved,
       durationMs: (test.durationMinutes || 60) * 60 * 1000,
+      // Apply the full Listening limit to an already running saved attempt too.
+      deadline: test.resource === 'listening' && test.parts.length > 1 && saved.phase === 'running' && saved.mode !== 'training' && Number.isFinite(saved.deadline)
+        ? Math.min(saved.deadline, startedAt + (test.durationMinutes || 60) * 60 * 1000)
+        : saved.deadline,
       answers: saved.answers && typeof saved.answers === "object" && !Array.isArray(saved.answers) ? saved.answers : {},
       partIndex, startedAt,
       finishedAt: Number.isFinite(saved.finishedAt) && saved.finishedAt >= startedAt ? saved.finishedAt : null,

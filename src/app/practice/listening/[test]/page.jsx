@@ -16,5 +16,6 @@ export default async function ListeningPracticePage({params}) {
   if (!item) notFound();
   const test = JSON.parse(await readFile(path.join(process.cwd(), 'public', 'practice', `${item.id}.json`), 'utf8'));
   test.reviewLanguages = ['ru','en','uz'];
+  test.durationMinutes = 30;
   return <ExamPlayer key={test.id} test={test} answerKey={keys[test.id]} explanations={listeningExplanations[test.id] || {}} />;
 }
