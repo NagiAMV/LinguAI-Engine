@@ -38,6 +38,7 @@ Return ONLY valid JSON with this exact structure:
   "strengths": ["string", "string"],
   "improvements": ["string", "string"],
   "criteria": ${criteriaObject},
+  ${isSpeaking ? '' : '"criterionBands": ' + JSON.stringify(Object.fromEntries(list.map(label => [label, 6.5]))) + ',\n  "revisedResponse": "A revised English version preserving the learner’s argument and using only data supplied in the task",'}
   "corrections": [
     { "original": "string", "corrected": "string", "explanation": "string" }
   ],
@@ -50,6 +51,8 @@ Important rules:
 - Give an indicative 0–9 band in half-band steps; never claim this is an official score. For each writing criterion include a band estimate, quoted evidence from the submission and an actionable improvement. Do not invent quotations. Corrections must preserve intended meaning.
 - Follow the feedback language requested in the task; keep original and corrected English quotations in English.
 - Keep the feedback specific and actionable.
+- For writing, supply numeric criterionBands using exactly the same four criterion names and half-band values from 0 to 9. Calculate bandScore from their equally weighted mean, rounded to the nearest half band. Give exactly three priority nextSteps. Provide at most six corrections, quoting exact substrings of the submission, and a revisedResponse in English. Keep each criterion comment under 80 words and the revision under 400 words. Explain why each correction helps; avoid unnecessary stylistic rewrites.
+- For writing corrections add kind: grammar, vocabulary, cohesion, task or style. Label optional stylistic refinements as style, never as errors. Do not invent mistakes to fill the list; zero corrections is valid when the response is accurate. Copy original quotations exactly, including capitalization; never translate them or replace omitted words with ellipses.
 - If the answer is short or weak, reflect that honestly.
 - Focus on the most important weaknesses and priority improvements.
 - For speaking transcripts, assess organization, clarity, grammar, vocabulary, and idea development from the text only.

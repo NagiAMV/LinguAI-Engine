@@ -6,7 +6,7 @@ export function localDay(value=new Date()) {
 }
 export function activityKey(owner){return `linguai-study-activity-v1:${owner||'guest'}`;}
 export function readActivities(storage,owner){try{storage ||= globalThis.localStorage;return JSON.parse(storage.getItem(activityKey(owner))||'[]').filter(validActivity);}catch{return [];}}
-function validActivity(a){return a&&typeof a.id==='string'&&a.id.length<200&&STUDY_SKILLS.includes(a.resource)&&['draft','review','speaking-drill'].includes(a.kind)&&typeof a.title==='string'&&a.title.length<=240&&Number.isFinite(Date.parse(a.finished_at))&&Number.isInteger(a.duration_seconds)&&a.duration_seconds>=0&&a.duration_seconds<=86400&&(a.band==null||(Number.isFinite(a.band)&&a.band>=0&&a.band<=9));}
+function validActivity(a){return a&&typeof a.id==='string'&&a.id.length<200&&STUDY_SKILLS.includes(a.resource)&&['draft','review','speaking-drill','writing-session'].includes(a.kind)&&typeof a.title==='string'&&a.title.length<=240&&Number.isFinite(Date.parse(a.finished_at))&&Number.isInteger(a.duration_seconds)&&a.duration_seconds>=0&&a.duration_seconds<=86400&&(a.band==null||(Number.isFinite(a.band)&&a.band>=0&&a.band<=9));}
 export function recordActivity(owner,activity,storage){
  if(!validActivity(activity))return false;
  try{storage ||= globalThis.localStorage;if(!storage)return false;const list=readActivities(storage,owner).filter(a=>a.id!==activity.id);list.push(activity);list.sort((a,b)=>Date.parse(b.finished_at)-Date.parse(a.finished_at));storage.setItem(activityKey(owner),JSON.stringify(list.slice(0,2000)));globalThis.window?.dispatchEvent(new Event('linguai-study-activity'));return true;}catch{return false;}
