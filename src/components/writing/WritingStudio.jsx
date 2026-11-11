@@ -1,13 +1,16 @@
 'use client';
 import CollectionIllustration from '../CollectionIllustration';
 import {useEffect,useState} from 'react';
+import {useSearchParams} from 'next/navigation';
 import {useAccount} from '../account/AccountProvider';
 import {writingTasks} from './tasks';
 import WritingLibrary from './WritingLibrary';
 import WritingPractice from './WritingPractice';
 export default function WritingStudio(){
+ const searchParams=useSearchParams();
  const {user,ready}=useAccount(),owner=user?.id||'guest';
  const [filter,setFilter]=useState('all'),[search,setSearch]=useState(''),[selected,setSelected]=useState(null),[aiAvailable,setAiAvailable]=useState(false),[statuses,setStatuses]=useState({}),[taskOne,setTaskOne]=useState('table-0'),[taskTwo,setTaskTwo]=useState('essay-0-0');
+ useEffect(()=>{const task=writingTasks.find(t=>t.id===searchParams.get('task'));if(task)setSelected([task]);},[searchParams]);
  useEffect(()=>{const c=new AbortController();fetch('/api/ai/evaluate',{signal:c.signal,cache:'no-store'}).then(r=>r.json()).then(p=>setAiAvailable(p.available===true)).catch(()=>{});return()=>c.abort();},[]);
  useEffect(()=>{if(!ready)return;const next={};try{for(const key of Object.keys(localStorage)){if(key.startsWith(`writing-v3:${owner}:`)){const saved=JSON.parse(localStorage.getItem(key));for(const [id,d] of Object.entries(saved.documents||{})){const state=saved.phase==='submitted'||d.feedback?'Completed':d.text?.trim()?'Draft':'Not started';if(!next[id]||state==='Completed'||(state==='Draft'&&next[id]!=='Completed'))next[id]=state;}}else if(key.startsWith(`writing-v2:${owner}:`)){const id=key.slice(`writing-v2:${owner}:`.length);if(!next[id]&&JSON.parse(localStorage.getItem(key))?.text?.trim())next[id]='Draft';}}}catch{}setStatuses(next);},[owner,ready,selected]);
  return <div className="view-content writing-workspace"><header className={"writing-banner writing-banner-illustrated"+(selected?" writing-banner-compact":"")}><div><p className="section-kicker">Academic Writing studio</p><h1>Find your idea. Make your case.</h1><p>{writingTasks.length} original prompts · Training & Exam Mode · Task 1 & Task 2</p><small>Original practice material. Charts and maps use fictional data.</small></div>{!selected&&<CollectionIllustration resource="writing"/>}</header>

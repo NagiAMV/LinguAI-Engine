@@ -44,6 +44,9 @@ function validateFeedback(value, input) {
     if (value.criterionBands !== undefined && (!value.criterionBands || Object.keys(value.criterionBands).length !== 4 || expected.some(k => !Number.isFinite(value.criterionBands[k]) || value.criterionBands[k] < 0 || value.criterionBands[k] > 9 || value.criterionBands[k] * 2 % 1))) throw new ReviewError('The AI returned invalid criterion scores. Please try again.');
     if (value.revisedResponse !== undefined && (typeof value.revisedResponse !== 'string' || value.revisedResponse.length > 16000)) throw new ReviewError('The AI returned an invalid revised response.');
     if (value.criterionBands) value.bandScore = Math.round(expected.reduce((sum, name) => sum + value.criterionBands[name], 0) / 4 * 2) / 2;
+  } else {
+    const expected=['Fluency and Coherence','Lexical Resource','Grammatical Range and Accuracy','Pronunciation','Interaction and Development of Ideas'];
+    if(Object.keys(value.criteria).length!==5||expected.some(k=>!str(value.criteria[k]))||value.criteria.Pronunciation!=='Not assessed: transcript only; audio analysis is required.')throw new ReviewError('The Speaking review could not be verified. Pronunciation requires a separate audio assessment.');
   }
   return value;
 }
@@ -64,7 +67,7 @@ function feedbackSchema(input) {
   const text={type:'string'},list={type:'array',items:text};
   const labels=input.mode==='writing'?[/\bTask\s*1\b/i.test(input.task)?'Task Achievement':'Task Response','Coherence and Cohesion','Lexical Resource','Grammatical Range and Accuracy']:['Fluency and Coherence','Lexical Resource','Grammatical Range and Accuracy','Pronunciation','Interaction and Development of Ideas'];
   const object=properties=>({type:'object',properties,required:Object.keys(properties),additionalProperties:false});
-  return object({bandScore:{type:'number'},summary:text,strengths:list,improvements:list,criteria:object(Object.fromEntries(labels.map(k=>[k,text]))),corrections:{type:'array',items:object({original:text,corrected:text,explanation:text,...(input.mode==='writing'?{kind:{type:'string',enum:['grammar','vocabulary','cohesion','task','style']}}:{})})},nextSteps:list,...(input.mode==='writing'?{criterionBands:object(Object.fromEntries(labels.map(k=>[k,{type:'number'}]))),revisedResponse:text}:{})});
+  return object({bandScore:{type:'number'},summary:text,strengths:list,improvements:list,criteria:object(Object.fromEntries(labels.map(k=>[k,k==='Pronunciation'?{type:'string',enum:['Not assessed: transcript only; audio analysis is required.']}:text]))),corrections:{type:'array',items:object({original:text,corrected:text,explanation:text,...(input.mode==='writing'?{kind:{type:'string',enum:['grammar','vocabulary','cohesion','task','style']}}:{})})},nextSteps:list,...(input.mode==='writing'?{criterionBands:object(Object.fromEntries(labels.map(k=>[k,{type:'number'}]))),revisedResponse:text}:{})});
 }
 async function generateJSON(prompt, system, cfg, fetcher = fetch, schema) {
   const gemini = cfg.provider === 'gemini';

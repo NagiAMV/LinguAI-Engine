@@ -18,6 +18,11 @@ test('case-only quote differences are grounded in source without allowing invent
  assert.equal(result.corrections[0].original,input.submission);
  assert.throws(()=>validateFeedback({...feedback,corrections:[{...feedback.corrections[0],original:'Education helps everyone succeed.'}]},input));
 });
+test('Speaking transcript feedback cannot manufacture a pronunciation score',()=>{
+ const speaking={...feedback,criteria:{'Fluency and Coherence':'The ideas are connected in this transcript.','Lexical Resource':'The vocabulary is clear.','Grammatical Range and Accuracy':'Develop sentence range.','Pronunciation':'Not assessed: transcript only; audio analysis is required.','Interaction and Development of Ideas':'Support the example.'}};
+ assert.equal(validateFeedback(speaking,{...input,mode:'speaking'}).bandScore,6.5);
+ assert.throws(()=>validateFeedback({...speaking,criteria:{...speaking.criteria,Pronunciation:'Pronunciation band 8'}},{...input,mode:'speaking'}));
+});
 test('oversized and mistyped input rejected',()=>{for(const body of [{...input,submission:'x'.repeat(12001)},{...input,task:{}},null])assert.throws(()=>validateInput(body));});
 test('feedback requires four criteria, real quotes and valid band',()=>{assert.deepEqual(validateFeedback(feedback,input),feedback);for(const value of [{...feedback,bandScore:9.5},{...feedback,criteria:{}},{...feedback,corrections:[{original:'Invented',corrected:'Fixed',explanation:'Reason'}]}])assert.throws(()=>validateFeedback(value,input));});
 test('limiter caps simultaneous and daily calls and releases idempotently',()=>{const l=createLimiter();const a=l.acquire(3,'day1'),b=l.acquire(3,'day1');assert.throws(()=>l.acquire(3,'day1'));a();a();const c=l.acquire(3,'day1');b();c();assert.throws(()=>l.acquire(3,'day1'));l.acquire(3,'day2')();});
