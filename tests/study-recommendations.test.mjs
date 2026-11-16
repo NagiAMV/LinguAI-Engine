@@ -20,3 +20,8 @@ test('coach rejects conflicting numeric durations hidden in an action',()=>{
  const step={skill:'writing',title:'Revise',reason:'Task Response needs practice.',action:'Write for 20 minutes.',minutes:5},plan={summary:'A short plan',steps:[step,{...step,action:'Пишите 20 минут.'},{...step,action:'20 daqiqa yozing.'}]};assert.throws(()=>coach.validatePlan(plan,30));assert.equal(coach.validatePlan({...plan,steps:plan.steps.map(s=>({...s,action:'Revise one paragraph.'}))},15).steps.length,3);
 });
 test('Speaking recommendation metadata covers the entire existing bank without shipping model answers',()=>{const bank=JSON.parse(fs.readFileSync('src/data/speaking-question-bank.json'));assert.deepEqual(catalogs.speaking.map(s=>s.n),bank.sessions.map(s=>s.n));assert.ok(catalogs.speaking.every(s=>Object.keys(s).every(k=>['n','t2'].includes(k))));});
+test('Writing criteria match the linked task and old transcript scores never become overall Speaking bands',()=>{
+ const dashboard=buildStudyDashboard([],[],new Date());dashboard.scores.find(s=>s.skill==='speaking').band=8;
+ const practice={writing:[{id:'essay-0-0',hasDraft:true,reviewed:false,bands:{}},{id:'table-0',hasDraft:true,reviewed:true,bands:{'Task Achievement':5}}],speaking:[]};
+ const {summary,actions}=coachContext([],dashboard,practice,catalogs);assert.equal(actions.writing.part,2);assert.equal(summary.weakCriteria.length,0);assert.equal(summary.skills.find(s=>s.skill==='speaking').band,null);
+});

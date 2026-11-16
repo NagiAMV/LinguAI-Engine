@@ -943,3 +943,5 @@
 .highlight-settings-toggle { min-width:30px; padding-inline:8px; }
 @media(max-width:700px) { .exam-question-nav { gap:4px; }.exam-question-nav .exam-part-tab { padding:6px 7px; }.exam-question-nav button:not(.exam-part-tab) { flex-basis:28px; width:28px; }.exam-highlight-tools { position:fixed; top:auto; right:12px; bottom:calc(var(--exam-footer-height,110px) + 16px); width:min(255px,calc(100vw - 24px)); max-height:calc(100dvh - 210px); overflow:auto; } }
 @media(max-width:700px) { .exam-question-nav { grid-template-columns:repeat(var(--part-count),minmax(0,1fr)); }.exam-question-group > div { grid-column:1/-1; gap:3px; }.exam-question-nav button:not(.exam-part-tab) { width:100%; font-size:11px; } }
+/* Source metadata stays in the markup to preserve saved annotation offsets. */
+.practice-exam .transcript-source-note { display:none; }

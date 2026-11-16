@@ -1,0 +1,2588 @@
+{
+  "test": "practice-listening-5",
+  "part": 1,
+  "audioSha256": "f23bdae6fa4dc615e97fdae4fcd28b1902790ec47f23a129e2475a242c8addb9",
+  "scope": {
+    "start": 3.52,
+    "end": 455
+  },
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Speaker 1": [
+      3.52,
+      11
+    ],
+    "Speaker 2": [
+      107.13,
+      114.29
+    ],
+    "Speaker 3": [
+      99.6,
+      104.98
+    ]
+  },
+  "additionalVoiceReview": {
+    "anchors": {
+      "Speaker 1": [
+        [
+          3.52,
+          11
+        ],
+        [
+          232.36,
+          238.5
+        ],
+        [
+          416.02,
+          422
+        ]
+      ],
+      "Speaker 2": [
+        [
+          107.13,
+          114.29
+        ],
+        [
+          199.5,
+          210
+        ],
+        [
+          280.37,
+          290
+        ]
+      ],
+      "Speaker 3": [
+        [
+          99.6,
+          104.98
+        ],
+        [
+          221.1,
+          228
+        ],
+        [
+          293.44,
+          295.8
+        ]
+      ]
+    },
+    "checks": [
+      {
+        "index": 263,
+        "phrase": "I see",
+        "start": 138.38,
+        "end": 141.97,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8714,
+            0.8994,
+            0.7971
+          ],
+          "Speaker 2": [
+            0.9105,
+            0.9078,
+            0.8736
+          ],
+          "Speaker 3": [
+            0.777,
+            0.8005,
+            0.8488
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.856,
+          "Speaker 2": 0.8973,
+          "Speaker 3": 0.8088
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The following sentence is the student reacting to the room price (more than I expected). Keep this reply with that student turn; embeddings disagree with the dialogue role.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "I see",
+            "start": 138.38,
+            "end": 141.14,
+            "scores": {
+              "Narrator": 0.3752,
+              "Officer": 0.2112,
+              "Student": 0.7192
+            },
+            "chosen": "Student"
+          }
+        ]
+      },
+      {
+        "index": 578,
+        "phrase": "Right How much would",
+        "start": 302.6,
+        "end": 306.11,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8897,
+            0.8838,
+            0.817
+          ],
+          "Speaker 2": [
+            0.8654,
+            0.8492,
+            0.8069
+          ],
+          "Speaker 3": [
+            0.8611,
+            0.8351,
+            0.8697
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8635,
+          "Speaker 2": 0.8405,
+          "Speaker 3": 0.8553
+        },
+        "closestEligibleVoice": "Speaker 3"
+      },
+      {
+        "index": 611,
+        "phrase": "Oh that's not too bad",
+        "start": 318.24,
+        "end": 320.8,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8882,
+            0.8923,
+            0.861
+          ],
+          "Speaker 2": [
+            0.8325,
+            0.8453,
+            0.8064
+          ],
+          "Speaker 3": [
+            0.8647,
+            0.8842,
+            0.841
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8805,
+          "Speaker 2": 0.8281,
+          "Speaker 3": 0.8633
+        },
+        "closestEligibleVoice": "Speaker 3"
+      },
+      {
+        "index": 706,
+        "phrase": "That didn't occur",
+        "start": 358.4,
+        "end": 364.01000000000005,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.9324,
+            0.9285,
+            0.8918
+          ],
+          "Speaker 2": [
+            0.8751,
+            0.8654,
+            0.8422
+          ],
+          "Speaker 3": [
+            0.9109,
+            0.9053,
+            0.9106
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.9176,
+          "Speaker 2": 0.8609,
+          "Speaker 3": 0.9089
+        },
+        "closestEligibleVoice": "Speaker 3"
+      },
+      {
+        "index": 721,
+        "phrase": "That's right Most",
+        "start": 364.04,
+        "end": 369.47,
+        "expected": "Speaker 2",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8723,
+            0.8398,
+            0.7938
+          ],
+          "Speaker 2": [
+            0.8628,
+            0.8653,
+            0.8683
+          ],
+          "Speaker 3": [
+            0.7987,
+            0.8245,
+            0.8037
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8353,
+          "Speaker 2": 0.8655,
+          "Speaker 3": 0.809
+        },
+        "closestEligibleVoice": "Speaker 2"
+      },
+      {
+        "index": 735,
+        "phrase": "It just gets worse",
+        "start": 369.5,
+        "end": 372.73,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8468,
+            0.8397,
+            0.7978
+          ],
+          "Speaker 2": [
+            0.8578,
+            0.8643,
+            0.8692
+          ],
+          "Speaker 3": [
+            0.8025,
+            0.88,
+            0.8293
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8281,
+          "Speaker 2": 0.8638,
+          "Speaker 3": 0.8373
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student reacts to the additional accommodation and transport costs and continues by asking the minimum contract. Voice matching alone is inconclusive for this short reaction.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "It just gets worse",
+            "start": 369.5,
+            "end": 371.58,
+            "scores": {
+              "Narrator": 0.2193,
+              "Officer": 0.2855,
+              "Student": 0.4645
+            },
+            "chosen": "Student"
+          }
+        ]
+      },
+      {
+        "index": 769,
+        "phrase": "That's true",
+        "start": 384.1,
+        "end": 385.27000000000004,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8355,
+            0.8485,
+            0.7821
+          ],
+          "Speaker 2": [
+            0.863,
+            0.848,
+            0.8056
+          ],
+          "Speaker 3": [
+            0.7475,
+            0.7983,
+            0.7954
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.822,
+          "Speaker 2": 0.8389,
+          "Speaker 3": 0.7804
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student acknowledges the benefit of staying over holidays; the accommodation officer then introduces the references requirement. Voice matching alone is inconclusive for the brief acknowledgement.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "That's true",
+            "start": 384.1,
+            "end": 384.82,
+            "scores": {
+              "Narrator": 0.2915,
+              "Officer": 0.2789,
+              "Student": 0.5468
+            },
+            "chosen": "Student"
+          }
+        ]
+      },
+      {
+        "index": 820,
+        "phrase": "Right Thanks",
+        "start": 403.32,
+        "end": 405.97,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8314,
+            0.8748,
+            0.7805
+          ],
+          "Speaker 2": [
+            0.8526,
+            0.8354,
+            0.7852
+          ],
+          "Speaker 3": [
+            0.759,
+            0.7559,
+            0.8041
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8289,
+          "Speaker 2": 0.8244,
+          "Speaker 3": 0.773
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student acknowledges the explanation about finding a private property and then asks for estate-agent details. The short acknowledgement is assigned by dialogue role because voice matching disagrees.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "Right",
+            "start": 403.32,
+            "end": 403.7,
+            "scores": {
+              "Narrator": 0.2036,
+              "Officer": 0.1565,
+              "Student": 0.4613
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "Thanks",
+            "start": 404.83,
+            "end": 405.39,
+            "scores": {
+              "Narrator": 0.248,
+              "Officer": 0.1769,
+              "Student": 0.3299
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    ]
+  },
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": true,
+  "wordClockCount": 825,
+  "wordClocksSha256": "8df60046c2e1bef4ff2bdd6247f72cc2be104a88f8a332f42bd9b69771575a9e",
+  "tokensSha256": "3bf22bc6ce4baaa146e907fd418e3a5e4fb7233dc6c8890baf549162696d0168",
+  "tokenCount": 865,
+  "turns": [
+    {
+      "phrase": "You will hear",
+      "index": 0,
+      "start": 3.52,
+      "speaker": "Speaker 1",
+      "end": 49.23,
+      "voiceWindow": [
+        3.52,
+        13.52
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9962,
+        "Speaker 2": 0.8825,
+        "Speaker 3": 0.8857
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "phrase": "College Accommodation Bureau",
+      "index": 63,
+      "start": 49.26,
+      "speaker": "Speaker 2",
+      "end": 53.129999999999995,
+      "voiceWindow": [
+        49.26,
+        53.129999999999995
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8854,
+        "Speaker 2": 0.9152,
+        "Speaker 3": 0.7884
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Oh good morning",
+      "index": 73,
+      "start": 53.16,
+      "speaker": "Speaker 3",
+      "end": 59.55,
+      "voiceWindow": [
+        53.16,
+        59.55
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8314,
+        "Speaker 2": 0.7566,
+        "Speaker 3": 0.9831
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Right Well there are",
+      "index": 90,
+      "start": 59.58,
+      "speaker": "Speaker 2",
+      "end": 71.92,
+      "voiceWindow": [
+        59.58,
+        69.58
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.885,
+        "Speaker 2": 0.9893,
+        "Speaker 3": 0.7682
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "The first type of accommodation",
+      "index": 111,
+      "start": 71.95,
+      "speaker": "Speaker 1",
+      "end": 95.51,
+      "voiceWindow": [
+        71.95,
+        81.95
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9749,
+        "Speaker 2": 0.892,
+        "Speaker 3": 0.8954
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "phrase": "College Accommodation Bureau",
+      "index": 162,
+      "start": 95.54,
+      "speaker": "Speaker 2",
+      "end": 99.57,
+      "voiceWindow": [
+        95.54,
+        99.57
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8838,
+        "Speaker 2": 0.9309,
+        "Speaker 3": 0.7838
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Oh good morning",
+      "index": 172,
+      "start": 99.6,
+      "speaker": "Speaker 3",
+      "end": 105.71,
+      "voiceWindow": [
+        99.6,
+        105.71
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8703,
+        "Speaker 2": 0.7884,
+        "Speaker 3": 1
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Right Well there are",
+      "index": 189,
+      "start": 105.74,
+      "speaker": "Speaker 2",
+      "end": 115.3,
+      "voiceWindow": [
+        105.74,
+        115.3
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8876,
+        "Speaker 2": 0.9939,
+        "Speaker 3": 0.7946
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "How much would that cost",
+      "index": 210,
+      "start": 115.33,
+      "speaker": "Speaker 3",
+      "end": 117.46,
+      "voiceWindow": [
+        115.33,
+        117.46
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8209,
+        "Speaker 2": 0.8118,
+        "Speaker 3": 0.8936
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well it depends",
+      "index": 215,
+      "start": 117.49,
+      "speaker": "Speaker 2",
+      "end": 138.35,
+      "voiceWindow": [
+        117.49,
+        127.49
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8662,
+        "Speaker 2": 0.977,
+        "Speaker 3": 0.7681
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "I see",
+      "index": 263,
+      "start": 138.38,
+      "speaker": "Speaker 3",
+      "end": 141.97,
+      "voiceWindow": [
+        138.38,
+        141.97
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8714,
+        "Speaker 2": 0.9105,
+        "Speaker 3": 0.777
+      },
+      "closestVoice": "Speaker 2",
+      "additionalVoiceEvidence": {
+        "index": 263,
+        "phrase": "I see",
+        "start": 138.38,
+        "end": 141.97,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8714,
+            0.8994,
+            0.7971
+          ],
+          "Speaker 2": [
+            0.9105,
+            0.9078,
+            0.8736
+          ],
+          "Speaker 3": [
+            0.777,
+            0.8005,
+            0.8488
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.856,
+          "Speaker 2": 0.8973,
+          "Speaker 3": 0.8088
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The following sentence is the student reacting to the room price (more than I expected). Keep this reply with that student turn; embeddings disagree with the dialogue role.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "I see",
+            "start": 138.38,
+            "end": 141.14,
+            "scores": {
+              "Narrator": 0.3752,
+              "Officer": 0.2112,
+              "Student": 0.7192
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    },
+    {
+      "phrase": "It does include heating",
+      "index": 270,
+      "start": 142,
+      "speaker": "Speaker 2",
+      "end": 151.10999999999999,
+      "voiceWindow": [
+        142,
+        151.10999999999999
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8321,
+        "Speaker 2": 0.945,
+        "Speaker 3": 0.7233
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Hmm Does it include",
+      "index": 287,
+      "start": 151.14,
+      "speaker": "Speaker 3",
+      "end": 153.79,
+      "voiceWindow": [
+        151.14,
+        153.79
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8808,
+        "Speaker 2": 0.85,
+        "Speaker 3": 0.9025
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "No All our rooms",
+      "index": 294,
+      "start": 153.82,
+      "speaker": "Speaker 2",
+      "end": 165.75,
+      "voiceWindow": [
+        153.82,
+        163.82
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8817,
+        "Speaker 2": 0.9656,
+        "Speaker 3": 0.7679
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Okay And you said",
+      "index": 327,
+      "start": 165.78,
+      "speaker": "Speaker 3",
+      "end": 169.43,
+      "voiceWindow": [
+        165.78,
+        169.43
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8762,
+        "Speaker 2": 0.8166,
+        "Speaker 3": 0.9238
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well you pay annually",
+      "index": 338,
+      "start": 169.46,
+      "speaker": "Speaker 2",
+      "end": 181.19,
+      "voiceWindow": [
+        169.46,
+        179.46
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8355,
+        "Speaker 2": 0.933,
+        "Speaker 3": 0.6974
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Oh I need somewhere",
+      "index": 359,
+      "start": 181.22,
+      "speaker": "Speaker 3",
+      "end": 187.09,
+      "voiceWindow": [
+        181.22,
+        187.09
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8978,
+        "Speaker 2": 0.8519,
+        "Speaker 3": 0.9428
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well there is another",
+      "index": 379,
+      "start": 187.12,
+      "speaker": "Speaker 2",
+      "end": 198.57,
+      "voiceWindow": [
+        187.12,
+        197.12
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8798,
+        "Speaker 2": 0.9635,
+        "Speaker 3": 0.7475
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Oh",
+      "index": 405,
+      "start": 198.6,
+      "speaker": "Speaker 3",
+      "end": 199.47,
+      "voiceWindow": [
+        198.6,
+        199.47
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.581,
+        "Speaker 2": 0.5957,
+        "Speaker 3": 0.6532
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "We call this arrangement",
+      "index": 406,
+      "start": 199.5,
+      "speaker": "Speaker 2",
+      "end": 215.01,
+      "voiceWindow": [
+        199.5,
+        209.5
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9085,
+        "Speaker 2": 0.9515,
+        "Speaker 3": 0.7836
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Is there a contract",
+      "index": 445,
+      "start": 215.04,
+      "speaker": "Speaker 3",
+      "end": 219.53,
+      "voiceWindow": [
+        215.04,
+        219.53
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8858,
+        "Speaker 2": 0.8411,
+        "Speaker 3": 0.9331
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "No It's flexible",
+      "index": 458,
+      "start": 219.56,
+      "speaker": "Speaker 2",
+      "end": 221.07,
+      "voiceWindow": [
+        219.56,
+        221.07
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.762,
+        "Speaker 2": 0.8264,
+        "Speaker 3": 0.6278
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "It sounds really good",
+      "index": 461,
+      "start": 221.1,
+      "speaker": "Speaker 3",
+      "end": 232.33,
+      "voiceWindow": [
+        221.1,
+        231.1
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8533,
+        "Speaker 2": 0.8313,
+        "Speaker 3": 0.9377
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Before you hear the rest",
+      "index": 478,
+      "start": 232.36,
+      "speaker": "Speaker 1",
+      "end": 276.6,
+      "voiceWindow": [
+        232.36,
+        242.36
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9553,
+        "Speaker 2": 0.8919,
+        "Speaker 3": 0.8868
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "phrase": "What about finding somewhere",
+      "index": 508,
+      "start": 276.63,
+      "speaker": "Speaker 3",
+      "end": 280.34000000000003,
+      "voiceWindow": [
+        276.63,
+        280.34000000000003
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8312,
+        "Speaker 2": 0.7976,
+        "Speaker 3": 0.9392
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Yes you can rent",
+      "index": 516,
+      "start": 280.37,
+      "speaker": "Speaker 2",
+      "end": 293.41,
+      "voiceWindow": [
+        280.37,
+        290.37
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8592,
+        "Speaker 2": 0.963,
+        "Speaker 3": 0.7498
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "What about if I don't",
+      "index": 552,
+      "start": 293.44,
+      "speaker": "Speaker 3",
+      "end": 296.23,
+      "voiceWindow": [
+        293.44,
+        296.23
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8602,
+        "Speaker 2": 0.8304,
+        "Speaker 3": 0.91
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "You can get what",
+      "index": 560,
+      "start": 296.26,
+      "speaker": "Speaker 2",
+      "end": 302.57000000000005,
+      "voiceWindow": [
+        296.26,
+        302.57000000000005
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8694,
+        "Speaker 2": 0.9664,
+        "Speaker 3": 0.7513
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Right How much would",
+      "index": 578,
+      "start": 302.6,
+      "speaker": "Speaker 3",
+      "end": 306.11,
+      "voiceWindow": [
+        302.6,
+        306.11
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8897,
+        "Speaker 2": 0.8654,
+        "Speaker 3": 0.8611
+      },
+      "closestVoice": "Speaker 1",
+      "additionalVoiceEvidence": {
+        "index": 578,
+        "phrase": "Right How much would",
+        "start": 302.6,
+        "end": 306.11,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8897,
+            0.8838,
+            0.817
+          ],
+          "Speaker 2": [
+            0.8654,
+            0.8492,
+            0.8069
+          ],
+          "Speaker 3": [
+            0.8611,
+            0.8351,
+            0.8697
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8635,
+          "Speaker 2": 0.8405,
+          "Speaker 3": 0.8553
+        },
+        "closestEligibleVoice": "Speaker 3"
+      }
+    },
+    {
+      "phrase": "Well prices vary",
+      "index": 586,
+      "start": 306.14,
+      "speaker": "Speaker 2",
+      "end": 318.21000000000004,
+      "voiceWindow": [
+        306.14,
+        316.14
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8657,
+        "Speaker 2": 0.9695,
+        "Speaker 3": 0.7603
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Oh that's not too bad",
+      "index": 611,
+      "start": 318.24,
+      "speaker": "Speaker 3",
+      "end": 320.8,
+      "voiceWindow": [
+        318.24,
+        320.8
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8882,
+        "Speaker 2": 0.8325,
+        "Speaker 3": 0.8647
+      },
+      "closestVoice": "Speaker 1",
+      "additionalVoiceEvidence": {
+        "index": 611,
+        "phrase": "Oh that's not too bad",
+        "start": 318.24,
+        "end": 320.8,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8882,
+            0.8923,
+            0.861
+          ],
+          "Speaker 2": [
+            0.8325,
+            0.8453,
+            0.8064
+          ],
+          "Speaker 3": [
+            0.8647,
+            0.8842,
+            0.841
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8805,
+          "Speaker 2": 0.8281,
+          "Speaker 3": 0.8633
+        },
+        "closestEligibleVoice": "Speaker 3"
+      }
+    },
+    {
+      "phrase": "Yes but it can",
+      "index": 616,
+      "start": 320.83,
+      "speaker": "Speaker 2",
+      "end": 329.26000000000005,
+      "voiceWindow": [
+        320.83,
+        329.26000000000005
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9053,
+        "Speaker 2": 0.9636,
+        "Speaker 3": 0.803
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "What sort of amount",
+      "index": 637,
+      "start": 329.29,
+      "speaker": "Speaker 3",
+      "end": 332.40000000000003,
+      "voiceWindow": [
+        329.29,
+        332.40000000000003
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.866,
+        "Speaker 2": 0.8218,
+        "Speaker 3": 0.9144
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well last year students",
+      "index": 648,
+      "start": 332.43,
+      "speaker": "Speaker 2",
+      "end": 347.58000000000004,
+      "voiceWindow": [
+        332.43,
+        342.43
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8959,
+        "Speaker 2": 0.9413,
+        "Speaker 3": 0.7994
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "That's a lot",
+      "index": 678,
+      "start": 347.61,
+      "speaker": "Speaker 3",
+      "end": 348.98,
+      "voiceWindow": [
+        347.61,
+        348.98
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.7022,
+        "Speaker 2": 0.6879,
+        "Speaker 3": 0.7099
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Yes they've gone up",
+      "index": 681,
+      "start": 349.01,
+      "speaker": "Speaker 2",
+      "end": 358.37,
+      "voiceWindow": [
+        349.01,
+        358.37
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9043,
+        "Speaker 2": 0.9574,
+        "Speaker 3": 0.7898
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "That didn't occur",
+      "index": 706,
+      "start": 358.4,
+      "speaker": "Speaker 3",
+      "end": 364.01000000000005,
+      "voiceWindow": [
+        358.4,
+        364.01000000000005
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9324,
+        "Speaker 2": 0.8751,
+        "Speaker 3": 0.9109
+      },
+      "closestVoice": "Speaker 1",
+      "additionalVoiceEvidence": {
+        "index": 706,
+        "phrase": "That didn't occur",
+        "start": 358.4,
+        "end": 364.01000000000005,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.9324,
+            0.9285,
+            0.8918
+          ],
+          "Speaker 2": [
+            0.8751,
+            0.8654,
+            0.8422
+          ],
+          "Speaker 3": [
+            0.9109,
+            0.9053,
+            0.9106
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.9176,
+          "Speaker 2": 0.8609,
+          "Speaker 3": 0.9089
+        },
+        "closestEligibleVoice": "Speaker 3"
+      }
+    },
+    {
+      "phrase": "That's right Most",
+      "index": 721,
+      "start": 364.04,
+      "speaker": "Speaker 2",
+      "end": 369.47,
+      "voiceWindow": [
+        364.04,
+        369.47
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8723,
+        "Speaker 2": 0.8628,
+        "Speaker 3": 0.7987
+      },
+      "closestVoice": "Speaker 1",
+      "additionalVoiceEvidence": {
+        "index": 721,
+        "phrase": "That's right Most",
+        "start": 364.04,
+        "end": 369.47,
+        "expected": "Speaker 2",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8723,
+            0.8398,
+            0.7938
+          ],
+          "Speaker 2": [
+            0.8628,
+            0.8653,
+            0.8683
+          ],
+          "Speaker 3": [
+            0.7987,
+            0.8245,
+            0.8037
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8353,
+          "Speaker 2": 0.8655,
+          "Speaker 3": 0.809
+        },
+        "closestEligibleVoice": "Speaker 2"
+      }
+    },
+    {
+      "phrase": "It just gets worse",
+      "index": 735,
+      "start": 369.5,
+      "speaker": "Speaker 3",
+      "end": 372.73,
+      "voiceWindow": [
+        369.5,
+        372.73
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8468,
+        "Speaker 2": 0.8578,
+        "Speaker 3": 0.8025
+      },
+      "closestVoice": "Speaker 2",
+      "additionalVoiceEvidence": {
+        "index": 735,
+        "phrase": "It just gets worse",
+        "start": 369.5,
+        "end": 372.73,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8468,
+            0.8397,
+            0.7978
+          ],
+          "Speaker 2": [
+            0.8578,
+            0.8643,
+            0.8692
+          ],
+          "Speaker 3": [
+            0.8025,
+            0.88,
+            0.8293
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8281,
+          "Speaker 2": 0.8638,
+          "Speaker 3": 0.8373
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student reacts to the additional accommodation and transport costs and continues by asking the minimum contract. Voice matching alone is inconclusive for this short reaction.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "It just gets worse",
+            "start": 369.5,
+            "end": 371.58,
+            "scores": {
+              "Narrator": 0.2193,
+              "Officer": 0.2855,
+              "Student": 0.4645
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    },
+    {
+      "phrase": "What's the minimum contract",
+      "index": 741,
+      "start": 372.76,
+      "speaker": "Speaker 3",
+      "end": 377.03000000000003,
+      "voiceWindow": [
+        372.76,
+        377.03000000000003
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8387,
+        "Speaker 2": 0.7611,
+        "Speaker 3": 0.9179
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Six months and you",
+      "index": 750,
+      "start": 377.06,
+      "speaker": "Speaker 2",
+      "end": 384.07000000000005,
+      "voiceWindow": [
+        377.06,
+        384.07000000000005
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8859,
+        "Speaker 2": 0.9412,
+        "Speaker 3": 0.7588
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "That's true",
+      "index": 769,
+      "start": 384.1,
+      "speaker": "Speaker 3",
+      "end": 385.27000000000004,
+      "voiceWindow": [
+        384.1,
+        385.27000000000004
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8355,
+        "Speaker 2": 0.863,
+        "Speaker 3": 0.7475
+      },
+      "closestVoice": "Speaker 2",
+      "additionalVoiceEvidence": {
+        "index": 769,
+        "phrase": "That's true",
+        "start": 384.1,
+        "end": 385.27000000000004,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8355,
+            0.8485,
+            0.7821
+          ],
+          "Speaker 2": [
+            0.863,
+            0.848,
+            0.8056
+          ],
+          "Speaker 3": [
+            0.7475,
+            0.7983,
+            0.7954
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.822,
+          "Speaker 2": 0.8389,
+          "Speaker 3": 0.7804
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student acknowledges the benefit of staying over holidays; the accommodation officer then introduces the references requirement. Voice matching alone is inconclusive for the brief acknowledgement.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "That's true",
+            "start": 384.1,
+            "end": 384.82,
+            "scores": {
+              "Narrator": 0.2915,
+              "Officer": 0.2789,
+              "Student": 0.5468
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    },
+    {
+      "phrase": "And you'd have to",
+      "index": 771,
+      "start": 385.3,
+      "speaker": "Speaker 2",
+      "end": 390.99,
+      "voiceWindow": [
+        385.3,
+        390.99
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8862,
+        "Speaker 2": 0.9635,
+        "Speaker 3": 0.7707
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "I see but that's",
+      "index": 785,
+      "start": 391.02,
+      "speaker": "Speaker 3",
+      "end": 393.43,
+      "voiceWindow": [
+        391.02,
+        393.43
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8511,
+        "Speaker 2": 0.8459,
+        "Speaker 3": 0.8571
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "If you do choose",
+      "index": 792,
+      "start": 393.46,
+      "speaker": "Speaker 2",
+      "end": 403.29,
+      "voiceWindow": [
+        393.46,
+        403.29
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9371,
+        "Speaker 2": 0.9451,
+        "Speaker 3": 0.8243
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Right Thanks",
+      "index": 820,
+      "start": 403.32,
+      "speaker": "Speaker 3",
+      "end": 405.97,
+      "voiceWindow": [
+        403.32,
+        405.97
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8314,
+        "Speaker 2": 0.8526,
+        "Speaker 3": 0.759
+      },
+      "closestVoice": "Speaker 2",
+      "additionalVoiceEvidence": {
+        "index": 820,
+        "phrase": "Right Thanks",
+        "start": 403.32,
+        "end": 405.97,
+        "expected": "Speaker 3",
+        "referenceScores": {
+          "Speaker 1": [
+            0.8314,
+            0.8748,
+            0.7805
+          ],
+          "Speaker 2": [
+            0.8526,
+            0.8354,
+            0.7852
+          ],
+          "Speaker 3": [
+            0.759,
+            0.7559,
+            0.8041
+          ]
+        },
+        "meanSimilarity": {
+          "Speaker 1": 0.8289,
+          "Speaker 2": 0.8244,
+          "Speaker 3": 0.773
+        },
+        "closestEligibleVoice": "Speaker 2",
+        "resolvedSpeaker": "Speaker 3",
+        "resolutionMethod": "independent-acoustic-verification",
+        "resolution": "Independent ERes2Net voice comparison assigns the exact phrase window(s) to the student. Reference controls and short phrase controls passed. Original conflicting WeSpeaker results are retained.",
+        "acousticAssignmentConfirmed": true,
+        "previousContextResolution": {
+          "method": "dialogue-role-context",
+          "resolution": "The student acknowledges the explanation about finding a private property and then asks for estate-agent details. The short acknowledgement is assigned by dialogue role because voice matching disagrees.",
+          "acousticAssignmentConfirmed": false
+        },
+        "confirmationModel": "eres2net-zh-independent-check",
+        "independentVoiceEvidence": [
+          {
+            "phrase": "Right",
+            "start": 403.32,
+            "end": 403.7,
+            "scores": {
+              "Narrator": 0.2036,
+              "Officer": 0.1565,
+              "Student": 0.4613
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "Thanks",
+            "start": 404.83,
+            "end": 405.39,
+            "scores": {
+              "Narrator": 0.248,
+              "Officer": 0.1769,
+              "Student": 0.3299
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    },
+    {
+      "phrase": "Well I think I'd like",
+      "index": 822,
+      "start": 406,
+      "speaker": "Speaker 3",
+      "end": 415.99,
+      "voiceWindow": [
+        406,
+        415.99
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.8423,
+        "Speaker 2": 0.7653,
+        "Speaker 3": 0.9093
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "That is the end",
+      "index": 840,
+      "start": 416.02,
+      "speaker": "Speaker 1",
+      "end": 455,
+      "voiceWindow": [
+        416.02,
+        426.02
+      ],
+      "voiceSimilarity": {
+        "Speaker 1": 0.9095,
+        "Speaker 2": 0.803,
+        "Speaker 3": 0.8905
+      },
+      "closestVoice": "Speaker 1"
+    }
+  ],
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": "You will hear a student from overseas phoning the student accommodation office of a college in the UK for some information. First you have some time to look at questions 1 to 4 on page 2. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "College Accommodation Bureau, Darren speaking. How may I help you? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "Right. Well, there are various options. The first one is to stay in college accommodation."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 2",
+      "text": "That would be a single room. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 1",
+      "text": "The first type of accommodation is a single room in the college. So, single room has been written in the space."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 1",
+      "text": "Now we shall begin. You should answer the questions as you listen because you will not hear the recording a second time. Listen carefully and answer questions 1 to 4. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "College Accommodation Bureau, Darren speaking."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 2",
+      "text": "How may I help you? "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 3",
+      "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 2",
+      "text": "Right."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 2",
+      "text": "Well, there are various options. The first one is to stay in college accommodation. That would be a single room."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 3",
+      "text": "How much would that cost? "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 2",
+      "text": "Well, it depends. For a standard room, you're looking at three thousand two hundred and seventy six pounds for the year. That's just for a room with washbasin."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 2",
+      "text": "Or three thousand eight hundred and thirty four pounds if you want an ensuite. That's with your own small bathroom. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 3",
+      "text": "I see."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": "That's more than I expected. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 2",
+      "text": "It does include heating. That's quite a saving because energy costs can be high, especially in winter."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 3",
+      "text": "Hmm. Does it include meals as well? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 2",
+      "text": "No. All our rooms are self-catering now."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 2",
+      "text": "There's a shared kitchen on each corridor where you can cook if you want to or there are plenty of places to eat out on campus. "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 3",
+      "text": "Okay. And you said that's the price for the whole year? "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 2",
+      "text": "Well, you pay annually but actually it's for 36 weeks."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 2",
+      "text": "It doesn't include holidays. You have to vacate the room then. "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 3",
+      "text": "Oh, I need somewhere to stay in the holidays."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 3",
+      "text": "I can't afford to go home. The flights are too expensive. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 2",
+      "text": "Well, there is another option."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 2",
+      "text": "Several families who either work at the college or have children studying here offer visiting students a room in their homes. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 3",
+      "text": "Oh? "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 2",
+      "text": "We call this arrangement home welcome and we've still got a few places left at the moment. You pay a hundred and fifty pounds per week and that includes breakfast, a packed lunch and dinner as well as heating."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 3",
+      "text": "Is there a contract? Do you have to stay for the whole year? "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 2",
+      "text": "No. It's flexible. "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 3",
+      "text": "It sounds really good but I'm not sure."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 3",
+      "text": "I really want to be a little more independent. "
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions five to ten on page two. Now listen and answer questions five to ten."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 3",
+      "text": "What about finding somewhere to live off campus? "
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 2",
+      "text": "Yes, you can rent a property in town privately. You might want to rent a room in a shared house. You'd have a room of your own and share the kitchen and bathroom with other students."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 3",
+      "text": "What about if I don't want to share? "
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 2",
+      "text": "You can get what we call a studio. They're often quite small but they'll have everything you need. "
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 3",
+      "text": "Right."
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 3",
+      "text": "How much would those two options cost? "
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 2",
+      "text": "Well, prices vary depending on which part of town the property's in. Generally speaking, the cheapest is around 275 pounds a month for each student. "
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 3",
+      "text": "Oh, that's not too bad."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 2",
+      "text": "Yes, but it can also be as high as 490 pounds and then you'll have to pay all your other bills. "
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 3",
+      "text": "What sort of amount would I be looking at for those? "
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 2",
+      "text": "Well, last year students were paying on average about 43 pounds per month each for gas and electricity. This year it'll probably be somewhere in the region of 48 pounds."
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 3",
+      "text": "That's a lot. "
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 2",
+      "text": "Yes, they've gone up quite a bit and on top of that you have to pay for water and that'll probably be around nine pounds. "
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 3",
+      "text": "That didn't occur to me and I guess I'd have to pay for transportation, too."
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 2",
+      "text": "That's right. Most of these properties are quite a long way from the college. "
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 3",
+      "text": "It just gets worse and worse."
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 3",
+      "text": "What's the minimum contract on this type of accommodation? "
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": "Six months and you have to pay a deposit but of course you can stay there over the holidays. "
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 3",
+      "text": "That's true. "
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": "And you'd have to provide references."
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 2",
+      "text": "They want two from someone in this country. "
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 3",
+      "text": "I see, but that's not a problem. "
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 2",
+      "text": "If you do choose this option, we can't find the property for you."
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 2",
+      "text": "You'd have to go through the estate agent which manages the property for the owner. "
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 3",
+      "text": "Right. Thanks."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 3",
+      "text": "Well, I think I'd like to see what's available privately. Could you give me the estate agent details? "
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 1",
+      "text": "That is the end of section 1. You now have half a minute to check your answers. Now turn to section 2 on page 3."
+    }
+  ],
+  "otherPartsSha256": "ba07aa6fe75facd2f8b93cbe4b839a79473ff830559e5b4b2383ca92bb3e9615",
+  "independentAcousticReview": {
+    "anchors": {
+      "Narrator": [
+        [
+          3.52,
+          11
+        ],
+        [
+          232.36,
+          238.5
+        ],
+        [
+          416.02,
+          422
+        ]
+      ],
+      "Officer": [
+        [
+          107.13,
+          114.29
+        ],
+        [
+          142,
+          149.2
+        ],
+        [
+          199.5,
+          210
+        ],
+        [
+          280.37,
+          290
+        ],
+        [
+          393.46,
+          402.52
+        ]
+      ],
+      "Student": [
+        [
+          99.6,
+          104.98
+        ],
+        [
+          181.22,
+          186.9
+        ],
+        [
+          221.1,
+          228
+        ],
+        [
+          293.44,
+          295.8
+        ],
+        [
+          406,
+          413
+        ]
+      ]
+    },
+    "clips": [
+      [
+        "I see",
+        138.38,
+        141.14
+      ],
+      [
+        "It just gets worse",
+        369.5,
+        371.58
+      ],
+      [
+        "That's true",
+        384.1,
+        384.82
+      ],
+      [
+        "Right",
+        403.32,
+        403.7
+      ],
+      [
+        "Thanks",
+        404.83,
+        405.39
+      ]
+    ],
+    "models": {
+      "wespeaker-en-voxceleb-resnet34": {
+        "leaveOneOutControls": [
+          {
+            "label": "Narrator",
+            "window": [
+              3.52,
+              11
+            ],
+            "scores": {
+              "Narrator": 0.9376,
+              "Officer": 0.894,
+              "Student": 0.8787
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Narrator",
+            "window": [
+              232.36,
+              238.5
+            ],
+            "scores": {
+              "Narrator": 0.9772,
+              "Officer": 0.8909,
+              "Student": 0.9161
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Narrator",
+            "window": [
+              416.02,
+              422
+            ],
+            "scores": {
+              "Narrator": 0.9311,
+              "Officer": 0.8425,
+              "Student": 0.9183
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              107.13,
+              114.29
+            ],
+            "scores": {
+              "Narrator": 0.8876,
+              "Officer": 0.9654,
+              "Student": 0.8547
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              142,
+              149.2
+            ],
+            "scores": {
+              "Narrator": 0.843,
+              "Officer": 0.9721,
+              "Student": 0.7993
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              199.5,
+              210
+            ],
+            "scores": {
+              "Narrator": 0.8976,
+              "Officer": 0.974,
+              "Student": 0.843
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              280.37,
+              290
+            ],
+            "scores": {
+              "Narrator": 0.8409,
+              "Officer": 0.978,
+              "Student": 0.8067
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              393.46,
+              402.52
+            ],
+            "scores": {
+              "Narrator": 0.9287,
+              "Officer": 0.9642,
+              "Student": 0.8828
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Student",
+            "window": [
+              99.6,
+              104.98
+            ],
+            "scores": {
+              "Narrator": 0.898,
+              "Officer": 0.7843,
+              "Student": 0.9459
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              181.22,
+              186.9
+            ],
+            "scores": {
+              "Narrator": 0.9233,
+              "Officer": 0.8637,
+              "Student": 0.9657
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              221.1,
+              228
+            ],
+            "scores": {
+              "Narrator": 0.8737,
+              "Officer": 0.8552,
+              "Student": 0.9463
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              293.44,
+              295.8
+            ],
+            "scores": {
+              "Narrator": 0.8956,
+              "Officer": 0.8257,
+              "Student": 0.9441
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              406,
+              413
+            ],
+            "scores": {
+              "Narrator": 0.8848,
+              "Officer": 0.797,
+              "Student": 0.9401
+            },
+            "chosen": "Student"
+          }
+        ],
+        "targetChecks": [
+          {
+            "phrase": "I see",
+            "start": 138.38,
+            "end": 141.14,
+            "scores": {
+              "Narrator": 0.8848,
+              "Officer": 0.9143,
+              "Student": 0.836
+            },
+            "chosen": "Officer"
+          },
+          {
+            "phrase": "It just gets worse",
+            "start": 369.5,
+            "end": 371.58,
+            "scores": {
+              "Narrator": 0.8502,
+              "Officer": 0.9046,
+              "Student": 0.8615
+            },
+            "chosen": "Officer"
+          },
+          {
+            "phrase": "That's true",
+            "start": 384.1,
+            "end": 384.82,
+            "scores": {
+              "Narrator": 0.8332,
+              "Officer": 0.8601,
+              "Student": 0.7795
+            },
+            "chosen": "Officer"
+          },
+          {
+            "phrase": "Right",
+            "start": 403.32,
+            "end": 403.7,
+            "scores": {
+              "Narrator": 0.7939,
+              "Officer": 0.7629,
+              "Student": 0.7545
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "phrase": "Thanks",
+            "start": 404.83,
+            "end": 405.39,
+            "scores": {
+              "Narrator": 0.8642,
+              "Officer": 0.882,
+              "Student": 0.7835
+            },
+            "chosen": "Officer"
+          }
+        ]
+      },
+      "eres2net-zh-independent-check": {
+        "leaveOneOutControls": [
+          {
+            "label": "Narrator",
+            "window": [
+              3.52,
+              11
+            ],
+            "scores": {
+              "Narrator": 0.8449,
+              "Officer": 0.3546,
+              "Student": 0.4231
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Narrator",
+            "window": [
+              232.36,
+              238.5
+            ],
+            "scores": {
+              "Narrator": 0.8451,
+              "Officer": 0.3979,
+              "Student": 0.4708
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Narrator",
+            "window": [
+              416.02,
+              422
+            ],
+            "scores": {
+              "Narrator": 0.7416,
+              "Officer": 0.2901,
+              "Student": 0.4284
+            },
+            "chosen": "Narrator"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              107.13,
+              114.29
+            ],
+            "scores": {
+              "Narrator": 0.2843,
+              "Officer": 0.8377,
+              "Student": 0.2225
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              142,
+              149.2
+            ],
+            "scores": {
+              "Narrator": 0.311,
+              "Officer": 0.867,
+              "Student": 0.24
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              199.5,
+              210
+            ],
+            "scores": {
+              "Narrator": 0.3853,
+              "Officer": 0.8535,
+              "Student": 0.3258
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              280.37,
+              290
+            ],
+            "scores": {
+              "Narrator": 0.3692,
+              "Officer": 0.8667,
+              "Student": 0.3697
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Officer",
+            "window": [
+              393.46,
+              402.52
+            ],
+            "scores": {
+              "Narrator": 0.3768,
+              "Officer": 0.865,
+              "Student": 0.3442
+            },
+            "chosen": "Officer"
+          },
+          {
+            "label": "Student",
+            "window": [
+              99.6,
+              104.98
+            ],
+            "scores": {
+              "Narrator": 0.414,
+              "Officer": 0.2753,
+              "Student": 0.8621
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              181.22,
+              186.9
+            ],
+            "scores": {
+              "Narrator": 0.4556,
+              "Officer": 0.3604,
+              "Student": 0.842
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              221.1,
+              228
+            ],
+            "scores": {
+              "Narrator": 0.4134,
+              "Officer": 0.2988,
+              "Student": 0.738
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              293.44,
+              295.8
+            ],
+            "scores": {
+              "Narrator": 0.3884,
+              "Officer": 0.2383,
+              "Student": 0.7849
+            },
+            "chosen": "Student"
+          },
+          {
+            "label": "Student",
+            "window": [
+              406,
+              413
+            ],
+            "scores": {
+              "Narrator": 0.4537,
+              "Officer": 0.2848,
+              "Student": 0.847
+            },
+            "chosen": "Student"
+          }
+        ],
+        "targetChecks": [
+          {
+            "phrase": "I see",
+            "start": 138.38,
+            "end": 141.14,
+            "scores": {
+              "Narrator": 0.3752,
+              "Officer": 0.2112,
+              "Student": 0.7192
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "It just gets worse",
+            "start": 369.5,
+            "end": 371.58,
+            "scores": {
+              "Narrator": 0.2193,
+              "Officer": 0.2855,
+              "Student": 0.4645
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "That's true",
+            "start": 384.1,
+            "end": 384.82,
+            "scores": {
+              "Narrator": 0.2915,
+              "Officer": 0.2789,
+              "Student": 0.5468
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "Right",
+            "start": 403.32,
+            "end": 403.7,
+            "scores": {
+              "Narrator": 0.2036,
+              "Officer": 0.1565,
+              "Student": 0.4613
+            },
+            "chosen": "Student"
+          },
+          {
+            "phrase": "Thanks",
+            "start": 404.83,
+            "end": 405.39,
+            "scores": {
+              "Narrator": 0.248,
+              "Officer": 0.1769,
+              "Student": 0.3299
+            },
+            "chosen": "Student"
+          }
+        ]
+      }
+    },
+    "shortPhraseControls": [
+      {
+        "label": "Student",
+        "start": 99.6,
+        "end": 101,
+        "scores": {
+          "Narrator": 0.2957,
+          "Officer": 0.2487,
+          "Student": 0.5385
+        },
+        "chosen": "Student"
+      },
+      {
+        "label": "Student",
+        "start": 115.33,
+        "end": 116.8,
+        "scores": {
+          "Narrator": 0.3201,
+          "Officer": 0.2776,
+          "Student": 0.6832
+        },
+        "chosen": "Student"
+      },
+      {
+        "label": "Student",
+        "start": 215.04,
+        "end": 216.8,
+        "scores": {
+          "Narrator": 0.2787,
+          "Officer": 0.1867,
+          "Student": 0.5844
+        },
+        "chosen": "Student"
+      },
+      {
+        "label": "Student",
+        "start": 293.44,
+        "end": 295.8,
+        "scores": {
+          "Narrator": 0.3884,
+          "Officer": 0.2383,
+          "Student": 0.864
+        },
+        "chosen": "Student"
+      },
+      {
+        "label": "Student",
+        "start": 406,
+        "end": 407.4,
+        "scores": {
+          "Narrator": 0.2362,
+          "Officer": 0.1665,
+          "Student": 0.6164
+        },
+        "chosen": "Student"
+      },
+      {
+        "label": "Officer",
+        "start": 105.74,
+        "end": 106.5,
+        "scores": {
+          "Narrator": 0.2849,
+          "Officer": 0.5168,
+          "Student": 0.2515
+        },
+        "chosen": "Officer"
+      },
+      {
+        "label": "Officer",
+        "start": 219.56,
+        "end": 220.7,
+        "scores": {
+          "Narrator": 0.1902,
+          "Officer": 0.6347,
+          "Student": 0.2101
+        },
+        "chosen": "Officer"
+      },
+      {
+        "label": "Officer",
+        "start": 377.06,
+        "end": 377.58,
+        "scores": {
+          "Narrator": 0.3143,
+          "Officer": 0.6169,
+          "Student": 0.2347
+        },
+        "chosen": "Officer"
+      },
+      {
+        "label": "Officer",
+        "start": 385.3,
+        "end": 386.14,
+        "scores": {
+          "Narrator": 0.301,
+          "Officer": 0.3184,
+          "Student": 0.1811
+        },
+        "chosen": "Officer"
+      },
+      {
+        "label": "Officer",
+        "start": 117.49,
+        "end": 118.6,
+        "scores": {
+          "Narrator": 0.2831,
+          "Officer": 0.5683,
+          "Student": 0.2577
+        },
+        "chosen": "Officer"
+      },
+      {
+        "label": "Narrator",
+        "start": 232.36,
+        "end": 233.8,
+        "scores": {
+          "Narrator": 0.671,
+          "Officer": 0.338,
+          "Student": 0.3984
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "start": 416.02,
+        "end": 417.8,
+        "scores": {
+          "Narrator": 0.7996,
+          "Officer": 0.229,
+          "Student": 0.3236
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "selectedModel": "eres2net-zh-independent-check",
+    "selectedModelTrainingLanguage": "Chinese; used cross-language with recording-specific controls",
+    "primaryModelDisagreementRetained": true,
+    "humanAuditoryReview": false,
+    "scoreInterpretation": "Cosine similarity, not a correctness probability"
+  }
+}

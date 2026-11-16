@@ -6878,5 +6878,65 @@
         "url": "https://creativecommons.org/licenses/by-sa/3.0"
       }
     }
+  },
+  {
+    "word": "look",
+    "translations": {
+      "ru": "nocmowe"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "basically",
+    "translations": {
+      "ru": "в основном"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "food",
+    "translations": {
+      "ru": "еда"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "carbon",
+    "translations": {
+      "ru": "уголь"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "about",
+    "translations": {
+      "ru": "about"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
+  },
+  {
+    "word": "i've",
+    "translations": {
+      "ru": "я"
+    },
+    "status": "learning",
+    "translationSources": {
+      "ru": "MyMemory"
+    }
   }
 ]

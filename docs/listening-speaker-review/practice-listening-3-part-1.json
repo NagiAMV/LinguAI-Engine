@@ -1,0 +1,920 @@
+{
+  "test": "practice-listening-3",
+  "part": 1,
+  "audioSha256": "a6c58646208f49249fffb7e7ee0c58df1d2579d4ac50b3badd3cba5965fdbb1d",
+  "scope": {
+    "start": 5.97,
+    "end": 304.44
+  },
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Narrator": [
+      6,
+      10.7
+    ],
+    "Assistant": [
+      103.43,
+      112
+    ],
+    "Customer": [
+      67.14,
+      72.38
+    ]
+  },
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "spokenTextChange": "Removed the duplicated consultant Top Cover question; the customer answer is retained.",
+  "spokenTextSha256": "3f84c6541edee94da94f6e0d677fa6768fbc4f28aa8b66ce4aa8ccaa11172327",
+  "wordClocksSha256": "17e5b300b5596bc6852d703ab8582edb06f70e1682d9252ce5bb4bcd3cdf17de",
+  "wordClockCount": 562,
+  "clockCorrections": [
+    {
+      "word": "Good",
+      "before": [
+        16.45,
+        17.33
+      ],
+      "after": [
+        46.42,
+        46.94
+      ]
+    },
+    {
+      "word": "By",
+      "before": [
+        92.52,
+        93.1
+      ],
+      "after": null
+    },
+    {
+      "word": "the",
+      "before": [
+        93.1,
+        94.88
+      ],
+      "after": null
+    },
+    {
+      "word": "Cover",
+      "clock": [
+        250.64,
+        250.94
+      ],
+      "movedFrom": "Assistant duplicate",
+      "movedTo": "Customer answer"
+    }
+  ],
+  "turns": [
+    {
+      "block": 0,
+      "phrase": "You will hear a woman asking a sales assistant about insurance policies.",
+      "start": 5.97,
+      "end": 10.67,
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.9911,
+        "Assistant": 0.6571,
+        "Customer": 0.6205
+      },
+      "closestVoice": "Narrator"
+    },
+    {
+      "block": 1,
+      "phrase": "Assistant: Good morning, take a seat. I see youâ€™ve picked up some of our brochures.",
+      "start": 46.93,
+      "end": 51.21,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6302,
+        "Assistant": 0.9281,
+        "Customer": 0.6552
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 2,
+      "phrase": "Customer: Yes, Iâ€™ve been reading the one on travel.",
+      "start": 51.21,
+      "end": 54.33,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6411,
+        "Assistant": 0.7075,
+        "Customer": 0.8797
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 3,
+      "phrase": "Assistant: Would the travel insurance be for you or for your family as well?",
+      "start": 54.33,
+      "end": 58.51,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6064,
+        "Assistant": 0.8846,
+        "Customer": 0.6002
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 4,
+      "phrase": "Customer: Just for me.",
+      "start": 58.940000000000005,
+      "end": 59.96,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6453,
+        "Assistant": 0.7521,
+        "Customer": 0.8327
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 5,
+      "phrase": "Assistant: So, individual1?",
+      "start": 59.81,
+      "end": 61.53,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.5782,
+        "Assistant": 0.8491,
+        "Customer": 0.6384
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 6,
+      "phrase": "Customer: Thatâ€™s right.",
+      "start": 61.53,
+      "end": 62.77,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.5175,
+        "Assistant": 0.6485,
+        "Customer": 0.737
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 7,
+      "phrase": "Assistant: Are you looking for a basic or a comprehensive policy?",
+      "start": 63.32,
+      "end": 66.3,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6459,
+        "Assistant": 0.9516,
+        "Customer": 0.6719
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 8,
+      "phrase": "Customer: To be honest, Iâ€™ve had basic in the past, but it didnâ€™t pay out very mu",
+      "start": 67.14,
+      "end": 72.38,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6162,
+        "Assistant": 0.6564,
+        "Customer": 1
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 9,
+      "phrase": "Assistant: Thatâ€™s often true. With our company, you can be insured for different am",
+      "start": 73.12,
+      "end": 83.12,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6588,
+        "Assistant": 0.9481,
+        "Customer": 0.6485
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 10,
+      "phrase": "Customer: I think Iâ€™d like insurance for all five since Iâ€™m going to some unsafe ",
+      "start": 87.12,
+      "end": 91.96,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6668,
+        "Assistant": 0.6983,
+        "Customer": 0.904
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 13,
+      "phrase": "Customer: happened with my previous policy. However, in that one, there was a higher ",
+      "start": 123.05,
+      "end": 131.97,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.7073,
+        "Assistant": 0.7299,
+        "Customer": 0.9081
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 14,
+      "phrase": "Assistant: These days, with credit cards, people donâ€™t carry much cash, so weâ€™ve ",
+      "start": 133.05,
+      "end": 141.27,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6334,
+        "Assistant": 0.9646,
+        "Customer": 0.6443
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 15,
+      "phrase": "Customer: Indeed â€“ in the disrupted travel section, rational costs5 is written for ",
+      "start": 142.27,
+      "end": 152.27,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6934,
+        "Assistant": 0.7416,
+        "Customer": 0.9044
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 16,
+      "phrase": "Assistant: Put it this way: if you miss your flight due to poor weather that is verif",
+      "start": 156.38,
+      "end": 166.38,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6546,
+        "Assistant": 0.952,
+        "Customer": 0.664
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 17,
+      "phrase": "Assistant: Are you also interested in vehicle insurance?",
+      "start": 213.85,
+      "end": 216.19,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6434,
+        "Assistant": 0.931,
+        "Customer": 0.6519
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 18,
+      "phrase": "Customer: Yes, I am. Iâ€™m about to buy a nice old car â€“ a vintage Jaguar XJ6.",
+      "start": 217.09,
+      "end": 222.95,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6949,
+        "Assistant": 0.741,
+        "Customer": 0.896
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 19,
+      "phrase": "Assistant: Hey, I used to have one of those, although nowadays I prefer old motorbike",
+      "start": 223.83,
+      "end": 233.83,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6337,
+        "Assistant": 0.9454,
+        "Customer": 0.6184
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 20,
+      "phrase": "Customer: Yes, I saw that. Itâ€™s true, Iâ€™m buying an expensive car, but I rent my ",
+      "start": 236,
+      "end": 243.96,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6706,
+        "Assistant": 0.7449,
+        "Customer": 0.8963
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 23,
+      "phrase": "Assistant: Are you sure? It is pricey.",
+      "start": 251.82,
+      "end": 253.32,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.5553,
+        "Assistant": 0.826,
+        "Customer": 0.5636
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 24,
+      "phrase": "Customer: I know, but last time I had insurance, I wasnâ€™t covered for storm damage.",
+      "start": 254.14,
+      "end": 258.8,
+      "sourceLabel": "Customer",
+      "voiceSimilarity": {
+        "Narrator": 0.6732,
+        "Assistant": 0.7723,
+        "Customer": 0.8799
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 25,
+      "phrase": "Assistant: Donâ€™t tell me that was just before the November hailstorm.",
+      "start": 259.68,
+      "end": 261.76,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.568,
+        "Assistant": 0.8889,
+        "Customer": 0.5551
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 27,
+      "phrase": "Assistant: If you choose Top Cover, we agree on a value for your car and renegotiate ",
+      "start": 292.26,
+      "end": 302.26,
+      "sourceLabel": "Assistant",
+      "voiceSimilarity": {
+        "Narrator": 0.6587,
+        "Assistant": 0.9384,
+        "Customer": 0.6483
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 11,
+      "phrase": "Wise decision",
+      "start": 92.1,
+      "end": 93.8,
+      "voiceSimilarity": {
+        "Narrator": 0.5341,
+        "Assistant": 0.7577,
+        "Customer": 0.4998
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 11,
+      "phrase": "By the way",
+      "start": 94.5,
+      "end": 102.49,
+      "voiceSimilarity": {
+        "Narrator": 0.683,
+        "Assistant": 0.7222,
+        "Customer": 0.8964
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 12,
+      "phrase": "If you have an expensive camera",
+      "start": 103.43,
+      "end": 113,
+      "voiceSimilarity": {
+        "Narrator": 0.6439,
+        "Assistant": 0.9969,
+        "Customer": 0.6597
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 12,
+      "phrase": "That is what happened",
+      "start": 122.39,
+      "end": 124.95,
+      "voiceSimilarity": {
+        "Narrator": 0.6742,
+        "Assistant": 0.6912,
+        "Customer": 0.8751
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 21,
+      "phrase": "I understand",
+      "start": 245.3,
+      "end": 249.64,
+      "voiceSimilarity": {
+        "Narrator": 0.6136,
+        "Assistant": 0.9268,
+        "Customer": 0.6264
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 21,
+      "phrase": "Top Cover",
+      "start": 250.3,
+      "end": 251.1,
+      "voiceSimilarity": {
+        "Narrator": 0.5641,
+        "Assistant": 0.6507,
+        "Customer": 0.7576
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 26,
+      "phrase": "Aha so I need storm damage",
+      "start": 264.8,
+      "end": 274,
+      "voiceSimilarity": {
+        "Narrator": 0.7056,
+        "Assistant": 0.7673,
+        "Customer": 0.8984
+      },
+      "closestVoice": "Customer"
+    },
+    {
+      "block": 26,
+      "phrase": "Oh dear",
+      "start": 281.15,
+      "end": 282.3,
+      "voiceSimilarity": {
+        "Narrator": 0.5652,
+        "Assistant": 0.7832,
+        "Customer": 0.5649
+      },
+      "closestVoice": "Assistant"
+    },
+    {
+      "block": 26,
+      "phrase": "Then I spent months",
+      "start": 282.98,
+      "end": 291.8,
+      "voiceSimilarity": {
+        "Narrator": 0.66,
+        "Assistant": 0.7507,
+        "Customer": 0.8848
+      },
+      "closestVoice": "Customer"
+    }
+  ],
+  "renderedGroups": [
+    {
+      "speaker": "Narrator",
+      "text": "You will hear a woman asking a sales assistant about insurance policies."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Good morning, take a seat. I see you’ve picked up some of our brochures."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, I’ve been reading the one on travel."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Would the travel insurance be for you or for your family as well?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Just for me."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "So, individual1?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "That’s right."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Are you looking for a basic or a comprehensive policy?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "To be honest, I’ve had basic in the past, but it didn’t pay out very much."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "That’s often true. With our company, you can be insured for different amounts. For instance, in Section 1, baggage and personal effects, you can be insured for all five subsections or for as few as two."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I think I’d like insurance for all five since I’m going to some unsafe places."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Wise decision."
+    },
+    {
+      "speaker": "Customer",
+      "text": "By the way – can a camera be counted as a single item2, or must it be included in cameras and portable electronic equipment3?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "If you have an expensive camera, you can nominate it as a single item; our maximum payout is $1,500. Occasionally, people have their camera and computer stolen together. If insurance is only taken out on subsection two, this may not cover the replacement of both things."
+    },
+    {
+      "speaker": "Customer",
+      "text": "That’s what happened with my previous policy. However, in that one, there was a higher limit for lost or stolen money. Yours is only $7004."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "These days, with credit cards, people don’t carry much cash, so we’ve set the limit accordingly. Still, we pay out well for documents."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Indeed – in the disrupted travel section, rational costs5 is written for a missed connection or an early return instead of an amount of money. What exactly are rational costs?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Put it this way: if you miss your flight due to poor weather that is verifiable, we pay $300 per day of lost time. If you arrive at check-in as the aircraft is leaving because you overslept, we still pay out, but only $100 a day. We rely on information from the airline6 to determine this."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Are you also interested in vehicle insurance?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, I am. I’m about to buy a nice old car – a vintage Jaguar XJ6."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Hey, I used to have one of those, although nowadays I prefer old motorbikes. Did you know you can insure a vehicle on its own, or you can include it in our Multi-saver policy along with your house and contents?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Yes, I saw that. It’s true, I’m buying an expensive car, but I rent my house, so I’m not ready for a Multi-saver – that benefits homeowners."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "I understand. Have you decided which level of cover you’d like for your car?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Top Cover."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Are you sure? It is pricey."
+    },
+    {
+      "speaker": "Customer",
+      "text": "I know, but last time I had insurance, I wasn’t covered for storm damage."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Don’t tell me that was just before the November hailstorm."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Aha – so I need storm damage insurance. Also, I’d like my policy to start as soon as I’ve paid for it. With my old one, there was a stand-down period of two weeks – could you believe I backed into a wall just three days after I’d taken out the policy?"
+    },
+    {
+      "speaker": "Assistant",
+      "text": "Oh dear."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Then I spent months fighting with the insurance company over the value of my car. I know it wasn’t worth much, but it was relatively new."
+    },
+    {
+      "speaker": "Assistant",
+      "text": "If you choose Top Cover, we agree on a value for your car and renegotiate each year to avoid disputes. Again, it’s not as cheap as some, but the policy works out better in the long run."
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 45,
+      "end": 52,
+      "words": [
+        {
+          "word": "Good",
+          "start": 46.42,
+          "end": 46.94
+        },
+        {
+          "word": "morning.",
+          "start": 46.94,
+          "end": 47.26
+        },
+        {
+          "word": "Take",
+          "start": 47.82,
+          "end": 47.94
+        },
+        {
+          "word": "a",
+          "start": 47.94,
+          "end": 48.1
+        },
+        {
+          "word": "seat.",
+          "start": 48.1,
+          "end": 48.36
+        },
+        {
+          "word": "I",
+          "start": 49.12,
+          "end": 49.16
+        },
+        {
+          "word": "see",
+          "start": 49.16,
+          "end": 49.42
+        },
+        {
+          "word": "you've",
+          "start": 49.42,
+          "end": 49.72
+        },
+        {
+          "word": "picked",
+          "start": 49.72,
+          "end": 49.84
+        },
+        {
+          "word": "up",
+          "start": 49.84,
+          "end": 50.06
+        },
+        {
+          "word": "some",
+          "start": 50.06,
+          "end": 50.26
+        },
+        {
+          "word": "of",
+          "start": 50.26,
+          "end": 50.38
+        },
+        {
+          "word": "our",
+          "start": 50.38,
+          "end": 50.58
+        },
+        {
+          "word": "brochures.",
+          "start": 50.58,
+          "end": 51.24
+        }
+      ]
+    },
+    {
+      "start": 91.9,
+      "end": 103,
+      "words": [
+        {
+          "word": "By",
+          "start": 91.9,
+          "end": 93.1
+        },
+        {
+          "word": "the",
+          "start": 93.1,
+          "end": 94.92
+        },
+        {
+          "word": "way,",
+          "start": 94.92,
+          "end": 95.16
+        },
+        {
+          "word": "can",
+          "start": 95.94,
+          "end": 95.96
+        },
+        {
+          "word": "a",
+          "start": 95.96,
+          "end": 96.1
+        },
+        {
+          "word": "camera",
+          "start": 96.1,
+          "end": 96.32
+        },
+        {
+          "word": "be",
+          "start": 96.32,
+          "end": 96.58
+        },
+        {
+          "word": "counted",
+          "start": 96.58,
+          "end": 96.88
+        },
+        {
+          "word": "as",
+          "start": 96.88,
+          "end": 97.36
+        },
+        {
+          "word": "a",
+          "start": 97.36,
+          "end": 97.54
+        },
+        {
+          "word": "single",
+          "start": 97.54,
+          "end": 97.74
+        },
+        {
+          "word": "item,",
+          "start": 97.74,
+          "end": 98.08
+        },
+        {
+          "word": "or",
+          "start": 98.5,
+          "end": 98.64
+        },
+        {
+          "word": "must",
+          "start": 98.64,
+          "end": 98.86
+        },
+        {
+          "word": "it",
+          "start": 98.86,
+          "end": 99.06
+        },
+        {
+          "word": "be",
+          "start": 99.06,
+          "end": 99.2
+        },
+        {
+          "word": "included",
+          "start": 99.2,
+          "end": 99.7
+        },
+        {
+          "word": "in",
+          "start": 99.7,
+          "end": 100.02
+        },
+        {
+          "word": "cameras",
+          "start": 100.02,
+          "end": 100.46
+        },
+        {
+          "word": "and",
+          "start": 100.46,
+          "end": 100.94
+        },
+        {
+          "word": "portable",
+          "start": 100.94,
+          "end": 101.38
+        },
+        {
+          "word": "electronic",
+          "start": 101.38,
+          "end": 102.06
+        },
+        {
+          "word": "equipment?",
+          "start": 102.06,
+          "end": 102.4
+        }
+      ]
+    },
+    {
+      "start": 245,
+      "end": 254,
+      "words": [
+        {
+          "word": "I",
+          "start": 245,
+          "end": 245.44
+        },
+        {
+          "word": "understand.",
+          "start": 245.44,
+          "end": 245.88
+        },
+        {
+          "word": "Have",
+          "start": 246.72,
+          "end": 246.84
+        },
+        {
+          "word": "you",
+          "start": 246.84,
+          "end": 247
+        },
+        {
+          "word": "decided",
+          "start": 247,
+          "end": 247.38
+        },
+        {
+          "word": "which",
+          "start": 247.38,
+          "end": 247.72
+        },
+        {
+          "word": "level",
+          "start": 247.72,
+          "end": 248.06
+        },
+        {
+          "word": "of",
+          "start": 248.06,
+          "end": 248.36
+        },
+        {
+          "word": "cover",
+          "start": 248.36,
+          "end": 248.54
+        },
+        {
+          "word": "you'd",
+          "start": 248.54,
+          "end": 248.84
+        },
+        {
+          "word": "like",
+          "start": 248.84,
+          "end": 249.04
+        },
+        {
+          "word": "for",
+          "start": 249.04,
+          "end": 249.2
+        },
+        {
+          "word": "your",
+          "start": 249.2,
+          "end": 249.38
+        },
+        {
+          "word": "car?",
+          "start": 249.38,
+          "end": 249.66
+        },
+        {
+          "word": "Top",
+          "start": 250.62,
+          "end": 250.62
+        },
+        {
+          "word": "cover.",
+          "start": 250.62,
+          "end": 251.02
+        },
+        {
+          "word": "Are",
+          "start": 251.86,
+          "end": 251.92
+        },
+        {
+          "word": "you",
+          "start": 251.92,
+          "end": 252.04
+        },
+        {
+          "word": "sure",
+          "start": 252.04,
+          "end": 252.32
+        },
+        {
+          "word": "it",
+          "start": 252.32,
+          "end": 252.8
+        },
+        {
+          "word": "is",
+          "start": 252.8,
+          "end": 252.96
+        },
+        {
+          "word": "pricey?",
+          "start": 252.96,
+          "end": 253.3
+        }
+      ]
+    }
+  ],
+  "otherPartsSha256": "b9877b09a9cc37b397fd65096d2e9d69883f256c15af07aecb553e5515c1c772"
+}

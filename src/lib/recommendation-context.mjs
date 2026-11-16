@@ -19,7 +19,7 @@ export function coachContext(attempts,dashboard,practice,catalogs,{language='en'
   const checked=rows.reduce((n,s)=>n+s.checked,0);if(checked)focus.push({skill,part,accuracy:Math.round(rows.reduce((n,s)=>n+s.correct,0)/checked*100),unanswered:rows.reduce((n,s)=>n+s.blank,0),count:rows.length});
  }
  const skills=COACH_SKILLS.map(skill=>{const rows=[...latest.values()].filter(a=>a.resource===skill&&a.checked).slice(0,5),total=rows.reduce((n,a)=>n+a.checked,0),score=dashboard.scores.find(s=>s.skill===skill);const docs=practice[skill]||[];
-  return {skill,band:score?.band==null?null:String(score.band).startsWith('<')?'< 2.5':Number(score.band),accuracy:total?Math.round(rows.reduce((n,a)=>n+a.correct,0)/total*100):null,count:Math.min(2000,['reading','listening'].includes(skill)?[...latest.values()].filter(a=>a.resource===skill).length:Math.max(docs.filter(d=>d.hasDraft||d.submitted).length,dashboard.events.filter(e=>e.resource===skill&&['review','speaking-drill','writing-session'].includes(e.kind)).length))};
+  return {skill,band:skill==='speaking'||score?.band==null?null:String(score.band).startsWith('<')?'< 2.5':Number(score.band),accuracy:total?Math.round(rows.reduce((n,a)=>n+a.correct,0)/total*100):null,count:Math.min(2000,['reading','listening'].includes(skill)?[...latest.values()].filter(a=>a.resource===skill).length:Math.max(docs.filter(d=>d.hasDraft||d.submitted).length,dashboard.events.filter(e=>e.resource===skill&&['review','speaking-drill','writing-session'].includes(e.kind)).length))};
  });
  const grouped=new Map();for(const [criterion,band] of practice.writing.filter(d=>Object.keys(d.bands).length).slice(0,5).flatMap(d=>Object.entries(d.bands))){const list=grouped.get(criterion)||[];list.push(band);grouped.set(criterion,list);}
  const weakCriteria=[...grouped].map(([criterion,bands])=>({criterion,band:Math.round(bands.reduce((n,b)=>n+b,0)/bands.length*2)/2})).sort((a,b)=>a.band-b.band).slice(0,3);
@@ -29,6 +29,7 @@ export function coachContext(attempts,dashboard,practice,catalogs,{language='en'
  actions.writing={skill:'writing',title:`Task ${nextWriting.task} · ${nextWriting.title}`,href:`/?view=writing&task=${encodeURIComponent(nextWriting.id)}`,part:nextWriting.task};
  const pendingSpeech=practice.speaking.find(d=>d.hasDraft&&!d.reviewed&&catalogs.speaking.some(s=>s.n===d.set)),nextSpeaking=catalogs.speaking.find(s=>s.n===pendingSpeech?.set)||catalogs.speaking.find(s=>!practice.speaking.some(d=>d.set===s.n&&d.reviewed))||catalogs.speaking[0],speechPart=[1,2,3].includes(pendingSpeech?.part)?pendingSpeech.part:2;
  actions.speaking={skill:'speaking',title:`Speaking Part ${speechPart} · ${nextSpeaking.t2}`,href:`/?view=speaking&set=${nextSpeaking.n}&part=${speechPart}&practice=1`,part:speechPart};
- const summary={language,target:Number(target),minutes,day,weekCount:Math.min(5000,dashboard.weekCount),weekSeconds:Math.min(6048000,dashboard.weekSeconds),skills,errors,focus,weakCriteria,pending,nextParts:COACH_SKILLS.map(skill=>({skill,part:actions[skill].part}))};
+ const applicableCriteria=weakCriteria.filter(c=>actions.writing.part===1?c.criterion!=='Task Response':c.criterion!=='Task Achievement');
+ const summary={language,target:Number(target),minutes,day,weekCount:Math.min(5000,dashboard.weekCount),weekSeconds:Math.min(6048000,dashboard.weekSeconds),skills,errors,focus,weakCriteria:applicableCriteria,pending,nextParts:COACH_SKILLS.map(skill=>({skill,part:actions[skill].part}))};
  return {summary,actions};
 }

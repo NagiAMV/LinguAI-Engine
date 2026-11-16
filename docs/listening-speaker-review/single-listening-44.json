@@ -1,0 +1,1195 @@
+{
+  "test": "single-listening-44",
+  "audioSha256": "2e813d4502f93f97b29ebbc2f1d4e3ad19dadae9b708be3276c4a2c77adf29fd",
+  "scope": {
+    "start": 6,
+    "end": 551.3
+  },
+  "method": "Phrase boundaries aligned to existing word clocks; voice embeddings compared against two distinct conversation anchors.",
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Speaker 1": [
+      18.5,
+      26.8
+    ],
+    "Speaker 2": [
+      145,
+      155.7
+    ],
+    "Speaker 3": [
+      157,
+      179.8
+    ]
+  },
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "fullTranscriptSpeakerReview": true,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "clockCorrections": [
+    {
+      "before": [
+        "26.98",
+        "27.84",
+        "hi"
+      ],
+      "after": [
+        "57.31",
+        "57.51",
+        "hi"
+      ]
+    }
+  ],
+  "clockCount": 1041,
+  "speechGapsExcludedFromVoiceComparison": true,
+  "narratorRestrictedToRecordedInstructions": true,
+  "turns": [
+    {
+      "phrase": "recording 53",
+      "index": 0,
+      "start": 6,
+      "end": 10.2,
+      "until": 57.260000000000005,
+      "voiceSimilarity": {
+        "Speaker 1": 0.9754,
+        "Speaker 2": 0.8369,
+        "Speaker 3": 0.6595
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "phrase": "hi Robert",
+      "index": 27,
+      "start": 57.31,
+      "end": 57.99,
+      "until": 57.940000000000005,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6516,
+        "Speaker 2": 0.6665,
+        "Speaker 3": 0.8275
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "hi sorry I'm late",
+      "index": 29,
+      "start": 57.99,
+      "end": 60.53,
+      "until": 65.16,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7941,
+        "Speaker 2": 0.9597,
+        "Speaker 3": 0.7283
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "do you want to include",
+      "index": 45,
+      "start": 65.21,
+      "end": 67.35,
+      "until": 72.72,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5655,
+        "Speaker 2": 0.6537,
+        "Speaker 3": 0.9506
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well it is a global",
+      "index": 62,
+      "start": 72.77,
+      "end": 74.87,
+      "until": 81.06,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8354,
+        "Speaker 2": 0.9469,
+        "Speaker 3": 0.7377
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "enough",
+      "index": 80,
+      "start": 81.11,
+      "end": 81.43,
+      "until": 84.34,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5781,
+        "Speaker 2": 0.6479,
+        "Speaker 3": 0.9131
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well I was looking",
+      "index": 86,
+      "start": 84.39,
+      "end": 86.05,
+      "until": 107.71000000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8306,
+        "Speaker 2": 0.9548,
+        "Speaker 3": 0.7334
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "An incredible amount",
+      "index": 130,
+      "start": 107.76,
+      "end": 109.56,
+      "until": 110.27,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6196,
+        "Speaker 2": 0.709,
+        "Speaker 3": 0.9011
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Yes and they were",
+      "index": 133,
+      "start": 110.32,
+      "end": 111.88,
+      "until": 127.74000000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7629,
+        "Speaker 2": 0.9519,
+        "Speaker 3": 0.6905
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "And I think it was",
+      "index": 172,
+      "start": 127.79,
+      "end": 129.23,
+      "until": 132.98999999999998,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8328,
+        "Speaker 2": 0.9289,
+        "Speaker 3": 0.7331
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Interesting You know",
+      "index": 183,
+      "start": 133.04,
+      "end": 134.88,
+      "until": 144.70999999999998,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6048,
+        "Speaker 2": 0.6681,
+        "Speaker 3": 0.9597
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "I know what you are",
+      "index": 207,
+      "start": 144.76,
+      "end": 145.96,
+      "until": 156.13,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8032,
+        "Speaker 2": 0.9958,
+        "Speaker 3": 0.7042
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Exactly We could",
+      "index": 236,
+      "start": 156.18,
+      "end": 158.44,
+      "until": 180.54999999999998,
+      "voiceSimilarity": {
+        "Speaker 1": 0.638,
+        "Speaker 2": 0.7004,
+        "Speaker 3": 0.9967
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Absolutely",
+      "index": 294,
+      "start": 180.6,
+      "end": 181.24,
+      "until": 182.08999999999997,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7517,
+        "Speaker 2": 0.8803,
+        "Speaker 3": 0.6404
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "If the reports are actually",
+      "index": 295,
+      "start": 182.14,
+      "end": 183.86,
+      "until": 189.01,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8022,
+        "Speaker 2": 0.9217,
+        "Speaker 3": 0.6961
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Who do you mean",
+      "index": 312,
+      "start": 189.06,
+      "end": 189.84,
+      "until": 191.91,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5807,
+        "Speaker 2": 0.6812,
+        "Speaker 3": 0.8807
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well the government",
+      "index": 318,
+      "start": 191.96,
+      "end": 193.1,
+      "until": 201.32999999999998,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6917,
+        "Speaker 2": 0.8985,
+        "Speaker 3": 0.6705
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Not that I remember",
+      "index": 334,
+      "start": 201.38,
+      "end": 202.66,
+      "until": 203.42999999999998,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6291,
+        "Speaker 2": 0.7198,
+        "Speaker 3": 0.873
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "My point exactly",
+      "index": 338,
+      "start": 203.48,
+      "end": 204.74,
+      "until": 205.38,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7305,
+        "Speaker 2": 0.8278,
+        "Speaker 3": 0.6256
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "These days they all",
+      "index": 341,
+      "start": 205.43,
+      "end": 207.05,
+      "until": 223.78,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8257,
+        "Speaker 2": 0.9505,
+        "Speaker 3": 0.7133
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Yes it's the same",
+      "index": 382,
+      "start": 223.83,
+      "end": 225.65,
+      "until": 234.60999999999999,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6369,
+        "Speaker 2": 0.6943,
+        "Speaker 3": 0.9552
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "But nothing about how",
+      "index": 405,
+      "start": 234.66,
+      "end": 236.24,
+      "until": 241.94,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6323,
+        "Speaker 2": 0.6896,
+        "Speaker 3": 0.9509
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well we've only got",
+      "index": 423,
+      "start": 241.99,
+      "end": 243.45,
+      "until": 252.88,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7986,
+        "Speaker 2": 0.9443,
+        "Speaker 3": 0.6947
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "What do we want to concentrate on",
+      "index": 448,
+      "start": 252.93,
+      "end": 254.81,
+      "until": 255.76,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6763,
+        "Speaker 2": 0.8093,
+        "Speaker 3": 0.6697
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Well I know some",
+      "index": 455,
+      "start": 255.81,
+      "end": 257.75,
+      "until": 268.34999999999997,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6411,
+        "Speaker 2": 0.7067,
+        "Speaker 3": 0.968
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "And the fact that",
+      "index": 483,
+      "start": 268.4,
+      "end": 269.46,
+      "until": 274.55,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6091,
+        "Speaker 2": 0.6783,
+        "Speaker 3": 0.9589
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "That was covered last term",
+      "index": 500,
+      "start": 274.6,
+      "end": 276.34,
+      "until": 277.01,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5604,
+        "Speaker 2": 0.656,
+        "Speaker 3": 0.9046
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Okay we don't want",
+      "index": 505,
+      "start": 277.06,
+      "end": 278.82,
+      "until": 280.57,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7579,
+        "Speaker 2": 0.911,
+        "Speaker 3": 0.6301
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "What concerns me above",
+      "index": 512,
+      "start": 280.62,
+      "end": 281.96,
+      "until": 290.28,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6531,
+        "Speaker 2": 0.7036,
+        "Speaker 3": 0.9462
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Apparently supermarkets",
+      "index": 534,
+      "start": 290.33,
+      "end": 291.73,
+      "until": 297.52,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6269,
+        "Speaker 2": 0.7012,
+        "Speaker 3": 0.9548
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "That's throwing money away",
+      "index": 547,
+      "start": 297.57,
+      "end": 299.35,
+      "until": 299.97999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5206,
+        "Speaker 2": 0.5944,
+        "Speaker 3": 0.8636
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "All right We'll focus",
+      "index": 551,
+      "start": 300.03,
+      "end": 301.63,
+      "until": 307.14,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7806,
+        "Speaker 2": 0.9514,
+        "Speaker 3": 0.7029
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Now how do you want",
+      "index": 565,
+      "start": 307.19,
+      "end": 308.75,
+      "until": 311.44,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7267,
+        "Speaker 2": 0.8829,
+        "Speaker 3": 0.7199
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Let's not start with statistics",
+      "index": 574,
+      "start": 311.49,
+      "end": 313.35,
+      "until": 316.84,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7485,
+        "Speaker 2": 0.9025,
+        "Speaker 3": 0.627
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "I agree",
+      "index": 585,
+      "start": 316.89,
+      "end": 317.69,
+      "until": 318.62,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6282,
+        "Speaker 2": 0.6974,
+        "Speaker 3": 0.9112
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "How about we give",
+      "index": 587,
+      "start": 318.67,
+      "end": 320.49,
+      "until": 327.82,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5975,
+        "Speaker 2": 0.6713,
+        "Speaker 3": 0.9541
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "I'm fine with that",
+      "index": 608,
+      "start": 327.87,
+      "end": 328.95,
+      "until": 329.47999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7337,
+        "Speaker 2": 0.8686,
+        "Speaker 3": 0.642
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Probably a better option",
+      "index": 612,
+      "start": 329.53,
+      "end": 331.33,
+      "until": 334.5,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7262,
+        "Speaker 2": 0.9203,
+        "Speaker 3": 0.6518
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "It'll be more personalized",
+      "index": 622,
+      "start": 334.55,
+      "end": 336.07,
+      "until": 337.53999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.753,
+        "Speaker 2": 0.9103,
+        "Speaker 3": 0.687
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "All right Now let's start",
+      "index": 628,
+      "start": 337.59,
+      "end": 340.17,
+      "until": 370.52,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6367,
+        "Speaker 2": 0.7435,
+        "Speaker 3": 0.8538
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Now listen and answer",
+      "index": 633,
+      "start": 370.57,
+      "end": 372.11,
+      "until": 375.5,
+      "voiceSimilarity": {
+        "Speaker 1": 0.9476,
+        "Speaker 2": 0.85,
+        "Speaker 3": 0.6839
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "phrase": "Okay",
+      "index": 641,
+      "start": 375.55,
+      "end": 375.91,
+      "until": 376.33,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6766,
+        "Speaker 2": 0.6744,
+        "Speaker 3": 0.6135
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Shall we now have",
+      "index": 642,
+      "start": 376.38,
+      "end": 377.48,
+      "until": 383.28999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7265,
+        "Speaker 2": 0.9389,
+        "Speaker 3": 0.7131
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "For me the project",
+      "index": 659,
+      "start": 383.34,
+      "end": 384.98,
+      "until": 400.83,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6163,
+        "Speaker 2": 0.6903,
+        "Speaker 3": 0.9647
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "It's a great idea",
+      "index": 702,
+      "start": 400.88,
+      "end": 402.12,
+      "until": 408.15999999999997,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8078,
+        "Speaker 2": 0.9448,
+        "Speaker 3": 0.7112
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "The other good thing",
+      "index": 724,
+      "start": 408.21,
+      "end": 409.17,
+      "until": 414.47999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7971,
+        "Speaker 2": 0.931,
+        "Speaker 3": 0.7159
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Good Then the other thing",
+      "index": 739,
+      "start": 414.53,
+      "end": 416.29,
+      "until": 421.9,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6222,
+        "Speaker 2": 0.6864,
+        "Speaker 3": 0.9636
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "I hadn't seen that",
+      "index": 755,
+      "start": 421.95,
+      "end": 423.65,
+      "until": 424.21999999999997,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8034,
+        "Speaker 2": 0.8117,
+        "Speaker 3": 0.7368
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Well they've developed",
+      "index": 759,
+      "start": 424.27,
+      "end": 426.07,
+      "until": 430.39,
+      "voiceSimilarity": {
+        "Speaker 1": 0.5936,
+        "Speaker 2": 0.6852,
+        "Speaker 3": 0.9262
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Ethylene is the natural",
+      "index": 771,
+      "start": 430.44,
+      "end": 432.1,
+      "until": 449.95,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6207,
+        "Speaker 2": 0.6975,
+        "Speaker 3": 0.9671
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "That's got to be",
+      "index": 816,
+      "start": 450,
+      "end": 451.2,
+      "until": 457.78999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6582,
+        "Speaker 2": 0.6974,
+        "Speaker 3": 0.9617
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Definitely",
+      "index": 837,
+      "start": 457.84,
+      "end": 458.24,
+      "until": 458.96999999999997,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6905,
+        "Speaker 2": 0.8286,
+        "Speaker 3": 0.5714
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "And I thought that LeanPath",
+      "index": 838,
+      "start": 459.02,
+      "end": 460.86,
+      "until": 471.63,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7913,
+        "Speaker 2": 0.9551,
+        "Speaker 3": 0.7024
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "That'll increase profits",
+      "index": 864,
+      "start": 471.68,
+      "end": 472.98,
+      "until": 475.07,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8229,
+        "Speaker 2": 0.934,
+        "Speaker 3": 0.7286
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "Yes And did you read",
+      "index": 870,
+      "start": 475.12,
+      "end": 477,
+      "until": 478.93,
+      "voiceSimilarity": {
+        "Speaker 1": 0.62,
+        "Speaker 2": 0.6689,
+        "Speaker 3": 0.9278
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "They've produced this smartphone",
+      "index": 877,
+      "start": 478.98,
+      "end": 480.68,
+      "until": 486.01,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6314,
+        "Speaker 2": 0.6686,
+        "Speaker 3": 0.9668
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "The charities can then",
+      "index": 892,
+      "start": 486.06,
+      "end": 487.62,
+      "until": 492.76,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6334,
+        "Speaker 2": 0.6908,
+        "Speaker 3": 0.9165
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "In the long run",
+      "index": 908,
+      "start": 492.81,
+      "end": 493.71,
+      "until": 498.55,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7743,
+        "Speaker 2": 0.9273,
+        "Speaker 3": 0.6857
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "No kid should go",
+      "index": 919,
+      "start": 498.6,
+      "end": 499.78,
+      "until": 501.28999999999996,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8636,
+        "Speaker 2": 0.9029,
+        "Speaker 3": 0.6921
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "I agree And I read",
+      "index": 926,
+      "start": 501.34,
+      "end": 503.54,
+      "until": 511.89,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6033,
+        "Speaker 2": 0.6585,
+        "Speaker 3": 0.954
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "So you can't put",
+      "index": 949,
+      "start": 511.94,
+      "end": 513.28,
+      "until": 516.0500000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6052,
+        "Speaker 2": 0.6785,
+        "Speaker 3": 0.9472
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Just the compost bin",
+      "index": 960,
+      "start": 516.1,
+      "end": 517.74,
+      "until": 518.9300000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.6144,
+        "Speaker 2": 0.6419,
+        "Speaker 3": 0.8832
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "phrase": "Well I guess that means",
+      "index": 964,
+      "start": 518.98,
+      "end": 520.76,
+      "until": 523.3900000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8328,
+        "Speaker 2": 0.9247,
+        "Speaker 3": 0.7222
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "I mean they have to",
+      "index": 975,
+      "start": 523.44,
+      "end": 524.72,
+      "until": 531.51,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7793,
+        "Speaker 2": 0.9364,
+        "Speaker 3": 0.6592
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "And you know how lazy",
+      "index": 996,
+      "start": 531.56,
+      "end": 532.94,
+      "until": 535.11,
+      "voiceSimilarity": {
+        "Speaker 1": 0.8286,
+        "Speaker 2": 0.9265,
+        "Speaker 3": 0.6846
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "But I guess if we all",
+      "index": 1004,
+      "start": 535.16,
+      "end": 536.84,
+      "until": 543.5300000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7841,
+        "Speaker 2": 0.9321,
+        "Speaker 3": 0.7147
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "rather than relying",
+      "index": 1024,
+      "start": 543.58,
+      "end": 544.8,
+      "until": 548.11,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7926,
+        "Speaker 2": 0.9253,
+        "Speaker 3": 0.679
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "phrase": "said that",
+      "index": 1034,
+      "start": 548.16,
+      "end": 548.96,
+      "until": 551.2500000000001,
+      "voiceSimilarity": {
+        "Speaker 1": 0.7644,
+        "Speaker 2": 0.9244,
+        "Speaker 3": 0.7315
+      },
+      "closestVoice": "Speaker 2"
+    }
+  ],
+  "renderedGroups": [
+    {
+      "speaker": "Speaker 1",
+      "text": "recording 53 you will hear two students discussing a presentation they are going to give first you have some time to look at questions 21 to 25 ",
+      "start": 6
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "hi Robert ",
+      "start": 57.31
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "hi sorry I'm late I was just printing off some pages about food waste in Britain ",
+      "start": 57.99
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "do you want to include Britain in the presentation I thought we were concentrating on the USA",
+      "start": 65.21
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, it is a global problem, so I thought we ought to provide some statistics that show that. ",
+      "start": 72.77
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Fair enough. What did you find out? ",
+      "start": 81.11
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, I was looking at a British study from 2013. It basically concluded that 12 billion pounds worth of food and drink was thrown away each year, all of it ending up in landfill sites.",
+      "start": 84.39
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "over eight million tons, and that wasn't including packaging. ",
+      "start": 101.74
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "An incredible amount. ",
+      "start": 107.76
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Yes, and they were only looking at what households threw away, so there's no information about restaurants and the catering industry. But one thing the study did investigate was the amount of milk and soft drinks that were wasted.",
+      "start": 110.32
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "And I think it was probably quite unique in that respect. ",
+      "start": 127.79
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Interesting. You know, in the other European reports I've read, there's one thing they have in common when they talk about carbon dioxide emissions. ",
+      "start": 133.04
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I know what you are going to say. They never refer to the fuel that farms and factories require to produce the food. And the carbon dioxide that releases?",
+      "start": 144.76
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Exactly. We could really cut down on carbon emissions if less food was supplied in the first place. To my mind, the reports talk too much about the carbon dioxide produced by the trucks that deliver the fresh goods to the shops and take the waste away. They forget about one of the key causes of carbon dioxide. ",
+      "start": 156.18
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Absolutely.",
+      "start": 180.6
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "If the reports are actually going to be useful to people, they need to be more comprehensive. ",
+      "start": 182.14
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Who do you mean by people? ",
+      "start": 189.06
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, the government, industries, people making television programs. Have you seen any documentaries about food waste? ",
+      "start": 191.96
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Not that I remember. ",
+      "start": 201.38
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "My point exactly.",
+      "start": 203.48
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "These days they all seem to be focusing on where your meat, fruit and vegetables are sourced from. We're being encouraged to buy locally, not from overseas. That's probably a good thing, but I'd still like to see something about waste. ",
+      "start": 205.43
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Yes, it's the same with magazine articles. It's all about fat and sugar content, and the kind of additives and coloring in food.",
+      "start": 223.83
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "But nothing about how it reaches your table and what happens after it ends up in the bin. ",
+      "start": 234.66
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, we've only got 15 minutes for this presentation, so I think we'll have to limit what we say about the consequences of food waste. What do we want to concentrate on? ",
+      "start": 241.99
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Well, I know some of the other presentations are looking at food and farming methods.",
+      "start": 255.81
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "and what they do to the environment. So I think we'll avoid that. And the fact that in some countries, people can't afford the food grown on their own farms. That was covered last term. ",
+      "start": 262.88
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Okay, we don't want to repeat stuff. ",
+      "start": 277.06
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "What concerns me above all else is that in a recession, governments should be encouraging business to find ways to cut costs.",
+      "start": 280.62
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Apparently supermarkets in the USA lose about 11% of their fruit to waste. That's throwing money away. ",
+      "start": 290.33
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "All right. We'll focus on that problem. It should get the other's attention anyway. Now, how do you want to begin the presentation? Let's not start with statistics though, because that's what everybody does. ",
+      "start": 300.03
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I agree.",
+      "start": 316.89
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "How about we give the other students a set of questions to answer about what they suspect they waste every day? ",
+      "start": 318.67
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I'm fine with that. Probably a better option than showing pictures of landfill sites. It'll be more personalized that way. ",
+      "start": 327.87
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "All right. Now let's start. ",
+      "start": 337.59
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Now listen and answer questions 26 to 30. ",
+      "start": 370.57
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Okay.",
+      "start": 375.55
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Shall we now have a look at the projects that different researchers and organizations are working on? ",
+      "start": 376.38
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "For me, the project I really liked was the one at Tufts University. You know, where they've invented tiny edible patches to stick on fresh foods that show you what level of bacteria is present, and so whether you can still eat it.",
+      "start": 383.34
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "It's a great idea, as it tells you if you need to hurry up and eat the food before it goes off. The other good thing about the patches is that apparently they'll be cheap to manufacture. ",
+      "start": 400.88
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Good. Then the other thing I thought was great was the Massachusetts Institute of Technology project. ",
+      "start": 414.53
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I hadn't seen that. ",
+      "start": 421.95
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Well, they've developed these sensors that can detect tiny amounts of ethylene.",
+      "start": 424.27
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Ethylene is the natural plant hormone in fruit that makes them turn ripe, apparently. The researchers think that they can attach the sensors to cardboard boxes, and then supermarkets can scan the sensors with a portable device to see how ripe the fruit inside is. That's got to be a quicker way to check for ripeness than taking each box off the shelf and opening it. ",
+      "start": 430.44
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Definitely.",
+      "start": 457.84
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "And I thought that LeanPath was worth mentioning too. Their waste tracking technology means that caterers can see how much food is being wasted and why. That'll increase profits for them eventually. ",
+      "start": 459.02
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Yes. And did you read about 0%? They've produced this smartphone application that allows restaurants to send donation alerts to food charities.",
+      "start": 475.12
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "The charities can then pick up the unwanted food and distribute it to people in need. ",
+      "start": 486.06
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "In the long run, that'll definitely benefit poorer families in the neighbourhood. No kid should go to school hungry. ",
+      "start": 492.81
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I agree. And I read that quite a few local governments in the USA are thinking about introducing compulsory composting in their states. So you can't put any food waste into your rubbish bins.",
+      "start": 501.34
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Just the compost bin. ",
+      "start": 516.1
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, I guess that means a bit more work for people. I mean, they have to separate the organic and inorganic waste themselves before they take it out to the compost bin. And you know how lazy some people are. But I guess if we all start composting, we'd be doing something positive about the problem of food waste ourselves.",
+      "start": 518.98
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "rather than relying on the government to sort it out. Having said that, not everyone has a garden.",
+      "start": 543.58
+    }
+  ]
+}

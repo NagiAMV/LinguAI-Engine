@@ -1,0 +1,1593 @@
+{
+  "test": "practice-listening-1",
+  "part": 1,
+  "audioSha256": "5be20fdc6e6e405d9d106b29dae47f34a7d860a3aead4b8e10a197b8fa608c0e",
+  "scope": {
+    "start": 0,
+    "end": 441.98
+  },
+  "method": "Paragraph-aligned voice embeddings with three reference voices; speech gaps removed.",
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Speaker 1": [
+      14.2,
+      26
+    ],
+    "Speaker 2": [
+      198.2,
+      206.7
+    ],
+    "Speaker 3": [
+      192.2,
+      197.7
+    ]
+  },
+  "shortReplyReview": {
+    "references": {
+      "narrator": [
+        [
+          14.2,
+          26
+        ],
+        [
+          228.4,
+          235.2
+        ]
+      ],
+      "woman": [
+        [
+          103.2,
+          113.5
+        ],
+        [
+          198.2,
+          206.7
+        ],
+        [
+          321.5,
+          328.1
+        ]
+      ],
+      "man": [
+        [
+          192.2,
+          197.7
+        ],
+        [
+          207.4,
+          216
+        ],
+        [
+          350.2,
+          355.4
+        ]
+      ]
+    },
+    "checks": [
+      {
+        "start": 172.15,
+        "end": 173.7,
+        "referenceScores": {
+          "narrator": [
+            0.6786,
+            0.7036
+          ],
+          "woman": [
+            0.7349,
+            0.7551,
+            0.7286
+          ],
+          "man": [
+            0.7837,
+            0.7283,
+            0.6387
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6911,
+          "woman": 0.7395,
+          "man": 0.7169
+        }
+      },
+      {
+        "start": 189.1,
+        "end": 190.2,
+        "referenceScores": {
+          "narrator": [
+            0.6859,
+            0.6606
+          ],
+          "woman": [
+            0.642,
+            0.5924,
+            0.5686
+          ],
+          "man": [
+            0.8242,
+            0.7986,
+            0.7796
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6732,
+          "woman": 0.601,
+          "man": 0.8008
+        }
+      },
+      {
+        "start": 328.7,
+        "end": 329.9,
+        "referenceScores": {
+          "narrator": [
+            0.6732,
+            0.6925
+          ],
+          "woman": [
+            0.629,
+            0.639,
+            0.6062
+          ],
+          "man": [
+            0.8881,
+            0.8503,
+            0.7946
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6828,
+          "woman": 0.6247,
+          "man": 0.8443
+        }
+      },
+      {
+        "start": 329.9,
+        "end": 331.6,
+        "referenceScores": {
+          "narrator": [
+            0.655,
+            0.6344
+          ],
+          "woman": [
+            0.6105,
+            0.5905,
+            0.5621
+          ],
+          "man": [
+            0.7783,
+            0.8191,
+            0.7658
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6447,
+          "woman": 0.5877,
+          "man": 0.7877
+        }
+      },
+      {
+        "start": 119.9,
+        "end": 121.6,
+        "referenceScores": {
+          "narrator": [
+            0.7729,
+            0.7642
+          ],
+          "woman": [
+            0.7317,
+            0.6822,
+            0.6526
+          ],
+          "man": [
+            0.8316,
+            0.8267,
+            0.8144
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.7686,
+          "woman": 0.6888,
+          "man": 0.8242
+        }
+      }
+    ]
+  },
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": true,
+  "plainTextSha256": "7e8715f1559a5c9cb13a5449f39735b1c7f554afe4492b3e8f88051374c720e1",
+  "wordClocksSha256": "0c12300293bb2f8a62b72767a555e39427a368a9e43fbc277e25804085c55529",
+  "wordClockCount": 768,
+  "otherPartsSha256": "623e2317abef5668720aced3434ecef3187398aafff1ef866c1b993f50c588f5",
+  "turns": [
+    {
+      "index": 0,
+      "start": 0.91,
+      "end": 4.89,
+      "text": "IELTS Listening, Version 54299",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9258,
+        "Speaker 2": 0.7543,
+        "Speaker 3": 0.7224
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 1,
+      "start": 6.86,
+      "end": 12.96,
+      "text": "You will hear a number of different recordings, and you will have to answer questions on what you hear.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.958,
+        "Speaker 2": 0.7719,
+        "Speaker 3": 0.7946
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 2,
+      "start": 14.24,
+      "end": 20.56,
+      "text": "There will be time for you to read the instructions and questions, and you will have a chance to check your work.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9905,
+        "Speaker 2": 0.7215,
+        "Speaker 3": 0.7449
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 3,
+      "start": 21.51,
+      "end": 24.73,
+      "text": "All the recordings will be played once only.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9522,
+        "Speaker 2": 0.7758,
+        "Speaker 3": 0.7542
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 4,
+      "start": 26.15,
+      "end": 28.71,
+      "text": "The test is in four sections.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8455,
+        "Speaker 2": 0.7054,
+        "Speaker 3": 0.7144
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 5,
+      "start": 29.81,
+      "end": 33.28,
+      "text": "Write all your answers in the listening question booklet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9141,
+        "Speaker 2": 0.7969,
+        "Speaker 3": 0.6896
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 6,
+      "start": 34.69,
+      "end": 41.19,
+      "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an answer sheet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9292,
+        "Speaker 2": 0.8044,
+        "Speaker 3": 0.7521
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 7,
+      "start": 43.41,
+      "end": 47.91,
+      "text": "Now turn to section 1 on page 2 of your question booklet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9123,
+        "Speaker 2": 0.7244,
+        "Speaker 3": 0.671
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 8,
+      "start": 53.55,
+      "end": 54.19,
+      "text": "Section 1",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8241,
+        "Speaker 2": 0.73,
+        "Speaker 3": 0.7172
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 9,
+      "start": 55.12,
+      "end": 63.34,
+      "text": "You will hear a telephone conversation between a man who is looking for a summer job as a fruit picker and a woman who owns a farm.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9359,
+        "Speaker 2": 0.7439,
+        "Speaker 3": 0.8093
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 10,
+      "start": 64.77,
+      "end": 93.91,
+      "text": "First you have some time to look at questions 1 to 3 on page 2. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9505,
+        "Speaker 2": 0.7792,
+        "Speaker 3": 0.7345
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 11,
+      "start": 99.51,
+      "end": 102.67,
+      "text": "Hi there. I'd like to apply to do fruit picking this summer.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7518,
+        "Speaker 2": 0.7181,
+        "Speaker 3": 0.8735
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 12,
+      "start": 103.23,
+      "end": 108.03,
+      "text": "Oh, hello. I'm Mrs. Chandler, my husband and I own Manor Farm.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7729,
+        "Speaker 2": 0.9127,
+        "Speaker 3": 0.7306
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 13,
+      "start": 108.85,
+      "end": 113.37,
+      "text": "Let me take some details. I'll just get a form to fill in. Hold on.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7409,
+        "Speaker 2": 0.9189,
+        "Speaker 3": 0.6748
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 14,
+      "start": 113.93,
+      "end": 114.21,
+      "text": "Sure.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.5748,
+        "Speaker 2": 0.4654,
+        "Speaker 3": 0.6259
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 15,
+      "start": 116.13,
+      "end": 119.93,
+      "text": "Sorry. Right. Your name isâ€¦",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7439,
+        "Speaker 2": 0.8711,
+        "Speaker 3": 0.6964
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 16,
+      "start": 119.93,
+      "end": 121.45,
+      "text": "It's Ben Miller.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7869,
+        "Speaker 2": 0.6795,
+        "Speaker 3": 0.8316
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 17,
+      "start": 125.27,
+      "end": 131.01,
+      "text": "The man's name is Ben Miller. So, Ben Miller has been written in the space.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9202,
+        "Speaker 2": 0.7625,
+        "Speaker 3": 0.7217
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 18,
+      "start": 132.45,
+      "end": 136.33,
+      "text": "Now we shall begin. You should answer the questions as you listen,",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8817,
+        "Speaker 2": 0.7758,
+        "Speaker 3": 0.7104
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 19,
+      "start": 136.49,
+      "end": 139.45,
+      "text": "because you will not hear the recording a second time.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9191,
+        "Speaker 2": 0.7618,
+        "Speaker 3": 0.6903
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 20,
+      "start": 140.73,
+      "end": 144.13,
+      "text": "Listen carefully, and answer questions one to three.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9413,
+        "Speaker 2": 0.714,
+        "Speaker 3": 0.729
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 21,
+      "start": 149.72,
+      "end": 152.88,
+      "text": "Hi there. I'd like to apply to do fruit picking this summer.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7768,
+        "Speaker 2": 0.7333,
+        "Speaker 3": 0.8803
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 22,
+      "start": 153.4,
+      "end": 160.16,
+      "text": "Oh, hello. I'm Mrs. Chandler, my husband and I own Manor Farm. Let me take some details.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7777,
+        "Speaker 2": 0.9409,
+        "Speaker 3": 0.7192
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 23,
+      "start": 160.76,
+      "end": 163.58,
+      "text": "I'll just get a form to fill in. Hold on.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6695,
+        "Speaker 2": 0.8469,
+        "Speaker 3": 0.6271
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 24,
+      "start": 164.1,
+      "end": 164.42,
+      "text": "Sure.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.5232,
+        "Speaker 2": 0.4032,
+        "Speaker 3": 0.5902
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 25,
+      "start": 166.33,
+      "end": 170.13,
+      "text": "Sorry. Right. Your name is?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7502,
+        "Speaker 2": 0.8839,
+        "Speaker 3": 0.7032
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 26,
+      "start": 170.13,
+      "end": 171.67,
+      "text": "It's Ben Miller.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7511,
+        "Speaker 2": 0.6671,
+        "Speaker 3": 0.8424
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 27,
+      "start": 172.21,
+      "end": 173.47,
+      "text": "And where are you from?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7224,
+        "Speaker 2": 0.7749,
+        "Speaker 3": 0.7935
+      },
+      "closestVoice": "Speaker 3",
+      "assignedSpeaker": "Speaker 2",
+      "resolution": "Three-reference mean comparison identifies the woman asking the applicant where he is from.",
+      "additionalVoiceEvidence": {
+        "start": 172.15,
+        "end": 173.7,
+        "referenceScores": {
+          "narrator": [
+            0.6786,
+            0.7036
+          ],
+          "woman": [
+            0.7349,
+            0.7551,
+            0.7286
+          ],
+          "man": [
+            0.7837,
+            0.7283,
+            0.6387
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6911,
+          "woman": 0.7395,
+          "man": 0.7169
+        }
+      }
+    },
+    {
+      "index": 28,
+      "start": 174.33,
+      "end": 175.23,
+      "text": "I'm from the USA.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7476,
+        "Speaker 2": 0.6519,
+        "Speaker 3": 0.8063
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 29,
+      "start": 176.42,
+      "end": 180.1,
+      "text": "Fine. Um, can I ask your age?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.729,
+        "Speaker 2": 0.8738,
+        "Speaker 3": 0.7144
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 30,
+      "start": 180.84,
+      "end": 184.66,
+      "text": "I'm 20. You only take people over the age of 16, don't you?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7259,
+        "Speaker 2": 0.682,
+        "Speaker 3": 0.8956
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 31,
+      "start": 184.99,
+      "end": 188.81,
+      "text": "Yes, that's right. Are you able to work in the UK?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6926,
+        "Speaker 2": 0.8929,
+        "Speaker 3": 0.6163
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 32,
+      "start": 189.83,
+      "end": 189.95,
+      "text": "Sorry?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.3498,
+        "Speaker 2": 0.2583,
+        "Speaker 3": 0.3379
+      },
+      "closestVoice": "Speaker 1",
+      "assignedSpeaker": "Speaker 3",
+      "resolution": "Expanded speech window resolves a 120 ms word cue: the applicant asks for clarification.",
+      "additionalVoiceEvidence": {
+        "start": 189.1,
+        "end": 190.2,
+        "referenceScores": {
+          "narrator": [
+            0.6859,
+            0.6606
+          ],
+          "woman": [
+            0.642,
+            0.5924,
+            0.5686
+          ],
+          "man": [
+            0.8242,
+            0.7986,
+            0.7796
+          ]
+        },
+        "meanSimilarity": {
+          "narrator": 0.6732,
+          "woman": 0.601,
+          "man": 0.8008
+        }
+      }
+    },
+    {
+      "index": 33,
+      "start": 190.55,
+      "end": 192.15,
+      "text": "I mean, do you have a visa?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6469,
+        "Speaker 2": 0.8452,
+        "Speaker 3": 0.6659
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 34,
+      "start": 192.89,
+      "end": 197.85,
+      "text": "Oh yeah, I have a thing called a blue card. It's valid until November.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7433,
+        "Speaker 2": 0.6815,
+        "Speaker 3": 0.9671
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 35,
+      "start": 198.78,
+      "end": 206.32,
+      "text": "That's fine then. We'll need fruit pickers from the middle of June until the end of September. What's your availability?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.758,
+        "Speaker 2": 0.9933,
+        "Speaker 3": 0.6897
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 36,
+      "start": 207.44,
+      "end": 215.98,
+      "text": "When can I work? I'd like to do July, August and September, and could do October if there's any work then.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7193,
+        "Speaker 2": 0.6868,
+        "Speaker 3": 0.9455
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 37,
+      "start": 217.04,
+      "end": 220.23,
+      "text": "Okay. Did you find out about us through our website?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7043,
+        "Speaker 2": 0.85,
+        "Speaker 3": 0.6742
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 38,
+      "start": 221.43,
+      "end": 224.41,
+      "text": "That's right. It's much easier than going through an agency.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7489,
+        "Speaker 2": 0.7151,
+        "Speaker 3": 0.885
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 39,
+      "start": 228.44,
+      "end": 235.2,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions four to ten on page three.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.925,
+        "Speaker 2": 0.7974,
+        "Speaker 3": 0.7447
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 40,
+      "start": 271.16,
+      "end": 274.34,
+      "text": "Now listen and answer questions 4 to 10.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9213,
+        "Speaker 2": 0.7327,
+        "Speaker 3": 0.7283
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 41,
+      "start": 277.74,
+      "end": 281.14,
+      "text": "I see you need most pickers in September for apples and pears,",
+      "voiceSimilarity": {
+        "Speaker 1": 0.844,
+        "Speaker 2": 0.7283,
+        "Speaker 3": 0.8899
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 42,
+      "start": 281.26,
+      "end": 284.18,
+      "text": "but the whole picking season can last about 16 weeks.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7689,
+        "Speaker 2": 0.6962,
+        "Speaker 3": 0.8812
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 43,
+      "start": 285.29,
+      "end": 287.61,
+      "text": "Well, yes, but it's a question of the weather.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7211,
+        "Speaker 2": 0.9064,
+        "Speaker 3": 0.6472
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 44,
+      "start": 288.19,
+      "end": 290.87,
+      "text": "That determines how much fruit we grow, of course.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6885,
+        "Speaker 2": 0.8346,
+        "Speaker 3": 0.6872
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 45,
+      "start": 291.53,
+      "end": 294.37,
+      "text": "That's why I can't give you exact picking dates now.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6208,
+        "Speaker 2": 0.8606,
+        "Speaker 3": 0.5771
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 46,
+      "start": 295.33,
+      "end": 297.73,
+      "text": "I see. Oh, well, no problem.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6615,
+        "Speaker 2": 0.6045,
+        "Speaker 3": 0.8731
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 47,
+      "start": 298.76,
+      "end": 300.26,
+      "text": "Can you tell me what pickers earn?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6978,
+        "Speaker 2": 0.6501,
+        "Speaker 3": 0.8134
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 48,
+      "start": 301.12,
+      "end": 302.6,
+      "text": "Well, that depends on age.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6837,
+        "Speaker 2": 0.8206,
+        "Speaker 3": 0.6672
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 49,
+      "start": 303.13,
+      "end": 310.73,
+      "text": "The rate is Â£4.50 an hour for the under-18s, but as you're over 18, it would rise to Â£5.60",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7218,
+        "Speaker 2": 0.9181,
+        "Speaker 3": 0.642
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 50,
+      "start": 311.91,
+      "end": 312.67,
+      "text": "an hour.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.5978,
+        "Speaker 2": 0.6968,
+        "Speaker 3": 0.5064
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 51,
+      "start": 314.75,
+      "end": 319.51,
+      "text": "Uh-huh. Your website says that you don't provide accommodation for pickers, so I guess",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6297,
+        "Speaker 2": 0.6331,
+        "Speaker 3": 0.9016
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 52,
+      "start": 319.51,
+      "end": 320.87,
+      "text": "I should arrange that in advance.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6062,
+        "Speaker 2": 0.5624,
+        "Speaker 3": 0.8398
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 53,
+      "start": 321.59,
+      "end": 328.05,
+      "text": "Yes. There is no accommodation on the farm, but there is a campsite about 15 minutes away.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7402,
+        "Speaker 2": 0.9061,
+        "Speaker 3": 0.6936
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 54,
+      "start": 328.75,
+      "end": 331.51,
+      "text": "Is that walking distance? What do you think?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.687,
+        "Speaker 2": 0.6418,
+        "Speaker 3": 0.8841
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 55,
+      "start": 332.82,
+      "end": 335.78,
+      "text": "No, maybe I should bring my bike to get around.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7279,
+        "Speaker 2": 0.6619,
+        "Speaker 3": 0.8788
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 56,
+      "start": 336.66,
+      "end": 338.66,
+      "text": "Yes, we always recommend that.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6647,
+        "Speaker 2": 0.8438,
+        "Speaker 3": 0.624
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 57,
+      "start": 339.34,
+      "end": 345.56,
+      "text": "Some pickers bring a car but then find the roads rather narrow, and the bus is very infrequent.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6986,
+        "Speaker 2": 0.8706,
+        "Speaker 3": 0.622
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 58,
+      "start": 347,
+      "end": 349.28,
+      "text": "Do you have any questions?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6453,
+        "Speaker 2": 0.8224,
+        "Speaker 3": 0.6482
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 59,
+      "start": 350.26,
+      "end": 354.9,
+      "text": "I know that fruit picking is hard work, but is there anything special I need to bring",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7416,
+        "Speaker 2": 0.6902,
+        "Speaker 3": 0.8748
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 60,
+      "start": 354.9,
+      "end": 355.34,
+      "text": "with me?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6201,
+        "Speaker 2": 0.5201,
+        "Speaker 3": 0.6795
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 61,
+      "start": 356.18,
+      "end": 359.7,
+      "text": "Well, firstly, documentation is extremely important.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6742,
+        "Speaker 2": 0.8837,
+        "Speaker 3": 0.7025
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 62,
+      "start": 360.34,
+      "end": 366.74,
+      "text": "We will need proof of age, so we'll expect to see your passport. Pickers without one won't be allowed to work.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7355,
+        "Speaker 2": 0.8991,
+        "Speaker 3": 0.693
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 63,
+      "start": 367.97,
+      "end": 370.91,
+      "text": "Oh, even if their age is written on their driving license?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6181,
+        "Speaker 2": 0.6148,
+        "Speaker 3": 0.8135
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 64,
+      "start": 371.67,
+      "end": 374.11,
+      "text": "Sorry, a driving license isn't suitable.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6775,
+        "Speaker 2": 0.8176,
+        "Speaker 3": 0.5355
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 65,
+      "start": 374.93,
+      "end": 379.47,
+      "text": "Fair enough. I guess some lunch is provided for all the hungry fruit pickers.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7377,
+        "Speaker 2": 0.7028,
+        "Speaker 3": 0.9005
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 66,
+      "start": 380.65,
+      "end": 388.83,
+      "text": "I'm afraid not. You'll need to bring your own food for lunch and, more importantly, enough water to last a full day.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7395,
+        "Speaker 2": 0.9104,
+        "Speaker 3": 0.7211
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 67,
+      "start": 389.73,
+      "end": 391.81,
+      "text": "Very hot, so drinking is vital.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.64,
+        "Speaker 2": 0.7683,
+        "Speaker 3": 0.546
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 68,
+      "start": 392.89,
+      "end": 394.37,
+      "text": "Right, like back home.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7334,
+        "Speaker 2": 0.6433,
+        "Speaker 3": 0.8493
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 69,
+      "start": 395.43,
+      "end": 397.53,
+      "text": "Okay, well, thanks for all the information.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6755,
+        "Speaker 2": 0.6416,
+        "Speaker 3": 0.8675
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 70,
+      "start": 398.41,
+      "end": 399.47,
+      "text": "What happens now?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6142,
+        "Speaker 2": 0.5946,
+        "Speaker 3": 0.8336
+      },
+      "closestVoice": "Speaker 3"
+    },
+    {
+      "index": 71,
+      "start": 400.25,
+      "end": 402.25,
+      "text": "Well, I'll post a contract to you...",
+      "voiceSimilarity": {
+        "Speaker 1": 0.5211,
+        "Speaker 2": 0.7339,
+        "Speaker 3": 0.4011
+      },
+      "closestVoice": "Speaker 2"
+    },
+    {
+      "index": 72,
+      "start": 405.51,
+      "end": 407.15,
+      "text": "That is the end of section one.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8554,
+        "Speaker 2": 0.7357,
+        "Speaker 3": 0.736
+      },
+      "closestVoice": "Speaker 1"
+    },
+    {
+      "index": 73,
+      "start": 408.37,
+      "end": 411.27,
+      "text": "You now have half a minute to check your answers.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8697,
+        "Speaker 2": 0.7652,
+        "Speaker 3": 0.708
+      },
+      "closestVoice": "Speaker 1"
+    }
+  ],
+  "renderedGroups": [
+    {
+      "speaker": "Speaker 1",
+      "text": "IELTS Listening, Version 54299",
+      "start": 0.91,
+      "end": 4.89
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "You will hear a number of different recordings, and you will have to answer questions on what you hear.",
+      "start": 6.86,
+      "end": 12.96
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "There will be time for you to read the instructions and questions, and you will have a chance to check your work.",
+      "start": 14.24,
+      "end": 20.56
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "All the recordings will be played once only.",
+      "start": 21.51,
+      "end": 24.73
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "The test is in four sections.",
+      "start": 26.15,
+      "end": 28.71
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Write all your answers in the listening question booklet.",
+      "start": 29.81,
+      "end": 33.28
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an answer sheet.",
+      "start": 34.69,
+      "end": 41.19
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Now turn to section 1 on page 2 of your question booklet.",
+      "start": 43.41,
+      "end": 47.91
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Section 1",
+      "start": 53.55,
+      "end": 54.19
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "You will hear a telephone conversation between a man who is looking for a summer job as a fruit picker and a woman who owns a farm.",
+      "start": 55.12,
+      "end": 63.34
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "First you have some time to look at questions 1 to 3 on page 2. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first.",
+      "start": 64.77,
+      "end": 93.91
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Hi there. I'd like to apply to do fruit picking this summer.",
+      "start": 99.51,
+      "end": 102.67
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Oh, hello. I'm Mrs. Chandler, my husband and I own Manor Farm.",
+      "start": 103.23,
+      "end": 108.03
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Let me take some details. I'll just get a form to fill in. Hold on.",
+      "start": 108.85,
+      "end": 113.37
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Sure.",
+      "start": 113.93,
+      "end": 114.21
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Sorry. Right. Your name is…",
+      "start": 116.13,
+      "end": 119.93
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "It's Ben Miller.",
+      "start": 119.93,
+      "end": 121.45
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "The man's name is Ben Miller. So, Ben Miller has been written in the space.",
+      "start": 125.27,
+      "end": 131.01
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Now we shall begin. You should answer the questions as you listen,",
+      "start": 132.45,
+      "end": 136.33
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "because you will not hear the recording a second time.",
+      "start": 136.49,
+      "end": 139.45
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Listen carefully, and answer questions one to three.",
+      "start": 140.73,
+      "end": 144.13
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Hi there. I'd like to apply to do fruit picking this summer.",
+      "start": 149.72,
+      "end": 152.88
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Oh, hello. I'm Mrs. Chandler, my husband and I own Manor Farm. Let me take some details.",
+      "start": 153.4,
+      "end": 160.16
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I'll just get a form to fill in. Hold on.",
+      "start": 160.76,
+      "end": 163.58
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Sure.",
+      "start": 164.1,
+      "end": 164.42
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Sorry. Right. Your name is?",
+      "start": 166.33,
+      "end": 170.13
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "It's Ben Miller.",
+      "start": 170.13,
+      "end": 171.67
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "And where are you from?",
+      "start": 172.21,
+      "end": 173.47
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I'm from the USA.",
+      "start": 174.33,
+      "end": 175.23
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Fine. Um, can I ask your age?",
+      "start": 176.42,
+      "end": 180.1
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I'm 20. You only take people over the age of 16, don't you?",
+      "start": 180.84,
+      "end": 184.66
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Yes, that's right. Are you able to work in the UK?",
+      "start": 184.99,
+      "end": 188.81
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Sorry?",
+      "start": 189.83,
+      "end": 189.95
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I mean, do you have a visa?",
+      "start": 190.55,
+      "end": 192.15
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Oh yeah, I have a thing called a blue card. It's valid until November.",
+      "start": 192.89,
+      "end": 197.85
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "That's fine then. We'll need fruit pickers from the middle of June until the end of September. What's your availability?",
+      "start": 198.78,
+      "end": 206.32
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "When can I work? I'd like to do July, August and September, and could do October if there's any work then.",
+      "start": 207.44,
+      "end": 215.98
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Okay. Did you find out about us through our website?",
+      "start": 217.04,
+      "end": 220.23
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "That's right. It's much easier than going through an agency.",
+      "start": 221.43,
+      "end": 224.41
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions four to ten on page three.",
+      "start": 228.44,
+      "end": 235.2
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "Now listen and answer questions 4 to 10.",
+      "start": 271.16,
+      "end": 274.34
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I see you need most pickers in September for apples and pears,",
+      "start": 277.74,
+      "end": 281.14
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "but the whole picking season can last about 16 weeks.",
+      "start": 281.26,
+      "end": 284.18
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, yes, but it's a question of the weather.",
+      "start": 285.29,
+      "end": 287.61
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "That determines how much fruit we grow, of course.",
+      "start": 288.19,
+      "end": 290.87
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "That's why I can't give you exact picking dates now.",
+      "start": 291.53,
+      "end": 294.37
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I see. Oh, well, no problem.",
+      "start": 295.33,
+      "end": 297.73
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Can you tell me what pickers earn?",
+      "start": 298.76,
+      "end": 300.26
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, that depends on age.",
+      "start": 301.12,
+      "end": 302.6
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "The rate is £4.50 an hour for the under-18s, but as you're over 18, it would rise to £5.60",
+      "start": 303.13,
+      "end": 310.73
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "an hour.",
+      "start": 311.91,
+      "end": 312.67
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Uh-huh. Your website says that you don't provide accommodation for pickers, so I guess",
+      "start": 314.75,
+      "end": 319.51
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I should arrange that in advance.",
+      "start": 319.51,
+      "end": 320.87
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Yes. There is no accommodation on the farm, but there is a campsite about 15 minutes away.",
+      "start": 321.59,
+      "end": 328.05
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Is that walking distance? What do you think?",
+      "start": 328.75,
+      "end": 331.51
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "No, maybe I should bring my bike to get around.",
+      "start": 332.82,
+      "end": 335.78
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Yes, we always recommend that.",
+      "start": 336.66,
+      "end": 338.66
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Some pickers bring a car but then find the roads rather narrow, and the bus is very infrequent.",
+      "start": 339.34,
+      "end": 345.56
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Do you have any questions?",
+      "start": 347,
+      "end": 349.28
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "I know that fruit picking is hard work, but is there anything special I need to bring",
+      "start": 350.26,
+      "end": 354.9
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "with me?",
+      "start": 354.9,
+      "end": 355.34
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, firstly, documentation is extremely important.",
+      "start": 356.18,
+      "end": 359.7
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "We will need proof of age, so we'll expect to see your passport. Pickers without one won't be allowed to work.",
+      "start": 360.34,
+      "end": 366.74
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Oh, even if their age is written on their driving license?",
+      "start": 367.97,
+      "end": 370.91
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Sorry, a driving license isn't suitable.",
+      "start": 371.67,
+      "end": 374.11
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Fair enough. I guess some lunch is provided for all the hungry fruit pickers.",
+      "start": 374.93,
+      "end": 379.47
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "I'm afraid not. You'll need to bring your own food for lunch and, more importantly, enough water to last a full day.",
+      "start": 380.65,
+      "end": 388.83
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Very hot, so drinking is vital.",
+      "start": 389.73,
+      "end": 391.81
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Right, like back home.",
+      "start": 392.89,
+      "end": 394.37
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "Okay, well, thanks for all the information.",
+      "start": 395.43,
+      "end": 397.53
+    },
+    {
+      "speaker": "Speaker 3",
+      "text": "What happens now?",
+      "start": 398.41,
+      "end": 399.47
+    },
+    {
+      "speaker": "Speaker 2",
+      "text": "Well, I'll post a contract to you...",
+      "start": 400.25,
+      "end": 402.25
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "That is the end of section one.",
+      "start": 405.51,
+      "end": 407.15
+    },
+    {
+      "speaker": "Speaker 1",
+      "text": "You now have half a minute to check your answers.",
+      "start": 408.37,
+      "end": 411.27
+    }
+  ]
+}

@@ -1,0 +1,1481 @@
+{
+  "test": "practice-listening-4",
+  "part": 1,
+  "audioSha256": "6b64902ccf44ec5e319299270e4754a8da4d994377241971f76df06b53d79c81",
+  "scope": {
+    "start": 0,
+    "end": 480.27
+  },
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Speaker 1": [
+      13.98,
+      23.51
+    ],
+    "Speaker 2": [
+      180.94,
+      187.84
+    ],
+    "Speaker 3": [
+      171.02,
+      180.18
+    ]
+  },
+  "additionalVoiceReview": null,
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": true,
+  "wordClockCount": 991,
+  "wordClocksSha256": "6d8bc7aa54bccf65c0a1176b115a10c76fe8a901bb1002569dd8b580eee0b1c2",
+  "tokensSha256": "9a9a8089c19e002efb32e9a8b3db66d9a58b72f33d372a126546c581a6c397f8",
+  "tokenCount": 1003,
+  "turns": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 4.7,
+      "text": "IELTS Listening, version K0010.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.745,
+        "Speaker 2": 0.6969,
+        "Speaker 3": 0.7604
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": true,
+      "assignedSpeaker": "Speaker 4",
+      "resolution": "Recording identifier uses a separate automatically detected voice cluster (cluster 0 at 1.28–5.60); instructions use cluster 1. Do not assign the identifier to a dialogue participant."
+    },
+    {
+      "index": 1,
+      "start": 5.64,
+      "end": 9.57,
+      "text": "You will hear a number of different recordings,",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9098,
+        "Speaker 2": 0.79,
+        "Speaker 3": 0.7807
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 2,
+      "start": 10.21,
+      "end": 12.77,
+      "text": "and you will have to answer questions on what you hear.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9068,
+        "Speaker 2": 0.83,
+        "Speaker 3": 0.7271
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 3,
+      "start": 13.98,
+      "end": 16.98,
+      "text": "There will be time for you to read the instructions and questions,",
+      "voiceSimilarity": {
+        "Speaker 1": 0.978,
+        "Speaker 2": 0.8104,
+        "Speaker 3": 0.7857
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 4,
+      "start": 17.56,
+      "end": 19.62,
+      "text": "and you will have a chance to check your work.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9583,
+        "Speaker 2": 0.8167,
+        "Speaker 3": 0.7587
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 5,
+      "start": 20.85,
+      "end": 23.51,
+      "text": "All the recordings will be played once only.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9514,
+        "Speaker 2": 0.812,
+        "Speaker 3": 0.7996
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 6,
+      "start": 24.74,
+      "end": 26.94,
+      "text": "The test is in four sections.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8584,
+        "Speaker 2": 0.8209,
+        "Speaker 3": 0.7173
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 7,
+      "start": 27.94,
+      "end": 30.98,
+      "text": "Write all your answers in the listening question booklet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9332,
+        "Speaker 2": 0.8683,
+        "Speaker 3": 0.7627
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 8,
+      "start": 31.53,
+      "end": 37.05,
+      "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9242,
+        "Speaker 2": 0.8452,
+        "Speaker 3": 0.7186
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 9,
+      "start": 37.05,
+      "end": 37.75,
+      "text": "answer sheet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7826,
+        "Speaker 2": 0.6862,
+        "Speaker 3": 0.662
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 10,
+      "start": 40,
+      "end": 43.94,
+      "text": "Now turn to section 1 on page 2 of your question booklet.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9306,
+        "Speaker 2": 0.8239,
+        "Speaker 3": 0.7554
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 11,
+      "start": 49.21,
+      "end": 52.93,
+      "text": "Section 1 You will hear a brother and sister talking",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9306,
+        "Speaker 2": 0.8049,
+        "Speaker 3": 0.7994
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 12,
+      "start": 52.93,
+      "end": 57.21,
+      "text": "on the phone about arrangements for their father's 80th birthday party.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9281,
+        "Speaker 2": 0.8488,
+        "Speaker 3": 0.7705
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 13,
+      "start": 58.59,
+      "end": 63.09,
+      "text": "First you have some time to look at questions 1 to 6 on page 2.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9421,
+        "Speaker 2": 0.7938,
+        "Speaker 3": 0.7811
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 14,
+      "start": 88.34,
+      "end": 91.5,
+      "text": "You will see that there is an example that has been done for you.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9095,
+        "Speaker 2": 0.8129,
+        "Speaker 3": 0.7546
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 15,
+      "start": 91.92,
+      "end": 96.44,
+      "text": "On this occasion only, the conversation relating to this will be played first.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9457,
+        "Speaker 2": 0.8048,
+        "Speaker 3": 0.8105
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 16,
+      "start": 100.00999999999999,
+      "end": 100.45,
+      "text": "Hello?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7049,
+        "Speaker 2": 0.6421,
+        "Speaker 3": 0.771
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 17,
+      "start": 101.55,
+      "end": 102.61,
+      "text": "Hello, Rob. Margaret here.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.811,
+        "Speaker 2": 0.8656,
+        "Speaker 3": 0.7354
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 18,
+      "start": 103.13,
+      "end": 107.01,
+      "text": "I'm just calling about the arrangements for Dad's 80th birthday party.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7705,
+        "Speaker 2": 0.8678,
+        "Speaker 3": 0.6243
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 19,
+      "start": 107.47,
+      "end": 110.13,
+      "text": "Right. I've rung round the rest of the family.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.797,
+        "Speaker 2": 0.7031,
+        "Speaker 3": 0.9315
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 20,
+      "start": 110.93,
+      "end": 114.09,
+      "text": "Most people do intend to come, even though it's a long journey.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7636,
+        "Speaker 2": 0.6672,
+        "Speaker 3": 0.9558
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 21,
+      "start": 114.97,
+      "end": 116.65,
+      "text": "Have you made any progress with the venue?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.721,
+        "Speaker 2": 0.6745,
+        "Speaker 3": 0.8882
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 22,
+      "start": 117.39,
+      "end": 121.29,
+      "text": "Yes. There are three possible hotels we could use for the party.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.82,
+        "Speaker 2": 0.9717,
+        "Speaker 3": 0.6899
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 23,
+      "start": 121.73,
+      "end": 124.29,
+      "text": "The Royal, the Star, and the Winchester.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8454,
+        "Speaker 2": 0.9156,
+        "Speaker 3": 0.7281
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 24,
+      "start": 124.84,
+      "end": 130.52,
+      "text": "Oh, good. If we can make a decision now, you can probably book straight away on the internet, can't you?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.807,
+        "Speaker 2": 0.6767,
+        "Speaker 3": 0.9569
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 25,
+      "start": 130.94,
+      "end": 136.72,
+      "text": "Well, only the Star. I'd have to make a telephone booking at the others, but that'd be okay too.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8324,
+        "Speaker 2": 0.9136,
+        "Speaker 3": 0.6837
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 26,
+      "start": 140.45,
+      "end": 147.57,
+      "text": "The only hotel that takes online bookings is the Star Hotel, so the letter B has been written in the space.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9237,
+        "Speaker 2": 0.8452,
+        "Speaker 3": 0.712
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 27,
+      "start": 149.18,
+      "end": 155.83,
+      "text": "Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9371,
+        "Speaker 2": 0.8589,
+        "Speaker 3": 0.7658
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 28,
+      "start": 156.86,
+      "end": 160.06,
+      "text": "Listen carefully and answer questions one to six.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9263,
+        "Speaker 2": 0.7997,
+        "Speaker 3": 0.7472
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 29,
+      "start": 164.94,
+      "end": 170.54,
+      "text": "Hello, Rob. Margaret here. I'm just calling about the arrangements for Dad's 80th birthday party.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8117,
+        "Speaker 2": 0.9105,
+        "Speaker 3": 0.6695
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 30,
+      "start": 171.02,
+      "end": 180.18,
+      "text": "Right. I've rung round the rest of the family. Most people do intend to come, even though it's a long journey. Have you made any progress with the venue?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8083,
+        "Speaker 2": 0.7068,
+        "Speaker 3": 1
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 31,
+      "start": 180.94,
+      "end": 187.84,
+      "text": "Yes. There are three possible hotels we could use for the party. The Royal, the Star, and the Winchester.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.836,
+        "Speaker 2": 1,
+        "Speaker 3": 0.7068
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 32,
+      "start": 188.5,
+      "end": 194.06,
+      "text": "Oh good. If we can make a decision now, you can probably book straight away on the internet, can't you?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7806,
+        "Speaker 2": 0.6703,
+        "Speaker 3": 0.9509
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 33,
+      "start": 194.58,
+      "end": 199.64,
+      "text": "Well, only the star. I'd have to make a telephone booking at the others, but that'd be okay, too.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8308,
+        "Speaker 2": 0.9236,
+        "Speaker 3": 0.6818
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 34,
+      "start": 201.7,
+      "end": 203.04,
+      "text": "Okay. So which one do you think?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7614,
+        "Speaker 2": 0.678,
+        "Speaker 3": 0.8781
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 35,
+      "start": 203.7,
+      "end": 208.96,
+      "text": "I'm not sure. They're all fairly suitable, and they're in really nice locations.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7738,
+        "Speaker 2": 0.8986,
+        "Speaker 3": 0.6533
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 36,
+      "start": 209.72,
+      "end": 213.26,
+      "text": "The star looks right out over the bay. It's on a cliff top.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8106,
+        "Speaker 2": 0.9141,
+        "Speaker 3": 0.6777
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 37,
+      "start": 214.06,
+      "end": 216.96,
+      "text": "Then the Winchester is in lovely countryside, too.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8298,
+        "Speaker 2": 0.8838,
+        "Speaker 3": 0.6344
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 38,
+      "start": 217.57,
+      "end": 220.07,
+      "text": "Yes, it's in the valley, isn't it?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7811,
+        "Speaker 2": 0.7244,
+        "Speaker 3": 0.8522
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 39,
+      "start": 220.15,
+      "end": 220.71,
+      "text": "Yes.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6748,
+        "Speaker 2": 0.7007,
+        "Speaker 3": 0.5679
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 40,
+      "start": 221.23,
+      "end": 222.59,
+      "text": "What about Mum's wheelchair?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7519,
+        "Speaker 2": 0.6659,
+        "Speaker 3": 0.8654
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 41,
+      "start": 223.33,
+      "end": 226.33,
+      "text": "How easy would it be for her to get in and out of these places?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7489,
+        "Speaker 2": 0.6427,
+        "Speaker 3": 0.8903
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 42,
+      "start": 227.48,
+      "end": 233.3,
+      "text": "Well, I know that the Winchester would be fine, and the Star, because I've been there with her before.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8328,
+        "Speaker 2": 0.9325,
+        "Speaker 3": 0.6807
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 43,
+      "start": 233.98,
+      "end": 239.68,
+      "text": "I wasn't sure about the Royal, because I seemed to remember it had a lot of steps, so I checked,",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8303,
+        "Speaker 2": 0.9359,
+        "Speaker 3": 0.7127
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 44,
+      "start": 240.22,
+      "end": 245.66,
+      "text": "and apparently it's had ramps installed recently, so there wouldn't be any problem there either.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7972,
+        "Speaker 2": 0.9033,
+        "Speaker 3": 0.6565
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 45,
+      "start": 246.79,
+      "end": 251.29,
+      "text": "And what about the kids? Which one do you think would be most suitable for them?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7616,
+        "Speaker 2": 0.6857,
+        "Speaker 3": 0.9273
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 46,
+      "start": 251.95,
+      "end": 253.97,
+      "text": "Have they got play areas or anything?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.747,
+        "Speaker 2": 0.635,
+        "Speaker 3": 0.8523
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 47,
+      "start": 254.77,
+      "end": 258.23,
+      "text": "The Royal haven't got anything, but the Winchester has one.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8369,
+        "Speaker 2": 0.8893,
+        "Speaker 3": 0.7397
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 48,
+      "start": 258.69,
+      "end": 262.19,
+      "text": "It's on the ground floor, they said, not far from the dining room.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8299,
+        "Speaker 2": 0.9146,
+        "Speaker 3": 0.7216
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 49,
+      "start": 262.83,
+      "end": 268.39,
+      "text": "The Star's got one too, but it isn't undercover, and we don't know what the weather will be like, do we?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8209,
+        "Speaker 2": 0.9104,
+        "Speaker 3": 0.6831
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 50,
+      "start": 268.79,
+      "end": 269.63,
+      "text": "True.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7048,
+        "Speaker 2": 0.5977,
+        "Speaker 3": 0.775
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 51,
+      "start": 270.37,
+      "end": 272.17,
+      "text": "Then there's the birthday meal itself.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7867,
+        "Speaker 2": 0.8351,
+        "Speaker 3": 0.6266
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 52,
+      "start": 272.85,
+      "end": 275.25,
+      "text": "The Royal's the only one where there'd be a choice.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7651,
+        "Speaker 2": 0.8219,
+        "Speaker 3": 0.6167
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 53,
+      "start": 275.74,
+      "end": 278.22,
+      "text": "The other two have a set menu at lunchtime.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7204,
+        "Speaker 2": 0.8191,
+        "Speaker 3": 0.6416
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 54,
+      "start": 279.02,
+      "end": 283.28,
+      "text": "Mind you, they all do very good food apparently, so the quality should be fine.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8509,
+        "Speaker 2": 0.9184,
+        "Speaker 3": 0.7036
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 55,
+      "start": 283.94,
+      "end": 289.98,
+      "text": "I don't think it really matters whether there's a variety or not, but I think we need to have our own room, don't you?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8066,
+        "Speaker 2": 0.7067,
+        "Speaker 3": 0.9563
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 56,
+      "start": 290.52,
+      "end": 302.54,
+      "text": "The only one that can provide that is the Royal. The Winchester and the Star only have one dining room, so we'd just be sitting with the other guests, but in a separate area of the room.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8517,
+        "Speaker 2": 0.9308,
+        "Speaker 3": 0.7411
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 57,
+      "start": 303.6,
+      "end": 305.56,
+      "text": "That's not quite the same, is it?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7314,
+        "Speaker 2": 0.647,
+        "Speaker 3": 0.8772
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 58,
+      "start": 305.84,
+      "end": 312.44,
+      "text": "No, but the other thing to consider is the price. Normally there's not much difference between them.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8208,
+        "Speaker 2": 0.8927,
+        "Speaker 3": 0.6829
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 59,
+      "start": 313.1,
+      "end": 320.68,
+      "text": "Perhaps the star's slightly cheaper than the other two, but the Winchester is offering quite a good reduction because there's so many of us.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8245,
+        "Speaker 2": 0.9222,
+        "Speaker 3": 0.6868
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 60,
+      "start": 321.26,
+      "end": 324.7,
+      "text": "The star and the royal would just charge their standard rates.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8049,
+        "Speaker 2": 0.9155,
+        "Speaker 3": 0.6934
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 61,
+      "start": 326.17,
+      "end": 331.69,
+      "text": "So, taking everything into consideration, which one do you think we should go for?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8237,
+        "Speaker 2": 0.7155,
+        "Speaker 3": 0.9264
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 62,
+      "start": 332.29,
+      "end": 334.42,
+      "text": "The Winchester. Unless you...",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7686,
+        "Speaker 2": 0.7942,
+        "Speaker 3": 0.5873
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 63,
+      "start": 334.42,
+      "end": 339.28,
+      "text": "Okay, that's fine by me. You've obviously gone into everything very carefully.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7942,
+        "Speaker 2": 0.6868,
+        "Speaker 3": 0.9415
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 64,
+      "start": 342,
+      "end": 347.86,
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9402,
+        "Speaker 2": 0.8467,
+        "Speaker 3": 0.7803
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 65,
+      "start": 347.86,
+      "end": 357.86,
+      "text": "on page 3. Now listen and answer questions 7 to 10.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8826,
+        "Speaker 2": 0.7238,
+        "Speaker 3": 0.7847
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    },
+    {
+      "index": 66,
+      "start": 380.58,
+      "end": 385.7,
+      "text": "You've done nearly all the work so far, so what can I do now to help?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.806,
+        "Speaker 2": 0.7239,
+        "Speaker 3": 0.9238
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 67,
+      "start": 386.3,
+      "end": 388.36,
+      "text": "Well, could you manage the finances?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7244,
+        "Speaker 2": 0.7432,
+        "Speaker 3": 0.6162
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 68,
+      "start": 388.88,
+      "end": 391.82,
+      "text": "Of course. Do they want the whole amount in advance?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7999,
+        "Speaker 2": 0.7207,
+        "Speaker 3": 0.883
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 69,
+      "start": 392.49,
+      "end": 400.63,
+      "text": "Just a deposit. I'll find out how much and let you know. Then if you could send that straight away to secure the booking.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8255,
+        "Speaker 2": 0.8969,
+        "Speaker 3": 0.6769
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 70,
+      "start": 400.89,
+      "end": 401.63,
+      "text": "Fine.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6859,
+        "Speaker 2": 0.6322,
+        "Speaker 3": 0.7809
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 71,
+      "start": 401.77,
+      "end": 403.59,
+      "text": "And I'll go and buy some invitations.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7678,
+        "Speaker 2": 0.8503,
+        "Speaker 3": 0.6469
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 72,
+      "start": 404.47,
+      "end": 410.17,
+      "text": "Oh, don't do that. I can produce them. I've got a program on my computer. It's easy.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7615,
+        "Speaker 2": 0.6725,
+        "Speaker 3": 0.9267
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 73,
+      "start": 410.81,
+      "end": 411.79,
+      "text": "Okay, thanks.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6931,
+        "Speaker 2": 0.7689,
+        "Speaker 3": 0.5926
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 74,
+      "start": 412.43,
+      "end": 418.03,
+      "text": "Then, once we've had the replies, I'll call everyone who's coming to find out if they want transport.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7696,
+        "Speaker 2": 0.6623,
+        "Speaker 3": 0.9505
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 75,
+      "start": 418.75,
+      "end": 423.33,
+      "text": "Great. I can help out with that. Pick people up from the station, or whatever.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.8384,
+        "Speaker 2": 0.8951,
+        "Speaker 3": 0.7049
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 76,
+      "start": 423.57,
+      "end": 424.29,
+      "text": "Okay.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.6511,
+        "Speaker 2": 0.5751,
+        "Speaker 3": 0.6347
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 77,
+      "start": 424.65,
+      "end": 433.53,
+      "text": "Oh, yes. And could you stress that Dad doesn't want presents? He keeps reminding me. He says there's nothing he really needs.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7453,
+        "Speaker 2": 0.8369,
+        "Speaker 3": 0.5755
+      },
+      "closestVoice": "Speaker 2",
+      "narratorEligible": false
+    },
+    {
+      "index": 78,
+      "start": 434.19,
+      "end": 441.59,
+      "text": "Okay. I'll try to discourage them. But you know what people are like. Anything else? Shall I do?",
+      "voiceSimilarity": {
+        "Speaker 1": 0.7685,
+        "Speaker 2": 0.6608,
+        "Speaker 3": 0.9532
+      },
+      "closestVoice": "Speaker 3",
+      "narratorEligible": false
+    },
+    {
+      "index": 79,
+      "start": 444.86,
+      "end": 449.98,
+      "text": "That is the end of Section 1. You now have half a minute to check your answers.",
+      "voiceSimilarity": {
+        "Speaker 1": 0.9024,
+        "Speaker 2": 0.8135,
+        "Speaker 3": 0.7457
+      },
+      "closestVoice": "Speaker 1",
+      "narratorEligible": true
+    }
+  ],
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 4",
+      "text": "IELTS Listening, version K0010."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 1",
+      "text": "You will hear a number of different recordings,"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 1",
+      "text": "and you will have to answer questions on what you hear."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 1",
+      "text": "There will be time for you to read the instructions and questions,"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 1",
+      "text": "and you will have a chance to check your work."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 1",
+      "text": "All the recordings will be played once only."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 1",
+      "text": "The test is in four sections."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 1",
+      "text": "Write all your answers in the listening question booklet."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 1",
+      "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 1",
+      "text": "answer sheet."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 1",
+      "text": "Now turn to section 1 on page 2 of your question booklet."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 1",
+      "text": "Section 1 You will hear a brother and sister talking"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 1",
+      "text": "on the phone about arrangements for their father's 80th birthday party."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 1",
+      "text": "First you have some time to look at questions 1 to 6 on page 2."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 1",
+      "text": "You will see that there is an example that has been done for you."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 1",
+      "text": "On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 3",
+      "text": "Hello?"
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 2",
+      "text": "Hello, Rob. Margaret here."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 2",
+      "text": "I'm just calling about the arrangements for Dad's 80th birthday party."
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 3",
+      "text": "Right. I've rung round the rest of the family."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 3",
+      "text": "Most people do intend to come, even though it's a long journey."
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 3",
+      "text": "Have you made any progress with the venue?"
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 2",
+      "text": "Yes. There are three possible hotels we could use for the party."
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": "The Royal, the Star, and the Winchester."
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 3",
+      "text": "Oh, good. If we can make a decision now, you can probably book straight away on the internet, can't you?"
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 2",
+      "text": "Well, only the Star. I'd have to make a telephone booking at the others, but that'd be okay too."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 1",
+      "text": "The only hotel that takes online bookings is the Star Hotel, so the letter B has been written in the space."
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Speaker 1",
+      "text": "Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time."
+    },
+    {
+      "paragraph": 28,
+      "speaker": "Speaker 1",
+      "text": "Listen carefully and answer questions one to six."
+    },
+    {
+      "paragraph": 29,
+      "speaker": "Speaker 2",
+      "text": "Hello, Rob. Margaret here. I'm just calling about the arrangements for Dad's 80th birthday party."
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 3",
+      "text": "Right. I've rung round the rest of the family. Most people do intend to come, even though it's a long journey. Have you made any progress with the venue?"
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 2",
+      "text": "Yes. There are three possible hotels we could use for the party. The Royal, the Star, and the Winchester."
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Speaker 3",
+      "text": "Oh good. If we can make a decision now, you can probably book straight away on the internet, can't you?"
+    },
+    {
+      "paragraph": 33,
+      "speaker": "Speaker 2",
+      "text": "Well, only the star. I'd have to make a telephone booking at the others, but that'd be okay, too."
+    },
+    {
+      "paragraph": 34,
+      "speaker": "Speaker 3",
+      "text": "Okay. So which one do you think?"
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Speaker 2",
+      "text": "I'm not sure. They're all fairly suitable, and they're in really nice locations."
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Speaker 2",
+      "text": "The star looks right out over the bay. It's on a cliff top."
+    },
+    {
+      "paragraph": 37,
+      "speaker": "Speaker 2",
+      "text": "Then the Winchester is in lovely countryside, too."
+    },
+    {
+      "paragraph": 38,
+      "speaker": "Speaker 3",
+      "text": "Yes, it's in the valley, isn't it?"
+    },
+    {
+      "paragraph": 39,
+      "speaker": "Speaker 2",
+      "text": "Yes."
+    },
+    {
+      "paragraph": 40,
+      "speaker": "Speaker 3",
+      "text": "What about Mum's wheelchair?"
+    },
+    {
+      "paragraph": 41,
+      "speaker": "Speaker 3",
+      "text": "How easy would it be for her to get in and out of these places?"
+    },
+    {
+      "paragraph": 42,
+      "speaker": "Speaker 2",
+      "text": "Well, I know that the Winchester would be fine, and the Star, because I've been there with her before."
+    },
+    {
+      "paragraph": 43,
+      "speaker": "Speaker 2",
+      "text": "I wasn't sure about the Royal, because I seemed to remember it had a lot of steps, so I checked,"
+    },
+    {
+      "paragraph": 44,
+      "speaker": "Speaker 2",
+      "text": "and apparently it's had ramps installed recently, so there wouldn't be any problem there either."
+    },
+    {
+      "paragraph": 45,
+      "speaker": "Speaker 3",
+      "text": "And what about the kids? Which one do you think would be most suitable for them?"
+    },
+    {
+      "paragraph": 46,
+      "speaker": "Speaker 3",
+      "text": "Have they got play areas or anything?"
+    },
+    {
+      "paragraph": 47,
+      "speaker": "Speaker 2",
+      "text": "The Royal haven't got anything, but the Winchester has one."
+    },
+    {
+      "paragraph": 48,
+      "speaker": "Speaker 2",
+      "text": "It's on the ground floor, they said, not far from the dining room."
+    },
+    {
+      "paragraph": 49,
+      "speaker": "Speaker 2",
+      "text": "The Star's got one too, but it isn't undercover, and we don't know what the weather will be like, do we?"
+    },
+    {
+      "paragraph": 50,
+      "speaker": "Speaker 3",
+      "text": "True."
+    },
+    {
+      "paragraph": 51,
+      "speaker": "Speaker 2",
+      "text": "Then there's the birthday meal itself."
+    },
+    {
+      "paragraph": 52,
+      "speaker": "Speaker 2",
+      "text": "The Royal's the only one where there'd be a choice."
+    },
+    {
+      "paragraph": 53,
+      "speaker": "Speaker 2",
+      "text": "The other two have a set menu at lunchtime."
+    },
+    {
+      "paragraph": 54,
+      "speaker": "Speaker 2",
+      "text": "Mind you, they all do very good food apparently, so the quality should be fine."
+    },
+    {
+      "paragraph": 55,
+      "speaker": "Speaker 3",
+      "text": "I don't think it really matters whether there's a variety or not, but I think we need to have our own room, don't you?"
+    },
+    {
+      "paragraph": 56,
+      "speaker": "Speaker 2",
+      "text": "The only one that can provide that is the Royal. The Winchester and the Star only have one dining room, so we'd just be sitting with the other guests, but in a separate area of the room."
+    },
+    {
+      "paragraph": 57,
+      "speaker": "Speaker 3",
+      "text": "That's not quite the same, is it?"
+    },
+    {
+      "paragraph": 58,
+      "speaker": "Speaker 2",
+      "text": "No, but the other thing to consider is the price. Normally there's not much difference between them."
+    },
+    {
+      "paragraph": 59,
+      "speaker": "Speaker 2",
+      "text": "Perhaps the star's slightly cheaper than the other two, but the Winchester is offering quite a good reduction because there's so many of us."
+    },
+    {
+      "paragraph": 60,
+      "speaker": "Speaker 2",
+      "text": "The star and the royal would just charge their standard rates."
+    },
+    {
+      "paragraph": 61,
+      "speaker": "Speaker 3",
+      "text": "So, taking everything into consideration, which one do you think we should go for?"
+    },
+    {
+      "paragraph": 62,
+      "speaker": "Speaker 2",
+      "text": "The Winchester. Unless you..."
+    },
+    {
+      "paragraph": 63,
+      "speaker": "Speaker 3",
+      "text": "Okay, that's fine by me. You've obviously gone into everything very carefully."
+    },
+    {
+      "paragraph": 64,
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10"
+    },
+    {
+      "paragraph": 65,
+      "speaker": "Speaker 1",
+      "text": "on page 3. Now listen and answer questions 7 to 10."
+    },
+    {
+      "paragraph": 66,
+      "speaker": "Speaker 3",
+      "text": "You've done nearly all the work so far, so what can I do now to help?"
+    },
+    {
+      "paragraph": 67,
+      "speaker": "Speaker 2",
+      "text": "Well, could you manage the finances?"
+    },
+    {
+      "paragraph": 68,
+      "speaker": "Speaker 3",
+      "text": "Of course. Do they want the whole amount in advance?"
+    },
+    {
+      "paragraph": 69,
+      "speaker": "Speaker 2",
+      "text": "Just a deposit. I'll find out how much and let you know. Then if you could send that straight away to secure the booking."
+    },
+    {
+      "paragraph": 70,
+      "speaker": "Speaker 3",
+      "text": "Fine."
+    },
+    {
+      "paragraph": 71,
+      "speaker": "Speaker 2",
+      "text": "And I'll go and buy some invitations."
+    },
+    {
+      "paragraph": 72,
+      "speaker": "Speaker 3",
+      "text": "Oh, don't do that. I can produce them. I've got a program on my computer. It's easy."
+    },
+    {
+      "paragraph": 73,
+      "speaker": "Speaker 2",
+      "text": "Okay, thanks."
+    },
+    {
+      "paragraph": 74,
+      "speaker": "Speaker 3",
+      "text": "Then, once we've had the replies, I'll call everyone who's coming to find out if they want transport."
+    },
+    {
+      "paragraph": 75,
+      "speaker": "Speaker 2",
+      "text": "Great. I can help out with that. Pick people up from the station, or whatever."
+    },
+    {
+      "paragraph": 76,
+      "speaker": "Speaker 3",
+      "text": "Okay."
+    },
+    {
+      "paragraph": 77,
+      "speaker": "Speaker 2",
+      "text": "Oh, yes. And could you stress that Dad doesn't want presents? He keeps reminding me. He says there's nothing he really needs."
+    },
+    {
+      "paragraph": 78,
+      "speaker": "Speaker 3",
+      "text": "Okay. I'll try to discourage them. But you know what people are like. Anything else? Shall I do?"
+    },
+    {
+      "paragraph": 79,
+      "speaker": "Speaker 1",
+      "text": "That is the end of Section 1. You now have half a minute to check your answers."
+    }
+  ],
+  "otherPartsSha256": "65c7e7702c6017f200aafd96161a7614ef5eb2b204631f085373f41cdb33278f"
+}

@@ -1,0 +1,702 @@
+{
+  "test": "practice-listening-2",
+  "part": 1,
+  "audioSha256": "aefd30d11ceda1733436764d6e22ad9b751a3bab15d8fd4f90f4f784f2fbacde",
+  "scope": {
+    "start": 6.32,
+    "end": 392.5
+  },
+  "method": "Compared supplied named speaker labels against three voice embeddings. Short final question checked again using its corrected speech window.",
+  "embeddingModel": "wespeaker-en-voxceleb-resnet34",
+  "anchors": {
+    "Narrator": [
+      18.97,
+      25.43
+    ],
+    "Father": [
+      115.55,
+      123.03
+    ],
+    "Claire": [
+      141.93,
+      157.13
+    ]
+  },
+  "humanAuditoryReview": false,
+  "similaritiesAreProbabilities": false,
+  "fullRecordingVerified": false,
+  "speakerLabelsUnchanged": true,
+  "textUnchanged": true,
+  "plainTextSha256": "a038d5dd22d3af7a531433f72e650d01911ebc1a6ac856d9b2e98dcd1e10eea1",
+  "wordClocksSha256": "881e02cfaaee58ef50f52a97bc2f0fe968c3bfc8f768afccbcc9f1fcc5120aae",
+  "wordClockCount": 785,
+  "clockCorrections": [
+    {
+      "word": "I",
+      "before": [
+        386.41,
+        386.75
+      ],
+      "after": [
+        381.4,
+        381.54
+      ]
+    },
+    {
+      "word": "answers",
+      "before": [
+        1590.04,
+        1590.42
+      ],
+      "after": [
+        392.22,
+        392.5
+      ]
+    },
+    {
+      "word": "to",
+      "before": [
+        1590.42,
+        1590.76
+      ],
+      "after": null
+    },
+    {
+      "word": "part",
+      "before": [
+        1590.76,
+        1590.96
+      ],
+      "after": null
+    }
+  ],
+  "oldTranscriptEndSeconds": 1590.96,
+  "unconfirmedTailWords": [
+    "to",
+    "part",
+    "one"
+  ],
+  "unconfirmedTailNote": "Source text retained. Incorrect clocks removed where local recognition did not confirm the words; no replacement times invented.",
+  "localTailRecognition": {
+    "claire": [
+      {
+        "word": "Sure.",
+        "start": 379,
+        "end": 379.84
+      },
+      {
+        "word": "Now,",
+        "start": 381,
+        "end": 381.06
+      },
+      {
+        "word": "can",
+        "start": 381.24,
+        "end": 381.4
+      },
+      {
+        "word": "I",
+        "start": 381.4,
+        "end": 381.54
+      },
+      {
+        "word": "ask",
+        "start": 381.54,
+        "end": 381.82
+      },
+      {
+        "word": "you",
+        "start": 381.82,
+        "end": 382.16
+      },
+      {
+        "word": "a",
+        "start": 382.16,
+        "end": 382.32
+      },
+      {
+        "word": "few",
+        "start": 382.32,
+        "end": 382.52
+      },
+      {
+        "word": "questions?",
+        "start": 382.52,
+        "end": 382.82
+      }
+    ],
+    "narrator": [
+      {
+        "word": "That",
+        "start": 386,
+        "end": 386.96
+      },
+      {
+        "word": "is",
+        "start": 386.96,
+        "end": 387.12
+      },
+      {
+        "word": "the",
+        "start": 387.12,
+        "end": 387.3
+      },
+      {
+        "word": "end",
+        "start": 387.3,
+        "end": 387.68
+      },
+      {
+        "word": "of",
+        "start": 387.68,
+        "end": 387.92
+      },
+      {
+        "word": "part",
+        "start": 387.92,
+        "end": 388.14
+      },
+      {
+        "word": "one.",
+        "start": 388.14,
+        "end": 388.76
+      },
+      {
+        "word": "You",
+        "start": 389.56,
+        "end": 389.94
+      },
+      {
+        "word": "now",
+        "start": 389.94,
+        "end": 390.24
+      },
+      {
+        "word": "have",
+        "start": 390.24,
+        "end": 390.6
+      },
+      {
+        "word": "one",
+        "start": 390.6,
+        "end": 390.98
+      },
+      {
+        "word": "minute",
+        "start": 390.98,
+        "end": 391.36
+      },
+      {
+        "word": "to",
+        "start": 391.36,
+        "end": 391.72
+      },
+      {
+        "word": "check",
+        "start": 391.72,
+        "end": 391.98
+      },
+      {
+        "word": "your",
+        "start": 391.98,
+        "end": 392.22
+      },
+      {
+        "word": "answer",
+        "start": 392.22,
+        "end": 392.5
+      },
+      {
+        "word": "podcast",
+        "start": 392.5,
+        "end": 393.24
+      },
+      {
+        "word": "about",
+        "start": 393.24,
+        "end": 393.8
+      }
+    ]
+  },
+  "turns": [
+    {
+      "index": 0,
+      "start": 6.32,
+      "end": 18.32,
+      "text": "Narrator: IELTS listening, version 54562. You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts.",
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.9554,
+        "Father": 0.8617,
+        "Claire": 0.8653
+      },
+      "closestVoice": "Narrator"
+    },
+    {
+      "index": 1,
+      "start": 34.45,
+      "end": 46.45,
+      "text": "Narrator: Write all your answers in the listening question booklet. At the end of the test, you will be given 10 minutes to transfer your answers to an answer sheet. Now turn to Part One, on page two of your question booklet. Part One.",
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.9413,
+        "Father": 0.8439,
+        "Claire": 0.8571
+      },
+      "closestVoice": "Narrator"
+    },
+    {
+      "index": 2,
+      "start": 59.19,
+      "end": 71.19,
+      "text": "Narrator: You will hear a conversation between a father and the person he is employed to look after his young daughter, who is called Lily, during the school holidays. First, you have some time to look at questions one to six. Now listen carefully and answer questions one to six.",
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.9436,
+        "Father": 0.8698,
+        "Claire": 0.8442
+      },
+      "closestVoice": "Narrator"
+    },
+    {
+      "index": 3,
+      "start": 115.55,
+      "end": 123.03,
+      "text": "Father: Okay, Claire, let's sit down and plan some activities for you and Lily to enjoy together over the school holidays while I'm at work.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8597,
+        "Father": 1,
+        "Claire": 0.7775
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 4,
+      "start": 124.23,
+      "end": 125.69,
+      "text": "Claire: All right, I'll get a pen and paper.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7595,
+        "Father": 0.7487,
+        "Claire": 0.8922
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 5,
+      "start": 126.99,
+      "end": 135.51,
+      "text": "Father: Please feel free to make suggestions of your own. But I thought a nice way to start the holidays would be to take Lily to a film on Monday.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8386,
+        "Father": 0.9421,
+        "Claire": 0.7769
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 6,
+      "start": 136.11,
+      "end": 137.13,
+      "text": "Claire: Nice idea.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7072,
+        "Father": 0.6385,
+        "Claire": 0.81
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 7,
+      "start": 138.25,
+      "end": 141.55,
+      "text": "Father: I've got two 10-pound film vouchers I can give you.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8611,
+        "Father": 0.9373,
+        "Claire": 0.8
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 8,
+      "start": 141.93,
+      "end": 153.93,
+      "text": "Claire: Oh, Mr Scott, you can't use those during the holidays. Why don't I go on the internet and pre-book the tickets? They're usually nine pounds 75, but this month they're only eight pounds 25 if you get them through the website.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8227,
+        "Father": 0.7764,
+        "Claire": 0.9944
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 9,
+      "start": 157.89,
+      "end": 168.61,
+      "text": "Father: Great idea. Now, Lily usually likes to have a drink during the film, but I'd prefer that she didn't have juice or anything with sugar in.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8574,
+        "Father": 0.968,
+        "Claire": 0.7942
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 10,
+      "start": 169.11,
+      "end": 173.25,
+      "text": "Claire: Yes, that would be bad for her teeth. So, how about some water?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8163,
+        "Father": 0.8002,
+        "Claire": 0.9423
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 11,
+      "start": 173.81,
+      "end": 176.05,
+      "text": "Father: Good idea. You can buy that at the cinema.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8012,
+        "Father": 0.9354,
+        "Claire": 0.7251
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 12,
+      "start": 177.86,
+      "end": 181.52,
+      "text": "Claire: Okay. How about Tuesday? Maybe we could do something outdoors.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7596,
+        "Father": 0.7649,
+        "Claire": 0.9421
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 13,
+      "start": 182.52,
+      "end": 189.62,
+      "text": "Father: Well, I did see an advertisement in the local paper for families to get together for a walk. It looks like it could be fun.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8918,
+        "Father": 0.9113,
+        "Claire": 0.7886
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 14,
+      "start": 189.98,
+      "end": 196.58,
+      "text": "Claire: That would be perfect. It'll be nice to meet up with some other children as well. I suppose that's in the park.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8042,
+        "Father": 0.7984,
+        "Claire": 0.9426
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 15,
+      "start": 197.66,
+      "end": 209.66,
+      "text": "Father: Let me check. No, you need to meet in the woods. You know where that is, don't you? Not far from the river. And I'd better check the time for you. Oh yes, here it is. The walk actually starts at 10.15 in the morning, but I think you'd better be there at 10 to give you time to find the other families.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8453,
+        "Father": 0.9162,
+        "Claire": 0.7791
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 16,
+      "start": 221.23,
+      "end": 228.9,
+      "text": "Claire: That's fine. I'll make sure I leave the house by 9.30, so I have time to get there. Shall I take Lily's pushchair? Do you think?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7969,
+        "Father": 0.7447,
+        "Claire": 0.9443
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 17,
+      "start": 229.67,
+      "end": 237.81,
+      "text": "Father: No, I don't think you'll need it. But you'd better take her boots in case it's muddy. You'll find them in the cupboard in the hallway.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8564,
+        "Father": 0.945,
+        "Claire": 0.7816
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 18,
+      "start": 242.67,
+      "end": 254.67,
+      "text": "Narrator: Before you hear the rest of the conversation, you have some time to look at questions seven to 10. Now listen and answer questions seven to 10.",
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.8562,
+        "Father": 0.7464,
+        "Claire": 0.7665
+      },
+      "closestVoice": "Narrator"
+    },
+    {
+      "index": 19,
+      "start": 277.1,
+      "end": 282.14,
+      "text": "Father: Now on Wednesday, Lily's been invited to a party that's being held for her cousin.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8863,
+        "Father": 0.9559,
+        "Claire": 0.7849
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 20,
+      "start": 282.44,
+      "end": 283.02,
+      "text": "Claire: Lovely.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.6157,
+        "Father": 0.4896,
+        "Claire": 0.6386
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 21,
+      "start": 283.53,
+      "end": 295.53,
+      "text": "Father: Yes, it's a shame I'll have to miss it. Now the party was going to be in their garden, but they've decided to have it in a restaurant now instead. They've chosen the one in the high street. They have staff who dress up and put on a show for the children, so they. Should enjoy it.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8639,
+        "Father": 0.9558,
+        "Claire": 0.774
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 22,
+      "start": 301.07,
+      "end": 309.69,
+      "text": "Claire: Great. Now I see on your calendar, Mr Scott, that Lily has a music lesson every Thursday. Does this continue over the holidays?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8405,
+        "Father": 0.8164,
+        "Claire": 0.9583
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 23,
+      "start": 310.19,
+      "end": 312.69,
+      "text": "Father: Oh yes, I'd forgotten about that.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.7914,
+        "Father": 0.8566,
+        "Claire": 0.7623
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 24,
+      "start": 313.19,
+      "end": 317.11,
+      "text": "Claire: It says school on the calendar. Is that where I should take her?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8636,
+        "Father": 0.8144,
+        "Claire": 0.9453
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 25,
+      "start": 317.83,
+      "end": 326.97,
+      "text": "Father: It was there, but not during the holidays. This week it's at Akehurst Hall. It's right at the top of the hill. You can't miss it.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.866,
+        "Father": 0.9405,
+        "Claire": 0.7732
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 26,
+      "start": 328,
+      "end": 329.96,
+      "text": "Claire: Oh, actually, I think I know the place.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8356,
+        "Father": 0.8018,
+        "Claire": 0.8832
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 27,
+      "start": 330.54,
+      "end": 336.58,
+      "text": "Father: Great. And remember, you need to pay for that. I'll put the money in an envelope for you.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.89,
+        "Father": 0.8993,
+        "Claire": 0.7725
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 28,
+      "start": 337.72,
+      "end": 339.68,
+      "text": "Claire: Okay. I'll make a note of that in my diary.",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7082,
+        "Father": 0.6556,
+        "Claire": 0.8662
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 29,
+      "start": 340.3,
+      "end": 342.74,
+      "text": "Father: You're very organized. I like that.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8169,
+        "Father": 0.9087,
+        "Claire": 0.762
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 30,
+      "start": 343.22,
+      "end": 349.55,
+      "text": "Claire: Thanks. Now I've had an idea about Friday. If you haven't got anything planned already,",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8379,
+        "Father": 0.8033,
+        "Claire": 0.9373
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 31,
+      "start": 349.63,
+      "end": 350.45,
+      "text": "Father: yes.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.5508,
+        "Father": 0.6186,
+        "Claire": 0.5318
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 32,
+      "start": 351.21,
+      "end": 357.47,
+      "text": "Claire: A friend of mine told me about a storytelling event. It's on at the bookshop. Would Lily like to go?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.8374,
+        "Father": 0.7805,
+        "Claire": 0.9606
+      },
+      "closestVoice": "Claire"
+    },
+    {
+      "index": 33,
+      "start": 357.91,
+      "end": 369.91,
+      "text": "Father: Oh yes, we've been there before, actually. She loved it. Oh, I've just remembered the laundry will be ready by then. Can you pick that up afterwards? And next door to the cleaners is the post office. Could you please get me some stamps? I need to send some letters and a postcard, so that would be very helpful.",
+      "sourceLabel": "Father",
+      "voiceSimilarity": {
+        "Narrator": 0.8683,
+        "Father": 0.9305,
+        "Claire": 0.7958
+      },
+      "closestVoice": "Father"
+    },
+    {
+      "index": 34,
+      "start": 379.71,
+      "end": 382.82,
+      "text": "Claire: Sure. Now, can I ask you a few questions?",
+      "sourceLabel": "Claire",
+      "voiceSimilarity": {
+        "Narrator": 0.7617,
+        "Father": 0.7208,
+        "Claire": 0.7995
+      },
+      "closestVoice": "Claire",
+      "originalWindow": {
+        "start": 379.71,
+        "end": 386.75,
+        "voiceSimilarity": {
+          "Narrator": 0.5657,
+          "Father": 0.5096,
+          "Claire": 0.568
+        }
+      },
+      "reason": "Original final word cue included the following narrator; corrected window follows the locally re-transcribed question."
+    },
+    {
+      "index": 35,
+      "start": 386.75,
+      "end": 392.2,
+      "text": "Narrator: That is the end of part one. You now have one minute to check your answers to part one.",
+      "sourceLabel": "Narrator",
+      "voiceSimilarity": {
+        "Narrator": 0.9152,
+        "Father": 0.8217,
+        "Claire": 0.8448
+      },
+      "closestVoice": "Narrator"
+    }
+  ],
+  "otherPartsSha256": "77b5d9a578f04a96bbac27f2b8e28c44e96dd28c3eff9812f4c6a12014f7a91c"
+}
