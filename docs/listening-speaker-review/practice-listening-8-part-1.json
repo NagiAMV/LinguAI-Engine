@@ -1,0 +1,784 @@
+{
+  "test": "practice-listening-8",
+  "part": 1,
+  "audioSha256": "7c8dd8f91ac26edf77ce0a74eca6c455a80e08552bff9efdd5a834ceed49e59d",
+  "scope": {
+    "start": 52.8,
+    "end": 433.05
+  },
+  "sourceScope": "All 47 published transcript paragraphs.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "spokenTextUnchanged": true,
+  "wordClocksUnchanged": true,
+  "labelCorrections": [
+    {
+      "paragraph": 1,
+      "before": "Ellie",
+      "after": "Greg",
+      "start": 161.67,
+      "end": 162.31
+    },
+    {
+      "paragraph": 2,
+      "before": "Greg",
+      "after": "Ellie",
+      "start": 163.02,
+      "end": 163.8
+    }
+  ],
+  "spokenTextSha256": "34a4d420bea9f5fc4be0008c752d9034c6813304654b1407a1a5d948fb60b0e6",
+  "wordClocksSha256": "b8cd47e26050e08b8b40535cbab6b65629035b4b279b9f8cbde9565fdb90f590",
+  "wordClockCount": 597,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          52.8,
+          61.21
+        ],
+        [
+          317.94,
+          321.64
+        ]
+      ],
+      "Ellie": [
+        [
+          173.92,
+          185.71
+        ],
+        [
+          202.05,
+          208.49
+        ],
+        [
+          342.71,
+          346.61
+        ]
+      ],
+      "Greg": [
+        [
+          193.39,
+          201.41
+        ],
+        [
+          247.04,
+          252.32
+        ],
+        [
+          346.97,
+          356.01
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "start": 52.8,
+        "end": 61.21,
+        "scores": {
+          "Narrator": 0.6924,
+          "Ellie": -0.0371,
+          "Greg": 0.2401
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "start": 317.94,
+        "end": 321.64,
+        "scores": {
+          "Narrator": 0.6924,
+          "Ellie": 0.0626,
+          "Greg": 0.2292
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Ellie",
+        "start": 173.92,
+        "end": 185.71,
+        "scores": {
+          "Narrator": 0.0127,
+          "Ellie": 0.8978,
+          "Greg": 0.1397
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "label": "Ellie",
+        "start": 202.05,
+        "end": 208.49,
+        "scores": {
+          "Narrator": 0.0305,
+          "Ellie": 0.8838,
+          "Greg": 0.1017
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "label": "Ellie",
+        "start": 342.71,
+        "end": 346.61,
+        "scores": {
+          "Narrator": -0.004,
+          "Ellie": 0.8205,
+          "Greg": 0.1771
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "label": "Greg",
+        "start": 193.39,
+        "end": 201.41,
+        "scores": {
+          "Narrator": 0.2759,
+          "Ellie": 0.1658,
+          "Greg": 0.8975
+        },
+        "chosen": "Greg"
+      },
+      {
+        "label": "Greg",
+        "start": 247.04,
+        "end": 252.32,
+        "scores": {
+          "Narrator": 0.2007,
+          "Ellie": 0.1411,
+          "Greg": 0.8423
+        },
+        "chosen": "Greg"
+      },
+      {
+        "label": "Greg",
+        "start": 346.97,
+        "end": 356.01,
+        "scores": {
+          "Narrator": 0.2435,
+          "Ellie": 0.1114,
+          "Greg": 0.8592
+        },
+        "chosen": "Greg"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "Narrator: Section 1. You will hear a young woman phoning a friend who works for an airline to ask for advice about getting a job.",
+        "sourceLabel": "Narrator",
+        "start": 52.8,
+        "end": 61.21,
+        "scores": {
+          "Narrator": 0.9199,
+          "Ellie": -0.0371,
+          "Greg": 0.2401
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "index": 1,
+        "text": "Ellie: Hello.",
+        "sourceLabel": "Ellie",
+        "start": 161.67,
+        "end": 162.31,
+        "scores": {
+          "Narrator": 0.0934,
+          "Ellie": 0.0407,
+          "Greg": 0.4026
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 2,
+        "text": "Greg: Oh, hello.",
+        "sourceLabel": "Greg",
+        "start": 163.02,
+        "end": 163.8,
+        "scores": {
+          "Narrator": 0.0562,
+          "Ellie": 0.5688,
+          "Greg": 0.0811
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 3,
+        "text": "Ellie: This is Ellie Fisher. We were at school together.",
+        "sourceLabel": "Ellie",
+        "start": 164.86,
+        "end": 168.6,
+        "scores": {
+          "Narrator": 0.0097,
+          "Ellie": 0.7944,
+          "Greg": 0.1424
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 4,
+        "text": "Greg: Oh, hi Ellie. How are you? What are you doing these days?",
+        "sourceLabel": "Greg",
+        "start": 169.16,
+        "end": 172.98,
+        "scores": {
+          "Narrator": 0.3547,
+          "Ellie": 0.0936,
+          "Greg": 0.7256
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 5,
+        "text": "Ellie: Well, actually, Iâ€™m looking for a job and I was wondering about applying to an airline â€” you know, looking after the passengers. And I heard youâ€™re doing something like that.",
+        "sourceLabel": "Ellie",
+        "start": 173.92,
+        "end": 183.92,
+        "scores": {
+          "Narrator": -0.0091,
+          "Ellie": 0.9436,
+          "Greg": 0.1184
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 6,
+        "text": "Greg: Yeah, Iâ€™m working as a cabin crew attendant.",
+        "sourceLabel": "Greg",
+        "start": 186.09,
+        "end": 188.59,
+        "scores": {
+          "Narrator": 0.2154,
+          "Ellie": 0.1883,
+          "Greg": 0.7451
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 7,
+        "text": "Ellie: Right. So what does that involve?",
+        "sourceLabel": "Ellie",
+        "start": 189.59,
+        "end": 192.29,
+        "scores": {
+          "Narrator": 0.0495,
+          "Ellie": 0.6781,
+          "Greg": 0.1417
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 8,
+        "text": "Greg: Well, you might have to give them the initial safety demonstration before take-off, for example. Youâ€™ve probably seen that when youâ€™ve made a journey by air.",
+        "sourceLabel": "Greg",
+        "start": 193.39,
+        "end": 201.41,
+        "scores": {
+          "Narrator": 0.2759,
+          "Ellie": 0.1658,
+          "Greg": 0.9554
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 9,
+        "text": "Ellie: Actually, Iâ€™ve never flown. But Iâ€™d love to. Thatâ€™s why Iâ€™d like a job with an airline.",
+        "sourceLabel": "Ellie",
+        "start": 202.05,
+        "end": 208.49,
+        "scores": {
+          "Narrator": 0.0305,
+          "Ellie": 0.9491,
+          "Greg": 0.1017
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 10,
+        "text": "Greg: Oh, right. And during the flight, youâ€™d also be going round to see if anyone wants to buy anything.",
+        "sourceLabel": "Greg",
+        "start": 208.97,
+        "end": 214.76,
+        "scores": {
+          "Narrator": 0.2377,
+          "Ellie": 0.0889,
+          "Greg": 0.8593
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 11,
+        "text": "Ellie: So Iâ€™d be dealing with money.",
+        "sourceLabel": "Ellie",
+        "start": 215.46,
+        "end": 217.1,
+        "scores": {
+          "Narrator": 0.0966,
+          "Ellie": 0.7247,
+          "Greg": 0.062
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 12,
+        "text": "Greg: Thatâ€™s right. Youâ€™d be responsible for that. And then, of course, youâ€™d be serving meals and snacks and things.",
+        "sourceLabel": "Greg",
+        "start": 217.6,
+        "end": 223.74,
+        "scores": {
+          "Narrator": 0.1842,
+          "Ellie": 0.1179,
+          "Greg": 0.8622
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 13,
+        "text": "Ellie: OK. So can anyone apply?",
+        "sourceLabel": "Ellie",
+        "start": 225.45,
+        "end": 226.85,
+        "scores": {
+          "Narrator": -0.0174,
+          "Ellie": 0.6088,
+          "Greg": 0.189
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 14,
+        "text": "Greg: Well, there are certain requirements. You must be at least 19 years old and thereâ€™s also a minimum height. Thatâ€™s 168 centimetres.",
+        "sourceLabel": "Greg",
+        "start": 227.43,
+        "end": 235.77,
+        "scores": {
+          "Narrator": 0.303,
+          "Ellie": 0.1446,
+          "Greg": 0.9053
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 15,
+        "text": "Greg: Thatâ€™s to make sure you can reach the higher cupboards in the plane.",
+        "sourceLabel": "Greg",
+        "start": 236.05,
+        "end": 238.75,
+        "scores": {
+          "Narrator": 0.1805,
+          "Ellie": 0.1236,
+          "Greg": 0.8227
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 16,
+        "text": "Ellie: Right. Iâ€™m 169 centimetres, I think. What about qualifications?",
+        "sourceLabel": "Ellie",
+        "start": 239.24,
+        "end": 246.24,
+        "scores": {
+          "Narrator": 0.0593,
+          "Ellie": 0.8175,
+          "Greg": 0.1392
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 17,
+        "text": "Greg: You need to show that you have a good level of English â€” thatâ€™s written and spoken â€” and also maths.",
+        "sourceLabel": "Greg",
+        "start": 247.04,
+        "end": 252.32,
+        "scores": {
+          "Narrator": 0.2007,
+          "Ellie": 0.1411,
+          "Greg": 0.9297
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 18,
+        "text": "Ellie: OK. Well, I passed my exams in both those subjects, fortunately.",
+        "sourceLabel": "Ellie",
+        "start": 252.9,
+        "end": 257.26,
+        "scores": {
+          "Narrator": 0.0156,
+          "Ellie": 0.8953,
+          "Greg": 0.1307
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 19,
+        "text": "Greg: And itâ€™s an advantage if you can speak another language, although for cabin crew itâ€™s not essential.",
+        "sourceLabel": "Greg",
+        "start": 258.12,
+        "end": 262.92,
+        "scores": {
+          "Narrator": 0.1554,
+          "Ellie": 0.112,
+          "Greg": 0.8348
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 20,
+        "text": "Ellie: I can speak Spanish. I did that at school until I was 16.",
+        "sourceLabel": "Ellie",
+        "start": 263.48,
+        "end": 267.24,
+        "scores": {
+          "Narrator": 0.074,
+          "Ellie": 0.8224,
+          "Greg": 0.0869
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 21,
+        "text": "Greg: Excellent. Thatâ€™ll be very useful.",
+        "sourceLabel": "Greg",
+        "start": 268.22,
+        "end": 270.3,
+        "scores": {
+          "Narrator": 0.183,
+          "Ellie": 0.1005,
+          "Greg": 0.7797
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 22,
+        "text": "Ellie: And Iâ€™m pretty fit. I donâ€™t have any medical problems.",
+        "sourceLabel": "Ellie",
+        "start": 271.16,
+        "end": 274.86,
+        "scores": {
+          "Narrator": 0.0484,
+          "Ellie": 0.8532,
+          "Greg": 0.1569
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 23,
+        "text": "Greg: OK. Oh, and can you swim?",
+        "sourceLabel": "Greg",
+        "start": 275.42,
+        "end": 277.84,
+        "scores": {
+          "Narrator": 0.2879,
+          "Ellie": 0.1222,
+          "Greg": 0.7041
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 24,
+        "text": "Ellie: Yes.",
+        "sourceLabel": "Ellie",
+        "start": 278.33000000000004,
+        "end": 279.07,
+        "scores": {
+          "Narrator": 0.09,
+          "Ellie": 0.3931,
+          "Greg": 0.0892
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 25,
+        "text": "Greg: Good, because thatâ€™s another requirement.",
+        "sourceLabel": "Greg",
+        "start": 279.44,
+        "end": 281.38,
+        "scores": {
+          "Narrator": 0.1115,
+          "Ellie": 0.1053,
+          "Greg": 0.7367
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 26,
+        "text": "Narrator: Now listen and answer questions 6 to 10.",
+        "sourceLabel": "Narrator",
+        "start": 317.94,
+        "end": 321.64,
+        "scores": {
+          "Narrator": 0.9199,
+          "Ellie": 0.0626,
+          "Greg": 0.2292
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "index": 27,
+        "text": "Greg: Now, if youâ€™re accepted, youâ€™ll get a six-week training course.",
+        "sourceLabel": "Greg",
+        "start": 325.11,
+        "end": 329.09,
+        "scores": {
+          "Narrator": 0.1789,
+          "Ellie": 0.1112,
+          "Greg": 0.8415
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 28,
+        "text": "Ellie: Right.",
+        "sourceLabel": "Ellie",
+        "start": 329.62,
+        "end": 330.15999999999997,
+        "scores": {
+          "Narrator": -0.0209,
+          "Ellie": 0.499,
+          "Greg": 0.0206
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 29,
+        "text": "Greg: So thatâ€™ll cover all aspects of the job, all the basic things you need to know, and then some special things, like what action to take if a passenger suddenly has some sort of illness while youâ€™re in the air, for example.",
+        "sourceLabel": "Greg",
+        "start": 330.35,
+        "end": 340.35,
+        "scores": {
+          "Narrator": 0.2062,
+          "Ellie": 0.1046,
+          "Greg": 0.899
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 30,
+        "text": "Ellie: Right. I suppose you canâ€™t always count on a doctor being on board.",
+        "sourceLabel": "Ellie",
+        "start": 342.71,
+        "end": 346.61,
+        "scores": {
+          "Narrator": -0.004,
+          "Ellie": 0.9192,
+          "Greg": 0.1771
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 31,
+        "text": "Greg: No. And then youâ€™ll have to do a lot of work during the training on becoming aware of the variety of cultures that your passengers may come from, and the implications of that.",
+        "sourceLabel": "Greg",
+        "start": 346.97,
+        "end": 356.01,
+        "scores": {
+          "Narrator": 0.2435,
+          "Ellie": 0.1114,
+          "Greg": 0.9377
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 32,
+        "text": "Ellie: Thatâ€™s really interesting, actually. OK, well, Iâ€™d definitely like to apply. What airline do you actually work for?",
+        "sourceLabel": "Ellie",
+        "start": 356.39,
+        "end": 366.31,
+        "scores": {
+          "Narrator": 0.1081,
+          "Ellie": 0.8215,
+          "Greg": 0.1936
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 33,
+        "text": "Greg: Itâ€™s a small airline called Eurontas. Thatâ€™s E-U-R-O-N-T-A-S.",
+        "sourceLabel": "Greg",
+        "start": 366.53,
+        "end": 369.97,
+        "scores": {
+          "Narrator": 0.2684,
+          "Ellie": 0.1394,
+          "Greg": 0.7937
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 34,
+        "text": "Ellie: Is that N or M in the middle?",
+        "sourceLabel": "Ellie",
+        "start": 376.41,
+        "end": 378.98,
+        "scores": {
+          "Narrator": 0.0389,
+          "Ellie": 0.7332,
+          "Greg": 0.1602
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 35,
+        "text": "Greg: N for November.",
+        "sourceLabel": "Greg",
+        "start": 379.58,
+        "end": 380.38,
+        "scores": {
+          "Narrator": 0.1394,
+          "Ellie": 0.068,
+          "Greg": 0.5781
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 36,
+        "text": "Ellie: OK.",
+        "sourceLabel": "Ellie",
+        "start": 380.65000000000003,
+        "end": 381.42999999999995,
+        "scores": {
+          "Narrator": -0.0756,
+          "Ellie": 0.631,
+          "Greg": 0.0267
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 37,
+        "text": "Greg: Theyâ€™re good people to work for. Have a look at their website. You can download the application form from there.",
+        "sourceLabel": "Greg",
+        "start": 381.7,
+        "end": 387.36,
+        "scores": {
+          "Narrator": 0.2233,
+          "Ellie": 0.1773,
+          "Greg": 0.8829
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 38,
+        "text": "Ellie: Right. I donâ€™t have much in the way of experience, though.",
+        "sourceLabel": "Ellie",
+        "start": 388.16,
+        "end": 392.45,
+        "scores": {
+          "Narrator": -0.0024,
+          "Ellie": 0.8795,
+          "Greg": 0.0812
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 39,
+        "text": "Greg: Well, what have you done since leaving school?",
+        "sourceLabel": "Greg",
+        "start": 392.97,
+        "end": 394.95,
+        "scores": {
+          "Narrator": 0.2402,
+          "Ellie": 0.0782,
+          "Greg": 0.6068
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 40,
+        "text": "Ellie: I worked in a supermarket for a bit, on the information desk. I was helping deal with queries from customers.",
+        "sourceLabel": "Ellie",
+        "start": 395.71,
+        "end": 403.44,
+        "scores": {
+          "Narrator": 0.0134,
+          "Ellie": 0.9045,
+          "Greg": 0.1403
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 41,
+        "text": "Greg: OK, put that down. Thatâ€™s one of the most important aspects of the job, in fact.",
+        "sourceLabel": "Greg",
+        "start": 403.94,
+        "end": 408.14,
+        "scores": {
+          "Narrator": 0.2195,
+          "Ellie": 0.0898,
+          "Greg": 0.8609
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 42,
+        "text": "Ellie: Oh, right. And last year I also did some voluntary work as part of a team. Should I put that down too?",
+        "sourceLabel": "Ellie",
+        "start": 408.6,
+        "end": 417.38,
+        "scores": {
+          "Narrator": 0.0329,
+          "Ellie": 0.933,
+          "Greg": 0.1373
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 43,
+        "text": "Greg: Of course. Thatâ€™s something else theyâ€™ll be looking for â€” being able to work with others.",
+        "sourceLabel": "Greg",
+        "start": 417.68,
+        "end": 421.72,
+        "scores": {
+          "Narrator": 0.0951,
+          "Ellie": 0.1604,
+          "Greg": 0.7628
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 44,
+        "text": "Ellie: Right.",
+        "sourceLabel": "Ellie",
+        "start": 422.03000000000003,
+        "end": 422.69,
+        "scores": {
+          "Narrator": 0.0568,
+          "Ellie": 0.6251,
+          "Greg": -0.0435
+        },
+        "chosen": "Ellie"
+      },
+      {
+        "index": 45,
+        "text": "Greg: And a lot of airlines expect you to pay for your own uniform, but the good thing about this airline is that they provide it for you.",
+        "sourceLabel": "Greg",
+        "start": 423.18,
+        "end": 429.7,
+        "scores": {
+          "Narrator": 0.3134,
+          "Ellie": 0.1122,
+          "Greg": 0.8502
+        },
+        "chosen": "Greg"
+      },
+      {
+        "index": 46,
+        "text": "Ellie: Great. Well, thanks so much, Greg.",
+        "sourceLabel": "Ellie",
+        "start": 430.05,
+        "end": 433.05,
+        "scores": {
+          "Narrator": 0.0501,
+          "Ellie": 0.7812,
+          "Greg": 0.2106
+        },
+        "chosen": "Ellie"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "otherPartsSha256": "c81b2e7da64d6d77e55360235fac0d5466994e56e5b112f5656f0c58899c4613"
+}

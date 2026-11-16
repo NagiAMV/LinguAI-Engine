@@ -1,0 +1,1004 @@
+{
+  "test": "practice-listening-6",
+  "part": 1,
+  "audioSha256": "994b3a891191f269d3bc687cada720ec16bcf62a9d693e5fbac0f70ae6846df4",
+  "scope": {
+    "start": 49.79,
+    "end": 374.65
+  },
+  "sourceScope": "All published transcript paragraphs; no claim that omitted dialogue is transcribed.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "speakerLabelsUnchanged": true,
+  "clockEdits": [
+    {
+      "word": "Jack",
+      "before": [
+        75.44,
+        75.8
+      ],
+      "after": [
+        65.7,
+        66.04
+      ]
+    },
+    {
+      "word": "Dawson",
+      "before": [
+        75.8,
+        76.32
+      ],
+      "after": [
+        66.04,
+        66.58
+      ]
+    }
+  ],
+  "addedUtteranceCues": [
+    {
+      "paragraph": 7,
+      "text": "Yes.",
+      "start": 134.238,
+      "end": 134.542,
+      "granularity": "utterance",
+      "source": "local-speech-segment"
+    },
+    {
+      "paragraph": 9,
+      "text": "It's AL698GQ.",
+      "start": 138.423,
+      "end": 142.557,
+      "granularity": "utterance",
+      "source": "local-speech-segment"
+    },
+    {
+      "paragraph": 11,
+      "text": "Yes. The number at my office is 754688.",
+      "start": 146.152,
+      "end": 151.197,
+      "granularity": "utterance",
+      "source": "local-speech-segment"
+    },
+    {
+      "paragraph": 15,
+      "text": "Yes.",
+      "start": 164.3,
+      "end": 164.54,
+      "granularity": "utterance",
+      "source": "cached-local-ASR-word"
+    },
+    {
+      "paragraph": 19,
+      "text": "Sure.",
+      "start": 249.9,
+      "end": 250.92,
+      "granularity": "utterance",
+      "source": "bounded-gap-between-confirmed-speaker-turns"
+    },
+    {
+      "paragraph": 29,
+      "text": "Oh that's really great. Thank you so much for the gifts!",
+      "start": 365.324,
+      "end": 368.48,
+      "granularity": "utterance",
+      "source": "local-speech-segment"
+    }
+  ],
+  "plainTextSha256": "1d55f609e8c9e4cac878f38c4929fbbee3cbda6c5de3a5af7400edebb7d34202",
+  "wordClocksSha256": "72778964b6136c036b129edcb7ae1f64e08f3a6c27f329d4a33027676c4574eb",
+  "wordClockCount": 485,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English audio",
+    "anchors": {
+      "OPERATOR": [
+        [
+          239.12,
+          249.74
+        ],
+        [
+          312.5,
+          317.46
+        ],
+        [
+          338.04,
+          348
+        ]
+      ],
+      "JACK": [
+        [
+          207.25,
+          217
+        ],
+        [
+          257.62,
+          267
+        ],
+        [
+          317.82,
+          327
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "OPERATOR",
+        "start": 239.12,
+        "end": 249.74,
+        "scores": {
+          "OPERATOR": 0.8965,
+          "JACK": 0.1774
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "label": "OPERATOR",
+        "start": 312.5,
+        "end": 317.46,
+        "scores": {
+          "OPERATOR": 0.8675,
+          "JACK": 0.142
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "label": "OPERATOR",
+        "start": 338.04,
+        "end": 348,
+        "scores": {
+          "OPERATOR": 0.9093,
+          "JACK": 0.2012
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "label": "JACK",
+        "start": 207.25,
+        "end": 217,
+        "scores": {
+          "OPERATOR": 0.1495,
+          "JACK": 0.8588
+        },
+        "chosen": "JACK"
+      },
+      {
+        "label": "JACK",
+        "start": 257.62,
+        "end": 267,
+        "scores": {
+          "OPERATOR": 0.1413,
+          "JACK": 0.8644
+        },
+        "chosen": "JACK"
+      },
+      {
+        "label": "JACK",
+        "start": 317.82,
+        "end": 327,
+        "scores": {
+          "OPERATOR": 0.2186,
+          "JACK": 0.8086
+        },
+        "chosen": "JACK"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "OPERATOR: Hello, you have reached the complaints department. How can I help you?",
+        "sourceLabel": "OPERATOR",
+        "start": 49.79,
+        "end": 53.65,
+        "scores": {
+          "OPERATOR": 0.7706,
+          "JACK": 0.1012
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 1,
+        "text": "JACK: Yes, hello there. I am phoning to make a complaint regarding a flight that I took with you recently.",
+        "sourceLabel": "JACK",
+        "start": 54.15,
+        "end": 58.65,
+        "scores": {
+          "OPERATOR": 0.1283,
+          "JACK": 0.7805
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 2,
+        "text": "OPERATOR: OK. There are some details I will need to take from you first. May I have your name please?",
+        "sourceLabel": "OPERATOR",
+        "start": 60.67,
+        "end": 65.49,
+        "scores": {
+          "OPERATOR": 0.8264,
+          "JACK": 0.1229
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 3,
+        "text": "JACK: Jack Dawson (Example). That's D-A-W-S-O-N.",
+        "sourceLabel": "JACK",
+        "start": 65.88,
+        "end": 70.92,
+        "scores": {
+          "OPERATOR": 0.1794,
+          "JACK": 0.7659
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 4,
+        "text": "OPERATOR: And your address?",
+        "sourceLabel": "OPERATOR",
+        "start": 119.52,
+        "end": 120.36,
+        "scores": {
+          "OPERATOR": 0.5114,
+          "JACK": 0.139
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 5,
+        "text": "JACK: It's 33 Hillcrest (Q1) Road. That's H-I-double-L-C-R-E-S-T.",
+        "sourceLabel": "JACK",
+        "start": 121.2,
+        "end": 129.9,
+        "scores": {
+          "OPERATOR": 0.1766,
+          "JACK": 0.6806
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 6,
+        "text": "OPERATOR: 33 Hillcrest Road. Is that in Exeter?",
+        "sourceLabel": "OPERATOR",
+        "start": 130.11,
+        "end": 132.89,
+        "scores": {
+          "OPERATOR": 0.5833,
+          "JACK": 0.2568
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 7,
+        "text": "JACK: Yes.",
+        "sourceLabel": "JACK",
+        "start": 134.1,
+        "end": 134.7,
+        "scores": {
+          "OPERATOR": 0.1447,
+          "JACK": 0.4369
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 8,
+        "text": "OPERATOR: And what is the postcode of the residence?",
+        "sourceLabel": "OPERATOR",
+        "start": 135.32,
+        "end": 137.38,
+        "scores": {
+          "OPERATOR": 0.6977,
+          "JACK": 0.0844
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 9,
+        "text": "JACK: It's AL698GQ. (Q2)",
+        "sourceLabel": "JACK",
+        "start": 138.4,
+        "end": 142.6,
+        "scores": {
+          "OPERATOR": 0.2038,
+          "JACK": 0.5737
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 10,
+        "text": "OPERATOR: Thank you. Do you have a telephone number?",
+        "sourceLabel": "OPERATOR",
+        "start": 143.14,
+        "end": 145.46,
+        "scores": {
+          "OPERATOR": 0.7174,
+          "JACK": 0.1233
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 11,
+        "text": "JACK: Yes. The number at my office is 754688. (Q3)",
+        "sourceLabel": "JACK",
+        "start": 146.1,
+        "end": 151.2,
+        "scores": {
+          "OPERATOR": 0.173,
+          "JACK": 0.8442
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 12,
+        "text": "OPERATOR: That's good, and may I just take a home phone number for you in case of emergencies?",
+        "sourceLabel": "OPERATOR",
+        "start": 151.47,
+        "end": 156.93,
+        "scores": {
+          "OPERATOR": 0.8369,
+          "JACK": 0.1691
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 13,
+        "text": "JACK: No problem. It's 798662.",
+        "sourceLabel": "JACK",
+        "start": 157.69,
+        "end": 159.45,
+        "scores": {
+          "OPERATOR": 0.1092,
+          "JACK": 0.555
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 14,
+        "text": "OPERATOR: Are they both local numbers?",
+        "sourceLabel": "OPERATOR",
+        "start": 162.44,
+        "end": 163.82,
+        "scores": {
+          "OPERATOR": 0.6465,
+          "JACK": 0.1125
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 15,
+        "text": "JACK: Yes.",
+        "sourceLabel": "JACK",
+        "start": 164.2,
+        "end": 164.65,
+        "scores": {
+          "OPERATOR": 0.0312,
+          "JACK": 0.5768
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 16,
+        "text": "OPERATOR: OK great, thank you for your patience. Now what is the nature of your complaint?",
+        "sourceLabel": "OPERATOR",
+        "start": 201.41,
+        "end": 206.27,
+        "scores": {
+          "OPERATOR": 0.8756,
+          "JACK": 0.1373
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 17,
+        "text": "JACK: I'm phoning to complain about a flight I took recently. I always take certain measures to ensure that I will be comfortable. For example, I always pay the additional cost for extra legroom and I always arrive punctually for the flight to make sure that I am seated beneath an air conditioner. Unfortunately I was disappointed to find that the air conditioning on the plane was broken, so I spent the entire flight in discomfort as it was too hot and the air was stuffy. (Q4)",
+        "sourceLabel": "JACK",
+        "start": 207.25,
+        "end": 217.25,
+        "scores": {
+          "OPERATOR": 0.1472,
+          "JACK": 0.9352
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 18,
+        "text": "OPERATOR: I see. I do apologise for this fault with the air conditioning. Now while I have you on the phone, would you mind answering a short questionnaire regarding your recent flight?",
+        "sourceLabel": "OPERATOR",
+        "start": 239.12,
+        "end": 249.12,
+        "scores": {
+          "OPERATOR": 0.9469,
+          "JACK": 0.1701
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 19,
+        "text": "JACK: Sure.",
+        "sourceLabel": "JACK",
+        "start": 250,
+        "end": 251.3,
+        "scores": {
+          "OPERATOR": 0.0855,
+          "JACK": 0.6352
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 20,
+        "text": "OPERATOR: OK, let's get started. What did you think of the food that was served to you during the flight?",
+        "sourceLabel": "OPERATOR",
+        "start": 252.46,
+        "end": 257.2,
+        "scores": {
+          "OPERATOR": 0.8394,
+          "JACK": 0.1579
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 21,
+        "text": "JACK: I thought that it was inexpensive and quite delicious. However I was still very hungry afterwards as it was a very small portion and more of a snack (Q5). Providing a snack for lunch is not reasonable.",
+        "sourceLabel": "JACK",
+        "start": 257.62,
+        "end": 267.62,
+        "scores": {
+          "OPERATOR": 0.1421,
+          "JACK": 0.939
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 22,
+        "text": "OPERATOR: OK, I have noted that down. What was your opinion of the quality of service that you received from our staff on-board?",
+        "sourceLabel": "OPERATOR",
+        "start": 272.56,
+        "end": 279.14,
+        "scores": {
+          "OPERATOR": 0.8841,
+          "JACK": 0.1264
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 23,
+        "text": "JACK: The staff were very helpful, (Q6) but each time I pressed the button to request service it took a long time for a staff member to arrive. I found this frustrating as there just weren't enough staff on-board the flight to be able to serve all of the customers.",
+        "sourceLabel": "JACK",
+        "start": 280.3,
+        "end": 290.3,
+        "scores": {
+          "OPERATOR": 0.2435,
+          "JACK": 0.8712
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 24,
+        "text": "OPERATOR: OK, that's great. Thank you very much for answering those questions. Are there any other parts of your travel experience that you would like to comment on?",
+        "sourceLabel": "OPERATOR",
+        "start": 296.52,
+        "end": 304.71,
+        "scores": {
+          "OPERATOR": 0.8991,
+          "JACK": 0.1183
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 25,
+        "text": "JACK: Yep. The process of moving through security (Q7) was very quick and helped to make my travel experience stress-free.",
+        "sourceLabel": "JACK",
+        "start": 305.95,
+        "end": 311.23,
+        "scores": {
+          "OPERATOR": 0.1168,
+          "JACK": 0.6353
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 26,
+        "text": "OPERATOR: Okay. Do you have any extra comments on the services you received during the flight?",
+        "sourceLabel": "OPERATOR",
+        "start": 312.5,
+        "end": 317.46,
+        "scores": {
+          "OPERATOR": 0.9409,
+          "JACK": 0.142
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 27,
+        "text": "JACK: Yes, I thought that the seats were very uncomfortable and looked very old. They were also in need of repair as the reclined feature on my chair was broken so I could not go to sleep for the whole flight. Luckily the entertainment (Q8) facilities were very good so I was able to distract myself by watching movies.",
+        "sourceLabel": "JACK",
+        "start": 317.82,
+        "end": 327.82,
+        "scores": {
+          "OPERATOR": 0.2184,
+          "JACK": 0.9161
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 28,
+        "text": "OPERATOR: Thank you so much for taking the time to answer all of my questions, we would like to offer you some gifts as a goodwill gesture, with a 20% discount on the cost of your hotel (Q9) stay. We also appreciate that international calls to your home country can be expensive and we are sure that you would like to keep your family updated on your travels, so please accept a phone card (Q10), which has a credit of Â£20.",
+        "sourceLabel": "OPERATOR",
+        "start": 338.04,
+        "end": 348.04,
+        "scores": {
+          "OPERATOR": 0.961,
+          "JACK": 0.2012
+        },
+        "chosen": "OPERATOR"
+      },
+      {
+        "index": 29,
+        "text": "JACK: Oh that's really great. Thank you so much for the gifts!",
+        "sourceLabel": "JACK",
+        "start": 365.2,
+        "end": 368.5,
+        "scores": {
+          "OPERATOR": 0.1079,
+          "JACK": 0.7713
+        },
+        "chosen": "JACK"
+      },
+      {
+        "index": 30,
+        "text": "OPERATOR: No problem, we look forward to having you travel with us again soon! Have a fantastic vacation.",
+        "sourceLabel": "OPERATOR",
+        "start": 368.63,
+        "end": 374.65,
+        "scores": {
+          "OPERATOR": 0.8169,
+          "JACK": 0.1538
+        },
+        "chosen": "OPERATOR"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "localRecognition": [
+    {
+      "start": 65.7,
+      "end": 71.3,
+      "words": [
+        {
+          "word": "Jack",
+          "start": 65.7,
+          "end": 66.04
+        },
+        {
+          "word": "Dawson,",
+          "start": 66.04,
+          "end": 66.58
+        },
+        {
+          "word": "that's",
+          "start": 67.26,
+          "end": 67.68
+        },
+        {
+          "word": "D",
+          "start": 67.68,
+          "end": 68.08
+        },
+        {
+          "word": "-A",
+          "start": 68.08,
+          "end": 68.54
+        },
+        {
+          "word": "-W",
+          "start": 68.54,
+          "end": 69.22
+        },
+        {
+          "word": "-S",
+          "start": 69.22,
+          "end": 69.92
+        },
+        {
+          "word": "-O",
+          "start": 69.92,
+          "end": 70.46
+        },
+        {
+          "word": "-N",
+          "start": 70.46,
+          "end": 70.86
+        }
+      ]
+    },
+    {
+      "start": 133.8,
+      "end": 151.4,
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 133.8,
+          "end": 134.56
+        },
+        {
+          "word": "And",
+          "start": 135.56,
+          "end": 135.56
+        },
+        {
+          "word": "what",
+          "start": 135.56,
+          "end": 135.9
+        },
+        {
+          "word": "is",
+          "start": 135.9,
+          "end": 136.1
+        },
+        {
+          "word": "the",
+          "start": 136.1,
+          "end": 136.28
+        },
+        {
+          "word": "postcode",
+          "start": 136.28,
+          "end": 136.76
+        },
+        {
+          "word": "of",
+          "start": 136.76,
+          "end": 136.96
+        },
+        {
+          "word": "the",
+          "start": 136.96,
+          "end": 137.1
+        },
+        {
+          "word": "residence?",
+          "start": 137.1,
+          "end": 137.46
+        },
+        {
+          "word": "It's",
+          "start": 141.26,
+          "end": 141.98
+        },
+        {
+          "word": "AL698GQ.",
+          "start": 141.98,
+          "end": 142.7
+        },
+        {
+          "word": "Thank",
+          "start": 143.16,
+          "end": 143.38
+        },
+        {
+          "word": "you.",
+          "start": 143.38,
+          "end": 143.72
+        },
+        {
+          "word": "Do",
+          "start": 144.12,
+          "end": 144.32
+        },
+        {
+          "word": "you",
+          "start": 144.32,
+          "end": 144.44
+        },
+        {
+          "word": "have",
+          "start": 144.44,
+          "end": 144.58
+        },
+        {
+          "word": "a",
+          "start": 144.58,
+          "end": 144.72
+        },
+        {
+          "word": "telephone",
+          "start": 144.72,
+          "end": 145.08
+        },
+        {
+          "word": "number?",
+          "start": 145.08,
+          "end": 145.46
+        },
+        {
+          "word": "Yes.",
+          "start": 146.14,
+          "end": 146.42
+        },
+        {
+          "word": "The",
+          "start": 146.8,
+          "end": 146.8
+        },
+        {
+          "word": "number",
+          "start": 146.8,
+          "end": 146.96
+        },
+        {
+          "word": "at",
+          "start": 146.96,
+          "end": 147.24
+        },
+        {
+          "word": "my",
+          "start": 147.24,
+          "end": 147.44
+        },
+        {
+          "word": "office",
+          "start": 147.44,
+          "end": 147.76
+        },
+        {
+          "word": "is",
+          "start": 147.76,
+          "end": 148.28
+        },
+        {
+          "word": "754",
+          "start": 148.28,
+          "end": 149.54
+        },
+        {
+          "word": "-688.",
+          "start": 149.54,
+          "end": 150.86
+        }
+      ]
+    },
+    {
+      "start": 163.9,
+      "end": 165,
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 163.9,
+          "end": 164.46
+        }
+      ]
+    },
+    {
+      "start": 249.9,
+      "end": 251.5,
+      "words": [
+        {
+          "word": "Sure.",
+          "start": 249.9,
+          "end": 250.92
+        }
+      ]
+    },
+    {
+      "start": 364.5,
+      "end": 368.6,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 365.08,
+          "end": 365.48
+        },
+        {
+          "word": "that's",
+          "start": 365.6,
+          "end": 365.92
+        },
+        {
+          "word": "really",
+          "start": 365.92,
+          "end": 366.14
+        },
+        {
+          "word": "great.",
+          "start": 366.14,
+          "end": 366.5
+        },
+        {
+          "word": "Thank",
+          "start": 367.12,
+          "end": 367.26
+        },
+        {
+          "word": "you",
+          "start": 367.26,
+          "end": 367.4
+        },
+        {
+          "word": "so",
+          "start": 367.4,
+          "end": 367.7
+        },
+        {
+          "word": "much",
+          "start": 367.7,
+          "end": 367.9
+        },
+        {
+          "word": "for",
+          "start": 367.9,
+          "end": 368.1
+        },
+        {
+          "word": "the",
+          "start": 368.1,
+          "end": 368.2
+        },
+        {
+          "word": "gift.",
+          "start": 368.2,
+          "end": 368.38
+        }
+      ]
+    }
+  ],
+  "renderedGroups": [
+    {
+      "index": 0,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: Hello, you have reached the complaints department. How can I help you?"
+    },
+    {
+      "index": 1,
+      "speaker": "JACK",
+      "text": "JACK: Yes, hello there. I am phoning to make a complaint regarding a flight that I took with you recently."
+    },
+    {
+      "index": 2,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: OK. There are some details I will need to take from you first. May I have your name please?"
+    },
+    {
+      "index": 3,
+      "speaker": "JACK",
+      "text": "JACK: Jack Dawson (Example). That's D-A-W-S-O-N."
+    },
+    {
+      "index": 4,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: And your address?"
+    },
+    {
+      "index": 5,
+      "speaker": "JACK",
+      "text": "JACK: It's 33 Hillcrest (Q1) Road. That's H-I-double-L-C-R-E-S-T."
+    },
+    {
+      "index": 6,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: 33 Hillcrest Road. Is that in Exeter?"
+    },
+    {
+      "index": 7,
+      "speaker": "JACK",
+      "text": "JACK: Yes."
+    },
+    {
+      "index": 8,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: And what is the postcode of the residence?"
+    },
+    {
+      "index": 9,
+      "speaker": "JACK",
+      "text": "JACK: It's AL698GQ. (Q2)"
+    },
+    {
+      "index": 10,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: Thank you. Do you have a telephone number?"
+    },
+    {
+      "index": 11,
+      "speaker": "JACK",
+      "text": "JACK: Yes. The number at my office is 754688. (Q3)"
+    },
+    {
+      "index": 12,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: That's good, and may I just take a home phone number for you in case of emergencies?"
+    },
+    {
+      "index": 13,
+      "speaker": "JACK",
+      "text": "JACK: No problem. It's 798662."
+    },
+    {
+      "index": 14,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: Are they both local numbers?"
+    },
+    {
+      "index": 15,
+      "speaker": "JACK",
+      "text": "JACK: Yes."
+    },
+    {
+      "index": 16,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: OK great, thank you for your patience. Now what is the nature of your complaint?"
+    },
+    {
+      "index": 17,
+      "speaker": "JACK",
+      "text": "JACK: I'm phoning to complain about a flight I took recently. I always take certain measures to ensure that I will be comfortable. For example, I always pay the additional cost for extra legroom and I always arrive punctually for the flight to make sure that I am seated beneath an air conditioner. Unfortunately I was disappointed to find that the air conditioning on the plane was broken, so I spent the entire flight in discomfort as it was too hot and the air was stuffy. (Q4)"
+    },
+    {
+      "index": 18,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: I see. I do apologise for this fault with the air conditioning. Now while I have you on the phone, would you mind answering a short questionnaire regarding your recent flight?"
+    },
+    {
+      "index": 19,
+      "speaker": "JACK",
+      "text": "JACK: Sure."
+    },
+    {
+      "index": 20,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: OK, let's get started. What did you think of the food that was served to you during the flight?"
+    },
+    {
+      "index": 21,
+      "speaker": "JACK",
+      "text": "JACK: I thought that it was inexpensive and quite delicious. However I was still very hungry afterwards as it was a very small portion and more of a snack (Q5). Providing a snack for lunch is not reasonable."
+    },
+    {
+      "index": 22,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: OK, I have noted that down. What was your opinion of the quality of service that you received from our staff on-board?"
+    },
+    {
+      "index": 23,
+      "speaker": "JACK",
+      "text": "JACK: The staff were very helpful, (Q6) but each time I pressed the button to request service it took a long time for a staff member to arrive. I found this frustrating as there just weren't enough staff on-board the flight to be able to serve all of the customers."
+    },
+    {
+      "index": 24,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: OK, that's great. Thank you very much for answering those questions. Are there any other parts of your travel experience that you would like to comment on?"
+    },
+    {
+      "index": 25,
+      "speaker": "JACK",
+      "text": "JACK: Yep. The process of moving through security (Q7) was very quick and helped to make my travel experience stress-free."
+    },
+    {
+      "index": 26,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: Okay. Do you have any extra comments on the services you received during the flight?"
+    },
+    {
+      "index": 27,
+      "speaker": "JACK",
+      "text": "JACK: Yes, I thought that the seats were very uncomfortable and looked very old. They were also in need of repair as the reclined feature on my chair was broken so I could not go to sleep for the whole flight. Luckily the entertainment (Q8) facilities were very good so I was able to distract myself by watching movies."
+    },
+    {
+      "index": 28,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: Thank you so much for taking the time to answer all of my questions, we would like to offer you some gifts as a goodwill gesture, with a 20% discount on the cost of your hotel (Q9) stay. We also appreciate that international calls to your home country can be expensive and we are sure that you would like to keep your family updated on your travels, so please accept a phone card (Q10), which has a credit of £20."
+    },
+    {
+      "index": 29,
+      "speaker": "JACK",
+      "text": "JACK: Oh that's really great. Thank you so much for the gifts!"
+    },
+    {
+      "index": 30,
+      "speaker": "OPERATOR",
+      "text": "OPERATOR: No problem, we look forward to having you travel with us again soon! Have a fantastic vacation."
+    }
+  ],
+  "otherPartsSha256": "9cedaa3bcbc1da6744f1cc80ee12fa007d670cfb1f4ac5e7cbfc4f373d6dc31a"
+}
