@@ -51,6 +51,8 @@ for(const n of [4,5])test(`Test ${n} Part 1 preserves words and clocks while ass
   assert.equal(chosen.leaveOneOutControls.length,13);
   assert.ok(chosen.leaveOneOutControls.every(r=>r.chosen===r.label));
   assert.equal(chosen.targetChecks.length,5);
+  assert.equal(independent.stabilityCheck.checks.length,5);
+  for(const clip of independent.stabilityCheck.checks){assert.equal(clip.checks.length,5);assert.ok(clip.checks.every(r=>r.chosen==='Student'));}
   for(const r of chosen.targetChecks){assert.equal(r.chosen,'Student');const scores=Object.values(r.scores).sort((a,b)=>b-a);assert.ok(scores[0]-scores[1]>.05);}
  }
 });

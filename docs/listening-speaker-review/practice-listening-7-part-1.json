@@ -1,0 +1,311 @@
+{
+  "test": "practice-listening-7",
+  "part": 1,
+  "audioSha256": "324512663dd3bed26ae220dcea51e9741ff4cebf20fee6bc67a91b9882473ac0",
+  "scope": {
+    "start": 51.99,
+    "end": 384.02
+  },
+  "sourceScope": "All published transcript paragraphs; no claim that omitted dialogue is transcribed.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "speakerLabelsUnchanged": true,
+  "clockEdits": [],
+  "addedUtteranceCues": [],
+  "plainTextSha256": "8def9a685462a293d25ed8614e8bc8bf676fdad397032843b9bb4d281657d066",
+  "wordClocksSha256": "577f345538af6c21e9a0275b5b181e0e5c7d5b7ac632b5cc43ada5a095f0f9d0",
+  "wordClockCount": 306,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          9.12,
+          15.82
+        ],
+        [
+          16.5,
+          23.74
+        ],
+        [
+          47.73,
+          53.3
+        ]
+      ],
+      "Agent": [
+        [
+          118.68,
+          129
+        ],
+        [
+          176.94,
+          187
+        ],
+        [
+          314.61,
+          324.11
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "start": 9.12,
+        "end": 15.82,
+        "scores": {
+          "Narrator": 0.8894,
+          "Agent": 0.1794
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "start": 16.5,
+        "end": 23.74,
+        "scores": {
+          "Narrator": 0.8584,
+          "Agent": 0.1306
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "start": 47.73,
+        "end": 53.3,
+        "scores": {
+          "Narrator": 0.8653,
+          "Agent": 0.1271
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Agent",
+        "start": 118.68,
+        "end": 129,
+        "scores": {
+          "Narrator": 0.1502,
+          "Agent": 0.9333
+        },
+        "chosen": "Agent"
+      },
+      {
+        "label": "Agent",
+        "start": 176.94,
+        "end": 187,
+        "scores": {
+          "Narrator": 0.1034,
+          "Agent": 0.9034
+        },
+        "chosen": "Agent"
+      },
+      {
+        "label": "Agent",
+        "start": 314.61,
+        "end": 324.11,
+        "scores": {
+          "Narrator": 0.1939,
+          "Agent": 0.9318
+        },
+        "chosen": "Agent"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "Narrator: Enquiries on a hot air balloon trip.",
+        "sourceLabel": "Narrator",
+        "start": 51.99,
+        "end": 53.29,
+        "scores": {
+          "Narrator": 0.6728,
+          "Agent": 0.0092
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "index": 1,
+        "text": "Agent: A single ride may cost you up to 280 pounds per person. But if you choose a group booking there is a discount, and the cheapest flight is 125 pounds each for a group booking of at least ten people.",
+        "sourceLabel": "Agent",
+        "start": 118.68,
+        "end": 128.68,
+        "scores": {
+          "Narrator": 0.1519,
+          "Agent": 0.9691
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 2,
+        "text": "Agent: Upon completing the trip we will provide each participant with a certificate, and that is entirely free of charge.",
+        "sourceLabel": "Agent",
+        "start": 148.49,
+        "end": 156.05,
+        "scores": {
+          "Narrator": 0.1737,
+          "Agent": 0.9583
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 3,
+        "text": "Agent: Reservations can be made one year ahead of your trip by telephone, but to pick a specific date you must book online. A confirmation e-mail will be sent to you right afterwards.",
+        "sourceLabel": "Agent",
+        "start": 161.64,
+        "end": 171.64,
+        "scores": {
+          "Narrator": 0.1429,
+          "Agent": 0.9563
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 4,
+        "text": "Agent: A hot air balloon's height is limited by the temperature of the air and how much fuel it can carry, and the highest altitude ever recorded for a ride is 1800 metres. Most rides stay below 300 metres.",
+        "sourceLabel": "Agent",
+        "start": 176.94,
+        "end": 186.94,
+        "scores": {
+          "Narrator": 0.1031,
+          "Agent": 0.9566
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 5,
+        "text": "Agent: Our flights generally meet about an hour before sunrise on the day, and you will be notified of the exact meeting time the evening before your flight. Night flights are avoided because of the weather conditions.",
+        "sourceLabel": "Agent",
+        "start": 216.76,
+        "end": 226.76,
+        "scores": {
+          "Narrator": 0.1596,
+          "Agent": 0.9446
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 6,
+        "text": "Agent: Autumn is the best time of year to take the trip. Not only can you see the changing hues of the trees from above, but it is a great way to spend time with the whole family before it gets too cold.",
+        "sourceLabel": "Agent",
+        "start": 292.23,
+        "end": 302.23,
+        "scores": {
+          "Narrator": 0.1656,
+          "Agent": 0.9535
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 7,
+        "text": "Agent: It can be quite dangerous to fly in bad weather conditions, like a thunderstorm, so our experienced pilots will not go up in such conditions.",
+        "sourceLabel": "Agent",
+        "start": 314.61,
+        "end": 324.11,
+        "scores": {
+          "Narrator": 0.1939,
+          "Agent": 0.9699
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 8,
+        "text": "Agent: We suggest wearing comfortable clothing like a jacket â€” multiple layers are always better. Wearing a helmet for safety is also a good idea. Sandals are not permitted.",
+        "sourceLabel": "Agent",
+        "start": 327.65,
+        "end": 337.65,
+        "scores": {
+          "Narrator": 0.1856,
+          "Agent": 0.9366
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 9,
+        "text": "Agent: All children must be above the minimum age of nine years old and they have to be accompanied by at least a parent or guardian. However, an adult has no age limit as long as they meet the health requirements.",
+        "sourceLabel": "Agent",
+        "start": 345.46,
+        "end": 355.46,
+        "scores": {
+          "Narrator": 0.1713,
+          "Agent": 0.9388
+        },
+        "chosen": "Agent"
+      },
+      {
+        "index": 10,
+        "text": "Agent: They must also be able to stand unassisted for an hour during the flight â€” it is the required position for the whole flight.",
+        "sourceLabel": "Agent",
+        "start": 376.88,
+        "end": 384.02,
+        "scores": {
+          "Narrator": 0.1736,
+          "Agent": 0.9085
+        },
+        "chosen": "Agent"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "localRecognition": null,
+  "renderedGroups": [
+    {
+      "index": 0,
+      "speaker": "Narrator",
+      "text": "Narrator: Enquiries on a hot air balloon trip."
+    },
+    {
+      "index": 1,
+      "speaker": "Agent",
+      "text": "Agent: A single ride may cost you up to 280 pounds per person. But if you choose a group booking there is a discount, and the cheapest flight is 125 pounds each for a group booking of at least ten people."
+    },
+    {
+      "index": 2,
+      "speaker": "Agent",
+      "text": "Agent: Upon completing the trip we will provide each participant with a certificate, and that is entirely free of charge."
+    },
+    {
+      "index": 3,
+      "speaker": "Agent",
+      "text": "Agent: Reservations can be made one year ahead of your trip by telephone, but to pick a specific date you must book online. A confirmation e-mail will be sent to you right afterwards."
+    },
+    {
+      "index": 4,
+      "speaker": "Agent",
+      "text": "Agent: A hot air balloon's height is limited by the temperature of the air and how much fuel it can carry, and the highest altitude ever recorded for a ride is 1800 metres. Most rides stay below 300 metres."
+    },
+    {
+      "index": 5,
+      "speaker": "Agent",
+      "text": "Agent: Our flights generally meet about an hour before sunrise on the day, and you will be notified of the exact meeting time the evening before your flight. Night flights are avoided because of the weather conditions."
+    },
+    {
+      "index": 6,
+      "speaker": "Agent",
+      "text": "Agent: Autumn is the best time of year to take the trip. Not only can you see the changing hues of the trees from above, but it is a great way to spend time with the whole family before it gets too cold."
+    },
+    {
+      "index": 7,
+      "speaker": "Agent",
+      "text": "Agent: It can be quite dangerous to fly in bad weather conditions, like a thunderstorm, so our experienced pilots will not go up in such conditions."
+    },
+    {
+      "index": 8,
+      "speaker": "Agent",
+      "text": "Agent: We suggest wearing comfortable clothing like a jacket — multiple layers are always better. Wearing a helmet for safety is also a good idea. Sandals are not permitted."
+    },
+    {
+      "index": 9,
+      "speaker": "Agent",
+      "text": "Agent: All children must be above the minimum age of nine years old and they have to be accompanied by at least a parent or guardian. However, an adult has no age limit as long as they meet the health requirements."
+    },
+    {
+      "index": 10,
+      "speaker": "Agent",
+      "text": "Agent: They must also be able to stand unassisted for an hour during the flight — it is the required position for the whole flight."
+    }
+  ],
+  "otherPartsSha256": "469cedc1e39a72c3b6ca69d3d10d003aa9b73c9d3829a69c1ab83de177d0e4e0"
+}

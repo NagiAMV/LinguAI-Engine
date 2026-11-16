@@ -42,7 +42,19 @@
       "transcriptSpeakerStatus": "source-labelled",
       "transcriptSpeakerProvenance": {
         "method": "existing-transcript-labels",
-        "reviewed": false
+        "reviewed": false,
+        "audioSha256": "324512663dd3bed26ae220dcea51e9741ff4cebf20fee6bc67a91b9882473ac0",
+        "alignment": "source-labelled-with-recording-specific-voice-check",
+        "fullTranscriptSpeakerReview": true,
+        "note": "Published Part 1 speaker labels compared against recording-specific acoustic references. No full human auditory or verbatim audit.",
+        "verifiedRanges": [
+          {
+            "start": 51.99,
+            "end": 384.02,
+            "method": "independent-acoustic-verification",
+            "audit": "docs/listening-speaker-review/practice-listening-7-part-1.json"
+          }
+        ]
       },
       "transcriptWordTiming": {
         "source": "local-asr-match",

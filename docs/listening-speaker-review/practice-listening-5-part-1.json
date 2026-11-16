@@ -2583,6 +2583,273 @@
     "selectedModelTrainingLanguage": "Chinese; used cross-language with recording-specific controls",
     "primaryModelDisagreementRetained": true,
     "humanAuditoryReview": false,
-    "scoreInterpretation": "Cosine similarity, not a correctness probability"
+    "scoreInterpretation": "Cosine similarity, not a correctness probability",
+    "stabilityCheck": {
+      "model": "eres2net-zh-independent-check",
+      "seed": 20261116,
+      "checks": [
+        {
+          "phrase": "I see",
+          "start": 138.38,
+          "end": 141.14,
+          "checks": [
+            {
+              "variant": "original",
+              "scores": {
+                "Narrator": 0.3752,
+                "Officer": 0.2112,
+                "Student": 0.7192
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "quieter",
+              "scores": {
+                "Narrator": 0.3742,
+                "Officer": 0.2089,
+                "Student": 0.7202
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "trim20ms",
+              "scores": {
+                "Narrator": 0.3575,
+                "Officer": 0.206,
+                "Student": 0.7187
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "shift30ms",
+              "scores": {
+                "Narrator": 0.358,
+                "Officer": 0.1999,
+                "Student": 0.7076
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "lightNoise",
+              "scores": {
+                "Narrator": 0.3669,
+                "Officer": 0.187,
+                "Student": 0.7004
+              },
+              "chosen": "Student"
+            }
+          ]
+        },
+        {
+          "phrase": "It just gets worse",
+          "start": 369.5,
+          "end": 371.58,
+          "checks": [
+            {
+              "variant": "original",
+              "scores": {
+                "Narrator": 0.2193,
+                "Officer": 0.2855,
+                "Student": 0.4645
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "quieter",
+              "scores": {
+                "Narrator": 0.2221,
+                "Officer": 0.2886,
+                "Student": 0.4667
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "trim20ms",
+              "scores": {
+                "Narrator": 0.1754,
+                "Officer": 0.2611,
+                "Student": 0.48
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "shift30ms",
+              "scores": {
+                "Narrator": 0.1989,
+                "Officer": 0.2822,
+                "Student": 0.494
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "lightNoise",
+              "scores": {
+                "Narrator": 0.1924,
+                "Officer": 0.2183,
+                "Student": 0.4697
+              },
+              "chosen": "Student"
+            }
+          ]
+        },
+        {
+          "phrase": "That's true",
+          "start": 384.1,
+          "end": 384.82,
+          "checks": [
+            {
+              "variant": "original",
+              "scores": {
+                "Narrator": 0.2915,
+                "Officer": 0.2789,
+                "Student": 0.5468
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "quieter",
+              "scores": {
+                "Narrator": 0.2902,
+                "Officer": 0.2819,
+                "Student": 0.5491
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "trim20ms",
+              "scores": {
+                "Narrator": 0.2684,
+                "Officer": 0.2389,
+                "Student": 0.5193
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "shift30ms",
+              "scores": {
+                "Narrator": 0.2709,
+                "Officer": 0.3052,
+                "Student": 0.5571
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "lightNoise",
+              "scores": {
+                "Narrator": 0.2422,
+                "Officer": 0.2369,
+                "Student": 0.4823
+              },
+              "chosen": "Student"
+            }
+          ]
+        },
+        {
+          "phrase": "Right",
+          "start": 403.32,
+          "end": 403.7,
+          "checks": [
+            {
+              "variant": "original",
+              "scores": {
+                "Narrator": 0.2036,
+                "Officer": 0.1565,
+                "Student": 0.4613
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "quieter",
+              "scores": {
+                "Narrator": 0.2036,
+                "Officer": 0.1557,
+                "Student": 0.4607
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "trim20ms",
+              "scores": {
+                "Narrator": 0.1561,
+                "Officer": 0.1468,
+                "Student": 0.3878
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "shift30ms",
+              "scores": {
+                "Narrator": 0.2078,
+                "Officer": 0.1504,
+                "Student": 0.5212
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "lightNoise",
+              "scores": {
+                "Narrator": 0.215,
+                "Officer": 0.1212,
+                "Student": 0.4671
+              },
+              "chosen": "Student"
+            }
+          ]
+        },
+        {
+          "phrase": "Thanks",
+          "start": 404.83,
+          "end": 405.39,
+          "checks": [
+            {
+              "variant": "original",
+              "scores": {
+                "Narrator": 0.248,
+                "Officer": 0.1769,
+                "Student": 0.3299
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "quieter",
+              "scores": {
+                "Narrator": 0.2609,
+                "Officer": 0.1746,
+                "Student": 0.3358
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "trim20ms",
+              "scores": {
+                "Narrator": 0.186,
+                "Officer": 0.1422,
+                "Student": 0.3264
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "shift30ms",
+              "scores": {
+                "Narrator": 0.1797,
+                "Officer": 0.1696,
+                "Student": 0.2968
+              },
+              "chosen": "Student"
+            },
+            {
+              "variant": "lightNoise",
+              "scores": {
+                "Narrator": 0.2801,
+                "Officer": 0.1345,
+                "Student": 0.4045
+              },
+              "chosen": "Student"
+            }
+          ]
+        }
+      ],
+      "scope": "Sensitivity check on volume, 20–30 ms window changes and low-level noise; not a model-agreement or human auditory claim."
+    }
   }
 }

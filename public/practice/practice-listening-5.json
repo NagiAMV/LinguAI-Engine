@@ -74,7 +74,8 @@
             "Right Thanks"
           ],
           "primaryModelDisagreement": true,
-          "audit": "docs/listening-speaker-review/practice-listening-5-part-1.json"
+          "audit": "docs/listening-speaker-review/practice-listening-5-part-1.json",
+          "stabilityChecks": 25
         }
       },
       "transcriptWordTiming": {
