@@ -1,0 +1,1029 @@
+{
+  "test": "practice-listening-11",
+  "part": 1,
+  "audioSha256": "3935b19ee939d021d4860a521a753dd52ed45d13b7e9822b9bb397ff0731b143",
+  "scope": {
+    "start": 0.24,
+    "end": 348.19
+  },
+  "sourceScope": "All 5 published paragraphs; speaker switches checked in 37 phrase spans. Existing answer annotations retained.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": true,
+  "annotationsUnchanged": true,
+  "wordClockCount": 725,
+  "wordClocksSha256": "7be4f6cc2ef32fb62d5a88827c5653f844b5eb97fd61f72c74a3cc0e89e9bc23",
+  "tokenCount": 795,
+  "tokensSha256": "734aa619944e77541ba99c587f60a3e3912af373b9e04c8c21c09aba320d931c",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Speaker 1": [
+        [
+          0.24,
+          10
+        ],
+        [
+          213.92,
+          220.5
+        ]
+      ],
+      "Speaker 2": [
+        [
+          109.68,
+          120.5
+        ],
+        [
+          196.39,
+          206.39
+        ],
+        [
+          247.59,
+          257.59
+        ]
+      ],
+      "Speaker 3": [
+        [
+          97.84,
+          108.94
+        ],
+        [
+          161.63,
+          171.9
+        ],
+        [
+          319.99,
+          325.8
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker 1",
+        "start": 0.24,
+        "end": 10,
+        "scores": {
+          "Speaker 1": 0.4496,
+          "Speaker 2": 0.241,
+          "Speaker 3": 0.3352
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 213.92,
+        "end": 220.5,
+        "scores": {
+          "Speaker 1": 0.4496,
+          "Speaker 2": 0.1831,
+          "Speaker 3": 0.2343
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 109.68,
+        "end": 120.5,
+        "scores": {
+          "Speaker 1": 0.1882,
+          "Speaker 2": 0.8837,
+          "Speaker 3": 0.2307
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 196.39,
+        "end": 206.39,
+        "scores": {
+          "Speaker 1": 0.2197,
+          "Speaker 2": 0.9147,
+          "Speaker 3": 0.2081
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 247.59,
+        "end": 257.59,
+        "scores": {
+          "Speaker 1": 0.3033,
+          "Speaker 2": 0.8754,
+          "Speaker 3": 0.2586
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 97.84,
+        "end": 108.94,
+        "scores": {
+          "Speaker 1": 0.325,
+          "Speaker 2": 0.2312,
+          "Speaker 3": 0.8895
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 161.63,
+        "end": 171.9,
+        "scores": {
+          "Speaker 1": 0.3258,
+          "Speaker 2": 0.2218,
+          "Speaker 3": 0.9148
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 319.99,
+        "end": 325.8,
+        "scores": {
+          "Speaker 1": 0.2975,
+          "Speaker 2": 0.2396,
+          "Speaker 3": 0.8243
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "You will hear",
+        "index": 0,
+        "start": 0.24,
+        "speaker": "Speaker 1",
+        "end": 95.25,
+        "voiceWindow": [
+          0.24,
+          10.24
+        ],
+        "scores": {
+          "Speaker 1": 0.8518,
+          "Speaker 2": 0.2466,
+          "Speaker 3": 0.3346
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Hello how can I help",
+        "index": 137,
+        "start": 95.28,
+        "speaker": "Speaker 2",
+        "end": 97.81,
+        "voiceWindow": [
+          95.28,
+          97.81
+        ],
+        "scores": {
+          "Speaker 1": 0.2034,
+          "Speaker 2": 0.6191,
+          "Speaker 3": 0.2264
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "I'm taking a year off",
+        "index": 143,
+        "start": 97.84,
+        "speaker": "Speaker 3",
+        "end": 108.91,
+        "voiceWindow": [
+          97.84,
+          107.84
+        ],
+        "scores": {
+          "Speaker 1": 0.311,
+          "Speaker 2": 0.2211,
+          "Speaker 3": 0.9495
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "That's right We can help",
+        "index": 176,
+        "start": 108.94,
+        "speaker": "Speaker 2",
+        "end": 121.85,
+        "voiceWindow": [
+          108.94,
+          118.94
+        ],
+        "scores": {
+          "Speaker 1": 0.1808,
+          "Speaker 2": 0.9309,
+          "Speaker 3": 0.2187
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Great",
+        "index": 215,
+        "start": 121.88,
+        "speaker": "Speaker 3",
+        "end": 122.21,
+        "voiceWindow": [
+          121.88,
+          122.21
+        ],
+        "scores": {
+          "Speaker 1": 0.1434,
+          "Speaker 2": 0.1822,
+          "Speaker 3": 0.4207
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "OK Your full name",
+        "index": 216,
+        "start": 122.24,
+        "speaker": "Speaker 2",
+        "end": 124.31,
+        "voiceWindow": [
+          122.24,
+          124.31
+        ],
+        "scores": {
+          "Speaker 1": 0.2351,
+          "Speaker 2": 0.4921,
+          "Speaker 3": 0.1605
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Sarah Brown",
+        "index": 220,
+        "start": 124.34,
+        "speaker": "Speaker 3",
+        "end": 125.66,
+        "voiceWindow": [
+          124.34,
+          125.66
+        ],
+        "scores": {
+          "Speaker 1": 0.2436,
+          "Speaker 2": 0.2169,
+          "Speaker 3": 0.5701
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "1 Date of birth",
+        "index": 222,
+        "start": 125.69,
+        "speaker": "Speaker 2",
+        "end": 126.7,
+        "voiceWindow": [
+          125.69,
+          126.7
+        ],
+        "scores": {
+          "Speaker 1": 0.094,
+          "Speaker 2": 0.6276,
+          "Speaker 3": 0.1875
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "March the 30th",
+        "index": 226,
+        "start": 126.73,
+        "speaker": "Speaker 3",
+        "end": 132.3,
+        "voiceWindow": [
+          126.73,
+          132.3
+        ],
+        "scores": {
+          "Speaker 1": 0.3244,
+          "Speaker 2": 0.365,
+          "Speaker 3": 0.701
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "And your address",
+        "index": 245,
+        "start": 132.33,
+        "speaker": "Speaker 2",
+        "end": 134.48,
+        "voiceWindow": [
+          132.33,
+          134.48
+        ],
+        "scores": {
+          "Speaker 1": 0.1464,
+          "Speaker 2": 0.5192,
+          "Speaker 3": 0.3805
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "21 Waverley",
+        "index": 248,
+        "start": 134.51,
+        "speaker": "Speaker 3",
+        "end": 140.82,
+        "voiceWindow": [
+          134.51,
+          140.82
+        ],
+        "scores": {
+          "Speaker 1": 0.2625,
+          "Speaker 2": 0.2389,
+          "Speaker 3": 0.8328
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "And a contact telephone",
+        "index": 254,
+        "start": 140.85,
+        "speaker": "Speaker 2",
+        "end": 143.38,
+        "voiceWindow": [
+          140.85,
+          143.38
+        ],
+        "scores": {
+          "Speaker 1": 0.2095,
+          "Speaker 2": 0.7011,
+          "Speaker 3": 0.2454
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "2 I can give",
+        "index": 260,
+        "start": 143.41,
+        "speaker": "Speaker 3",
+        "end": 150.74,
+        "voiceWindow": [
+          143.41,
+          150.74
+        ],
+        "scores": {
+          "Speaker 1": 0.2488,
+          "Speaker 2": 0.1723,
+          "Speaker 3": 0.8391
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Fine Now tell me",
+        "index": 275,
+        "start": 150.77,
+        "speaker": "Speaker 2",
+        "end": 157.82,
+        "voiceWindow": [
+          150.77,
+          157.82
+        ],
+        "scores": {
+          "Speaker 1": 0.2666,
+          "Speaker 2": 0.8255,
+          "Speaker 3": 0.1911
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "3 Well I'd like",
+        "index": 292,
+        "start": 157.85,
+        "speaker": "Speaker 3",
+        "end": 160.28,
+        "voiceWindow": [
+          157.85,
+          160.28
+        ],
+        "scores": {
+          "Speaker 1": 0.2632,
+          "Speaker 2": 0.2372,
+          "Speaker 3": 0.6987
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Have you been there",
+        "index": 303,
+        "start": 160.31,
+        "speaker": "Speaker 2",
+        "end": 161.6,
+        "voiceWindow": [
+          160.31,
+          161.6
+        ],
+        "scores": {
+          "Speaker 1": 0.1321,
+          "Speaker 2": 0.7076,
+          "Speaker 3": 0.1318
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "No I know Southern",
+        "index": 308,
+        "start": 161.63,
+        "speaker": "Speaker 3",
+        "end": 173.02,
+        "voiceWindow": [
+          161.63,
+          171.63
+        ],
+        "scores": {
+          "Speaker 1": 0.3252,
+          "Speaker 2": 0.2224,
+          "Speaker 3": 0.9618
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "OK Now just as important",
+        "index": 355,
+        "start": 173.05,
+        "speaker": "Speaker 2",
+        "end": 178.6,
+        "voiceWindow": [
+          173.05,
+          178.6
+        ],
+        "scores": {
+          "Speaker 1": 0.3314,
+          "Speaker 2": 0.8861,
+          "Speaker 3": 0.1807
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "5 Well I thought",
+        "index": 369,
+        "start": 178.63,
+        "speaker": "Speaker 3",
+        "end": 187.84,
+        "voiceWindow": [
+          178.63,
+          187.84
+        ],
+        "scores": {
+          "Speaker 1": 0.2422,
+          "Speaker 2": 0.2328,
+          "Speaker 3": 0.9087
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Hmm that sort of work",
+        "index": 398,
+        "start": 187.87,
+        "speaker": "Speaker 2",
+        "end": 195.08,
+        "voiceWindow": [
+          187.87,
+          195.08
+        ],
+        "scores": {
+          "Speaker 1": 0.219,
+          "Speaker 2": 0.9226,
+          "Speaker 3": 0.2227
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Such as",
+        "index": 416,
+        "start": 195.11,
+        "speaker": "Speaker 3",
+        "end": 196.35999999999999,
+        "voiceWindow": [
+          195.11,
+          196.35999999999999
+        ],
+        "scores": {
+          "Speaker 1": 0.096,
+          "Speaker 2": 0.2602,
+          "Speaker 3": 0.5369
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Well 6 lots of students",
+        "index": 418,
+        "start": 196.39,
+        "speaker": "Speaker 2",
+        "end": 213.89,
+        "voiceWindow": [
+          196.39,
+          206.39
+        ],
+        "scores": {
+          "Speaker 1": 0.2197,
+          "Speaker 2": 0.9627,
+          "Speaker 3": 0.2081
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 469,
+        "start": 213.92,
+        "speaker": "Speaker 1",
+        "end": 247.56,
+        "voiceWindow": [
+          213.92,
+          223.92
+        ],
+        "scores": {
+          "Speaker 1": 0.8024,
+          "Speaker 2": 0.1627,
+          "Speaker 3": 0.232
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Now travel",
+        "index": 496,
+        "start": 247.59,
+        "speaker": "Speaker 2",
+        "end": 265.23,
+        "voiceWindow": [
+          247.59,
+          257.59000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.3033,
+          "Speaker 2": 0.9446,
+          "Speaker 3": 0.2586
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Sounds good",
+        "index": 550,
+        "start": 265.26,
+        "speaker": "Speaker 3",
+        "end": 271.77000000000004,
+        "voiceWindow": [
+          265.26,
+          271.77000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.3433,
+          "Speaker 2": 0.2459,
+          "Speaker 3": 0.8611
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "8 Yes I'll give",
+        "index": 568,
+        "start": 271.8,
+        "speaker": "Speaker 2",
+        "end": 294.71000000000004,
+        "voiceWindow": [
+          271.8,
+          281.8
+        ],
+        "scores": {
+          "Speaker 1": 0.2514,
+          "Speaker 2": 0.9193,
+          "Speaker 3": 0.2425
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "I won't mind that",
+        "index": 635,
+        "start": 294.74,
+        "speaker": "Speaker 3",
+        "end": 296.29,
+        "voiceWindow": [
+          294.74,
+          296.29
+        ],
+        "scores": {
+          "Speaker 1": 0.227,
+          "Speaker 2": 0.1338,
+          "Speaker 3": 0.4538
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "And you're going to be",
+        "index": 639,
+        "start": 296.32,
+        "speaker": "Speaker 2",
+        "end": 298.09000000000003,
+        "voiceWindow": [
+          296.32,
+          298.09000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.2017,
+          "Speaker 2": 0.6817,
+          "Speaker 3": 0.0718
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes",
+        "index": 646,
+        "start": 298.12,
+        "speaker": "Speaker 3",
+        "end": 299.17,
+        "voiceWindow": [
+          298.12,
+          299.17
+        ],
+        "scores": {
+          "Speaker 1": 0.094,
+          "Speaker 2": 0.0902,
+          "Speaker 3": 0.3934
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Well before I make",
+        "index": 647,
+        "start": 299.2,
+        "speaker": "Speaker 2",
+        "end": 307.73,
+        "voiceWindow": [
+          299.2,
+          307.73
+        ],
+        "scores": {
+          "Speaker 1": 0.2645,
+          "Speaker 2": 0.8695,
+          "Speaker 3": 0.178
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "What does it cover",
+        "index": 676,
+        "start": 307.76,
+        "speaker": "Speaker 3",
+        "end": 309.18,
+        "voiceWindow": [
+          307.76,
+          309.18
+        ],
+        "scores": {
+          "Speaker 1": 0.2344,
+          "Speaker 2": 0.1394,
+          "Speaker 3": 0.6208
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Any valuable items",
+        "index": 680,
+        "start": 309.21,
+        "speaker": "Speaker 2",
+        "end": 319.96000000000004,
+        "voiceWindow": [
+          309.21,
+          319.21
+        ],
+        "scores": {
+          "Speaker 1": 0.2239,
+          "Speaker 2": 0.862,
+          "Speaker 3": 0.2205
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Right I'll do that",
+        "index": 711,
+        "start": 319.99,
+        "speaker": "Speaker 3",
+        "end": 327.08000000000004,
+        "voiceWindow": [
+          319.99,
+          327.08000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.3172,
+          "Speaker 2": 0.2309,
+          "Speaker 3": 0.9285
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Hmm not a good idea",
+        "index": 733,
+        "start": 327.11,
+        "speaker": "Speaker 2",
+        "end": 336.98,
+        "voiceWindow": [
+          327.11,
+          336.98
+        ],
+        "scores": {
+          "Speaker 1": 0.2538,
+          "Speaker 2": 0.8785,
+          "Speaker 3": 0.2324
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh OK",
+        "index": 771,
+        "start": 337.01,
+        "speaker": "Speaker 3",
+        "end": 338.25,
+        "voiceWindow": [
+          337.01,
+          338.25
+        ],
+        "scores": {
+          "Speaker 1": 0.2131,
+          "Speaker 2": 0.1081,
+          "Speaker 3": 0.6611
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Right so I've entered",
+        "index": 773,
+        "start": 338.28,
+        "speaker": "Speaker 2",
+        "end": 346.62,
+        "voiceWindow": [
+          338.28,
+          346.62
+        ],
+        "scores": {
+          "Speaker 1": 0.2267,
+          "Speaker 2": 0.7834,
+          "Speaker 3": 0.2207
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 788,
+        "start": 346.65,
+        "speaker": "Speaker 1",
+        "end": 348.19,
+        "voiceWindow": [
+          346.65,
+          348.19
+        ],
+        "scores": {
+          "Speaker 1": 0.6762,
+          "Speaker 2": 0.2137,
+          "Speaker 3": 0.2962
+        },
+        "chosen": "Speaker 1"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": "You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts. Write all your answers in the listening question booklet. At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet. Now turn to part one on page two of your question booklet. Part one. You will hear a conversation between a travel agent and a student who is planning a trip abroad. First, you have some time to look at questions one to six. Now listen carefully and answer questions one to six."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "Hello, how can I help you? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "I'm taking a year off, and I'm hoping to travel abroad and to find work as well for part of the time. I know you specialise in student travel and work placements, so... "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "That's right. We can help you arrange your travel and set up a job for you. But first of all, I need some personal details, and then we'll match your details against our database to see what's available work-wise. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "Great. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "OK. Your full name? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "Sarah Brown. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "1Date of birth? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "March the 30th. Oh, I mean the 31st! 1988.(1: 31 March 1988 — 30-chi o'zgartirildi) (30th — tuzoq) "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "And your address? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "21 Waverley Road, Radstone, RD4 6WV. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "And a contact telephone number, please? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "2I can give you my mobile number. 0903 775 115.(2: 0903 775 115) "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "Fine. Now, tell me where you plan to travel to, and I'll see how I can help. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "3Well, I'd like to go to Northern Europe.(3: Northern) "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "Have you been there before? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "No. I know Southern Europe quite well, as I've been there with my family. (Southern — tuzoq) We always went by plane, but now I can choose. 4I'd like to go by train so I can stop off whenever I want.(4: train — 'plane' tuzoq)"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "OK. Now, just as important, what sort of work have you got in mind? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 3",
+      "text": "5Well, I thought about hotel work because then I might get accommodation with the job(5: hotel), and I'd like to work for about half the year. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "Hmm, that sort of work is usually quite competitive. Perhaps you should consider an alternative, just in case. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 3",
+      "text": "Such as? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "Well, 6lots of students like to work on a farm(6: farm), and we have lots of requests from people looking for student workers for a few weeks at a time throughout the year. You can generally earn quite good money if you're willing to work fairly long hours."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10. Now listen and answer questions 7 to 10."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "Now, travel. Buying single tickets would be expensive, so 7the best option would be to have a European pass(7: pass), which would give you unlimited rail travel at off-peak times. To start off with, we could issue one for up to three months to cover the countries you're intending to visit. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "Sounds good. Do you have any information about youth hostels which I could use to plan my route? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "8Yes, I'll give you a booklet now(8: booklet), but it's down to you to book your accommodation. At certain times of the year, especially during public holiday periods, such places fill up fast. And remember, if we're going to arrange work for you in the countryside, you won't be able to go out easily in the evenings. Although you'd probably be too tired anyway. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "I won't mind that. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "And you're going to be travelling alone? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "Yes. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "Well, before I make any arrangements for you, 9you need to have insurance for your entire trip. We can arrange that for you if you like.(9: insurance) "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "What does it cover? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "Any valuable items, jewellery for example, your money, your mobile, your health, and if you needed to get back home quickly, you'd be covered so you could buy a plane ticket. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "Right, I'll do that. I thought I'd take my laptop so I can email and keep in touch with people at home. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "Hmm, not a good idea to lug your computer around with you. (laptop — tavsiya etilmadi, tuzoq) 10It's much more sensible to rely on an internet cafe.(10: internet cafe) That's what we tell people to do. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "Oh, OK. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "Right, so I've entered all your details. Let's see what the database comes up with. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 1",
+      "text": "That is the end of part one."
+    }
+  ],
+  "annotations": [
+    [
+      "t-note",
+      "(1: 31 March 1988 — 30-chi o'zgartirildi)"
+    ],
+    [
+      "EM",
+      "(30th — tuzoq)"
+    ],
+    [
+      "t-note",
+      "(2: 0903 775 115)"
+    ],
+    [
+      "t-note",
+      "(3: Northern)"
+    ],
+    [
+      "EM",
+      "(Southern — tuzoq)"
+    ],
+    [
+      "t-note",
+      "(4: train — 'plane' tuzoq)"
+    ],
+    [
+      "t-note",
+      "(5: hotel)"
+    ],
+    [
+      "t-note",
+      "(6: farm)"
+    ],
+    [
+      "t-note",
+      "(7: pass)"
+    ],
+    [
+      "t-note",
+      "(8: booklet)"
+    ],
+    [
+      "t-note",
+      "(9: insurance)"
+    ],
+    [
+      "EM",
+      "(laptop — tavsiya etilmadi, tuzoq)"
+    ],
+    [
+      "t-note",
+      "(10: internet cafe)"
+    ]
+  ],
+  "otherPartsSha256": "6251cf184fb5bc37ebaf1dfe800abf5968c7d23146e5dca7568ab083d9332e8f"
+}

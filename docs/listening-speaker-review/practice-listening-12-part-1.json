@@ -1,0 +1,2691 @@
+{
+  "test": "practice-listening-12",
+  "part": 1,
+  "audioSha256": "eb49cc46153f247b602ca113843e7f506a30b4957bc365716fd69eed5a6c6148",
+  "scope": {
+    "start": 0,
+    "end": 474.17
+  },
+  "sourceScope": "All 73 published paragraphs and three within-paragraph speaker switches checked against this recording.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": true,
+  "annotationsUnchanged": true,
+  "wordClockCount": 833,
+  "wordClocksSha256": "4711d68bd37007ff6b9a1f4ff81b99bbaeadb32fdbe11ae9cfafe1b10ac5aeff",
+  "tokenCount": 887,
+  "tokensSha256": "1065655d512d75067a69685860cb895ccb7e728b41209f08771c054d21cd0ad9",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English audio",
+    "anchors": {
+      "Speaker 1": [
+        [
+          3.78,
+          9.99
+        ],
+        [
+          126.2,
+          133.17
+        ],
+        [
+          278.48,
+          285
+        ]
+      ],
+      "Speaker 2": [
+        [
+          151.44,
+          160
+        ],
+        [
+          245.5,
+          251.34
+        ],
+        [
+          351.8,
+          356.48
+        ]
+      ],
+      "Speaker 3": [
+        [
+          145.96,
+          150.32
+        ],
+        [
+          263.63,
+          264.75
+        ],
+        [
+          339.49,
+          340.99
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker 1",
+        "window": [
+          3.78,
+          9.99
+        ],
+        "scores": {
+          "Speaker 1": 0.7884,
+          "Speaker 2": 0.2621,
+          "Speaker 3": 0.3181
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "window": [
+          126.2,
+          133.17
+        ],
+        "scores": {
+          "Speaker 1": 0.7919,
+          "Speaker 2": 0.2608,
+          "Speaker 3": 0.2692
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "window": [
+          278.48,
+          285
+        ],
+        "scores": {
+          "Speaker 1": 0.7771,
+          "Speaker 2": 0.278,
+          "Speaker 3": 0.3498
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          151.44,
+          160
+        ],
+        "scores": {
+          "Speaker 1": 0.2716,
+          "Speaker 2": 0.728,
+          "Speaker 3": 0.167
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          245.5,
+          251.34
+        ],
+        "scores": {
+          "Speaker 1": 0.2978,
+          "Speaker 2": 0.7264,
+          "Speaker 3": 0.1658
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          351.8,
+          356.48
+        ],
+        "scores": {
+          "Speaker 1": 0.1968,
+          "Speaker 2": 0.6337,
+          "Speaker 3": 0.3158
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          145.96,
+          150.32
+        ],
+        "scores": {
+          "Speaker 1": 0.3552,
+          "Speaker 2": 0.2265,
+          "Speaker 3": 0.6747
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          263.63,
+          264.75
+        ],
+        "scores": {
+          "Speaker 1": 0.2104,
+          "Speaker 2": 0.142,
+          "Speaker 3": 0.41
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          339.49,
+          340.99
+        ],
+        "scores": {
+          "Speaker 1": 0.2627,
+          "Speaker 2": 0.2306,
+          "Speaker 3": 0.5534
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "until": 17,
+        "speaker": "Speaker 1",
+        "text": "You will hear a number of different recordings, and you will have to answer questions on what",
+        "start": 3.78,
+        "end": 9.43,
+        "voiceWindow": [
+          3.78,
+          9.43
+        ],
+        "scores": {
+          "Speaker 1": 0.8923,
+          "Speaker 2": 0.2774,
+          "Speaker 3": 0.3024
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 1,
+        "index": 17,
+        "until": 19,
+        "speaker": "Speaker 1",
+        "text": "you hear.",
+        "start": 9.43,
+        "end": 9.99,
+        "voiceWindow": [
+          9.31,
+          10.11
+        ],
+        "scores": {
+          "Speaker 1": 0.5066,
+          "Speaker 2": 0.1516,
+          "Speaker 3": 0.2153
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 2,
+        "index": 19,
+        "until": 37,
+        "speaker": "Speaker 1",
+        "text": "There will be time for you to read the instructions and questions, and you will have a chance",
+        "start": 11.06,
+        "end": 15.3,
+        "voiceWindow": [
+          11.06,
+          15.3
+        ],
+        "scores": {
+          "Speaker 1": 0.7747,
+          "Speaker 2": 0.1873,
+          "Speaker 3": 0.3404
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 3,
+        "index": 37,
+        "until": 41,
+        "speaker": "Speaker 1",
+        "text": "to check your work.",
+        "start": 15.3,
+        "end": 16.4,
+        "voiceWindow": [
+          15.3,
+          16.4
+        ],
+        "scores": {
+          "Speaker 1": 0.3874,
+          "Speaker 2": 0.3441,
+          "Speaker 3": 0.1556
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 4,
+        "index": 41,
+        "until": 49,
+        "speaker": "Speaker 1",
+        "text": "All the recordings will be played once only.",
+        "start": 17.52,
+        "end": 20.4,
+        "voiceWindow": [
+          17.52,
+          20.4
+        ],
+        "scores": {
+          "Speaker 1": 0.7016,
+          "Speaker 2": 0.1997,
+          "Speaker 3": 0.2606
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 5,
+        "index": 49,
+        "until": 55,
+        "speaker": "Speaker 1",
+        "text": "The test is in four sections.",
+        "start": 21.76,
+        "end": 24.2,
+        "voiceWindow": [
+          21.76,
+          24.2
+        ],
+        "scores": {
+          "Speaker 1": 0.7182,
+          "Speaker 2": 0.1503,
+          "Speaker 3": 0.2736
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 6,
+        "index": 55,
+        "until": 64,
+        "speaker": "Speaker 1",
+        "text": "Write all your answers in the listening question booklet.",
+        "start": 25.22,
+        "end": 28.4,
+        "voiceWindow": [
+          25.22,
+          28.4
+        ],
+        "scores": {
+          "Speaker 1": 0.7936,
+          "Speaker 2": 0.1804,
+          "Speaker 3": 0.2795
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 7,
+        "index": 64,
+        "until": 82,
+        "speaker": "Speaker 1",
+        "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an",
+        "start": 29.6,
+        "end": 35.04,
+        "voiceWindow": [
+          29.6,
+          35.04
+        ],
+        "scores": {
+          "Speaker 1": 0.7741,
+          "Speaker 2": 0.2284,
+          "Speaker 3": 0.218
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 8,
+        "index": 82,
+        "until": 84,
+        "speaker": "Speaker 1",
+        "text": "answer sheet.",
+        "start": 35.04,
+        "end": 35.72,
+        "voiceWindow": [
+          34.92,
+          35.839999999999996
+        ],
+        "scores": {
+          "Speaker 1": 0.491,
+          "Speaker 2": 0.246,
+          "Speaker 3": 0.1287
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 9,
+        "index": 84,
+        "until": 96,
+        "speaker": "Speaker 1",
+        "text": "Now turn to section 1 on page 2 of your question booklet.",
+        "start": 38.09,
+        "end": 41.83,
+        "voiceWindow": [
+          38.09,
+          41.83
+        ],
+        "scores": {
+          "Speaker 1": 0.8592,
+          "Speaker 2": 0.2803,
+          "Speaker 3": 0.2914
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 10,
+        "index": 96,
+        "until": 98,
+        "speaker": "Speaker 1",
+        "text": "Section 1.",
+        "start": 47.36,
+        "end": 47.76,
+        "voiceWindow": [
+          47.24,
+          47.879999999999995
+        ],
+        "scores": {
+          "Speaker 1": 0.4925,
+          "Speaker 2": 0.1439,
+          "Speaker 3": 0.161
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 11,
+        "index": 98,
+        "until": 113,
+        "speaker": "Speaker 1",
+        "text": "You will hear a student from overseas phoning the Student Accommodation Office of a college",
+        "start": 49.2,
+        "end": 54.36,
+        "voiceWindow": [
+          49.2,
+          54.36
+        ],
+        "scores": {
+          "Speaker 1": 0.8096,
+          "Speaker 2": 0.2593,
+          "Speaker 3": 0.3059
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 12,
+        "index": 113,
+        "until": 119,
+        "speaker": "Speaker 1",
+        "text": "in the UK for some information.",
+        "start": 54.36,
+        "end": 56.52,
+        "voiceWindow": [
+          54.36,
+          56.52
+        ],
+        "scores": {
+          "Speaker 1": 0.731,
+          "Speaker 2": 0.2876,
+          "Speaker 3": 0.2258
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 13,
+        "index": 119,
+        "until": 134,
+        "speaker": "Speaker 1",
+        "text": "First you have some time to look at questions 1 to 4 on page 2.",
+        "start": 57.97,
+        "end": 62.47,
+        "voiceWindow": [
+          57.97,
+          62.47
+        ],
+        "scores": {
+          "Speaker 1": 0.7392,
+          "Speaker 2": 0.3788,
+          "Speaker 3": 0.3171
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 14,
+        "index": 134,
+        "until": 148,
+        "speaker": "Speaker 1",
+        "text": "You will see that there is an example that has been done for you.",
+        "start": 82.74,
+        "end": 85.8,
+        "voiceWindow": [
+          82.74,
+          85.8
+        ],
+        "scores": {
+          "Speaker 1": 0.8019,
+          "Speaker 2": 0.2905,
+          "Speaker 3": 0.2357
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 15,
+        "index": 148,
+        "until": 161,
+        "speaker": "Speaker 1",
+        "text": "On this occasion only, the conversation relating to this will be played first.",
+        "start": 86.38,
+        "end": 91.14,
+        "voiceWindow": [
+          86.38,
+          91.14
+        ],
+        "scores": {
+          "Speaker 1": 0.7714,
+          "Speaker 2": 0.2015,
+          "Speaker 3": 0.2125
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 16,
+        "index": 161,
+        "until": 171,
+        "speaker": "Speaker 2",
+        "text": "College accommodation bureau, Darren speaking, how may I help you?",
+        "start": 94.73,
+        "end": 98.43,
+        "voiceWindow": [
+          94.73,
+          98.43
+        ],
+        "scores": {
+          "Speaker 1": 0.2287,
+          "Speaker 2": 0.6949,
+          "Speaker 3": 0.1374
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 17,
+        "index": 171,
+        "until": 188,
+        "speaker": "Speaker 3",
+        "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation.",
+        "start": 99.08,
+        "end": 104.08,
+        "voiceWindow": [
+          99.08,
+          104.08
+        ],
+        "scores": {
+          "Speaker 1": 0.3746,
+          "Speaker 2": 0.2718,
+          "Speaker 3": 0.8358
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 18,
+        "index": 188,
+        "until": 194,
+        "speaker": "Speaker 2",
+        "text": "Right. Well, there are various options.",
+        "start": 105.23,
+        "end": 108.48,
+        "voiceWindow": [
+          105.23,
+          108.48
+        ],
+        "scores": {
+          "Speaker 1": 0.2918,
+          "Speaker 2": 0.7278,
+          "Speaker 3": 0.2222
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 19,
+        "index": 194,
+        "until": 208,
+        "speaker": "Speaker 2",
+        "text": "The first one is to stay in college accommodation. That'd be a single room.",
+        "start": 109.38,
+        "end": 113.72,
+        "voiceWindow": [
+          109.38,
+          113.72
+        ],
+        "scores": {
+          "Speaker 1": 0.1969,
+          "Speaker 2": 0.8075,
+          "Speaker 3": 0.1168
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 20,
+        "index": 208,
+        "until": 229,
+        "speaker": "Speaker 1",
+        "text": "The first type of accommodation is a single room in the college. So, single room has been written in the space.",
+        "start": 117.64,
+        "end": 124.6,
+        "voiceWindow": [
+          117.64,
+          124.6
+        ],
+        "scores": {
+          "Speaker 1": 0.8303,
+          "Speaker 2": 0.2743,
+          "Speaker 3": 0.3112
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 21,
+        "index": 229,
+        "until": 251,
+        "speaker": "Speaker 1",
+        "text": "Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time.",
+        "start": 126.2,
+        "end": 133.17,
+        "voiceWindow": [
+          126.2,
+          133.17
+        ],
+        "scores": {
+          "Speaker 1": 0.9089,
+          "Speaker 2": 0.2608,
+          "Speaker 3": 0.2692
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 22,
+        "index": 251,
+        "until": 259,
+        "speaker": "Speaker 1",
+        "text": "Listen carefully and answer questions 1 to 4.",
+        "start": 134.48,
+        "end": 137.74,
+        "voiceWindow": [
+          134.48,
+          137.74
+        ],
+        "scores": {
+          "Speaker 1": 0.733,
+          "Speaker 2": 0.252,
+          "Speaker 3": 0.3107
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 23,
+        "index": 259,
+        "until": 268,
+        "speaker": "Speaker 2",
+        "text": "Accommodation Bureau, Darren speaking, how may I help you?",
+        "start": 141.59,
+        "end": 144.67,
+        "voiceWindow": [
+          141.59,
+          144.67
+        ],
+        "scores": {
+          "Speaker 1": 0.2461,
+          "Speaker 2": 0.6989,
+          "Speaker 3": 0.2033
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 24,
+        "index": 268,
+        "until": 285,
+        "speaker": "Speaker 3",
+        "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation.",
+        "start": 145.96,
+        "end": 150.32,
+        "voiceWindow": [
+          145.96,
+          150.32
+        ],
+        "scores": {
+          "Speaker 1": 0.3552,
+          "Speaker 2": 0.2265,
+          "Speaker 3": 0.8688
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 25,
+        "index": 285,
+        "until": 305,
+        "speaker": "Speaker 2",
+        "text": "Right. Well, there are various options. The first one is to stay in college accommodation. That'd be a single room.",
+        "start": 151.44,
+        "end": 160,
+        "voiceWindow": [
+          151.44,
+          160
+        ],
+        "scores": {
+          "Speaker 1": 0.2716,
+          "Speaker 2": 0.883,
+          "Speaker 3": 0.167
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 26,
+        "index": 305,
+        "until": 310,
+        "speaker": "Speaker 3",
+        "text": "How much would that cost?",
+        "start": 161.06,
+        "end": 162.42,
+        "voiceWindow": [
+          161.06,
+          162.42
+        ],
+        "scores": {
+          "Speaker 1": 0.3128,
+          "Speaker 2": 0.2319,
+          "Speaker 3": 0.5641
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 27,
+        "index": 310,
+        "until": 324,
+        "speaker": "Speaker 2",
+        "text": "Well, it depends. For a standard room, you're looking at Â£3,276 for the year.",
+        "start": 163.76,
+        "end": 171.88,
+        "voiceWindow": [
+          163.76,
+          171.88
+        ],
+        "scores": {
+          "Speaker 1": 0.2122,
+          "Speaker 2": 0.8171,
+          "Speaker 3": 0.2034
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 28,
+        "index": 324,
+        "until": 338,
+        "speaker": "Speaker 2",
+        "text": "that's just for a room with wash basin or three thousand eight hundred and",
+        "start": 172.56,
+        "end": 175.22,
+        "voiceWindow": [
+          172.56,
+          175.22
+        ],
+        "scores": {
+          "Speaker 1": 0.1665,
+          "Speaker 2": 0.7121,
+          "Speaker 3": 0.1624
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 29,
+        "index": 338,
+        "until": 350,
+        "speaker": "Speaker 2",
+        "text": "thirty-four pounds if you want a non-sweet that's with your own small",
+        "start": 179.07,
+        "end": 182.97,
+        "voiceWindow": [
+          179.07,
+          182.97
+        ],
+        "scores": {
+          "Speaker 1": 0.2695,
+          "Speaker 2": 0.737,
+          "Speaker 3": 0.1724
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 30,
+        "index": 350,
+        "until": 363,
+        "speaker": "Speaker 2",
+        "text": "bathroom I see that's more than I expected it does include heating that's",
+        "start": 182.97,
+        "end": 190.32,
+        "voiceWindow": [
+          181.8,
+          183.6
+        ],
+        "scores": {
+          "Speaker 1": 0.1201,
+          "Speaker 2": 0.4987,
+          "Speaker 3": 0.1635
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 31,
+        "index": 363,
+        "until": 377,
+        "speaker": "Speaker 2",
+        "text": "quite a saving because energy costs can be high especially in winter hmm does",
+        "start": 190.32,
+        "end": 194.89,
+        "voiceWindow": [
+          190.32,
+          194.89
+        ],
+        "scores": {
+          "Speaker 1": 0.2405,
+          "Speaker 2": 0.7965,
+          "Speaker 3": 0.0821
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 32,
+        "index": 377,
+        "until": 383,
+        "speaker": "Speaker 3",
+        "text": "Does it include meals as well?",
+        "start": 196.84,
+        "end": 198.74,
+        "voiceWindow": [
+          196.84,
+          198.74
+        ],
+        "scores": {
+          "Speaker 1": 0.3631,
+          "Speaker 2": 0.2411,
+          "Speaker 3": 0.5887
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 33,
+        "index": 383,
+        "until": 400,
+        "speaker": "Speaker 2",
+        "text": "No. All our rooms are self catering now. There's a shared kitchen on each corridor where you",
+        "start": 199.56,
+        "end": 206.23,
+        "voiceWindow": [
+          199.56,
+          206.23
+        ],
+        "scores": {
+          "Speaker 1": 0.2398,
+          "Speaker 2": 0.8377,
+          "Speaker 3": 0.2016
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 34,
+        "index": 400,
+        "until": 417,
+        "speaker": "Speaker 2",
+        "text": "can cook if you want to, or there are plenty of places to eat out on campus.",
+        "start": 206.23,
+        "end": 210.57,
+        "voiceWindow": [
+          206.23,
+          210.57
+        ],
+        "scores": {
+          "Speaker 1": 0.2556,
+          "Speaker 2": 0.7353,
+          "Speaker 3": 0.1498
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 35,
+        "index": 417,
+        "until": 428,
+        "speaker": "Speaker 3",
+        "text": "Okay, and you said that's the price for the whole year?",
+        "start": 211.52,
+        "end": 214.6,
+        "voiceWindow": [
+          211.52,
+          214.6
+        ],
+        "scores": {
+          "Speaker 1": 0.2174,
+          "Speaker 2": 0.2369,
+          "Speaker 3": 0.7276
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 36,
+        "index": 428,
+        "until": 442,
+        "speaker": "Speaker 2",
+        "text": "Well, you pay annually, but actually it's for 36 weeks. It doesn't include holidays.",
+        "start": 215.2,
+        "end": 221.84,
+        "voiceWindow": [
+          215.2,
+          221.84
+        ],
+        "scores": {
+          "Speaker 1": 0.2082,
+          "Speaker 2": 0.7887,
+          "Speaker 3": 0.1787
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 37,
+        "index": 442,
+        "until": 449,
+        "speaker": "Speaker 2",
+        "text": "You have to vacate the room then.",
+        "start": 222.38,
+        "end": 224.34,
+        "voiceWindow": [
+          222.38,
+          224.34
+        ],
+        "scores": {
+          "Speaker 1": 0.2896,
+          "Speaker 2": 0.6452,
+          "Speaker 3": 0.1235
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 38,
+        "index": 449,
+        "until": 468,
+        "speaker": "Speaker 3",
+        "text": "We need somewhere to stay in the holidays. I can't afford to go home. The flights are too expensive.",
+        "start": 227.09,
+        "end": 231.67,
+        "voiceWindow": [
+          227.09,
+          231.67
+        ],
+        "scores": {
+          "Speaker 1": 0.3953,
+          "Speaker 2": 0.3747,
+          "Speaker 3": 0.7962
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 39,
+        "index": 468,
+        "until": 494,
+        "speaker": "Speaker 2",
+        "text": "Well, there is another option. Several families who either work at the college or have children studying here offer visiting students a room in their homes.",
+        "start": 232.83,
+        "end": 243.43,
+        "voiceWindow": [
+          232.83,
+          242.83
+        ],
+        "scores": {
+          "Speaker 1": 0.1613,
+          "Speaker 2": 0.8731,
+          "Speaker 3": 0.2246
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 40,
+        "index": 494,
+        "until": 495,
+        "speaker": "Speaker 3",
+        "text": "Oh?",
+        "start": 244,
+        "end": null,
+        "voiceWindow": [
+          244.07999999999998,
+          244.97
+        ],
+        "scores": {
+          "Speaker 1": 0.1028,
+          "Speaker 2": 0.1641,
+          "Speaker 3": 0.2053
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 41,
+        "index": 495,
+        "until": 512,
+        "speaker": "Speaker 2",
+        "text": "We call this arrangement Home Welcome, and we've still got a few places left at the moment.",
+        "start": 245.5,
+        "end": 251.34,
+        "voiceWindow": [
+          245.5,
+          251.34
+        ],
+        "scores": {
+          "Speaker 1": 0.2978,
+          "Speaker 2": 0.8822,
+          "Speaker 3": 0.1658
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 42,
+        "index": 512,
+        "until": 530,
+        "speaker": "Speaker 2",
+        "text": "You pay Â£150 per week, and that includes breakfast, a packed lunch, and dinner, as well as heating.",
+        "start": 252.12,
+        "end": 260.65,
+        "voiceWindow": [
+          252.12,
+          260.65
+        ],
+        "scores": {
+          "Speaker 1": 0.2582,
+          "Speaker 2": 0.8401,
+          "Speaker 3": 0.2207
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 43,
+        "index": 530,
+        "until": 543,
+        "speaker": "Speaker 3",
+        "text": "Is there a contract? Do you have to stay for the whole year?",
+        "start": 261.63,
+        "end": 264.75,
+        "voiceWindow": [
+          261.63,
+          264.75
+        ],
+        "scores": {
+          "Speaker 1": 0.3352,
+          "Speaker 2": 0.2769,
+          "Speaker 3": 0.7761
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 44,
+        "index": 543,
+        "until": 546,
+        "speaker": "Speaker 2",
+        "text": "No, it's flexible.",
+        "start": 265.29,
+        "end": 266.73,
+        "voiceWindow": [
+          265.29,
+          266.73
+        ],
+        "scores": {
+          "Speaker 1": 0.0994,
+          "Speaker 2": 0.4633,
+          "Speaker 3": -0.0144
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 45,
+        "index": 546,
+        "until": 557,
+        "speaker": "Speaker 3",
+        "text": "I'm not sure. I really want to be a little more-",
+        "start": 270.13,
+        "end": 273.31,
+        "voiceWindow": [
+          270.13,
+          273.31
+        ],
+        "scores": {
+          "Speaker 1": 0.3868,
+          "Speaker 2": 0.261,
+          "Speaker 3": 0.6667
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 46,
+        "index": 557,
+        "until": 585,
+        "speaker": "Speaker 1",
+        "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10 on page 2, and answer questions 5 to 10.",
+        "start": 278.48,
+        "end": 317.56,
+        "voiceWindow": [
+          278.48,
+          288.48
+        ],
+        "scores": {
+          "Speaker 1": 0.8845,
+          "Speaker 2": 0.2876,
+          "Speaker 3": 0.3461
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 47,
+        "index": 585,
+        "until": 616,
+        "speaker": "Speaker 2",
+        "text": "Property in town, privately. You might want to rent a room in a shared house. You'd have a room of your own, and share the kitchen and bathroom with other students.",
+        "start": 327.92,
+        "end": 338.63,
+        "voiceWindow": [
+          327.92,
+          337.92
+        ],
+        "scores": {
+          "Speaker 1": 0.2322,
+          "Speaker 2": 0.8691,
+          "Speaker 3": 0.3482
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 48,
+        "index": 616,
+        "until": 624,
+        "speaker": "Speaker 3",
+        "text": "What about if I don't want to share?",
+        "start": 339.49,
+        "end": 340.99,
+        "voiceWindow": [
+          339.49,
+          340.99
+        ],
+        "scores": {
+          "Speaker 1": 0.2627,
+          "Speaker 2": 0.2306,
+          "Speaker 3": 0.8078
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 49,
+        "index": 624,
+        "until": 642,
+        "speaker": "Speaker 2",
+        "text": "You can get what we call a studio. They're often quite small, but they'll have everything you need.",
+        "start": 341.79,
+        "end": 347.61,
+        "voiceWindow": [
+          341.79,
+          347.61
+        ],
+        "scores": {
+          "Speaker 1": 0.2957,
+          "Speaker 2": 0.8163,
+          "Speaker 3": 0.2969
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 50,
+        "index": 642,
+        "until": 648,
+        "speaker": "Speaker 3",
+        "text": "What would those two options cost?",
+        "start": 349.47,
+        "end": 350.89,
+        "voiceWindow": [
+          349.47,
+          350.89
+        ],
+        "scores": {
+          "Speaker 1": 0.3456,
+          "Speaker 2": 0.2309,
+          "Speaker 3": 0.6351
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 51,
+        "index": 648,
+        "until": 660,
+        "speaker": "Speaker 2",
+        "text": "Well, prices vary depending on which part of town the property's in.",
+        "start": 351.8,
+        "end": 356.48,
+        "voiceWindow": [
+          351.8,
+          356.48
+        ],
+        "scores": {
+          "Speaker 1": 0.1968,
+          "Speaker 2": 0.8351,
+          "Speaker 3": 0.3158
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 52,
+        "index": 660,
+        "until": 672,
+        "speaker": "Speaker 2",
+        "text": "Generally speaking, the cheapest is around Â£275 a month for each student.",
+        "start": 357.34,
+        "end": 363.2,
+        "voiceWindow": [
+          357.34,
+          363.2
+        ],
+        "scores": {
+          "Speaker 1": 0.3544,
+          "Speaker 2": 0.7149,
+          "Speaker 3": 0.3058
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 53,
+        "index": 672,
+        "until": 678,
+        "speaker": "Speaker 3",
+        "text": "Oh, uh, that's not too bad.",
+        "start": 364.68,
+        "end": 366.08,
+        "voiceWindow": [
+          364.68,
+          366.08
+        ],
+        "scores": {
+          "Speaker 1": 0.3128,
+          "Speaker 2": 0.3161,
+          "Speaker 3": 0.5266
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 54,
+        "index": 678,
+        "until": 688,
+        "speaker": "Speaker 2",
+        "text": "Yes, but it can also be as high as Â£490.",
+        "start": 366.94,
+        "end": 370.62,
+        "voiceWindow": [
+          366.94,
+          370.62
+        ],
+        "scores": {
+          "Speaker 1": 0.2076,
+          "Speaker 2": 0.6688,
+          "Speaker 3": 0.4129
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 55,
+        "index": 688,
+        "until": 698,
+        "speaker": "Speaker 2",
+        "text": "And then you'll have to pay all your other bills.",
+        "start": 371.84,
+        "end": 374.14,
+        "voiceWindow": [
+          371.84,
+          374.14
+        ],
+        "scores": {
+          "Speaker 1": 0.1963,
+          "Speaker 2": 0.7337,
+          "Speaker 3": 0.3394
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 56,
+        "index": 698,
+        "until": 709,
+        "speaker": "Speaker 3",
+        "text": "What sort of amount would I be looking at for those?",
+        "start": 374.9,
+        "end": 377.48,
+        "voiceWindow": [
+          374.9,
+          377.48
+        ],
+        "scores": {
+          "Speaker 1": 0.3291,
+          "Speaker 2": 0.2406,
+          "Speaker 3": 0.7039
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 57,
+        "index": 709,
+        "until": 726,
+        "speaker": "Speaker 2",
+        "text": "Well, last year, students were paying, on average, about Â£43 per month each for gas and electricity.",
+        "start": 378.1,
+        "end": 386.82,
+        "voiceWindow": [
+          378.1,
+          386.82
+        ],
+        "scores": {
+          "Speaker 1": 0.314,
+          "Speaker 2": 0.8139,
+          "Speaker 3": 0.328
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 58,
+        "index": 726,
+        "until": 738,
+        "speaker": "Speaker 2",
+        "text": "This year, it will probably be somewhere in the region of Â£48.",
+        "start": 387.58,
+        "end": 391.9,
+        "voiceWindow": [
+          387.58,
+          391.9
+        ],
+        "scores": {
+          "Speaker 1": 0.3518,
+          "Speaker 2": 0.6664,
+          "Speaker 3": 0.2427
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 59,
+        "index": 738,
+        "until": 762,
+        "speaker": "Speaker 2",
+        "text": "Yes, they've gone up quite a bit, and on top of that, you have to pay for water, and that'll probably be around Â£9.",
+        "start": 394.63,
+        "end": 401.79,
+        "voiceWindow": [
+          394.63,
+          401.79
+        ],
+        "scores": {
+          "Speaker 1": 0.2295,
+          "Speaker 2": 0.8025,
+          "Speaker 3": 0.2348
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 60,
+        "index": 762,
+        "until": 767,
+        "speaker": "Speaker 3",
+        "text": "They pay for transportation too.",
+        "start": 407.36,
+        "end": 409,
+        "voiceWindow": [
+          407.36,
+          409
+        ],
+        "scores": {
+          "Speaker 1": 0.1939,
+          "Speaker 2": 0.2394,
+          "Speaker 3": 0.6415
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 61,
+        "index": 767,
+        "until": 779,
+        "speaker": "Speaker 2",
+        "text": "Most of these properties are quite a long way from the college.",
+        "start": 411.21,
+        "end": 414.05,
+        "voiceWindow": [
+          411.21,
+          414.05
+        ],
+        "scores": {
+          "Speaker 1": 0.2369,
+          "Speaker 2": 0.7018,
+          "Speaker 3": 0.3073
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 62,
+        "index": 779,
+        "until": 790,
+        "speaker": "Speaker 3",
+        "text": "It just gets worse and worse than this type of accommodation.",
+        "start": 415.59,
+        "end": 421.68,
+        "voiceWindow": [
+          415.59,
+          421.68
+        ],
+        "scores": {
+          "Speaker 1": 0.2637,
+          "Speaker 2": 0.3415,
+          "Speaker 3": 0.6645
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 63,
+        "index": 790,
+        "until": 804,
+        "speaker": "Speaker 2",
+        "text": "To pay a deposit. But of course you can stay there over the holidays.",
+        "start": 425.01,
+        "end": 429.02,
+        "voiceWindow": [
+          425.01,
+          429.02
+        ],
+        "scores": {
+          "Speaker 1": 0.2497,
+          "Speaker 2": 0.7702,
+          "Speaker 3": 0.3152
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 64,
+        "index": 804,
+        "until": 806,
+        "speaker": "Speaker 3",
+        "text": "That's true.",
+        "start": 429,
+        "end": null,
+        "voiceWindow": [
+          429.4,
+          430.5
+        ],
+        "scores": {
+          "Speaker 1": 0.1437,
+          "Speaker 2": 0.2755,
+          "Speaker 3": 0.4053
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 65,
+        "index": 806,
+        "until": 820,
+        "speaker": "Speaker 2",
+        "text": "And you'd have to provide references. They want two from someone in this country.",
+        "start": 430.69,
+        "end": 436.13,
+        "voiceWindow": [
+          430.69,
+          436.13
+        ],
+        "scores": {
+          "Speaker 1": 0.3013,
+          "Speaker 2": 0.7903,
+          "Speaker 3": 0.3311
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 66,
+        "index": 820,
+        "until": 827,
+        "speaker": "Speaker 3",
+        "text": "I see. But that's not a problem.",
+        "start": 436.68,
+        "end": 438.44,
+        "voiceWindow": [
+          436.68,
+          438.44
+        ],
+        "scores": {
+          "Speaker 1": 0.2196,
+          "Speaker 2": 0.2548,
+          "Speaker 3": 0.639
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 67,
+        "index": 827,
+        "until": 840,
+        "speaker": "Speaker 2",
+        "text": "If you do choose this option, we can't find the property for you.",
+        "start": 439.09,
+        "end": 443.69,
+        "voiceWindow": [
+          439.09,
+          443.69
+        ],
+        "scores": {
+          "Speaker 1": 0.326,
+          "Speaker 2": 0.7386,
+          "Speaker 3": 0.2418
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 68,
+        "index": 840,
+        "until": 855,
+        "speaker": "Speaker 2",
+        "text": "You'd have to go through the estate agent which manages the property for the owner.",
+        "start": 444.17,
+        "end": 448.27,
+        "voiceWindow": [
+          444.17,
+          448.27
+        ],
+        "scores": {
+          "Speaker 1": 0.2709,
+          "Speaker 2": 0.7332,
+          "Speaker 3": 0.1835
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 69,
+        "index": 855,
+        "until": 865,
+        "speaker": "Speaker 3",
+        "text": "Right. I think I'd like to see what's available privately.",
+        "start": 449.17,
+        "end": 454.11,
+        "voiceWindow": [
+          449.17,
+          454.11
+        ],
+        "scores": {
+          "Speaker 1": 0.3402,
+          "Speaker 2": 0.3248,
+          "Speaker 3": 0.7122
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 70,
+        "index": 865,
+        "until": 873,
+        "speaker": "Speaker 3",
+        "text": "Could you give me the estate agent details?",
+        "start": 455.56,
+        "end": 457.78,
+        "voiceWindow": [
+          455.56,
+          457.78
+        ],
+        "scores": {
+          "Speaker 1": 0.2171,
+          "Speaker 2": 0.1789,
+          "Speaker 3": 0.5778
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 71,
+        "index": 873,
+        "until": 877,
+        "speaker": "Speaker 1",
+        "text": "End of section 1.",
+        "start": 462,
+        "end": null,
+        "voiceWindow": [
+          461.7,
+          463.7
+        ],
+        "scores": {
+          "Speaker 1": 0.7602,
+          "Speaker 2": 0.1619,
+          "Speaker 3": 0.3197
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 72,
+        "index": 877,
+        "until": 887,
+        "speaker": "Speaker 1",
+        "text": "You now have half a minute to check your answers.",
+        "start": 464,
+        "end": null,
+        "voiceWindow": [
+          464.26,
+          467.23
+        ],
+        "scores": {
+          "Speaker 1": 0.7898,
+          "Speaker 2": 0.1955,
+          "Speaker 3": 0.2245
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 30,
+        "index": 351,
+        "phrase": "I see",
+        "speaker": "Speaker 3",
+        "voiceWindow": [
+          184.13,
+          186.83
+        ],
+        "scores": {
+          "Speaker 1": 0.2574,
+          "Speaker 2": 0.2311,
+          "Speaker 3": 0.6449
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 30,
+        "index": 358,
+        "phrase": "it does include heating",
+        "speaker": "Speaker 2",
+        "voiceWindow": [
+          187.67,
+          190.32
+        ],
+        "scores": {
+          "Speaker 1": 0.1745,
+          "Speaker 2": 0.5954,
+          "Speaker 3": 0.0599
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 31,
+        "index": 375,
+        "phrase": "hmm does",
+        "speaker": "Speaker 3",
+        "voiceWindow": [
+          196.3,
+          198.74
+        ],
+        "scores": {
+          "Speaker 1": 0.4694,
+          "Speaker 2": 0.2823,
+          "Speaker 3": 0.6591
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "roleRanges": {
+    "ranges": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "until": 17,
+        "speaker": "Speaker 1",
+        "text": "You will hear a number of different recordings, and you will have to answer questions on what",
+        "start": 3.78,
+        "end": 9.43
+      },
+      {
+        "paragraph": 1,
+        "index": 17,
+        "until": 19,
+        "speaker": "Speaker 1",
+        "text": "you hear.",
+        "start": 9.43,
+        "end": 9.99
+      },
+      {
+        "paragraph": 2,
+        "index": 19,
+        "until": 37,
+        "speaker": "Speaker 1",
+        "text": "There will be time for you to read the instructions and questions, and you will have a chance",
+        "start": 11.06,
+        "end": 15.3
+      },
+      {
+        "paragraph": 3,
+        "index": 37,
+        "until": 41,
+        "speaker": "Speaker 1",
+        "text": "to check your work.",
+        "start": 15.3,
+        "end": 16.4
+      },
+      {
+        "paragraph": 4,
+        "index": 41,
+        "until": 49,
+        "speaker": "Speaker 1",
+        "text": "All the recordings will be played once only.",
+        "start": 17.52,
+        "end": 20.4
+      },
+      {
+        "paragraph": 5,
+        "index": 49,
+        "until": 55,
+        "speaker": "Speaker 1",
+        "text": "The test is in four sections.",
+        "start": 21.76,
+        "end": 24.2
+      },
+      {
+        "paragraph": 6,
+        "index": 55,
+        "until": 64,
+        "speaker": "Speaker 1",
+        "text": "Write all your answers in the listening question booklet.",
+        "start": 25.22,
+        "end": 28.4
+      },
+      {
+        "paragraph": 7,
+        "index": 64,
+        "until": 82,
+        "speaker": "Speaker 1",
+        "text": "At the end of the test, you will be given 10 minutes to transfer your answers to an",
+        "start": 29.6,
+        "end": 35.04
+      },
+      {
+        "paragraph": 8,
+        "index": 82,
+        "until": 84,
+        "speaker": "Speaker 1",
+        "text": "answer sheet.",
+        "start": 35.04,
+        "end": 35.72
+      },
+      {
+        "paragraph": 9,
+        "index": 84,
+        "until": 96,
+        "speaker": "Speaker 1",
+        "text": "Now turn to section 1 on page 2 of your question booklet.",
+        "start": 38.09,
+        "end": 41.83
+      },
+      {
+        "paragraph": 10,
+        "index": 96,
+        "until": 98,
+        "speaker": "Speaker 1",
+        "text": "Section 1.",
+        "start": 47.36,
+        "end": 47.76
+      },
+      {
+        "paragraph": 11,
+        "index": 98,
+        "until": 113,
+        "speaker": "Speaker 1",
+        "text": "You will hear a student from overseas phoning the Student Accommodation Office of a college",
+        "start": 49.2,
+        "end": 54.36
+      },
+      {
+        "paragraph": 12,
+        "index": 113,
+        "until": 119,
+        "speaker": "Speaker 1",
+        "text": "in the UK for some information.",
+        "start": 54.36,
+        "end": 56.52
+      },
+      {
+        "paragraph": 13,
+        "index": 119,
+        "until": 134,
+        "speaker": "Speaker 1",
+        "text": "First you have some time to look at questions 1 to 4 on page 2.",
+        "start": 57.97,
+        "end": 62.47
+      },
+      {
+        "paragraph": 14,
+        "index": 134,
+        "until": 148,
+        "speaker": "Speaker 1",
+        "text": "You will see that there is an example that has been done for you.",
+        "start": 82.74,
+        "end": 85.8
+      },
+      {
+        "paragraph": 15,
+        "index": 148,
+        "until": 161,
+        "speaker": "Speaker 1",
+        "text": "On this occasion only, the conversation relating to this will be played first.",
+        "start": 86.38,
+        "end": 91.14
+      },
+      {
+        "paragraph": 16,
+        "index": 161,
+        "until": 171,
+        "speaker": "Speaker 2",
+        "text": "College accommodation bureau, Darren speaking, how may I help you?",
+        "start": 94.73,
+        "end": 98.43
+      },
+      {
+        "paragraph": 17,
+        "index": 171,
+        "until": 188,
+        "speaker": "Speaker 3",
+        "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation.",
+        "start": 99.08,
+        "end": 104.08
+      },
+      {
+        "paragraph": 18,
+        "index": 188,
+        "until": 194,
+        "speaker": "Speaker 2",
+        "text": "Right. Well, there are various options.",
+        "start": 105.23,
+        "end": 108.48
+      },
+      {
+        "paragraph": 19,
+        "index": 194,
+        "until": 208,
+        "speaker": "Speaker 2",
+        "text": "The first one is to stay in college accommodation. That'd be a single room.",
+        "start": 109.38,
+        "end": 113.72
+      },
+      {
+        "paragraph": 20,
+        "index": 208,
+        "until": 229,
+        "speaker": "Speaker 1",
+        "text": "The first type of accommodation is a single room in the college. So, single room has been written in the space.",
+        "start": 117.64,
+        "end": 124.6
+      },
+      {
+        "paragraph": 21,
+        "index": 229,
+        "until": 251,
+        "speaker": "Speaker 1",
+        "text": "Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time.",
+        "start": 126.2,
+        "end": 133.17
+      },
+      {
+        "paragraph": 22,
+        "index": 251,
+        "until": 259,
+        "speaker": "Speaker 1",
+        "text": "Listen carefully and answer questions 1 to 4.",
+        "start": 134.48,
+        "end": 137.74
+      },
+      {
+        "paragraph": 23,
+        "index": 259,
+        "until": 268,
+        "speaker": "Speaker 2",
+        "text": "Accommodation Bureau, Darren speaking, how may I help you?",
+        "start": 141.59,
+        "end": 144.67
+      },
+      {
+        "paragraph": 24,
+        "index": 268,
+        "until": 285,
+        "speaker": "Speaker 3",
+        "text": "Oh, good morning. I'm starting at the college in September and I need to find some accommodation.",
+        "start": 145.96,
+        "end": 150.32
+      },
+      {
+        "paragraph": 25,
+        "index": 285,
+        "until": 305,
+        "speaker": "Speaker 2",
+        "text": "Right. Well, there are various options. The first one is to stay in college accommodation. That'd be a single room.",
+        "start": 151.44,
+        "end": 160
+      },
+      {
+        "paragraph": 26,
+        "index": 305,
+        "until": 310,
+        "speaker": "Speaker 3",
+        "text": "How much would that cost?",
+        "start": 161.06,
+        "end": 162.42
+      },
+      {
+        "paragraph": 27,
+        "index": 310,
+        "until": 324,
+        "speaker": "Speaker 2",
+        "text": "Well, it depends. For a standard room, you're looking at £3,276 for the year.",
+        "start": 163.76,
+        "end": 171.88
+      },
+      {
+        "paragraph": 28,
+        "index": 324,
+        "until": 338,
+        "speaker": "Speaker 2",
+        "text": "that's just for a room with wash basin or three thousand eight hundred and",
+        "start": 172.56,
+        "end": 175.22
+      },
+      {
+        "paragraph": 29,
+        "index": 338,
+        "until": 350,
+        "speaker": "Speaker 2",
+        "text": "thirty-four pounds if you want a non-sweet that's with your own small",
+        "start": 179.07,
+        "end": 182.97
+      },
+      {
+        "paragraph": 30,
+        "index": 350,
+        "until": 363,
+        "speaker": "Speaker 2",
+        "text": "bathroom I see that's more than I expected it does include heating that's",
+        "start": 182.97,
+        "end": 190.32
+      },
+      {
+        "paragraph": 31,
+        "index": 363,
+        "until": 377,
+        "speaker": "Speaker 2",
+        "text": "quite a saving because energy costs can be high especially in winter hmm does",
+        "start": 190.32,
+        "end": 194.89
+      },
+      {
+        "paragraph": 32,
+        "index": 377,
+        "until": 383,
+        "speaker": "Speaker 3",
+        "text": "Does it include meals as well?",
+        "start": 196.84,
+        "end": 198.74
+      },
+      {
+        "paragraph": 33,
+        "index": 383,
+        "until": 400,
+        "speaker": "Speaker 2",
+        "text": "No. All our rooms are self catering now. There's a shared kitchen on each corridor where you",
+        "start": 199.56,
+        "end": 206.23
+      },
+      {
+        "paragraph": 34,
+        "index": 400,
+        "until": 417,
+        "speaker": "Speaker 2",
+        "text": "can cook if you want to, or there are plenty of places to eat out on campus.",
+        "start": 206.23,
+        "end": 210.57
+      },
+      {
+        "paragraph": 35,
+        "index": 417,
+        "until": 428,
+        "speaker": "Speaker 3",
+        "text": "Okay, and you said that's the price for the whole year?",
+        "start": 211.52,
+        "end": 214.6
+      },
+      {
+        "paragraph": 36,
+        "index": 428,
+        "until": 442,
+        "speaker": "Speaker 2",
+        "text": "Well, you pay annually, but actually it's for 36 weeks. It doesn't include holidays.",
+        "start": 215.2,
+        "end": 221.84
+      },
+      {
+        "paragraph": 37,
+        "index": 442,
+        "until": 449,
+        "speaker": "Speaker 2",
+        "text": "You have to vacate the room then.",
+        "start": 222.38,
+        "end": 224.34
+      },
+      {
+        "paragraph": 38,
+        "index": 449,
+        "until": 468,
+        "speaker": "Speaker 3",
+        "text": "We need somewhere to stay in the holidays. I can't afford to go home. The flights are too expensive.",
+        "start": 227.09,
+        "end": 231.67
+      },
+      {
+        "paragraph": 39,
+        "index": 468,
+        "until": 494,
+        "speaker": "Speaker 2",
+        "text": "Well, there is another option. Several families who either work at the college or have children studying here offer visiting students a room in their homes.",
+        "start": 232.83,
+        "end": 243.43
+      },
+      {
+        "paragraph": 40,
+        "index": 494,
+        "until": 495,
+        "speaker": "Speaker 3",
+        "text": "Oh?",
+        "start": 244,
+        "end": null
+      },
+      {
+        "paragraph": 41,
+        "index": 495,
+        "until": 512,
+        "speaker": "Speaker 2",
+        "text": "We call this arrangement Home Welcome, and we've still got a few places left at the moment.",
+        "start": 245.5,
+        "end": 251.34
+      },
+      {
+        "paragraph": 42,
+        "index": 512,
+        "until": 530,
+        "speaker": "Speaker 2",
+        "text": "You pay £150 per week, and that includes breakfast, a packed lunch, and dinner, as well as heating.",
+        "start": 252.12,
+        "end": 260.65
+      },
+      {
+        "paragraph": 43,
+        "index": 530,
+        "until": 543,
+        "speaker": "Speaker 3",
+        "text": "Is there a contract? Do you have to stay for the whole year?",
+        "start": 261.63,
+        "end": 264.75
+      },
+      {
+        "paragraph": 44,
+        "index": 543,
+        "until": 546,
+        "speaker": "Speaker 2",
+        "text": "No, it's flexible.",
+        "start": 265.29,
+        "end": 266.73
+      },
+      {
+        "paragraph": 45,
+        "index": 546,
+        "until": 557,
+        "speaker": "Speaker 3",
+        "text": "I'm not sure. I really want to be a little more-",
+        "start": 270.13,
+        "end": 273.31
+      },
+      {
+        "paragraph": 46,
+        "index": 557,
+        "until": 585,
+        "speaker": "Speaker 1",
+        "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10 on page 2, and answer questions 5 to 10.",
+        "start": 278.48,
+        "end": 317.56
+      },
+      {
+        "paragraph": 47,
+        "index": 585,
+        "until": 616,
+        "speaker": "Speaker 2",
+        "text": "Property in town, privately. You might want to rent a room in a shared house. You'd have a room of your own, and share the kitchen and bathroom with other students.",
+        "start": 327.92,
+        "end": 338.63
+      },
+      {
+        "paragraph": 48,
+        "index": 616,
+        "until": 624,
+        "speaker": "Speaker 3",
+        "text": "What about if I don't want to share?",
+        "start": 339.49,
+        "end": 340.99
+      },
+      {
+        "paragraph": 49,
+        "index": 624,
+        "until": 642,
+        "speaker": "Speaker 2",
+        "text": "You can get what we call a studio. They're often quite small, but they'll have everything you need.",
+        "start": 341.79,
+        "end": 347.61
+      },
+      {
+        "paragraph": 50,
+        "index": 642,
+        "until": 648,
+        "speaker": "Speaker 3",
+        "text": "What would those two options cost?",
+        "start": 349.47,
+        "end": 350.89
+      },
+      {
+        "paragraph": 51,
+        "index": 648,
+        "until": 660,
+        "speaker": "Speaker 2",
+        "text": "Well, prices vary depending on which part of town the property's in.",
+        "start": 351.8,
+        "end": 356.48
+      },
+      {
+        "paragraph": 52,
+        "index": 660,
+        "until": 672,
+        "speaker": "Speaker 2",
+        "text": "Generally speaking, the cheapest is around £275 a month for each student.",
+        "start": 357.34,
+        "end": 363.2
+      },
+      {
+        "paragraph": 53,
+        "index": 672,
+        "until": 678,
+        "speaker": "Speaker 3",
+        "text": "Oh, uh, that's not too bad.",
+        "start": 364.68,
+        "end": 366.08
+      },
+      {
+        "paragraph": 54,
+        "index": 678,
+        "until": 688,
+        "speaker": "Speaker 2",
+        "text": "Yes, but it can also be as high as £490.",
+        "start": 366.94,
+        "end": 370.62
+      },
+      {
+        "paragraph": 55,
+        "index": 688,
+        "until": 698,
+        "speaker": "Speaker 2",
+        "text": "And then you'll have to pay all your other bills.",
+        "start": 371.84,
+        "end": 374.14
+      },
+      {
+        "paragraph": 56,
+        "index": 698,
+        "until": 709,
+        "speaker": "Speaker 3",
+        "text": "What sort of amount would I be looking at for those?",
+        "start": 374.9,
+        "end": 377.48
+      },
+      {
+        "paragraph": 57,
+        "index": 709,
+        "until": 726,
+        "speaker": "Speaker 2",
+        "text": "Well, last year, students were paying, on average, about £43 per month each for gas and electricity.",
+        "start": 378.1,
+        "end": 386.82
+      },
+      {
+        "paragraph": 58,
+        "index": 726,
+        "until": 738,
+        "speaker": "Speaker 2",
+        "text": "This year, it will probably be somewhere in the region of £48.",
+        "start": 387.58,
+        "end": 391.9
+      },
+      {
+        "paragraph": 59,
+        "index": 738,
+        "until": 762,
+        "speaker": "Speaker 2",
+        "text": "Yes, they've gone up quite a bit, and on top of that, you have to pay for water, and that'll probably be around £9.",
+        "start": 394.63,
+        "end": 401.79
+      },
+      {
+        "paragraph": 60,
+        "index": 762,
+        "until": 767,
+        "speaker": "Speaker 3",
+        "text": "They pay for transportation too.",
+        "start": 407.36,
+        "end": 409
+      },
+      {
+        "paragraph": 61,
+        "index": 767,
+        "until": 779,
+        "speaker": "Speaker 2",
+        "text": "Most of these properties are quite a long way from the college.",
+        "start": 411.21,
+        "end": 414.05
+      },
+      {
+        "paragraph": 62,
+        "index": 779,
+        "until": 790,
+        "speaker": "Speaker 3",
+        "text": "It just gets worse and worse than this type of accommodation.",
+        "start": 415.59,
+        "end": 421.68
+      },
+      {
+        "paragraph": 63,
+        "index": 790,
+        "until": 804,
+        "speaker": "Speaker 2",
+        "text": "To pay a deposit. But of course you can stay there over the holidays.",
+        "start": 425.01,
+        "end": 429.02
+      },
+      {
+        "paragraph": 64,
+        "index": 804,
+        "until": 806,
+        "speaker": "Speaker 3",
+        "text": "That's true.",
+        "start": 429,
+        "end": null
+      },
+      {
+        "paragraph": 65,
+        "index": 806,
+        "until": 820,
+        "speaker": "Speaker 2",
+        "text": "And you'd have to provide references. They want two from someone in this country.",
+        "start": 430.69,
+        "end": 436.13
+      },
+      {
+        "paragraph": 66,
+        "index": 820,
+        "until": 827,
+        "speaker": "Speaker 3",
+        "text": "I see. But that's not a problem.",
+        "start": 436.68,
+        "end": 438.44
+      },
+      {
+        "paragraph": 67,
+        "index": 827,
+        "until": 840,
+        "speaker": "Speaker 2",
+        "text": "If you do choose this option, we can't find the property for you.",
+        "start": 439.09,
+        "end": 443.69
+      },
+      {
+        "paragraph": 68,
+        "index": 840,
+        "until": 855,
+        "speaker": "Speaker 2",
+        "text": "You'd have to go through the estate agent which manages the property for the owner.",
+        "start": 444.17,
+        "end": 448.27
+      },
+      {
+        "paragraph": 69,
+        "index": 855,
+        "until": 865,
+        "speaker": "Speaker 3",
+        "text": "Right. I think I'd like to see what's available privately.",
+        "start": 449.17,
+        "end": 454.11
+      },
+      {
+        "paragraph": 70,
+        "index": 865,
+        "until": 873,
+        "speaker": "Speaker 3",
+        "text": "Could you give me the estate agent details?",
+        "start": 455.56,
+        "end": 457.78
+      },
+      {
+        "paragraph": 71,
+        "index": 873,
+        "until": 877,
+        "speaker": "Speaker 1",
+        "text": "End of section 1.",
+        "start": 462,
+        "end": null
+      },
+      {
+        "paragraph": 72,
+        "index": 877,
+        "until": 887,
+        "speaker": "Speaker 1",
+        "text": "You now have half a minute to check your answers.",
+        "start": 464,
+        "end": null
+      }
+    ],
+    "split": [
+      {
+        "paragraph": 30,
+        "index": 351,
+        "phrase": "I see",
+        "speaker": "Speaker 3"
+      },
+      {
+        "paragraph": 30,
+        "index": 358,
+        "phrase": "it does include heating",
+        "speaker": "Speaker 2"
+      },
+      {
+        "paragraph": 31,
+        "index": 375,
+        "phrase": "hmm does",
+        "speaker": "Speaker 3"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": " You will hear a number of different recordings, and you will have to answer questions on what"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 1",
+      "text": " you hear."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 1",
+      "text": " There will be time for you to read the instructions and questions, and you will have a chance"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 1",
+      "text": " to check your work."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 1",
+      "text": " All the recordings will be played once only."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 1",
+      "text": " The test is in four sections."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 1",
+      "text": " Write all your answers in the listening question booklet."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 1",
+      "text": " At the end of the test, you will be given 10 minutes to transfer your answers to an"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 1",
+      "text": " answer sheet."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 1",
+      "text": " Now turn to section 1 on page 2 of your question booklet."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 1",
+      "text": " Section 1."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 1",
+      "text": " You will hear a student from overseas phoning the Student Accommodation Office of a college"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 1",
+      "text": " in the UK for some information."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 1",
+      "text": " First you have some time to look at questions 1 to 4 on page 2."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 1",
+      "text": " You will see that there is an example that has been done for you."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 1",
+      "text": " On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 2",
+      "text": " College accommodation bureau, Darren speaking, how may I help you?"
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 3",
+      "text": " Oh, good morning. I'm starting at the college in September and I need to find some accommodation."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 2",
+      "text": " Right. Well, there are various options."
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 2",
+      "text": " The first one is to stay in college accommodation. That'd be a single room."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 1",
+      "text": " The first type of accommodation is a single room in the college. So, single room has been written in the space."
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 1",
+      "text": " Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time."
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 1",
+      "text": " Listen carefully and answer questions 1 to 4."
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": " Accommodation Bureau, Darren speaking, how may I help you?"
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 3",
+      "text": " Oh, good morning. I'm starting at the college in September and I need to find some accommodation."
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 2",
+      "text": " Right. Well, there are various options. The first one is to stay in college accommodation. That'd be a single room."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 3",
+      "text": " How much would that cost?"
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Speaker 2",
+      "text": " Well, it depends. For a standard room, you're looking at £3,276 for the year."
+    },
+    {
+      "paragraph": 28,
+      "speaker": "Speaker 2",
+      "text": " that's just for a room with wash basin or three thousand eight hundred and"
+    },
+    {
+      "paragraph": 29,
+      "speaker": "Speaker 2",
+      "text": " thirty-four pounds if you want a non-sweet that's with your own small"
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 2",
+      "text": " bathroom "
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 3",
+      "text": "I see that's more than I expected "
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 2",
+      "text": "it does include heating that's"
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 2",
+      "text": " quite a saving because energy costs can be high especially in winter "
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 3",
+      "text": "hmm does"
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Speaker 3",
+      "text": " Does it include meals as well?"
+    },
+    {
+      "paragraph": 33,
+      "speaker": "Speaker 2",
+      "text": " No. All our rooms are self catering now. There's a shared kitchen on each corridor where you"
+    },
+    {
+      "paragraph": 34,
+      "speaker": "Speaker 2",
+      "text": " can cook if you want to, or there are plenty of places to eat out on campus."
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Speaker 3",
+      "text": " Okay, and you said that's the price for the whole year?"
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Speaker 2",
+      "text": " Well, you pay annually, but actually it's for 36 weeks. It doesn't include holidays."
+    },
+    {
+      "paragraph": 37,
+      "speaker": "Speaker 2",
+      "text": " You have to vacate the room then."
+    },
+    {
+      "paragraph": 38,
+      "speaker": "Speaker 3",
+      "text": " We need somewhere to stay in the holidays. I can't afford to go home. The flights are too expensive."
+    },
+    {
+      "paragraph": 39,
+      "speaker": "Speaker 2",
+      "text": " Well, there is another option. Several families who either work at the college or have children studying here offer visiting students a room in their homes."
+    },
+    {
+      "paragraph": 40,
+      "speaker": "Speaker 3",
+      "text": " Oh?"
+    },
+    {
+      "paragraph": 41,
+      "speaker": "Speaker 2",
+      "text": " We call this arrangement Home Welcome, and we've still got a few places left at the moment."
+    },
+    {
+      "paragraph": 42,
+      "speaker": "Speaker 2",
+      "text": " You pay £150 per week, and that includes breakfast, a packed lunch, and dinner, as well as heating."
+    },
+    {
+      "paragraph": 43,
+      "speaker": "Speaker 3",
+      "text": " Is there a contract? Do you have to stay for the whole year?"
+    },
+    {
+      "paragraph": 44,
+      "speaker": "Speaker 2",
+      "text": " No, it's flexible."
+    },
+    {
+      "paragraph": 45,
+      "speaker": "Speaker 3",
+      "text": " I'm not sure. I really want to be a little more-"
+    },
+    {
+      "paragraph": 46,
+      "speaker": "Speaker 1",
+      "text": " Before you hear the rest of the conversation, you have some time to look at questions 5 to 10 on page 2, and answer questions 5 to 10."
+    },
+    {
+      "paragraph": 47,
+      "speaker": "Speaker 2",
+      "text": " Property in town, privately. You might want to rent a room in a shared house. You'd have a room of your own, and share the kitchen and bathroom with other students."
+    },
+    {
+      "paragraph": 48,
+      "speaker": "Speaker 3",
+      "text": " What about if I don't want to share?"
+    },
+    {
+      "paragraph": 49,
+      "speaker": "Speaker 2",
+      "text": " You can get what we call a studio. They're often quite small, but they'll have everything you need."
+    },
+    {
+      "paragraph": 50,
+      "speaker": "Speaker 3",
+      "text": " What would those two options cost?"
+    },
+    {
+      "paragraph": 51,
+      "speaker": "Speaker 2",
+      "text": " Well, prices vary depending on which part of town the property's in."
+    },
+    {
+      "paragraph": 52,
+      "speaker": "Speaker 2",
+      "text": " Generally speaking, the cheapest is around £275 a month for each student."
+    },
+    {
+      "paragraph": 53,
+      "speaker": "Speaker 3",
+      "text": " Oh, uh, that's not too bad."
+    },
+    {
+      "paragraph": 54,
+      "speaker": "Speaker 2",
+      "text": " Yes, but it can also be as high as £490."
+    },
+    {
+      "paragraph": 55,
+      "speaker": "Speaker 2",
+      "text": " And then you'll have to pay all your other bills."
+    },
+    {
+      "paragraph": 56,
+      "speaker": "Speaker 3",
+      "text": " What sort of amount would I be looking at for those?"
+    },
+    {
+      "paragraph": 57,
+      "speaker": "Speaker 2",
+      "text": " Well, last year, students were paying, on average, about £43 per month each for gas and electricity."
+    },
+    {
+      "paragraph": 58,
+      "speaker": "Speaker 2",
+      "text": " This year, it will probably be somewhere in the region of £48."
+    },
+    {
+      "paragraph": 59,
+      "speaker": "Speaker 2",
+      "text": " Yes, they've gone up quite a bit, and on top of that, you have to pay for water, and that'll probably be around £9."
+    },
+    {
+      "paragraph": 60,
+      "speaker": "Speaker 3",
+      "text": " They pay for transportation too."
+    },
+    {
+      "paragraph": 61,
+      "speaker": "Speaker 2",
+      "text": " Most of these properties are quite a long way from the college."
+    },
+    {
+      "paragraph": 62,
+      "speaker": "Speaker 3",
+      "text": " It just gets worse and worse than this type of accommodation."
+    },
+    {
+      "paragraph": 63,
+      "speaker": "Speaker 2",
+      "text": " To pay a deposit. But of course you can stay there over the holidays."
+    },
+    {
+      "paragraph": 64,
+      "speaker": "Speaker 3",
+      "text": " That's true."
+    },
+    {
+      "paragraph": 65,
+      "speaker": "Speaker 2",
+      "text": " And you'd have to provide references. They want two from someone in this country."
+    },
+    {
+      "paragraph": 66,
+      "speaker": "Speaker 3",
+      "text": " I see. But that's not a problem."
+    },
+    {
+      "paragraph": 67,
+      "speaker": "Speaker 2",
+      "text": " If you do choose this option, we can't find the property for you."
+    },
+    {
+      "paragraph": 68,
+      "speaker": "Speaker 2",
+      "text": " You'd have to go through the estate agent which manages the property for the owner."
+    },
+    {
+      "paragraph": 69,
+      "speaker": "Speaker 3",
+      "text": " Right. I think I'd like to see what's available privately."
+    },
+    {
+      "paragraph": 70,
+      "speaker": "Speaker 3",
+      "text": " Could you give me the estate agent details?"
+    },
+    {
+      "paragraph": 71,
+      "speaker": "Speaker 1",
+      "text": " End of section 1."
+    },
+    {
+      "paragraph": 72,
+      "speaker": "Speaker 1",
+      "text": " You now have half a minute to check your answers."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "a9a4ea1dad7bc562ad1daa64c19e4aed099107a8f4eef08e073663b1b90d53e1"
+}
