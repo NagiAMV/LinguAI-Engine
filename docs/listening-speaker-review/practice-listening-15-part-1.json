@@ -1,0 +1,2068 @@
+{
+  "test": "practice-listening-15",
+  "part": 1,
+  "audioSha256": "003b0681c6cd0bdd59b846caab75d9220b75dc6f7e637a144b999d82f934e5d1",
+  "scope": {
+    "start": 1.04,
+    "end": 463.58
+  },
+  "sourceScope": "All 38 published paragraphs; 69 phrase spans checked against recording-specific acoustic references. Closing narrator clocks recovered from local ASR; spelling is an utterance-level cue. Source wording retained, including plural answers versus singular ASR answer and questions versus ASR question.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 874.63,
+  "correctedWordClocks": [
+    {
+      "index": 472,
+      "text": "So,",
+      "old": [
+        "230.57",
+        "231.13"
+      ],
+      "new": [
+        233.85,
+        234.16
+      ]
+    },
+    {
+      "index": 970,
+      "text": "is",
+      "old": [
+        "864.90",
+        "865.90"
+      ],
+      "new": [
+        457.94,
+        458.16
+      ]
+    },
+    {
+      "index": 971,
+      "text": "the",
+      "old": [
+        "869.23",
+        "869.41"
+      ],
+      "new": [
+        458.16,
+        458.36
+      ]
+    },
+    {
+      "index": 972,
+      "text": "end",
+      "old": [
+        "869.41",
+        "869.69"
+      ],
+      "new": [
+        458.36,
+        458.66
+      ]
+    },
+    {
+      "index": 973,
+      "text": "of",
+      "old": [
+        "869.69",
+        "869.99"
+      ],
+      "new": [
+        458.66,
+        458.92
+      ]
+    },
+    {
+      "index": 974,
+      "text": "section",
+      "old": [
+        "869.99",
+        "870.21"
+      ],
+      "new": [
+        458.92,
+        459.18
+      ]
+    },
+    {
+      "index": 976,
+      "text": "You",
+      "old": [
+        "871.57",
+        "871.83"
+      ],
+      "new": [
+        460.56,
+        460.82
+      ]
+    },
+    {
+      "index": 977,
+      "text": "now",
+      "old": [
+        "871.83",
+        "872.07"
+      ],
+      "new": [
+        460.82,
+        461.1
+      ]
+    },
+    {
+      "index": 978,
+      "text": "have",
+      "old": [
+        "872.07",
+        "872.39"
+      ],
+      "new": [
+        461.1,
+        461.42
+      ]
+    },
+    {
+      "index": 979,
+      "text": "half",
+      "old": [
+        "872.39",
+        "872.69"
+      ],
+      "new": [
+        461.42,
+        461.76
+      ]
+    },
+    {
+      "index": 980,
+      "text": "a",
+      "old": [
+        "872.69",
+        "872.89"
+      ],
+      "new": [
+        461.76,
+        462
+      ]
+    },
+    {
+      "index": 981,
+      "text": "minute",
+      "old": [
+        "872.89",
+        "873.15"
+      ],
+      "new": [
+        462,
+        462.16
+      ]
+    },
+    {
+      "index": 982,
+      "text": "to",
+      "old": [
+        "873.15",
+        "873.57"
+      ],
+      "new": [
+        462.16,
+        462.68
+      ]
+    },
+    {
+      "index": 983,
+      "text": "check",
+      "old": [
+        "873.57",
+        "873.85"
+      ],
+      "new": [
+        462.68,
+        462.98
+      ]
+    },
+    {
+      "index": 984,
+      "text": "your",
+      "old": [
+        "873.85",
+        "874.17"
+      ],
+      "new": [
+        462.98,
+        463.34
+      ]
+    },
+    {
+      "index": 985,
+      "text": "answers.",
+      "old": [
+        "874.17",
+        "874.63"
+      ],
+      "new": [
+        463.34,
+        463.58
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 269,
+      "text": "O-S-K-A-R?",
+      "start": 129.158,
+      "end": 131.16
+    },
+    {
+      "index": 464,
+      "text": "Now",
+      "start": 226.8,
+      "end": 227.86
+    },
+    {
+      "index": 465,
+      "text": "listen",
+      "start": 227.86,
+      "end": 228.24
+    },
+    {
+      "index": 466,
+      "text": "and",
+      "start": 228.24,
+      "end": 228.8
+    },
+    {
+      "index": 467,
+      "text": "answer",
+      "start": 228.8,
+      "end": 229.38
+    },
+    {
+      "index": 468,
+      "text": "questions",
+      "start": 229.38,
+      "end": 229.72
+    },
+    {
+      "index": 469,
+      "text": "6",
+      "start": 229.72,
+      "end": 230.46
+    },
+    {
+      "index": 470,
+      "text": "to",
+      "start": 230.46,
+      "end": 231.08
+    },
+    {
+      "index": 471,
+      "text": "10.",
+      "start": 231.08,
+      "end": 231.58
+    },
+    {
+      "index": 969,
+      "text": "That",
+      "start": 457.38,
+      "end": 457.94
+    },
+    {
+      "index": 975,
+      "text": "1.",
+      "start": 459.18,
+      "end": 459.8
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 954,
+  "wordClocksSha256": "8e1dbc88887268146b64728cbdb66ef53bc59213d8ca43b36ce4569aaff9b886",
+  "tokenCount": 986,
+  "tokensSha256": "15145b9ffc3a52aadf4918e4c0321a5b8b0d7b5adf4efd86bd52dc60ac3f51d4",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Speaker 1": [
+        [
+          1.04,
+          10
+        ],
+        [
+          69.55,
+          78.34
+        ],
+        [
+          211.96,
+          216.5
+        ]
+      ],
+      "Speaker 2": [
+        [
+          199.47,
+          207.95
+        ],
+        [
+          288.9,
+          294.4
+        ],
+        [
+          320.28,
+          328.3
+        ]
+      ],
+      "Speaker 3": [
+        [
+          106.43,
+          114.5
+        ],
+        [
+          171.39,
+          183.7
+        ],
+        [
+          277.33,
+          288.85
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker 1",
+        "start": 1.04,
+        "end": 10,
+        "scores": {
+          "Speaker 1": 0.8423,
+          "Speaker 2": 0.4576,
+          "Speaker 3": 0.2406
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 69.55,
+        "end": 78.34,
+        "scores": {
+          "Speaker 1": 0.848,
+          "Speaker 2": 0.4453,
+          "Speaker 3": 0.2551
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 211.96,
+        "end": 216.5,
+        "scores": {
+          "Speaker 1": 0.8829,
+          "Speaker 2": 0.4393,
+          "Speaker 3": 0.2372
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 199.47,
+        "end": 207.95,
+        "scores": {
+          "Speaker 1": 0.4644,
+          "Speaker 2": 0.7931,
+          "Speaker 3": 0.1501
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 288.9,
+        "end": 294.4,
+        "scores": {
+          "Speaker 1": 0.4084,
+          "Speaker 2": 0.8019,
+          "Speaker 3": 0.175
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 320.28,
+        "end": 328.3,
+        "scores": {
+          "Speaker 1": 0.4113,
+          "Speaker 2": 0.701,
+          "Speaker 3": 0.1614
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 106.43,
+        "end": 114.5,
+        "scores": {
+          "Speaker 1": 0.2113,
+          "Speaker 2": 0.1927,
+          "Speaker 3": 0.8815
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 171.39,
+        "end": 183.7,
+        "scores": {
+          "Speaker 1": 0.2604,
+          "Speaker 2": 0.1643,
+          "Speaker 3": 0.8897
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 277.33,
+        "end": 288.85,
+        "scores": {
+          "Speaker 1": 0.2757,
+          "Speaker 2": 0.1616,
+          "Speaker 3": 0.9295
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "Section 1",
+        "index": 0,
+        "start": 1.04,
+        "speaker": "Speaker 1",
+        "end": 37.33,
+        "voiceWindow": [
+          1.04,
+          11.04
+        ],
+        "scores": {
+          "Speaker 1": 0.937,
+          "Speaker 2": 0.4582,
+          "Speaker 3": 0.237
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 65,
+        "start": 37.36,
+        "speaker": "Speaker 2",
+        "end": 42.51,
+        "voiceWindow": [
+          37.36,
+          42.51
+        ],
+        "scores": {
+          "Speaker 1": 0.3591,
+          "Speaker 2": 0.7337,
+          "Speaker 3": 0.1274
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh hello",
+        "index": 77,
+        "start": 42.54,
+        "speaker": "Speaker 3",
+        "end": 47.71,
+        "voiceWindow": [
+          42.54,
+          47.71
+        ],
+        "scores": {
+          "Speaker 1": 0.2473,
+          "Speaker 2": 0.1749,
+          "Speaker 3": 0.8714
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes are you an existing",
+        "index": 89,
+        "start": 47.74,
+        "speaker": "Speaker 2",
+        "end": 50.129999999999995,
+        "voiceWindow": [
+          47.74,
+          50.129999999999995
+        ],
+        "scores": {
+          "Speaker 1": 0.4227,
+          "Speaker 2": 0.7511,
+          "Speaker 3": 0.1294
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Uh no",
+        "index": 95,
+        "start": 50.16,
+        "speaker": "Speaker 3",
+        "end": 58.57,
+        "voiceWindow": [
+          50.16,
+          58.57
+        ],
+        "scores": {
+          "Speaker 1": 0.2196,
+          "Speaker 2": 0.1977,
+          "Speaker 3": 0.9406
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Fine The winter catalogue",
+        "index": 117,
+        "start": 58.6,
+        "speaker": "Speaker 2",
+        "end": 69.52,
+        "voiceWindow": [
+          58.6,
+          68.6
+        ],
+        "scores": {
+          "Speaker 1": 0.456,
+          "Speaker 2": 0.8045,
+          "Speaker 3": 0.1855
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "The customer is using",
+        "index": 139,
+        "start": 69.55,
+        "speaker": "Speaker 1",
+        "end": 93.64,
+        "voiceWindow": [
+          69.55,
+          79.55
+        ],
+        "scores": {
+          "Speaker 1": 0.9236,
+          "Speaker 2": 0.4373,
+          "Speaker 3": 0.2551
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 184,
+        "start": 93.67,
+        "speaker": "Speaker 2",
+        "end": 98.38,
+        "voiceWindow": [
+          93.67,
+          98.38
+        ],
+        "scores": {
+          "Speaker 1": 0.4012,
+          "Speaker 2": 0.7032,
+          "Speaker 3": 0.1554
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh hello",
+        "index": 196,
+        "start": 98.41,
+        "speaker": "Speaker 3",
+        "end": 103.84,
+        "voiceWindow": [
+          98.41,
+          103.84
+        ],
+        "scores": {
+          "Speaker 1": 0.2611,
+          "Speaker 2": 0.1941,
+          "Speaker 3": 0.8573
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes are you an existing",
+        "index": 208,
+        "start": 103.87,
+        "speaker": "Speaker 2",
+        "end": 106.4,
+        "voiceWindow": [
+          103.87,
+          106.4
+        ],
+        "scores": {
+          "Speaker 1": 0.4794,
+          "Speaker 2": 0.712,
+          "Speaker 3": 0.2526
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Uh no",
+        "index": 214,
+        "start": 106.43,
+        "speaker": "Speaker 3",
+        "end": 114.5,
+        "voiceWindow": [
+          106.43,
+          114.5
+        ],
+        "scores": {
+          "Speaker 1": 0.2113,
+          "Speaker 2": 0.1927,
+          "Speaker 3": 0.9472
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Fine The winter catalogue",
+        "index": 236,
+        "start": 114.53,
+        "speaker": "Speaker 2",
+        "end": 122.6,
+        "voiceWindow": [
+          114.53,
+          122.6
+        ],
+        "scores": {
+          "Speaker 1": 0.436,
+          "Speaker 2": 0.8369,
+          "Speaker 3": 0.1399
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Sure",
+        "index": 258,
+        "start": 122.63,
+        "speaker": "Speaker 3",
+        "end": 123.62,
+        "voiceWindow": [
+          122.63,
+          123.62
+        ],
+        "scores": {
+          "Speaker 1": 0.1377,
+          "Speaker 2": 0.1769,
+          "Speaker 3": 0.5252
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Your name is",
+        "index": 259,
+        "start": 123.65,
+        "speaker": "Speaker 2",
+        "end": 125.53999999999999,
+        "voiceWindow": [
+          123.65,
+          125.53999999999999
+        ],
+        "scores": {
+          "Speaker 1": 0.2612,
+          "Speaker 2": 0.5468,
+          "Speaker 3": 0.4329
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oscar Greening",
+        "index": 262,
+        "start": 125.57,
+        "speaker": "Speaker 3",
+        "end": 126.88,
+        "voiceWindow": [
+          125.57,
+          126.88
+        ],
+        "scores": {
+          "Speaker 1": 0.1789,
+          "Speaker 2": 0.0583,
+          "Speaker 3": 0.6893
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "That's Oscar with a K",
+        "index": 264,
+        "start": 126.91,
+        "speaker": "Speaker 3",
+        "end": 129.128,
+        "voiceWindow": [
+          126.91,
+          129.128
+        ],
+        "scores": {
+          "Speaker 1": 0.1895,
+          "Speaker 2": 0.1914,
+          "Speaker 3": 0.7445
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "O-S-K-A-R",
+        "index": 269,
+        "start": 129.158,
+        "speaker": "Speaker 2",
+        "end": 131.19,
+        "voiceWindow": [
+          129.158,
+          131.19
+        ],
+        "scores": {
+          "Speaker 1": 0.0951,
+          "Speaker 2": 0.5646,
+          "Speaker 3": 0.0388
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes Greening",
+        "index": 270,
+        "start": 131.22,
+        "speaker": "Speaker 3",
+        "end": 134.31,
+        "voiceWindow": [
+          131.22,
+          134.31
+        ],
+        "scores": {
+          "Speaker 1": 0.1845,
+          "Speaker 2": 0.342,
+          "Speaker 3": 0.3831
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "And your address",
+        "index": 272,
+        "start": 134.34,
+        "speaker": "Speaker 2",
+        "end": 135.99,
+        "voiceWindow": [
+          134.34,
+          135.99
+        ],
+        "scores": {
+          "Speaker 1": 0.2028,
+          "Speaker 2": 0.4835,
+          "Speaker 3": 0.0789
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Um York Terrace",
+        "index": 275,
+        "start": 136.02,
+        "speaker": "Speaker 3",
+        "end": 138.29,
+        "voiceWindow": [
+          136.02,
+          138.29
+        ],
+        "scores": {
+          "Speaker 1": 0.1425,
+          "Speaker 2": 0.1327,
+          "Speaker 3": 0.5475
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Here in the city",
+        "index": 278,
+        "start": 138.32,
+        "speaker": "Speaker 2",
+        "end": 139.57,
+        "voiceWindow": [
+          138.32,
+          139.57
+        ],
+        "scores": {
+          "Speaker 1": 0.3491,
+          "Speaker 2": 0.4659,
+          "Speaker 3": -0.0225
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes",
+        "index": 282,
+        "start": 139.6,
+        "speaker": "Speaker 3",
+        "end": 140.91,
+        "voiceWindow": [
+          139.6,
+          140.91
+        ],
+        "scores": {
+          "Speaker 1": 0.1902,
+          "Speaker 2": 0.2116,
+          "Speaker 3": 0.4592
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "What number",
+        "index": 283,
+        "start": 140.94,
+        "speaker": "Speaker 2",
+        "end": 142.15,
+        "voiceWindow": [
+          140.94,
+          142.15
+        ],
+        "scores": {
+          "Speaker 1": 0.2379,
+          "Speaker 2": 0.5292,
+          "Speaker 3": 0.0601
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "It's a flat",
+        "index": 285,
+        "start": 142.18,
+        "speaker": "Speaker 3",
+        "end": 147.09,
+        "voiceWindow": [
+          142.18,
+          147.09
+        ],
+        "scores": {
+          "Speaker 1": 0.244,
+          "Speaker 2": 0.1576,
+          "Speaker 3": 0.7558
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "C Got that",
+        "index": 290,
+        "start": 147.12,
+        "speaker": "Speaker 2",
+        "end": 153.06,
+        "voiceWindow": [
+          147.12,
+          153.06
+        ],
+        "scores": {
+          "Speaker 1": 0.3476,
+          "Speaker 2": 0.797,
+          "Speaker 3": 0.1145
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Um no actually",
+        "index": 302,
+        "start": 153.09,
+        "speaker": "Speaker 3",
+        "end": 163.58,
+        "voiceWindow": [
+          153.09,
+          163.09
+        ],
+        "scores": {
+          "Speaker 1": 0.2514,
+          "Speaker 2": 0.1612,
+          "Speaker 3": 0.8834
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Okay fine Number 5",
+        "index": 325,
+        "start": 163.61,
+        "speaker": "Speaker 2",
+        "end": 171.35999999999999,
+        "voiceWindow": [
+          163.61,
+          171.35999999999999
+        ],
+        "scores": {
+          "Speaker 1": 0.3119,
+          "Speaker 2": 0.8094,
+          "Speaker 3": 0.1175
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Well uh I don't have",
+        "index": 343,
+        "start": 171.39,
+        "speaker": "Speaker 3",
+        "end": 183.76,
+        "voiceWindow": [
+          171.39,
+          181.39
+        ],
+        "scores": {
+          "Speaker 1": 0.2548,
+          "Speaker 2": 0.1556,
+          "Speaker 3": 0.9331
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Well I guess so",
+        "index": 375,
+        "start": 183.79,
+        "speaker": "Speaker 2",
+        "end": 191.74,
+        "voiceWindow": [
+          183.79,
+          191.74
+        ],
+        "scores": {
+          "Speaker 1": 0.4931,
+          "Speaker 2": 0.862,
+          "Speaker 3": 0.148
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "No I didn't expect",
+        "index": 394,
+        "start": 191.77,
+        "speaker": "Speaker 3",
+        "end": 199.44,
+        "voiceWindow": [
+          191.77,
+          199.44
+        ],
+        "scores": {
+          "Speaker 1": 0.2522,
+          "Speaker 2": 0.1813,
+          "Speaker 3": 0.8642
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Oh yes you're right",
+        "index": 414,
+        "start": 199.47,
+        "speaker": "Speaker 2",
+        "end": 208.44,
+        "voiceWindow": [
+          199.47,
+          208.44
+        ],
+        "scores": {
+          "Speaker 1": 0.4707,
+          "Speaker 2": 0.9102,
+          "Speaker 3": 0.1465
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Ah good",
+        "index": 437,
+        "start": 208.47,
+        "speaker": "Speaker 3",
+        "end": 211.93,
+        "voiceWindow": [
+          208.47,
+          211.93
+        ],
+        "scores": {
+          "Speaker 1": 0.0206,
+          "Speaker 2": 0.0013,
+          "Speaker 3": 0.2159
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 439,
+        "start": 211.96,
+        "speaker": "Speaker 1",
+        "end": 233.82,
+        "voiceWindow": [
+          211.96,
+          221.96
+        ],
+        "scores": {
+          "Speaker 1": 0.8799,
+          "Speaker 2": 0.4547,
+          "Speaker 3": 0.3485
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "So what would you like",
+        "index": 472,
+        "start": 233.85,
+        "speaker": "Speaker 2",
+        "end": 239.05,
+        "voiceWindow": [
+          233.85,
+          239.05
+        ],
+        "scores": {
+          "Speaker 1": 0.4261,
+          "Speaker 2": 0.7458,
+          "Speaker 3": 0.1519
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes I need three things",
+        "index": 486,
+        "start": 239.08,
+        "speaker": "Speaker 3",
+        "end": 252.64,
+        "voiceWindow": [
+          239.08,
+          249.08
+        ],
+        "scores": {
+          "Speaker 1": 0.257,
+          "Speaker 2": 0.1744,
+          "Speaker 3": 0.9165
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "664 That's not Home Office",
+        "index": 515,
+        "start": 252.67,
+        "speaker": "Speaker 2",
+        "end": 259.82000000000005,
+        "voiceWindow": [
+          252.67,
+          259.82000000000005
+        ],
+        "scores": {
+          "Speaker 1": 0.4941,
+          "Speaker 2": 0.7395,
+          "Speaker 3": 0.165
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "It is I want",
+        "index": 528,
+        "start": 259.85,
+        "speaker": "Speaker 3",
+        "end": 265.28000000000003,
+        "voiceWindow": [
+          259.85,
+          265.28000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.2443,
+          "Speaker 2": 0.1863,
+          "Speaker 3": 0.8212
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes no problem",
+        "index": 543,
+        "start": 265.31,
+        "speaker": "Speaker 2",
+        "end": 268.90000000000003,
+        "voiceWindow": [
+          265.31,
+          268.90000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.382,
+          "Speaker 2": 0.647,
+          "Speaker 3": 0.1274
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "I'd like the greyish",
+        "index": 549,
+        "start": 268.93,
+        "speaker": "Speaker 3",
+        "end": 272.28000000000003,
+        "voiceWindow": [
+          268.93,
+          272.28000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.1983,
+          "Speaker 2": 0.0362,
+          "Speaker 3": 0.6909
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Oh you mean the shade",
+        "index": 556,
+        "start": 272.31,
+        "speaker": "Speaker 2",
+        "end": 277.3,
+        "voiceWindow": [
+          272.31,
+          277.3
+        ],
+        "scores": {
+          "Speaker 1": 0.3658,
+          "Speaker 2": 0.7422,
+          "Speaker 3": 0.081
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "And I wondered",
+        "index": 569,
+        "start": 277.33,
+        "speaker": "Speaker 3",
+        "end": 288.87,
+        "voiceWindow": [
+          277.33,
+          287.33
+        ],
+        "scores": {
+          "Speaker 1": 0.2573,
+          "Speaker 2": 0.1415,
+          "Speaker 3": 0.965
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes I'm sure that'll",
+        "index": 605,
+        "start": 288.9,
+        "speaker": "Speaker 2",
+        "end": 297.25,
+        "voiceWindow": [
+          288.9,
+          297.25
+        ],
+        "scores": {
+          "Speaker 1": 0.463,
+          "Speaker 2": 0.9187,
+          "Speaker 3": 0.2007
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Well I need a chair",
+        "index": 623,
+        "start": 297.28,
+        "speaker": "Speaker 3",
+        "end": 315.77000000000004,
+        "voiceWindow": [
+          297.28,
+          307.28
+        ],
+        "scores": {
+          "Speaker 1": 0.2203,
+          "Speaker 2": 0.1296,
+          "Speaker 3": 0.9267
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes",
+        "index": 661,
+        "start": 315.8,
+        "speaker": "Speaker 2",
+        "end": 317.15000000000003,
+        "voiceWindow": [
+          315.8,
+          317.15000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.0395,
+          "Speaker 2": 0.302,
+          "Speaker 3": 0.1157
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "And it's fully adjustable",
+        "index": 662,
+        "start": 317.18,
+        "speaker": "Speaker 3",
+        "end": 320.25,
+        "voiceWindow": [
+          317.18,
+          320.25
+        ],
+        "scores": {
+          "Speaker 1": 0.1795,
+          "Speaker 2": 0.1623,
+          "Speaker 3": 0.772
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Let me see Height yes",
+        "index": 668,
+        "start": 320.28,
+        "speaker": "Speaker 2",
+        "end": 328.77000000000004,
+        "voiceWindow": [
+          320.28,
+          328.77000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.4115,
+          "Speaker 2": 0.863,
+          "Speaker 3": 0.1639
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh that could be a problem",
+        "index": 682,
+        "start": 328.8,
+        "speaker": "Speaker 3",
+        "end": 332.92,
+        "voiceWindow": [
+          328.8,
+          332.92
+        ],
+        "scores": {
+          "Speaker 1": 0.1713,
+          "Speaker 2": 0.1445,
+          "Speaker 3": 0.6942
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "What about 131",
+        "index": 691,
+        "start": 332.95,
+        "speaker": "Speaker 2",
+        "end": 340.39000000000004,
+        "voiceWindow": [
+          332.95,
+          340.39000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.4429,
+          "Speaker 2": 0.83,
+          "Speaker 3": 0.1307
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "But can I get that",
+        "index": 704,
+        "start": 340.42,
+        "speaker": "Speaker 3",
+        "end": 346.54,
+        "voiceWindow": [
+          340.42,
+          346.54
+        ],
+        "scores": {
+          "Speaker 1": 0.2152,
+          "Speaker 2": 0.1105,
+          "Speaker 3": 0.8489
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Oh they all come",
+        "index": 722,
+        "start": 346.57,
+        "speaker": "Speaker 2",
+        "end": 349.68,
+        "voiceWindow": [
+          346.57,
+          349.68
+        ],
+        "scores": {
+          "Speaker 1": 0.2953,
+          "Speaker 2": 0.6006,
+          "Speaker 3": 0.1692
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "OK So I'll go",
+        "index": 732,
+        "start": 349.71,
+        "speaker": "Speaker 3",
+        "end": 355.33000000000004,
+        "voiceWindow": [
+          349.71,
+          355.33000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.3527,
+          "Speaker 2": 0.2313,
+          "Speaker 3": 0.7889
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Mm I think you'll like",
+        "index": 741,
+        "start": 355.36,
+        "speaker": "Speaker 2",
+        "end": 364.07000000000005,
+        "voiceWindow": [
+          355.36,
+          364.07000000000005
+        ],
+        "scores": {
+          "Speaker 1": 0.4416,
+          "Speaker 2": 0.765,
+          "Speaker 3": 0.137
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh good Thanks",
+        "index": 770,
+        "start": 364.1,
+        "speaker": "Speaker 3",
+        "end": 375.25,
+        "voiceWindow": [
+          364.1,
+          374.1
+        ],
+        "scores": {
+          "Speaker 1": 0.2785,
+          "Speaker 2": 0.1387,
+          "Speaker 3": 0.796
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "OK Two drawers",
+        "index": 791,
+        "start": 375.28,
+        "speaker": "Speaker 2",
+        "end": 383.83000000000004,
+        "voiceWindow": [
+          375.28,
+          383.83000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.5313,
+          "Speaker 2": 0.771,
+          "Speaker 3": 0.202
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Sorry what's that",
+        "index": 808,
+        "start": 383.86,
+        "speaker": "Speaker 3",
+        "end": 385.15000000000003,
+        "voiceWindow": [
+          383.86,
+          385.15000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.1208,
+          "Speaker 2": 0.0322,
+          "Speaker 3": 0.5462
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "You can have it with a lock",
+        "index": 811,
+        "start": 385.18,
+        "speaker": "Speaker 2",
+        "end": 388.85,
+        "voiceWindow": [
+          385.18,
+          388.85
+        ],
+        "scores": {
+          "Speaker 1": 0.4644,
+          "Speaker 2": 0.7205,
+          "Speaker 3": 0.1476
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh yes please",
+        "index": 822,
+        "start": 388.88,
+        "speaker": "Speaker 3",
+        "end": 391.23,
+        "voiceWindow": [
+          388.88,
+          391.23
+        ],
+        "scores": {
+          "Speaker 1": 0.0444,
+          "Speaker 2": -0.0472,
+          "Speaker 3": 0.4804
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "OK So that's number",
+        "index": 825,
+        "start": 391.26,
+        "speaker": "Speaker 2",
+        "end": 395.87,
+        "voiceWindow": [
+          391.26,
+          395.87
+        ],
+        "scores": {
+          "Speaker 1": 0.2847,
+          "Speaker 2": 0.5921,
+          "Speaker 3": 0.0927
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "It doesn't by any chance",
+        "index": 830,
+        "start": 395.9,
+        "speaker": "Speaker 3",
+        "end": 399.67,
+        "voiceWindow": [
+          395.9,
+          399.67
+        ],
+        "scores": {
+          "Speaker 1": 0.2386,
+          "Speaker 2": 0.1583,
+          "Speaker 3": 0.7591
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Well it's similar",
+        "index": 840,
+        "start": 399.7,
+        "speaker": "Speaker 2",
+        "end": 405.44000000000005,
+        "voiceWindow": [
+          399.7,
+          405.44000000000005
+        ],
+        "scores": {
+          "Speaker 1": 0.3842,
+          "Speaker 2": 0.7503,
+          "Speaker 3": 0.1281
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "So it's grey",
+        "index": 854,
+        "start": 405.47,
+        "speaker": "Speaker 3",
+        "end": 407.02000000000004,
+        "voiceWindow": [
+          405.47,
+          407.02000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.2005,
+          "Speaker 2": 0.0327,
+          "Speaker 3": 0.5223
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "That's right",
+        "index": 857,
+        "start": 407.05,
+        "speaker": "Speaker 2",
+        "end": 408.46000000000004,
+        "voiceWindow": [
+          407.05,
+          408.46000000000004
+        ],
+        "scores": {
+          "Speaker 1": 0.4068,
+          "Speaker 2": 0.4681,
+          "Speaker 3": 0.2072
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Fine That'll do",
+        "index": 859,
+        "start": 408.49,
+        "speaker": "Speaker 3",
+        "end": 410.55,
+        "voiceWindow": [
+          408.49,
+          410.55
+        ],
+        "scores": {
+          "Speaker 1": 0.0848,
+          "Speaker 2": 0.0064,
+          "Speaker 3": 0.1688
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Now about delivery",
+        "index": 862,
+        "start": 410.58,
+        "speaker": "Speaker 2",
+        "end": 438.14000000000004,
+        "voiceWindow": [
+          410.58,
+          420.58
+        ],
+        "scores": {
+          "Speaker 1": 0.3584,
+          "Speaker 2": 0.8143,
+          "Speaker 3": 0.0863
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "That's fine I'll drop",
+        "index": 929,
+        "start": 438.17,
+        "speaker": "Speaker 3",
+        "end": 445.81,
+        "voiceWindow": [
+          438.17,
+          445.81
+        ],
+        "scores": {
+          "Speaker 1": 0.2991,
+          "Speaker 2": 0.1779,
+          "Speaker 3": 0.7427
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Thank you for your order",
+        "index": 947,
+        "start": 445.84,
+        "speaker": "Speaker 2",
+        "end": 450.15000000000003,
+        "voiceWindow": [
+          445.84,
+          450.15000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.47,
+          "Speaker 2": 0.7175,
+          "Speaker 3": 0.1701
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Thank you I will Bye",
+        "index": 963,
+        "start": 450.18,
+        "speaker": "Speaker 3",
+        "end": 452.59000000000003,
+        "voiceWindow": [
+          450.18,
+          452.59000000000003
+        ],
+        "scores": {
+          "Speaker 1": 0.1892,
+          "Speaker 2": 0.1358,
+          "Speaker 3": 0.4998
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Bye",
+        "index": 968,
+        "start": 452.62,
+        "speaker": "Speaker 2",
+        "end": 457.35,
+        "voiceWindow": [
+          452.62,
+          457.35
+        ],
+        "scores": {
+          "Speaker 1": -0.0101,
+          "Speaker 2": 0.0996,
+          "Speaker 3": 0.0373
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 969,
+        "start": 457.38,
+        "speaker": "Speaker 1",
+        "end": 463.58,
+        "voiceWindow": [
+          457.38,
+          463.58
+        ],
+        "scores": {
+          "Speaker 1": 0.8893,
+          "Speaker 2": 0.4689,
+          "Speaker 3": 0.2511
+        },
+        "chosen": "Speaker 1"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": "Section 1. You will hear a woman who works in a furniture store taking a telephone order from a man. First, you have some time to look at questions 1 to 5. Pause the recording for 30 seconds. You will see that there is an example that has been done for you."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 1",
+      "text": "On this occasion only, the conversation relating to this will be played first. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "Good afternoon, MegaQuip. This is Sally speaking."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "How may I help you? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 3",
+      "text": "Oh, hello. Um, I'd like to order some items from your catalogue. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": "Yes, are you an existing customer? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 3",
+      "text": "Uh, no, I've only just moved here from South Africa."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 3",
+      "text": "But I picked up your winter catalogue in the city centre yesterday. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 2",
+      "text": "Fine. The winter catalogue is our current one."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "As you're a new customer, I need to take a few details from you. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 1",
+      "text": "The customer is using the winter catalogue, so winter has been written in the space. Now we shall begin."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 1",
+      "text": "You should answer the questions as you listen, because you will not hear the recording a second time. Listen carefully and answer questions 1 to 5. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 2",
+      "text": "Good afternoon, MegaQuip. This is Sally speaking."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 2",
+      "text": "How may I help you? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 3",
+      "text": "Oh, hello. Um, I'd like to order some items from your catalogue. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 2",
+      "text": "Yes, are you an existing customer? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 3",
+      "text": "Uh, no, I've only just moved here from South Africa."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 3",
+      "text": "But I picked up your winter catalogue in the city centre yesterday. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 2",
+      "text": "Fine. The winter catalogue is our current one."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 2",
+      "text": "As you're a new customer, I need to take a few details from you. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 3",
+      "text": "Sure. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 2",
+      "text": "Your name is? "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 3",
+      "text": "Oscar Greening."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": "That's Oscar with a K. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 2",
+      "text": "O-S-K-A-R? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": "Yes. Greening. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 2",
+      "text": "And your address? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": "Um, York Terrace."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 2",
+      "text": "Here in the city? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 3",
+      "text": "Yes. "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 2",
+      "text": "What number? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 3",
+      "text": "It's a flat. Number 52C."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 2",
+      "text": "C. Got that. And would that be the same address for delivery? "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 3",
+      "text": "Um, no, actually. I'm out all day."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 3",
+      "text": "But my neighbour can take delivery at number 5 York Avenue. It's just round the corner. "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 2",
+      "text": "Okay, fine."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 2",
+      "text": "Number 5. I've got that. And will you be paying by debit card or credit card? "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 3",
+      "text": "Well, uh, I don't have any cards yet. I'll have some shortly, but I want these things this week, if possible."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 3",
+      "text": "Could I come to the store and pay cash in advance? "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 2",
+      "text": "Well, I guess so. I'll make a note. I'm afraid that payment method doesn't entitle you to a discount."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 3",
+      "text": "No, I didn't expect one for that. But what about my address? It says on the cover of the catalogue... "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 2",
+      "text": "Oh, yes, you're right. Of course, York Terrace is within the city, so you get free delivery and 5% discount on your order."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 3",
+      "text": "Ah, good. "
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10. Pause the recording for 30 seconds."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 1",
+      "text": "Now listen and answer questions 6 to 10. "
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 2",
+      "text": "So, what would you like to order? You have our current catalogue, you say? "
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 3",
+      "text": "Yes, I need three things for the room where I study. My office, I guess."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 3",
+      "text": "The most urgent is a desk lamp. Is your catalogue number 664 in stock? "
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 2",
+      "text": "664? That's not Home Office. It's in the Living section of the catalogue."
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 3",
+      "text": "It is. I want a small one that clips onto the edge of the desk. "
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 2",
+      "text": "Yes, no problem."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 2",
+      "text": "In which colour? "
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 3",
+      "text": "I'd like the greyish coloured one, please. "
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 2",
+      "text": "Oh, you mean the shade we call Slate. Yes, it's a nice colour."
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 3",
+      "text": "And I wondered, could I get that when I come in to pay, rather than waiting for delivery? I really need to be able to read at night, and the lights in this flat are useless. "
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 2",
+      "text": "Yes, I'm sure that'll be OK. I'll note down that customer will collect."
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 2",
+      "text": "What else did you want? "
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 3",
+      "text": "Well, I need a chair which gives good support when I'm using my computer. I saw one in your Home Office section, and I think it would suit me. It's on page 45, item number, oh, um, 129."
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": "Yes. "
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 3",
+      "text": "And it's fully adjustable, isn't it? "
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 2",
+      "text": "Let me see. Height, yes."
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 2",
+      "text": "Back, yes. I'm not sure about the arms, though. "
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 3",
+      "text": "Oh, that could be a problem."
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 3",
+      "text": "I'm very tall. "
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 2",
+      "text": "What about 131 on the same page? That has adjustable arms, seat, everything. "
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 3",
+      "text": "But can I get that in the same colour? I mean, the green, like the one it shows? "
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 2",
+      "text": "Oh, they all come in the full range of colours."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 3",
+      "text": "OK. So I'll go for 131 in green, then. "
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 2",
+      "text": "Mm, I think you'll like that."
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Speaker 2",
+      "text": "My brother's very tall, and he uses one. We can make sure there's one on the delivery van to you early next week. "
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Speaker 3",
+      "text": "Oh, good."
+    },
+    {
+      "paragraph": 28,
+      "speaker": "Speaker 3",
+      "text": "Thanks. And so, lastly, I need a filing cabinet for my documents. A little filing cabinet with two drawers."
+    },
+    {
+      "paragraph": 29,
+      "speaker": "Speaker 2",
+      "text": "OK. Two drawers. Do you want the ordinary one or the lockable one? It's an extra £20."
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 3",
+      "text": "Sorry, what's that? "
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 2",
+      "text": "You can have it with a lock, which is more secure. "
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 3",
+      "text": "Oh, yes, please. "
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 2",
+      "text": "OK."
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 2",
+      "text": "So that's number 153. "
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 3",
+      "text": "It doesn't by any chance come in slate, does it? "
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 2",
+      "text": "Well, it's similar, but the commercial office furniture doesn't come in so many shades. "
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 3",
+      "text": "So it's grey? "
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 2",
+      "text": "That's right."
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Speaker 3",
+      "text": "Fine. That'll do. "
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Speaker 2",
+      "text": "Now, about delivery, the two items will probably come at different times, as we have the chair in stock here, so our van will bring it, as I said."
+    },
+    {
+      "paragraph": 33,
+      "speaker": "Speaker 2",
+      "text": "The filing cabinet will be coming direct from London, so today's the 29th of September, say not more than four days. That'll be delivered on or before the 3rd of October. You'll have them both within four days."
+    },
+    {
+      "paragraph": 34,
+      "speaker": "Speaker 3",
+      "text": "That's fine. I'll drop in tomorrow morning to pay and get the lamp. Thanks for all your help."
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Speaker 2",
+      "text": "Thank you for your order. Let me know if we can do anything else for you. "
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Speaker 3",
+      "text": "Thank you."
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Speaker 3",
+      "text": "I will. Bye. "
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Speaker 2",
+      "text": "Bye."
+    },
+    {
+      "paragraph": 37,
+      "speaker": "Speaker 1",
+      "text": "That is the end of section 1. You now have half a minute to check your answers."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "51438cff232acc100a9f876eb66ea68c2a75a8dc7d56d95b4994f339dcd8ab98"
+}

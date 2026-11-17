@@ -1,0 +1,1820 @@
+{
+  "test": "practice-listening-14",
+  "part": 1,
+  "audioSha256": "290891a94c9de57d5375e7c47eaa4cb0ac14d961df6e9e5c2c13e8b9c7dac7c4",
+  "scope": {
+    "start": 50.94,
+    "end": 326.78
+  },
+  "sourceScope": "All 36 published paragraphs; missing questions and incorrectly aligned closing repaired.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "speakerLabelsUnchanged": true,
+  "correctedWordClocks": [
+    {
+      "word": "Yeah,",
+      "before": [
+        "310.92",
+        "311.44"
+      ],
+      "after": [
+        314.55,
+        314.88
+      ]
+    },
+    {
+      "word": "don't",
+      "before": [
+        "311.60",
+        "315.42"
+      ],
+      "after": [
+        315.23,
+        315.38
+      ]
+    },
+    {
+      "word": "Well,",
+      "before": [
+        "180.22",
+        "180.28"
+      ],
+      "after": [
+        181.11,
+        181.44
+      ]
+    }
+  ],
+  "removedIncorrectClosingClocks": [
+    [
+      "431.00",
+      "431.26",
+      "for"
+    ],
+    [
+      "431.26",
+      "431.52",
+      "your"
+    ],
+    [
+      "585.48",
+      "585.78",
+      "on"
+    ],
+    [
+      "585.78",
+      "585.94",
+      "the"
+    ]
+  ],
+  "closingRecoveredWords": 18,
+  "addedUtteranceCues": [
+    {
+      "paragraph": 4,
+      "start": 108.9,
+      "end": 110.44,
+      "text": "Great. Could you give me your address?",
+      "granularity": "utterance",
+      "source": "cropped recognition with bounded speaker turns"
+    },
+    {
+      "paragraph": 6,
+      "start": 115.76,
+      "end": 118.44,
+      "text": "I'm sorry, was that Eleanor? Could you spell that for me?",
+      "granularity": "utterance",
+      "source": "cropped recognition with bounded speaker turns"
+    },
+    {
+      "paragraph": 8,
+      "start": 124.76,
+      "end": 131.56,
+      "text": "Okay, thanks. And is this the number we should reach you at in the future? 099885767?",
+      "granularity": "utterance",
+      "source": "cropped recognition with bounded speaker turns"
+    },
+    {
+      "paragraph": 10,
+      "start": 141.98,
+      "end": 144.72,
+      "text": "Okay – I'll make a note of that. Could you tell me your availability?",
+      "granularity": "utterance",
+      "source": "cropped recognition with bounded speaker turns"
+    },
+    {
+      "paragraph": 16,
+      "start": 178.4,
+      "end": 180.74,
+      "text": "Rescue diver? That sounds intense!",
+      "granularity": "utterance",
+      "source": "cropped recognition with bounded speaker turns"
+    },
+    {
+      "paragraph": 18,
+      "start": 190.043,
+      "end": 190.972,
+      "text": "Haha. I see.",
+      "granularity": "utterance",
+      "source": "speech segmentation corroborated by cropped recognition"
+    },
+    {
+      "paragraph": 33,
+      "start": 306.464,
+      "end": 314.1,
+      "text": "You know, I think you're the first person who has responded to our radio ads. It's almost always people who have seen us in the newspaper.",
+      "granularity": "utterance",
+      "source": "speech segmentation corroborated by cropped recognition"
+    }
+  ],
+  "addedWordCue": {
+    "word": "I",
+    "start": 315.08,
+    "end": 315.23
+  },
+  "oldTranscriptEndSeconds": 585.94,
+  "plainTextSha256": "cbdc78e56468066106d73d50a7c02e4a9d678ef624c189bdcf364a21153b06d5",
+  "wordClocksSha256": "ba72fe80db5a6cb96a74af7e3875b916140d23d6a9506c354699e950e2096d7e",
+  "wordClockCount": 416,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "EMPLOYER": [
+        [
+          154.1,
+          160.98
+        ],
+        [
+          265.7,
+          274.98
+        ],
+        [
+          293.88,
+          299.98
+        ]
+      ],
+      "APPLICANT": [
+        [
+          161.72,
+          168.44
+        ],
+        [
+          258.54,
+          264.92
+        ],
+        [
+          314.55,
+          321.51
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "EMPLOYER",
+        "window": [
+          154.1,
+          160.98
+        ],
+        "scores": {
+          "EMPLOYER": 0.8475,
+          "APPLICANT": 0.2573
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "label": "EMPLOYER",
+        "window": [
+          265.7,
+          274.98
+        ],
+        "scores": {
+          "EMPLOYER": 0.8596,
+          "APPLICANT": 0.1711
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "label": "EMPLOYER",
+        "window": [
+          293.88,
+          299.98
+        ],
+        "scores": {
+          "EMPLOYER": 0.8495,
+          "APPLICANT": 0.2751
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "label": "APPLICANT",
+        "window": [
+          161.72,
+          168.44
+        ],
+        "scores": {
+          "EMPLOYER": 0.2296,
+          "APPLICANT": 0.883
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "label": "APPLICANT",
+        "window": [
+          258.54,
+          264.92
+        ],
+        "scores": {
+          "EMPLOYER": 0.2553,
+          "APPLICANT": 0.8555
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "label": "APPLICANT",
+        "window": [
+          314.55,
+          321.51
+        ],
+        "scores": {
+          "EMPLOYER": 0.2274,
+          "APPLICANT": 0.8981
+        },
+        "chosen": "APPLICANT"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "EMPLOYER: Hello, is this John Murphy?",
+        "sourceLabel": "EMPLOYER",
+        "start": 50.94,
+        "end": 52.68,
+        "scores": {
+          "EMPLOYER": 0.6451,
+          "APPLICANT": 0.2495
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 1,
+        "text": "APPLICANT: Hi, yes it is.",
+        "sourceLabel": "APPLICANT",
+        "start": 53.04,
+        "end": 54.38,
+        "scores": {
+          "EMPLOYER": 0.1938,
+          "APPLICANT": 0.767
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 2,
+        "text": "EMPLOYER: Hi John, this is Ed Heisenburg from the Wild Dunes Spa and Resort calling about your application for our lifeguard (Example) position. Do you have a few minutes to talk?",
+        "sourceLabel": "EMPLOYER",
+        "start": 54.52,
+        "end": 64.5,
+        "scores": {
+          "EMPLOYER": 0.913,
+          "APPLICANT": 0.2083
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 3,
+        "text": "APPLICANT: Yes, absolutely.",
+        "sourceLabel": "APPLICANT",
+        "start": 65.12,
+        "end": 66.16,
+        "scores": {
+          "EMPLOYER": 0.1687,
+          "APPLICANT": 0.7282
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 4,
+        "text": "EMPLOYER: Great. Could you give me your address?",
+        "sourceLabel": "EMPLOYER",
+        "start": 108.9,
+        "end": 110.7,
+        "scores": {
+          "EMPLOYER": 0.6809,
+          "APPLICANT": 0.0807
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 5,
+        "text": "APPLICANT: Sure. My address is 45 Elsinore (Q1) Court.",
+        "sourceLabel": "APPLICANT",
+        "start": 110.92,
+        "end": 114.92,
+        "scores": {
+          "EMPLOYER": 0.2523,
+          "APPLICANT": 0.8414
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 6,
+        "text": "EMPLOYER: I'm sorry, was that Eleanor? Could you spell that for me?",
+        "sourceLabel": "EMPLOYER",
+        "start": 115.6,
+        "end": 118.55,
+        "scores": {
+          "EMPLOYER": 0.8289,
+          "APPLICANT": 0.2471
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 7,
+        "text": "APPLICANT: Sure â€“ it's Elsinore. E-L-S-I-N-O-R-E.",
+        "sourceLabel": "APPLICANT",
+        "start": 118.8,
+        "end": 120.46,
+        "scores": {
+          "EMPLOYER": 0.1876,
+          "APPLICANT": 0.7547
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 8,
+        "text": "EMPLOYER: Okay, thanks. And is this the number we should reach you at in the future? 099885767?",
+        "sourceLabel": "EMPLOYER",
+        "start": 124.6,
+        "end": 131.6,
+        "scores": {
+          "EMPLOYER": 0.896,
+          "APPLICANT": 0.1775
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 9,
+        "text": "APPLICANT: No, this is my home phone, but let me give you my mobile phone number instead: 077896245 (Q2). Call me on that one.",
+        "sourceLabel": "APPLICANT",
+        "start": 132.4,
+        "end": 141.72,
+        "scores": {
+          "EMPLOYER": 0.2895,
+          "APPLICANT": 0.9155
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 10,
+        "text": "EMPLOYER: Okay â€“ I'll make a note of that. Could you tell me your availability?",
+        "sourceLabel": "EMPLOYER",
+        "start": 142,
+        "end": 144.9,
+        "scores": {
+          "EMPLOYER": 0.8522,
+          "APPLICANT": 0.1853
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 11,
+        "text": "APPLICANT: Sure. I am usually available during afternoons or weekends.I would prefer not to be scheduled on weeknights because I work part-time as a waiter (Q3).",
+        "sourceLabel": "APPLICANT",
+        "start": 146.12,
+        "end": 148.5,
+        "scores": {
+          "EMPLOYER": 0.1251,
+          "APPLICANT": 0.77
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 12,
+        "text": "EMPLOYER: That shouldn't be a problem, since we don't stay open very late anyway. And do you have any other employment experience?",
+        "sourceLabel": "EMPLOYER",
+        "start": 154.1,
+        "end": 160.98,
+        "scores": {
+          "EMPLOYER": 0.9326,
+          "APPLICANT": 0.2573
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 13,
+        "text": "APPLICANT: Yes, I have worked at a few other places. I was the baseball coach (Q4) at Ridgemont High School last season.",
+        "sourceLabel": "APPLICANT",
+        "start": 161.72,
+        "end": 168.44,
+        "scores": {
+          "EMPLOYER": 0.2296,
+          "APPLICANT": 0.9484
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 14,
+        "text": "EMPLOYER: I see. And do you have any other experience that you would like us to note on your application?",
+        "sourceLabel": "EMPLOYER",
+        "start": 168.86,
+        "end": 174.14,
+        "scores": {
+          "EMPLOYER": 0.9117,
+          "APPLICANT": 0.235
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 15,
+        "text": "APPLICANT: Yes. Last year I worked at the beach as a rescue diver (Q5).",
+        "sourceLabel": "APPLICANT",
+        "start": 174.68,
+        "end": 178.38,
+        "scores": {
+          "EMPLOYER": 0.264,
+          "APPLICANT": 0.8928
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 16,
+        "text": "EMPLOYER: Rescue diver? That sounds intense!",
+        "sourceLabel": "EMPLOYER",
+        "start": 178.4,
+        "end": 180.12,
+        "scores": {
+          "EMPLOYER": 0.5254,
+          "APPLICANT": 0.14
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 17,
+        "text": "APPLICANT: Well, it's really just like being a lifeguard, except in the ocean instead of a pool. So kind of like being a lifeguard at the world's largest pool.",
+        "sourceLabel": "APPLICANT",
+        "start": 180.22,
+        "end": 189.76,
+        "scores": {
+          "EMPLOYER": 0.2568,
+          "APPLICANT": 0.8656
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 18,
+        "text": "EMPLOYER: Haha. I see.",
+        "sourceLabel": "EMPLOYER",
+        "start": 190,
+        "end": 191.7,
+        "scores": {
+          "EMPLOYER": 0.3825,
+          "APPLICANT": 0.1977
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 19,
+        "text": "EMPLOYER: So could you tell me about the relevant skills you have? I'm guessing a lot, given your experience.",
+        "sourceLabel": "EMPLOYER",
+        "start": 225.86,
+        "end": 231.54,
+        "scores": {
+          "EMPLOYER": 0.8812,
+          "APPLICANT": 0.2219
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 20,
+        "text": "APPLICANT: I am CPR certified and have 2 years of diving experience (Q6).",
+        "sourceLabel": "APPLICANT",
+        "start": 232.6,
+        "end": 235.74,
+        "scores": {
+          "EMPLOYER": 0.2828,
+          "APPLICANT": 0.8799
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 21,
+        "text": "EMPLOYER: Great! It sounds like you are well qualified for this position. When does your CPR certification expire?",
+        "sourceLabel": "EMPLOYER",
+        "start": 236.42,
+        "end": 243.02,
+        "scores": {
+          "EMPLOYER": 0.7602,
+          "APPLICANT": 0.0962
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 22,
+        "text": "APPLICANT: Hm. I think in November, but let me quickly check my CPR card â€¦ actually, it expires in October (Q7).",
+        "sourceLabel": "APPLICANT",
+        "start": 243.94,
+        "end": 252.12,
+        "scores": {
+          "EMPLOYER": 0.2813,
+          "APPLICANT": 0.9027
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 23,
+        "text": "EMPLOYER: Okay, so regardless you have it through the end of the summer. When is your ideal time to work?",
+        "sourceLabel": "EMPLOYER",
+        "start": 253.1,
+        "end": 257.92,
+        "scores": {
+          "EMPLOYER": 0.8408,
+          "APPLICANT": 0.2004
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 24,
+        "text": "APPLICANT: Since I work in the restaurant on weeknights, I like weekends best â€“ specifically Saturday mornings (Q8).",
+        "sourceLabel": "APPLICANT",
+        "start": 258.54,
+        "end": 264.92,
+        "scores": {
+          "EMPLOYER": 0.2553,
+          "APPLICANT": 0.9356
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 25,
+        "text": "EMPLOYER: I see. We do already have a lot of staff available on Saturdays, but I do need an early morning shift lifeguard. How early could you work Saturday morning?",
+        "sourceLabel": "EMPLOYER",
+        "start": 265.7,
+        "end": 274.98,
+        "scores": {
+          "EMPLOYER": 0.9383,
+          "APPLICANT": 0.1711
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 26,
+        "text": "APPLICANT: I can get there by 6.00 (Q9) if need be.",
+        "sourceLabel": "APPLICANT",
+        "start": 276,
+        "end": 280.14,
+        "scores": {
+          "EMPLOYER": 0.2616,
+          "APPLICANT": 0.8738
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 27,
+        "text": "EMPLOYER: You'll be happy to know we open a little later than that, but I'll put you down for Saturday mornings here.",
+        "sourceLabel": "EMPLOYER",
+        "start": 280.22,
+        "end": 285.98,
+        "scores": {
+          "EMPLOYER": 0.9041,
+          "APPLICANT": 0.2558
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 28,
+        "text": "APPLICANT: Oh awesome! I can't wait to get started.",
+        "sourceLabel": "APPLICANT",
+        "start": 286.36,
+        "end": 288.66,
+        "scores": {
+          "EMPLOYER": 0.255,
+          "APPLICANT": 0.8461
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 29,
+        "text": "EMPLOYER: How about you come in next Saturday, the 12th?",
+        "sourceLabel": "EMPLOYER",
+        "start": 289.08,
+        "end": 292.3,
+        "scores": {
+          "EMPLOYER": 0.8186,
+          "APPLICANT": 0.1965
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 30,
+        "text": "APPLICANT: That sounds good.",
+        "sourceLabel": "APPLICANT",
+        "start": 292.4,
+        "end": 293.28000000000003,
+        "scores": {
+          "EMPLOYER": 0.1855,
+          "APPLICANT": 0.7374
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 31,
+        "text": "EMPLOYER: Great â€“ we can figure out other shifts for you to work when you come in then. One last thing â€“ just out of curiosity, where did you hear about us?",
+        "sourceLabel": "EMPLOYER",
+        "start": 293.88,
+        "end": 299.98,
+        "scores": {
+          "EMPLOYER": 0.9336,
+          "APPLICANT": 0.2751
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 32,
+        "text": "APPLICANT: I heard your ad on the radio (Q10) while I was driving this morning.",
+        "sourceLabel": "APPLICANT",
+        "start": 302.16,
+        "end": 306.22,
+        "scores": {
+          "EMPLOYER": 0.221,
+          "APPLICANT": 0.8843
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 33,
+        "text": "EMPLOYER: You know, I think you're the first person who has responded to our radio ads. It's almost always people who have seen us in the newspaper.",
+        "sourceLabel": "EMPLOYER",
+        "start": 306.8,
+        "end": 314.1,
+        "scores": {
+          "EMPLOYER": 0.9272,
+          "APPLICANT": 0.2581
+        },
+        "chosen": "EMPLOYER"
+      },
+      {
+        "index": 34,
+        "text": "APPLICANT: Yeah, I don't have time to read through the newspaper every morning. I have plenty of time in the car to listen to radio ads.",
+        "sourceLabel": "APPLICANT",
+        "start": 314.55,
+        "end": 321.51,
+        "scores": {
+          "EMPLOYER": 0.2274,
+          "APPLICANT": 0.9554
+        },
+        "chosen": "APPLICANT"
+      },
+      {
+        "index": 35,
+        "text": "EMPLOYER: That makes sense. Well, thanks for your time, and we'll look forward to seeing you on the 12th.",
+        "sourceLabel": "EMPLOYER",
+        "start": 322,
+        "end": 328.8,
+        "scores": {
+          "EMPLOYER": 0.6948,
+          "APPLICANT": 0.1279
+        },
+        "chosen": "EMPLOYER"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "localRecognition": [
+    {
+      "start": 108.5,
+      "end": 154.2,
+      "words": [
+        {
+          "word": "Great.",
+          "start": 108.5,
+          "end": 109.08
+        },
+        {
+          "word": "Could",
+          "start": 109.24,
+          "end": 109.34
+        },
+        {
+          "word": "you",
+          "start": 109.34,
+          "end": 109.52
+        },
+        {
+          "word": "give",
+          "start": 109.52,
+          "end": 109.64
+        },
+        {
+          "word": "me",
+          "start": 109.64,
+          "end": 109.82
+        },
+        {
+          "word": "your",
+          "start": 109.82,
+          "end": 110.04
+        },
+        {
+          "word": "address?",
+          "start": 110.04,
+          "end": 110.44
+        },
+        {
+          "word": "Sure.",
+          "start": 111.18,
+          "end": 111.18
+        },
+        {
+          "word": "My",
+          "start": 111.82,
+          "end": 111.88
+        },
+        {
+          "word": "address",
+          "start": 111.88,
+          "end": 112.18
+        },
+        {
+          "word": "is",
+          "start": 112.18,
+          "end": 112.8
+        },
+        {
+          "word": "45",
+          "start": 112.8,
+          "end": 113.8
+        },
+        {
+          "word": "Elsinore",
+          "start": 113.8,
+          "end": 114.92
+        },
+        {
+          "word": "Court.",
+          "start": 114.92,
+          "end": 115.28
+        },
+        {
+          "word": "I'm",
+          "start": 115.76,
+          "end": 115.92
+        },
+        {
+          "word": "sorry.",
+          "start": 115.92,
+          "end": 116.16
+        },
+        {
+          "word": "Was",
+          "start": 116.28,
+          "end": 116.36
+        },
+        {
+          "word": "that",
+          "start": 116.36,
+          "end": 116.6
+        },
+        {
+          "word": "Eleanor?",
+          "start": 116.6,
+          "end": 116.92
+        },
+        {
+          "word": "Could",
+          "start": 117.34,
+          "end": 117.44
+        },
+        {
+          "word": "you",
+          "start": 117.44,
+          "end": 117.58
+        },
+        {
+          "word": "spell",
+          "start": 117.58,
+          "end": 117.84
+        },
+        {
+          "word": "that",
+          "start": 117.84,
+          "end": 118.04
+        },
+        {
+          "word": "for",
+          "start": 118.04,
+          "end": 118.22
+        },
+        {
+          "word": "me?",
+          "start": 118.22,
+          "end": 118.44
+        },
+        {
+          "word": "Sure.",
+          "start": 118.92,
+          "end": 119.06
+        },
+        {
+          "word": "It's",
+          "start": 119.42,
+          "end": 119.66
+        },
+        {
+          "word": "Elsinore.",
+          "start": 119.66,
+          "end": 120.46
+        },
+        {
+          "word": "E",
+          "start": 120.66,
+          "end": 120.82
+        },
+        {
+          "word": "-L",
+          "start": 120.82,
+          "end": 121.3
+        },
+        {
+          "word": "-S",
+          "start": 121.3,
+          "end": 121.74
+        },
+        {
+          "word": "-I",
+          "start": 121.74,
+          "end": 122.18
+        },
+        {
+          "word": "-N",
+          "start": 122.18,
+          "end": 122.7
+        },
+        {
+          "word": "-O",
+          "start": 122.7,
+          "end": 123.22
+        },
+        {
+          "word": "-R",
+          "start": 123.22,
+          "end": 123.8
+        },
+        {
+          "word": "-E.",
+          "start": 123.8,
+          "end": 124.3
+        },
+        {
+          "word": "Okay,",
+          "start": 124.76,
+          "end": 124.98
+        },
+        {
+          "word": "thanks.",
+          "start": 125.08,
+          "end": 125.38
+        },
+        {
+          "word": "And",
+          "start": 125.8,
+          "end": 125.96
+        },
+        {
+          "word": "is",
+          "start": 125.96,
+          "end": 126.08
+        },
+        {
+          "word": "this",
+          "start": 126.08,
+          "end": 126.24
+        },
+        {
+          "word": "the",
+          "start": 126.24,
+          "end": 126.42
+        },
+        {
+          "word": "number",
+          "start": 126.42,
+          "end": 126.7
+        },
+        {
+          "word": "we",
+          "start": 126.7,
+          "end": 127.18
+        },
+        {
+          "word": "should",
+          "start": 127.18,
+          "end": 127.36
+        },
+        {
+          "word": "reach",
+          "start": 127.36,
+          "end": 127.6
+        },
+        {
+          "word": "you",
+          "start": 127.6,
+          "end": 127.84
+        },
+        {
+          "word": "at",
+          "start": 127.84,
+          "end": 128.04
+        },
+        {
+          "word": "in",
+          "start": 128.04,
+          "end": 128.24
+        },
+        {
+          "word": "the",
+          "start": 128.24,
+          "end": 128.42
+        },
+        {
+          "word": "future?",
+          "start": 128.42,
+          "end": 128.68
+        },
+        {
+          "word": "O",
+          "start": 129.28,
+          "end": 129.3
+        },
+        {
+          "word": "-double",
+          "start": 129.3,
+          "end": 129.44
+        },
+        {
+          "word": "nine",
+          "start": 129.44,
+          "end": 129.78
+        },
+        {
+          "word": "double",
+          "start": 129.78,
+          "end": 129.96
+        },
+        {
+          "word": "eight",
+          "start": 129.96,
+          "end": 130.26
+        },
+        {
+          "word": "five",
+          "start": 130.26,
+          "end": 130.56
+        },
+        {
+          "word": "seven",
+          "start": 130.56,
+          "end": 130.94
+        },
+        {
+          "word": "six",
+          "start": 130.94,
+          "end": 131.22
+        },
+        {
+          "word": "seven?",
+          "start": 131.22,
+          "end": 131.56
+        },
+        {
+          "word": "No,",
+          "start": 131.56,
+          "end": 132.12
+        },
+        {
+          "word": "that's",
+          "start": 132.14,
+          "end": 132.42
+        },
+        {
+          "word": "my",
+          "start": 132.42,
+          "end": 132.6
+        },
+        {
+          "word": "home",
+          "start": 132.6,
+          "end": 132.92
+        },
+        {
+          "word": "phone,",
+          "start": 132.92,
+          "end": 133.32
+        },
+        {
+          "word": "but",
+          "start": 133.62,
+          "end": 134.04
+        },
+        {
+          "word": "let",
+          "start": 134.04,
+          "end": 134.24
+        },
+        {
+          "word": "me",
+          "start": 134.24,
+          "end": 134.4
+        },
+        {
+          "word": "give",
+          "start": 134.4,
+          "end": 134.56
+        },
+        {
+          "word": "you",
+          "start": 134.56,
+          "end": 134.74
+        },
+        {
+          "word": "my",
+          "start": 134.74,
+          "end": 135
+        },
+        {
+          "word": "mobile",
+          "start": 135,
+          "end": 135.52
+        },
+        {
+          "word": "number",
+          "start": 135.52,
+          "end": 135.92
+        },
+        {
+          "word": "instead.",
+          "start": 135.92,
+          "end": 136.38
+        },
+        {
+          "word": "077",
+          "start": 137.66,
+          "end": 138.18
+        },
+        {
+          "word": "-896",
+          "start": 138.18,
+          "end": 138.7
+        },
+        {
+          "word": "-245.",
+          "start": 138.7,
+          "end": 139.94
+        },
+        {
+          "word": "Call",
+          "start": 140.6,
+          "end": 140.68
+        },
+        {
+          "word": "me",
+          "start": 140.68,
+          "end": 140.82
+        },
+        {
+          "word": "on",
+          "start": 140.82,
+          "end": 140.94
+        },
+        {
+          "word": "that",
+          "start": 140.94,
+          "end": 141.12
+        },
+        {
+          "word": "one.",
+          "start": 141.12,
+          "end": 141.7
+        },
+        {
+          "word": "Okay,",
+          "start": 141.98,
+          "end": 142.28
+        },
+        {
+          "word": "I'll",
+          "start": 142.4,
+          "end": 142.56
+        },
+        {
+          "word": "make",
+          "start": 142.56,
+          "end": 142.72
+        },
+        {
+          "word": "a",
+          "start": 142.72,
+          "end": 142.88
+        },
+        {
+          "word": "note",
+          "start": 142.88,
+          "end": 143.08
+        },
+        {
+          "word": "of",
+          "start": 143.08,
+          "end": 143.24
+        },
+        {
+          "word": "that.",
+          "start": 143.24,
+          "end": 143.44
+        },
+        {
+          "word": "Could",
+          "start": 143.6,
+          "end": 143.66
+        },
+        {
+          "word": "you",
+          "start": 143.66,
+          "end": 143.8
+        },
+        {
+          "word": "tell",
+          "start": 143.8,
+          "end": 144
+        },
+        {
+          "word": "me",
+          "start": 144,
+          "end": 144.14
+        },
+        {
+          "word": "your",
+          "start": 144.14,
+          "end": 144.32
+        },
+        {
+          "word": "availability?",
+          "start": 144.32,
+          "end": 144.72
+        },
+        {
+          "word": "Sure,",
+          "start": 145.48,
+          "end": 145.7
+        },
+        {
+          "word": "I'm",
+          "start": 145.92,
+          "end": 146.12
+        },
+        {
+          "word": "usually",
+          "start": 146.12,
+          "end": 146.38
+        },
+        {
+          "word": "available",
+          "start": 146.38,
+          "end": 146.8
+        },
+        {
+          "word": "during",
+          "start": 146.8,
+          "end": 147.28
+        },
+        {
+          "word": "afternoons",
+          "start": 147.28,
+          "end": 148.1
+        },
+        {
+          "word": "or",
+          "start": 148.1,
+          "end": 148.5
+        },
+        {
+          "word": "weekends.",
+          "start": 148.5,
+          "end": 148.96
+        },
+        {
+          "word": "I'd",
+          "start": 149.56,
+          "end": 149.84
+        },
+        {
+          "word": "prefer",
+          "start": 149.84,
+          "end": 150.14
+        },
+        {
+          "word": "not",
+          "start": 150.14,
+          "end": 150.44
+        },
+        {
+          "word": "to",
+          "start": 150.44,
+          "end": 150.66
+        },
+        {
+          "word": "be",
+          "start": 150.66,
+          "end": 150.78
+        },
+        {
+          "word": "scheduled",
+          "start": 150.78,
+          "end": 151.2
+        },
+        {
+          "word": "on",
+          "start": 151.2,
+          "end": 151.58
+        },
+        {
+          "word": "weeknights",
+          "start": 151.58,
+          "end": 152.3
+        },
+        {
+          "word": "because",
+          "start": 152.3,
+          "end": 152.6
+        },
+        {
+          "word": "I",
+          "start": 152.6,
+          "end": 152.82
+        },
+        {
+          "word": "work",
+          "start": 152.82,
+          "end": 153.08
+        },
+        {
+          "word": "part",
+          "start": 153.08,
+          "end": 153.38
+        },
+        {
+          "word": "-time",
+          "start": 153.38,
+          "end": 153.68
+        },
+        {
+          "word": "as",
+          "start": 153.68,
+          "end": 153.84
+        },
+        {
+          "word": "a",
+          "start": 153.84,
+          "end": 153.94
+        },
+        {
+          "word": "waiter.",
+          "start": 153.94,
+          "end": 154.08
+        }
+      ]
+    },
+    {
+      "start": 178.3,
+      "end": 192,
+      "words": [
+        {
+          "word": "Rescue",
+          "start": 178.3,
+          "end": 179.12
+        },
+        {
+          "word": "Diver.",
+          "start": 179.12,
+          "end": 179.6
+        },
+        {
+          "word": "That",
+          "start": 179.98,
+          "end": 179.98
+        },
+        {
+          "word": "sounds",
+          "start": 179.98,
+          "end": 180.3
+        },
+        {
+          "word": "intense.",
+          "start": 180.3,
+          "end": 180.74
+        },
+        {
+          "word": "Well,",
+          "start": 181.36,
+          "end": 181.44
+        },
+        {
+          "word": "it's",
+          "start": 181.76,
+          "end": 181.96
+        },
+        {
+          "word": "really",
+          "start": 181.96,
+          "end": 182.16
+        },
+        {
+          "word": "just",
+          "start": 182.16,
+          "end": 182.44
+        },
+        {
+          "word": "like",
+          "start": 182.44,
+          "end": 182.64
+        },
+        {
+          "word": "being",
+          "start": 182.64,
+          "end": 182.82
+        },
+        {
+          "word": "a",
+          "start": 182.82,
+          "end": 183
+        },
+        {
+          "word": "lifeguard",
+          "start": 183,
+          "end": 183.46
+        },
+        {
+          "word": "except",
+          "start": 183.46,
+          "end": 183.86
+        },
+        {
+          "word": "in",
+          "start": 183.86,
+          "end": 184.34
+        },
+        {
+          "word": "the",
+          "start": 184.34,
+          "end": 184.48
+        },
+        {
+          "word": "ocean",
+          "start": 184.48,
+          "end": 184.8
+        },
+        {
+          "word": "instead",
+          "start": 184.8,
+          "end": 185.24
+        },
+        {
+          "word": "of",
+          "start": 185.24,
+          "end": 185.48
+        },
+        {
+          "word": "pool.",
+          "start": 185.48,
+          "end": 185.84
+        },
+        {
+          "word": "So,",
+          "start": 186.24,
+          "end": 186.34
+        },
+        {
+          "word": "kind",
+          "start": 186.6,
+          "end": 186.72
+        },
+        {
+          "word": "of",
+          "start": 186.72,
+          "end": 186.84
+        },
+        {
+          "word": "like",
+          "start": 186.84,
+          "end": 187.04
+        },
+        {
+          "word": "being",
+          "start": 187.04,
+          "end": 187.24
+        },
+        {
+          "word": "a",
+          "start": 187.24,
+          "end": 187.42
+        },
+        {
+          "word": "lifeguard",
+          "start": 187.42,
+          "end": 187.92
+        },
+        {
+          "word": "at",
+          "start": 187.92,
+          "end": 188.16
+        },
+        {
+          "word": "the",
+          "start": 188.16,
+          "end": 188.4
+        },
+        {
+          "word": "world's",
+          "start": 188.4,
+          "end": 189.08
+        },
+        {
+          "word": "largest",
+          "start": 189.08,
+          "end": 189.38
+        },
+        {
+          "word": "pool.",
+          "start": 189.38,
+          "end": 189.74
+        },
+        {
+          "word": "Haha,",
+          "start": 190.36,
+          "end": 190.36
+        },
+        {
+          "word": "I",
+          "start": 190.52,
+          "end": 190.66
+        },
+        {
+          "word": "see.",
+          "start": 190.66,
+          "end": 190.88
+        }
+      ]
+    },
+    {
+      "start": 306,
+      "end": 329.8,
+      "words": [
+        {
+          "word": "You",
+          "start": 306,
+          "end": 306.56
+        },
+        {
+          "word": "know,",
+          "start": 306.56,
+          "end": 306.72
+        },
+        {
+          "word": "I",
+          "start": 307,
+          "end": 307.16
+        },
+        {
+          "word": "think",
+          "start": 307.16,
+          "end": 307.36
+        },
+        {
+          "word": "you're",
+          "start": 307.36,
+          "end": 307.8
+        },
+        {
+          "word": "the",
+          "start": 307.8,
+          "end": 307.9
+        },
+        {
+          "word": "first",
+          "start": 307.9,
+          "end": 308.34
+        },
+        {
+          "word": "person",
+          "start": 308.34,
+          "end": 308.74
+        },
+        {
+          "word": "who",
+          "start": 308.74,
+          "end": 309.22
+        },
+        {
+          "word": "has",
+          "start": 309.22,
+          "end": 309.4
+        },
+        {
+          "word": "responded",
+          "start": 309.4,
+          "end": 309.84
+        },
+        {
+          "word": "to",
+          "start": 309.84,
+          "end": 310.18
+        },
+        {
+          "word": "our",
+          "start": 310.18,
+          "end": 310.4
+        },
+        {
+          "word": "radio",
+          "start": 310.4,
+          "end": 310.86
+        },
+        {
+          "word": "ads.",
+          "start": 310.86,
+          "end": 311.14
+        },
+        {
+          "word": "It's",
+          "start": 311.36,
+          "end": 311.46
+        },
+        {
+          "word": "almost",
+          "start": 311.46,
+          "end": 311.7
+        },
+        {
+          "word": "always",
+          "start": 311.7,
+          "end": 312.1
+        },
+        {
+          "word": "people",
+          "start": 312.1,
+          "end": 312.44
+        },
+        {
+          "word": "who",
+          "start": 312.44,
+          "end": 312.78
+        },
+        {
+          "word": "have",
+          "start": 312.78,
+          "end": 312.9
+        },
+        {
+          "word": "seen",
+          "start": 312.9,
+          "end": 313.14
+        },
+        {
+          "word": "us",
+          "start": 313.14,
+          "end": 313.3
+        },
+        {
+          "word": "in",
+          "start": 313.3,
+          "end": 313.48
+        },
+        {
+          "word": "the",
+          "start": 313.48,
+          "end": 313.64
+        },
+        {
+          "word": "newspaper.",
+          "start": 313.64,
+          "end": 314.1
+        },
+        {
+          "word": "Yeah,",
+          "start": 314.74,
+          "end": 314.88
+        },
+        {
+          "word": "I",
+          "start": 315.08,
+          "end": 315.23
+        },
+        {
+          "word": "don't",
+          "start": 315.24,
+          "end": 315.38
+        },
+        {
+          "word": "have",
+          "start": 315.38,
+          "end": 315.58
+        },
+        {
+          "word": "time",
+          "start": 315.58,
+          "end": 315.84
+        },
+        {
+          "word": "to",
+          "start": 315.84,
+          "end": 316.12
+        },
+        {
+          "word": "read",
+          "start": 316.12,
+          "end": 316.3
+        },
+        {
+          "word": "through",
+          "start": 316.3,
+          "end": 316.54
+        },
+        {
+          "word": "the",
+          "start": 316.54,
+          "end": 316.68
+        },
+        {
+          "word": "newspaper",
+          "start": 316.68,
+          "end": 317.08
+        },
+        {
+          "word": "every",
+          "start": 317.08,
+          "end": 317.46
+        },
+        {
+          "word": "morning.",
+          "start": 317.46,
+          "end": 317.82
+        },
+        {
+          "word": "I",
+          "start": 318.34,
+          "end": 318.56
+        },
+        {
+          "word": "have",
+          "start": 318.56,
+          "end": 318.7
+        },
+        {
+          "word": "plenty",
+          "start": 318.7,
+          "end": 318.92
+        },
+        {
+          "word": "of",
+          "start": 318.92,
+          "end": 319.24
+        },
+        {
+          "word": "time",
+          "start": 319.24,
+          "end": 319.52
+        },
+        {
+          "word": "in",
+          "start": 319.52,
+          "end": 319.94
+        },
+        {
+          "word": "the",
+          "start": 319.94,
+          "end": 320.1
+        },
+        {
+          "word": "car",
+          "start": 320.1,
+          "end": 320.34
+        },
+        {
+          "word": "to",
+          "start": 320.34,
+          "end": 320.54
+        },
+        {
+          "word": "listen",
+          "start": 320.54,
+          "end": 320.66
+        },
+        {
+          "word": "to",
+          "start": 320.66,
+          "end": 320.92
+        },
+        {
+          "word": "radio",
+          "start": 320.92,
+          "end": 321.22
+        },
+        {
+          "word": "ads.",
+          "start": 321.22,
+          "end": 321.52
+        },
+        {
+          "word": "That",
+          "start": 321.96,
+          "end": 322.08
+        },
+        {
+          "word": "makes",
+          "start": 322.08,
+          "end": 322.3
+        },
+        {
+          "word": "sense.",
+          "start": 322.3,
+          "end": 322.66
+        },
+        {
+          "word": "Well,",
+          "start": 323.04,
+          "end": 323.08
+        },
+        {
+          "word": "thanks",
+          "start": 323.12,
+          "end": 323.32
+        },
+        {
+          "word": "for",
+          "start": 323.32,
+          "end": 323.58
+        },
+        {
+          "word": "your",
+          "start": 323.58,
+          "end": 323.7
+        },
+        {
+          "word": "time,",
+          "start": 323.7,
+          "end": 324.02
+        },
+        {
+          "word": "and",
+          "start": 324.02,
+          "end": 324.66
+        },
+        {
+          "word": "we'll",
+          "start": 324.66,
+          "end": 324.8
+        },
+        {
+          "word": "look",
+          "start": 324.8,
+          "end": 324.94
+        },
+        {
+          "word": "forward",
+          "start": 324.94,
+          "end": 325.24
+        },
+        {
+          "word": "to",
+          "start": 325.24,
+          "end": 325.5
+        },
+        {
+          "word": "seeing",
+          "start": 325.5,
+          "end": 325.76
+        },
+        {
+          "word": "you",
+          "start": 325.76,
+          "end": 325.96
+        },
+        {
+          "word": "on",
+          "start": 325.96,
+          "end": 326.1
+        },
+        {
+          "word": "the",
+          "start": 326.1,
+          "end": 326.24
+        },
+        {
+          "word": "12th.",
+          "start": 326.24,
+          "end": 326.78
+        }
+      ]
+    }
+  ],
+  "otherPartsSha256": "b4b28b1356dcda5f7adab496867e034c026db01563872660eb0514613cf8ed11"
+}

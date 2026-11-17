@@ -1,0 +1,1155 @@
+{
+  "test": "practice-listening-13",
+  "part": 1,
+  "audioSha256": "0eecf43e87a949b50b37287943742a1601fe00cb1107604e8bb7a93f92b0dc08",
+  "scope": {
+    "start": 51.07,
+    "end": 374.085
+  },
+  "sourceScope": "All 61 published paragraphs, with three short greeting-fragment checks.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "speakerLabelsUnchanged": true,
+  "originalWordClocksUnchanged": true,
+  "oldTranscriptEndSeconds": 372.82,
+  "addedUtteranceCues": [
+    {
+      "paragraph": 2,
+      "start": 153.07,
+      "end": 153.59,
+      "granularity": "utterance",
+      "source": "cached local recognition corroborated by cropped recognition",
+      "speaker": "P",
+      "text": "Penny Marne."
+    },
+    {
+      "paragraph": 13,
+      "start": 183.94,
+      "end": 184.48,
+      "granularity": "utterance",
+      "source": "cropped local recognition",
+      "speaker": "P",
+      "text": "Youngster?"
+    },
+    {
+      "paragraph": 60,
+      "start": 373.528,
+      "end": 374.085,
+      "granularity": "utterance",
+      "source": "speech segmentation with independent acoustic speaker comparison",
+      "speaker": "M",
+      "text": "Goodbye."
+    }
+  ],
+  "wordClockCount": 496,
+  "wordClocksSha256": "6eabe75bb8d2e6f76f6e935dddf877db8a7fa36e0fd4556914515d3f85f801f6",
+  "plainTextSha256": "30ed6c967db0fc008caeb52465dec46e7d58e1f094a450b3a3bdd6172a28b602",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Speaker": [
+        [
+          51.07,
+          55.53
+        ],
+        [
+          5,
+          14
+        ]
+      ],
+      "M": [
+        [
+          157.84,
+          164.74
+        ],
+        [
+          200.81,
+          208.65
+        ],
+        [
+          285.93,
+          293.27
+        ]
+      ],
+      "P": [
+        [
+          197.77,
+          200.13
+        ],
+        [
+          307.47,
+          310.89
+        ],
+        [
+          347.3,
+          350.4
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker",
+        "window": [
+          51.07,
+          55.53
+        ],
+        "scores": {
+          "Speaker": 0.6941,
+          "M": 0.0328,
+          "P": 0.1497
+        },
+        "chosen": "Speaker"
+      },
+      {
+        "label": "Speaker",
+        "window": [
+          5,
+          14
+        ],
+        "scores": {
+          "Speaker": 0.6941,
+          "M": 0.1643,
+          "P": 0.1919
+        },
+        "chosen": "Speaker"
+      },
+      {
+        "label": "M",
+        "window": [
+          157.84,
+          164.74
+        ],
+        "scores": {
+          "Speaker": 0.1076,
+          "M": 0.856,
+          "P": 0.1601
+        },
+        "chosen": "M"
+      },
+      {
+        "label": "M",
+        "window": [
+          200.81,
+          208.65
+        ],
+        "scores": {
+          "Speaker": 0.0798,
+          "M": 0.825,
+          "P": 0.1521
+        },
+        "chosen": "M"
+      },
+      {
+        "label": "M",
+        "window": [
+          285.93,
+          293.27
+        ],
+        "scores": {
+          "Speaker": 0.1099,
+          "M": 0.8136,
+          "P": 0.0506
+        },
+        "chosen": "M"
+      },
+      {
+        "label": "P",
+        "window": [
+          197.77,
+          200.13
+        ],
+        "scores": {
+          "Speaker": 0.1189,
+          "M": 0.0984,
+          "P": 0.8141
+        },
+        "chosen": "P"
+      },
+      {
+        "label": "P",
+        "window": [
+          307.47,
+          310.89
+        ],
+        "scores": {
+          "Speaker": 0.1238,
+          "M": 0.1283,
+          "P": 0.8169
+        },
+        "chosen": "P"
+      },
+      {
+        "label": "P",
+        "window": [
+          347.3,
+          350.4
+        ],
+        "scores": {
+          "Speaker": 0.264,
+          "M": 0.13,
+          "P": 0.7573
+        },
+        "chosen": "P"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "Speaker: You will hear the manager of a shop talking to a new employee called Penny. (Knocking)",
+        "sourceLabel": "Speaker",
+        "start": 51.07,
+        "end": 55.53,
+        "scores": {
+          "Speaker": 0.9204,
+          "M": 0.0328,
+          "P": 0.1497
+        },
+        "chosen": "Speaker"
+      },
+      {
+        "index": 1,
+        "text": "M: Come in. Good morning. Itâ€™s â€¦",
+        "sourceLabel": "M",
+        "start": 148.68,
+        "end": 152.51,
+        "scores": {
+          "Speaker": 0.0421,
+          "M": 0.5275,
+          "P": 0.1889
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 2,
+        "text": "P: Penny Marne.",
+        "sourceLabel": "P",
+        "start": 153,
+        "end": 153.8,
+        "scores": {
+          "Speaker": 0.1143,
+          "M": 0.0107,
+          "P": 0.2968
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 3,
+        "text": "M: Ah yes â€¦ Penny. Do sit down.",
+        "sourceLabel": "M",
+        "start": 154.23,
+        "end": 156.27,
+        "scores": {
+          "Speaker": 0.1181,
+          "M": 0.588,
+          "P": 0.1586
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 4,
+        "text": "M: Now I know a lot of things emerged during your interview last week, but I thought it was worth going over the essential stuff again.",
+        "sourceLabel": "M",
+        "start": 157.84,
+        "end": 164.74,
+        "scores": {
+          "Speaker": 0.1076,
+          "M": 0.9373,
+          "P": 0.1601
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 5,
+        "text": "P: Yes, absolutely.",
+        "sourceLabel": "P",
+        "start": 164.94,
+        "end": 166.04,
+        "scores": {
+          "Speaker": 0.1808,
+          "M": 0.1775,
+          "P": 0.5041
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 6,
+        "text": "P: Thatâ€™ll be very helpful.",
+        "sourceLabel": "P",
+        "start": 166.32,
+        "end": 167.24,
+        "scores": {
+          "Speaker": -0.1633,
+          "M": 0.1164,
+          "P": 0.221
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 7,
+        "text": "M: The first thing is that given your interest in fashions weâ€™ve decided to put you in the Dress Department.",
+        "sourceLabel": "M",
+        "start": 167.52,
+        "end": 173.12,
+        "scores": {
+          "Speaker": 0.0688,
+          "M": 0.7872,
+          "P": 0.1576
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 8,
+        "text": "P: Oh thatâ€™s great.",
+        "sourceLabel": "P",
+        "start": 173.24,
+        "end": 174.24,
+        "scores": {
+          "Speaker": 0.0116,
+          "M": 0.1658,
+          "P": 0.4205
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 9,
+        "text": "P: Is that next to the childrenâ€™s section?",
+        "sourceLabel": "P",
+        "start": 174.38,
+        "end": 176.08,
+        "scores": {
+          "Speaker": 0.0379,
+          "M": 0.0426,
+          "P": 0.742
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 10,
+        "text": "M: Yes.",
+        "sourceLabel": "M",
+        "start": 176.29999999999998,
+        "end": 176.72,
+        "scores": {
+          "Speaker": 0.0058,
+          "M": 0.4503,
+          "P": 0.0623
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 11,
+        "text": "M: Now weâ€™ve given the section a new name actually.",
+        "sourceLabel": "M",
+        "start": 176.63,
+        "end": 179.95,
+        "scores": {
+          "Speaker": 0.088,
+          "M": 0.6727,
+          "P": 0.0646
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 12,
+        "text": "M: From next week itâ€™s going to be called the Young Set.",
+        "sourceLabel": "M",
+        "start": 179.95,
+        "end": 183.25,
+        "scores": {
+          "Speaker": 0.1018,
+          "M": 0.6723,
+          "P": 0.0072
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 13,
+        "text": "P: Youngster?",
+        "sourceLabel": "P",
+        "start": 183.25,
+        "end": 184.49,
+        "scores": {
+          "Speaker": 0.2438,
+          "M": 0.1096,
+          "P": 0.4827
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 14,
+        "text": "M: No.",
+        "sourceLabel": "M",
+        "start": 184.37,
+        "end": 185.19,
+        "scores": {
+          "Speaker": -0.0418,
+          "M": 0.3176,
+          "P": 0.315
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 15,
+        "text": "M: Two words â€“ the Young Set.",
+        "sourceLabel": "M",
+        "start": 185.07,
+        "end": 187.49,
+        "scores": {
+          "Speaker": 0.154,
+          "M": 0.7154,
+          "P": 0.1347
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 16,
+        "text": "P: Right, sorry.",
+        "sourceLabel": "P",
+        "start": 187.49,
+        "end": 189.81,
+        "scores": {
+          "Speaker": 0.2095,
+          "M": 0.1727,
+          "P": 0.3569
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 17,
+        "text": "M: Now, youâ€™ll be required to work a five and a half day week.",
+        "sourceLabel": "M",
+        "start": 189.85,
+        "end": 193.99,
+        "scores": {
+          "Speaker": 0.0797,
+          "M": 0.7041,
+          "P": 0.0651
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 18,
+        "text": "M: Weâ€™re closed on Wednesday afternoon and Sunday, of course.",
+        "sourceLabel": "M",
+        "start": 194.07,
+        "end": 197.05,
+        "scores": {
+          "Speaker": 0.1022,
+          "M": 0.8198,
+          "P": 0.089
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 19,
+        "text": "P: Do we get overtime for Saturday?",
+        "sourceLabel": "P",
+        "start": 197.77,
+        "end": 200.13,
+        "scores": {
+          "Speaker": 0.1189,
+          "M": 0.0984,
+          "P": 0.919
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 20,
+        "text": "M: Well, actually, we used to give an extra $2 an hour, but then we decided to make it a flat rate of $6.50 an hour.",
+        "sourceLabel": "M",
+        "start": 200.81,
+        "end": 208.65,
+        "scores": {
+          "Speaker": 0.0798,
+          "M": 0.9227,
+          "P": 0.1521
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 21,
+        "text": "P: OK fine.",
+        "sourceLabel": "P",
+        "start": 208.97,
+        "end": 209.61,
+        "scores": {
+          "Speaker": 0.047,
+          "M": 0.0768,
+          "P": 0.5125
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 22,
+        "text": "P: And the actual hours?",
+        "sourceLabel": "P",
+        "start": 209.49,
+        "end": 211.91,
+        "scores": {
+          "Speaker": 0.1173,
+          "M": 0.0702,
+          "P": 0.7534
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 23,
+        "text": "M: 9 â€“ 5 with an hour for lunch and 15 minute coffee breaks.",
+        "sourceLabel": "M",
+        "start": 212.81,
+        "end": 215.59,
+        "scores": {
+          "Speaker": 0.062,
+          "M": 0.5989,
+          "P": 0.0444
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 24,
+        "text": "P: And what about holidays?",
+        "sourceLabel": "P",
+        "start": 215.59,
+        "end": 217.87,
+        "scores": {
+          "Speaker": 0.0619,
+          "M": 0.1411,
+          "P": 0.599
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 25,
+        "text": "M: Well, itâ€™s three weeks in the first year and that rises to four weeks in your third year with us.",
+        "sourceLabel": "M",
+        "start": 218.01,
+        "end": 224.33,
+        "scores": {
+          "Speaker": 0.1693,
+          "M": 0.7186,
+          "P": 0.0966
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 26,
+        "text": "M: Now we do give you on-the-job training which we conduct during normal hours, so youâ€™ll be paid for that.",
+        "sourceLabel": "M",
+        "start": 224.33,
+        "end": 230.51,
+        "scores": {
+          "Speaker": 0.1166,
+          "M": 0.7322,
+          "P": 0.1234
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 27,
+        "text": "P: Which day?",
+        "sourceLabel": "P",
+        "start": 230.85,
+        "end": 231.65,
+        "scores": {
+          "Speaker": 0.0284,
+          "M": 0.0594,
+          "P": 0.5602
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 28,
+        "text": "M: Itâ€™s on the first Tuesday of every month.",
+        "sourceLabel": "M",
+        "start": 231.95,
+        "end": 233.93,
+        "scores": {
+          "Speaker": 0.0425,
+          "M": 0.756,
+          "P": 0.1022
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 29,
+        "text": "M: Now, in addition to your basic pay I should explain that youâ€™re entitled to some staff perks which our assistants do find a valuable benefit.",
+        "sourceLabel": "M",
+        "start": 275.66,
+        "end": 283.5,
+        "scores": {
+          "Speaker": 0.1074,
+          "M": 0.8238,
+          "P": 0.1794
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 30,
+        "text": "P: Do we get a discount?",
+        "sourceLabel": "P",
+        "start": 283.93,
+        "end": 285.47,
+        "scores": {
+          "Speaker": 0.2191,
+          "M": 0.1479,
+          "P": 0.6197
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 31,
+        "text": "M: Thatâ€™s right â€“ 25% off everything in the store, although we do make an exception for sale goods, which Iâ€™m afraid have no discount.",
+        "sourceLabel": "M",
+        "start": 285.93,
+        "end": 293.27,
+        "scores": {
+          "Speaker": 0.1099,
+          "M": 0.9173,
+          "P": 0.0506
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 32,
+        "text": "P: Yeah, fine.",
+        "sourceLabel": "P",
+        "start": 293.57,
+        "end": 294.47,
+        "scores": {
+          "Speaker": 0.1032,
+          "M": 0.1281,
+          "P": 0.6594
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 33,
+        "text": "P: And I was wondering about pension arrangements?",
+        "sourceLabel": "P",
+        "start": 295.31,
+        "end": 297.99,
+        "scores": {
+          "Speaker": 0.2048,
+          "M": 0.1836,
+          "P": 0.7565
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 34,
+        "text": "M: You get a good company pension, which our Personnel Manager will be able to explain to you in detail.",
+        "sourceLabel": "M",
+        "start": 299.07,
+        "end": 304.13,
+        "scores": {
+          "Speaker": 0.056,
+          "M": 0.834,
+          "P": 0.1347
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 35,
+        "text": "M: Sheâ€™s in Room 12 â€“ worth going along to see her.",
+        "sourceLabel": "M",
+        "start": 304.33,
+        "end": 307.21,
+        "scores": {
+          "Speaker": 0.1211,
+          "M": 0.6631,
+          "P": 0.1676
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 36,
+        "text": "P: And who will I be working under â€“ Mr Appleby?",
+        "sourceLabel": "P",
+        "start": 307.47,
+        "end": 310.89,
+        "scores": {
+          "Speaker": 0.1238,
+          "M": 0.1283,
+          "P": 0.9203
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 37,
+        "text": "M: The manager of your section is Mrs Waddell.",
+        "sourceLabel": "M",
+        "start": 311.23,
+        "end": 313.73,
+        "scores": {
+          "Speaker": 0.0678,
+          "M": 0.8092,
+          "P": 0.1078
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 38,
+        "text": "M: Thatâ€™s W-A-D-D-E-double L â€¦",
+        "sourceLabel": "M",
+        "start": 314.09,
+        "end": 317.35,
+        "scores": {
+          "Speaker": 0.1974,
+          "M": 0.425,
+          "P": 0.1547
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 39,
+        "text": "P: Mrs Waddell.",
+        "sourceLabel": "P",
+        "start": 318.05,
+        "end": 319.05,
+        "scores": {
+          "Speaker": 0.1436,
+          "M": 0.2111,
+          "P": 0.5446
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 40,
+        "text": "P: OK, and apart from serving the customers, will I have any other duties?",
+        "sourceLabel": "P",
+        "start": 322.39,
+        "end": 326.55,
+        "scores": {
+          "Speaker": 0.2604,
+          "M": 0.1499,
+          "P": 0.8716
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 41,
+        "text": "M: Good question.",
+        "sourceLabel": "M",
+        "start": 326.96999999999997,
+        "end": 327.73,
+        "scores": {
+          "Speaker": 0.0075,
+          "M": 0.6918,
+          "P": 0.042
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 42,
+        "text": "M: We do ask you to do the window dressing.",
+        "sourceLabel": "M",
+        "start": 328.37,
+        "end": 330.15,
+        "scores": {
+          "Speaker": 0.0092,
+          "M": 0.6758,
+          "P": 0.1149
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 43,
+        "text": "P: Oh, Iâ€™ll enjoy that.",
+        "sourceLabel": "P",
+        "start": 330.53,
+        "end": 332.09,
+        "scores": {
+          "Speaker": 0.1101,
+          "M": 0.1115,
+          "P": 0.6501
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 44,
+        "text": "M: And one of the biggest worries in the boutique is shoplifters, so you have to check for them.",
+        "sourceLabel": "M",
+        "start": 332.29,
+        "end": 336.93,
+        "scores": {
+          "Speaker": 0.086,
+          "M": 0.8864,
+          "P": 0.0826
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 45,
+        "text": "P: Will I receive training on that?",
+        "sourceLabel": "P",
+        "start": 337.41,
+        "end": 339.05,
+        "scores": {
+          "Speaker": 0.2508,
+          "M": 0.1288,
+          "P": 0.7871
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 46,
+        "text": "M: Yes, certainly.",
+        "sourceLabel": "M",
+        "start": 339.07,
+        "end": 339.95,
+        "scores": {
+          "Speaker": 0.1334,
+          "M": 0.4116,
+          "P": -0.0184
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 47,
+        "text": "M: Thatâ€™ll be one of the sessions next month.",
+        "sourceLabel": "M",
+        "start": 340.14,
+        "end": 341.78,
+        "scores": {
+          "Speaker": 0.071,
+          "M": 0.6958,
+          "P": 0.0293
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 48,
+        "text": "M: Oh, and weâ€™ll be asking you to check stock.",
+        "sourceLabel": "M",
+        "start": 342.7,
+        "end": 344.76,
+        "scores": {
+          "Speaker": 0.0913,
+          "M": 0.5567,
+          "P": 0.0777
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 49,
+        "text": "P: Right â€¦ yes, course.",
+        "sourceLabel": "P",
+        "start": 345.14,
+        "end": 346.54,
+        "scores": {
+          "Speaker": 0.2171,
+          "M": 0.1464,
+          "P": 0.5179
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 50,
+        "text": "P: And is there a particular dress code in the shop?",
+        "sourceLabel": "P",
+        "start": 347.3,
+        "end": 350.4,
+        "scores": {
+          "Speaker": 0.264,
+          "M": 0.13,
+          "P": 0.8915
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 51,
+        "text": "M: Right â€¦ well, weâ€™re quite flexible, but what weâ€™d do is ask you to wear a black skirt and the shop will give you a red blouse.",
+        "sourceLabel": "M",
+        "start": 350.74,
+        "end": 358.74,
+        "scores": {
+          "Speaker": 0.0917,
+          "M": 0.7996,
+          "P": 0.1322
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 52,
+        "text": "M: Weâ€™ll also give you a name badge which you must wear all the time.",
+        "sourceLabel": "M",
+        "start": 359.52,
+        "end": 362.66,
+        "scores": {
+          "Speaker": 0.1185,
+          "M": 0.8251,
+          "P": 0.0426
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 53,
+        "text": "P: Yeah, of course.",
+        "sourceLabel": "P",
+        "start": 362.86,
+        "end": 363.9,
+        "scores": {
+          "Speaker": 0.1005,
+          "M": 0.1054,
+          "P": 0.4018
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 54,
+        "text": "M: Right.",
+        "sourceLabel": "M",
+        "start": 364.3,
+        "end": 366.18,
+        "scores": {
+          "Speaker": 0.0083,
+          "M": 0.5077,
+          "P": 0.0686
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 55,
+        "text": "M: Is there anything else youâ€™d like to ask me?",
+        "sourceLabel": "M",
+        "start": 364.64,
+        "end": 366.18,
+        "scores": {
+          "Speaker": -0.054,
+          "M": 0.4742,
+          "P": 0.0628
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 56,
+        "text": "P: No, thatâ€™s very comprehensive. Thank you.",
+        "sourceLabel": "P",
+        "start": 366.46,
+        "end": 369.08,
+        "scores": {
+          "Speaker": 0.025,
+          "M": 0.1006,
+          "P": 0.695
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 57,
+        "text": "M: Good.",
+        "sourceLabel": "M",
+        "start": 369.21999999999997,
+        "end": 369.64,
+        "scores": {
+          "Speaker": -0.0557,
+          "M": 0.3102,
+          "P": 0.0966
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 58,
+        "text": "M: So weâ€™ll see you on Monday.",
+        "sourceLabel": "M",
+        "start": 369.9,
+        "end": 371.06,
+        "scores": {
+          "Speaker": 0.0858,
+          "M": 0.5241,
+          "P": 0.0904
+        },
+        "chosen": "M"
+      },
+      {
+        "index": 59,
+        "text": "P: Yes, thank you. Goodbye.",
+        "sourceLabel": "P",
+        "start": 372.21999999999997,
+        "end": 372.94,
+        "scores": {
+          "Speaker": -0.062,
+          "M": 0.0089,
+          "P": 0.4256
+        },
+        "chosen": "P"
+      },
+      {
+        "index": 60,
+        "text": "M: Goodbye.",
+        "sourceLabel": "M",
+        "start": 373.6,
+        "end": 374.4,
+        "scores": {
+          "Speaker": -0.0282,
+          "M": 0.5168,
+          "P": 0.0427
+        },
+        "chosen": "M"
+      },
+      {
+        "phrase": "Come in",
+        "start": 148.56,
+        "end": 149.22,
+        "scores": {
+          "Speaker": -0.0092,
+          "M": 0.4293,
+          "P": 0.1011
+        },
+        "chosen": "M"
+      },
+      {
+        "phrase": "Good morning",
+        "start": 151.25,
+        "end": 152.11,
+        "scores": {
+          "Speaker": 0.0846,
+          "M": 0.3364,
+          "P": 0.1426
+        },
+        "chosen": "M"
+      },
+      {
+        "phrase": "It is",
+        "start": 152.05,
+        "end": 152.63,
+        "scores": {
+          "Speaker": 0.0776,
+          "M": 0.4767,
+          "P": 0.1813
+        },
+        "chosen": "M"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "localRecognition": [
+    {
+      "start": 152.6,
+      "end": 154,
+      "words": [
+        {
+          "word": "of",
+          "start": 152.6,
+          "end": 152.9
+        },
+        {
+          "word": "Pennymon!",
+          "start": 152.9,
+          "end": 153.58
+        }
+      ]
+    },
+    {
+      "start": 182.9,
+      "end": 184.5,
+      "words": [
+        {
+          "word": "said.",
+          "start": 182.9,
+          "end": 183.22
+        },
+        {
+          "word": "Youngster.",
+          "start": 183.94,
+          "end": 184.48
+        }
+      ]
+    },
+    {
+      "start": 371.4,
+      "end": 375,
+      "words": [
+        {
+          "word": "Yes.",
+          "start": 371.4,
+          "end": 371.8
+        },
+        {
+          "word": "Thank",
+          "start": 372.34,
+          "end": 372.52
+        },
+        {
+          "word": "you.",
+          "start": 372.52,
+          "end": 372.82
+        },
+        {
+          "word": "Goodbye.",
+          "start": 373.26,
+          "end": 373.26
+        },
+        {
+          "word": "Goodbye.",
+          "start": 373.58,
+          "end": 373.76
+        }
+      ]
+    }
+  ],
+  "additionalShortReplyVerification": {
+    "contextChecks": [
+      {
+        "phrase": "No Two words the Young Set",
+        "start": 184.49,
+        "end": 187.49,
+        "scores": {
+          "Speaker": 0.1417,
+          "M": 0.6961,
+          "P": 0.2329
+        },
+        "chosen": "M"
+      },
+      {
+        "phrase": "Yes absolutely That will be very helpful",
+        "start": 164.94,
+        "end": 167.24,
+        "scores": {
+          "Speaker": 0.0191,
+          "M": 0.2494,
+          "P": 0.5042
+        },
+        "chosen": "P"
+      }
+    ],
+    "farewellSegments": [
+      {
+        "start": 371.031,
+        "end": 372.06,
+        "scores": {
+          "Speaker": -0.003,
+          "M": 0.1517,
+          "P": 0.2508
+        },
+        "chosen": "P"
+      },
+      {
+        "start": 372.347,
+        "end": 373.528,
+        "scores": {
+          "Speaker": -0.04,
+          "M": 0.1361,
+          "P": 0.577
+        },
+        "chosen": "P"
+      },
+      {
+        "start": 373.528,
+        "end": 374.085,
+        "scores": {
+          "Speaker": -0.0716,
+          "M": 0.5328,
+          "P": -0.0207
+        },
+        "chosen": "M"
+      }
+    ],
+    "segmentation": "pyannote-segmentation-3.0-int8",
+    "verificationEmbedding": "eres2net-zh-independent-check"
+  },
+  "otherPartsSha256": "2955d89f4830a3f4d94784295c57ddd3a723275e12baa3e4978d9c9cb70b5aa9"
+}
