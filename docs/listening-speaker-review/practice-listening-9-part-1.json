@@ -1,0 +1,790 @@
+{
+  "test": "practice-listening-9",
+  "part": 1,
+  "audioSha256": "8d7f8de318d8b6b01b86bc8dd6fa86cd310e5db0551cce201df9ba79bf89272a",
+  "scope": {
+    "start": 52.87,
+    "end": 449.35
+  },
+  "sourceScope": "All 33 original transcript paragraphs; paragraph 29 split into Bob and Manager turns. No full-recording or verbatim claim.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "speakerLabelsUnchanged": false,
+  "spokenTextUnchanged": true,
+  "wordClocksUnchanged": true,
+  "spokenTextSha256": "46633dbbbbeb3e1231101bf1fa031b57d3402389e8327a24ada08f84fbb71373",
+  "passageSha256": "8f36bb084ad418ac1f372e8eb22e81da2db06fae76d1023124e9a484443b93cd",
+  "wordClocksSha256": "85ce80036e94023fced3c058465cf725d75bcb55c17c52ee449649042ba46604",
+  "wordClockCount": 601,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          52.87,
+          61.66
+        ],
+        [
+          327.06,
+          331.22
+        ]
+      ],
+      "Manager": [
+        [
+          120.07,
+          130
+        ],
+        [
+          278.76,
+          288.4
+        ],
+        [
+          392.33,
+          402.33
+        ]
+      ],
+      "Bob": [
+        [
+          139.53,
+          141.09
+        ],
+        [
+          374.7,
+          378.92
+        ],
+        [
+          405.68,
+          408.56
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "start": 52.87,
+        "end": 61.66,
+        "scores": {
+          "Narrator": 0.7758,
+          "Manager": 0.7001,
+          "Bob": 0.3145
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "start": 327.06,
+        "end": 331.22,
+        "scores": {
+          "Narrator": 0.7758,
+          "Manager": 0.6853,
+          "Bob": 0.3269
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Manager",
+        "start": 120.07,
+        "end": 130,
+        "scores": {
+          "Narrator": 0.6602,
+          "Manager": 0.8147,
+          "Bob": 0.1829
+        },
+        "chosen": "Manager"
+      },
+      {
+        "label": "Manager",
+        "start": 278.76,
+        "end": 288.4,
+        "scores": {
+          "Narrator": 0.664,
+          "Manager": 0.8753,
+          "Bob": 0.2468
+        },
+        "chosen": "Manager"
+      },
+      {
+        "label": "Manager",
+        "start": 392.33,
+        "end": 402.33,
+        "scores": {
+          "Narrator": 0.7241,
+          "Manager": 0.8263,
+          "Bob": 0.283
+        },
+        "chosen": "Manager"
+      },
+      {
+        "label": "Bob",
+        "start": 139.53,
+        "end": 141.09,
+        "scores": {
+          "Narrator": 0.2471,
+          "Manager": 0.1106,
+          "Bob": 0.5583
+        },
+        "chosen": "Bob"
+      },
+      {
+        "label": "Bob",
+        "start": 374.7,
+        "end": 378.92,
+        "scores": {
+          "Narrator": 0.2669,
+          "Manager": 0.2547,
+          "Bob": 0.6519
+        },
+        "chosen": "Bob"
+      },
+      {
+        "label": "Bob",
+        "start": 405.68,
+        "end": 408.56,
+        "scores": {
+          "Narrator": 0.3452,
+          "Manager": 0.2803,
+          "Bob": 0.7029
+        },
+        "chosen": "Bob"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "Narrator: Section 1. You will hear the manager of an electronic goods store giving instructions to her new assistant.",
+        "sourceLabel": "Narrator",
+        "start": 52.87,
+        "end": 61.66,
+        "scores": {
+          "Narrator": 0.9423,
+          "Manager": 0.7001,
+          "Bob": 0.3145
+        },
+        "chosen": "Narrator",
+        "eligibleSpeakers": [
+          "Narrator",
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 1,
+        "text": "Manager: Right, Bob. Iâ€™m sorry this isnâ€™t the normal way to start a new job, but as I told you over the phone, I wanted you to come in this evening to help get the shop reorganised before tomorrow.",
+        "sourceLabel": "Manager",
+        "start": 103.59,
+        "end": 113.59,
+        "scores": {
+          "Narrator": 0.6308,
+          "Manager": 0.8613,
+          "Bob": 0.2532
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "Bob: No problem.",
+        "sourceLabel": "Bob",
+        "start": 114.78,
+        "end": 115.5,
+        "scores": {
+          "Narrator": 0.1929,
+          "Manager": 0.2123,
+          "Bob": 0.4295
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "Manager: Youâ€™d better take down a few notes of what Iâ€™d like you to do.",
+        "sourceLabel": "Manager",
+        "start": 115.87,
+        "end": 118.49,
+        "scores": {
+          "Narrator": 0.5946,
+          "Manager": 0.7597,
+          "Bob": 0.2265
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "Bob: OK.",
+        "sourceLabel": "Bob",
+        "start": 118.75999999999999,
+        "end": 119.4,
+        "scores": {
+          "Narrator": 0.1461,
+          "Manager": 0.2214,
+          "Bob": 0.4304
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 5,
+        "text": "Manager: Now, if you come over here to the entrance from the street, you can get the complete picture. As you can see, we sell the usual range of electronic goods, like televisions and video recorders, and also CDs, DVDs, etc. But weâ€™re going to start selling keyboards too.",
+        "sourceLabel": "Manager",
+        "start": 120.07,
+        "end": 130.07,
+        "scores": {
+          "Narrator": 0.6585,
+          "Manager": 0.9188,
+          "Bob": 0.1869
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 6,
+        "text": "Bob: There doesnâ€™t seem to be any room at all.",
+        "sourceLabel": "Bob",
+        "start": 139.53,
+        "end": 141.09,
+        "scores": {
+          "Narrator": 0.2471,
+          "Manager": 0.1106,
+          "Bob": 0.7999
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 7,
+        "text": "Manager: There certainly isnâ€™t much, so we need to make space for them. They can go to the right of this door, on those shelves against the wall, but not beside the CDs. Theyâ€™ll be by the window, so people will be able to see them from the street. [Example: Keyboards â€” B]",
+        "sourceLabel": "Manager",
+        "start": 141.77,
+        "end": 151.77,
+        "scores": {
+          "Narrator": 0.6947,
+          "Manager": 0.8798,
+          "Bob": 0.2357
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 8,
+        "text": "Manager: Then I want all the DVDs, videos and the equipment for them close together. Letâ€™s put the DVD players right here, next to the video recorders. If theyâ€™re against the front window, theyâ€™ll be visible from the street. That should attract a few more potential customers into the shop.",
+        "sourceLabel": "Manager",
+        "start": 241.2,
+        "end": 251.2,
+        "scores": {
+          "Narrator": 0.6284,
+          "Manager": 0.8594,
+          "Bob": 0.2053
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 9,
+        "text": "Bob: And where should I put the DVDs?",
+        "sourceLabel": "Bob",
+        "start": 259.36,
+        "end": 260.82,
+        "scores": {
+          "Narrator": 0.2165,
+          "Manager": 0.187,
+          "Bob": 0.5877
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 10,
+        "text": "Manager: They can go beside the videos.",
+        "sourceLabel": "Manager",
+        "start": 261.56,
+        "end": 263.64,
+        "scores": {
+          "Narrator": 0.6304,
+          "Manager": 0.698,
+          "Bob": 0.1699
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 11,
+        "text": "Bob: Against the side wall?",
+        "sourceLabel": "Bob",
+        "start": 264.32,
+        "end": 265.18,
+        "scores": {
+          "Narrator": 0.0574,
+          "Manager": -0.0003,
+          "Bob": 0.2114
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 12,
+        "text": "Manager: Yeah. Weâ€™ll try them out in that position and see if it affects sales.",
+        "sourceLabel": "Manager",
+        "start": 265.55,
+        "end": 269.25,
+        "scores": {
+          "Narrator": 0.5662,
+          "Manager": 0.712,
+          "Bob": 0.2374
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 13,
+        "text": "Bob: Right.",
+        "sourceLabel": "Bob",
+        "start": 269.56,
+        "end": 270,
+        "scores": {
+          "Narrator": 0.2161,
+          "Manager": 0.1252,
+          "Bob": 0.3037
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 14,
+        "text": "Manager: And Iâ€™d like the portable CD players in a more prominent position, as theyâ€™re selling very well.",
+        "sourceLabel": "Manager",
+        "start": 270.57,
+        "end": 276.03,
+        "scores": {
+          "Narrator": 0.6166,
+          "Manager": 0.8386,
+          "Bob": 0.1795
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 15,
+        "text": "Bob: How about by the CDs?",
+        "sourceLabel": "Bob",
+        "start": 277.1,
+        "end": 278.12,
+        "scores": {
+          "Narrator": 0.1238,
+          "Manager": 0.1845,
+          "Bob": 0.5171
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 16,
+        "text": "Manager: That might be an idea, but itâ€™s going to get too crowded in that corner. I want to attract people to the back of the sales area, so could you put them on the shelves facing the entrance, please?",
+        "sourceLabel": "Manager",
+        "start": 278.76,
+        "end": 288.4,
+        "scores": {
+          "Narrator": 0.664,
+          "Manager": 0.9459,
+          "Bob": 0.2468
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 17,
+        "text": "Narrator: Now listen and answer questions 4 to 10.",
+        "sourceLabel": "Narrator",
+        "start": 327.06,
+        "end": 331.22,
+        "scores": {
+          "Narrator": 0.9423,
+          "Manager": 0.6853,
+          "Bob": 0.3269
+        },
+        "chosen": "Narrator",
+        "eligibleSpeakers": [
+          "Narrator",
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 18,
+        "text": "Manager: Good. Then, when all thatâ€™s been moved, there are a few other jobs to do. First, the cassette players. Sales of those are falling, so I donâ€™t want so many on display. There are eleven at the moment, and we really only need three, so the other eight can go into the stockroom.",
+        "sourceLabel": "Manager",
+        "start": 334.92,
+        "end": 344.92,
+        "scores": {
+          "Narrator": 0.6632,
+          "Manager": 0.8728,
+          "Bob": 0.2491
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 19,
+        "text": "Bob: Right.",
+        "sourceLabel": "Bob",
+        "start": 355.03000000000003,
+        "end": 355.71,
+        "scores": {
+          "Narrator": 0.1423,
+          "Manager": 0.1569,
+          "Bob": 0.3715
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 20,
+        "text": "Manager: Oh, and quite a lot of stock looks dusty to me, so a rather boring job, Iâ€™m afraid. We need to get everything clean.",
+        "sourceLabel": "Manager",
+        "start": 356.38,
+        "end": 363.76,
+        "scores": {
+          "Narrator": 0.6302,
+          "Manager": 0.8494,
+          "Bob": 0.2797
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 21,
+        "text": "Bob: All right.",
+        "sourceLabel": "Bob",
+        "start": 364.17,
+        "end": 364.81,
+        "scores": {
+          "Narrator": 0.1374,
+          "Manager": 0.0233,
+          "Bob": 0.4985
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 22,
+        "text": "Manager: And weâ€™re going to run special offers on some DVDs, so could you create some signs, please? You said you did quite a lot at college?",
+        "sourceLabel": "Manager",
+        "start": 365.3,
+        "end": 374.18,
+        "scores": {
+          "Narrator": 0.7182,
+          "Manager": 0.8767,
+          "Bob": 0.2481
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 23,
+        "text": "Bob: Yes, itâ€™s something I enjoy doing. Which items are going to have the offers?",
+        "sourceLabel": "Bob",
+        "start": 374.7,
+        "end": 378.92,
+        "scores": {
+          "Narrator": 0.2669,
+          "Manager": 0.2547,
+          "Bob": 0.8496
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 24,
+        "text": "Manager: Let me try and remember what I worked out. General films are selling strongly, with a big rise last month. I donâ€™t think we need to do anything about them.",
+        "sourceLabel": "Manager",
+        "start": 380.06,
+        "end": 390.06,
+        "scores": {
+          "Narrator": 0.6529,
+          "Manager": 0.7664,
+          "Bob": 0.2482
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 25,
+        "text": "Bob: OK.",
+        "sourceLabel": "Bob",
+        "start": 391.24,
+        "end": 391.91999999999996,
+        "scores": {
+          "Narrator": 0.1206,
+          "Manager": 0.1513,
+          "Bob": 0.374
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 26,
+        "text": "Manager: But foreign language films are a different matter. Sales are creeping up very slowly, so I want to encourage them. Weâ€™ll run a three-for-the-price-of-two promotion for a month and see what happens.",
+        "sourceLabel": "Manager",
+        "start": 392.33,
+        "end": 402.33,
+        "scores": {
+          "Narrator": 0.7241,
+          "Manager": 0.9231,
+          "Bob": 0.283
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 27,
+        "text": "Bob: Right. What about classical music DVDs?",
+        "sourceLabel": "Bob",
+        "start": 405.68,
+        "end": 408.56,
+        "scores": {
+          "Narrator": 0.3452,
+          "Manager": 0.2803,
+          "Bob": 0.8748
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 28,
+        "text": "Manager: Sales certainly arenâ€™t too healthy. Theyâ€™re falling by two or three per cent a month. Iâ€™d really like to give the category a boost, so weâ€™ll bring all prices down by five pounds this month.",
+        "sourceLabel": "Manager",
+        "start": 409.97,
+        "end": 419.97,
+        "scores": {
+          "Narrator": 0.6781,
+          "Manager": 0.8155,
+          "Bob": 0.2572
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 29,
+        "text": "Bob: OK. Then there are the TV programmes.",
+        "sourceLabel": "Bob",
+        "start": 422.38,
+        "end": 425.44,
+        "scores": {
+          "Narrator": 0.6215,
+          "Manager": 0.7215,
+          "Bob": 0.2575
+        },
+        "chosen": "Manager"
+      },
+      {
+        "index": 30,
+        "text": "Manager: Comedy isnâ€™t doing very well. Last month sales were ten per cent below the level of last year. Iâ€™m inclined to leave it alone. I donâ€™t think itâ€™s worth doing anything until some new, really popular comedy programmes are released on DVD.",
+        "sourceLabel": "Manager",
+        "start": 426.76,
+        "end": 436.76,
+        "scores": {
+          "Narrator": 0.6906,
+          "Manager": 0.8503,
+          "Bob": 0.2199
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 31,
+        "text": "Bob: Right.",
+        "sourceLabel": "Bob",
+        "start": 441.39000000000004,
+        "end": 441.87,
+        "scores": {
+          "Narrator": 0.0706,
+          "Manager": 0.0676,
+          "Bob": 0.375
+        },
+        "chosen": "Bob",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      },
+      {
+        "index": 32,
+        "text": "Manager: OK, thatâ€™s it. So, weâ€™d better start moving things. Will you give me a hand with this?",
+        "sourceLabel": "Manager",
+        "start": 442.41,
+        "end": 449.35,
+        "scores": {
+          "Narrator": 0.5803,
+          "Manager": 0.7567,
+          "Bob": 0.1991
+        },
+        "chosen": "Manager",
+        "eligibleSpeakers": [
+          "Manager",
+          "Bob"
+        ]
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "boundaryChecks": [
+    {
+      "phrase": "OK",
+      "start": 422.23,
+      "end": 422.83,
+      "scores": {
+        "Narrator": 0.1879,
+        "Manager": 0.1523,
+        "Bob": 0.3208
+      },
+      "eligibleSpeakers": [
+        "Manager",
+        "Bob"
+      ],
+      "chosen": "Bob"
+    },
+    {
+      "phrase": "Then there are the TV programmes",
+      "start": 423.73,
+      "end": 425.59,
+      "scores": {
+        "Narrator": 0.6121,
+        "Manager": 0.7428,
+        "Bob": 0.2665
+      },
+      "eligibleSpeakers": [
+        "Manager",
+        "Bob"
+      ],
+      "chosen": "Manager"
+    },
+    {
+      "phrase": "Right",
+      "start": 269.56,
+      "end": 270,
+      "scores": {
+        "Narrator": 0.2161,
+        "Manager": 0.1252,
+        "Bob": 0.3037
+      },
+      "eligibleSpeakers": [
+        "Manager",
+        "Bob"
+      ],
+      "chosen": "Bob"
+    },
+    {
+      "phrase": "They can go beside the videos",
+      "start": 261.56,
+      "end": 263.64,
+      "scores": {
+        "Narrator": 0.6304,
+        "Manager": 0.698,
+        "Bob": 0.1699
+      },
+      "eligibleSpeakers": [
+        "Manager",
+        "Bob"
+      ],
+      "chosen": "Manager"
+    }
+  ],
+  "corrections": [
+    {
+      "originalParagraph": 29,
+      "splitAt": 423.88,
+      "firstSpeaker": "Bob",
+      "secondSpeaker": "Manager",
+      "secondUtterance": "Then there are the TV programmes."
+    }
+  ],
+  "narratorEligibility": "Narrator comparisons apply to instruction paragraphs 0 and 17; dialogue candidates are Manager and Bob.",
+  "otherPartsSha256": "fe31ff1b0ff0b8e4bf957e3d5549e537e9e0af225741f9c29cc7807eabca6202"
+}

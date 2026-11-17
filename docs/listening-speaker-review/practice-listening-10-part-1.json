@@ -1,0 +1,1937 @@
+{
+  "test": "practice-listening-10",
+  "part": 1,
+  "audioSha256": "f4a163e5e007d44f395853f008317889504372b40167454543c263264d5aca69",
+  "scope": {
+    "start": 0.46,
+    "end": 385.66
+  },
+  "sourceScope": "All 19 published paragraphs; speaker switches checked as 23 phrase spans.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "clockCorrections": [
+    {
+      "word": "Good",
+      "before": [
+        "92.77",
+        "94.17"
+      ],
+      "after": [
+        "96.04",
+        "96.64"
+      ]
+    },
+    {
+      "word": "afternoon.",
+      "before": [
+        "95.68",
+        "97.08"
+      ],
+      "after": [
+        "96.64",
+        "97.14"
+      ]
+    }
+  ],
+  "addedExampleWords": 88,
+  "exampleWordClocks": {
+    "70": {
+      "start": 57.085,
+      "end": 57.38,
+      "text": "Yes,"
+    },
+    "71": {
+      "start": 57.6,
+      "end": 57.86,
+      "text": "hello"
+    },
+    "72": {
+      "start": 57.86,
+      "end": 58.14,
+      "text": "there."
+    },
+    "73": {
+      "start": 58.88,
+      "end": 59.04,
+      "text": "I'm"
+    },
+    "74": {
+      "start": 59.04,
+      "end": 59.32,
+      "text": "hoping"
+    },
+    "75": {
+      "start": 59.32,
+      "end": 59.58,
+      "text": "to"
+    },
+    "76": {
+      "start": 59.58,
+      "end": 59.7,
+      "text": "book"
+    },
+    "77": {
+      "start": 59.7,
+      "end": 59.9,
+      "text": "a"
+    },
+    "78": {
+      "start": 59.9,
+      "end": 60.18,
+      "text": "double"
+    },
+    "79": {
+      "start": 60.18,
+      "end": 60.52,
+      "text": "room"
+    },
+    "80": {
+      "start": 60.52,
+      "end": 60.78,
+      "text": "for"
+    },
+    "81": {
+      "start": 60.78,
+      "end": 61,
+      "text": "my"
+    },
+    "82": {
+      "start": 61,
+      "end": 61.28,
+      "text": "wife"
+    },
+    "83": {
+      "start": 61.28,
+      "end": 61.62,
+      "text": "and"
+    },
+    "84": {
+      "start": 61.62,
+      "end": 62.12,
+      "text": "myself"
+    },
+    "85": {
+      "start": 62.12,
+      "end": 62.76,
+      "text": "for"
+    },
+    "86": {
+      "start": 62.76,
+      "end": 63.04,
+      "text": "about"
+    },
+    "87": {
+      "start": 63.04,
+      "end": 63.34,
+      "text": "two"
+    },
+    "88": {
+      "start": 63.34,
+      "end": 63.72,
+      "text": "weeks,"
+    },
+    "89": {
+      "start": 63.72,
+      "end": 64.34,
+      "text": "from"
+    },
+    "90": {
+      "start": 64.34,
+      "end": 64.46,
+      "text": "the"
+    },
+    "91": {
+      "start": 64.46,
+      "end": 65.02,
+      "text": "25th"
+    },
+    "92": {
+      "start": 65.02,
+      "end": 65.14,
+      "text": "of"
+    },
+    "93": {
+      "start": 65.14,
+      "end": 65.38,
+      "text": "April"
+    },
+    "94": {
+      "start": 65.38,
+      "end": 65.6,
+      "text": "of"
+    },
+    "95": {
+      "start": 65.6,
+      "end": 65.76,
+      "text": "this"
+    },
+    "96": {
+      "start": 65.76,
+      "end": 66.2,
+      "text": "year."
+    },
+    "97": {
+      "start": 67.08,
+      "end": 67.32,
+      "text": "Firstly,"
+    },
+    "98": {
+      "start": 67.82,
+      "end": 67.94,
+      "text": "could"
+    },
+    "99": {
+      "start": 67.94,
+      "end": 68.08,
+      "text": "you"
+    },
+    "100": {
+      "start": 68.08,
+      "end": 68.24,
+      "text": "tell"
+    },
+    "101": {
+      "start": 68.24,
+      "end": 68.42,
+      "text": "me"
+    },
+    "102": {
+      "start": 68.42,
+      "end": 68.58,
+      "text": "whether"
+    },
+    "103": {
+      "start": 68.58,
+      "end": 68.82,
+      "text": "it's"
+    },
+    "104": {
+      "start": 68.82,
+      "end": 69.3,
+      "text": "particularly"
+    },
+    "105": {
+      "start": 69.3,
+      "end": 69.74,
+      "text": "hot"
+    },
+    "106": {
+      "start": 69.74,
+      "end": 70.02,
+      "text": "during"
+    },
+    "107": {
+      "start": 70.02,
+      "end": 70.3,
+      "text": "this"
+    },
+    "108": {
+      "start": 70.3,
+      "end": 70.58,
+      "text": "time?"
+    },
+    "109": {
+      "start": 73.52,
+      "end": 73.64,
+      "text": "The"
+    },
+    "110": {
+      "start": 73.64,
+      "end": 73.88,
+      "text": "type"
+    },
+    "111": {
+      "start": 73.88,
+      "end": 74.12,
+      "text": "of"
+    },
+    "112": {
+      "start": 74.12,
+      "end": 74.38,
+      "text": "room"
+    },
+    "113": {
+      "start": 74.38,
+      "end": 74.6,
+      "text": "the"
+    },
+    "114": {
+      "start": 74.6,
+      "end": 74.8,
+      "text": "man"
+    },
+    "115": {
+      "start": 74.8,
+      "end": 75.42,
+      "text": "requires"
+    },
+    "116": {
+      "start": 75.42,
+      "end": 75.86,
+      "text": "is"
+    },
+    "117": {
+      "start": 75.86,
+      "end": 76.02,
+      "text": "a"
+    },
+    "118": {
+      "start": 76.02,
+      "end": 76.22,
+      "text": "double"
+    },
+    "119": {
+      "start": 76.22,
+      "end": 76.64,
+      "text": "one."
+    },
+    "120": {
+      "start": 76.98,
+      "end": 77.5,
+      "text": "So,"
+    },
+    "121": {
+      "start": 77.5,
+      "end": 78.14,
+      "text": "double"
+    },
+    "122": {
+      "start": 78.14,
+      "end": 78.56,
+      "text": "has"
+    },
+    "123": {
+      "start": 78.56,
+      "end": 78.76,
+      "text": "been"
+    },
+    "124": {
+      "start": 78.76,
+      "end": 79,
+      "text": "written"
+    },
+    "125": {
+      "start": 79,
+      "end": 79.22,
+      "text": "in"
+    },
+    "126": {
+      "start": 79.22,
+      "end": 79.38,
+      "text": "the"
+    },
+    "127": {
+      "start": 79.38,
+      "end": 79.78,
+      "text": "space."
+    },
+    "128": {
+      "start": 80.86,
+      "end": 81.5,
+      "text": "Now"
+    },
+    "129": {
+      "start": 81.5,
+      "end": 81.74,
+      "text": "we"
+    },
+    "130": {
+      "start": 81.74,
+      "end": 81.98,
+      "text": "shall"
+    },
+    "131": {
+      "start": 81.98,
+      "end": 82.38,
+      "text": "begin."
+    },
+    "132": {
+      "start": 83.58,
+      "end": 83.68,
+      "text": "You"
+    },
+    "133": {
+      "start": 83.68,
+      "end": 83.86,
+      "text": "should"
+    },
+    "134": {
+      "start": 83.86,
+      "end": 84.18,
+      "text": "answer"
+    },
+    "135": {
+      "start": 84.18,
+      "end": 84.38,
+      "text": "the"
+    },
+    "136": {
+      "start": 84.38,
+      "end": 84.8,
+      "text": "questions"
+    },
+    "137": {
+      "start": 84.8,
+      "end": 85.2,
+      "text": "as"
+    },
+    "138": {
+      "start": 85.2,
+      "end": 85.42,
+      "text": "you"
+    },
+    "139": {
+      "start": 85.42,
+      "end": 85.84,
+      "text": "listen,"
+    },
+    "140": {
+      "start": 86.16,
+      "end": 86.66,
+      "text": "because"
+    },
+    "141": {
+      "start": 86.66,
+      "end": 86.96,
+      "text": "you"
+    },
+    "142": {
+      "start": 86.96,
+      "end": 87.1,
+      "text": "will"
+    },
+    "143": {
+      "start": 87.1,
+      "end": 87.3,
+      "text": "not"
+    },
+    "144": {
+      "start": 87.3,
+      "end": 87.58,
+      "text": "hear"
+    },
+    "145": {
+      "start": 87.58,
+      "end": 87.7,
+      "text": "the"
+    },
+    "146": {
+      "start": 87.7,
+      "end": 88.18,
+      "text": "recording"
+    },
+    "147": {
+      "start": 88.18,
+      "end": 88.5,
+      "text": "a"
+    },
+    "148": {
+      "start": 88.5,
+      "end": 88.78,
+      "text": "second"
+    },
+    "149": {
+      "start": 88.78,
+      "end": 89.3,
+      "text": "time."
+    },
+    "150": {
+      "start": 91.06,
+      "end": 91.32,
+      "text": "Listen"
+    },
+    "151": {
+      "start": 91.32,
+      "end": 91.84,
+      "text": "carefully"
+    },
+    "152": {
+      "start": 91.84,
+      "end": 92.38,
+      "text": "and"
+    },
+    "153": {
+      "start": 92.38,
+      "end": 92.7,
+      "text": "answer"
+    },
+    "154": {
+      "start": 92.7,
+      "end": 93.18,
+      "text": "questions"
+    },
+    "155": {
+      "start": 93.18,
+      "end": 93.58,
+      "text": "1"
+    },
+    "156": {
+      "start": 93.58,
+      "end": 93.8,
+      "text": "to"
+    },
+    "157": {
+      "start": 93.8,
+      "end": 93.98,
+      "text": "4."
+    }
+  },
+  "wordClockCount": 719,
+  "wordClocksSha256": "d885b881786fb5f1c80c9f95a46c5a0bd12802fe058be31c1dd1c8678ca8d7b7",
+  "tokensSha256": "b561ab540fab771accbefb805f4d7e51d3630fa6ebcd975f854ee4e637e6df56",
+  "tokenCount": 824,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Speaker 1": [
+        [
+          0.46,
+          8
+        ],
+        [
+          73.522,
+          79.78
+        ],
+        [
+          255.18,
+          260.76
+        ]
+      ],
+      "Speaker 2": [
+        [
+          148.08,
+          161.5
+        ],
+        [
+          191.04,
+          199.5
+        ],
+        [
+          311.3,
+          321.3
+        ]
+      ],
+      "Speaker 3": [
+        [
+          135.15,
+          145.7
+        ],
+        [
+          288.48,
+          299.5
+        ],
+        [
+          183.19,
+          189.15
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker 1",
+        "start": 0.46,
+        "end": 8,
+        "scores": {
+          "Speaker 1": 0.8608,
+          "Speaker 2": 0.2822,
+          "Speaker 3": -0.1415
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 73.522,
+        "end": 79.78,
+        "scores": {
+          "Speaker 1": 0.7994,
+          "Speaker 2": 0.3325,
+          "Speaker 3": -0.1111
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 255.18,
+        "end": 260.76,
+        "scores": {
+          "Speaker 1": 0.8386,
+          "Speaker 2": 0.2512,
+          "Speaker 3": -0.107
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 148.08,
+        "end": 161.5,
+        "scores": {
+          "Speaker 1": 0.1877,
+          "Speaker 2": 0.8526,
+          "Speaker 3": 0.2398
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 191.04,
+        "end": 199.5,
+        "scores": {
+          "Speaker 1": 0.3428,
+          "Speaker 2": 0.8748,
+          "Speaker 3": 0.0955
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 311.3,
+        "end": 321.3,
+        "scores": {
+          "Speaker 1": 0.3532,
+          "Speaker 2": 0.9027,
+          "Speaker 3": 0.1258
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 135.15,
+        "end": 145.7,
+        "scores": {
+          "Speaker 1": -0.1044,
+          "Speaker 2": 0.1628,
+          "Speaker 3": 0.8649
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 288.48,
+        "end": 299.5,
+        "scores": {
+          "Speaker 1": -0.1252,
+          "Speaker 2": 0.1756,
+          "Speaker 3": 0.8133
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 183.19,
+        "end": 189.15,
+        "scores": {
+          "Speaker 1": -0.1262,
+          "Speaker 2": 0.1087,
+          "Speaker 3": 0.7555
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "Section 1",
+        "index": 0,
+        "start": 0.46,
+        "speaker": "Speaker 1",
+        "end": 50.71,
+        "voiceWindow": [
+          0.46,
+          10.46
+        ],
+        "scores": {
+          "Speaker 1": 0.9496,
+          "Speaker 2": 0.3298,
+          "Speaker 3": -0.1286
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 52,
+        "start": 50.74,
+        "speaker": "Speaker 2",
+        "end": 57.055,
+        "voiceWindow": [
+          50.74,
+          57.055
+        ],
+        "scores": {
+          "Speaker 1": 0.2905,
+          "Speaker 2": 0.8909,
+          "Speaker 3": 0.1923
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes hello there",
+        "index": 70,
+        "start": 57.085,
+        "speaker": "Speaker 3",
+        "end": 73.492,
+        "voiceWindow": [
+          57.085,
+          67.08500000000001
+        ],
+        "scores": {
+          "Speaker 1": -0.0803,
+          "Speaker 2": 0.1372,
+          "Speaker 3": 0.842
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "The type of room",
+        "index": 109,
+        "start": 73.522,
+        "speaker": "Speaker 1",
+        "end": 96.01,
+        "voiceWindow": [
+          73.522,
+          83.522
+        ],
+        "scores": {
+          "Speaker 1": 0.9203,
+          "Speaker 2": 0.3461,
+          "Speaker 3": -0.1094
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 158,
+        "start": 96.04,
+        "speaker": "Speaker 2",
+        "end": 102.922,
+        "voiceWindow": [
+          96.04,
+          102.922
+        ],
+        "scores": {
+          "Speaker 1": 0.2555,
+          "Speaker 2": 0.9036,
+          "Speaker 3": 0.2275
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Yes hello there",
+        "index": 176,
+        "start": 102.952,
+        "speaker": "Speaker 3",
+        "end": 117.1,
+        "voiceWindow": [
+          102.952,
+          112.952
+        ],
+        "scores": {
+          "Speaker 1": -0.0982,
+          "Speaker 2": 0.1636,
+          "Speaker 3": 0.8731
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes of course sir",
+        "index": 215,
+        "start": 117.13,
+        "speaker": "Speaker 2",
+        "end": 133.64,
+        "voiceWindow": [
+          117.13,
+          127.13
+        ],
+        "scores": {
+          "Speaker 1": 0.294,
+          "Speaker 2": 0.911,
+          "Speaker 3": 0.1812
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Okay that sounds good",
+        "index": 255,
+        "start": 133.67,
+        "speaker": "Speaker 3",
+        "end": 147.13,
+        "voiceWindow": [
+          133.67,
+          143.67
+        ],
+        "scores": {
+          "Speaker 1": -0.1069,
+          "Speaker 2": 0.1526,
+          "Speaker 3": 0.9105
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes sir",
+        "index": 295,
+        "start": 147.16,
+        "speaker": "Speaker 2",
+        "end": 165.82,
+        "voiceWindow": [
+          147.16,
+          157.16
+        ],
+        "scores": {
+          "Speaker 1": 0.2094,
+          "Speaker 2": 0.9291,
+          "Speaker 3": 0.2281
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Okay excellent",
+        "index": 339,
+        "start": 165.85,
+        "speaker": "Speaker 3",
+        "end": 169.8,
+        "voiceWindow": [
+          165.85,
+          169.8
+        ],
+        "scores": {
+          "Speaker 1": -0.065,
+          "Speaker 2": 0.1952,
+          "Speaker 3": 0.6577
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "I shall have a look",
+        "index": 356,
+        "start": 169.83,
+        "speaker": "Speaker 2",
+        "end": 183.16,
+        "voiceWindow": [
+          169.83,
+          179.83
+        ],
+        "scores": {
+          "Speaker 1": 0.2462,
+          "Speaker 2": 0.9203,
+          "Speaker 3": 0.1662
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Well ideally I would",
+        "index": 396,
+        "start": 183.19,
+        "speaker": "Speaker 3",
+        "end": 189.43,
+        "voiceWindow": [
+          183.19,
+          189.43
+        ],
+        "scores": {
+          "Speaker 1": -0.1121,
+          "Speaker 2": 0.0972,
+          "Speaker 3": 0.8809
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Not to worry sir",
+        "index": 418,
+        "start": 189.46,
+        "speaker": "Speaker 2",
+        "end": 203.76,
+        "voiceWindow": [
+          189.46,
+          199.46
+        ],
+        "scores": {
+          "Speaker 1": 0.3448,
+          "Speaker 2": 0.9443,
+          "Speaker 3": 0.0871
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Okay So could you tell",
+        "index": 452,
+        "start": 203.79,
+        "speaker": "Speaker 3",
+        "end": 208.5,
+        "voiceWindow": [
+          203.79,
+          208.5
+        ],
+        "scores": {
+          "Speaker 1": -0.1176,
+          "Speaker 2": 0.1301,
+          "Speaker 3": 0.787
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes of course sir",
+        "index": 471,
+        "start": 208.53,
+        "speaker": "Speaker 2",
+        "end": 223.54,
+        "voiceWindow": [
+          208.53,
+          218.53
+        ],
+        "scores": {
+          "Speaker 1": 0.3496,
+          "Speaker 2": 0.9174,
+          "Speaker 3": 0.1363
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Perfect I also read",
+        "index": 494,
+        "start": 223.57,
+        "speaker": "Speaker 3",
+        "end": 229.04,
+        "voiceWindow": [
+          223.57,
+          229.04
+        ],
+        "scores": {
+          "Speaker 1": -0.0845,
+          "Speaker 2": 0.1328,
+          "Speaker 3": 0.7367
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Yes We have a large",
+        "index": 516,
+        "start": 229.07,
+        "speaker": "Speaker 2",
+        "end": 250.58,
+        "voiceWindow": [
+          229.07,
+          239.07
+        ],
+        "scores": {
+          "Speaker 1": 0.3849,
+          "Speaker 2": 0.8812,
+          "Speaker 3": 0.1081
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Goodness I shall",
+        "index": 557,
+        "start": 250.61,
+        "speaker": "Speaker 3",
+        "end": 255.15,
+        "voiceWindow": [
+          250.61,
+          255.15
+        ],
+        "scores": {
+          "Speaker 1": -0.011,
+          "Speaker 2": 0.0955,
+          "Speaker 3": 0.4448
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 568,
+        "start": 255.18,
+        "speaker": "Speaker 1",
+        "end": 288.45000000000005,
+        "voiceWindow": [
+          255.18,
+          265.18
+        ],
+        "scores": {
+          "Speaker 1": 0.8297,
+          "Speaker 2": 0.2502,
+          "Speaker 3": -0.0807
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "phrase": "Are there any other activities",
+        "index": 595,
+        "start": 288.48,
+        "speaker": "Speaker 3",
+        "end": 301.69000000000005,
+        "voiceWindow": [
+          288.48,
+          298.48
+        ],
+        "scores": {
+          "Speaker 1": -0.1331,
+          "Speaker 2": 0.1708,
+          "Speaker 3": 0.9155
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "I can assure you sir",
+        "index": 634,
+        "start": 301.72,
+        "speaker": "Speaker 2",
+        "end": 364.973,
+        "voiceWindow": [
+          301.72,
+          311.72
+        ],
+        "scores": {
+          "Speaker 1": 0.3319,
+          "Speaker 2": 0.9231,
+          "Speaker 3": 0.1526
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "phrase": "Oh wow That all",
+        "index": 770,
+        "start": 365.003,
+        "speaker": "Speaker 3",
+        "end": 380.32000000000005,
+        "voiceWindow": [
+          365.003,
+          375.003
+        ],
+        "scores": {
+          "Speaker 1": -0.053,
+          "Speaker 2": 0.1315,
+          "Speaker 3": 0.7873
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 807,
+        "start": 380.35,
+        "speaker": "Speaker 1",
+        "end": 385.66,
+        "voiceWindow": [
+          380.35,
+          385.66
+        ],
+        "scores": {
+          "Speaker 1": 0.8961,
+          "Speaker 2": 0.2858,
+          "Speaker 3": -0.1115
+        },
+        "chosen": "Speaker 1"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": "Section 1. You will hear a man phoning to inquire about hotel information. First, you have some time to look at questions 1 to 4. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 2",
+      "text": "Good afternoon. You're through to reception at the Island Hotel in Crete. How may I help you today? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 3",
+      "text": "Yes, hello there."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 3",
+      "text": "I'm hoping to book a double room for my wife and myself for about two weeks, from the 25th of April of this year. Firstly, could you tell me whether it's particularly hot during this time? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 1",
+      "text": "The type of room the man requires is a double one. So, double has been written in the space."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 1",
+      "text": "Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time. Listen carefully and answer questions 1 to 4. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 2",
+      "text": "Good afternoon."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": "You're through to reception at the Island Hotel in Crete. How may I help you today? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 3",
+      "text": "Yes, hello there. I'm hoping to book a double room for my wife and myself for about two weeks, from the 25th of April of this year."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 3",
+      "text": "Firstly, could you tell me whether it's particularly hot during this time? "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 2",
+      "text": "Yes, of course, sir. During late April and early May, the daytime temperature shouldn't exceed 19 degrees Celsius, but the weather has been rather erratic and difficult to predict in recent years, so I am unable to say for certain. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 3",
+      "text": "Okay, that sounds good."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 3",
+      "text": "My wife doesn't like going outside when it's very hot. I haven't booked flights yet, but I must say that I'm unfamiliar with Crete and its transport system. Does the hotel provide an airport shuttle service? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 2",
+      "text": "Yes, sir."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 2",
+      "text": "We provide a complimentary airport pick-up service for all our guests. It takes about 40 minutes to get here from the airport, but it's at least 60 minutes at rush hours, and you will be provided with a fully air-conditioned shuttle bus. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 3",
+      "text": "Okay, excellent."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 3",
+      "text": "In that case, do you have any rooms available for the dates I gave you? "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 2",
+      "text": "I shall have a look on the system now for you, sir. Bear with me just a moment. Yes, sir."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 2",
+      "text": "I can see now that we have several rooms available. Would you prefer a garden view or a sea view? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": "Well, ideally I would like a sea view room with a balcony, but of course that depends on the difference in price. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 2",
+      "text": "Not to worry, sir."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 2",
+      "text": "All of our standard double rooms have en-suite facilities and a balcony. If you would like one of our sea view rooms, there is a premium of €60 per night. "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 3",
+      "text": "Okay."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 3",
+      "text": "So could you tell me the total nightly rate for a standard double room with a sea view? "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 2",
+      "text": "Yes, of course, sir. For the spring months, our rate is €216 per night. For 14 nights altogether, this will come to €3,024."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 3",
+      "text": "Perfect. I also read on your website that the hotel has gym and spa facilities. Are there any other facilities on offer? "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 2",
+      "text": "Yes."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 2",
+      "text": "We have a large outdoor infinity pool overlooking the ocean, with luxury sunbeds and a poolside bar. We also have three full-size tennis courts, where we run a popular doubles tournament, with the winner receiving two all-inclusive spa day vouchers. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 3",
+      "text": "Goodness."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 3",
+      "text": "I shall have to brush up on my tennis skills. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 1",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 5 to 10. Now listen and answer questions 5 to 10."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 3",
+      "text": "Are there any other activities organised by the hotel that we can partake in? It's just that it's our wedding anniversary on the 30th of June, and I would like to provide my wife with the perfect romantic getaway. "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 2",
+      "text": "I can assure you, sir, that your wife won't be disappointed. Ours is a five-star resort, which is renowned for its luxury and beauty."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 2",
+      "text": "In terms of activities, the hotel provides thrice-weekly entertainment. On Tuesdays, guests will take a minibus and partake in learning to cook succulent fish dishes with our Michelin-starred chef Enrique. The class will take place in a beautiful valley deep in the Cretan hills, where guests will be treated to an intimate piano performance by our in-house concert pianist Pedro."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 2",
+      "text": "On Wednesdays, a select number of guests will be fortunate enough to explore the mountains by helicopter, before being transported to a tropical Cretan garden by shuttle bus. Finally, on Thursdays, after a fancy dinner, we provide a spectacular fireworks display, which guests can view from the comfort of a cable car. "
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 3",
+      "text": "Oh, wow! That all sounds absolutely wonderful."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 3",
+      "text": "I shall book the room now, and then I need to look at flights, so as not to become extortionate. Would you like to take my details now, or later? "
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 1",
+      "text": "That is the end of Section 1. You now have half a minute to check your answers."
+    }
+  ],
+  "localBoundaryRecognition": [
+    {
+      "start": 56.4,
+      "end": 94,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 56.4,
+          "end": 57.38
+        },
+        {
+          "word": "hello",
+          "start": 57.6,
+          "end": 57.86
+        },
+        {
+          "word": "there.",
+          "start": 57.86,
+          "end": 58.14
+        },
+        {
+          "word": "I'm",
+          "start": 58.88,
+          "end": 59.04
+        },
+        {
+          "word": "hoping",
+          "start": 59.04,
+          "end": 59.32
+        },
+        {
+          "word": "to",
+          "start": 59.32,
+          "end": 59.58
+        },
+        {
+          "word": "book",
+          "start": 59.58,
+          "end": 59.7
+        },
+        {
+          "word": "a",
+          "start": 59.7,
+          "end": 59.9
+        },
+        {
+          "word": "double",
+          "start": 59.9,
+          "end": 60.18
+        },
+        {
+          "word": "room",
+          "start": 60.18,
+          "end": 60.52
+        },
+        {
+          "word": "for",
+          "start": 60.52,
+          "end": 60.78
+        },
+        {
+          "word": "my",
+          "start": 60.78,
+          "end": 61
+        },
+        {
+          "word": "wife",
+          "start": 61,
+          "end": 61.28
+        },
+        {
+          "word": "and",
+          "start": 61.28,
+          "end": 61.62
+        },
+        {
+          "word": "myself",
+          "start": 61.62,
+          "end": 62.12
+        },
+        {
+          "word": "for",
+          "start": 62.12,
+          "end": 62.76
+        },
+        {
+          "word": "about",
+          "start": 62.76,
+          "end": 63.04
+        },
+        {
+          "word": "two",
+          "start": 63.04,
+          "end": 63.34
+        },
+        {
+          "word": "weeks",
+          "start": 63.34,
+          "end": 63.72
+        },
+        {
+          "word": "from",
+          "start": 63.72,
+          "end": 64.34
+        },
+        {
+          "word": "the",
+          "start": 64.34,
+          "end": 64.46
+        },
+        {
+          "word": "25th",
+          "start": 64.46,
+          "end": 65.02
+        },
+        {
+          "word": "of",
+          "start": 65.02,
+          "end": 65.14
+        },
+        {
+          "word": "April",
+          "start": 65.14,
+          "end": 65.38
+        },
+        {
+          "word": "of",
+          "start": 65.38,
+          "end": 65.6
+        },
+        {
+          "word": "this",
+          "start": 65.6,
+          "end": 65.76
+        },
+        {
+          "word": "year.",
+          "start": 65.76,
+          "end": 66.2
+        },
+        {
+          "word": "Firstly,",
+          "start": 67.08,
+          "end": 67.32
+        },
+        {
+          "word": "could",
+          "start": 67.82,
+          "end": 67.94
+        },
+        {
+          "word": "you",
+          "start": 67.94,
+          "end": 68.08
+        },
+        {
+          "word": "tell",
+          "start": 68.08,
+          "end": 68.24
+        },
+        {
+          "word": "me",
+          "start": 68.24,
+          "end": 68.42
+        },
+        {
+          "word": "whether",
+          "start": 68.42,
+          "end": 68.58
+        },
+        {
+          "word": "it's",
+          "start": 68.58,
+          "end": 68.82
+        },
+        {
+          "word": "particularly",
+          "start": 68.82,
+          "end": 69.3
+        },
+        {
+          "word": "hot",
+          "start": 69.3,
+          "end": 69.74
+        },
+        {
+          "word": "during",
+          "start": 69.74,
+          "end": 70.02
+        },
+        {
+          "word": "this",
+          "start": 70.02,
+          "end": 70.3
+        },
+        {
+          "word": "time?",
+          "start": 70.3,
+          "end": 70.58
+        },
+        {
+          "word": "The",
+          "start": 73.52,
+          "end": 73.64
+        },
+        {
+          "word": "type",
+          "start": 73.64,
+          "end": 73.88
+        },
+        {
+          "word": "of",
+          "start": 73.88,
+          "end": 74.12
+        },
+        {
+          "word": "room",
+          "start": 74.12,
+          "end": 74.38
+        },
+        {
+          "word": "the",
+          "start": 74.38,
+          "end": 74.6
+        },
+        {
+          "word": "man",
+          "start": 74.6,
+          "end": 74.8
+        },
+        {
+          "word": "requires",
+          "start": 74.8,
+          "end": 75.42
+        },
+        {
+          "word": "is",
+          "start": 75.42,
+          "end": 75.86
+        },
+        {
+          "word": "a",
+          "start": 75.86,
+          "end": 76.02
+        },
+        {
+          "word": "double",
+          "start": 76.02,
+          "end": 76.22
+        },
+        {
+          "word": "one,",
+          "start": 76.22,
+          "end": 76.64
+        },
+        {
+          "word": "so",
+          "start": 76.98,
+          "end": 77.5
+        },
+        {
+          "word": "double",
+          "start": 77.5,
+          "end": 78.14
+        },
+        {
+          "word": "has",
+          "start": 78.14,
+          "end": 78.56
+        },
+        {
+          "word": "been",
+          "start": 78.56,
+          "end": 78.76
+        },
+        {
+          "word": "written",
+          "start": 78.76,
+          "end": 79
+        },
+        {
+          "word": "in",
+          "start": 79,
+          "end": 79.22
+        },
+        {
+          "word": "the",
+          "start": 79.22,
+          "end": 79.38
+        },
+        {
+          "word": "space.",
+          "start": 79.38,
+          "end": 79.78
+        },
+        {
+          "word": "Now",
+          "start": 80.86,
+          "end": 81.5
+        },
+        {
+          "word": "we",
+          "start": 81.5,
+          "end": 81.74
+        },
+        {
+          "word": "shall",
+          "start": 81.74,
+          "end": 81.98
+        },
+        {
+          "word": "begin.",
+          "start": 81.98,
+          "end": 82.38
+        },
+        {
+          "word": "You",
+          "start": 83.58,
+          "end": 83.68
+        },
+        {
+          "word": "should",
+          "start": 83.68,
+          "end": 83.86
+        },
+        {
+          "word": "answer",
+          "start": 83.86,
+          "end": 84.18
+        },
+        {
+          "word": "the",
+          "start": 84.18,
+          "end": 84.38
+        },
+        {
+          "word": "questions",
+          "start": 84.38,
+          "end": 84.8
+        },
+        {
+          "word": "as",
+          "start": 84.8,
+          "end": 85.2
+        },
+        {
+          "word": "you",
+          "start": 85.2,
+          "end": 85.42
+        },
+        {
+          "word": "listen,",
+          "start": 85.42,
+          "end": 85.84
+        },
+        {
+          "word": "because",
+          "start": 86.16,
+          "end": 86.66
+        },
+        {
+          "word": "you",
+          "start": 86.66,
+          "end": 86.96
+        },
+        {
+          "word": "will",
+          "start": 86.96,
+          "end": 87.1
+        },
+        {
+          "word": "not",
+          "start": 87.1,
+          "end": 87.3
+        },
+        {
+          "word": "hear",
+          "start": 87.3,
+          "end": 87.58
+        },
+        {
+          "word": "the",
+          "start": 87.58,
+          "end": 87.7
+        },
+        {
+          "word": "recording",
+          "start": 87.7,
+          "end": 88.18
+        },
+        {
+          "word": "a",
+          "start": 88.18,
+          "end": 88.5
+        },
+        {
+          "word": "second",
+          "start": 88.5,
+          "end": 88.78
+        },
+        {
+          "word": "time.",
+          "start": 88.78,
+          "end": 89.3
+        },
+        {
+          "word": "Listen",
+          "start": 91.06,
+          "end": 91.32
+        },
+        {
+          "word": "carefully",
+          "start": 91.32,
+          "end": 91.84
+        },
+        {
+          "word": "and",
+          "start": 91.84,
+          "end": 92.38
+        },
+        {
+          "word": "answer",
+          "start": 92.38,
+          "end": 92.7
+        },
+        {
+          "word": "questions",
+          "start": 92.7,
+          "end": 93.18
+        },
+        {
+          "word": "one",
+          "start": 93.18,
+          "end": 93.58
+        },
+        {
+          "word": "to",
+          "start": 93.58,
+          "end": 93.8
+        },
+        {
+          "word": "four.",
+          "start": 93.8,
+          "end": 93.98
+        }
+      ]
+    },
+    {
+      "start": 94,
+      "end": 103,
+      "words": [
+        {
+          "word": "Good",
+          "start": 96.04,
+          "end": 96.64
+        },
+        {
+          "word": "afternoon.",
+          "start": 96.64,
+          "end": 97.14
+        },
+        {
+          "word": "You're",
+          "start": 97.78,
+          "end": 97.98
+        },
+        {
+          "word": "through",
+          "start": 97.98,
+          "end": 98.2
+        },
+        {
+          "word": "to",
+          "start": 98.2,
+          "end": 98.4
+        },
+        {
+          "word": "reception",
+          "start": 98.4,
+          "end": 98.78
+        },
+        {
+          "word": "at",
+          "start": 98.78,
+          "end": 99.22
+        },
+        {
+          "word": "the",
+          "start": 99.22,
+          "end": 99.36
+        },
+        {
+          "word": "Island",
+          "start": 99.36,
+          "end": 99.78
+        },
+        {
+          "word": "Hotel",
+          "start": 99.78,
+          "end": 100.14
+        },
+        {
+          "word": "in",
+          "start": 100.14,
+          "end": 100.38
+        },
+        {
+          "word": "Crete.",
+          "start": 100.38,
+          "end": 100.82
+        },
+        {
+          "word": "How",
+          "start": 101.14,
+          "end": 101.2
+        },
+        {
+          "word": "may",
+          "start": 101.2,
+          "end": 101.38
+        },
+        {
+          "word": "I",
+          "start": 101.38,
+          "end": 101.52
+        },
+        {
+          "word": "help",
+          "start": 101.52,
+          "end": 101.68
+        },
+        {
+          "word": "you",
+          "start": 101.68,
+          "end": 101.88
+        },
+        {
+          "word": "today?",
+          "start": 101.88,
+          "end": 102.18
+        }
+      ]
+    },
+    {
+      "start": 372,
+      "end": 394,
+      "words": [
+        {
+          "word": "so",
+          "start": 372,
+          "end": 372.22
+        },
+        {
+          "word": "as",
+          "start": 372.22,
+          "end": 372.42
+        },
+        {
+          "word": "not",
+          "start": 372.42,
+          "end": 372.56
+        },
+        {
+          "word": "to",
+          "start": 372.56,
+          "end": 372.72
+        },
+        {
+          "word": "become",
+          "start": 372.72,
+          "end": 372.9
+        },
+        {
+          "word": "extortionate.",
+          "start": 372.9,
+          "end": 373.94
+        },
+        {
+          "word": "Would",
+          "start": 374.62,
+          "end": 374.74
+        },
+        {
+          "word": "you",
+          "start": 374.74,
+          "end": 374.86
+        },
+        {
+          "word": "like",
+          "start": 374.86,
+          "end": 375
+        },
+        {
+          "word": "to",
+          "start": 375,
+          "end": 375.14
+        },
+        {
+          "word": "take",
+          "start": 375.14,
+          "end": 375.3
+        },
+        {
+          "word": "my",
+          "start": 375.3,
+          "end": 375.5
+        },
+        {
+          "word": "details",
+          "start": 375.5,
+          "end": 375.9
+        },
+        {
+          "word": "now",
+          "start": 375.9,
+          "end": 376.3
+        },
+        {
+          "word": "or",
+          "start": 376.3,
+          "end": 376.72
+        },
+        {
+          "word": "later?",
+          "start": 376.72,
+          "end": 377.04
+        },
+        {
+          "word": "That",
+          "start": 380.06,
+          "end": 380.48
+        },
+        {
+          "word": "is",
+          "start": 380.48,
+          "end": 380.68
+        },
+        {
+          "word": "the",
+          "start": 380.68,
+          "end": 380.86
+        },
+        {
+          "word": "end",
+          "start": 380.86,
+          "end": 381.14
+        },
+        {
+          "word": "of",
+          "start": 381.14,
+          "end": 381.44
+        },
+        {
+          "word": "section",
+          "start": 381.44,
+          "end": 381.6
+        },
+        {
+          "word": "one.",
+          "start": 381.6,
+          "end": 382.12
+        },
+        {
+          "word": "You",
+          "start": 382.94,
+          "end": 383.28
+        },
+        {
+          "word": "now",
+          "start": 383.28,
+          "end": 383.52
+        },
+        {
+          "word": "have",
+          "start": 383.52,
+          "end": 383.78
+        },
+        {
+          "word": "half",
+          "start": 383.78,
+          "end": 384.02
+        },
+        {
+          "word": "a",
+          "start": 384.02,
+          "end": 384.22
+        },
+        {
+          "word": "minute",
+          "start": 384.22,
+          "end": 384.42
+        },
+        {
+          "word": "to",
+          "start": 384.42,
+          "end": 384.76
+        },
+        {
+          "word": "check",
+          "start": 384.76,
+          "end": 384.94
+        },
+        {
+          "word": "your",
+          "start": 384.94,
+          "end": 385.22
+        },
+        {
+          "word": "answers.",
+          "start": 385.22,
+          "end": 385.66
+        }
+      ]
+    }
+  ],
+  "otherPartsSha256": "e11d9993416142ef712f599fbf707d42a8f6ffc73016418a972984b643aeef4c"
+}

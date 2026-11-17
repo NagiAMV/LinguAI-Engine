@@ -3,12 +3,8 @@
   "corrections": [
     {
       "question": 32,
-      "previous": [
-        "dives"
-      ],
-      "accepted": [
-        "diving"
-      ],
+      "previous": ["dives"],
+      "accepted": ["diving"],
       "reason": "deepest-___ reptiles; transcript describes deep-diving animals"
     }
   ],
