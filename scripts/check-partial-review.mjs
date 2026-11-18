@@ -1,3 +1,6 @@
+import {alignQuestionRows} from '../src/components/content/question-row-alignment.mjs';
+import {emphasizeOptionLetters} from '../src/components/content/option-letters.mjs';
+import * as analytics from '../src/lib/anonymous-analytics.mjs';
 import fs from 'node:fs';import vm from 'node:vm';import {createRequire} from 'node:module';
 import * as scoring from '../src/components/content/exam-score.mjs';
 import * as reviewRows from '../src/components/content/answer-review.mjs';
@@ -7,6 +10,7 @@ import {prepareReviewTables} from '../src/components/content/review-tables.mjs';
 const require=createRequire(import.meta.url),React=require('react'),{renderToStaticMarkup}=require('react-dom/server');
 const filename='src/components/content/ExamResults.jsx',compiled=require('next/dist/compiled/babel/core').transformSync(fs.readFileSync(filename,'utf8'),{filename,presets:[require.resolve('next/babel')]}).code,module={exports:{}};
 vm.runInNewContext(compiled,{module,exports:module.exports,require:id=>{
+ if(id==='@/lib/anonymous-analytics.mjs')return analytics;
  if(id.includes('AccountProvider'))return {useAccount:()=>({recordAttempt(){},user:null,syncMessage:''})};
  if(id==='./ErrorTags')return require('../tests/helpers/error-tags-component.cjs');if(id==='./ExamPassageReview')return ()=>null;if(id==='./exam-score.mjs')return scoring;if(id==='./answer-review.mjs')return reviewRows;if(id==='@/lib/practice-ideas.mjs')return ideas;
  if(id.startsWith('@/data/'))return require('../src/data/'+id.slice(7));if(id.startsWith('@babel/runtime/'))return require('next/dist/compiled/'+id);return require(id);
@@ -30,7 +34,7 @@ try {
  const annotationCode=fs.readFileSync('src/components/content/exam-annotations.mjs','utf8').replace(/export /g,'');
  const keys=Object.assign({},...['practice-listening-keys','single-section-listening-keys','practice-reading-keys','single-passage-reading-keys'].map(name=>JSON.parse(fs.readFileSync('src/data/'+name+'.json'))));
  const explanations=Object.assign({},...['listening-explanations','practice-reading-explanations','single-passage-reading-explanations'].map(name=>JSON.parse(fs.readFileSync('src/data/'+name+'.json'))));
- await ev(`document.head.innerHTML='<meta name="viewport" content="width=device-width,initial-scale=1"><style>'+${JSON.stringify(css)}+'</style>';eval(${JSON.stringify(indexCode)}+';window.getQuestions=questionIndex;');eval(${JSON.stringify(annotationCode)}+';window.annotationText=root=>textNodes(root).map(n=>n.textContent).join("");');window.normalizeAnswer=${reviewRows.normalizeAnswer.toString()};window.arrangeImportedMaps=${arrangeImportedMaps.toString()};window.prepareReviewTables=${prepareReviewTables.toString()};window.applyReview=new Function('root','answers','rows','active','language','explanations','part','onEvidence','arrangeImportedMaps','prepareReviewTables',${JSON.stringify(effect)});`);
+ await ev(`document.head.innerHTML='<meta name="viewport" content="width=device-width,initial-scale=1"><style>'+${JSON.stringify(css)}+'</style>';eval(${JSON.stringify(indexCode)}+';window.getQuestions=questionIndex;');eval(${JSON.stringify(annotationCode)}+';window.annotationText=root=>textNodes(root).map(n=>n.textContent).join("");');window.normalizeAnswer=${reviewRows.normalizeAnswer.toString()};window.arrangeImportedMaps=${arrangeImportedMaps.toString()};window.prepareReviewTables=${prepareReviewTables.toString()};window.emphasizeOptionLetters=${emphasizeOptionLetters.toString()};window.alignQuestionRows=${alignQuestionRows.toString()};window.area='questions';window.applyReview=new Function('root','answers','rows','active','language','explanations','part','onEvidence','arrangeImportedMaps','prepareReviewTables',${JSON.stringify(effect)});`);
  const paper=JSON.parse(fs.readFileSync('public/practice/practice-listening-2.json')),key=keys[paper.id];
  const questions=await ev(`window.getQuestions(${JSON.stringify(paper)})`),name=questions.find(q=>q.number==='19').name,answers={[name]:['A','C']};
  const rows=reviewRows.buildReviewRows(paper,questions,answers,[],key),group=rows.find(r=>r.name===name);

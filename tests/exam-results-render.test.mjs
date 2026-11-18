@@ -6,6 +6,7 @@ import {createRequire} from 'node:module';
 import * as score from '../src/components/content/exam-score.mjs';
 import * as rows from '../src/components/content/answer-review.mjs';
 import * as ideas from '../src/lib/practice-ideas.mjs';
+import * as analytics from '../src/lib/anonymous-analytics.mjs';
 const require=createRequire(import.meta.url);
 const React=require('react'),{renderToStaticMarkup}=require('react-dom/server');
 const filename='src/components/content/ExamResults.jsx';
@@ -19,6 +20,7 @@ vm.runInNewContext(compiled,{module,exports:module.exports,require:id=>{
  if(id==='./exam-score.mjs')return score;
  if(id==='./answer-review.mjs')return rows;
  if(id==='@/lib/practice-ideas.mjs')return ideas;
+ if(id==='@/lib/anonymous-analytics.mjs')return analytics;
  if(id.startsWith('@/data/'))return require('../src/data/'+id.slice('@/data/'.length));
  if(id.startsWith('@babel/runtime/'))return require('next/dist/compiled/'+id);
  return require(id);

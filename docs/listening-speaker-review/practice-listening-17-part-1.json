@@ -1,0 +1,2191 @@
+{
+  "test": "practice-listening-17",
+  "part": 1,
+  "audioSha256": "89754636ad9c6805e70535a90fe49e7ac5805c9b0453cd0d53bf73829a11eed6",
+  "scope": {
+    "start": 8.88,
+    "end": 430.82
+  },
+  "sourceScope": "All 35 original paragraphs, supplementary long-paragraph tails and the two payment turns. One mixed paragraph split into two. Speaker labels corrected; spoken source prose unchanged.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "speakerLabelsUnchanged": false,
+  "speakerCorrection": {
+    "originalParagraph": 26,
+    "first": {
+      "speaker": "Woman",
+      "start": 366.72,
+      "end": 367.96
+    },
+    "second": {
+      "speaker": "Steven",
+      "start": 368.56,
+      "end": 369.34
+    }
+  },
+  "addedClocks": [
+    {
+      "index": 72,
+      "text": "That",
+      "start": 123.01,
+      "end": 123.21,
+      "granularity": "source-token"
+    },
+    {
+      "index": 83,
+      "text": "please—okay,",
+      "start": 129.57,
+      "end": 131.67,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 172,
+      "text": "sorry—I",
+      "start": 163.4,
+      "end": 164.14,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 195,
+      "text": "is—Chase",
+      "start": 173.08,
+      "end": 174.28,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 196,
+      "text": "Parkers,",
+      "start": 174.28,
+      "end": 175,
+      "granularity": "source-token"
+    },
+    {
+      "index": 209,
+      "text": "wrong—it",
+      "start": 180.25,
+      "end": 181.19,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 214,
+      "text": "P-A-R-K-H-U-R-S-T.",
+      "start": 183.55,
+      "end": 187.13,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 260,
+      "text": "Oh",
+      "start": 204.92,
+      "end": 205.56,
+      "granularity": "source-token"
+    },
+    {
+      "index": 352,
+      "text": "color—that",
+      "start": 238,
+      "end": 238.96,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 367,
+      "text": "size—what",
+      "start": 288.8,
+      "end": 289.72,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 396,
+      "text": "I'd",
+      "start": 299.24,
+      "end": 299.48,
+      "granularity": "source-token"
+    },
+    {
+      "index": 428,
+      "text": "Wow,",
+      "start": 311.78,
+      "end": 312.24,
+      "granularity": "source-token"
+    },
+    {
+      "index": 458,
+      "text": "three—it's",
+      "start": 323.14,
+      "end": 324.22,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 494,
+      "text": "Rush",
+      "start": 341.53,
+      "end": 341.67,
+      "granularity": "source-token"
+    },
+    {
+      "index": 505,
+      "text": "huh,",
+      "start": 346.89,
+      "end": 347.11,
+      "granularity": "source-token"
+    },
+    {
+      "index": 523,
+      "text": "too—so",
+      "start": 353.97,
+      "end": 354.85,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 544,
+      "text": "Oh,",
+      "start": 362.84,
+      "end": 363.42,
+      "granularity": "source-token"
+    },
+    {
+      "index": 584,
+      "text": "then—I",
+      "start": 379.46,
+      "end": 380.26,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 590,
+      "text": "cheque",
+      "start": 381.66,
+      "end": 382.04,
+      "granularity": "source-token"
+    },
+    {
+      "index": 623,
+      "text": "Ah,",
+      "start": 391.15,
+      "end": 391.8,
+      "granularity": "source-token"
+    },
+    {
+      "index": 651,
+      "text": "mind—we",
+      "start": 403.1,
+      "end": 404.16,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 710,
+      "text": "day—my",
+      "start": 423.78,
+      "end": 424.74,
+      "granularity": "source-phrase"
+    },
+    {
+      "index": 720,
+      "text": "ma'am,",
+      "start": 429.08,
+      "end": 429.34,
+      "granularity": "source-token"
+    }
+  ],
+  "mergedPhraseCue": {
+    "old": [
+      "304.44",
+      "304.70",
+      "Yes,"
+    ],
+    "new": [
+      304.44,
+      305.66,
+      "Yes, extra"
+    ],
+    "reason": "ASR assigns extra zero duration; use a whole source phrase bounded by existing neighbouring cues rather than inventing its word onset."
+  },
+  "alignmentNotes": "Composite source tokens joined with em dash retain phrase-level clocks spanning their constituent words. Original spelling and wording retained despite ASR variants (Packers/Parkers, Well/Wow, check/cheque). Endpoints of recovered tokens trimmed to existing neighbours where recognition overlaps them. No independent verbatim verification.",
+  "spokenTextSha256": "d649f2509d24e0b5e3396dbb50c63901b3d3945e4e6184f44a6a30cac1682c59",
+  "wordClocksSha256": "70f32a051a657192814b290c2061e04553ca4ea3c9f35c2aa073c2440692d7db",
+  "wordClockCount": 689,
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Narrator": [
+        [
+          8.88,
+          10.82
+        ],
+        [
+          11.12,
+          13.28
+        ]
+      ],
+      "Steven": [
+        [
+          187.37,
+          195
+        ],
+        [
+          217.58,
+          227.12
+        ],
+        [
+          395.54,
+          405
+        ]
+      ],
+      "Woman": [
+        [
+          205.62,
+          215.5
+        ],
+        [
+          227.72,
+          237.5
+        ],
+        [
+          409.34,
+          419.3
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          8.88,
+          10.82
+        ],
+        "scores": {
+          "Narrator": 0.7355,
+          "Steven": 0.194,
+          "Woman": 0.6363
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          11.12,
+          13.28
+        ],
+        "scores": {
+          "Narrator": 0.7355,
+          "Steven": 0.2419,
+          "Woman": 0.654
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Steven",
+        "window": [
+          187.37,
+          195
+        ],
+        "scores": {
+          "Narrator": 0.1939,
+          "Steven": 0.8823,
+          "Woman": 0.2478
+        },
+        "chosen": "Steven"
+      },
+      {
+        "label": "Steven",
+        "window": [
+          217.58,
+          227.12
+        ],
+        "scores": {
+          "Narrator": 0.1914,
+          "Steven": 0.8937,
+          "Woman": 0.2581
+        },
+        "chosen": "Steven"
+      },
+      {
+        "label": "Steven",
+        "window": [
+          395.54,
+          405
+        ],
+        "scores": {
+          "Narrator": 0.2806,
+          "Steven": 0.8747,
+          "Woman": 0.3973
+        },
+        "chosen": "Steven"
+      },
+      {
+        "label": "Woman",
+        "window": [
+          205.62,
+          215.5
+        ],
+        "scores": {
+          "Narrator": 0.67,
+          "Steven": 0.2247,
+          "Woman": 0.8636
+        },
+        "chosen": "Woman"
+      },
+      {
+        "label": "Woman",
+        "window": [
+          227.72,
+          237.5
+        ],
+        "scores": {
+          "Narrator": 0.4743,
+          "Steven": 0.3883,
+          "Woman": 0.7036
+        },
+        "chosen": "Woman"
+      },
+      {
+        "label": "Woman",
+        "window": [
+          409.34,
+          419.3
+        ],
+        "scores": {
+          "Narrator": 0.7422,
+          "Steven": 0.2515,
+          "Woman": 0.8101
+        },
+        "chosen": "Woman"
+      }
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "text": "Narrator: You will hear a woman telephoning a member of staff at a local newspaper.",
+        "sourceLabel": "Narrator",
+        "start": 8.88,
+        "end": 13.28,
+        "scores": {
+          "Narrator": 0.9879,
+          "Steven": 0.2398,
+          "Woman": 0.7195
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "index": 1,
+        "text": "Steven: Subscriber services. This is Steven, may I help you?",
+        "sourceLabel": "Steven",
+        "start": 103.68,
+        "end": 107.22,
+        "scores": {
+          "Narrator": 0.2056,
+          "Steven": 0.7705,
+          "Woman": 0.2583
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 2,
+        "text": "Woman: Good morning, Steven. I'm calling because I'd like to get a copy of a photo of my son that came out in the newspaper last week.",
+        "sourceLabel": "Woman",
+        "start": 107.66,
+        "end": 115.38,
+        "scores": {
+          "Narrator": 0.7318,
+          "Steven": 0.2683,
+          "Woman": 0.9083
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 3,
+        "text": "Steven: Sure, I can help you with that. Do you have the exact date?",
+        "sourceLabel": "Steven",
+        "start": 115.96,
+        "end": 119.48,
+        "scores": {
+          "Narrator": 0.3323,
+          "Steven": 0.7934,
+          "Woman": 0.3203
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 4,
+        "text": "Woman: Yes. It was last Monday. That was March the 10th.",
+        "sourceLabel": "Woman",
+        "start": 119.85,
+        "end": 125.43,
+        "scores": {
+          "Narrator": 0.5096,
+          "Steven": 0.4189,
+          "Woman": 0.7491
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 5,
+        "text": "Steven: Okay, sure. Just one moment pleaseâ€”okay, I have the newspaper from that date on my computer screen now. What section was it in?",
+        "sourceLabel": "Steven",
+        "start": 127.59,
+        "end": 137.01,
+        "scores": {
+          "Narrator": 0.226,
+          "Steven": 0.9276,
+          "Woman": 0.3214
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 6,
+        "text": "Woman: It was a feature story on local high school athletes.",
+        "sourceLabel": "Woman",
+        "start": 137.39,
+        "end": 140.65,
+        "scores": {
+          "Narrator": 0.4153,
+          "Steven": 0.2148,
+          "Woman": 0.76
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 7,
+        "text": "Steven: Okay, so local athletes are always on the back page.",
+        "sourceLabel": "Steven",
+        "start": 141.27,
+        "end": 145.35,
+        "scores": {
+          "Narrator": 0.1606,
+          "Steven": 0.8338,
+          "Woman": 0.2455
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 8,
+        "text": "Woman: No, I don't remember it being at the back. I clearly remember it being on the front.",
+        "sourceLabel": "Woman",
+        "start": 145.79,
+        "end": 151.46,
+        "scores": {
+          "Narrator": 0.6002,
+          "Steven": 0.2235,
+          "Woman": 0.8348
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 9,
+        "text": "Steven: Oh, you're right, we just started doing those features there in the last several editions. Which story was it?",
+        "sourceLabel": "Steven",
+        "start": 152.16,
+        "end": 159.46,
+        "scores": {
+          "Narrator": 0.2024,
+          "Steven": 0.8493,
+          "Woman": 0.2913
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 10,
+        "text": "Woman: Student Athlete of the month? Oops, no, excuse me, I'm sorryâ€”I mean week.",
+        "sourceLabel": "Woman",
+        "start": 160,
+        "end": 164.78,
+        "scores": {
+          "Narrator": 0.607,
+          "Steven": 0.2697,
+          "Woman": 0.8413
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 11,
+        "text": "Steven: And that's your son? You must be very proud of him, that's quite an accomplishment. Ah yes, here it isâ€”Chase Parkers, baseball player.",
+        "sourceLabel": "Steven",
+        "start": 165.48,
+        "end": 175.48,
+        "scores": {
+          "Narrator": 0.2924,
+          "Steven": 0.9073,
+          "Woman": 0.3428
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 12,
+        "text": "Woman: That's him. But actually the reporter got his surname wrongâ€”it should be Parkhurst, that's P-A-R-K-H-U-R-S-T.",
+        "sourceLabel": "Woman",
+        "start": 176.51,
+        "end": 183.45,
+        "scores": {
+          "Narrator": 0.5346,
+          "Steven": 0.273,
+          "Woman": 0.8667
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 13,
+        "text": "Steven: Okay, I'll make a note of that. Now, I'm assuming this photo is just for your own use, not for additional reprinting? With copyright laws, you need to fill out an extra form if you're going to reprint the photo in another publication.",
+        "sourceLabel": "Steven",
+        "start": 187.37,
+        "end": 197.37,
+        "scores": {
+          "Narrator": 0.1846,
+          "Steven": 0.9414,
+          "Woman": 0.2721
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 14,
+        "text": "Woman: Oh I see, no, it's not for business or commercial purposes or anything, it's just for personal use. I want everyone who visits our home to see it, I'm so proud of him.",
+        "sourceLabel": "Woman",
+        "start": 205.62,
+        "end": 215.62,
+        "scores": {
+          "Narrator": 0.6706,
+          "Steven": 0.2273,
+          "Woman": 0.9428
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 15,
+        "text": "Steven: Of course. Now, I don't know if you knew this, but even though the photo is in black and white in the paper, you can choose to get your reprint in color.",
+        "sourceLabel": "Steven",
+        "start": 217.58,
+        "end": 227.12,
+        "scores": {
+          "Narrator": 0.1914,
+          "Steven": 0.9532,
+          "Woman": 0.2581
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 16,
+        "text": "Woman: Oh, that's interesting. He does look so distinguished in the black and white, I like that. Okay, but you know what, I'll actually take the colorâ€”that way his uniform will really stand out.",
+        "sourceLabel": "Woman",
+        "start": 227.72,
+        "end": 237.72,
+        "scores": {
+          "Narrator": 0.4726,
+          "Steven": 0.3858,
+          "Woman": 0.8655
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 17,
+        "text": "Steven: What else? Oh yes, of course, sizeâ€”what size would you like? You can have the standard size or the wallet size.",
+        "sourceLabel": "Steven",
+        "start": 285.98,
+        "end": 294.44,
+        "scores": {
+          "Narrator": 0.1517,
+          "Steven": 0.8585,
+          "Woman": 0.258
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 18,
+        "text": "Woman: Um, no, not the small one, these wallet sized ones aren't helpful as I'd like to frame it.",
+        "sourceLabel": "Woman",
+        "start": 294.8,
+        "end": 300.48,
+        "scores": {
+          "Narrator": 0.628,
+          "Steven": 0.2617,
+          "Woman": 0.8464
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 19,
+        "text": "Woman: Can I get more than one?",
+        "sourceLabel": "Woman",
+        "start": 302.62,
+        "end": 303.88,
+        "scores": {
+          "Narrator": 0.5623,
+          "Steven": 0.2459,
+          "Woman": 0.7729
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 20,
+        "text": "Steven: Yes, extra copies of the same print are discounted 50% if you order them at the same time.",
+        "sourceLabel": "Steven",
+        "start": 304.44,
+        "end": 311.44,
+        "scores": {
+          "Narrator": 0.248,
+          "Steven": 0.8839,
+          "Woman": 0.3053
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 21,
+        "text": "Woman: Wow, they are quite expensive to begin with, so while I'd love a couple for the grandparents, I think I'll just stick with one. No, no, no, I'd better get threeâ€”it's a once in a lifetime thing, you know, what's a few extra dollars when it comes to memories?",
+        "sourceLabel": "Woman",
+        "start": 312.48,
+        "end": 322.48,
+        "scores": {
+          "Narrator": 0.7217,
+          "Steven": 0.2909,
+          "Woman": 0.891
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 22,
+        "text": "Steven: Okay, so the total on that will be $80. Would you like to add rush processing? Rush processing will add $15 to your order.",
+        "sourceLabel": "Steven",
+        "start": 330.27,
+        "end": 340.27,
+        "scores": {
+          "Narrator": 0.3191,
+          "Steven": 0.8335,
+          "Woman": 0.4765
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 23,
+        "text": "Woman: Oh really, huh, that's quite expensive. I do want to get them quickly, but I guess I can be patient tooâ€”so yeah, I'll just do normal processing. Is it still pretty fast?",
+        "sourceLabel": "Woman",
+        "start": 345.55,
+        "end": 355.55,
+        "scores": {
+          "Narrator": 0.6374,
+          "Steven": 0.2853,
+          "Woman": 0.8984
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 24,
+        "text": "Steven: Usually about four to five business days.",
+        "sourceLabel": "Steven",
+        "start": 360,
+        "end": 362.72,
+        "scores": {
+          "Narrator": 0.2253,
+          "Steven": 0.6833,
+          "Woman": 0.272
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 25,
+        "text": "Woman: Oh, that's not bad at all.",
+        "sourceLabel": "Woman",
+        "start": 363.54,
+        "end": 364.88,
+        "scores": {
+          "Narrator": 0.4005,
+          "Steven": 0.1982,
+          "Woman": 0.702
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 26,
+        "text": "Steven: Is there anything else? Just the payment?",
+        "sourceLabel": "Steven",
+        "start": 366.72,
+        "end": 369.34,
+        "scores": {
+          "Narrator": 0.285,
+          "Steven": 0.3563,
+          "Woman": 0.5223
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 27,
+        "text": "Woman: Yes, of course. Can I pay you with a credit card?",
+        "sourceLabel": "Woman",
+        "start": 370.24,
+        "end": 373.34,
+        "scores": {
+          "Narrator": 0.5444,
+          "Steven": 0.2326,
+          "Woman": 0.7864
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 28,
+        "text": "Steven: Yes sure, we also take checks.",
+        "sourceLabel": "Steven",
+        "start": 373.8,
+        "end": 376.38,
+        "scores": {
+          "Narrator": 0.1524,
+          "Steven": 0.7508,
+          "Woman": 0.2509
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 29,
+        "text": "Woman: Oh, that's convenient, I'll do that thenâ€”I really prefer to pay by cheque rather than use my credit card.",
+        "sourceLabel": "Woman",
+        "start": 376.94,
+        "end": 383.96,
+        "scores": {
+          "Narrator": 0.6363,
+          "Steven": 0.2541,
+          "Woman": 0.9068
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 30,
+        "text": "Steven: Now when they arrive, would you like to pick them up in our office, or would you like us to send them to you?",
+        "sourceLabel": "Steven",
+        "start": 384.34,
+        "end": 391.14,
+        "scores": {
+          "Narrator": 0.1942,
+          "Steven": 0.8838,
+          "Woman": 0.2846
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 31,
+        "text": "Woman: Ah, it's rather inconvenient for me to stop by.",
+        "sourceLabel": "Woman",
+        "start": 391.8,
+        "end": 394.82,
+        "scores": {
+          "Narrator": 0.6686,
+          "Steven": 0.2788,
+          "Woman": 0.8609
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 32,
+        "text": "Steven: I'll go ahead and mail them then, and that's no extra charge. One last question if you don't mindâ€”we routinely survey all our callers just to see how often they read the newspaper.",
+        "sourceLabel": "Steven",
+        "start": 395.54,
+        "end": 405.54,
+        "scores": {
+          "Narrator": 0.2825,
+          "Steven": 0.9431,
+          "Woman": 0.3913
+        },
+        "chosen": "Steven"
+      },
+      {
+        "index": 33,
+        "text": "Woman: For years and years we read the entire paper on a daily basis. But now we're so busy, it seems we don't have time to read like we used to, except on weekends. But still, yes, you can say we read it each dayâ€”my husband still does for sure.",
+        "sourceLabel": "Woman",
+        "start": 409.34,
+        "end": 419.34,
+        "scores": {
+          "Narrator": 0.7411,
+          "Steven": 0.251,
+          "Woman": 0.9171
+        },
+        "chosen": "Woman"
+      },
+      {
+        "index": 34,
+        "text": "Steven: Okay, thanks. Now ma'am, let's get your address.",
+        "sourceLabel": "Steven",
+        "start": 426.94,
+        "end": 430.82,
+        "scores": {
+          "Narrator": 0.188,
+          "Steven": 0.8255,
+          "Woman": 0.2431
+        },
+        "chosen": "Steven"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "paymentVoiceComparison": [
+    {
+      "start": 366.6,
+      "end": 368.5,
+      "scores": {
+        "Narrator": 0.2575,
+        "Steven": 0.182,
+        "Woman": 0.5282
+      },
+      "chosen": "Woman"
+    },
+    {
+      "start": 368.5,
+      "end": 369.5,
+      "scores": {
+        "Narrator": 0.1678,
+        "Steven": 0.627,
+        "Woman": 0.1748
+      },
+      "chosen": "Steven"
+    },
+    {
+      "start": 366.72,
+      "end": 368.14,
+      "scores": {
+        "Narrator": 0.2818,
+        "Steven": 0.1745,
+        "Woman": 0.5404
+      },
+      "chosen": "Woman"
+    },
+    {
+      "start": 368.14,
+      "end": 369.34,
+      "scores": {
+        "Narrator": 0.1783,
+        "Steven": 0.5235,
+        "Woman": 0.1909
+      },
+      "chosen": "Steven"
+    },
+    {
+      "start": 366.5,
+      "end": 368.25,
+      "scores": {
+        "Narrator": 0.2299,
+        "Steven": 0.207,
+        "Woman": 0.5533
+      },
+      "chosen": "Woman"
+    },
+    {
+      "start": 368.25,
+      "end": 369.55,
+      "scores": {
+        "Narrator": 0.1884,
+        "Steven": 0.6423,
+        "Woman": 0.1711
+      },
+      "chosen": "Steven"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 11,
+      "start": 175.48,
+      "end": 176.37,
+      "sourceLabel": "Steven",
+      "scores": {
+        "Narrator": 0.1857,
+        "Steven": 0.5862,
+        "Woman": 0.2925
+      },
+      "chosen": "Steven"
+    },
+    {
+      "paragraph": 13,
+      "start": 197.62,
+      "end": 204.62,
+      "sourceLabel": "Steven",
+      "scores": {
+        "Narrator": 0.2168,
+        "Steven": 0.8825,
+        "Woman": 0.2707
+      },
+      "chosen": "Steven"
+    },
+    {
+      "paragraph": 14,
+      "start": 215.62,
+      "end": 217.26,
+      "sourceLabel": "Woman",
+      "scores": {
+        "Narrator": 0.6001,
+        "Steven": 0.2053,
+        "Woman": 0.6483
+      },
+      "chosen": "Woman"
+    },
+    {
+      "paragraph": 16,
+      "start": 237.72,
+      "end": 241.48,
+      "sourceLabel": "Woman",
+      "scores": {
+        "Narrator": 0.5766,
+        "Steven": 0.2636,
+        "Woman": 0.8117
+      },
+      "chosen": "Woman"
+    },
+    {
+      "paragraph": 21,
+      "start": 322.48,
+      "end": 329.38,
+      "sourceLabel": "Woman",
+      "scores": {
+        "Narrator": 0.759,
+        "Steven": 0.2721,
+        "Woman": 0.8518
+      },
+      "chosen": "Woman"
+    },
+    {
+      "paragraph": 22,
+      "start": 341.53,
+      "end": 345.11,
+      "sourceLabel": "Steven",
+      "scores": {
+        "Narrator": 0.1331,
+        "Steven": 0.8405,
+        "Woman": 0.2723
+      },
+      "chosen": "Steven"
+    },
+    {
+      "paragraph": 23,
+      "start": 355.55,
+      "end": 359.31,
+      "sourceLabel": "Woman",
+      "scores": {
+        "Narrator": 0.6412,
+        "Steven": 0.2652,
+        "Woman": 0.7972
+      },
+      "chosen": "Woman"
+    },
+    {
+      "paragraph": 32,
+      "start": 405.54,
+      "end": 408.74,
+      "sourceLabel": "Steven",
+      "scores": {
+        "Narrator": 0.1716,
+        "Steven": 0.8401,
+        "Woman": 0.2619
+      },
+      "chosen": "Steven"
+    },
+    {
+      "paragraph": 33,
+      "start": 419.34,
+      "end": 426.28,
+      "sourceLabel": "Woman",
+      "scores": {
+        "Narrator": 0.6857,
+        "Steven": 0.2592,
+        "Woman": 0.8749
+      },
+      "chosen": "Woman"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 121.39,
+      "end": 124.31,
+      "words": [
+        {
+          "word": "It",
+          "start": 121.39,
+          "end": 121.39
+        },
+        {
+          "word": "was",
+          "start": 121.39,
+          "end": 121.61
+        },
+        {
+          "word": "last",
+          "start": 121.61,
+          "end": 122.09
+        },
+        {
+          "word": "Monday,",
+          "start": 122.09,
+          "end": 122.71
+        },
+        {
+          "word": "that",
+          "start": 123.01,
+          "end": 123.23
+        },
+        {
+          "word": "was",
+          "start": 123.23,
+          "end": 123.61
+        },
+        {
+          "word": "March.",
+          "start": 123.61,
+          "end": 124.05
+        }
+      ]
+    },
+    {
+      "start": 128.41000000000003,
+      "end": 132.67,
+      "words": [
+        {
+          "word": "for",
+          "start": 128.41,
+          "end": 128.41
+        },
+        {
+          "word": "just",
+          "start": 128.41,
+          "end": 128.79
+        },
+        {
+          "word": "one",
+          "start": 128.79,
+          "end": 129.15
+        },
+        {
+          "word": "moment,",
+          "start": 129.15,
+          "end": 129.47
+        },
+        {
+          "word": "please.",
+          "start": 129.57,
+          "end": 129.87
+        },
+        {
+          "word": "Okay,",
+          "start": 131.27,
+          "end": 131.67
+        },
+        {
+          "word": "I",
+          "start": 131.83,
+          "end": 131.97
+        },
+        {
+          "word": "have",
+          "start": 131.97,
+          "end": 132.13
+        },
+        {
+          "word": "the",
+          "start": 132.13,
+          "end": 132.29
+        },
+        {
+          "word": "news",
+          "start": 132.29,
+          "end": 132.45
+        },
+        {
+          "word": "pa",
+          "start": 132.45,
+          "end": 132.65
+        },
+        {
+          "word": "-",
+          "start": 132.65,
+          "end": 132.65
+        }
+      ]
+    },
+    {
+      "start": 162.44,
+      "end": 165.06,
+      "words": [
+        {
+          "word": "Excuse",
+          "start": 162.44,
+          "end": 162.9
+        },
+        {
+          "word": "me,",
+          "start": 162.9,
+          "end": 163.04
+        },
+        {
+          "word": "I'm",
+          "start": 163.14,
+          "end": 163.4
+        },
+        {
+          "word": "sorry.",
+          "start": 163.4,
+          "end": 163.68
+        },
+        {
+          "word": "I",
+          "start": 164.02,
+          "end": 164.14
+        },
+        {
+          "word": "mean,",
+          "start": 164.14,
+          "end": 164.36
+        },
+        {
+          "word": "weak.",
+          "start": 164.78,
+          "end": 164.78
+        }
+      ]
+    },
+    {
+      "start": 172.22,
+      "end": 176.41,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 172.22,
+          "end": 172.6
+        },
+        {
+          "word": "here",
+          "start": 172.84,
+          "end": 172.92
+        },
+        {
+          "word": "it",
+          "start": 172.92,
+          "end": 173.08
+        },
+        {
+          "word": "is.",
+          "start": 173.08,
+          "end": 173.44
+        },
+        {
+          "word": "Chase",
+          "start": 174.2,
+          "end": 174.28
+        },
+        {
+          "word": "Packers,",
+          "start": 174.28,
+          "end": 175
+        },
+        {
+          "word": "baseball",
+          "start": 175.48,
+          "end": 175.62
+        },
+        {
+          "word": "player.",
+          "start": 175.62,
+          "end": 176.18
+        }
+      ]
+    },
+    {
+      "start": 179.05,
+      "end": 187.14999999999998,
+      "words": [
+        {
+          "word": "order",
+          "start": 179.05,
+          "end": 179.27
+        },
+        {
+          "word": "got",
+          "start": 179.27,
+          "end": 179.55
+        },
+        {
+          "word": "his",
+          "start": 179.55,
+          "end": 179.75
+        },
+        {
+          "word": "surname",
+          "start": 179.75,
+          "end": 180.25
+        },
+        {
+          "word": "wrong.",
+          "start": 180.25,
+          "end": 180.69
+        },
+        {
+          "word": "It",
+          "start": 181.19,
+          "end": 181.21
+        },
+        {
+          "word": "should",
+          "start": 181.21,
+          "end": 181.43
+        },
+        {
+          "word": "be",
+          "start": 181.43,
+          "end": 181.73
+        },
+        {
+          "word": "Parkhurst.",
+          "start": 181.73,
+          "end": 182.47
+        },
+        {
+          "word": "That's",
+          "start": 183.09,
+          "end": 183.55
+        },
+        {
+          "word": "P",
+          "start": 183.55,
+          "end": 183.81
+        },
+        {
+          "word": "-A",
+          "start": 183.81,
+          "end": 184.19
+        },
+        {
+          "word": "-R",
+          "start": 184.19,
+          "end": 184.63
+        },
+        {
+          "word": "-K",
+          "start": 184.63,
+          "end": 185.13
+        },
+        {
+          "word": "-H",
+          "start": 185.13,
+          "end": 185.83
+        },
+        {
+          "word": "-U",
+          "start": 185.83,
+          "end": 186.15
+        },
+        {
+          "word": "-R",
+          "start": 186.15,
+          "end": 186.51
+        },
+        {
+          "word": "-S",
+          "start": 186.51,
+          "end": 186.85
+        },
+        {
+          "word": "-T.",
+          "start": 186.85,
+          "end": 187.13
+        }
+      ]
+    },
+    {
+      "start": 204.92000000000002,
+      "end": 206.57999999999998,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 204.92,
+          "end": 205.56
+        },
+        {
+          "word": "I",
+          "start": 205.66,
+          "end": 205.88
+        },
+        {
+          "word": "see.",
+          "start": 205.88,
+          "end": 206.26
+        }
+      ]
+    },
+    {
+      "start": 237.08,
+      "end": 239.88,
+      "words": [
+        {
+          "word": "actually",
+          "start": 237.08,
+          "end": 237.52
+        },
+        {
+          "word": "take",
+          "start": 237.52,
+          "end": 237.82
+        },
+        {
+          "word": "the",
+          "start": 237.82,
+          "end": 238
+        },
+        {
+          "word": "color.",
+          "start": 238,
+          "end": 238.34
+        },
+        {
+          "word": "That",
+          "start": 238.78,
+          "end": 238.96
+        },
+        {
+          "word": "way",
+          "start": 238.96,
+          "end": 239.2
+        },
+        {
+          "word": "his",
+          "start": 239.2,
+          "end": 239.42
+        },
+        {
+          "word": "uni",
+          "start": 239.42,
+          "end": 239.8
+        },
+        {
+          "word": "-",
+          "start": 239.8,
+          "end": 239.82
+        }
+      ]
+    },
+    {
+      "start": 287.24,
+      "end": 290.82,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 287.24,
+          "end": 287.36
+        },
+        {
+          "word": "yes,",
+          "start": 287.36,
+          "end": 287.64
+        },
+        {
+          "word": "of",
+          "start": 287.88,
+          "end": 287.94
+        },
+        {
+          "word": "course,",
+          "start": 287.94,
+          "end": 288.3
+        },
+        {
+          "word": "size.",
+          "start": 288.8,
+          "end": 288.86
+        },
+        {
+          "word": "What",
+          "start": 289.5,
+          "end": 289.72
+        },
+        {
+          "word": "size",
+          "start": 289.72,
+          "end": 290.08
+        },
+        {
+          "word": "would",
+          "start": 290.08,
+          "end": 290.38
+        },
+        {
+          "word": "you",
+          "start": 290.38,
+          "end": 290.54
+        },
+        {
+          "word": "like?",
+          "start": 290.54,
+          "end": 290.8
+        }
+      ]
+    },
+    {
+      "start": 298.24,
+      "end": 300.4,
+      "words": [
+        {
+          "word": "These",
+          "start": 298.24,
+          "end": 298.38
+        },
+        {
+          "word": "aren't",
+          "start": 298.38,
+          "end": 298.64
+        },
+        {
+          "word": "helpful",
+          "start": 298.64,
+          "end": 298.94
+        },
+        {
+          "word": "as",
+          "start": 298.94,
+          "end": 299.24
+        },
+        {
+          "word": "I'd",
+          "start": 299.24,
+          "end": 299.56
+        },
+        {
+          "word": "like",
+          "start": 299.56,
+          "end": 299.7
+        },
+        {
+          "word": "to",
+          "start": 299.7,
+          "end": 299.9
+        },
+        {
+          "word": "frame",
+          "start": 299.9,
+          "end": 300.18
+        },
+        {
+          "word": "it.",
+          "start": 300.18,
+          "end": 300.38
+        }
+      ]
+    },
+    {
+      "start": 303.74,
+      "end": 306.7,
+      "words": [
+        {
+          "word": "Yes,",
+          "start": 303.74,
+          "end": 304.7
+        },
+        {
+          "word": "extra",
+          "start": 305.64,
+          "end": 305.64
+        },
+        {
+          "word": "copies",
+          "start": 305.64,
+          "end": 306.08
+        },
+        {
+          "word": "of",
+          "start": 306.08,
+          "end": 306.32
+        },
+        {
+          "word": "the",
+          "start": 306.32,
+          "end": 306.46
+        },
+        {
+          "word": "same",
+          "start": 306.46,
+          "end": 306.68
+        },
+        {
+          "word": "-",
+          "start": 306.68,
+          "end": 306.68
+        }
+      ]
+    },
+    {
+      "start": 311.78000000000003,
+      "end": 313.46,
+      "words": [
+        {
+          "word": "Well,",
+          "start": 311.78,
+          "end": 312.24
+        },
+        {
+          "word": "they",
+          "start": 312.6,
+          "end": 312.78
+        },
+        {
+          "word": "are",
+          "start": 312.78,
+          "end": 313.06
+        },
+        {
+          "word": "quite",
+          "start": 313.06,
+          "end": 313.36
+        },
+        {
+          "word": "a",
+          "start": 313.36,
+          "end": 313.44
+        },
+        {
+          "word": "-",
+          "start": 313.44,
+          "end": 313.44
+        }
+      ]
+    },
+    {
+      "start": 322.12,
+      "end": 325.14,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 322.12,
+          "end": 322.3
+        },
+        {
+          "word": "I",
+          "start": 322.46,
+          "end": 322.6
+        },
+        {
+          "word": "better",
+          "start": 322.6,
+          "end": 322.82
+        },
+        {
+          "word": "get",
+          "start": 322.82,
+          "end": 323.14
+        },
+        {
+          "word": "three.",
+          "start": 323.14,
+          "end": 323.46
+        },
+        {
+          "word": "It",
+          "start": 323.96,
+          "end": 324.02
+        },
+        {
+          "word": "is",
+          "start": 324.02,
+          "end": 324.24
+        },
+        {
+          "word": "a",
+          "start": 324.24,
+          "end": 324.44
+        },
+        {
+          "word": "once",
+          "start": 324.44,
+          "end": 324.64
+        },
+        {
+          "word": "in",
+          "start": 324.64,
+          "end": 324.88
+        },
+        {
+          "word": "a",
+          "start": 324.88,
+          "end": 324.98
+        },
+        {
+          "word": "life.",
+          "start": 324.98,
+          "end": 325.12
+        }
+      ]
+    },
+    {
+      "start": 336.19,
+      "end": 343.01,
+      "words": [
+        {
+          "word": "to",
+          "start": 336.19,
+          "end": 336.25
+        },
+        {
+          "word": "add",
+          "start": 336.25,
+          "end": 336.57
+        },
+        {
+          "word": "rush",
+          "start": 336.57,
+          "end": 336.91
+        },
+        {
+          "word": "processing.",
+          "start": 336.91,
+          "end": 337.77
+        },
+        {
+          "word": "I'd",
+          "start": 338.39,
+          "end": 338.51
+        },
+        {
+          "word": "like",
+          "start": 338.51,
+          "end": 338.69
+        },
+        {
+          "word": "them",
+          "start": 338.69,
+          "end": 338.93
+        },
+        {
+          "word": "really",
+          "start": 338.93,
+          "end": 339.21
+        },
+        {
+          "word": "fast.",
+          "start": 339.21,
+          "end": 339.79
+        },
+        {
+          "word": "Okay,",
+          "start": 340.45,
+          "end": 340.83
+        },
+        {
+          "word": "rush",
+          "start": 341.53,
+          "end": 341.67
+        },
+        {
+          "word": "processing",
+          "start": 341.67,
+          "end": 342.35
+        },
+        {
+          "word": "will",
+          "start": 342.35,
+          "end": 342.61
+        },
+        {
+          "word": "add...",
+          "start": 342.61,
+          "end": 342.99
+        }
+      ]
+    },
+    {
+      "start": 345.15000000000003,
+      "end": 348.69,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 345.15,
+          "end": 345.81
+        },
+        {
+          "word": "really?",
+          "start": 345.87,
+          "end": 346.23
+        },
+        {
+          "word": "Hmm,",
+          "start": 346.89,
+          "end": 347.11
+        },
+        {
+          "word": "that's",
+          "start": 347.63,
+          "end": 347.99
+        },
+        {
+          "word": "quite",
+          "start": 347.99,
+          "end": 348.23
+        },
+        {
+          "word": "expen",
+          "start": 348.23,
+          "end": 348.67
+        },
+        {
+          "word": "-",
+          "start": 348.67,
+          "end": 348.67
+        }
+      ]
+    },
+    {
+      "start": 352.41,
+      "end": 356.37,
+      "words": [
+        {
+          "word": "I",
+          "start": 352.41,
+          "end": 352.67
+        },
+        {
+          "word": "can",
+          "start": 352.67,
+          "end": 352.91
+        },
+        {
+          "word": "be",
+          "start": 352.91,
+          "end": 353.13
+        },
+        {
+          "word": "patient,",
+          "start": 353.13,
+          "end": 353.57
+        },
+        {
+          "word": "too.",
+          "start": 353.97,
+          "end": 353.97
+        },
+        {
+          "word": "So,",
+          "start": 354.61,
+          "end": 354.85
+        },
+        {
+          "word": "uh,",
+          "start": 354.99,
+          "end": 355.29
+        },
+        {
+          "word": "yeah,",
+          "start": 355.39,
+          "end": 355.67
+        },
+        {
+          "word": "I'll",
+          "start": 355.87,
+          "end": 356.13
+        },
+        {
+          "word": "just",
+          "start": 356.13,
+          "end": 356.27
+        },
+        {
+          "word": "-",
+          "start": 356.27,
+          "end": 356.35
+        }
+      ]
+    },
+    {
+      "start": 362.84000000000003,
+      "end": 364.65999999999997,
+      "words": [
+        {
+          "word": "Oh,",
+          "start": 362.84,
+          "end": 363.42
+        },
+        {
+          "word": "that's",
+          "start": 363.64,
+          "end": 363.98
+        },
+        {
+          "word": "not",
+          "start": 363.98,
+          "end": 364.12
+        },
+        {
+          "word": "bad",
+          "start": 364.12,
+          "end": 364.4
+        },
+        {
+          "word": "at",
+          "start": 364.4,
+          "end": 364.56
+        },
+        {
+          "word": "all.",
+          "start": 364.56,
+          "end": 364.64
+        }
+      ]
+    },
+    {
+      "start": 378.46000000000004,
+      "end": 383.03999999999996,
+      "words": [
+        {
+          "word": "I'll",
+          "start": 378.46,
+          "end": 379
+        },
+        {
+          "word": "do",
+          "start": 379,
+          "end": 379.16
+        },
+        {
+          "word": "that",
+          "start": 379.16,
+          "end": 379.46
+        },
+        {
+          "word": "then.",
+          "start": 379.46,
+          "end": 379.76
+        },
+        {
+          "word": "I",
+          "start": 380.2,
+          "end": 380.26
+        },
+        {
+          "word": "really",
+          "start": 380.26,
+          "end": 380.62
+        },
+        {
+          "word": "prefer",
+          "start": 380.62,
+          "end": 381.02
+        },
+        {
+          "word": "to",
+          "start": 381.02,
+          "end": 381.24
+        },
+        {
+          "word": "pay",
+          "start": 381.24,
+          "end": 381.44
+        },
+        {
+          "word": "-by",
+          "start": 381.44,
+          "end": 381.66
+        },
+        {
+          "word": "-check",
+          "start": 381.66,
+          "end": 382.04
+        },
+        {
+          "word": "rather",
+          "start": 382.04,
+          "end": 382.34
+        },
+        {
+          "word": "than",
+          "start": 382.34,
+          "end": 382.68
+        },
+        {
+          "word": "use",
+          "start": 382.68,
+          "end": 382.92
+        },
+        {
+          "word": "my",
+          "start": 382.92,
+          "end": 383.02
+        }
+      ]
+    },
+    {
+      "start": 391.1,
+      "end": 393.02,
+      "words": [
+        {
+          "word": "Ah,",
+          "start": 391.1,
+          "end": 391.82
+        },
+        {
+          "word": "it's",
+          "start": 391.96,
+          "end": 392.3
+        },
+        {
+          "word": "rather",
+          "start": 392.3,
+          "end": 392.66
+        },
+        {
+          "word": "incase...",
+          "start": 392.66,
+          "end": 393
+        }
+      ]
+    },
+    {
+      "start": 402.1,
+      "end": 405.28,
+      "words": [
+        {
+          "word": "If",
+          "start": 402.1,
+          "end": 402.66
+        },
+        {
+          "word": "you",
+          "start": 402.66,
+          "end": 402.78
+        },
+        {
+          "word": "don't",
+          "start": 402.78,
+          "end": 403.1
+        },
+        {
+          "word": "mind",
+          "start": 403.1,
+          "end": 403.42
+        },
+        {
+          "word": "we",
+          "start": 403.42,
+          "end": 404.16
+        },
+        {
+          "word": "routinely",
+          "start": 404.16,
+          "end": 404.6
+        },
+        {
+          "word": "survey",
+          "start": 404.6,
+          "end": 405.1
+        }
+      ]
+    },
+    {
+      "start": 422.82,
+      "end": 425.7,
+      "words": [
+        {
+          "word": "say",
+          "start": 422.82,
+          "end": 422.96
+        },
+        {
+          "word": "we",
+          "start": 422.96,
+          "end": 423.16
+        },
+        {
+          "word": "read",
+          "start": 423.16,
+          "end": 423.4
+        },
+        {
+          "word": "it",
+          "start": 423.4,
+          "end": 423.54
+        },
+        {
+          "word": "each",
+          "start": 423.54,
+          "end": 423.76
+        },
+        {
+          "word": "day.",
+          "start": 423.76,
+          "end": 424.14
+        },
+        {
+          "word": "My",
+          "start": 424.56,
+          "end": 424.74
+        },
+        {
+          "word": "husband",
+          "start": 424.74,
+          "end": 425.06
+        },
+        {
+          "word": "still",
+          "start": 425.06,
+          "end": 425.38
+        },
+        {
+          "word": "does.",
+          "start": 425.38,
+          "end": 425.68
+        }
+      ]
+    },
+    {
+      "start": 427.88,
+      "end": 430.58,
+      "words": [
+        {
+          "word": "Thanks.",
+          "start": 427.88,
+          "end": 428.14
+        },
+        {
+          "word": "Now,",
+          "start": 428.52,
+          "end": 428.84
+        },
+        {
+          "word": "ma",
+          "start": 429.08,
+          "end": 429.12
+        },
+        {
+          "word": "'am,",
+          "start": 429.12,
+          "end": 429.34
+        },
+        {
+          "word": "let's",
+          "start": 429.66,
+          "end": 429.9
+        },
+        {
+          "word": "get",
+          "start": 429.9,
+          "end": 430.06
+        },
+        {
+          "word": "your",
+          "start": 430.06,
+          "end": 430.38
+        },
+        {
+          "word": "address.",
+          "start": 430.38,
+          "end": 430.52
+        }
+      ]
+    }
+  ],
+  "paymentRecognition": [
+    {
+      "start": 365.4,
+      "end": 374,
+      "words": [
+        {
+          "word": "So,",
+          "start": 365.4,
+          "end": 365.72
+        },
+        {
+          "word": "let's",
+          "start": 365.92,
+          "end": 366.26
+        },
+        {
+          "word": "see,",
+          "start": 366.26,
+          "end": 366.54
+        },
+        {
+          "word": "is",
+          "start": 366.74,
+          "end": 366.92
+        },
+        {
+          "word": "there",
+          "start": 366.92,
+          "end": 367.14
+        },
+        {
+          "word": "anything",
+          "start": 367.14,
+          "end": 367.54
+        },
+        {
+          "word": "else?",
+          "start": 367.54,
+          "end": 367.94
+        },
+        {
+          "word": "Just",
+          "start": 368.62,
+          "end": 368.78
+        },
+        {
+          "word": "the",
+          "start": 368.78,
+          "end": 369.08
+        },
+        {
+          "word": "payment.",
+          "start": 369.08,
+          "end": 369.44
+        },
+        {
+          "word": "Yes,",
+          "start": 370.16,
+          "end": 370.42
+        },
+        {
+          "word": "of",
+          "start": 370.52,
+          "end": 370.68
+        },
+        {
+          "word": "course.",
+          "start": 370.68,
+          "end": 371
+        },
+        {
+          "word": "Can",
+          "start": 371.62,
+          "end": 371.72
+        },
+        {
+          "word": "I",
+          "start": 371.72,
+          "end": 371.92
+        },
+        {
+          "word": "pay",
+          "start": 371.92,
+          "end": 372.16
+        },
+        {
+          "word": "you",
+          "start": 372.16,
+          "end": 372.36
+        },
+        {
+          "word": "with",
+          "start": 372.36,
+          "end": 372.54
+        },
+        {
+          "word": "a",
+          "start": 372.54,
+          "end": 372.68
+        },
+        {
+          "word": "credit",
+          "start": 372.68,
+          "end": 372.92
+        },
+        {
+          "word": "card?",
+          "start": 372.92,
+          "end": 373.36
+        },
+        {
+          "word": "Yes.",
+          "start": 373.86,
+          "end": 373.98
+        }
+      ]
+    }
+  ],
+  "otherPartsSha256": "dc8b97107aa4f51947fe4ae4902faf059db60f62949ac5eadd956e1adf73c129"
+}

@@ -4,6 +4,8 @@ import { evidenceRange } from "./review-evidence.mjs";
 import { layoutMapQuestions, arrangeImportedMaps } from "./map-layout.mjs";
 import { prepareReviewTables } from "./review-tables.mjs";
 import TextHighlights from "./TextHighlights";
+import {emphasizeOptionLetters} from './option-letters.mjs';
+import {alignQuestionRows} from './question-row-alignment.mjs';
 import AudioRecording from "./AudioRecording";
 import ErrorTags from './ErrorTags';
 import TranscriptFollow from './TranscriptFollow';
@@ -21,6 +23,7 @@ function AnnotatedContent({ html, answers, rows, active, highlights, part, area,
     const element = root.current;
     arrangeImportedMaps(element);
     prepareReviewTables(element);
+    if(area==='questions'){emphasizeOptionLetters(element);alignQuestionRows(element);}
     const opened = new Set([...element.querySelectorAll('details[open][data-explanation]')].map(node => node.dataset.explanation));
     element.querySelectorAll('[data-review-feedback]').forEach(node => node.remove());
     element.querySelectorAll('[data-review-row]').forEach(node=>{node.classList.remove('review-active');delete node.dataset.reviewRow;});

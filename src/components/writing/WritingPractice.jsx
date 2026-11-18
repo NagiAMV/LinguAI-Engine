@@ -4,6 +4,7 @@ import WritingTaskVisual from './WritingTaskVisual';
 import WritingFeedback from './WritingFeedback';
 import {wordCount,paragraphCount,examMinutes,newWritingSession,restoreWritingSession,startWritingSession,editWritingDocument,submitWritingSession,rewriteWritingSession,combinedWritingBand} from './writing-session.mjs';
 import {recordActivity,localDay} from '@/lib/study-dashboard.mjs';
+import {trackCompletion} from '@/lib/anonymous-analytics.mjs';
 
 export default function WritingPractice({tasks,owner,aiAvailable,onBack}){
  const storageKey=`writing-v3:${owner}:${tasks.map(t=>t.id).join('+')}`;
@@ -18,7 +19,7 @@ export default function WritingPractice({tasks,owner,aiAvailable,onBack}){
  const combined=tasks.length>1?combinedWritingBand(tasks,session.documents):null;
  function edit(patch){const next=editWritingDocument(current.current,tasks,task.id,patch);commit(next);if(next.phase==='running')recordActivity(owner,{id:`writing-draft:${task.id}:${localDay(new Date().toISOString())}`,kind:'draft',resource:'writing',title:task.title,finished_at:new Date().toISOString(),duration_seconds:0,word_count:wordCount(next.documents[task.id].text)});}
  function start(mode){commit(startWritingSession(current.current,tasks,mode));setNow(Date.now());}
- function recordSubmission(next){recordActivity(owner,{id:`writing-submit:${storageKey}:${next.attempt}:${next.startedAt}`,kind:'writing-session',resource:'writing',title:tasks.length>1?'Full Writing session':tasks[0].title,finished_at:new Date().toISOString(),duration_seconds:Math.min(86400,Math.max(0,Math.round(((next.submittedAt||Date.now())-next.startedAt)/1000)))});}
+ function recordSubmission(next){trackCompletion(`writing:${storageKey}:${next.attempt}:${next.startedAt}`,{resource:'writing',mode:next.mode==='exam'?'exam':'training',scope:tasks.length>1?'full':'single',completedAt:next.submittedAt});recordActivity(owner,{id:`writing-submit:${storageKey}:${next.attempt}:${next.startedAt}`,kind:'writing-session',resource:'writing',title:tasks.length>1?'Full Writing session':tasks[0].title,finished_at:new Date().toISOString(),duration_seconds:Math.min(86400,Math.max(0,Math.round(((next.submittedAt||Date.now())-next.startedAt)/1000)))});}
  function finish(){const next=submitWritingSession(current.current);commit(next);setConfirm(false);recordSubmission(next);}
  function rewrite(keepText){pending.current?.abort();requestNumber.current++;setBusy(false);commit(rewriteWritingSession(current.current,tasks,keepText));setComparison('');}
  async function review(){

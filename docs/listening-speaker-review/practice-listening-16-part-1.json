@@ -1,0 +1,1504 @@
+{
+  "test": "practice-listening-16",
+  "part": 1,
+  "audioSha256": "4bc91355ab888256f21f0cf941cb9d36fa102b9b90b9ca65e795eea6093c3965",
+  "scope": {
+    "start": 0,
+    "end": 330.7
+  },
+  "sourceScope": "All 50 published paragraphs and a separate repeated narrator instruction checked in 51 acoustic spans. Missing source-token/phrase clocks recovered from local ASR. Source wording preserved: phone ASR omits the final digit and is only used to locate the whole spoken number. Compound anytime and the range 8–10 use phrase cues without invented internal word boundaries. The instruction token questions at index 428 remains untimed because ASR gave it zero duration. Crop-edge Okay onset trimmed after the preceding south cue; compound bedroom endpoints trimmed by 0.01 seconds to preserve existing neighbouring clocks.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 330.7,
+  "correctedWordClocks": [
+    {
+      "index": 604,
+      "text": "and",
+      "old": [
+        "319.30",
+        "320.42"
+      ],
+      "new": [
+        319.3,
+        319.84
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 121,
+      "text": "F-O-R-D-Y-C-E.",
+      "start": 98.62,
+      "end": 103.44,
+      "granularity": "source-token"
+    },
+    {
+      "index": 131,
+      "text": "BT14-9BJ.",
+      "start": 109.04,
+      "end": 112.38,
+      "granularity": "source-token"
+    },
+    {
+      "index": 154,
+      "text": "any time.",
+      "start": 121.38,
+      "end": 121.96,
+      "granularity": "phrase"
+    },
+    {
+      "index": 156,
+      "text": "It's",
+      "start": 122.9,
+      "end": 123.28,
+      "granularity": "source-token"
+    },
+    {
+      "index": 157,
+      "text": "078400-51963.",
+      "start": 123.28,
+      "end": 128.82,
+      "granularity": "source-token"
+    },
+    {
+      "index": 317,
+      "text": "Okay,",
+      "start": 188.56,
+      "end": 189.5,
+      "granularity": "source-token"
+    },
+    {
+      "index": 437,
+      "text": "8",
+      "start": 253.78,
+      "end": 254.48,
+      "granularity": "source-token"
+    },
+    {
+      "index": 438,
+      "text": "to 10.",
+      "start": 254.48,
+      "end": 255.16,
+      "granularity": "phrase"
+    },
+    {
+      "index": 486,
+      "text": "size-wise,",
+      "start": 274.92,
+      "end": 275.7,
+      "granularity": "source-token"
+    },
+    {
+      "index": 507,
+      "text": "two-bedroom",
+      "start": 283.96,
+      "end": 284.61,
+      "granularity": "source-token"
+    },
+    {
+      "index": 523,
+      "text": "three-bedroom",
+      "start": 289.41,
+      "end": 289.95,
+      "granularity": "source-token"
+    },
+    {
+      "index": 605,
+      "text": "I",
+      "start": 319.84,
+      "end": 320.18,
+      "granularity": "source-token"
+    },
+    {
+      "index": 606,
+      "text": "will…",
+      "start": 320.18,
+      "end": 320.32,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 623,
+  "wordClocksSha256": "78b0f4bf1ab3ad467d2056fe5c680850121a825ea3e185314139b3e1b2fedad3",
+  "tokenCount": 626,
+  "tokensSha256": "0a46adcf7c443342c741d4150422d705048cc7dab74af51b47e83e0e82c4a8f4",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for this English recording",
+    "anchors": {
+      "Speaker 1": [
+        [
+          0.94,
+          9.94
+        ],
+        [
+          228.6,
+          234.96
+        ],
+        [
+          323.84,
+          330.68
+        ]
+      ],
+      "Speaker 2": [
+        [
+          73.29,
+          79.49
+        ],
+        [
+          170.83,
+          180.17
+        ],
+        [
+          195.95,
+          202.35
+        ]
+      ],
+      "Speaker 3": [
+        [
+          66.67,
+          72.71
+        ],
+        [
+          147.14,
+          155.37
+        ],
+        [
+          215.91,
+          223.61
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Speaker 1",
+        "start": 0.94,
+        "end": 9.94,
+        "scores": {
+          "Speaker 1": 0.8739,
+          "Speaker 2": 0.1668,
+          "Speaker 3": 0.5643
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 228.6,
+        "end": 234.96,
+        "scores": {
+          "Speaker 1": 0.8824,
+          "Speaker 2": 0.1996,
+          "Speaker 3": 0.5881
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 323.84,
+        "end": 330.68,
+        "scores": {
+          "Speaker 1": 0.8765,
+          "Speaker 2": 0.2352,
+          "Speaker 3": 0.5407
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 73.29,
+        "end": 79.49,
+        "scores": {
+          "Speaker 1": 0.1438,
+          "Speaker 2": 0.7824,
+          "Speaker 3": 0.2003
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 170.83,
+        "end": 180.17,
+        "scores": {
+          "Speaker 1": 0.1834,
+          "Speaker 2": 0.805,
+          "Speaker 3": 0.1911
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 195.95,
+        "end": 202.35,
+        "scores": {
+          "Speaker 1": 0.2501,
+          "Speaker 2": 0.7818,
+          "Speaker 3": 0.2279
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 66.67,
+        "end": 72.71,
+        "scores": {
+          "Speaker 1": 0.5697,
+          "Speaker 2": 0.1785,
+          "Speaker 3": 0.7973
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 147.14,
+        "end": 155.37,
+        "scores": {
+          "Speaker 1": 0.521,
+          "Speaker 2": 0.1737,
+          "Speaker 3": 0.8117
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 215.91,
+        "end": 223.61,
+        "scores": {
+          "Speaker 1": 0.5481,
+          "Speaker 2": 0.2726,
+          "Speaker 3": 0.8154
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 1,
+        "index": 0,
+        "until": 21,
+        "phrase": "You will hear a telephone conversation between a woman who",
+        "speaker": "Speaker 1",
+        "start": 0.94,
+        "end": 9.94,
+        "voiceWindow": [
+          0.94,
+          9.94
+        ],
+        "scores": {
+          "Speaker 1": 0.9443,
+          "Speaker 2": 0.1668,
+          "Speaker 3": 0.5643
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 2,
+        "index": 21,
+        "until": 42,
+        "phrase": "First you have some time to look at questions one",
+        "speaker": "Speaker 1",
+        "start": 11.48,
+        "end": 57.7,
+        "voiceWindow": [
+          11.48,
+          21.48
+        ],
+        "scores": {
+          "Speaker 1": 0.5643,
+          "Speaker 2": 0.0717,
+          "Speaker 3": 0.3343
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 2,
+        "index": 33,
+        "until": 42,
+        "phrase": "Now listen carefully and answer questions one to seven",
+        "speaker": "Speaker 1",
+        "start": 53.88,
+        "end": 57.7,
+        "voiceWindow": [
+          53.88,
+          57.7
+        ],
+        "scores": {
+          "Speaker 1": 0.8728,
+          "Speaker 2": 0.1917,
+          "Speaker 3": 0.6
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 3,
+        "index": 42,
+        "until": 52,
+        "phrase": "London Relocation Services, Daniel speaking. How may I help you?",
+        "speaker": "Speaker 2",
+        "start": 61.57,
+        "end": 65.85,
+        "voiceWindow": [
+          61.57,
+          65.85
+        ],
+        "scores": {
+          "Speaker 1": 0.2012,
+          "Speaker 2": 0.7527,
+          "Speaker 3": 0.1739
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 4,
+        "index": 52,
+        "until": 72,
+        "phrase": "Good morning. My family and I are moving to London",
+        "speaker": "Speaker 3",
+        "start": 66.67,
+        "end": 72.71,
+        "voiceWindow": [
+          66.67,
+          72.71
+        ],
+        "scores": {
+          "Speaker 1": 0.5697,
+          "Speaker 2": 0.1785,
+          "Speaker 3": 0.9104
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 5,
+        "index": 72,
+        "until": 90,
+        "phrase": "Sure. First of all, I'll need to get some personal",
+        "speaker": "Speaker 2",
+        "start": 73.29,
+        "end": 79.49,
+        "voiceWindow": [
+          73.29,
+          79.49
+        ],
+        "scores": {
+          "Speaker 1": 0.1438,
+          "Speaker 2": 0.9041,
+          "Speaker 3": 0.2003
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 6,
+        "index": 90,
+        "until": 93,
+        "phrase": "It's Anna Woods.",
+        "speaker": "Speaker 3",
+        "start": 80.29,
+        "end": 81.37,
+        "voiceWindow": [
+          80.29,
+          81.37
+        ],
+        "scores": {
+          "Speaker 1": 0.232,
+          "Speaker 2": 0.2091,
+          "Speaker 3": 0.5391
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 7,
+        "index": 93,
+        "until": 99,
+        "phrase": "Thanks. Where are you moving from?",
+        "speaker": "Speaker 2",
+        "start": 82.29,
+        "end": 84.51,
+        "voiceWindow": [
+          82.29,
+          84.51
+        ],
+        "scores": {
+          "Speaker 1": 0.2048,
+          "Speaker 2": 0.6553,
+          "Speaker 3": 0.1907
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 8,
+        "index": 99,
+        "until": 105,
+        "phrase": "Northern Ireland. Just outside Belfast, actually.",
+        "speaker": "Speaker 3",
+        "start": 85.25,
+        "end": 88.33,
+        "voiceWindow": [
+          85.25,
+          88.33
+        ],
+        "scores": {
+          "Speaker 1": 0.5443,
+          "Speaker 2": 0.2411,
+          "Speaker 3": 0.7473
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 9,
+        "index": 105,
+        "until": 111,
+        "phrase": "Right. And what's your current address?",
+        "speaker": "Speaker 2",
+        "start": 88.67,
+        "end": 91.59,
+        "voiceWindow": [
+          88.67,
+          91.59
+        ],
+        "scores": {
+          "Speaker 1": 0.1587,
+          "Speaker 2": 0.8209,
+          "Speaker 3": 0.1608
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 10,
+        "index": 111,
+        "until": 126,
+        "phrase": "It's 118 Fordice Park. I'll spell that for you. It's",
+        "speaker": "Speaker 3",
+        "start": 92.33,
+        "end": 105.59,
+        "voiceWindow": [
+          92.33,
+          102.33
+        ],
+        "scores": {
+          "Speaker 1": 0.5226,
+          "Speaker 2": 0.3484,
+          "Speaker 3": 0.7969
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 11,
+        "index": 126,
+        "until": 130,
+        "phrase": "And what's the postcode?",
+        "speaker": "Speaker 2",
+        "start": 106.35,
+        "end": 107.79,
+        "voiceWindow": [
+          106.35,
+          107.79
+        ],
+        "scores": {
+          "Speaker 1": 0.1162,
+          "Speaker 2": 0.724,
+          "Speaker 3": 0.1287
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 12,
+        "index": 130,
+        "until": 132,
+        "phrase": "It's BT14-9BJ.",
+        "speaker": "Speaker 3",
+        "start": 108.69,
+        "end": 112.38,
+        "voiceWindow": [
+          108.69,
+          112.38
+        ],
+        "scores": {
+          "Speaker 1": 0.555,
+          "Speaker 2": 0.283,
+          "Speaker 3": 0.7442
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 13,
+        "index": 132,
+        "until": 141,
+        "phrase": "Alright. And could I take a contact phone number?",
+        "speaker": "Speaker 2",
+        "start": 113.31,
+        "end": 117.09,
+        "voiceWindow": [
+          113.31,
+          117.09
+        ],
+        "scores": {
+          "Speaker 1": 0.2243,
+          "Speaker 2": 0.8198,
+          "Speaker 3": 0.2214
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 14,
+        "index": 141,
+        "until": 158,
+        "phrase": "I'll give you my mobile number as you can get",
+        "speaker": "Speaker 3",
+        "start": 117.77,
+        "end": 128.82,
+        "voiceWindow": [
+          117.77,
+          127.77
+        ],
+        "scores": {
+          "Speaker 1": 0.5817,
+          "Speaker 2": 0.3724,
+          "Speaker 3": 0.8615
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 15,
+        "index": 158,
+        "until": 187,
+        "phrase": "Great. Got that. Now, we always like to get a",
+        "speaker": "Speaker 2",
+        "start": 128.9,
+        "end": 140.66,
+        "voiceWindow": [
+          128.9,
+          138.9
+        ],
+        "scores": {
+          "Speaker 1": 0.254,
+          "Speaker 2": 0.8816,
+          "Speaker 3": 0.1739
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 16,
+        "index": 187,
+        "until": 197,
+        "phrase": "Yes, my husband's just got a new job in London.",
+        "speaker": "Speaker 3",
+        "start": 141.34,
+        "end": 144.06,
+        "voiceWindow": [
+          141.34,
+          144.06
+        ],
+        "scores": {
+          "Speaker 1": 0.5456,
+          "Speaker 2": 0.1878,
+          "Speaker 3": 0.8078
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 17,
+        "index": 197,
+        "until": 204,
+        "phrase": "And what about you? Do you work?",
+        "speaker": "Speaker 2",
+        "start": 144.58,
+        "end": 146.52,
+        "voiceWindow": [
+          144.58,
+          146.52
+        ],
+        "scores": {
+          "Speaker 1": 0.1317,
+          "Speaker 2": 0.7512,
+          "Speaker 3": 0.0445
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 18,
+        "index": 204,
+        "until": 229,
+        "phrase": "Well, I've been working as a teaching assistant recently, but",
+        "speaker": "Speaker 3",
+        "start": 147.14,
+        "end": 155.37,
+        "voiceWindow": [
+          147.14,
+          155.37
+        ],
+        "scores": {
+          "Speaker 1": 0.521,
+          "Speaker 2": 0.1737,
+          "Speaker 3": 0.9173
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 19,
+        "index": 229,
+        "until": 236,
+        "phrase": "Right. And do you have any children?",
+        "speaker": "Speaker 2",
+        "start": 156.03,
+        "end": 158.57,
+        "voiceWindow": [
+          156.03,
+          158.57
+        ],
+        "scores": {
+          "Speaker 1": 0.2761,
+          "Speaker 2": 0.6782,
+          "Speaker 3": 0.3116
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 20,
+        "index": 236,
+        "until": 248,
+        "phrase": "Yes, a son. So we need to find a school",
+        "speaker": "Speaker 3",
+        "start": 159.35,
+        "end": 162.41,
+        "voiceWindow": [
+          159.35,
+          162.41
+        ],
+        "scores": {
+          "Speaker 1": 0.4871,
+          "Speaker 2": 0.1968,
+          "Speaker 3": 0.723
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 21,
+        "index": 248,
+        "until": 257,
+        "phrase": "Is it a secondary school you'll be looking for?",
+        "speaker": "Speaker 2",
+        "start": 162.85,
+        "end": 165.13,
+        "voiceWindow": [
+          162.85,
+          165.13
+        ],
+        "scores": {
+          "Speaker 1": 0.1192,
+          "Speaker 2": 0.6784,
+          "Speaker 3": 0.211
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 22,
+        "index": 257,
+        "until": 271,
+        "phrase": "No, he's still in primary school. He's not quite at",
+        "speaker": "Speaker 3",
+        "start": 165.65,
+        "end": 170.23,
+        "voiceWindow": [
+          165.65,
+          170.23
+        ],
+        "scores": {
+          "Speaker 1": 0.4374,
+          "Speaker 2": 0.2426,
+          "Speaker 3": 0.8005
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 23,
+        "index": 271,
+        "until": 297,
+        "phrase": "Fine. So, let's go on to talk about your requirements",
+        "speaker": "Speaker 2",
+        "start": 170.83,
+        "end": 180.17,
+        "voiceWindow": [
+          170.83,
+          180.17
+        ],
+        "scores": {
+          "Speaker 1": 0.1834,
+          "Speaker 2": 0.9149,
+          "Speaker 3": 0.1911
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 24,
+        "index": 297,
+        "until": 308,
+        "phrase": "No, it's in East London, but we'd rather live somewhere",
+        "speaker": "Speaker 3",
+        "start": 181.07,
+        "end": 185.27,
+        "voiceWindow": [
+          181.07,
+          185.27
+        ],
+        "scores": {
+          "Speaker 1": 0.4989,
+          "Speaker 2": 0.2543,
+          "Speaker 3": 0.826
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 25,
+        "index": 308,
+        "until": 317,
+        "phrase": "Sure. There are some lovely areas in the south.",
+        "speaker": "Speaker 2",
+        "start": 185.89,
+        "end": 188.55,
+        "voiceWindow": [
+          185.89,
+          188.55
+        ],
+        "scores": {
+          "Speaker 1": 0.2013,
+          "Speaker 2": 0.7747,
+          "Speaker 3": 0.1283
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 26,
+        "index": 317,
+        "until": 335,
+        "phrase": "Okay, that sounds great. Now, my husband doesn't want to",
+        "speaker": "Speaker 3",
+        "start": 189.55,
+        "end": 195.67,
+        "voiceWindow": [
+          189.55,
+          195.67
+        ],
+        "scores": {
+          "Speaker 1": 0.5289,
+          "Speaker 2": 0.25,
+          "Speaker 3": 0.8672
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 27,
+        "index": 335,
+        "until": 351,
+        "phrase": "So, I imagine that, ideally, he'd like to be not",
+        "speaker": "Speaker 2",
+        "start": 195.95,
+        "end": 202.35,
+        "voiceWindow": [
+          195.95,
+          202.35
+        ],
+        "scores": {
+          "Speaker 1": 0.2501,
+          "Speaker 2": 0.9038,
+          "Speaker 3": 0.2279
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 28,
+        "index": 351,
+        "until": 370,
+        "phrase": "Yes. He drives now, but I guess that's not going",
+        "speaker": "Speaker 3",
+        "start": 202.71,
+        "end": 208.71,
+        "voiceWindow": [
+          202.71,
+          208.71
+        ],
+        "scores": {
+          "Speaker 1": 0.5186,
+          "Speaker 2": 0.226,
+          "Speaker 3": 0.838
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 29,
+        "index": 370,
+        "until": 389,
+        "phrase": "What about you or your son? Do you have any",
+        "speaker": "Speaker 2",
+        "start": 209.53,
+        "end": 215.25,
+        "voiceWindow": [
+          209.53,
+          215.25
+        ],
+        "scores": {
+          "Speaker 1": 0.1347,
+          "Speaker 2": 0.8548,
+          "Speaker 3": 0.1495
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 30,
+        "index": 389,
+        "until": 412,
+        "phrase": "He's quite active, so I'm sure he'd love a park",
+        "speaker": "Speaker 3",
+        "start": 215.91,
+        "end": 223.61,
+        "voiceWindow": [
+          215.91,
+          223.61
+        ],
+        "scores": {
+          "Speaker 1": 0.5481,
+          "Speaker 2": 0.2726,
+          "Speaker 3": 0.9191
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 31,
+        "index": 412,
+        "until": 413,
+        "phrase": "Great.",
+        "speaker": "Speaker 2",
+        "start": 224.21,
+        "end": 225.1,
+        "voiceWindow": [
+          224.21,
+          225.1
+        ],
+        "scores": {
+          "Speaker 1": 0.0807,
+          "Speaker 2": 0.2452,
+          "Speaker 3": 0.0284
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 32,
+        "index": 413,
+        "until": 432,
+        "phrase": "Before you hear the rest of the conversation, you have",
+        "speaker": "Speaker 1",
+        "start": 228.6,
+        "end": 234.96,
+        "voiceWindow": [
+          228.6,
+          234.96
+        ],
+        "scores": {
+          "Speaker 1": 0.9482,
+          "Speaker 2": 0.1996,
+          "Speaker 3": 0.5881
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 33,
+        "index": 432,
+        "until": 440,
+        "phrase": "Now listen and answer questions 8 to 10.",
+        "speaker": "Speaker 1",
+        "start": 251.44,
+        "end": 253.72,
+        "voiceWindow": [
+          251.44,
+          253.72
+        ],
+        "scores": {
+          "Speaker 1": 0.8127,
+          "Speaker 2": 0.2084,
+          "Speaker 3": 0.539
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "paragraph": 34,
+        "index": 440,
+        "until": 450,
+        "phrase": "So what sort of property do you have in mind?",
+        "speaker": "Speaker 2",
+        "start": 259.38,
+        "end": 261.9,
+        "voiceWindow": [
+          259.38,
+          261.9
+        ],
+        "scores": {
+          "Speaker 1": 0.2611,
+          "Speaker 2": 0.7018,
+          "Speaker 3": 0.3215
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 35,
+        "index": 450,
+        "until": 461,
+        "phrase": "We have friends who live in an amazing flat over",
+        "speaker": "Speaker 3",
+        "start": 262.72,
+        "end": 265.9,
+        "voiceWindow": [
+          262.72,
+          265.9
+        ],
+        "scores": {
+          "Speaker 1": 0.4362,
+          "Speaker 2": 0.2034,
+          "Speaker 3": 0.7376
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 36,
+        "index": 461,
+        "until": 475,
+        "phrase": "but as we've always lived in a house, I think",
+        "speaker": "Speaker 3",
+        "start": 266.32,
+        "end": 270.42,
+        "voiceWindow": [
+          266.32,
+          270.42
+        ],
+        "scores": {
+          "Speaker 1": 0.48,
+          "Speaker 2": 0.2185,
+          "Speaker 3": 0.8195
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 37,
+        "index": 475,
+        "until": 484,
+        "phrase": "We'd find it hard to adapt to a flat.",
+        "speaker": "Speaker 3",
+        "start": 270.82,
+        "end": 272.9,
+        "voiceWindow": [
+          270.82,
+          272.9
+        ],
+        "scores": {
+          "Speaker 1": 0.3871,
+          "Speaker 2": 0.3356,
+          "Speaker 3": 0.6917
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 38,
+        "index": 484,
+        "until": 493,
+        "phrase": "Okay, and size-wise, how many bedrooms would you like?",
+        "speaker": "Speaker 2",
+        "start": 273.38,
+        "end": 277.78,
+        "voiceWindow": [
+          273.38,
+          277.78
+        ],
+        "scores": {
+          "Speaker 1": 0.2985,
+          "Speaker 2": 0.8218,
+          "Speaker 3": 0.2264
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 39,
+        "index": 493,
+        "until": 502,
+        "phrase": "Well, there's just myself, my husband and our son.",
+        "speaker": "Speaker 3",
+        "start": 278.48,
+        "end": 281.46,
+        "voiceWindow": [
+          278.48,
+          281.46
+        ],
+        "scores": {
+          "Speaker 1": 0.4545,
+          "Speaker 2": 0.1082,
+          "Speaker 3": 0.746
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 40,
+        "index": 502,
+        "until": 509,
+        "phrase": "So you definitely need a two-bedroom property.",
+        "speaker": "Speaker 2",
+        "start": 281.93,
+        "end": 285.41,
+        "voiceWindow": [
+          281.93,
+          285.41
+        ],
+        "scores": {
+          "Speaker 1": 0.1888,
+          "Speaker 2": 0.7259,
+          "Speaker 3": 0.193
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 41,
+        "index": 509,
+        "until": 516,
+        "phrase": "But how about having a guest room?",
+        "speaker": "Speaker 2",
+        "start": 285.99,
+        "end": 287.75,
+        "voiceWindow": [
+          285.99,
+          287.75
+        ],
+        "scores": {
+          "Speaker 1": 0.1959,
+          "Speaker 2": 0.5907,
+          "Speaker 3": 0.2109
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 42,
+        "index": 516,
+        "until": 527,
+        "phrase": "I might be able to find a three-bedroom property for",
+        "speaker": "Speaker 2",
+        "start": 288.19,
+        "end": 291.05,
+        "voiceWindow": [
+          288.19,
+          291.05
+        ],
+        "scores": {
+          "Speaker 1": 0.0973,
+          "Speaker 2": 0.6986,
+          "Speaker 3": 0.1023
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 43,
+        "index": 527,
+        "until": 532,
+        "phrase": "Yes, that would be ideal.",
+        "speaker": "Speaker 3",
+        "start": 291.51,
+        "end": 292.67,
+        "voiceWindow": [
+          291.51,
+          292.67
+        ],
+        "scores": {
+          "Speaker 1": 0.3113,
+          "Speaker 2": 0.1348,
+          "Speaker 3": 0.614
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 44,
+        "index": 532,
+        "until": 539,
+        "phrase": "We're sure to have family visiting often.",
+        "speaker": "Speaker 3",
+        "start": 293.19,
+        "end": 295.27,
+        "voiceWindow": [
+          293.19,
+          295.27
+        ],
+        "scores": {
+          "Speaker 1": 0.4356,
+          "Speaker 2": 0.1811,
+          "Speaker 3": 0.7639
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 45,
+        "index": 539,
+        "until": 546,
+        "phrase": "Alright, I've made a note of that.",
+        "speaker": "Speaker 2",
+        "start": 295.89,
+        "end": 297.95,
+        "voiceWindow": [
+          295.89,
+          297.95
+        ],
+        "scores": {
+          "Speaker 1": 0.1523,
+          "Speaker 2": 0.6998,
+          "Speaker 3": 0.1588
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 46,
+        "index": 546,
+        "until": 556,
+        "phrase": "Now, are there any other requirements for your new property?",
+        "speaker": "Speaker 2",
+        "start": 298.67,
+        "end": 301.63,
+        "voiceWindow": [
+          298.67,
+          301.63
+        ],
+        "scores": {
+          "Speaker 1": 0.2156,
+          "Speaker 2": 0.6978,
+          "Speaker 3": 0.1652
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 47,
+        "index": 556,
+        "until": 573,
+        "phrase": "Well, it's not essential, but it'd be handy to have",
+        "speaker": "Speaker 3",
+        "start": 302.89,
+        "end": 309.01,
+        "voiceWindow": [
+          302.89,
+          309.01
+        ],
+        "scores": {
+          "Speaker 1": 0.538,
+          "Speaker 2": 0.2609,
+          "Speaker 3": 0.8587
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 48,
+        "index": 573,
+        "until": 591,
+        "phrase": "from home. It doesn't need to be a big one.",
+        "speaker": "Speaker 3",
+        "start": 309.01,
+        "end": 313.9,
+        "voiceWindow": [
+          309.01,
+          313.9
+        ],
+        "scores": {
+          "Speaker 1": 0.5261,
+          "Speaker 2": 0.3389,
+          "Speaker 3": 0.7962
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "paragraph": 49,
+        "index": 591,
+        "until": 607,
+        "phrase": "Yes. Okay, Anna. Well, I've certainly got enough to be",
+        "speaker": "Speaker 2",
+        "start": 314.74,
+        "end": 320.42,
+        "voiceWindow": [
+          314.74,
+          320.42
+        ],
+        "scores": {
+          "Speaker 1": 0.2445,
+          "Speaker 2": 0.8327,
+          "Speaker 3": 0.1679
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "paragraph": 50,
+        "index": 607,
+        "until": 626,
+        "phrase": "That is the end of part one. You now have",
+        "speaker": "Speaker 1",
+        "start": 323.84,
+        "end": 330.68,
+        "voiceWindow": [
+          323.84,
+          330.68
+        ],
+        "scores": {
+          "Speaker 1": 0.9455,
+          "Speaker 2": 0.2352,
+          "Speaker 3": 0.5407
+        },
+        "chosen": "Speaker 1"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Speaker 1",
+      "text": " You will hear a telephone conversation between a woman who is moving to London and an employee of a relocation service."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Speaker 1",
+      "text": " First you have some time to look at questions one to seven. Now listen carefully and answer questions one to seven."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Speaker 2",
+      "text": " London Relocation Services, Daniel speaking. How may I help you?"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Speaker 3",
+      "text": " Good morning. My family and I are moving to London later this year, and I wonder if you can help?"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Speaker 2",
+      "text": " Sure. First of all, I'll need to get some personal details. May I take your full name, please?"
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Speaker 3",
+      "text": " It's Anna Woods."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Speaker 2",
+      "text": " Thanks. Where are you moving from?"
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Speaker 3",
+      "text": " Northern Ireland. Just outside Belfast, actually."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Speaker 2",
+      "text": " Right. And what's your current address?"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Speaker 3",
+      "text": " It's 118 Fordice Park. I'll spell that for you. It's F-O-R-D-Y-C-E. And that's in Ballysilon."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Speaker 2",
+      "text": " And what's the postcode?"
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Speaker 3",
+      "text": " It's BT14-9BJ."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Speaker 2",
+      "text": " Alright. And could I take a contact phone number?"
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Speaker 3",
+      "text": " I'll give you my mobile number as you can get me on that any time. It's 078400-51963."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Speaker 2",
+      "text": " Great. Got that. Now, we always like to get a bit more information about the families that we're moving. It helps with the search. Are you moving for work?"
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Speaker 3",
+      "text": " Yes, my husband's just got a new job in London."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Speaker 2",
+      "text": " And what about you? Do you work?"
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Speaker 3",
+      "text": " Well, I've been working as a teaching assistant recently, but I'm actually a qualified nurse and I'd like to get back into that if possible."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Speaker 2",
+      "text": " Right. And do you have any children?"
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Speaker 3",
+      "text": " Yes, a son. So we need to find a school for him."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Speaker 2",
+      "text": " Is it a secondary school you'll be looking for?"
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Speaker 3",
+      "text": " No, he's still in primary school. He's not quite at the secondary level yet."
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Speaker 2",
+      "text": " Fine. So, let's go on to talk about your requirements for the property. Do you have a preferred location? Is your husband's job in the centre?"
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Speaker 3",
+      "text": " No, it's in East London, but we'd rather live somewhere quieter."
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Speaker 2",
+      "text": " Sure. There are some lovely areas in the south."
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Speaker 3",
+      "text": " Okay, that sounds great. Now, my husband doesn't want to spend too long commuting to work every day."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Speaker 2",
+      "text": " So, I imagine that, ideally, he'd like to be not too far from a station then."
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Speaker 3",
+      "text": " Yes. He drives now, but I guess that's not going to be possible, and he's not keen on buses."
+    },
+    {
+      "paragraph": 28,
+      "speaker": "Speaker 2",
+      "text": " What about you or your son? Do you have any preferences? Does your son do any sport, for example?"
+    },
+    {
+      "paragraph": 29,
+      "speaker": "Speaker 3",
+      "text": " He's quite active, so I'm sure he'd love a park nearby to run around in. He doesn't do swimming or anything like that."
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Speaker 2",
+      "text": " Great."
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Speaker 1",
+      "text": " Before you hear the rest of the conversation, you have some time to look at questions 8 to 10."
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Speaker 1",
+      "text": " Now listen and answer questions 8 to 10."
+    },
+    {
+      "paragraph": 33,
+      "speaker": "Speaker 2",
+      "text": " So what sort of property do you have in mind?"
+    },
+    {
+      "paragraph": 34,
+      "speaker": "Speaker 3",
+      "text": " We have friends who live in an amazing flat over there,"
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Speaker 3",
+      "text": " but as we've always lived in a house, I think we'll stick with that."
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Speaker 3",
+      "text": " We'd find it hard to adapt to a flat."
+    },
+    {
+      "paragraph": 37,
+      "speaker": "Speaker 2",
+      "text": " Okay, and size-wise, how many bedrooms would you like?"
+    },
+    {
+      "paragraph": 38,
+      "speaker": "Speaker 3",
+      "text": " Well, there's just myself, my husband and our son."
+    },
+    {
+      "paragraph": 39,
+      "speaker": "Speaker 2",
+      "text": " So you definitely need a two-bedroom property."
+    },
+    {
+      "paragraph": 40,
+      "speaker": "Speaker 2",
+      "text": " But how about having a guest room?"
+    },
+    {
+      "paragraph": 41,
+      "speaker": "Speaker 2",
+      "text": " I might be able to find a three-bedroom property for you."
+    },
+    {
+      "paragraph": 42,
+      "speaker": "Speaker 3",
+      "text": " Yes, that would be ideal."
+    },
+    {
+      "paragraph": 43,
+      "speaker": "Speaker 3",
+      "text": " We're sure to have family visiting often."
+    },
+    {
+      "paragraph": 44,
+      "speaker": "Speaker 2",
+      "text": " Alright, I've made a note of that."
+    },
+    {
+      "paragraph": 45,
+      "speaker": "Speaker 2",
+      "text": " Now, are there any other requirements for your new property?"
+    },
+    {
+      "paragraph": 46,
+      "speaker": "Speaker 3",
+      "text": " Well, it's not essential, but it'd be handy to have an office for when my husband works"
+    },
+    {
+      "paragraph": 47,
+      "speaker": "Speaker 3",
+      "text": " from home. It doesn't need to be a big one. I guess it all comes down to budget."
+    },
+    {
+      "paragraph": 48,
+      "speaker": "Speaker 2",
+      "text": " Yes. Okay, Anna. Well, I've certainly got enough to be getting on with, and I will…"
+    },
+    {
+      "paragraph": 49,
+      "speaker": "Speaker 1",
+      "text": " That is the end of part one. You now have one minute to check your answers to part one."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "999c89489fad7f7a412e960aae8de62619df7ba7a2b920c4a9b437d5518be100"
+}

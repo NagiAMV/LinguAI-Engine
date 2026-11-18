@@ -14,6 +14,9 @@ import { enhanceListeningQuestions, syncListeningQuestions } from "./listening-q
 import TextHighlights from "./TextHighlights";
 import TrainingWordTranslation from "./TrainingWordTranslation";
 import HighlightTools from "./HighlightTools";
+import ExamToolsMenu from './ExamToolsMenu';
+import {emphasizeOptionLetters} from './option-letters.mjs';
+import {alignQuestionRows} from './question-row-alignment.mjs';
 import ExamNotes from "./ExamNotes";
 import { prepareQuestionNavigation, syncActiveQuestion, focusAnswerField, adjacentQuestion } from './question-navigation.mjs';
 import { useAccount } from '@/components/account/AccountProvider';
@@ -50,6 +53,7 @@ function AnswerFields({ html, answers, onAnswer, onFocusQuestion, onStepQuestion
     if(reading && area === "questions")enhanceReadingQuestions(root.current);
     if(!reading && area === "questions")enhanceListeningQuestions(root.current,listeningGroups);
     prepareQuestionNavigation(root.current,partQuestions,listeningGroups);
+    if(area==='questions'){emphasizeOptionLetters(root.current);alignQuestionRows(root.current);}
     syncActiveQuestion(root.current,activeNumber,activeName);
     for (const input of root.current.querySelectorAll("input[name], select[name]")) {
       input.disabled = locked;
@@ -331,10 +335,12 @@ function AccountExamPlayer({ test, answerKey, explanations, owner }) {
     <header className="exam-header">
       <button className="exam-utility exam-back" title="Back to collection" aria-label="Back to collection" onClick={() => session.phase === "running" ? setModal("exit") : router.push(backUrl)}>←</button>
       <div className="exam-identity"><h1>{test.title}</h1><p>{label} · {finishedAt ? "Results" : `Part ${part.id}`}</p></div><span className="exam-saved" title={`${answered} of ${questions.length} answered · Saved on this device`} aria-label={`${answered} of ${questions.length} answered · Saved on this device`}>●</span>
+      <ExamToolsMenu>
       {!finishedAt && <HighlightTools enabled={highlightMode} locked={locked} color={highlightColor} fontSize={fontSize} eraseMode={eraseMode} onEraseMode={setEraseMode} onToggle={()=>{setHighlightMode(value=>!value);setEraseMode(false);setSelection(null);window.getSelection()?.removeAllRanges();}} onColor={color=>{displayPreference(theme,color);setEraseMode(false);}} onFontSize={setFontSize}/>}<button className="exam-utility exam-notes-toggle" aria-label="Open notes" aria-pressed={notesOpen} onClick={()=>setNotesOpen(!notesOpen)}>Notes{notes.length>0?` ${notes.length}`:""}</button><button className="exam-utility exam-fullscreen" title={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} aria-label={fullscreen ? "Exit fullscreen" : "Enter fullscreen"} onClick={toggleFullscreen}>⛶</button>
       {((session.mode === 'training' && session.phase === 'running') || finishedAt) && <button type="button" className="exam-utility exam-translate-toggle" aria-pressed={translationEnabled && !highlightMode} title="Tap a word in the questions to translate it" onClick={() => { setTranslationEnabled(!translationEnabled || highlightMode); setHighlightMode(false); window.getSelection()?.removeAllRanges(); }}>Translate{translationEnabled && !highlightMode ? ' on' : ' off'}</button>}
       <button type="button" className="exam-utility exam-night-light-toggle" aria-pressed={nightLight} title="Optional softer display colours" onClick={()=>displayPreference(theme,highlightColor,!nightLight)}>☼ Night Light{nightLight?' on':''}</button>
       <button type="button" className="exam-utility exam-theme-toggle" aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`} onClick={() => displayPreference(theme === 'light' ? 'dark' : 'light', highlightColor)}>{theme === 'light' ? '☾ Dark' : '☀ Light'}</button>
+      </ExamToolsMenu>
       {session.phase !== 'ready' && session.mode !== 'training' && <div className={`exam-timer ${remaining(session, now) <= 300000 ? "exam-time-low" : ""}`}><strong role="timer" aria-label="Time remaining">{countdown(remaining(session, now))}</strong></div>}
       {finishedAt ? <button className="button cd-secondary" onClick={() => setModal("new")}>New attempt</button> : null}
     </header>

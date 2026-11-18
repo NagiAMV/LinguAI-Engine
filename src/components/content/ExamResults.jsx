@@ -9,6 +9,7 @@ import ErrorTags from './ErrorTags';
 import { buildFocusStats } from '@/lib/practice-ideas.mjs';
 import singleReading from '@/data/single-passage-reading-catalog.json';
 import singleListening from '@/data/single-section-listening-catalog.json';
+import {trackCompletion} from '@/lib/anonymous-analytics.mjs';
 
 const statusLabels = { correct: '✓ Correct', incorrect: '× Incorrect', partial: '◐ Partially correct', blank: '— Unanswered', pending: '○ Not checked' };
 
@@ -23,6 +24,10 @@ export default function ExamResults({ test, answerKey, explanations, questions, 
   const partScores = useMemo(() => scoreParts(test, questions, answers, answerKey), [test, questions, answers, answerKey]);
   const source = (test.resource === 'reading' ? singleReading : singleListening).find(item => item.id === test.id);
   const focusStats = useMemo(() => buildFocusStats(test, questions, answers, answerKey, source?.passageNumber || source?.sectionNumber), [test, questions, answers, answerKey, source]);
+  useEffect(()=>{
+    if(!session.finishedAt||!questions.length)return;
+    trackCompletion(`${test.id}:${session.startedAt||session.finishedAt}`,{resource:test.resource,mode:session.mode==='training'?'training':'exam',scope:test.parts.length>1?'full':'single',completedAt:session.finishedAt});
+  },[session.finishedAt,session.startedAt,session.mode,test.id,test.resource,test.parts.length,questions.length]);
   useEffect(() => {
     if (!questions.length || !session.finishedAt) return;
     recordAttempt({ id: `${test.id}:${session.startedAt || session.finishedAt}`, test_id: test.id, title: test.title.slice(0, 240), resource: test.resource, correct: score.correct, total: score.total, checked: score.checked, band: score.band, finished_at: new Date(session.finishedAt).toISOString(), duration_seconds: Math.min(86400, Math.max(0, Math.floor((session.finishedAt - (session.startedAt || session.finishedAt)) / 1000))), focus_stats: focusStats });
