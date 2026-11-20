@@ -1,0 +1,1422 @@
+{
+  "test": "practice-listening-8",
+  "part": 2,
+  "audioSha256": "7c8dd8f91ac26edf77ce0a74eca6c455a80e08552bff9efdd5a834ceed49e59d",
+  "scope": {
+    "start": 479.56,
+    "end": 857.79
+  },
+  "sourceScope": "All 21 published paragraphs checked as narrator instructions and Marie speech against three independent reference clips per role, plus 15 long-paragraph tail checks. Existing role labels are retained. Five previously untimed spoken source tokens receive four positive timing spans. Scholarship and coastline had zero duration in cached recognition and are recovered with isolated cropped recognition. The preceding article a endpoint is shortened to avoid overlap with scholarship. Ten and the phrase per cent correspond to cached numeric 10 and percent-sign spans; no individual per/cent timing is invented. Visible source role labels remain untimed. Source text and all other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 857.79,
+  "removedClocksForPhraseMerges": [],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 0,
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 479.56,
+      "end": 489.96,
+      "voiceWindow": [
+        481.96,
+        489.96
+      ],
+      "scores": {
+        "Narrator": 0.8726,
+        "Marie": 0.3087
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 2,
+      "index": 56,
+      "speaker": "Marie",
+      "start": 560,
+      "end": 572.86,
+      "voiceWindow": [
+        564.86,
+        572.86
+      ],
+      "scores": {
+        "Narrator": 0.2748,
+        "Marie": 0.8912
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 3,
+      "index": 93,
+      "speaker": "Marie",
+      "start": 574.06,
+      "end": 586.08,
+      "voiceWindow": [
+        578.08,
+        586.08
+      ],
+      "scores": {
+        "Narrator": 0.2866,
+        "Marie": 0.8732
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 5,
+      "index": 156,
+      "speaker": "Marie",
+      "start": 596.95,
+      "end": 609.15,
+      "voiceWindow": [
+        601.15,
+        609.15
+      ],
+      "scores": {
+        "Narrator": 0.3063,
+        "Marie": 0.9123
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 6,
+      "index": 188,
+      "speaker": "Marie",
+      "start": 610.16,
+      "end": 620.74,
+      "voiceWindow": [
+        612.74,
+        620.74
+      ],
+      "scores": {
+        "Narrator": 0.2536,
+        "Marie": 0.8724
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 7,
+      "index": 221,
+      "speaker": "Marie",
+      "start": 621.92,
+      "end": 632.4,
+      "voiceWindow": [
+        624.4,
+        632.4
+      ],
+      "scores": {
+        "Narrator": 0.2669,
+        "Marie": 0.9015
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 9,
+      "index": 256,
+      "speaker": "Marie",
+      "start": 696.3,
+      "end": 714.43,
+      "voiceWindow": [
+        706.43,
+        714.43
+      ],
+      "scores": {
+        "Narrator": 0.2432,
+        "Marie": 0.8913
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 10,
+      "index": 315,
+      "speaker": "Marie",
+      "start": 715.45,
+      "end": 726.92,
+      "voiceWindow": [
+        718.92,
+        726.92
+      ],
+      "scores": {
+        "Narrator": 0.263,
+        "Marie": 0.898
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 11,
+      "index": 346,
+      "speaker": "Marie",
+      "start": 727.52,
+      "end": 740.57,
+      "voiceWindow": [
+        732.57,
+        740.57
+      ],
+      "scores": {
+        "Narrator": 0.3085,
+        "Marie": 0.879
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 12,
+      "index": 393,
+      "speaker": "Marie",
+      "start": 741.63,
+      "end": 752.67,
+      "voiceWindow": [
+        744.67,
+        752.67
+      ],
+      "scores": {
+        "Narrator": 0.3393,
+        "Marie": 0.883
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 13,
+      "index": 425,
+      "speaker": "Marie",
+      "start": 753.58,
+      "end": 768.45,
+      "voiceWindow": [
+        760.45,
+        768.45
+      ],
+      "scores": {
+        "Narrator": 0.2376,
+        "Marie": 0.7883
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 15,
+      "index": 492,
+      "speaker": "Marie",
+      "start": 777.42,
+      "end": 795.1,
+      "voiceWindow": [
+        787.1,
+        795.1
+      ],
+      "scores": {
+        "Narrator": 0.3274,
+        "Marie": 0.8465
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 18,
+      "index": 598,
+      "speaker": "Marie",
+      "start": 814.9,
+      "end": 828.75,
+      "voiceWindow": [
+        820.75,
+        828.75
+      ],
+      "scores": {
+        "Narrator": 0.2036,
+        "Marie": 0.9153
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 19,
+      "index": 638,
+      "speaker": "Marie",
+      "start": 830.1,
+      "end": 842.28,
+      "voiceWindow": [
+        834.28,
+        842.28
+      ],
+      "scores": {
+        "Narrator": 0.351,
+        "Marie": 0.8973
+      },
+      "chosen": "Marie"
+    },
+    {
+      "paragraph": 20,
+      "index": 673,
+      "speaker": "Marie",
+      "start": 843.34,
+      "end": 857.79,
+      "voiceWindow": [
+        849.79,
+        857.79
+      ],
+      "scores": {
+        "Narrator": 0.2782,
+        "Marie": 0.9135
+      },
+      "chosen": "Marie"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 586,
+      "end": 596,
+      "words": [
+        {
+          "word": "And",
+          "start": 586,
+          "end": 587.16
+        },
+        {
+          "word": "you're",
+          "start": 587.16,
+          "end": 587.6
+        },
+        {
+          "word": "just",
+          "start": 587.6,
+          "end": 587.86
+        },
+        {
+          "word": "as",
+          "start": 587.86,
+          "end": 588.1
+        },
+        {
+          "word": "likely",
+          "start": 588.1,
+          "end": 588.36
+        },
+        {
+          "word": "to",
+          "start": 588.36,
+          "end": 588.62
+        },
+        {
+          "word": "be",
+          "start": 588.62,
+          "end": 588.78
+        },
+        {
+          "word": "offered",
+          "start": 588.78,
+          "end": 589.08
+        },
+        {
+          "word": "a",
+          "start": 589.08,
+          "end": 589.28
+        },
+        {
+          "word": "scholarship",
+          "start": 589.28,
+          "end": 589.66
+        },
+        {
+          "word": "if",
+          "start": 589.66,
+          "end": 590.26
+        },
+        {
+          "word": "you",
+          "start": 590.26,
+          "end": 590.42
+        },
+        {
+          "word": "work",
+          "start": 590.42,
+          "end": 590.64
+        },
+        {
+          "word": "for",
+          "start": 590.64,
+          "end": 590.84
+        },
+        {
+          "word": "a",
+          "start": 590.84,
+          "end": 591
+        },
+        {
+          "word": "large",
+          "start": 591,
+          "end": 591.28
+        },
+        {
+          "word": "fancy",
+          "start": 591.28,
+          "end": 591.68
+        },
+        {
+          "word": "hotel",
+          "start": 591.68,
+          "end": 592.1
+        },
+        {
+          "word": "in",
+          "start": 592.1,
+          "end": 592.32
+        },
+        {
+          "word": "Edinburgh",
+          "start": 592.32,
+          "end": 592.7
+        },
+        {
+          "word": "or",
+          "start": 592.7,
+          "end": 593.38
+        },
+        {
+          "word": "a",
+          "start": 593.38,
+          "end": 593.48
+        },
+        {
+          "word": "small",
+          "start": 593.48,
+          "end": 593.88
+        },
+        {
+          "word": "family",
+          "start": 593.88,
+          "end": 594.28
+        },
+        {
+          "word": "hotel",
+          "start": 594.28,
+          "end": 594.78
+        },
+        {
+          "word": "in",
+          "start": 594.78,
+          "end": 595.22
+        },
+        {
+          "word": "the",
+          "start": 595.22,
+          "end": 595.36
+        },
+        {
+          "word": "Highlands.",
+          "start": 595.36,
+          "end": 595.72
+        }
+      ]
+    },
+    {
+      "start": 598,
+      "end": 604,
+      "words": [
+        {
+          "word": "Scotland",
+          "start": 598,
+          "end": 598.66
+        },
+        {
+          "word": "is",
+          "start": 598.66,
+          "end": 599.04
+        },
+        {
+          "word": "famous",
+          "start": 599.04,
+          "end": 599.38
+        },
+        {
+          "word": "for",
+          "start": 599.38,
+          "end": 599.8
+        },
+        {
+          "word": "its",
+          "start": 599.8,
+          "end": 599.94
+        },
+        {
+          "word": "fishing,",
+          "start": 599.94,
+          "end": 600.4
+        },
+        {
+          "word": "golf,",
+          "start": 600.6,
+          "end": 600.86
+        },
+        {
+          "word": "coastline",
+          "start": 601.34,
+          "end": 601.64
+        },
+        {
+          "word": "and",
+          "start": 601.64,
+          "end": 602.16
+        },
+        {
+          "word": "unspoilt",
+          "start": 602.16,
+          "end": 602.98
+        },
+        {
+          "word": "countryside.",
+          "start": 602.98,
+          "end": 603.46
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 136,
+      "text": "a",
+      "old": [
+        "589.08",
+        "589.66"
+      ],
+      "new": [
+        589.08,
+        589.28
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 137,
+      "text": "scholarship",
+      "start": 589.28,
+      "end": 589.66,
+      "granularity": "source-token"
+    },
+    {
+      "index": 168,
+      "text": "coastline",
+      "start": 601.34,
+      "end": 601.64,
+      "granularity": "source-token"
+    },
+    {
+      "index": 191,
+      "text": "ten",
+      "start": 610.7,
+      "end": 611.08,
+      "granularity": "source-token"
+    },
+    {
+      "index": 192,
+      "text": "per cent",
+      "start": 611.08,
+      "end": 611.4,
+      "granularity": "phrase"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 704,
+  "wordClocksSha256": "de8cf41139147cfb4b5d768c098600f18766b01e65da7a6d4602a3adef2fcd6f",
+  "tokenCount": 726,
+  "tokensSha256": "ed494619e18abe310b94c9350a0d423eab27c49a4415d2668ed73e6ece429481",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          479.56,
+          489.96
+        ],
+        [
+          688.63,
+          692.61
+        ],
+        [
+          861.57,
+          867.41
+        ]
+      ],
+      "Marie": [
+        [
+          550,
+          559.34
+        ],
+        [
+          696.3,
+          705.3
+        ],
+        [
+          843.34,
+          850.56
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          479.56,
+          489.96
+        ],
+        "scores": {
+          "Narrator": 0.7592,
+          "Marie": 0.2961
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          688.63,
+          692.61
+        ],
+        "scores": {
+          "Narrator": 0.7953,
+          "Marie": 0.2656
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          861.57,
+          867.41
+        ],
+        "scores": {
+          "Narrator": 0.8217,
+          "Marie": 0.244
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Marie",
+        "window": [
+          550,
+          559.34
+        ],
+        "scores": {
+          "Narrator": 0.2957,
+          "Marie": 0.8208
+        },
+        "chosen": "Marie"
+      },
+      {
+        "label": "Marie",
+        "window": [
+          696.3,
+          705.3
+        ],
+        "scores": {
+          "Narrator": 0.2582,
+          "Marie": 0.8577
+        },
+        "chosen": "Marie"
+      },
+      {
+        "label": "Marie",
+        "window": [
+          843.34,
+          850.56
+        ],
+        "scores": {
+          "Narrator": 0.2708,
+          "Marie": 0.8448
+        },
+        "chosen": "Marie"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 479.56,
+        "end": 489.96,
+        "voiceWindow": [
+          479.56,
+          489.56
+        ],
+        "scores": {
+          "Narrator": 0.8937,
+          "Marie": 0.3007
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 27,
+        "speaker": "Marie",
+        "start": 550,
+        "end": 559.34,
+        "voiceWindow": [
+          550,
+          559.34
+        ],
+        "scores": {
+          "Narrator": 0.2957,
+          "Marie": 0.9204
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 2,
+        "index": 56,
+        "speaker": "Marie",
+        "start": 560,
+        "end": 572.86,
+        "voiceWindow": [
+          560,
+          570
+        ],
+        "scores": {
+          "Narrator": 0.2912,
+          "Marie": 0.9137
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 3,
+        "index": 93,
+        "speaker": "Marie",
+        "start": 574.06,
+        "end": 586.08,
+        "voiceWindow": [
+          574.06,
+          584.06
+        ],
+        "scores": {
+          "Narrator": 0.3236,
+          "Marie": 0.8967
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 4,
+        "index": 127,
+        "speaker": "Marie",
+        "start": 586.88,
+        "end": 595.74,
+        "voiceWindow": [
+          586.88,
+          595.74
+        ],
+        "scores": {
+          "Narrator": 0.2869,
+          "Marie": 0.9123
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 5,
+        "index": 156,
+        "speaker": "Marie",
+        "start": 596.95,
+        "end": 609.15,
+        "voiceWindow": [
+          596.95,
+          606.95
+        ],
+        "scores": {
+          "Narrator": 0.2937,
+          "Marie": 0.9118
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 6,
+        "index": 188,
+        "speaker": "Marie",
+        "start": 610.16,
+        "end": 620.74,
+        "voiceWindow": [
+          610.16,
+          620.16
+        ],
+        "scores": {
+          "Narrator": 0.2539,
+          "Marie": 0.8866
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 7,
+        "index": 221,
+        "speaker": "Marie",
+        "start": 621.92,
+        "end": 632.4,
+        "voiceWindow": [
+          621.92,
+          631.92
+        ],
+        "scores": {
+          "Narrator": 0.2597,
+          "Marie": 0.8956
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 8,
+        "index": 247,
+        "speaker": "Narrator",
+        "start": 688.63,
+        "end": 692.61,
+        "voiceWindow": [
+          688.63,
+          692.61
+        ],
+        "scores": {
+          "Narrator": 0.9102,
+          "Marie": 0.2656
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 9,
+        "index": 256,
+        "speaker": "Marie",
+        "start": 696.3,
+        "end": 714.43,
+        "voiceWindow": [
+          696.3,
+          706.3
+        ],
+        "scores": {
+          "Narrator": 0.2687,
+          "Marie": 0.9442
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 10,
+        "index": 315,
+        "speaker": "Marie",
+        "start": 715.45,
+        "end": 726.92,
+        "voiceWindow": [
+          715.45,
+          725.45
+        ],
+        "scores": {
+          "Narrator": 0.3038,
+          "Marie": 0.9257
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 11,
+        "index": 346,
+        "speaker": "Marie",
+        "start": 727.52,
+        "end": 740.57,
+        "voiceWindow": [
+          727.52,
+          737.52
+        ],
+        "scores": {
+          "Narrator": 0.3287,
+          "Marie": 0.8691
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 12,
+        "index": 393,
+        "speaker": "Marie",
+        "start": 741.63,
+        "end": 752.67,
+        "voiceWindow": [
+          741.63,
+          751.63
+        ],
+        "scores": {
+          "Narrator": 0.3219,
+          "Marie": 0.8937
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 13,
+        "index": 425,
+        "speaker": "Marie",
+        "start": 753.58,
+        "end": 768.45,
+        "voiceWindow": [
+          753.58,
+          763.58
+        ],
+        "scores": {
+          "Narrator": 0.2833,
+          "Marie": 0.8504
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 14,
+        "index": 469,
+        "speaker": "Marie",
+        "start": 769.03,
+        "end": 776.03,
+        "voiceWindow": [
+          769.03,
+          776.03
+        ],
+        "scores": {
+          "Narrator": 0.247,
+          "Marie": 0.8256
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 15,
+        "index": 492,
+        "speaker": "Marie",
+        "start": 777.42,
+        "end": 795.1,
+        "voiceWindow": [
+          777.42,
+          787.42
+        ],
+        "scores": {
+          "Narrator": 0.2959,
+          "Marie": 0.8655
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 16,
+        "index": 543,
+        "speaker": "Marie",
+        "start": 795.94,
+        "end": 803.24,
+        "voiceWindow": [
+          795.94,
+          803.24
+        ],
+        "scores": {
+          "Narrator": 0.3057,
+          "Marie": 0.8849
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 17,
+        "index": 568,
+        "speaker": "Marie",
+        "start": 804.99,
+        "end": 813.91,
+        "voiceWindow": [
+          804.99,
+          813.91
+        ],
+        "scores": {
+          "Narrator": 0.2019,
+          "Marie": 0.8573
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 18,
+        "index": 598,
+        "speaker": "Marie",
+        "start": 814.9,
+        "end": 828.75,
+        "voiceWindow": [
+          814.9,
+          824.9
+        ],
+        "scores": {
+          "Narrator": 0.2062,
+          "Marie": 0.9146
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 19,
+        "index": 638,
+        "speaker": "Marie",
+        "start": 830.1,
+        "end": 842.28,
+        "voiceWindow": [
+          830.1,
+          840.1
+        ],
+        "scores": {
+          "Narrator": 0.3383,
+          "Marie": 0.8956
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 20,
+        "index": 673,
+        "speaker": "Marie",
+        "start": 843.34,
+        "end": 857.79,
+        "voiceWindow": [
+          843.34,
+          853.34
+        ],
+        "scores": {
+          "Narrator": 0.2763,
+          "Marie": 0.9452
+        },
+        "chosen": "Marie"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 479.56,
+        "end": 489.96,
+        "voiceWindow": [
+          481.96,
+          489.96
+        ],
+        "scores": {
+          "Narrator": 0.8726,
+          "Marie": 0.3087
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 2,
+        "index": 56,
+        "speaker": "Marie",
+        "start": 560,
+        "end": 572.86,
+        "voiceWindow": [
+          564.86,
+          572.86
+        ],
+        "scores": {
+          "Narrator": 0.2748,
+          "Marie": 0.8912
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 3,
+        "index": 93,
+        "speaker": "Marie",
+        "start": 574.06,
+        "end": 586.08,
+        "voiceWindow": [
+          578.08,
+          586.08
+        ],
+        "scores": {
+          "Narrator": 0.2866,
+          "Marie": 0.8732
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 5,
+        "index": 156,
+        "speaker": "Marie",
+        "start": 596.95,
+        "end": 609.15,
+        "voiceWindow": [
+          601.15,
+          609.15
+        ],
+        "scores": {
+          "Narrator": 0.3063,
+          "Marie": 0.9123
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 6,
+        "index": 188,
+        "speaker": "Marie",
+        "start": 610.16,
+        "end": 620.74,
+        "voiceWindow": [
+          612.74,
+          620.74
+        ],
+        "scores": {
+          "Narrator": 0.2536,
+          "Marie": 0.8724
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 7,
+        "index": 221,
+        "speaker": "Marie",
+        "start": 621.92,
+        "end": 632.4,
+        "voiceWindow": [
+          624.4,
+          632.4
+        ],
+        "scores": {
+          "Narrator": 0.2669,
+          "Marie": 0.9015
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 9,
+        "index": 256,
+        "speaker": "Marie",
+        "start": 696.3,
+        "end": 714.43,
+        "voiceWindow": [
+          706.43,
+          714.43
+        ],
+        "scores": {
+          "Narrator": 0.2432,
+          "Marie": 0.8913
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 10,
+        "index": 315,
+        "speaker": "Marie",
+        "start": 715.45,
+        "end": 726.92,
+        "voiceWindow": [
+          718.92,
+          726.92
+        ],
+        "scores": {
+          "Narrator": 0.263,
+          "Marie": 0.898
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 11,
+        "index": 346,
+        "speaker": "Marie",
+        "start": 727.52,
+        "end": 740.57,
+        "voiceWindow": [
+          732.57,
+          740.57
+        ],
+        "scores": {
+          "Narrator": 0.3085,
+          "Marie": 0.879
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 12,
+        "index": 393,
+        "speaker": "Marie",
+        "start": 741.63,
+        "end": 752.67,
+        "voiceWindow": [
+          744.67,
+          752.67
+        ],
+        "scores": {
+          "Narrator": 0.3393,
+          "Marie": 0.883
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 13,
+        "index": 425,
+        "speaker": "Marie",
+        "start": 753.58,
+        "end": 768.45,
+        "voiceWindow": [
+          760.45,
+          768.45
+        ],
+        "scores": {
+          "Narrator": 0.2376,
+          "Marie": 0.7883
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 15,
+        "index": 492,
+        "speaker": "Marie",
+        "start": 777.42,
+        "end": 795.1,
+        "voiceWindow": [
+          787.1,
+          795.1
+        ],
+        "scores": {
+          "Narrator": 0.3274,
+          "Marie": 0.8465
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 18,
+        "index": 598,
+        "speaker": "Marie",
+        "start": 814.9,
+        "end": 828.75,
+        "voiceWindow": [
+          820.75,
+          828.75
+        ],
+        "scores": {
+          "Narrator": 0.2036,
+          "Marie": 0.9153
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 19,
+        "index": 638,
+        "speaker": "Marie",
+        "start": 830.1,
+        "end": 842.28,
+        "voiceWindow": [
+          834.28,
+          842.28
+        ],
+        "scores": {
+          "Narrator": 0.351,
+          "Marie": 0.8973
+        },
+        "chosen": "Marie"
+      },
+      {
+        "paragraph": 20,
+        "index": 673,
+        "speaker": "Marie",
+        "start": 843.34,
+        "end": 857.79,
+        "voiceWindow": [
+          849.79,
+          857.79
+        ],
+        "scores": {
+          "Narrator": 0.2782,
+          "Marie": 0.9135
+        },
+        "chosen": "Marie"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Section 2. You will hear a woman called Marie talking at a conference to a group of people who work in the hospitality industry in Scotland."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Marie",
+      "text": " This time last year I was wondering whether to apply for a scholarship and not sure if I had enough experience to be successful. I needn’t have worried."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Marie",
+      "text": " The scholarship is open to people of all ages working full time in the industry. The only stipulation is that you need to have worked for three years in hospitality, not necessarily for the same organisation."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Marie",
+      "text": " Of course, they’re looking for ambitious people who want to get on, but who haven’t had the chance to work in management or studied at college. So there are no minimum qualifications required."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Marie",
+      "text": " And you’re just as likely to be offered a scholarship if you work for a large fancy hotel in Edinburgh or a small family hotel in the Highlands."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Marie",
+      "text": " As we all know, Scotland is famous for its fishing, golf, coastline and unspoilt countryside, which is why it’s always been a popular destination for tourists from all over the world."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Marie",
+      "text": " Something like ten per cent of people in Scotland depend on the Scottish hospitality industry for their income, so it’s vital that it continues to attract large numbers of visitors each year."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Marie",
+      "text": " The scholarships are a way of maintaining Scotland’s reputation as a quality destination, so that visitors to Scotland continue to have a very positive experience."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": " Now listen and answer questions 15 to 20."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Marie",
+      "text": " I currently work at the Rock Hotel in Perth as a trainee manager, but I joined as a receptionist five years ago. At the time, I was looking for work that fitted in with a young family, and I was lucky to get the perfect job for me where I could take time off during the school holidays."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Marie",
+      "text": " I realised soon after I started that I loved working with people and enjoyed working in a hotel environment. Last year, I was lucky enough to be a scholarship winner."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Marie",
+      "text": " The application process was actually quite simple. I was worried I’d have to give a presentation in front of loads of people, but you just have to produce a report on your current place of employment, saying how you think you could make a difference there."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Marie",
+      "text": " My manager at the Rock Hotel was very supportive and gave me time off to do the writing and the research. Then all the winners were invited to an award ceremony."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Marie",
+      "text": " They were mostly working in different sorts of hotels, although a few were working at tourist attractions, and one was involved in the Edinburgh Festival. I’d expected I’d be one of the youngest, but at least half the people were younger than me."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Marie",
+      "text": " All the people I met couldn’t believe their luck that they’d been successful, as it’s not unusual to fail the first time."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Marie",
+      "text": " I was sent to the Florida Beach Hotel. Here the emphasis is on customer service, making sure that staff are trained to give customers a really personal service, checking that guests are enjoying their stay, so they’re encouraged to chat with them, even if their job is just clearing tables."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Marie",
+      "text": " Quite a different atmosphere to some hotels I know, where the emphasis is on efficiency, which can make the guests feel in the way."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Marie",
+      "text": " One of the things we were encouraged to do while we were on our placements was to find out what people thought about visiting Scotland. That was quite interesting."
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Marie",
+      "text": " Although everyone I spoke to knew a bit about Scotland, the majority had never considered a holiday there, and of the people who were thinking of visiting Scotland, they were really only interested in visiting Edinburgh and St Andrews."
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Marie",
+      "text": " Anyway, on my return to the Rock Hotel, my manager asked me to introduce some improvements, and the first thing I did was to redraft our customer survey form to get guests’ detailed opinions."
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Marie",
+      "text": "Marie:"
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Marie",
+      "text": " This used to be given to customers at the end of their stay, when they’re in a rush to leave, so I decided it would be better to email them to customers at home, so they have more time to complete them. It’s another way of staying in contact with them, too."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "8d1b1756e94bcff0f853ebd947a29547e95ee2eb37d0be7d82ea8b44de4278a3"
+}

@@ -1,0 +1,3270 @@
+{
+  "test": "single-listening-19",
+  "part": 1,
+  "audioSha256": "df0b63de7ae2a364cf295605cd8b4530c8ebb4b3ce9e2b1925e9217cedf1c906",
+  "scope": {
+    "start": 0,
+    "end": 595.11
+  },
+  "sourceScope": "All 17 published speech paragraphs, 70 main voice windows and 13 long-turn tails. Source wording retained. Really has a zero-duration cached recognition word and is omitted by cropped recognition; its utterance cue is bounded by the preceding word, the calibrated customer voice window and speech segmentation ending at 229.193 seconds. I understand uses a phrase cue rather than inventing an onset for a zero-duration I. Prices, spelling and phone numbers use whole source-token intervals corroborated by local recognition.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 595.11,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 421,
+      "text": "understand.",
+      "start": "235.01",
+      "end": "235.39"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "phrase": "You will hear",
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 7.15,
+      "end": 103.34,
+      "kind": "tail",
+      "voiceWindow": [
+        95.34,
+        103.34
+      ],
+      "scores": {
+        "Narrator": 0.6979,
+        "Ben": 0.2183,
+        "Ms Nash": 0.1184
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "Yes I hope so",
+      "index": 142,
+      "speaker": "Ms Nash",
+      "start": 106.77,
+      "end": 117.41,
+      "kind": "tail",
+      "voiceWindow": [
+        109.41,
+        117.41
+      ],
+      "scores": {
+        "Narrator": 0.2634,
+        "Ben": 0.2091,
+        "Ms Nash": 0.8596
+      },
+      "chosen": "Ms Nash"
+    },
+    {
+      "phrase": "Well We've got",
+      "index": 201,
+      "speaker": "Ben",
+      "start": 130.96,
+      "end": 143.74,
+      "kind": "tail",
+      "voiceWindow": [
+        135.74,
+        143.74
+      ],
+      "scores": {
+        "Narrator": 0.2798,
+        "Ben": 0.7234,
+        "Ms Nash": 0.1361
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "The entertainment program offers",
+      "index": 227,
+      "speaker": "Narrator",
+      "start": 143.77,
+      "end": 170.8,
+      "kind": "tail",
+      "voiceWindow": [
+        162.8,
+        170.8
+      ],
+      "scores": {
+        "Narrator": 0.5457,
+        "Ben": 0.2805,
+        "Ms Nash": 0.333
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "Yes I hope so",
+      "index": 279,
+      "speaker": "Ms Nash",
+      "start": 173.55,
+      "end": 184.54,
+      "kind": "tail",
+      "voiceWindow": [
+        176.54,
+        184.54
+      ],
+      "scores": {
+        "Narrator": 0.2515,
+        "Ben": 0.2079,
+        "Ms Nash": 0.853
+      },
+      "chosen": "Ms Nash"
+    },
+    {
+      "phrase": "Well we've got",
+      "index": 338,
+      "speaker": "Ben",
+      "start": 197.54,
+      "end": 208.10999999999999,
+      "kind": "tail",
+      "voiceWindow": [
+        200.10999999999999,
+        208.10999999999999
+      ],
+      "scores": {
+        "Narrator": 0.2565,
+        "Ben": 0.8968,
+        "Ms Nash": 0.1406
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "That's right",
+      "index": 422,
+      "speaker": "Ben",
+      "start": 235.81,
+      "end": 248,
+      "kind": "tail",
+      "voiceWindow": [
+        240,
+        248
+      ],
+      "scores": {
+        "Narrator": 0.3317,
+        "Ben": 0.8641,
+        "Ms Nash": 0.1647
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "Let me just check",
+      "index": 461,
+      "speaker": "Ben",
+      "start": 250.71,
+      "end": 261.74,
+      "kind": "tail",
+      "voiceWindow": [
+        253.74,
+        261.74
+      ],
+      "scores": {
+        "Narrator": 0.2181,
+        "Ben": 0.7756,
+        "Ms Nash": 0.1748
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "Right I've got that",
+      "index": 482,
+      "speaker": "Ms Nash",
+      "start": 261.77,
+      "end": 272.8,
+      "kind": "tail",
+      "voiceWindow": [
+        264.8,
+        272.8
+      ],
+      "scores": {
+        "Narrator": 0.2217,
+        "Ben": 0.1835,
+        "Ms Nash": 0.8914
+      },
+      "chosen": "Ms Nash"
+    },
+    {
+      "phrase": "Well there are forests",
+      "index": 672,
+      "speaker": "Ben",
+      "start": 340.26,
+      "end": 350.91,
+      "kind": "tail",
+      "voiceWindow": [
+        342.91,
+        350.91
+      ],
+      "scores": {
+        "Narrator": 0.1895,
+        "Ben": 0.8215,
+        "Ms Nash": 0.1313
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "Before you hear",
+      "index": 773,
+      "speaker": "Narrator",
+      "start": 382.02,
+      "end": 425.93,
+      "kind": "tail",
+      "voiceWindow": [
+        417.93,
+        425.93
+      ],
+      "scores": {
+        "Narrator": 0.4982,
+        "Ben": 0.2489,
+        "Ms Nash": 0.1911
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "We pay up to a thousand",
+      "index": 988,
+      "speaker": "Ben",
+      "start": 497.55,
+      "end": 510.84000000000003,
+      "kind": "tail",
+      "voiceWindow": [
+        502.84000000000003,
+        510.84000000000003
+      ],
+      "scores": {
+        "Narrator": 0.2383,
+        "Ben": 0.8177,
+        "Ms Nash": 0.1197
+      },
+      "chosen": "Ben"
+    },
+    {
+      "phrase": "Ben Ludlow",
+      "index": 1059,
+      "speaker": "Ben",
+      "start": 521.89,
+      "end": 540.21,
+      "kind": "tail",
+      "voiceWindow": [
+        532.21,
+        540.21
+      ],
+      "scores": {
+        "Narrator": 0.2692,
+        "Ben": 0.6658,
+        "Ms Nash": 0.2176
+      },
+      "chosen": "Ben"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 104.37,
+      "end": 108.09,
+      "words": [
+        {
+          "word": "Holidays,",
+          "start": 104.37,
+          "end": 104.71
+        },
+        {
+          "word": "can",
+          "start": 105.01,
+          "end": 105.07
+        },
+        {
+          "word": "I",
+          "start": 105.07,
+          "end": 105.21
+        },
+        {
+          "word": "help",
+          "start": 105.21,
+          "end": 105.37
+        },
+        {
+          "word": "you?",
+          "start": 105.37,
+          "end": 105.55
+        },
+        {
+          "word": "Yes,",
+          "start": 106.27,
+          "end": 106.57
+        },
+        {
+          "word": "I",
+          "start": 106.81,
+          "end": 107.11
+        },
+        {
+          "word": "hope",
+          "start": 107.11,
+          "end": 107.35
+        },
+        {
+          "word": "so.",
+          "start": 107.35,
+          "end": 107.67
+        }
+      ]
+    },
+    {
+      "start": 227.21,
+      "end": 230.93,
+      "words": [
+        {
+          "word": "and",
+          "start": 227.21,
+          "end": 227.35
+        },
+        {
+          "word": "it",
+          "start": 227.35,
+          "end": 227.47
+        },
+        {
+          "word": "has",
+          "start": 227.47,
+          "end": 227.63
+        },
+        {
+          "word": "some",
+          "start": 227.63,
+          "end": 227.83
+        },
+        {
+          "word": "special",
+          "start": 227.83,
+          "end": 228.21
+        },
+        {
+          "word": "features.",
+          "start": 228.21,
+          "end": 228.61
+        },
+        {
+          "word": "The",
+          "start": 229.79,
+          "end": 229.95
+        },
+        {
+          "word": "main",
+          "start": 229.95,
+          "end": 230.21
+        },
+        {
+          "word": "attraction",
+          "start": 230.21,
+          "end": 230.65
+        }
+      ]
+    },
+    {
+      "start": 233.25,
+      "end": 236.39,
+      "words": [
+        {
+          "word": "Mmm,",
+          "start": 233.25,
+          "end": 233.97
+        },
+        {
+          "word": "much",
+          "start": 234.13,
+          "end": 234.29
+        },
+        {
+          "word": "healthier,",
+          "start": 234.29,
+          "end": 234.73
+        },
+        {
+          "word": "I",
+          "start": 235.03,
+          "end": 235.05
+        },
+        {
+          "word": "understand.",
+          "start": 235.05,
+          "end": 235.39
+        },
+        {
+          "word": "That's",
+          "start": 235.79,
+          "end": 236.07
+        },
+        {
+          "word": "right.",
+          "start": 236.07,
+          "end": 236.27
+        }
+      ]
+    },
+    {
+      "start": 269.59,
+      "end": 273.29,
+      "words": [
+        {
+          "word": "Something",
+          "start": 269.59,
+          "end": 269.99
+        },
+        {
+          "word": "to",
+          "start": 269.99,
+          "end": 270.23
+        },
+        {
+          "word": "do",
+          "start": 270.23,
+          "end": 270.41
+        },
+        {
+          "word": "with",
+          "start": 270.41,
+          "end": 270.59
+        },
+        {
+          "word": "Sun",
+          "start": 270.59,
+          "end": 271.05
+        },
+        {
+          "word": "sunshine",
+          "start": 271.05,
+          "end": 272.03
+        },
+        {
+          "word": "is",
+          "start": 272.03,
+          "end": 272.31
+        },
+        {
+          "word": "it",
+          "start": 272.31,
+          "end": 272.77
+        },
+        {
+          "word": "I?",
+          "start": 272.77,
+          "end": 273.17
+        }
+      ]
+    },
+    {
+      "start": 306.72,
+      "end": 312.3,
+      "words": [
+        {
+          "word": "And",
+          "start": 306.72,
+          "end": 307.04
+        },
+        {
+          "word": "how",
+          "start": 307.04,
+          "end": 307.26
+        },
+        {
+          "word": "much",
+          "start": 307.26,
+          "end": 307.42
+        },
+        {
+          "word": "is",
+          "start": 307.42,
+          "end": 307.56
+        },
+        {
+          "word": "that",
+          "start": 307.56,
+          "end": 307.72
+        },
+        {
+          "word": "one?",
+          "start": 307.72,
+          "end": 308.08
+        },
+        {
+          "word": "£490",
+          "start": 309.98,
+          "end": 310.64
+        },
+        {
+          "word": "with",
+          "start": 310.64,
+          "end": 311.3
+        },
+        {
+          "word": "two",
+          "start": 311.3,
+          "end": 311.7
+        },
+        {
+          "word": "sharing.",
+          "start": 311.7,
+          "end": 312.04
+        }
+      ]
+    },
+    {
+      "start": 384.98,
+      "end": 388.32,
+      "words": [
+        {
+          "word": "Time",
+          "start": 384.98,
+          "end": 385.42
+        },
+        {
+          "word": "to",
+          "start": 385.42,
+          "end": 385.8
+        },
+        {
+          "word": "look",
+          "start": 385.8,
+          "end": 386
+        },
+        {
+          "word": "at",
+          "start": 386,
+          "end": 386.2
+        },
+        {
+          "word": "questions",
+          "start": 386.2,
+          "end": 386.6
+        },
+        {
+          "word": "6",
+          "start": 386.6,
+          "end": 387.3
+        },
+        {
+          "word": "to",
+          "start": 387.3,
+          "end": 387.74
+        },
+        {
+          "word": "10.",
+          "start": 387.74,
+          "end": 388.08
+        }
+      ]
+    },
+    {
+      "start": 451.13,
+      "end": 455.61,
+      "words": [
+        {
+          "word": "See,",
+          "start": 451.13,
+          "end": 451.31
+        },
+        {
+          "word": "I've",
+          "start": 451.55,
+          "end": 451.67
+        },
+        {
+          "word": "got,",
+          "start": 451.67,
+          "end": 451.81
+        },
+        {
+          "word": "you",
+          "start": 451.91,
+          "end": 451.99
+        },
+        {
+          "word": "can",
+          "start": 451.99,
+          "end": 452.13
+        },
+        {
+          "word": "claim",
+          "start": 452.13,
+          "end": 452.41
+        },
+        {
+          "word": "£8",
+          "start": 452.41,
+          "end": 452.73
+        },
+        {
+          "word": ",000.",
+          "start": 452.73,
+          "end": 453.19
+        },
+        {
+          "word": "We",
+          "start": 454.21,
+          "end": 454.61
+        },
+        {
+          "word": "can",
+          "start": 454.61,
+          "end": 454.81
+        },
+        {
+          "word": "improve",
+          "start": 454.81,
+          "end": 455.15
+        },
+        {
+          "word": "on",
+          "start": 455.15,
+          "end": 455.35
+        },
+        {
+          "word": "that.",
+          "start": 455.35,
+          "end": 455.55
+        }
+      ]
+    },
+    {
+      "start": 458.19,
+      "end": 466.69,
+      "words": [
+        {
+          "word": "Our",
+          "start": 458.19,
+          "end": 458.75
+        },
+        {
+          "word": "maximum",
+          "start": 458.75,
+          "end": 459.21
+        },
+        {
+          "word": "is",
+          "start": 459.21,
+          "end": 459.69
+        },
+        {
+          "word": "ten",
+          "start": 459.69,
+          "end": 459.99
+        },
+        {
+          "word": "thousand",
+          "start": 459.99,
+          "end": 460.33
+        },
+        {
+          "word": "pounds.",
+          "start": 460.33,
+          "end": 460.77
+        },
+        {
+          "word": "That's",
+          "start": 461.45,
+          "end": 461.63
+        },
+        {
+          "word": "good.",
+          "start": 461.63,
+          "end": 461.81
+        },
+        {
+          "word": "Of",
+          "start": 462.43,
+          "end": 462.63
+        },
+        {
+          "word": "course",
+          "start": 462.63,
+          "end": 462.89
+        },
+        {
+          "word": "our",
+          "start": 462.89,
+          "end": 463.19
+        },
+        {
+          "word": "holiday",
+          "start": 463.19,
+          "end": 463.49
+        },
+        {
+          "word": "won't",
+          "start": 463.49,
+          "end": 463.79
+        },
+        {
+          "word": "even",
+          "start": 463.79,
+          "end": 463.87
+        },
+        {
+          "word": "cost",
+          "start": 463.87,
+          "end": 464.19
+        },
+        {
+          "word": "one",
+          "start": 464.19,
+          "end": 464.55
+        },
+        {
+          "word": "thousand",
+          "start": 464.55,
+          "end": 464.89
+        },
+        {
+          "word": "pounds",
+          "start": 464.89,
+          "end": 465.23
+        },
+        {
+          "word": "together.",
+          "start": 465.23,
+          "end": 465.67
+        }
+      ]
+    },
+    {
+      "start": 522.97,
+      "end": 548.44,
+      "words": [
+        {
+          "word": "low.",
+          "start": 522.97,
+          "end": 523.19
+        },
+        {
+          "word": "That's",
+          "start": 524.01,
+          "end": 524.43
+        },
+        {
+          "word": "L",
+          "start": 524.43,
+          "end": 524.59
+        },
+        {
+          "word": "-U",
+          "start": 524.59,
+          "end": 524.95
+        },
+        {
+          "word": "-D",
+          "start": 524.95,
+          "end": 525.49
+        },
+        {
+          "word": "-L",
+          "start": 525.49,
+          "end": 526.13
+        },
+        {
+          "word": "-O",
+          "start": 526.13,
+          "end": 526.45
+        },
+        {
+          "word": "-W.",
+          "start": 526.45,
+          "end": 526.89
+        },
+        {
+          "word": "I'm",
+          "start": 527.51,
+          "end": 527.91
+        },
+        {
+          "word": "the",
+          "start": 527.91,
+          "end": 528.03
+        },
+        {
+          "word": "assistant",
+          "start": 528.03,
+          "end": 528.31
+        },
+        {
+          "word": "manager",
+          "start": 528.31,
+          "end": 528.65
+        },
+        {
+          "word": "here.",
+          "start": 528.65,
+          "end": 529.09
+        },
+        {
+          "word": "I'll",
+          "start": 529.75,
+          "end": 530.01
+        },
+        {
+          "word": "give",
+          "start": 530.01,
+          "end": 530.11
+        },
+        {
+          "word": "you",
+          "start": 530.11,
+          "end": 530.23
+        },
+        {
+          "word": "my",
+          "start": 530.23,
+          "end": 530.37
+        },
+        {
+          "word": "number.",
+          "start": 530.37,
+          "end": 530.65
+        },
+        {
+          "word": "It's",
+          "start": 531.31,
+          "end": 531.79
+        },
+        {
+          "word": "081",
+          "start": 531.79,
+          "end": 532.75
+        },
+        {
+          "word": "-260",
+          "start": 532.75,
+          "end": 534.63
+        },
+        {
+          "word": "-543",
+          "start": 534.63,
+          "end": 537.19
+        },
+        {
+          "word": "-216.",
+          "start": 537.19,
+          "end": 539.03
+        },
+        {
+          "word": "But",
+          "start": 540.29,
+          "end": 540.33
+        },
+        {
+          "word": "didn't",
+          "start": 540.33,
+          "end": 540.59
+        },
+        {
+          "word": "I",
+          "start": 540.59,
+          "end": 540.81
+        },
+        {
+          "word": "phone",
+          "start": 540.81,
+          "end": 541.27
+        },
+        {
+          "word": "081",
+          "start": 541.27,
+          "end": 542.51
+        },
+        {
+          "word": "-260",
+          "start": 542.51,
+          "end": 543.81
+        },
+        {
+          "word": "-567",
+          "start": 543.81,
+          "end": 545.49
+        },
+        {
+          "word": "-294?",
+          "start": 545.49,
+          "end": 546.41
+        },
+        {
+          "word": "That's",
+          "start": 547.13,
+          "end": 547.47
+        },
+        {
+          "word": "what",
+          "start": 547.47,
+          "end": 547.59
+        },
+        {
+          "word": "I've",
+          "start": 547.59,
+          "end": 547.79
+        },
+        {
+          "word": "got",
+          "start": 547.79,
+          "end": 547.89
+        },
+        {
+          "word": "on",
+          "start": 547.89,
+          "end": 548.03
+        },
+        {
+          "word": "the",
+          "start": 548.03,
+          "end": 548.15
+        },
+        {
+          "word": "paper.",
+          "start": 548.15,
+          "end": 548.31
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 597,
+      "text": "with",
+      "old": [
+        "310.16",
+        "311.30"
+      ],
+      "new": [
+        310.64,
+        311.3
+      ]
+    },
+    {
+      "index": 787,
+      "text": "at",
+      "old": [
+        "385.98",
+        "386.66"
+      ],
+      "new": [
+        385.98,
+        386.2
+      ]
+    },
+    {
+      "index": 908,
+      "text": "together.",
+      "old": [
+        "464.99",
+        "465.69"
+      ],
+      "new": [
+        465.23,
+        465.69
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 142,
+      "text": "Yes,",
+      "start": 106.27,
+      "end": 106.57,
+      "granularity": "source-token"
+    },
+    {
+      "index": 406,
+      "text": "Really?",
+      "start": 228.68,
+      "end": 229.19,
+      "granularity": "source-token"
+    },
+    {
+      "index": 420,
+      "text": "I understand.",
+      "start": 235.01,
+      "end": 235.39,
+      "granularity": "phrase"
+    },
+    {
+      "index": 508,
+      "text": "sunshine,",
+      "start": 271.05,
+      "end": 272.03,
+      "granularity": "source-token"
+    },
+    {
+      "index": 596,
+      "text": "£490",
+      "start": 309.98,
+      "end": 310.64,
+      "granularity": "source-token"
+    },
+    {
+      "index": 788,
+      "text": "questions",
+      "start": 386.2,
+      "end": 386.6,
+      "granularity": "source-token"
+    },
+    {
+      "index": 882,
+      "text": "£8,000.",
+      "start": 452.41,
+      "end": 453.19,
+      "granularity": "source-token"
+    },
+    {
+      "index": 897,
+      "text": "£10,000.",
+      "start": 459.69,
+      "end": 460.77,
+      "granularity": "source-token"
+    },
+    {
+      "index": 907,
+      "text": "£1,000",
+      "start": 464.19,
+      "end": 465.23,
+      "granularity": "source-token"
+    },
+    {
+      "index": 1062,
+      "text": "L-U-D-L-O-W.",
+      "start": 524.31,
+      "end": 526.87,
+      "granularity": "source-token"
+    },
+    {
+      "index": 1074,
+      "text": "081-260-543-216.",
+      "start": 531.63,
+      "end": 539.03,
+      "granularity": "source-token"
+    },
+    {
+      "index": 1079,
+      "text": "081-260-567-294?",
+      "start": 541.26,
+      "end": 546.44,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 1121,
+  "wordClocksSha256": "62fe885557719b1f06a10cc10eb335a9d2e8b0ffbdcdaee764b055848c5151ca",
+  "tokenCount": 1122,
+  "tokensSha256": "bafdf8acda0dd36558bdc0af79f10a92a35aa7e66920cc3b01f20d6e8bf82e16",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          7.15,
+          17
+        ],
+        [
+          143.77,
+          151.6
+        ],
+        [
+          382.02,
+          388
+        ]
+      ],
+      "Ben": [
+        [
+          197.54,
+          208.1
+        ],
+        [
+          286.59,
+          295.8
+        ],
+        [
+          497.55,
+          507
+        ]
+      ],
+      "Ms Nash": [
+        [
+          173.55,
+          184.5
+        ],
+        [
+          261.77,
+          272.8
+        ],
+        [
+          425.96,
+          434.6
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          7.15,
+          17
+        ],
+        "scores": {
+          "Narrator": 0.7591,
+          "Ben": 0.3535,
+          "Ms Nash": 0.2112
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          143.77,
+          151.6
+        ],
+        "scores": {
+          "Narrator": 0.7443,
+          "Ben": 0.2528,
+          "Ms Nash": 0.2177
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          382.02,
+          388
+        ],
+        "scores": {
+          "Narrator": 0.8155,
+          "Ben": 0.2629,
+          "Ms Nash": 0.2193
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Ben",
+        "window": [
+          197.54,
+          208.1
+        ],
+        "scores": {
+          "Narrator": 0.2833,
+          "Ben": 0.7923,
+          "Ms Nash": 0.1424
+        },
+        "chosen": "Ben"
+      },
+      {
+        "label": "Ben",
+        "window": [
+          286.59,
+          295.8
+        ],
+        "scores": {
+          "Narrator": 0.2688,
+          "Ben": 0.7631,
+          "Ms Nash": 0.2168
+        },
+        "chosen": "Ben"
+      },
+      {
+        "label": "Ben",
+        "window": [
+          497.55,
+          507
+        ],
+        "scores": {
+          "Narrator": 0.3223,
+          "Ben": 0.7995,
+          "Ms Nash": 0.1689
+        },
+        "chosen": "Ben"
+      },
+      {
+        "label": "Ms Nash",
+        "window": [
+          173.55,
+          184.5
+        ],
+        "scores": {
+          "Narrator": 0.2537,
+          "Ben": 0.2047,
+          "Ms Nash": 0.8789
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "label": "Ms Nash",
+        "window": [
+          261.77,
+          272.8
+        ],
+        "scores": {
+          "Narrator": 0.2451,
+          "Ben": 0.1779,
+          "Ms Nash": 0.8518
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "label": "Ms Nash",
+        "window": [
+          425.96,
+          434.6
+        ],
+        "scores": {
+          "Narrator": 0.1812,
+          "Ben": 0.1682,
+          "Ms Nash": 0.8924
+        },
+        "chosen": "Ms Nash"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "You will hear",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 7.15,
+        "end": 103.34,
+        "voiceWindow": [
+          7.15,
+          17.15
+        ],
+        "scores": {
+          "Narrator": 0.8966,
+          "Ben": 0.3566,
+          "Ms Nash": 0.2158
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Greek Island holidays",
+        "index": 135,
+        "speaker": "Ben",
+        "start": 103.37,
+        "end": 106.74,
+        "voiceWindow": [
+          103.37,
+          106.74
+        ],
+        "scores": {
+          "Narrator": 0.3824,
+          "Ben": 0.6628,
+          "Ms Nash": 0.2819
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 142,
+        "speaker": "Ms Nash",
+        "start": 106.77,
+        "end": 117.41,
+        "voiceWindow": [
+          106.77,
+          116.77
+        ],
+        "scores": {
+          "Narrator": 0.2407,
+          "Ben": 0.2086,
+          "Ms Nash": 0.9151
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Arelis Arelis",
+        "index": 171,
+        "speaker": "Ben",
+        "start": 117.44,
+        "end": 122.71,
+        "voiceWindow": [
+          117.44,
+          122.71
+        ],
+        "scores": {
+          "Narrator": 0.3167,
+          "Ben": 0.6647,
+          "Ms Nash": 0.1841
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Yes the first",
+        "index": 182,
+        "speaker": "Ms Nash",
+        "start": 122.74,
+        "end": 130.93,
+        "voiceWindow": [
+          122.74,
+          130.93
+        ],
+        "scores": {
+          "Narrator": 0.2535,
+          "Ben": 0.3022,
+          "Ms Nash": 0.7993
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well We've got",
+        "index": 201,
+        "speaker": "Ben",
+        "start": 130.96,
+        "end": 143.74,
+        "voiceWindow": [
+          130.96,
+          140.96
+        ],
+        "scores": {
+          "Narrator": 0.2894,
+          "Ben": 0.8671,
+          "Ms Nash": 0.1252
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "The entertainment program offers",
+        "index": 227,
+        "speaker": "Narrator",
+        "start": 143.77,
+        "end": 170.8,
+        "voiceWindow": [
+          143.77,
+          153.77
+        ],
+        "scores": {
+          "Narrator": 0.9105,
+          "Ben": 0.2719,
+          "Ms Nash": 0.2217
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Greek Island holidays",
+        "index": 272,
+        "speaker": "Ben",
+        "start": 170.83,
+        "end": 173.52,
+        "voiceWindow": [
+          170.83,
+          173.52
+        ],
+        "scores": {
+          "Narrator": 0.2549,
+          "Ben": 0.7166,
+          "Ms Nash": 0.1204
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 279,
+        "speaker": "Ms Nash",
+        "start": 173.55,
+        "end": 184.54,
+        "voiceWindow": [
+          173.55,
+          183.55
+        ],
+        "scores": {
+          "Narrator": 0.2036,
+          "Ben": 0.1827,
+          "Ms Nash": 0.9474
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Arelis Arelis",
+        "index": 308,
+        "speaker": "Ben",
+        "start": 184.57,
+        "end": 189.9,
+        "voiceWindow": [
+          184.57,
+          189.9
+        ],
+        "scores": {
+          "Narrator": 0.3097,
+          "Ben": 0.6986,
+          "Ms Nash": 0.1612
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Yes the first",
+        "index": 319,
+        "speaker": "Ms Nash",
+        "start": 189.93,
+        "end": 197.51,
+        "voiceWindow": [
+          189.93,
+          197.51
+        ],
+        "scores": {
+          "Narrator": 0.1858,
+          "Ben": 0.2156,
+          "Ms Nash": 0.8273
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well we've got",
+        "index": 338,
+        "speaker": "Ben",
+        "start": 197.54,
+        "end": 208.10999999999999,
+        "voiceWindow": [
+          197.54,
+          207.54
+        ],
+        "scores": {
+          "Narrator": 0.2851,
+          "Ben": 0.9151,
+          "Ms Nash": 0.1429
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "And the cost",
+        "index": 364,
+        "speaker": "Ms Nash",
+        "start": 208.14,
+        "end": 210.23,
+        "voiceWindow": [
+          208.14,
+          210.23
+        ],
+        "scores": {
+          "Narrator": 0.3299,
+          "Ben": 0.1858,
+          "Ms Nash": 0.6016
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Â£219",
+        "index": 371,
+        "speaker": "Ben",
+        "start": 210.26,
+        "end": 211.95,
+        "voiceWindow": [
+          210.26,
+          211.95
+        ],
+        "scores": {
+          "Narrator": 0.1791,
+          "Ben": 0.6306,
+          "Ms Nash": 0.1069
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "That sounds very reasonable",
+        "index": 372,
+        "speaker": "Ms Nash",
+        "start": 211.98,
+        "end": 221.59,
+        "voiceWindow": [
+          211.98,
+          221.59
+        ],
+        "scores": {
+          "Narrator": 0.1649,
+          "Ben": 0.1155,
+          "Ms Nash": 0.8824
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Blue Bay Yes",
+        "index": 392,
+        "speaker": "Ben",
+        "start": 221.62,
+        "end": 229.52,
+        "voiceWindow": [
+          221.62,
+          229.52
+        ],
+        "scores": {
+          "Narrator": 0.27,
+          "Ben": 0.7407,
+          "Ms Nash": 0.3305
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Really",
+        "index": 406,
+        "speaker": "Ms Nash",
+        "start": 228.68,
+        "end": 229.52,
+        "voiceWindow": [
+          228.68,
+          229.52
+        ],
+        "scores": {
+          "Narrator": -0.0115,
+          "Ben": 0.0051,
+          "Ms Nash": 0.377
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "The main attraction",
+        "index": 407,
+        "speaker": "Ben",
+        "start": 229.55,
+        "end": 233.98,
+        "voiceWindow": [
+          229.55,
+          233.98
+        ],
+        "scores": {
+          "Narrator": 0.2615,
+          "Ben": 0.7129,
+          "Ms Nash": 0.1953
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Much healthier I understand",
+        "index": 418,
+        "speaker": "Ms Nash",
+        "start": 234.01,
+        "end": 235.78,
+        "voiceWindow": [
+          234.01,
+          235.78
+        ],
+        "scores": {
+          "Narrator": 0.0725,
+          "Ben": 0.0885,
+          "Ms Nash": 0.5645
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "That's right",
+        "index": 422,
+        "speaker": "Ben",
+        "start": 235.81,
+        "end": 248,
+        "voiceWindow": [
+          235.81,
+          245.81
+        ],
+        "scores": {
+          "Narrator": 0.2711,
+          "Ben": 0.8462,
+          "Ms Nash": 0.1585
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Is it much more expensive",
+        "index": 452,
+        "speaker": "Ms Nash",
+        "start": 248.03,
+        "end": 250.68,
+        "voiceWindow": [
+          248.03,
+          250.68
+        ],
+        "scores": {
+          "Narrator": 0.1652,
+          "Ben": 0.1325,
+          "Ms Nash": 0.6608
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Let me just check",
+        "index": 461,
+        "speaker": "Ben",
+        "start": 250.71,
+        "end": 261.74,
+        "voiceWindow": [
+          250.71,
+          260.71000000000004
+        ],
+        "scores": {
+          "Narrator": 0.2529,
+          "Ben": 0.8048,
+          "Ms Nash": 0.2033
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Right I've got that",
+        "index": 482,
+        "speaker": "Ms Nash",
+        "start": 261.77,
+        "end": 272.8,
+        "voiceWindow": [
+          261.77,
+          271.77
+        ],
+        "scores": {
+          "Narrator": 0.2087,
+          "Ben": 0.1868,
+          "Ms Nash": 0.9237
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "I think you meant",
+        "index": 511,
+        "speaker": "Ben",
+        "start": 272.83,
+        "end": 277.82000000000005,
+        "voiceWindow": [
+          272.83,
+          277.82000000000005
+        ],
+        "scores": {
+          "Narrator": 0.2415,
+          "Ben": 0.7801,
+          "Ms Nash": 0.179
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Any special features",
+        "index": 522,
+        "speaker": "Ms Nash",
+        "start": 277.85,
+        "end": 279.42,
+        "voiceWindow": [
+          277.85,
+          279.42
+        ],
+        "scores": {
+          "Narrator": 0.3309,
+          "Ben": 0.1201,
+          "Ms Nash": 0.4025
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Yes each room",
+        "index": 525,
+        "speaker": "Ben",
+        "start": 279.45,
+        "end": 284.92,
+        "voiceWindow": [
+          279.45,
+          284.92
+        ],
+        "scores": {
+          "Narrator": 0.2409,
+          "Ben": 0.7721,
+          "Ms Nash": 0.2194
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Oh sounds lovely",
+        "index": 539,
+        "speaker": "Ms Nash",
+        "start": 284.95,
+        "end": 286.56,
+        "voiceWindow": [
+          284.95,
+          286.56
+        ],
+        "scores": {
+          "Narrator": 0.1532,
+          "Ben": 0.1954,
+          "Ms Nash": 0.5596
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Yes it is rather",
+        "index": 542,
+        "speaker": "Ben",
+        "start": 286.59,
+        "end": 296.05,
+        "voiceWindow": [
+          286.59,
+          296.05
+        ],
+        "scores": {
+          "Narrator": 0.2675,
+          "Ben": 0.8955,
+          "Ms Nash": 0.2157
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Any kite surfing",
+        "index": 564,
+        "speaker": "Ms Nash",
+        "start": 296.08,
+        "end": 299.17,
+        "voiceWindow": [
+          296.08,
+          299.17
+        ],
+        "scores": {
+          "Narrator": 0.2169,
+          "Ben": 0.0656,
+          "Ms Nash": 0.6437
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Not at the hotel",
+        "index": 571,
+        "speaker": "Ben",
+        "start": 299.2,
+        "end": 306.81,
+        "voiceWindow": [
+          299.2,
+          306.81
+        ],
+        "scores": {
+          "Narrator": 0.1601,
+          "Ben": 0.8331,
+          "Ms Nash": 0.1053
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "And how much is that one",
+        "index": 590,
+        "speaker": "Ms Nash",
+        "start": 306.84,
+        "end": 310.13000000000005,
+        "voiceWindow": [
+          306.84,
+          310.13000000000005
+        ],
+        "scores": {
+          "Narrator": 0.2158,
+          "Ben": 0.2113,
+          "Ms Nash": 0.6691
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Â£490 with two sharing",
+        "index": 596,
+        "speaker": "Ben",
+        "start": 310.16,
+        "end": 312.48,
+        "voiceWindow": [
+          310.16,
+          312.48
+        ],
+        "scores": {
+          "Narrator": 0.2868,
+          "Ben": 0.659,
+          "Ms Nash": 0.12
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "You mean Â£245 each",
+        "index": 600,
+        "speaker": "Ms Nash",
+        "start": 312.51,
+        "end": 315.86,
+        "voiceWindow": [
+          312.51,
+          315.86
+        ],
+        "scores": {
+          "Narrator": 0.0373,
+          "Ben": 0.1028,
+          "Ms Nash": 0.616
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "I'm afraid not",
+        "index": 604,
+        "speaker": "Ben",
+        "start": 315.89,
+        "end": 322.56,
+        "voiceWindow": [
+          315.89,
+          322.56
+        ],
+        "scores": {
+          "Narrator": 0.2121,
+          "Ben": 0.815,
+          "Ms Nash": 0.1489
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Oh I don't think",
+        "index": 624,
+        "speaker": "Ms Nash",
+        "start": 322.59,
+        "end": 330.16,
+        "voiceWindow": [
+          322.59,
+          330.16
+        ],
+        "scores": {
+          "Narrator": 0.1764,
+          "Ben": 0.1099,
+          "Ms Nash": 0.8387
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Actually it's quite reasonable",
+        "index": 646,
+        "speaker": "Ben",
+        "start": 330.19,
+        "end": 338.28000000000003,
+        "voiceWindow": [
+          330.19,
+          338.28000000000003
+        ],
+        "scores": {
+          "Narrator": 0.3098,
+          "Ben": 0.8744,
+          "Ms Nash": 0.1254
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Sounds nice What are the views",
+        "index": 665,
+        "speaker": "Ms Nash",
+        "start": 338.31,
+        "end": 340.23,
+        "voiceWindow": [
+          338.31,
+          340.23
+        ],
+        "scores": {
+          "Narrator": 0.0901,
+          "Ben": 0.1324,
+          "Ms Nash": 0.7442
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well there are forests",
+        "index": 672,
+        "speaker": "Ben",
+        "start": 340.26,
+        "end": 350.91,
+        "voiceWindow": [
+          340.26,
+          350.26
+        ],
+        "scores": {
+          "Narrator": 0.2154,
+          "Ben": 0.8477,
+          "Ms Nash": 0.1386
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "And the price",
+        "index": 703,
+        "speaker": "Ms Nash",
+        "start": 350.94,
+        "end": 353.09000000000003,
+        "voiceWindow": [
+          350.94,
+          353.09000000000003
+        ],
+        "scores": {
+          "Narrator": 0.3033,
+          "Ben": 0.2759,
+          "Ms Nash": 0.4979
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Â£319 at that time",
+        "index": 706,
+        "speaker": "Ben",
+        "start": 353.12,
+        "end": 359.92,
+        "voiceWindow": [
+          353.12,
+          359.92
+        ],
+        "scores": {
+          "Narrator": 0.2074,
+          "Ben": 0.8424,
+          "Ms Nash": 0.2004
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Too late I'm afraid",
+        "index": 722,
+        "speaker": "Ms Nash",
+        "start": 359.95,
+        "end": 362.51000000000005,
+        "voiceWindow": [
+          359.95,
+          362.51000000000005
+        ],
+        "scores": {
+          "Narrator": 0.0953,
+          "Ben": 0.1944,
+          "Ms Nash": 0.6105
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well why don't I send",
+        "index": 726,
+        "speaker": "Ben",
+        "start": 362.54,
+        "end": 366.69000000000005,
+        "voiceWindow": [
+          362.54,
+          366.69000000000005
+        ],
+        "scores": {
+          "Narrator": 0.3423,
+          "Ben": 0.6887,
+          "Ms Nash": 0.1723
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Nash But don't worry",
+        "index": 738,
+        "speaker": "Ms Nash",
+        "start": 366.72,
+        "end": 374.57000000000005,
+        "voiceWindow": [
+          366.72,
+          374.57000000000005
+        ],
+        "scores": {
+          "Narrator": 0.0891,
+          "Ben": 0.1729,
+          "Ms Nash": 0.8321
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well that's fine",
+        "index": 763,
+        "speaker": "Ben",
+        "start": 374.6,
+        "end": 381.99,
+        "voiceWindow": [
+          374.6,
+          381.99
+        ],
+        "scores": {
+          "Narrator": 0.3702,
+          "Ben": 0.5488,
+          "Ms Nash": 0.0677
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Before you hear",
+        "index": 773,
+        "speaker": "Narrator",
+        "start": 382.02,
+        "end": 425.93,
+        "voiceWindow": [
+          382.02,
+          392.02
+        ],
+        "scores": {
+          "Narrator": 0.8031,
+          "Ben": 0.2486,
+          "Ms Nash": 0.2115
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "If you've got a minute",
+        "index": 800,
+        "speaker": "Ms Nash",
+        "start": 425.96,
+        "end": 434.68,
+        "voiceWindow": [
+          425.96,
+          434.68
+        ],
+        "scores": {
+          "Narrator": 0.1806,
+          "Ben": 0.1668,
+          "Ms Nash": 0.9534
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Fine What would you like",
+        "index": 831,
+        "speaker": "Ben",
+        "start": 434.71,
+        "end": 437.70000000000005,
+        "voiceWindow": [
+          434.71,
+          437.70000000000005
+        ],
+        "scores": {
+          "Narrator": 0.2191,
+          "Ben": 0.7416,
+          "Ms Nash": 0.095
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Well the one I've got",
+        "index": 838,
+        "speaker": "Ms Nash",
+        "start": 437.73,
+        "end": 444.18,
+        "voiceWindow": [
+          437.73,
+          444.18
+        ],
+        "scores": {
+          "Narrator": 0.1188,
+          "Ben": 0.186,
+          "Ms Nash": 0.8007
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Yes That's how most",
+        "index": 857,
+        "speaker": "Ben",
+        "start": 444.21,
+        "end": 447.08000000000004,
+        "voiceWindow": [
+          444.21,
+          447.08000000000004
+        ],
+        "scores": {
+          "Narrator": 0.2801,
+          "Ben": 0.691,
+          "Ms Nash": 0.2362
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Well the first thing",
+        "index": 864,
+        "speaker": "Ms Nash",
+        "start": 447.11,
+        "end": 454.1,
+        "voiceWindow": [
+          447.11,
+          454.1
+        ],
+        "scores": {
+          "Narrator": 0.1442,
+          "Ben": 0.0893,
+          "Ms Nash": 0.7915
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "We can improve on that",
+        "index": 883,
+        "speaker": "Ben",
+        "start": 454.13,
+        "end": 461.14000000000004,
+        "voiceWindow": [
+          454.13,
+          461.14000000000004
+        ],
+        "scores": {
+          "Narrator": 0.2672,
+          "Ben": 0.8196,
+          "Ms Nash": 0.1767
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "That's good Of course",
+        "index": 898,
+        "speaker": "Ms Nash",
+        "start": 461.17,
+        "end": 466.68,
+        "voiceWindow": [
+          461.17,
+          466.68
+        ],
+        "scores": {
+          "Narrator": 0.0235,
+          "Ben": 0.135,
+          "Ms Nash": 0.7194
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "It's still sensible",
+        "index": 909,
+        "speaker": "Ben",
+        "start": 466.71,
+        "end": 472.82000000000005,
+        "voiceWindow": [
+          466.71,
+          472.82000000000005
+        ],
+        "scores": {
+          "Narrator": 0.2106,
+          "Ben": 0.828,
+          "Ms Nash": 0.0497
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Yes mine's similar",
+        "index": 925,
+        "speaker": "Ms Nash",
+        "start": 472.85,
+        "end": 474.44000000000005,
+        "voiceWindow": [
+          472.85,
+          474.44000000000005
+        ],
+        "scores": {
+          "Narrator": -0.0292,
+          "Ben": 0.09,
+          "Ms Nash": 0.6621
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "And we also allow",
+        "index": 928,
+        "speaker": "Ben",
+        "start": 474.47,
+        "end": 478.36,
+        "voiceWindow": [
+          474.47,
+          478.36
+        ],
+        "scores": {
+          "Narrator": 0.2067,
+          "Ben": 0.6892,
+          "Ms Nash": 0.1721
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "My policy just says",
+        "index": 940,
+        "speaker": "Ms Nash",
+        "start": 478.39,
+        "end": 482.21000000000004,
+        "voiceWindow": [
+          478.39,
+          482.21000000000004
+        ],
+        "scores": {
+          "Narrator": 0.0138,
+          "Ben": 0.0641,
+          "Ms Nash": 0.6382
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "You can see",
+        "index": 949,
+        "speaker": "Ben",
+        "start": 482.24,
+        "end": 484.75,
+        "voiceWindow": [
+          482.24,
+          484.75
+        ],
+        "scores": {
+          "Narrator": 0.2931,
+          "Ben": 0.6695,
+          "Ms Nash": 0.053
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "And what happens if",
+        "index": 956,
+        "speaker": "Ben",
+        "start": 484.78,
+        "end": 487.65000000000003,
+        "voiceWindow": [
+          484.78,
+          487.65000000000003
+        ],
+        "scores": {
+          "Narrator": 0.2857,
+          "Ben": 0.7317,
+          "Ms Nash": 0.0887
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Nothing as far as",
+        "index": 966,
+        "speaker": "Ms Nash",
+        "start": 487.68,
+        "end": 490.5,
+        "voiceWindow": [
+          487.68,
+          490.5
+        ],
+        "scores": {
+          "Narrator": 0.1103,
+          "Ben": 0.1366,
+          "Ms Nash": 0.6376
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Don't you have a missed departure",
+        "index": 976,
+        "speaker": "Ben",
+        "start": 490.53,
+        "end": 494.28000000000003,
+        "voiceWindow": [
+          490.53,
+          494.28000000000003
+        ],
+        "scores": {
+          "Narrator": 0.3112,
+          "Ben": 0.6254,
+          "Ms Nash": 0.1866
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "No I'll just drop",
+        "index": 982,
+        "speaker": "Ms Nash",
+        "start": 494.31,
+        "end": 497.52000000000004,
+        "voiceWindow": [
+          494.31,
+          497.52000000000004
+        ],
+        "scores": {
+          "Narrator": 0.0804,
+          "Ben": 0.07,
+          "Ms Nash": 0.6621
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "We pay up to a thousand",
+        "index": 988,
+        "speaker": "Ben",
+        "start": 497.55,
+        "end": 510.84000000000003,
+        "voiceWindow": [
+          497.55,
+          507.55
+        ],
+        "scores": {
+          "Narrator": 0.3173,
+          "Ben": 0.9172,
+          "Ms Nash": 0.1679
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Then I'd better",
+        "index": 1026,
+        "speaker": "Ms Nash",
+        "start": 510.87,
+        "end": 512.9,
+        "voiceWindow": [
+          510.87,
+          512.9
+        ],
+        "scores": {
+          "Narrator": 0.1823,
+          "Ben": 0.0916,
+          "Ms Nash": 0.6638
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Not unless",
+        "index": 1033,
+        "speaker": "Ben",
+        "start": 512.93,
+        "end": 515.12,
+        "voiceWindow": [
+          512.93,
+          515.12
+        ],
+        "scores": {
+          "Narrator": 0.1768,
+          "Ben": 0.6068,
+          "Ms Nash": 0.1399
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Okay thanks very much",
+        "index": 1039,
+        "speaker": "Ms Nash",
+        "start": 515.15,
+        "end": 521.86,
+        "voiceWindow": [
+          515.15,
+          521.86
+        ],
+        "scores": {
+          "Narrator": 0.0789,
+          "Ben": 0.1534,
+          "Ms Nash": 0.732
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Ben Ludlow",
+        "index": 1059,
+        "speaker": "Ben",
+        "start": 521.89,
+        "end": 540.21,
+        "voiceWindow": [
+          521.89,
+          531.89
+        ],
+        "scores": {
+          "Narrator": 0.2337,
+          "Ben": 0.801,
+          "Ms Nash": 0.0676
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "But didn't I phone",
+        "index": 1075,
+        "speaker": "Ms Nash",
+        "start": 540.24,
+        "end": 548.71,
+        "voiceWindow": [
+          540.24,
+          548.71
+        ],
+        "scores": {
+          "Narrator": 0.1221,
+          "Ben": 0.108,
+          "Ms Nash": 0.796
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "That's the main switchboard",
+        "index": 1087,
+        "speaker": "Ben",
+        "start": 548.74,
+        "end": 552.63,
+        "voiceWindow": [
+          548.74,
+          552.63
+        ],
+        "scores": {
+          "Narrator": 0.2513,
+          "Ben": 0.7913,
+          "Ms Nash": 0.2256
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Right Thank you very much",
+        "index": 1097,
+        "speaker": "Ms Nash",
+        "start": 552.66,
+        "end": 558.44,
+        "voiceWindow": [
+          552.66,
+          558.44
+        ],
+        "scores": {
+          "Narrator": -0.0545,
+          "Ben": 0.117,
+          "Ms Nash": 0.624
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 1105,
+        "speaker": "Narrator",
+        "start": 558.47,
+        "end": 564.89,
+        "voiceWindow": [
+          558.47,
+          564.89
+        ],
+        "scores": {
+          "Narrator": 0.7543,
+          "Ben": 0.2576,
+          "Ms Nash": 0.31
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "tailChecks": [
+      {
+        "phrase": "You will hear",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 7.15,
+        "end": 103.34,
+        "kind": "tail",
+        "voiceWindow": [
+          95.34,
+          103.34
+        ],
+        "scores": {
+          "Narrator": 0.6979,
+          "Ben": 0.2183,
+          "Ms Nash": 0.1184
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 142,
+        "speaker": "Ms Nash",
+        "start": 106.77,
+        "end": 117.41,
+        "kind": "tail",
+        "voiceWindow": [
+          109.41,
+          117.41
+        ],
+        "scores": {
+          "Narrator": 0.2634,
+          "Ben": 0.2091,
+          "Ms Nash": 0.8596
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well We've got",
+        "index": 201,
+        "speaker": "Ben",
+        "start": 130.96,
+        "end": 143.74,
+        "kind": "tail",
+        "voiceWindow": [
+          135.74,
+          143.74
+        ],
+        "scores": {
+          "Narrator": 0.2798,
+          "Ben": 0.7234,
+          "Ms Nash": 0.1361
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "The entertainment program offers",
+        "index": 227,
+        "speaker": "Narrator",
+        "start": 143.77,
+        "end": 170.8,
+        "kind": "tail",
+        "voiceWindow": [
+          162.8,
+          170.8
+        ],
+        "scores": {
+          "Narrator": 0.5457,
+          "Ben": 0.2805,
+          "Ms Nash": 0.333
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 279,
+        "speaker": "Ms Nash",
+        "start": 173.55,
+        "end": 184.54,
+        "kind": "tail",
+        "voiceWindow": [
+          176.54,
+          184.54
+        ],
+        "scores": {
+          "Narrator": 0.2515,
+          "Ben": 0.2079,
+          "Ms Nash": 0.853
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well we've got",
+        "index": 338,
+        "speaker": "Ben",
+        "start": 197.54,
+        "end": 208.10999999999999,
+        "kind": "tail",
+        "voiceWindow": [
+          200.10999999999999,
+          208.10999999999999
+        ],
+        "scores": {
+          "Narrator": 0.2565,
+          "Ben": 0.8968,
+          "Ms Nash": 0.1406
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "That's right",
+        "index": 422,
+        "speaker": "Ben",
+        "start": 235.81,
+        "end": 248,
+        "kind": "tail",
+        "voiceWindow": [
+          240,
+          248
+        ],
+        "scores": {
+          "Narrator": 0.3317,
+          "Ben": 0.8641,
+          "Ms Nash": 0.1647
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Let me just check",
+        "index": 461,
+        "speaker": "Ben",
+        "start": 250.71,
+        "end": 261.74,
+        "kind": "tail",
+        "voiceWindow": [
+          253.74,
+          261.74
+        ],
+        "scores": {
+          "Narrator": 0.2181,
+          "Ben": 0.7756,
+          "Ms Nash": 0.1748
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Right I've got that",
+        "index": 482,
+        "speaker": "Ms Nash",
+        "start": 261.77,
+        "end": 272.8,
+        "kind": "tail",
+        "voiceWindow": [
+          264.8,
+          272.8
+        ],
+        "scores": {
+          "Narrator": 0.2217,
+          "Ben": 0.1835,
+          "Ms Nash": 0.8914
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well there are forests",
+        "index": 672,
+        "speaker": "Ben",
+        "start": 340.26,
+        "end": 350.91,
+        "kind": "tail",
+        "voiceWindow": [
+          342.91,
+          350.91
+        ],
+        "scores": {
+          "Narrator": 0.1895,
+          "Ben": 0.8215,
+          "Ms Nash": 0.1313
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Before you hear",
+        "index": 773,
+        "speaker": "Narrator",
+        "start": 382.02,
+        "end": 425.93,
+        "kind": "tail",
+        "voiceWindow": [
+          417.93,
+          425.93
+        ],
+        "scores": {
+          "Narrator": 0.4982,
+          "Ben": 0.2489,
+          "Ms Nash": 0.1911
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "We pay up to a thousand",
+        "index": 988,
+        "speaker": "Ben",
+        "start": 497.55,
+        "end": 510.84000000000003,
+        "kind": "tail",
+        "voiceWindow": [
+          502.84000000000003,
+          510.84000000000003
+        ],
+        "scores": {
+          "Narrator": 0.2383,
+          "Ben": 0.8177,
+          "Ms Nash": 0.1197
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Ben Ludlow",
+        "index": 1059,
+        "speaker": "Ben",
+        "start": 521.89,
+        "end": 540.21,
+        "kind": "tail",
+        "voiceWindow": [
+          532.21,
+          540.21
+        ],
+        "scores": {
+          "Narrator": 0.2692,
+          "Ben": 0.6658,
+          "Ms Nash": 0.2176
+        },
+        "chosen": "Ben"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "initialTailChecks": [
+      {
+        "phrase": "You will hear",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 7.15,
+        "end": 103.34,
+        "voiceWindow": [
+          95.34,
+          103.34
+        ],
+        "scores": {
+          "Narrator": 0.6979,
+          "Ben": 0.2183,
+          "Ms Nash": 0.1184
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 142,
+        "speaker": "Ms Nash",
+        "start": 106.77,
+        "end": 117.41,
+        "voiceWindow": [
+          116.77,
+          117.41
+        ],
+        "scores": {
+          "Narrator": 0.2743,
+          "Ben": 0.251,
+          "Ms Nash": 0.0114
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Well We've got",
+        "index": 201,
+        "speaker": "Ben",
+        "start": 130.96,
+        "end": 143.74,
+        "voiceWindow": [
+          140.96,
+          143.74
+        ],
+        "scores": {
+          "Narrator": 0.1633,
+          "Ben": 0.257,
+          "Ms Nash": 0.0716
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "The entertainment program offers",
+        "index": 227,
+        "speaker": "Narrator",
+        "start": 143.77,
+        "end": 170.8,
+        "voiceWindow": [
+          162.8,
+          170.8
+        ],
+        "scores": {
+          "Narrator": 0.5457,
+          "Ben": 0.2805,
+          "Ms Nash": 0.333
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yes I hope so",
+        "index": 279,
+        "speaker": "Ms Nash",
+        "start": 173.55,
+        "end": 184.54,
+        "voiceWindow": [
+          183.55,
+          184.54
+        ],
+        "scores": {
+          "Narrator": 0.2122,
+          "Ben": 0.1886,
+          "Ms Nash": -0.026
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Well we've got",
+        "index": 338,
+        "speaker": "Ben",
+        "start": 197.54,
+        "end": 208.10999999999999,
+        "voiceWindow": [
+          207.54,
+          208.10999999999999
+        ],
+        "scores": {
+          "Narrator": 0.0679,
+          "Ben": 0.1518,
+          "Ms Nash": 0.0684
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "That's right",
+        "index": 422,
+        "speaker": "Ben",
+        "start": 235.81,
+        "end": 248,
+        "voiceWindow": [
+          245.81,
+          248
+        ],
+        "scores": {
+          "Narrator": 0.3188,
+          "Ben": 0.7164,
+          "Ms Nash": 0.1169
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Let me just check",
+        "index": 461,
+        "speaker": "Ben",
+        "start": 250.71,
+        "end": 261.74,
+        "voiceWindow": [
+          260.71000000000004,
+          261.74
+        ],
+        "scores": {
+          "Narrator": 0.1234,
+          "Ben": 0.5416,
+          "Ms Nash": 0.0788
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Right I've got that",
+        "index": 482,
+        "speaker": "Ms Nash",
+        "start": 261.77,
+        "end": 272.8,
+        "voiceWindow": [
+          271.77,
+          272.8
+        ],
+        "scores": {
+          "Narrator": 0.2825,
+          "Ben": 0.1023,
+          "Ms Nash": 0.545
+        },
+        "chosen": "Ms Nash"
+      },
+      {
+        "phrase": "Well there are forests",
+        "index": 672,
+        "speaker": "Ben",
+        "start": 340.26,
+        "end": 350.91,
+        "voiceWindow": [
+          350.26,
+          350.91
+        ],
+        "scores": {
+          "Narrator": 0.0727,
+          "Ben": 0.4759,
+          "Ms Nash": 0.0629
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Before you hear",
+        "index": 773,
+        "speaker": "Narrator",
+        "start": 382.02,
+        "end": 425.93,
+        "voiceWindow": [
+          417.93,
+          425.93
+        ],
+        "scores": {
+          "Narrator": 0.4982,
+          "Ben": 0.2489,
+          "Ms Nash": 0.1911
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "We pay up to a thousand",
+        "index": 988,
+        "speaker": "Ben",
+        "start": 497.55,
+        "end": 510.84000000000003,
+        "voiceWindow": [
+          507.55,
+          510.84000000000003
+        ],
+        "scores": {
+          "Narrator": 0.2322,
+          "Ben": 0.7754,
+          "Ms Nash": 0.1639
+        },
+        "chosen": "Ben"
+      },
+      {
+        "phrase": "Ben Ludlow",
+        "index": 1059,
+        "speaker": "Ben",
+        "start": 521.89,
+        "end": 540.21,
+        "voiceWindow": [
+          532.21,
+          540.21
+        ],
+        "scores": {
+          "Narrator": 0.2692,
+          "Ben": 0.6658,
+          "Ms Nash": 0.2176
+        },
+        "chosen": "Ben"
+      }
+    ],
+    "shortReplyChecks": []
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four sections. At the end of the test, you will be given ten minutes to transfer your answers"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Narrator",
+      "text": " to an answer sheet. Now turn to section 1. Section 1. You will hear a telephone conversation between a travel company employee and a customer. First, you have some time to look at questions 1 to 5. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Ben",
+      "text": " Greek Island holidays, can I help you? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Ms Nash",
+      "text": "Yes, I hope so. I have a friend who's just come back from Corfu, and she's recommended some apartments in Arelis. She thought they might be on your list. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Ben",
+      "text": "Arelis, Arelis, let me see. Can you give me the names? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Ms Nash",
+      "text": "Yes, the first Rose Garden apartment. I'd like to go with another friend in the last week of October. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Ben",
+      "text": "Well..."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Ben",
+      "text": " We've got a lovely studio flat available at that time. I'm sure you'd enjoy the entertainment program there too, with Greek dancing in the restaurant. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Narrator",
+      "text": "The entertainment program offers Greek dancing, so Greek dancing has been written in the space. Now we shall begin. You should answer the questions as you listen, because you will not hear the recording a second time. Listen carefully."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Narrator",
+      "text": " and answer questions one to five. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Ben",
+      "text": "Greek Island holidays, can I help you? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Ms Nash",
+      "text": "Yes, I hope so. I have a friend who's just come back from Corfu and she's recommended some apartments in Arelis. She thought they might be on your list. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Ben",
+      "text": "Arelis, Arelis, let me see. Can you give me the names? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Ms Nash",
+      "text": "Yes, the first Rose Garden Apartments. I'd like to go with another friend in the last week of October."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Ben",
+      "text": " Well, we've got a lovely studio flat available at that time. I'm sure you'd enjoy the entertainment program there, too, with Greek dancing in the restaurant. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Ms Nash",
+      "text": "And the cost for each of us? "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Ben",
+      "text": "£219. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Ms Nash",
+      "text": "That sounds very reasonable. I'm just jotting down some notes. Now, the second one she mentioned was called Blue Bay. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Ben",
+      "text": "Blue Bay. Yes. In fact, that's very popular."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ben",
+      "text": " and it has some special features. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ms Nash",
+      "text": "Really? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ben",
+      "text": "The main attraction is the large swimming pool with salt water. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ms Nash",
+      "text": "Much healthier, I understand. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ben",
+      "text": "That's right. And it isn't far from the beach either. Only 300 metres. And only around half a kilometre to some shops, so you don't have to be too energetic. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ms Nash",
+      "text": "Is it much more expensive than the first one? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Ben",
+      "text": "Let me just check."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Ben",
+      "text": " I think at the time you want to go it's around £260. No, £275 to be exact. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Ms Nash",
+      "text": "Right, I've got that. Now there are just two more apartments to ask you about. I can't read my own writing. Something to do with sun, sunshine, is it? "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Ben",
+      "text": "I think you meant the sunshade apartments. They're on a mountainside. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Ms Nash",
+      "text": "Any special features? "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Ben",
+      "text": "Yes, each room has its own sun terrace."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ben",
+      "text": " and there are shared barbecue facilities. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ms Nash",
+      "text": "Oh, sounds lovely. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ben",
+      "text": "Yes, it is rather well equipped. It also provides water sports. It has its own beach. There are facilities for water skiing. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ms Nash",
+      "text": "Any kite surfing? My friend's quite keen. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ben",
+      "text": "Not at the hotel, but I'm sure you'll find some in Arelis. There's also satellite TV in the apartments. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ms Nash",
+      "text": "And how much is that one? "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Ben",
+      "text": "£490 with two sharing."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Ms Nash",
+      "text": " You mean £245 each? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Ben",
+      "text": "I'm afraid not. Each person has to pay that amount and there must be at least two in an apartment. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Ms Nash",
+      "text": "Oh, I don't think that would be within our budget, unfortunately. And the last one sounds a bit expensive too. The grant? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Ben",
+      "text": "Actually, it's quite reasonable. It's an older style house with Greek paintings in every room and a balcony outside. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Ms Nash",
+      "text": "Sounds nice. What are the views like?"
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ben",
+      "text": " Well, there are forests all round and they hide a supermarket just down the road. So that's very useful for all your shopping needs. There's a disco in the area too. "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ms Nash",
+      "text": "And the price? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ben",
+      "text": "£319 at that time. But if you leave it till November, it goes down by 40%. "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ms Nash",
+      "text": "Too late, I'm afraid. "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ben",
+      "text": "Well, why don't I send you a brochure with full details, Miss? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Ms Nash",
+      "text": "Nash. But don't worry about that."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Ms Nash",
+      "text": " I'm coming to Upminster soon, and I'll call and get one. I just wanted to get an idea first. "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Ben",
+      "text": "Well, that's fine. We've got plenty here when you come. "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 6 to 10. Now listen and answer questions 6 to 10. "
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Ms Nash",
+      "text": "If you've got a minute, could I just check a couple of points about insurance? I got one policy through the post, but I'd like to see if yours is better."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ben",
+      "text": " Fine. What would you like to know? "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ms Nash",
+      "text": "Well, the one I've got has benefits, and then the maximum amount you can claim. Is that like yours? "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ben",
+      "text": "Yes. That's how most of them are. "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ms Nash",
+      "text": "Well, the first thing is cancellation. If the holiday's cancelled on the policy I've got, you can claim £8,000. "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ben",
+      "text": "We can improve on that, Miss Nash. For Greek Island holidays, our maximum is £10,000. "
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Ms Nash",
+      "text": "That's good."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ms Nash",
+      "text": " Of course our holiday won't even cost £1,000 together. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ben",
+      "text": "It's still sensible to have good cover. Now, if you go to hospital, we allow £600. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ms Nash",
+      "text": "Yes, mine's similar. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ben",
+      "text": "And we also allow a relative to travel to your holiday resort? "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ms Nash",
+      "text": "My policy just says their representative will help you. "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ben",
+      "text": "You can see there's another difference there. And what happens if you don't get on the plane? "
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Ms Nash",
+      "text": "Nothing, as far as I can see on this form."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ben",
+      "text": " Don't you have a missed departure? "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ms Nash",
+      "text": "No, I'll just drop that down. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ben",
+      "text": "We pay up to a thousand pounds for that, depending on the reason. And we're particularly generous about loss of personal belongings, up to three thousand pounds, but not more than five hundred pounds for a single item. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ms Nash",
+      "text": "Then I'd better not take my laptop. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ben",
+      "text": "Not unless you ensure it separately. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Ms Nash",
+      "text": "Okay, thanks very much for your time. You've really been helpful."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Ms Nash",
+      "text": " Can I get back to you? Your name is? "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Ben",
+      "text": "Ben Ludlow. That's L-U-D-L-O-W. I'm the assistant manager here. I'll give you my number. It's 081-260-543-216. "
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Ms Nash",
+      "text": "But didn't I phone 081-260-567-294? That's what I've got on the paper."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Ben",
+      "text": " That's the main switchboard. I've given you my direct line. "
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Ms Nash",
+      "text": "Right. Thank you very much for your time. "
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Narrator",
+      "text": "That is the end of Section 1. You now have half a minute to check your answers."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

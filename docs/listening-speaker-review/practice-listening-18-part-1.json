@@ -1,0 +1,2367 @@
+{
+  "test": "practice-listening-18",
+  "part": 1,
+  "audioSha256": "7eb1ba4535bd7fd838b37e9ad33e1b53493cff6bef91ea2516518b224f919669",
+  "scope": {
+    "start": 0,
+    "end": 352.29
+  },
+  "sourceScope": "All 11 published transcript paragraphs, 45 phrase voice windows and six long-turn tails. Acoustic checks separate Customer from the compatible Narration/agent group; Narrator versus Travel agent are content-derived roles, not a claim of distinct physical voices. Both three-way model calibrations are retained in the audit. Four zero-duration or missing-word cases retain a whole source phrase cue instead of invented internal timing. Compound names/prices recovered from the cached full recognition and corroborated by cropped recognition. Source spelling self-hatering retained; no verbatim wording audit.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 352.29,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 254,
+      "text": "price",
+      "start": "126.82",
+      "end": "126.90"
+    },
+    {
+      "index": 482,
+      "text": "costs",
+      "start": "204.84",
+      "end": "205.04"
+    },
+    {
+      "index": 525,
+      "text": "at",
+      "start": "222.14",
+      "end": "222.82"
+    },
+    {
+      "index": 638,
+      "text": "second",
+      "start": "283.17",
+      "end": "283.39"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "phrase": "Test 2",
+      "index": 0,
+      "start": 1.78,
+      "speaker": "Narrator",
+      "end": 85.62,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        77.62,
+        85.62
+      ],
+      "scores": {
+        "Narration/agent": 0.7466,
+        "Customer": 0.1468
+      },
+      "chosen": "Narration/agent"
+    },
+    {
+      "phrase": "Oh rest assured",
+      "index": 290,
+      "start": 139.94,
+      "speaker": "Travel agent",
+      "end": 152.55,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        149.94,
+        152.55
+      ],
+      "scores": {
+        "Narration/agent": 0.6873,
+        "Customer": 0.2307
+      },
+      "chosen": "Narration/agent"
+    },
+    {
+      "phrase": "Well it was originally",
+      "index": 333,
+      "start": 153.96,
+      "speaker": "Travel agent",
+      "end": 169.39,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        163.96,
+        169.39
+      ],
+      "scores": {
+        "Narration/agent": 0.7397,
+        "Customer": 0.2634
+      },
+      "chosen": "Narration/agent"
+    },
+    {
+      "phrase": "Before you hear",
+      "index": 511,
+      "start": 217.92,
+      "speaker": "Narrator",
+      "end": 249.43,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        241.43,
+        249.43
+      ],
+      "scores": {
+        "Narration/agent": 0.755,
+        "Customer": 0.1051
+      },
+      "chosen": "Narration/agent"
+    },
+    {
+      "phrase": "It covers medical",
+      "index": 597,
+      "start": 267.69,
+      "speaker": "Travel agent",
+      "end": 281.12,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        277.69,
+        281.12
+      ],
+      "scores": {
+        "Narration/agent": 0.6359,
+        "Customer": 0.2349
+      },
+      "chosen": "Narration/agent"
+    },
+    {
+      "phrase": "The second one",
+      "index": 637,
+      "start": 283.17,
+      "speaker": "Travel agent",
+      "end": 299.96000000000004,
+      "acousticSpeaker": "Narration/agent",
+      "voiceWindow": [
+        293.17,
+        299.96000000000004
+      ],
+      "scores": {
+        "Narration/agent": 0.8358,
+        "Customer": 0.2238
+      },
+      "chosen": "Narration/agent"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 31.119999999999997,
+      "end": 35.72,
+      "words": [
+        {
+          "word": "to",
+          "start": 31.12,
+          "end": 31.66
+        },
+        {
+          "word": "the",
+          "start": 31.66,
+          "end": 31.84
+        },
+        {
+          "word": "answer",
+          "start": 31.84,
+          "end": 32.14
+        },
+        {
+          "word": "sheet.",
+          "start": 32.14,
+          "end": 32.58
+        },
+        {
+          "word": "Now",
+          "start": 33.94,
+          "end": 34.34
+        },
+        {
+          "word": "turn",
+          "start": 34.34,
+          "end": 34.72
+        },
+        {
+          "word": "to",
+          "start": 34.72,
+          "end": 35.08
+        },
+        {
+          "word": "part",
+          "start": 35.08,
+          "end": 35.3
+        },
+        {
+          "word": "one.",
+          "start": 35.3,
+          "end": 35.7
+        }
+      ]
+    },
+    {
+      "start": 120.96,
+      "end": 127.9,
+      "words": [
+        {
+          "word": "Hotel,",
+          "start": 120.96,
+          "end": 121.38
+        },
+        {
+          "word": "or",
+          "start": 121.72,
+          "end": 121.98
+        },
+        {
+          "word": "a",
+          "start": 121.98,
+          "end": 122.18
+        },
+        {
+          "word": "self",
+          "start": 122.18,
+          "end": 122.42
+        },
+        {
+          "word": "-catering",
+          "start": 122.42,
+          "end": 122.9
+        },
+        {
+          "word": "apartment?",
+          "start": 122.9,
+          "end": 123.36
+        },
+        {
+          "word": "Can",
+          "start": 123.94,
+          "end": 124.08
+        },
+        {
+          "word": "you",
+          "start": 124.08,
+          "end": 124.3
+        },
+        {
+          "word": "introduce",
+          "start": 124.3,
+          "end": 124.66
+        },
+        {
+          "word": "the",
+          "start": 124.66,
+          "end": 124.88
+        },
+        {
+          "word": "hotel",
+          "start": 124.88,
+          "end": 125.18
+        },
+        {
+          "word": "package",
+          "start": 125.18,
+          "end": 125.54
+        },
+        {
+          "word": "first?",
+          "start": 125.54,
+          "end": 125.86
+        },
+        {
+          "word": "Sure,",
+          "start": 126.32,
+          "end": 126.52
+        },
+        {
+          "word": "price",
+          "start": 126.7,
+          "end": 126.88
+        },
+        {
+          "word": "for",
+          "start": 126.88,
+          "end": 127.12
+        },
+        {
+          "word": "our",
+          "start": 127.12,
+          "end": 127.24
+        },
+        {
+          "word": "hotel",
+          "start": 127.24,
+          "end": 127.6
+        },
+        {
+          "word": "pack",
+          "start": 127.6,
+          "end": 127.82
+        },
+        {
+          "word": "-",
+          "start": 127.82,
+          "end": 127.82
+        }
+      ]
+    },
+    {
+      "start": 143.4,
+      "end": 150.46,
+      "words": [
+        {
+          "word": "nightclub",
+          "start": 143.4,
+          "end": 143.84
+        },
+        {
+          "word": "and",
+          "start": 143.84,
+          "end": 144.26
+        },
+        {
+          "word": "a",
+          "start": 144.26,
+          "end": 144.38
+        },
+        {
+          "word": "gym",
+          "start": 144.38,
+          "end": 144.7
+        },
+        {
+          "word": "guests",
+          "start": 144.7,
+          "end": 145.28
+        },
+        {
+          "word": "can",
+          "start": 145.28,
+          "end": 145.52
+        },
+        {
+          "word": "enjoy",
+          "start": 145.52,
+          "end": 145.76
+        },
+        {
+          "word": "a",
+          "start": 145.76,
+          "end": 145.9
+        },
+        {
+          "word": "vibrant",
+          "start": 145.9,
+          "end": 146.24
+        },
+        {
+          "word": "nightlife",
+          "start": 146.24,
+          "end": 146.82
+        },
+        {
+          "word": "during",
+          "start": 146.82,
+          "end": 147.12
+        },
+        {
+          "word": "their",
+          "start": 147.12,
+          "end": 147.34
+        },
+        {
+          "word": "stay",
+          "start": 147.34,
+          "end": 147.56
+        },
+        {
+          "word": "at",
+          "start": 147.56,
+          "end": 147.68
+        },
+        {
+          "word": "the",
+          "start": 147.68,
+          "end": 147.76
+        },
+        {
+          "word": "hotel",
+          "start": 147.76,
+          "end": 148.18
+        },
+        {
+          "word": "five",
+          "start": 148.18,
+          "end": 148.78
+        },
+        {
+          "word": "star",
+          "start": 148.78,
+          "end": 149.06
+        },
+        {
+          "word": "ratings",
+          "start": 149.06,
+          "end": 149.48
+        },
+        {
+          "word": "are",
+          "start": 149.48,
+          "end": 149.66
+        },
+        {
+          "word": "common",
+          "start": 149.66,
+          "end": 149.86
+        },
+        {
+          "word": "for",
+          "start": 149.86,
+          "end": 150.12
+        },
+        {
+          "word": "the",
+          "start": 150.12,
+          "end": 150.22
+        },
+        {
+          "word": "hotel",
+          "start": 150.22,
+          "end": 150.38
+        }
+      ]
+    },
+    {
+      "start": 160.92,
+      "end": 165.68,
+      "words": [
+        {
+          "word": "You",
+          "start": 160.92,
+          "end": 161.3
+        },
+        {
+          "word": "can",
+          "start": 161.3,
+          "end": 161.42
+        },
+        {
+          "word": "get",
+          "start": 161.42,
+          "end": 161.54
+        },
+        {
+          "word": "a",
+          "start": 161.54,
+          "end": 161.66
+        },
+        {
+          "word": "discount",
+          "start": 161.66,
+          "end": 161.96
+        },
+        {
+          "word": "of",
+          "start": 161.96,
+          "end": 162.38
+        },
+        {
+          "word": "12",
+          "start": 162.38,
+          "end": 162.78
+        },
+        {
+          "word": ".5%,",
+          "start": 162.78,
+          "end": 164.06
+        },
+        {
+          "word": "so",
+          "start": 164.06,
+          "end": 164.68
+        },
+        {
+          "word": "that's...",
+          "start": 164.68,
+          "end": 165.56
+        }
+      ]
+    },
+    {
+      "start": 170,
+      "end": 173.22,
+      "words": [
+        {
+          "word": "What",
+          "start": 170,
+          "end": 170.66
+        },
+        {
+          "word": "about",
+          "start": 170.66,
+          "end": 171
+        },
+        {
+          "word": "the",
+          "start": 171,
+          "end": 171.2
+        },
+        {
+          "word": "self",
+          "start": 171.2,
+          "end": 171.44
+        },
+        {
+          "word": "-catering",
+          "start": 171.44,
+          "end": 171.96
+        },
+        {
+          "word": "apartment?",
+          "start": 171.96,
+          "end": 172.32
+        }
+      ]
+    },
+    {
+      "start": 203.06,
+      "end": 206.04,
+      "words": [
+        {
+          "word": "How",
+          "start": 203.06,
+          "end": 203.62
+        },
+        {
+          "word": "much",
+          "start": 203.62,
+          "end": 203.78
+        },
+        {
+          "word": "does",
+          "start": 203.78,
+          "end": 203.94
+        },
+        {
+          "word": "it",
+          "start": 203.94,
+          "end": 204.06
+        },
+        {
+          "word": "cost?",
+          "start": 204.06,
+          "end": 204.32
+        },
+        {
+          "word": "It",
+          "start": 204.84,
+          "end": 204.84
+        },
+        {
+          "word": "costs",
+          "start": 204.84,
+          "end": 205.04
+        },
+        {
+          "word": "15",
+          "start": 205.04,
+          "end": 205.5
+        },
+        {
+          "word": "euros",
+          "start": 205.5,
+          "end": 205.78
+        },
+        {
+          "word": "for...",
+          "start": 205.78,
+          "end": 206.02
+        }
+      ]
+    },
+    {
+      "start": 221.14,
+      "end": 224.36,
+      "words": [
+        {
+          "word": "Time",
+          "start": 221.14,
+          "end": 221.54
+        },
+        {
+          "word": "to",
+          "start": 221.54,
+          "end": 221.96
+        },
+        {
+          "word": "look",
+          "start": 221.96,
+          "end": 222.16
+        },
+        {
+          "word": "at",
+          "start": 222.16,
+          "end": 222.84
+        },
+        {
+          "word": "questions",
+          "start": 222.84,
+          "end": 222.84
+        },
+        {
+          "word": "7",
+          "start": 222.84,
+          "end": 223.36
+        },
+        {
+          "word": "to",
+          "start": 223.36,
+          "end": 223.74
+        },
+        {
+          "word": "10.",
+          "start": 223.74,
+          "end": 224.06
+        }
+      ]
+    },
+    {
+      "start": 281.43,
+      "end": 290.75,
+      "words": [
+        {
+          "word": "And",
+          "start": 281.43,
+          "end": 281.63
+        },
+        {
+          "word": "how",
+          "start": 281.63,
+          "end": 281.91
+        },
+        {
+          "word": "about",
+          "start": 281.91,
+          "end": 282.15
+        },
+        {
+          "word": "the",
+          "start": 282.15,
+          "end": 282.31
+        },
+        {
+          "word": "other",
+          "start": 282.31,
+          "end": 282.45
+        },
+        {
+          "word": "one?",
+          "start": 282.45,
+          "end": 282.77
+        },
+        {
+          "word": "The",
+          "start": 283.19,
+          "end": 283.19
+        },
+        {
+          "word": "second",
+          "start": 283.19,
+          "end": 283.39
+        },
+        {
+          "word": "one",
+          "start": 283.39,
+          "end": 283.73
+        },
+        {
+          "word": "is",
+          "start": 283.73,
+          "end": 284.01
+        },
+        {
+          "word": "called",
+          "start": 284.01,
+          "end": 284.37
+        },
+        {
+          "word": "Premier",
+          "start": 284.37,
+          "end": 284.85
+        },
+        {
+          "word": "Cover.",
+          "start": 284.85,
+          "end": 285.25
+        },
+        {
+          "word": "It",
+          "start": 285.73,
+          "end": 285.79
+        },
+        {
+          "word": "is",
+          "start": 285.79,
+          "end": 285.93
+        },
+        {
+          "word": "more",
+          "start": 285.93,
+          "end": 286.13
+        },
+        {
+          "word": "expensive",
+          "start": 286.13,
+          "end": 286.69
+        },
+        {
+          "word": "at",
+          "start": 286.69,
+          "end": 287.35
+        },
+        {
+          "word": "€42",
+          "start": 287.35,
+          "end": 288.17
+        },
+        {
+          "word": ".50,",
+          "start": 288.17,
+          "end": 289.23
+        },
+        {
+          "word": "but",
+          "start": 289.23,
+          "end": 289.77
+        },
+        {
+          "word": "we",
+          "start": 289.77,
+          "end": 289.95
+        },
+        {
+          "word": "highly",
+          "start": 289.95,
+          "end": 290.37
+        },
+        {
+          "word": "recommend...",
+          "start": 290.37,
+          "end": 290.73
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 309,
+      "text": "a",
+      "old": [
+        "145.76",
+        "146.24"
+      ],
+      "new": [
+        145.76,
+        145.9
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 83,
+      "text": "Now",
+      "start": 33.94,
+      "end": 34.32,
+      "granularity": "source-token"
+    },
+    {
+      "index": 243,
+      "text": "self-hatering",
+      "start": 122.16,
+      "end": 122.9,
+      "granularity": "source-token"
+    },
+    {
+      "index": 245,
+      "text": "Can",
+      "start": 123.94,
+      "end": 124.08,
+      "granularity": "source-token"
+    },
+    {
+      "index": 253,
+      "text": "The price",
+      "start": 126.7,
+      "end": 126.9,
+      "granularity": "phrase"
+    },
+    {
+      "index": 306,
+      "text": "Guests",
+      "start": 144.7,
+      "end": 145.22,
+      "granularity": "source-token"
+    },
+    {
+      "index": 310,
+      "text": "vibrant",
+      "start": 145.9,
+      "end": 146.24,
+      "granularity": "source-token"
+    },
+    {
+      "index": 318,
+      "text": "Five-star",
+      "start": 148.46,
+      "end": 149.02,
+      "granularity": "source-token"
+    },
+    {
+      "index": 356,
+      "text": "12.5%,",
+      "start": 162.36,
+      "end": 163.8,
+      "granularity": "source-token"
+    },
+    {
+      "index": 370,
+      "text": "self-catering",
+      "start": 171.22,
+      "end": 171.96,
+      "granularity": "source-token"
+    },
+    {
+      "index": 481,
+      "text": "It costs",
+      "start": 204.84,
+      "end": 205.04,
+      "granularity": "phrase"
+    },
+    {
+      "index": 525,
+      "text": "at questions",
+      "start": 222.14,
+      "end": 222.82,
+      "granularity": "phrase"
+    },
+    {
+      "index": 637,
+      "text": "The second",
+      "start": 283.17,
+      "end": 283.39,
+      "granularity": "phrase"
+    },
+    {
+      "index": 649,
+      "text": "€42.50,",
+      "start": 287.35,
+      "end": 289.23,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 817,
+  "wordClocksSha256": "fb462a1fa93ad2193957c172773cacd17b61e27b096acd76945a028f368637e4",
+  "tokenCount": 821,
+  "tokensSha256": "ec8f8f008fac0d0b295c874768d0adcee0648238663a6d281ea44f216c887e76",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "roleLimitation": "Both ERes2Net and English WeSpeaker fail leave-one-out calibration separating narrator from travel agent. Those are text roles, not a claim of distinct physical voices. Acoustic verification separates the customer from the compatible narration/agent group.",
+    "anchors": {
+      "Narration/agent": [
+        [
+          1.78,
+          11.5
+        ],
+        [
+          31.5,
+          39
+        ],
+        [
+          217.92,
+          224
+        ],
+        [
+          194.96,
+          202.82
+        ],
+        [
+          267.69,
+          277
+        ],
+        [
+          303.37,
+          311.5
+        ]
+      ],
+      "Customer": [
+        [
+          90.22,
+          97.4
+        ],
+        [
+          180.56,
+          189.5
+        ],
+        [
+          311.82,
+          313.93
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narration/agent",
+        "window": [
+          1.78,
+          11.5
+        ],
+        "scores": {
+          "Narration/agent": 0.8115,
+          "Customer": 0.2019
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Narration/agent",
+        "window": [
+          31.5,
+          39
+        ],
+        "scores": {
+          "Narration/agent": 0.5909,
+          "Customer": 0.047
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Narration/agent",
+        "window": [
+          217.92,
+          224
+        ],
+        "scores": {
+          "Narration/agent": 0.8559,
+          "Customer": 0.1486
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Narration/agent",
+        "window": [
+          194.96,
+          202.82
+        ],
+        "scores": {
+          "Narration/agent": 0.8605,
+          "Customer": 0.2767
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Narration/agent",
+        "window": [
+          267.69,
+          277
+        ],
+        "scores": {
+          "Narration/agent": 0.878,
+          "Customer": 0.2387
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Narration/agent",
+        "window": [
+          303.37,
+          311.5
+        ],
+        "scores": {
+          "Narration/agent": 0.8728,
+          "Customer": 0.3192
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          90.22,
+          97.4
+        ],
+        "scores": {
+          "Narration/agent": 0.2281,
+          "Customer": 0.7795
+        },
+        "chosen": "Customer"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          180.56,
+          189.5
+        ],
+        "scores": {
+          "Narration/agent": 0.2182,
+          "Customer": 0.888
+        },
+        "chosen": "Customer"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          311.82,
+          313.93
+        ],
+        "scores": {
+          "Narration/agent": 0.1991,
+          "Customer": 0.7354
+        },
+        "chosen": "Customer"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "Test 2",
+        "index": 0,
+        "start": 1.78,
+        "speaker": "Narrator",
+        "end": 85.62,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          1.78,
+          11.78
+        ],
+        "scores": {
+          "Narration/agent": 0.8801,
+          "Customer": 0.1998
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 125,
+        "start": 85.65,
+        "speaker": "Customer",
+        "end": 86.64,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          85.65,
+          86.64
+        ],
+        "scores": {
+          "Narration/agent": 0.0535,
+          "Customer": 0.5794
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Good afternoon",
+        "index": 127,
+        "start": 86.67,
+        "speaker": "Travel agent",
+        "end": 90.19,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          86.67,
+          90.19
+        ],
+        "scores": {
+          "Narration/agent": 0.7488,
+          "Customer": 0.0535
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "I saw your advert",
+        "index": 136,
+        "start": 90.22,
+        "speaker": "Customer",
+        "end": 97.45,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          90.22,
+          97.45
+        ],
+        "scores": {
+          "Narration/agent": 0.2319,
+          "Customer": 0.9024
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "What kind of trips",
+        "index": 161,
+        "start": 97.48,
+        "speaker": "Travel agent",
+        "end": 99.65,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          97.48,
+          99.65
+        ],
+        "scores": {
+          "Narration/agent": 0.5792,
+          "Customer": 0.0754
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Well I enjoy surfing",
+        "index": 170,
+        "start": 99.68,
+        "speaker": "Customer",
+        "end": 106.47,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          99.68,
+          106.47
+        ],
+        "scores": {
+          "Narration/agent": 0.2127,
+          "Customer": 0.8097
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "We currently offer all",
+        "index": 191,
+        "start": 106.5,
+        "speaker": "Travel agent",
+        "end": 115.39,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          106.5,
+          115.39
+        ],
+        "scores": {
+          "Narration/agent": 0.8677,
+          "Customer": 0.2598
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Right What are my options",
+        "index": 220,
+        "start": 115.42,
+        "speaker": "Customer",
+        "end": 118.45,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          115.42,
+          118.45
+        ],
+        "scores": {
+          "Narration/agent": 0.2322,
+          "Customer": 0.752
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "For this type of holiday",
+        "index": 228,
+        "start": 118.48,
+        "speaker": "Travel agent",
+        "end": 124.05,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          118.48,
+          124.05
+        ],
+        "scores": {
+          "Narration/agent": 0.7436,
+          "Customer": 0.2734
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Can you introduce",
+        "index": 245,
+        "start": 124.08,
+        "speaker": "Customer",
+        "end": 126.33,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          124.08,
+          126.33
+        ],
+        "scores": {
+          "Narration/agent": 0.1666,
+          "Customer": 0.6041
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Sure The price",
+        "index": 252,
+        "start": 126.36,
+        "speaker": "Travel agent",
+        "end": 131.57,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          126.36,
+          131.57
+        ],
+        "scores": {
+          "Narration/agent": 0.7991,
+          "Customer": 0.2289
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "What does the price",
+        "index": 269,
+        "start": 131.6,
+        "speaker": "Customer",
+        "end": 132.93,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          131.6,
+          132.93
+        ],
+        "scores": {
+          "Narration/agent": 0.1395,
+          "Customer": 0.5763
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "It covers the beachside",
+        "index": 274,
+        "start": 132.96,
+        "speaker": "Travel agent",
+        "end": 136.23,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          132.96,
+          136.23
+        ],
+        "scores": {
+          "Narration/agent": 0.8074,
+          "Customer": 0.2514
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Good Does the hotel",
+        "index": 282,
+        "start": 136.26,
+        "speaker": "Customer",
+        "end": 139.91,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          136.26,
+          139.91
+        ],
+        "scores": {
+          "Narration/agent": 0.2557,
+          "Customer": 0.5863
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Oh rest assured",
+        "index": 290,
+        "start": 139.94,
+        "speaker": "Travel agent",
+        "end": 152.55,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          139.94,
+          149.94
+        ],
+        "scores": {
+          "Narration/agent": 0.8493,
+          "Customer": 0.2376
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "So how much",
+        "index": 327,
+        "start": 152.58,
+        "speaker": "Customer",
+        "end": 153.93,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          152.58,
+          153.93
+        ],
+        "scores": {
+          "Narration/agent": 0.256,
+          "Customer": 0.6297
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Well it was originally",
+        "index": 333,
+        "start": 153.96,
+        "speaker": "Travel agent",
+        "end": 169.39,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          153.96,
+          163.96
+        ],
+        "scores": {
+          "Narration/agent": 0.831,
+          "Customer": 0.2875
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Right What about the self-catering",
+        "index": 366,
+        "start": 169.42,
+        "speaker": "Customer",
+        "end": 172.75,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          169.42,
+          172.75
+        ],
+        "scores": {
+          "Narration/agent": 0.2846,
+          "Customer": 0.5669
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Oh that'll be even",
+        "index": 372,
+        "start": 172.78,
+        "speaker": "Travel agent",
+        "end": 180.53,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          172.78,
+          180.53
+        ],
+        "scores": {
+          "Narration/agent": 0.8018,
+          "Customer": 0.3396
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "OK I think",
+        "index": 397,
+        "start": 180.56,
+        "speaker": "Customer",
+        "end": 189.63,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          180.56,
+          189.63
+        ],
+        "scores": {
+          "Narration/agent": 0.2176,
+          "Customer": 0.9525
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Can't agree more",
+        "index": 429,
+        "start": 189.66,
+        "speaker": "Travel agent",
+        "end": 190.71,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          189.66,
+          190.71
+        ],
+        "scores": {
+          "Narration/agent": 0.5112,
+          "Customer": 0.1992
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "What about the surfing",
+        "index": 432,
+        "start": 190.74,
+        "speaker": "Customer",
+        "end": 194.93,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          190.74,
+          194.93
+        ],
+        "scores": {
+          "Narration/agent": 0.3409,
+          "Customer": 0.7366
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "You can hire",
+        "index": 446,
+        "start": 194.96,
+        "speaker": "Travel agent",
+        "end": 203.31,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          194.96,
+          203.31
+        ],
+        "scores": {
+          "Narration/agent": 0.9082,
+          "Customer": 0.2628
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "How much does it cost",
+        "index": 476,
+        "start": 203.34,
+        "speaker": "Customer",
+        "end": 204.81,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          203.34,
+          204.81
+        ],
+        "scores": {
+          "Narration/agent": 0.3355,
+          "Customer": 0.514
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "It costs 15 euros",
+        "index": 481,
+        "start": 204.84,
+        "speaker": "Travel agent",
+        "end": 213.93,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          204.84,
+          213.93
+        ],
+        "scores": {
+          "Narration/agent": 0.8181,
+          "Customer": 0.2306
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "That's good to know",
+        "index": 507,
+        "start": 213.96,
+        "speaker": "Customer",
+        "end": 217.89,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          213.96,
+          217.89
+        ],
+        "scores": {
+          "Narration/agent": 0.172,
+          "Customer": 0.2876
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Before you hear",
+        "index": 511,
+        "start": 217.92,
+        "speaker": "Narrator",
+        "end": 249.43,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          217.92,
+          227.92
+        ],
+        "scores": {
+          "Narration/agent": 0.876,
+          "Customer": 0.1285
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Oh there's one more",
+        "index": 538,
+        "start": 249.46,
+        "speaker": "Travel agent",
+        "end": 258.66,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          249.46,
+          258.66
+        ],
+        "scores": {
+          "Narration/agent": 0.8781,
+          "Customer": 0.2323
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Please tell me about it",
+        "index": 570,
+        "start": 258.69,
+        "speaker": "Customer",
+        "end": 260.14000000000004,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          258.69,
+          260.14000000000004
+        ],
+        "scores": {
+          "Narration/agent": 0.1219,
+          "Customer": 0.7325
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Well we mainly offer",
+        "index": 575,
+        "start": 260.17,
+        "speaker": "Travel agent",
+        "end": 266.5,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          260.17,
+          266.5
+        ],
+        "scores": {
+          "Narration/agent": 0.7953,
+          "Customer": 0.2729
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "What does it include",
+        "index": 593,
+        "start": 266.53,
+        "speaker": "Customer",
+        "end": 267.66,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          266.53,
+          267.66
+        ],
+        "scores": {
+          "Narration/agent": 0.2139,
+          "Customer": 0.5464
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "It covers medical",
+        "index": 597,
+        "start": 267.69,
+        "speaker": "Travel agent",
+        "end": 281.12,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          267.69,
+          277.69
+        ],
+        "scores": {
+          "Narration/agent": 0.9173,
+          "Customer": 0.2434
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Then how about",
+        "index": 631,
+        "start": 281.15,
+        "speaker": "Customer",
+        "end": 283.14000000000004,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          281.15,
+          283.14000000000004
+        ],
+        "scores": {
+          "Narration/agent": 0.2507,
+          "Customer": 0.6347
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "The second one",
+        "index": 637,
+        "start": 283.17,
+        "speaker": "Travel agent",
+        "end": 299.96000000000004,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          283.17,
+          293.17
+        ],
+        "scores": {
+          "Narration/agent": 0.8543,
+          "Customer": 0.2656
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "I see I think",
+        "index": 679,
+        "start": 299.99,
+        "speaker": "Customer",
+        "end": 303.34000000000003,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          299.99,
+          303.34000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.1944,
+          "Customer": 0.769
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "When your flight gets",
+        "index": 689,
+        "start": 303.37,
+        "speaker": "Travel agent",
+        "end": 311.79,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          303.37,
+          311.79
+        ],
+        "scores": {
+          "Narration/agent": 0.91,
+          "Customer": 0.3264
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "It's alright I'll",
+        "index": 721,
+        "start": 311.82,
+        "speaker": "Customer",
+        "end": 313.93,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          311.82,
+          313.93
+        ],
+        "scores": {
+          "Narration/agent": 0.1991,
+          "Customer": 0.8804
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Actually I personally",
+        "index": 729,
+        "start": 313.96,
+        "speaker": "Travel agent",
+        "end": 320.87,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          313.96,
+          320.87
+        ],
+        "scores": {
+          "Narration/agent": 0.7936,
+          "Customer": 0.2422
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Thanks for the tip",
+        "index": 749,
+        "start": 320.9,
+        "speaker": "Customer",
+        "end": 324.09000000000003,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          320.9,
+          324.09000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.1394,
+          "Customer": 0.5881
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Okay how would",
+        "index": 762,
+        "start": 324.12,
+        "speaker": "Travel agent",
+        "end": 326.05,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          324.12,
+          326.05
+        ],
+        "scores": {
+          "Narration/agent": 0.6863,
+          "Customer": 0.2619
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Do you accept credit cards",
+        "index": 769,
+        "start": 326.08,
+        "speaker": "Customer",
+        "end": 327.53000000000003,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          326.08,
+          327.53000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.229,
+          "Customer": 0.6074
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Yes we do",
+        "index": 774,
+        "start": 327.56,
+        "speaker": "Travel agent",
+        "end": 333.03000000000003,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          327.56,
+          333.03000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.807,
+          "Customer": 0.2085
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Great I'll write",
+        "index": 795,
+        "start": 333.06,
+        "speaker": "Customer",
+        "end": 337.34000000000003,
+        "acousticSpeaker": "Customer",
+        "voiceWindow": [
+          333.06,
+          337.34000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.1316,
+          "Customer": 0.3058
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 802,
+        "start": 337.37,
+        "speaker": "Narrator",
+        "end": 339.59000000000003,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          337.37,
+          339.59000000000003
+        ],
+        "scores": {
+          "Narration/agent": 0.7379,
+          "Customer": 0.1184
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "You now have",
+        "index": 809,
+        "start": 339.62,
+        "speaker": "Narrator",
+        "end": 343.64,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          339.62,
+          343.64
+        ],
+        "scores": {
+          "Narration/agent": 0.786,
+          "Customer": 0.1435
+        },
+        "chosen": "Narration/agent"
+      }
+    ],
+    "tailChecks": [
+      {
+        "phrase": "Test 2",
+        "index": 0,
+        "start": 1.78,
+        "speaker": "Narrator",
+        "end": 85.62,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          77.62,
+          85.62
+        ],
+        "scores": {
+          "Narration/agent": 0.7466,
+          "Customer": 0.1468
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Oh rest assured",
+        "index": 290,
+        "start": 139.94,
+        "speaker": "Travel agent",
+        "end": 152.55,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          149.94,
+          152.55
+        ],
+        "scores": {
+          "Narration/agent": 0.6873,
+          "Customer": 0.2307
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Well it was originally",
+        "index": 333,
+        "start": 153.96,
+        "speaker": "Travel agent",
+        "end": 169.39,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          163.96,
+          169.39
+        ],
+        "scores": {
+          "Narration/agent": 0.7397,
+          "Customer": 0.2634
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "Before you hear",
+        "index": 511,
+        "start": 217.92,
+        "speaker": "Narrator",
+        "end": 249.43,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          241.43,
+          249.43
+        ],
+        "scores": {
+          "Narration/agent": 0.755,
+          "Customer": 0.1051
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "It covers medical",
+        "index": 597,
+        "start": 267.69,
+        "speaker": "Travel agent",
+        "end": 281.12,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          277.69,
+          281.12
+        ],
+        "scores": {
+          "Narration/agent": 0.6359,
+          "Customer": 0.2349
+        },
+        "chosen": "Narration/agent"
+      },
+      {
+        "phrase": "The second one",
+        "index": 637,
+        "start": 283.17,
+        "speaker": "Travel agent",
+        "end": 299.96000000000004,
+        "acousticSpeaker": "Narration/agent",
+        "voiceWindow": [
+          293.17,
+          299.96000000000004
+        ],
+        "scores": {
+          "Narration/agent": 0.8358,
+          "Customer": 0.2238
+        },
+        "chosen": "Narration/agent"
+      }
+    ],
+    "initialThreeWayCalibration": [
+      {
+        "label": "Speaker 1",
+        "start": 1.78,
+        "end": 11.5,
+        "scores": {
+          "Speaker 1": 0.7732,
+          "Speaker 2": 0.7736,
+          "Speaker 3": 0.2019
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 31.5,
+        "end": 39,
+        "scores": {
+          "Speaker 1": 0.5593,
+          "Speaker 2": 0.5743,
+          "Speaker 3": 0.047
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 1",
+        "start": 217.92,
+        "end": 224,
+        "scores": {
+          "Speaker 1": 0.7652,
+          "Speaker 2": 0.8341,
+          "Speaker 3": 0.1486
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 194.96,
+        "end": 202.82,
+        "scores": {
+          "Speaker 1": 0.7798,
+          "Speaker 2": 0.8876,
+          "Speaker 3": 0.2767
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 267.69,
+        "end": 277,
+        "scores": {
+          "Speaker 1": 0.8179,
+          "Speaker 2": 0.8605,
+          "Speaker 3": 0.2387
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "start": 303.37,
+        "end": 311.5,
+        "scores": {
+          "Speaker 1": 0.7901,
+          "Speaker 2": 0.9013,
+          "Speaker 3": 0.3192
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 90.22,
+        "end": 97.4,
+        "scores": {
+          "Speaker 1": 0.1577,
+          "Speaker 2": 0.2745,
+          "Speaker 3": 0.7795
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 180.56,
+        "end": 189.5,
+        "scores": {
+          "Speaker 1": 0.129,
+          "Speaker 2": 0.2825,
+          "Speaker 3": 0.888
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "start": 311.82,
+        "end": 313.93,
+        "scores": {
+          "Speaker 1": 0.1315,
+          "Speaker 2": 0.2453,
+          "Speaker 3": 0.7354
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "independentEnglishCalibration": [
+      {
+        "label": "Speaker 1",
+        "window": [
+          1.78,
+          11.5
+        ],
+        "scores": {
+          "Speaker 1": 0.9321,
+          "Speaker 2": 0.9304,
+          "Speaker 3": 0.7295
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "window": [
+          31.5,
+          39
+        ],
+        "scores": {
+          "Speaker 1": 0.8006,
+          "Speaker 2": 0.7417,
+          "Speaker 3": 0.5271
+        },
+        "chosen": "Speaker 1"
+      },
+      {
+        "label": "Speaker 1",
+        "window": [
+          217.92,
+          224
+        ],
+        "scores": {
+          "Speaker 1": 0.8947,
+          "Speaker 2": 0.9222,
+          "Speaker 3": 0.7071
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          194.96,
+          202.82
+        ],
+        "scores": {
+          "Speaker 1": 0.8974,
+          "Speaker 2": 0.9701,
+          "Speaker 3": 0.7865
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          267.69,
+          277
+        ],
+        "scores": {
+          "Speaker 1": 0.9312,
+          "Speaker 2": 0.9627,
+          "Speaker 3": 0.7464
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 2",
+        "window": [
+          303.37,
+          311.5
+        ],
+        "scores": {
+          "Speaker 1": 0.8691,
+          "Speaker 2": 0.9478,
+          "Speaker 3": 0.7244
+        },
+        "chosen": "Speaker 2"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          90.22,
+          97.4
+        ],
+        "scores": {
+          "Speaker 1": 0.6993,
+          "Speaker 2": 0.7763,
+          "Speaker 3": 0.9368
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          180.56,
+          189.5
+        ],
+        "scores": {
+          "Speaker 1": 0.6793,
+          "Speaker 2": 0.7531,
+          "Speaker 3": 0.9604
+        },
+        "chosen": "Speaker 3"
+      },
+      {
+        "label": "Speaker 3",
+        "window": [
+          311.82,
+          313.93
+        ],
+        "scores": {
+          "Speaker 1": 0.6464,
+          "Speaker 2": 0.7091,
+          "Speaker 3": 0.9276
+        },
+        "chosen": "Speaker 3"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Test 2 This is the IELTS listening test. You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four parts. At the end of the test, you will be given 10 minutes to transfer your answers"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Narrator",
+      "text": " to the answer sheet. Now turn to part one. Part one. You will hear a customer asking a travel agent for information about some trips. First, you have some time to look at questions one to six. Now listen carefully and answer questions one to six. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Customer",
+      "text": "Good afternoon. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Travel agent",
+      "text": "Good afternoon, Atlanta Travel Agency. May I help you?"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Customer",
+      "text": " I saw your advert in the newspaper this morning and decided to come over for more detailed information about some trips that you currently offer. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Travel agent",
+      "text": "What kind of trips do you have in mind? "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Customer",
+      "text": "Well, I enjoy surfing very much and want to get tanned, but all my friends suggest either mountain climbing or biking. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Travel agent",
+      "text": "We currently offer all the three types. Even though biking is the most popular type of holiday, it doesn't work for everyone. I think you should follow your heart. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Customer",
+      "text": "Right. What are my options for accommodation then?"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Travel agent",
+      "text": " For this type of holiday, you can choose to stay in a hotel or a self-hatering apartment. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Customer",
+      "text": "Can you introduce the hotel package first? "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Travel agent",
+      "text": "Sure. The price for our hotel package is quite reasonable compared with that of your own reservation. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Customer",
+      "text": "What does the price include? "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Travel agent",
+      "text": "It covers the beachside hotel and free breakfast. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Customer",
+      "text": "Good. Does the hotel have any recreational facilities? "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Travel agent",
+      "text": "Oh, rest assured. The hotel is fully equipped with a pool, a nightclub and a gym. Guests can enjoy a vibrant nightlife during their stay at the hotel."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Travel agent",
+      "text": " Five-star ratings are common for the hotel's satisfying service. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": "So how much does it cost? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Travel agent",
+      "text": "Well, it was originally €360 for an adult, but we are now offering a Labor Day promotion. You can get a discount of 12.5%, so that's €315 for now. A really good deal. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": "Right. What about the self-catering apartment? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Travel agent",
+      "text": "Oh, that'll be even cheaper."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Travel agent",
+      "text": " But you have to stay in a shared room with other guests. Each room has six bunk beds with lockers. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Customer",
+      "text": "OK. I think the hotel is much better. Getting a good night's sleep is critical for a relaxing holiday. I can't stand sharing a room with someone who snores all night long. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Travel agent",
+      "text": "Can't agree more. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Customer",
+      "text": "What about the surfing equipment rental? I don't want to bring my own surfboard. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Travel agent",
+      "text": "You can hire a surfboard by the hour, day or week. Just book it in advance and it will be delivered to the hotel or even directly to the beach."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Customer",
+      "text": " How much does it cost? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Travel agent",
+      "text": "It costs 15 euros for a day, but for a week's rental, it's just 75 euros. The surf station also provides surf lessons if you're interested. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Customer",
+      "text": "That's good to know. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the conversation, you have some time to look at questions 7 to 10. Now listen and answer questions 7 to 10. "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Travel agent",
+      "text": "Oh, there's one more thing you should know."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Travel agent",
+      "text": " Just in case of an accident during your trip, we recommend each customer to have the correct travel cover in place before leaving home. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Customer",
+      "text": "Please tell me about it. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Travel agent",
+      "text": "Well, we mainly offer two types of insurance. The first one is basic coverage. It costs 30 euros. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Customer",
+      "text": "What does it include? "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Travel agent",
+      "text": "It covers medical treatment during your trip and things like missing your flight, flight delays and cancellations. But you know, extreme sports can be quite dangerous and therefore injuries during these activities are excluded."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Customer",
+      "text": " Then how about the other one? "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Travel agent",
+      "text": "The second one is called Premier Cover. It is more expensive at €42.50, but we highly recommend this one for regular surfers. If you receive an injury or hurt anyone else while participating in extreme sports like surfing, you are fully covered. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Customer",
+      "text": "I see. I think I'll go with the Premier Cover. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Travel agent",
+      "text": "When your flight gets in, there will be a minivan to pick you up at the airport and take you to the hotel."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Travel agent",
+      "text": " but you'll have to get to London Airport yourself. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "It's alright, I'll just take the airport shuttle. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Travel agent",
+      "text": "Actually, I personally suggest you take a taxi. It's much cheaper than other types of transport, including the airport shuttle. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "Thanks for the tip. I think I'll book a trip for next weekend. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Travel agent",
+      "text": "Okay, how would you like to pay? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "Do you accept credit cards? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Travel agent",
+      "text": "Yes we do, but there will be a slight charge on that. If you pay by check, there's no extra fee. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "Great, I'll write you a check then. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Narrator",
+      "text": "That is the end of part one."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Narrator",
+      "text": " You now have one minute to check your answers to part one."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "cbd2edca9716394e67ed471b415ae4cb9a792d2232f23e777eaa73fe14f57dac"
+}

@@ -1,0 +1,1969 @@
+{
+  "test": "single-listening-20",
+  "part": 1,
+  "audioSha256": "486d9e9bd204b21bffff4bdced46d0b2b5999c654f8896f9521cd855eb5b6345",
+  "scope": {
+    "start": 0,
+    "end": 430.2
+  },
+  "sourceScope": "All 12 published speech paragraphs, 30 main voice windows and nine long-turn tails. Staff Right is checked in three bounded windows; the customer spelling question ends before staff begins spelling. Existing unclear markers and italic annotations are retained; source wording has not had a full verbatim audit. At questions uses a phrase cue for zero-duration questions. Compound spellings and time use whole source-token intervals corroborated by local recognition.",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 430.2,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 602,
+      "text": "at",
+      "start": "279.81",
+      "end": "280.49"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "phrase": "Test 4",
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 0.5,
+      "end": 93.16,
+      "kind": "tail",
+      "voiceWindow": [
+        85.16,
+        93.16
+      ],
+      "scores": {
+        "Narrator": 0.6497,
+        "Staff": 0.3019,
+        "Customer": 0.2325
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "The woman says",
+      "index": 188,
+      "speaker": "Narrator",
+      "start": 111.67,
+      "end": 138.93,
+      "kind": "tail",
+      "voiceWindow": [
+        130.93,
+        138.93
+      ],
+      "scores": {
+        "Narrator": 0.6543,
+        "Staff": 0.312,
+        "Customer": 0.2603
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "Yeah okay Well there's",
+      "index": 277,
+      "speaker": "Staff",
+      "start": 149.22,
+      "end": 159.39,
+      "kind": "tail",
+      "voiceWindow": [
+        151.39,
+        159.39
+      ],
+      "scores": {
+        "Narrator": 0.3425,
+        "Staff": 0.907,
+        "Customer": 0.3962
+      },
+      "chosen": "Staff"
+    },
+    {
+      "phrase": "E-S-H-C-O-L",
+      "index": 345,
+      "speaker": "Staff",
+      "start": 176.34,
+      "end": 187.03,
+      "kind": "tail",
+      "voiceWindow": [
+        179.03,
+        187.03
+      ],
+      "scores": {
+        "Narrator": 0.4599,
+        "Staff": 0.8126,
+        "Customer": 0.32
+      },
+      "chosen": "Staff"
+    },
+    {
+      "phrase": "And it's particularly good",
+      "index": 373,
+      "speaker": "Staff",
+      "start": 188.07,
+      "end": 212.3,
+      "kind": "tail",
+      "voiceWindow": [
+        204.3,
+        212.3
+      ],
+      "scores": {
+        "Narrator": 0.3396,
+        "Staff": 0.7156,
+        "Customer": 0.3168
+      },
+      "chosen": "Staff"
+    },
+    {
+      "phrase": "There are usually some",
+      "index": 454,
+      "speaker": "Staff",
+      "start": 222.22,
+      "end": 270.78000000000003,
+      "kind": "tail",
+      "voiceWindow": [
+        262.78000000000003,
+        270.78000000000003
+      ],
+      "scores": {
+        "Narrator": 0.3607,
+        "Staff": 0.8075,
+        "Customer": 0.3805
+      },
+      "chosen": "Staff"
+    },
+    {
+      "phrase": "Before you hear the rest",
+      "index": 588,
+      "speaker": "Narrator",
+      "start": 275.57,
+      "end": 314.70000000000005,
+      "kind": "tail",
+      "voiceWindow": [
+        306.70000000000005,
+        314.70000000000005
+      ],
+      "scores": {
+        "Narrator": 0.7117,
+        "Staff": 0.2754,
+        "Customer": 0.194
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "phrase": "Well the first one's about",
+      "index": 647,
+      "speaker": "Staff",
+      "start": 326.07,
+      "end": 341.70000000000005,
+      "kind": "tail",
+      "voiceWindow": [
+        333.70000000000005,
+        341.70000000000005
+      ],
+      "scores": {
+        "Narrator": 0.5014,
+        "Staff": 0.7606,
+        "Customer": 0.3376
+      },
+      "chosen": "Staff"
+    },
+    {
+      "phrase": "There's a couple of other talks",
+      "index": 752,
+      "speaker": "Staff",
+      "start": 365.31,
+      "end": 393.26000000000005,
+      "kind": "tail",
+      "voiceWindow": [
+        385.26000000000005,
+        393.26000000000005
+      ],
+      "scores": {
+        "Narrator": 0.3837,
+        "Staff": 0.4731,
+        "Customer": 0.1988
+      },
+      "chosen": "Staff"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 34.95,
+      "end": 42.05,
+      "words": [
+        {
+          "word": "Now",
+          "start": 34.95,
+          "end": 35.21
+        },
+        {
+          "word": "turn",
+          "start": 35.21,
+          "end": 35.49
+        },
+        {
+          "word": "to",
+          "start": 35.49,
+          "end": 35.75
+        },
+        {
+          "word": "section",
+          "start": 35.75,
+          "end": 35.95
+        },
+        {
+          "word": "1.",
+          "start": 35.95,
+          "end": 36.83
+        },
+        {
+          "word": "Section",
+          "start": 40.07,
+          "end": 40.43
+        },
+        {
+          "word": "1.",
+          "start": 40.43,
+          "end": 41.09
+        }
+      ]
+    },
+    {
+      "start": 147,
+      "end": 150.34,
+      "words": [
+        {
+          "word": "doctor",
+          "start": 147,
+          "end": 147.48
+        },
+        {
+          "word": "at",
+          "start": 147.48,
+          "end": 147.86
+        },
+        {
+          "word": "a",
+          "start": 147.86,
+          "end": 148
+        },
+        {
+          "word": "health",
+          "start": 148,
+          "end": 148.18
+        },
+        {
+          "word": "center.",
+          "start": 148.18,
+          "end": 148.7
+        }
+      ]
+    },
+    {
+      "start": 174.12,
+      "end": 181.32,
+      "words": [
+        {
+          "word": "How",
+          "start": 174.12,
+          "end": 174.72
+        },
+        {
+          "word": "do",
+          "start": 174.72,
+          "end": 174.8
+        },
+        {
+          "word": "you",
+          "start": 174.8,
+          "end": 174.9
+        },
+        {
+          "word": "spell",
+          "start": 174.9,
+          "end": 175.14
+        },
+        {
+          "word": "that?",
+          "start": 175.14,
+          "end": 175.52
+        },
+        {
+          "word": "E",
+          "start": 176.34,
+          "end": 176.34
+        },
+        {
+          "word": "-S",
+          "start": 176.34,
+          "end": 176.84
+        },
+        {
+          "word": "-H",
+          "start": 176.84,
+          "end": 177.54
+        },
+        {
+          "word": "-C",
+          "start": 177.54,
+          "end": 178.38
+        },
+        {
+          "word": "-O",
+          "start": 178.38,
+          "end": 178.76
+        },
+        {
+          "word": "-L.",
+          "start": 178.76,
+          "end": 179.32
+        },
+        {
+          "word": "And",
+          "start": 180.32,
+          "end": 180.32
+        },
+        {
+          "word": "it's",
+          "start": 180.32,
+          "end": 180.58
+        },
+        {
+          "word": "Dr.",
+          "start": 180.58,
+          "end": 180.8
+        },
+        {
+          "word": "Fuller.",
+          "start": 181.02,
+          "end": 181.12
+        }
+      ]
+    },
+    {
+      "start": 202.89,
+      "end": 210.13,
+      "words": [
+        {
+          "word": "That's",
+          "start": 202.89,
+          "end": 204.39
+        },
+        {
+          "word": "G",
+          "start": 204.39,
+          "end": 204.89
+        },
+        {
+          "word": "-O",
+          "start": 204.89,
+          "end": 205.33
+        },
+        {
+          "word": "-R",
+          "start": 205.33,
+          "end": 206.01
+        },
+        {
+          "word": "-M",
+          "start": 206.01,
+          "end": 206.95
+        },
+        {
+          "word": "-L",
+          "start": 206.95,
+          "end": 207.45
+        },
+        {
+          "word": "-E",
+          "start": 207.45,
+          "end": 207.77
+        },
+        {
+          "word": "-Y.",
+          "start": 207.77,
+          "end": 208.41
+        },
+        {
+          "word": "He's",
+          "start": 208.87,
+          "end": 209.13
+        },
+        {
+          "word": "new",
+          "start": 209.13,
+          "end": 209.33
+        },
+        {
+          "word": "there,",
+          "start": 209.33,
+          "end": 209.65
+        },
+        {
+          "word": "but",
+          "start": 209.83,
+          "end": 209.99
+        },
+        {
+          "word": "the",
+          "start": 209.99,
+          "end": 210.11
+        }
+      ]
+    },
+    {
+      "start": 248.41,
+      "end": 251.95,
+      "words": [
+        {
+          "word": "as",
+          "start": 248.41,
+          "end": 248.91
+        },
+        {
+          "word": "part",
+          "start": 248.91,
+          "end": 249.19
+        },
+        {
+          "word": "of",
+          "start": 249.19,
+          "end": 249.43
+        },
+        {
+          "word": "their",
+          "start": 249.43,
+          "end": 249.57
+        },
+        {
+          "word": "pay",
+          "start": 249.57,
+          "end": 249.83
+        },
+        {
+          "word": "-to",
+          "start": 249.83,
+          "end": 250.07
+        },
+        {
+          "word": "-use",
+          "start": 250.07,
+          "end": 250.37
+        },
+        {
+          "word": "service.",
+          "start": 250.37,
+          "end": 250.99
+        }
+      ]
+    },
+    {
+      "start": 278.81,
+      "end": 282.17,
+      "words": [
+        {
+          "word": "Time",
+          "start": 278.81,
+          "end": 279.21
+        },
+        {
+          "word": "to",
+          "start": 279.21,
+          "end": 279.65
+        },
+        {
+          "word": "look",
+          "start": 279.65,
+          "end": 279.81
+        },
+        {
+          "word": "at",
+          "start": 279.81,
+          "end": 280.49
+        },
+        {
+          "word": "questions",
+          "start": 280.49,
+          "end": 280.49
+        },
+        {
+          "word": "7",
+          "start": 280.49,
+          "end": 281.17
+        },
+        {
+          "word": "to",
+          "start": 281.17,
+          "end": 281.67
+        },
+        {
+          "word": "10.",
+          "start": 281.67,
+          "end": 281.99
+        }
+      ]
+    },
+    {
+      "start": 349.81,
+      "end": 353.03,
+      "words": [
+        {
+          "word": "of",
+          "start": 349.81,
+          "end": 349.99
+        },
+        {
+          "word": "March",
+          "start": 349.99,
+          "end": 350.47
+        },
+        {
+          "word": "at",
+          "start": 350.47,
+          "end": 350.81
+        },
+        {
+          "word": "five",
+          "start": 350.81,
+          "end": 351.11
+        },
+        {
+          "word": "o",
+          "start": 351.11,
+          "end": 351.27
+        },
+        {
+          "word": "'clock.",
+          "start": 351.27,
+          "end": 351.67
+        },
+        {
+          "word": "Will",
+          "start": 352.01,
+          "end": 352.03
+        },
+        {
+          "word": "that",
+          "start": 352.03,
+          "end": 352.31
+        },
+        {
+          "word": "be",
+          "start": 352.31,
+          "end": 352.59
+        },
+        {
+          "word": "at",
+          "start": 352.59,
+          "end": 352.71
+        },
+        {
+          "word": "the",
+          "start": 352.71,
+          "end": 352.81
+        },
+        {
+          "word": "house?",
+          "start": 352.81,
+          "end": 352.95
+        }
+      ]
+    },
+    {
+      "start": 375.43,
+      "end": 379.67,
+      "words": [
+        {
+          "word": "afternoon",
+          "start": 375.43,
+          "end": 376.01
+        },
+        {
+          "word": "talk",
+          "start": 376.01,
+          "end": 376.45
+        },
+        {
+          "word": "at",
+          "start": 376.45,
+          "end": 376.63
+        },
+        {
+          "word": "4",
+          "start": 376.63,
+          "end": 376.99
+        },
+        {
+          "word": ".30",
+          "start": 376.99,
+          "end": 377.69
+        },
+        {
+          "word": "and",
+          "start": 377.69,
+          "end": 378.65
+        },
+        {
+          "word": "it'll",
+          "start": 378.65,
+          "end": 378.87
+        },
+        {
+          "word": "be",
+          "start": 378.87,
+          "end": 379.01
+        },
+        {
+          "word": "in",
+          "start": 379.01,
+          "end": 379.13
+        },
+        {
+          "word": "room",
+          "start": 379.13,
+          "end": 379.29
+        },
+        {
+          "word": "6.",
+          "start": 379.29,
+          "end": 379.65
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [],
+  "addedClocks": [
+    {
+      "index": 82,
+      "text": "Section",
+      "start": 40.07,
+      "end": 40.43,
+      "granularity": "source-token"
+    },
+    {
+      "index": 276,
+      "text": "centre.",
+      "start": 148.18,
+      "end": 148.66,
+      "granularity": "source-token"
+    },
+    {
+      "index": 345,
+      "text": "E-S-H-C-O-L.",
+      "start": 176.32,
+      "end": 179.32,
+      "granularity": "source-token"
+    },
+    {
+      "index": 417,
+      "text": "G-O-R-M-L-E-Y.",
+      "start": 204.45,
+      "end": 208.29,
+      "granularity": "source-token"
+    },
+    {
+      "index": 527,
+      "text": "pay-to-use",
+      "start": 249.55,
+      "end": 250.37,
+      "granularity": "source-token"
+    },
+    {
+      "index": 602,
+      "text": "at questions",
+      "start": 279.81,
+      "end": 280.49,
+      "granularity": "phrase"
+    },
+    {
+      "index": 712,
+      "text": "o'clock.",
+      "start": 351.13,
+      "end": 351.67,
+      "granularity": "source-token"
+    },
+    {
+      "index": 782,
+      "text": "4.30.",
+      "start": 376.63,
+      "end": 377.43,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 810,
+  "wordClocksSha256": "1306f8cf91bd34c830ca8005affc611f0caab61aabe9b2e8f0d129f34671c273",
+  "tokenCount": 826,
+  "tokensSha256": "00b54fc63cb211f6959dbd95f075018cd7479291d75a5c4b37c81c35ada3662b",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          0.5,
+          10
+        ],
+        [
+          111.67,
+          119.8
+        ],
+        [
+          275.57,
+          282
+        ]
+      ],
+      "Staff": [
+        [
+          149.22,
+          159.39
+        ],
+        [
+          188.07,
+          198
+        ],
+        [
+          365.31,
+          375
+        ]
+      ],
+      "Customer": [
+        [
+          95.16,
+          103.49
+        ],
+        [
+          159.42,
+          169.71
+        ],
+        [
+          212.33,
+          222.19
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          0.5,
+          10
+        ],
+        "scores": {
+          "Narrator": 0.7608,
+          "Staff": 0.5001,
+          "Customer": 0.4191
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          111.67,
+          119.8
+        ],
+        "scores": {
+          "Narrator": 0.8143,
+          "Staff": 0.4506,
+          "Customer": 0.3245
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          275.57,
+          282
+        ],
+        "scores": {
+          "Narrator": 0.8367,
+          "Staff": 0.4014,
+          "Customer": 0.2877
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Staff",
+        "window": [
+          149.22,
+          159.39
+        ],
+        "scores": {
+          "Narrator": 0.3539,
+          "Staff": 0.8097,
+          "Customer": 0.4153
+        },
+        "chosen": "Staff"
+      },
+      {
+        "label": "Staff",
+        "window": [
+          188.07,
+          198
+        ],
+        "scores": {
+          "Narrator": 0.4728,
+          "Staff": 0.8481,
+          "Customer": 0.3734
+        },
+        "chosen": "Staff"
+      },
+      {
+        "label": "Staff",
+        "window": [
+          365.31,
+          375
+        ],
+        "scores": {
+          "Narrator": 0.5338,
+          "Staff": 0.7923,
+          "Customer": 0.4035
+        },
+        "chosen": "Staff"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          95.16,
+          103.49
+        ],
+        "scores": {
+          "Narrator": 0.3054,
+          "Staff": 0.3649,
+          "Customer": 0.8026
+        },
+        "chosen": "Customer"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          159.42,
+          169.71
+        ],
+        "scores": {
+          "Narrator": 0.3577,
+          "Staff": 0.4279,
+          "Customer": 0.7341
+        },
+        "chosen": "Customer"
+      },
+      {
+        "label": "Customer",
+        "window": [
+          212.33,
+          222.19
+        ],
+        "scores": {
+          "Narrator": 0.3459,
+          "Staff": 0.3665,
+          "Customer": 0.739
+        },
+        "chosen": "Customer"
+      }
+    ],
+    "checks": [
+      {
+        "phrase": "Test 4",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 0.5,
+        "end": 93.16,
+        "voiceWindow": [
+          0.5,
+          10.5
+        ],
+        "scores": {
+          "Narrator": 0.8824,
+          "Staff": 0.5072,
+          "Customer": 0.4289
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Can I help you",
+        "index": 141,
+        "speaker": "Staff",
+        "start": 93.19,
+        "end": 94.28,
+        "voiceWindow": [
+          93.19,
+          94.28
+        ],
+        "scores": {
+          "Narrator": 0.2818,
+          "Staff": 0.5296,
+          "Customer": 0.263
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Yes",
+        "index": 145,
+        "speaker": "Customer",
+        "start": 94.31,
+        "end": 103.49,
+        "voiceWindow": [
+          94.31,
+          103.49
+        ],
+        "scores": {
+          "Narrator": 0.3044,
+          "Staff": 0.3804,
+          "Customer": 0.9163
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Okay Well there's Dr Green",
+        "index": 179,
+        "speaker": "Staff",
+        "start": 103.52,
+        "end": 111.64,
+        "voiceWindow": [
+          103.52,
+          111.64
+        ],
+        "scores": {
+          "Narrator": 0.4244,
+          "Staff": 0.7835,
+          "Customer": 0.3967
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "The woman says",
+        "index": 188,
+        "speaker": "Narrator",
+        "start": 111.67,
+        "end": 138.93,
+        "voiceWindow": [
+          111.67,
+          121.67
+        ],
+        "scores": {
+          "Narrator": 0.9237,
+          "Staff": 0.4438,
+          "Customer": 0.3178
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Can I help you",
+        "index": 244,
+        "speaker": "Staff",
+        "start": 138.96,
+        "end": 140.01,
+        "voiceWindow": [
+          138.96,
+          140.01
+        ],
+        "scores": {
+          "Narrator": 0.2972,
+          "Staff": 0.5552,
+          "Customer": 0.2288
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Yes",
+        "index": 248,
+        "speaker": "Customer",
+        "start": 140.04,
+        "end": 149.19,
+        "voiceWindow": [
+          140.04,
+          149.19
+        ],
+        "scores": {
+          "Narrator": 0.2866,
+          "Staff": 0.3528,
+          "Customer": 0.9043
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Yeah okay Well there's",
+        "index": 277,
+        "speaker": "Staff",
+        "start": 149.22,
+        "end": 159.39,
+        "voiceWindow": [
+          149.22,
+          159.22
+        ],
+        "scores": {
+          "Narrator": 0.3423,
+          "Staff": 0.9109,
+          "Customer": 0.4084
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Oh actually my youngest",
+        "index": 305,
+        "speaker": "Customer",
+        "start": 159.42,
+        "end": 165.55,
+        "kind": "replacement",
+        "voiceWindow": [
+          159.42,
+          165.55
+        ],
+        "scores": {
+          "Narrator": 0.3264,
+          "Staff": 0.2787,
+          "Customer": 0.8203
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Right",
+        "index": 320,
+        "speaker": "Staff",
+        "start": 165.58,
+        "end": 166.52,
+        "kind": "replacement",
+        "voiceWindow": [
+          165.58,
+          166.52
+        ],
+        "scores": {
+          "Narrator": 0.193,
+          "Staff": 0.4405,
+          "Customer": 0.2152
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Is there anywhere else",
+        "index": 321,
+        "speaker": "Customer",
+        "start": 166.55,
+        "end": 169.71,
+        "kind": "replacement",
+        "voiceWindow": [
+          166.55,
+          169.71
+        ],
+        "scores": {
+          "Narrator": 0.2699,
+          "Staff": 0.3321,
+          "Customer": 0.6982
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Yes the Eshkol health practice",
+        "index": 328,
+        "speaker": "Staff",
+        "start": 169.74,
+        "end": 174.57,
+        "voiceWindow": [
+          169.74,
+          174.57
+        ],
+        "scores": {
+          "Narrator": 0.3863,
+          "Staff": 0.7557,
+          "Customer": 0.3977
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "How do you spell that",
+        "index": 340,
+        "speaker": "Customer",
+        "start": 174.6,
+        "end": 176.31,
+        "kind": "replacement",
+        "voiceWindow": [
+          174.6,
+          176.31
+        ],
+        "scores": {
+          "Narrator": 0.3409,
+          "Staff": 0.3042,
+          "Customer": 0.5582
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "E-S-H-C-O-L",
+        "index": 345,
+        "speaker": "Staff",
+        "start": 176.34,
+        "end": 187.03,
+        "kind": "replacement",
+        "voiceWindow": [
+          176.34,
+          186.34
+        ],
+        "scores": {
+          "Narrator": 0.4673,
+          "Staff": 0.8208,
+          "Customer": 0.328
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "That sounds good",
+        "index": 370,
+        "speaker": "Customer",
+        "start": 187.06,
+        "end": 188.04,
+        "voiceWindow": [
+          187.06,
+          188.04
+        ],
+        "scores": {
+          "Narrator": 0.1405,
+          "Staff": 0.1393,
+          "Customer": 0.4769
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "And it's particularly good",
+        "index": 373,
+        "speaker": "Staff",
+        "start": 188.07,
+        "end": 212.3,
+        "voiceWindow": [
+          188.07,
+          198.07
+        ],
+        "scores": {
+          "Narrator": 0.4758,
+          "Staff": 0.9334,
+          "Customer": 0.3757
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Oh yes I think I know",
+        "index": 429,
+        "speaker": "Customer",
+        "start": 212.33,
+        "end": 222.19,
+        "voiceWindow": [
+          212.33,
+          222.19
+        ],
+        "scores": {
+          "Narrator": 0.3459,
+          "Staff": 0.3665,
+          "Customer": 0.8846
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "There are usually some",
+        "index": 454,
+        "speaker": "Staff",
+        "start": 222.22,
+        "end": 270.78000000000003,
+        "voiceWindow": [
+          222.22,
+          232.22
+        ],
+        "scores": {
+          "Narrator": 0.4926,
+          "Staff": 0.8329,
+          "Customer": 0.3962
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Okay thanks",
+        "index": 586,
+        "speaker": "Customer",
+        "start": 270.81,
+        "end": 275.54,
+        "voiceWindow": [
+          270.81,
+          275.54
+        ],
+        "scores": {
+          "Narrator": 0.2775,
+          "Staff": 0.1648,
+          "Customer": 0.392
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 588,
+        "speaker": "Narrator",
+        "start": 275.57,
+        "end": 314.70000000000005,
+        "voiceWindow": [
+          275.57,
+          285.57
+        ],
+        "scores": {
+          "Narrator": 0.8419,
+          "Staff": 0.3101,
+          "Customer": 0.2639
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "You might also be interested",
+        "index": 615,
+        "speaker": "Staff",
+        "start": 314.73,
+        "end": 324,
+        "voiceWindow": [
+          314.73,
+          324
+        ],
+        "scores": {
+          "Narrator": 0.5425,
+          "Staff": 0.778,
+          "Customer": 0.3438
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "What sort of things",
+        "index": 643,
+        "speaker": "Customer",
+        "start": 324.03,
+        "end": 326.04,
+        "voiceWindow": [
+          324.03,
+          326.04
+        ],
+        "scores": {
+          "Narrator": 0.3394,
+          "Staff": 0.3443,
+          "Customer": 0.4547
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Well the first one's about",
+        "index": 647,
+        "speaker": "Staff",
+        "start": 326.07,
+        "end": 341.70000000000005,
+        "voiceWindow": [
+          326.07,
+          336.07
+        ],
+        "scores": {
+          "Narrator": 0.4272,
+          "Staff": 0.8016,
+          "Customer": 0.3439
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "That sounds very interesting",
+        "index": 686,
+        "speaker": "Customer",
+        "start": 341.73,
+        "end": 343.6,
+        "voiceWindow": [
+          341.73,
+          343.6
+        ],
+        "scores": {
+          "Narrator": 0.2668,
+          "Staff": 0.2396,
+          "Customer": 0.6281
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "There's also a talk",
+        "index": 690,
+        "speaker": "Staff",
+        "start": 343.63,
+        "end": 351.92,
+        "voiceWindow": [
+          343.63,
+          351.92
+        ],
+        "scores": {
+          "Narrator": 0.3924,
+          "Staff": 0.6882,
+          "Customer": 0.3399
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Will that be at the health",
+        "index": 713,
+        "speaker": "Customer",
+        "start": 351.95,
+        "end": 354.8,
+        "voiceWindow": [
+          351.95,
+          354.8
+        ],
+        "scores": {
+          "Narrator": 0.2795,
+          "Staff": 0.4497,
+          "Customer": 0.5356
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "Actually it's at the primary",
+        "index": 720,
+        "speaker": "Staff",
+        "start": 354.83,
+        "end": 362.18,
+        "voiceWindow": [
+          354.83,
+          362.18
+        ],
+        "scores": {
+          "Narrator": 0.3973,
+          "Staff": 0.8625,
+          "Customer": 0.4021
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Hmm Am I good about",
+        "index": 743,
+        "speaker": "Customer",
+        "start": 362.21,
+        "end": 365.28000000000003,
+        "voiceWindow": [
+          362.21,
+          365.28000000000003
+        ],
+        "scores": {
+          "Narrator": 0.2799,
+          "Staff": 0.3612,
+          "Customer": 0.6422
+        },
+        "chosen": "Customer"
+      },
+      {
+        "phrase": "There's a couple of other talks",
+        "index": 752,
+        "speaker": "Staff",
+        "start": 365.31,
+        "end": 393.26000000000005,
+        "voiceWindow": [
+          365.31,
+          375.31
+        ],
+        "scores": {
+          "Narrator": 0.5286,
+          "Staff": 0.912,
+          "Customer": 0.4039
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "That is the end",
+        "index": 809,
+        "speaker": "Narrator",
+        "start": 393.29,
+        "end": 399.99,
+        "voiceWindow": [
+          393.29,
+          399.99
+        ],
+        "scores": {
+          "Narrator": 0.8138,
+          "Staff": 0.4424,
+          "Customer": 0.3251
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "tailChecks": [
+      {
+        "phrase": "Test 4",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 0.5,
+        "end": 93.16,
+        "kind": "tail",
+        "voiceWindow": [
+          85.16,
+          93.16
+        ],
+        "scores": {
+          "Narrator": 0.6497,
+          "Staff": 0.3019,
+          "Customer": 0.2325
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "The woman says",
+        "index": 188,
+        "speaker": "Narrator",
+        "start": 111.67,
+        "end": 138.93,
+        "kind": "tail",
+        "voiceWindow": [
+          130.93,
+          138.93
+        ],
+        "scores": {
+          "Narrator": 0.6543,
+          "Staff": 0.312,
+          "Customer": 0.2603
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yeah okay Well there's",
+        "index": 277,
+        "speaker": "Staff",
+        "start": 149.22,
+        "end": 159.39,
+        "kind": "tail",
+        "voiceWindow": [
+          151.39,
+          159.39
+        ],
+        "scores": {
+          "Narrator": 0.3425,
+          "Staff": 0.907,
+          "Customer": 0.3962
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "E-S-H-C-O-L",
+        "index": 345,
+        "speaker": "Staff",
+        "start": 176.34,
+        "end": 187.03,
+        "kind": "tail",
+        "voiceWindow": [
+          179.03,
+          187.03
+        ],
+        "scores": {
+          "Narrator": 0.4599,
+          "Staff": 0.8126,
+          "Customer": 0.32
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "And it's particularly good",
+        "index": 373,
+        "speaker": "Staff",
+        "start": 188.07,
+        "end": 212.3,
+        "kind": "tail",
+        "voiceWindow": [
+          204.3,
+          212.3
+        ],
+        "scores": {
+          "Narrator": 0.3396,
+          "Staff": 0.7156,
+          "Customer": 0.3168
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "There are usually some",
+        "index": 454,
+        "speaker": "Staff",
+        "start": 222.22,
+        "end": 270.78000000000003,
+        "kind": "tail",
+        "voiceWindow": [
+          262.78000000000003,
+          270.78000000000003
+        ],
+        "scores": {
+          "Narrator": 0.3607,
+          "Staff": 0.8075,
+          "Customer": 0.3805
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 588,
+        "speaker": "Narrator",
+        "start": 275.57,
+        "end": 314.70000000000005,
+        "kind": "tail",
+        "voiceWindow": [
+          306.70000000000005,
+          314.70000000000005
+        ],
+        "scores": {
+          "Narrator": 0.7117,
+          "Staff": 0.2754,
+          "Customer": 0.194
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Well the first one's about",
+        "index": 647,
+        "speaker": "Staff",
+        "start": 326.07,
+        "end": 341.70000000000005,
+        "kind": "tail",
+        "voiceWindow": [
+          333.70000000000005,
+          341.70000000000005
+        ],
+        "scores": {
+          "Narrator": 0.5014,
+          "Staff": 0.7606,
+          "Customer": 0.3376
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "There's a couple of other talks",
+        "index": 752,
+        "speaker": "Staff",
+        "start": 365.31,
+        "end": 393.26000000000005,
+        "kind": "tail",
+        "voiceWindow": [
+          385.26000000000005,
+          393.26000000000005
+        ],
+        "scores": {
+          "Narrator": 0.3837,
+          "Staff": 0.4731,
+          "Customer": 0.1988
+        },
+        "chosen": "Staff"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "initialTailChecks": [
+      {
+        "phrase": "Test 4",
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 0.5,
+        "end": 93.16,
+        "voiceWindow": [
+          85.16,
+          93.16
+        ],
+        "scores": {
+          "Narrator": 0.6497,
+          "Staff": 0.3019,
+          "Customer": 0.2325
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "The woman says",
+        "index": 188,
+        "speaker": "Narrator",
+        "start": 111.67,
+        "end": 138.93,
+        "voiceWindow": [
+          130.93,
+          138.93
+        ],
+        "scores": {
+          "Narrator": 0.6543,
+          "Staff": 0.312,
+          "Customer": 0.2603
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Yeah okay Well there's",
+        "index": 277,
+        "speaker": "Staff",
+        "start": 149.22,
+        "end": 159.39,
+        "voiceWindow": [
+          159.22,
+          159.39
+        ],
+        "scores": {
+          "Narrator": 0.1618,
+          "Staff": 0.0791,
+          "Customer": 0.0743
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Oh actually my youngest",
+        "index": 305,
+        "speaker": "Customer",
+        "start": 159.42,
+        "end": 169.71,
+        "voiceWindow": [
+          169.42,
+          169.71
+        ],
+        "scores": {
+          "Narrator": 0.1742,
+          "Staff": 0.1422,
+          "Customer": 0.1125
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "And it's particularly good",
+        "index": 373,
+        "speaker": "Staff",
+        "start": 188.07,
+        "end": 212.3,
+        "voiceWindow": [
+          204.3,
+          212.3
+        ],
+        "scores": {
+          "Narrator": 0.3396,
+          "Staff": 0.7156,
+          "Customer": 0.3168
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "There are usually some",
+        "index": 454,
+        "speaker": "Staff",
+        "start": 222.22,
+        "end": 270.78000000000003,
+        "voiceWindow": [
+          262.78000000000003,
+          270.78000000000003
+        ],
+        "scores": {
+          "Narrator": 0.3607,
+          "Staff": 0.8075,
+          "Customer": 0.3805
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Before you hear the rest",
+        "index": 588,
+        "speaker": "Narrator",
+        "start": 275.57,
+        "end": 314.70000000000005,
+        "voiceWindow": [
+          306.70000000000005,
+          314.70000000000005
+        ],
+        "scores": {
+          "Narrator": 0.7117,
+          "Staff": 0.2754,
+          "Customer": 0.194
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "phrase": "Well the first one's about",
+        "index": 647,
+        "speaker": "Staff",
+        "start": 326.07,
+        "end": 341.70000000000005,
+        "voiceWindow": [
+          336.07,
+          341.70000000000005
+        ],
+        "scores": {
+          "Narrator": 0.4623,
+          "Staff": 0.7162,
+          "Customer": 0.3109
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "There's a couple of other talks",
+        "index": 752,
+        "speaker": "Staff",
+        "start": 365.31,
+        "end": 393.26000000000005,
+        "voiceWindow": [
+          385.26000000000005,
+          393.26000000000005
+        ],
+        "scores": {
+          "Narrator": 0.3837,
+          "Staff": 0.4731,
+          "Customer": 0.1988
+        },
+        "chosen": "Staff"
+      }
+    ],
+    "shortReplyChecks": [
+      {
+        "phrase": "Right short-reply stability",
+        "speaker": "Staff",
+        "index": 320,
+        "kind": "short-reply",
+        "voiceWindow": [
+          165.45,
+          166.1
+        ],
+        "scores": {
+          "Narrator": 0.1936,
+          "Staff": 0.5506,
+          "Customer": 0.2733
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Right short-reply stability",
+        "speaker": "Staff",
+        "index": 320,
+        "kind": "short-reply",
+        "voiceWindow": [
+          165.5,
+          165.95
+        ],
+        "scores": {
+          "Narrator": 0.1605,
+          "Staff": 0.5178,
+          "Customer": 0.2555
+        },
+        "chosen": "Staff"
+      },
+      {
+        "phrase": "Right short-reply stability",
+        "speaker": "Staff",
+        "index": 320,
+        "kind": "short-reply",
+        "voiceWindow": [
+          165.55,
+          166.2
+        ],
+        "scores": {
+          "Narrator": 0.256,
+          "Staff": 0.4881,
+          "Customer": 0.3229
+        },
+        "chosen": "Staff"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Test 4. You will hear a number of different recordings, and you will have to answer questions on what you hear. There will be time for you to read the instructions and questions, and you will have a chance to check your work. All the recordings will be played once only. The test is in four sections. At the end of the test, you will be given ten minutes to transfer your answers to an answer sheet."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Narrator",
+      "text": " Now turn to section one. Section one. You will hear a man asking for information about health services in the place where he is living. First, you have some time to look at questions one to six. You will see that there is an example that has been done for you. On this occasion only, the conversation relating to this will be played first. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Staff",
+      "text": "Can I help you? "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Customer",
+      "text": "Yes."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Customer",
+      "text": " "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Customer",
+      "text": "[Unclear — check the recording] I've just moved to this area with my wife and children, and I'd like to know where we can all register with a doctor at a health centre. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Staff",
+      "text": "Okay. Well, there's Dr Green at the Harvey Clinic. "
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Narrator",
+      "text": "The woman says the doctor at the Harvey Clinic is called Dr Green. So, Green has been written in the space. Now we shall begin. You should answer the questions as you listen."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Narrator",
+      "text": " "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Narrator",
+      "text": "[Unclear — check the recording] because you will not hear the recording a second time. Listen carefully and answer questions one to six. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Staff",
+      "text": "Can I help you? "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Customer",
+      "text": "Yes, I've just moved to this area with my wife and children and I'd like to know where we can all register with a doctor at a health centre. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Staff",
+      "text": "Yeah, okay. Well, there's Dr Green at the Harvey Clinic. We always recommend her for babies because she's very good with them and she runs a special clinic."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": " Oh, actually my youngest child is five, so that wouldn't be any good for us. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Staff",
+      "text": "Right. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": "Is there anywhere else I could try? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Staff",
+      "text": "Yes, the Eshkol health practice is the next one on my list. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": "How do you spell that? "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Staff",
+      "text": "E-S-H-C-O-L. And it's Dr. Fuller who has space on his list. The clinic only opened a year ago, so the facilities are all very modern. "
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Customer",
+      "text": "That sounds good."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Staff",
+      "text": " And it's particularly good if you're busy during the day because they also do appointments in the evening. They're closed on Saturday though. The only other place on the list is the health centre on Shore Lane. You can register with Dr Gormley. That's G-O-R-M-L-E-Y. He's new there, but the centre has a very good reputation. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Customer",
+      "text": "Oh yes, I think I know the road. That would be the best one."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Customer",
+      "text": " Thanks. Could you tell me, will all their services be free? "
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Staff",
+      "text": "There are usually some small charges that doctors make. Let me see what it says about the Shore Lane Centre. If you need to be vaccinated before any trips abroad, you won't have to pay for this. What else? The Sports Injury Treatment Service operates on a paying basis, as does the Nutritional Therapy Service."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Staff",
+      "text": " "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Staff",
+      "text": "[Unclear — check the recording] Some health centres do offer alternative therapies like homeopathy as part of their pay-to-use service. Sure Lane are hoping to do this soon. I think they may start with acupuncture. And finally, if you need to prove you're healthy or haven't had any serious injuries before a new employer will accept you, you can get a free fitness check up there. But you'd most likely have to pay for insurance medicals though. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Customer",
+      "text": "Okay, thanks. "
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the conversation,"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": " You have some time to look at questions 7 to 10. Now listen and answer questions 7 to 10. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Staff",
+      "text": "You might also be interested to know the centre is running a pilot scheme of talks for patients. I've got the list here. Actually, they look very interesting. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Customer",
+      "text": "What sort of things? "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Staff",
+      "text": "Well, the first one's about giving up smoking. It's next week, the 25th of February at 7pm."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Staff",
+      "text": " And that's in room four. It says the talk will stress the health benefits, particularly for people with asthma or heart disease. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "That sounds very interesting. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Staff",
+      "text": "There's also a talk for families with children. It's on healthy eating and takes place on the first of March at five o'clock. "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Customer",
+      "text": "Will that be at the health center? "
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Staff",
+      "text": "Actually, it's at the primary school on Shore Lane. I imagine they're inviting the parents of pupils there. It says here, all welcome."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Customer",
+      "text": " Hmm. Am I good about if I have time? "
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Staff",
+      "text": "There's a couple of other talks. One giving advice about how to avoid injuries while doing exercise. It's on the 9th of March. Oh, it's a late afternoon talk at 4.30. And it'll be in Room 6. It also says the talk is suitable for all ages. And finally, there's a talk called Stress Management, which is..."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Narrator",
+      "text": " That is the end of section 1. You now have half a minute to check your answers."
+    }
+  ],
+  "annotations": [
+    [
+      "EM",
+      "[Unclear — check the recording] I've just moved to this area with my wife and children, and I'd like to know where we can all register with a doctor at a health centre. Okay. Well, there's Dr Green at the Harvey Clinic. The woman says the doctor at the Harvey Clinic is called Dr Green. So, Green has been written in the space. Now we shall begin. You should answer the questions as you listen."
+    ],
+    [
+      "EM",
+      "[Unclear — check the recording] because you will not hear the recording a second time. Listen carefully and answer questions one to six. Can I help you? Yes, I've just moved to this area with my wife and children and I'd like to know where we can all register with a doctor at a health centre. Yeah, okay. Well, there's Dr Green at the Harvey Clinic. We always recommend her for babies because she's very good with them and she runs a special clinic."
+    ],
+    [
+      "EM",
+      "[Unclear — check the recording] Some health centres do offer alternative therapies like homeopathy as part of their pay-to-use service. Sure Lane are hoping to do this soon. I think they may start with acupuncture. And finally, if you need to prove you're healthy or haven't had any serious injuries before a new employer will accept you, you can get a free fitness check up there. But you'd most likely have to pay for insurance medicals though. Okay, thanks. Before you hear the rest of the conversation,"
+    ]
+  ],
+  "otherPartsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

@@ -1,0 +1,1270 @@
+{
+  "test": "practice-listening-5",
+  "part": 2,
+  "audioSha256": "f23bdae6fa4dc615e97fdae4fcd28b1902790ec47f23a129e2475a242c8addb9",
+  "scope": {
+    "start": 462.26,
+    "end": 865.73
+  },
+  "sourceScope": "All 12 published speech paragraphs, including two mixed narrator/guide paragraphs, checked as 14 independent voice spans plus 14 tail checks. Opening narrator instructions end before Welcome to the Global Museum; the middle narration starts at Before after centimetres. All 14 previously untimed source tokens receive word or phrase timing. At questions occurs twice with zero-duration questions in both recognizers and is represented by phrase cues. A hundred is one source phrase cue corresponding to recognized 100. Gallery is recovered with cropped recognition and the preceding in endpoint is shortened to prevent overlap. Before is recovered in an isolated crop and its endpoint is clipped by 0.02s to the existing next you onset. Altogether, aeroplane and centimetres use equivalent compound/spelling forms, while researched retains source inflection against recognized research. Hands-on and numerical section/page labels use cached full-recording recognition durations. The part endpoint is extended to include the previously untimed final page five. Existing text and other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 865.05,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 18,
+      "text": "at",
+      "start": "469.30",
+      "end": "469.94"
+    },
+    {
+      "index": 411,
+      "text": "at",
+      "start": "661.50",
+      "end": "662.12"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 0,
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 462.26,
+      "end": 506.73,
+      "voiceWindow": [
+        498.73,
+        506.73
+      ],
+      "scores": {
+        "Narrator": 0.5103,
+        "Museum guide": 0.1603
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 0,
+      "index": 35,
+      "speaker": "Museum guide",
+      "start": 510.49,
+      "end": 527.23,
+      "voiceWindow": [
+        519.23,
+        527.23
+      ],
+      "scores": {
+        "Narrator": 0.3845,
+        "Museum guide": 0.9143
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 1,
+      "index": 83,
+      "speaker": "Museum guide",
+      "start": 528.36,
+      "end": 545.98,
+      "voiceWindow": [
+        537.98,
+        545.98
+      ],
+      "scores": {
+        "Narrator": 0.32,
+        "Museum guide": 0.8866
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 2,
+      "index": 124,
+      "speaker": "Museum guide",
+      "start": 547.09,
+      "end": 570.9,
+      "voiceWindow": [
+        562.9,
+        570.9
+      ],
+      "scores": {
+        "Narrator": 0.3571,
+        "Museum guide": 0.9015
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 3,
+      "index": 181,
+      "speaker": "Museum guide",
+      "start": 572.17,
+      "end": 609.75,
+      "voiceWindow": [
+        601.75,
+        609.75
+      ],
+      "scores": {
+        "Narrator": 0.3598,
+        "Museum guide": 0.8518
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 4,
+      "index": 284,
+      "speaker": "Museum guide",
+      "start": 610.78,
+      "end": 633.94,
+      "voiceWindow": [
+        625.94,
+        633.94
+      ],
+      "scores": {
+        "Narrator": 0.3636,
+        "Museum guide": 0.8755
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 5,
+      "index": 345,
+      "speaker": "Museum guide",
+      "start": 635.02,
+      "end": 654.38,
+      "voiceWindow": [
+        646.38,
+        654.38
+      ],
+      "scores": {
+        "Narrator": 0.3758,
+        "Museum guide": 0.899
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 5,
+      "index": 397,
+      "speaker": "Narrator",
+      "start": 658.44,
+      "end": 699.23,
+      "voiceWindow": [
+        691.23,
+        699.23
+      ],
+      "scores": {
+        "Narrator": 0.4852,
+        "Museum guide": 0.2001
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 6,
+      "index": 429,
+      "speaker": "Museum guide",
+      "start": 702.67,
+      "end": 723.09,
+      "voiceWindow": [
+        715.09,
+        723.09
+      ],
+      "scores": {
+        "Narrator": 0.383,
+        "Museum guide": 0.8676
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 7,
+      "index": 480,
+      "speaker": "Museum guide",
+      "start": 723.85,
+      "end": 753.09,
+      "voiceWindow": [
+        745.09,
+        753.09
+      ],
+      "scores": {
+        "Narrator": 0.3573,
+        "Museum guide": 0.8532
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 8,
+      "index": 541,
+      "speaker": "Museum guide",
+      "start": 754.45,
+      "end": 781.89,
+      "voiceWindow": [
+        773.89,
+        781.89
+      ],
+      "scores": {
+        "Narrator": 0.3978,
+        "Museum guide": 0.8527
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 9,
+      "index": 616,
+      "speaker": "Museum guide",
+      "start": 782.93,
+      "end": 801.04,
+      "voiceWindow": [
+        793.04,
+        801.04
+      ],
+      "scores": {
+        "Narrator": 0.3297,
+        "Museum guide": 0.8812
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 10,
+      "index": 675,
+      "speaker": "Museum guide",
+      "start": 802.45,
+      "end": 823.31,
+      "voiceWindow": [
+        815.31,
+        823.31
+      ],
+      "scores": {
+        "Narrator": 0.3566,
+        "Museum guide": 0.875
+      },
+      "chosen": "Museum guide"
+    },
+    {
+      "paragraph": 11,
+      "index": 739,
+      "speaker": "Narrator",
+      "start": 826.99,
+      "end": 865.73,
+      "voiceWindow": [
+        857.73,
+        865.73
+      ],
+      "scores": {
+        "Narrator": 0.511,
+        "Museum guide": 0.1507
+      },
+      "chosen": "Narrator"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 588,
+      "end": 594,
+      "words": [
+        {
+          "word": "Toys",
+          "start": 588.84,
+          "end": 589.4
+        },
+        {
+          "word": "from",
+          "start": 589.4,
+          "end": 589.66
+        },
+        {
+          "word": "the",
+          "start": 589.66,
+          "end": 589.84
+        },
+        {
+          "word": "Past,",
+          "start": 589.84,
+          "end": 590.32
+        },
+        {
+          "word": "which",
+          "start": 590.82,
+          "end": 590.88
+        },
+        {
+          "word": "can",
+          "start": 590.88,
+          "end": 591.04
+        },
+        {
+          "word": "be",
+          "start": 591.04,
+          "end": 591.18
+        },
+        {
+          "word": "found",
+          "start": 591.18,
+          "end": 591.46
+        },
+        {
+          "word": "in",
+          "start": 591.46,
+          "end": 591.66
+        },
+        {
+          "word": "Gallery",
+          "start": 591.66,
+          "end": 591.98
+        },
+        {
+          "word": "9.",
+          "start": 591.98,
+          "end": 592.52
+        }
+      ]
+    },
+    {
+      "start": 652,
+      "end": 665,
+      "words": [
+        {
+          "word": "buildings",
+          "start": 652,
+          "end": 652.4
+        },
+        {
+          "word": "no",
+          "start": 652.4,
+          "end": 652.86
+        },
+        {
+          "word": "higher",
+          "start": 652.86,
+          "end": 653.2
+        },
+        {
+          "word": "than",
+          "start": 653.2,
+          "end": 653.46
+        },
+        {
+          "word": "four",
+          "start": 653.46,
+          "end": 653.84
+        },
+        {
+          "word": "centimetres.",
+          "start": 653.84,
+          "end": 654.66
+        }
+      ]
+    },
+    {
+      "start": 862,
+      "end": 867,
+      "words": [
+        {
+          "word": "Now",
+          "start": 862,
+          "end": 862.68
+        },
+        {
+          "word": "turn",
+          "start": 862.68,
+          "end": 862.92
+        },
+        {
+          "word": "to",
+          "start": 862.92,
+          "end": 863.22
+        },
+        {
+          "word": "Section",
+          "start": 863.22,
+          "end": 863.38
+        },
+        {
+          "word": "3,",
+          "start": 863.38,
+          "end": 864.06
+        },
+        {
+          "word": "on",
+          "start": 864.5,
+          "end": 864.78
+        },
+        {
+          "word": "page",
+          "start": 864.78,
+          "end": 865.06
+        },
+        {
+          "word": "5.",
+          "start": 865.06,
+          "end": 865.7
+        }
+      ]
+    },
+    {
+      "start": 656,
+      "end": 666,
+      "words": [
+        {
+          "word": "Before",
+          "start": 657.88,
+          "end": 658.46
+        },
+        {
+          "word": "you",
+          "start": 658.46,
+          "end": 658.64
+        },
+        {
+          "word": "hear",
+          "start": 658.64,
+          "end": 658.84
+        },
+        {
+          "word": "the",
+          "start": 658.84,
+          "end": 659.02
+        },
+        {
+          "word": "rest",
+          "start": 659.02,
+          "end": 659.18
+        },
+        {
+          "word": "of",
+          "start": 659.18,
+          "end": 659.34
+        },
+        {
+          "word": "the",
+          "start": 659.34,
+          "end": 659.44
+        },
+        {
+          "word": "talk,",
+          "start": 659.44,
+          "end": 659.82
+        },
+        {
+          "word": "you",
+          "start": 660.3,
+          "end": 660.38
+        },
+        {
+          "word": "have",
+          "start": 660.38,
+          "end": 660.56
+        },
+        {
+          "word": "some",
+          "start": 660.56,
+          "end": 660.76
+        },
+        {
+          "word": "time",
+          "start": 660.76,
+          "end": 661.14
+        },
+        {
+          "word": "to",
+          "start": 661.14,
+          "end": 661.38
+        },
+        {
+          "word": "look",
+          "start": 661.38,
+          "end": 661.5
+        },
+        {
+          "word": "at",
+          "start": 661.5,
+          "end": 662.14
+        },
+        {
+          "word": "questions",
+          "start": 662.14,
+          "end": 662.14
+        },
+        {
+          "word": "16",
+          "start": 662.14,
+          "end": 662.76
+        },
+        {
+          "word": "-20",
+          "start": 662.76,
+          "end": 663.4
+        },
+        {
+          "word": "on",
+          "start": 663.73,
+          "end": 664.02
+        },
+        {
+          "word": "pages",
+          "start": 664.02,
+          "end": 664.28
+        },
+        {
+          "word": "3",
+          "start": 664.28,
+          "end": 664.82
+        },
+        {
+          "word": "and",
+          "start": 664.82,
+          "end": 665.14
+        },
+        {
+          "word": "4.",
+          "start": 665.14,
+          "end": 665.56
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 237,
+      "text": "in",
+      "old": [
+        "591.44",
+        "592.00"
+      ],
+      "new": [
+        591.44,
+        591.66
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 18,
+      "text": "at questions",
+      "start": 469.3,
+      "end": 469.94,
+      "granularity": "phrase"
+    },
+    {
+      "index": 83,
+      "text": "Altogether",
+      "start": 528.36,
+      "end": 528.96,
+      "granularity": "source-token"
+    },
+    {
+      "index": 152,
+      "text": "researched",
+      "start": 557.66,
+      "end": 558.1,
+      "granularity": "source-token"
+    },
+    {
+      "index": 238,
+      "text": "gallery",
+      "start": 591.66,
+      "end": 591.98,
+      "granularity": "source-token"
+    },
+    {
+      "index": 270,
+      "text": "a hundred",
+      "start": 603.95,
+      "end": 604.35,
+      "granularity": "phrase"
+    },
+    {
+      "index": 377,
+      "text": "aeroplane",
+      "start": 646.22,
+      "end": 646.84,
+      "granularity": "source-token"
+    },
+    {
+      "index": 396,
+      "text": "centimetres.",
+      "start": 653.82,
+      "end": 654.38,
+      "granularity": "source-token"
+    },
+    {
+      "index": 397,
+      "text": "Before",
+      "start": 657.88,
+      "end": 658.44,
+      "granularity": "source-token"
+    },
+    {
+      "index": 411,
+      "text": "at questions",
+      "start": 661.5,
+      "end": 662.12,
+      "granularity": "phrase"
+    },
+    {
+      "index": 590,
+      "text": "hands-on",
+      "start": 771.99,
+      "end": 772.77,
+      "granularity": "source-token"
+    },
+    {
+      "index": 745,
+      "text": "2.",
+      "start": 828.17,
+      "end": 828.67,
+      "granularity": "source-token"
+    },
+    {
+      "index": 760,
+      "text": "3",
+      "start": 863.45,
+      "end": 864.03,
+      "granularity": "source-token"
+    },
+    {
+      "index": 763,
+      "text": "5.",
+      "start": 865.05,
+      "end": 865.73,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 761,
+  "wordClocksSha256": "1eb3d6b98376cbd11c36ad301add5eb610e61b41022eafd8c36ebcaa8b1141e4",
+  "tokenCount": 764,
+  "tokensSha256": "43fc4317bd9e77e1cf539d71852dfc9f03cc9273b438234b3ffa6b9cc2deccb6",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          462.26,
+          466.3
+        ],
+        [
+          502.13,
+          506.73
+        ],
+        [
+          826.99,
+          832.5
+        ]
+      ],
+      "Museum guide": [
+        [
+          510.49,
+          519
+        ],
+        [
+          528.36,
+          536
+        ],
+        [
+          702.67,
+          709.6
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          462.26,
+          466.3
+        ],
+        "scores": {
+          "Narrator": 0.7707,
+          "Museum guide": 0.3568
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          502.13,
+          506.73
+        ],
+        "scores": {
+          "Narrator": 0.7346,
+          "Museum guide": 0.2965
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          826.99,
+          832.5
+        ],
+        "scores": {
+          "Narrator": 0.7979,
+          "Museum guide": 0.4014
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Museum guide",
+        "window": [
+          510.49,
+          519
+        ],
+        "scores": {
+          "Narrator": 0.3195,
+          "Museum guide": 0.8691
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "label": "Museum guide",
+        "window": [
+          528.36,
+          536
+        ],
+        "scores": {
+          "Narrator": 0.375,
+          "Museum guide": 0.8815
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "label": "Museum guide",
+        "window": [
+          702.67,
+          709.6
+        ],
+        "scores": {
+          "Narrator": 0.3997,
+          "Museum guide": 0.786
+        },
+        "chosen": "Museum guide"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 462.26,
+        "end": 506.73,
+        "voiceWindow": [
+          462.26,
+          472.26
+        ],
+        "scores": {
+          "Narrator": 0.9129,
+          "Museum guide": 0.4089
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 0,
+        "index": 35,
+        "speaker": "Museum guide",
+        "start": 510.49,
+        "end": 527.23,
+        "voiceWindow": [
+          510.49,
+          520.49
+        ],
+        "scores": {
+          "Narrator": 0.3431,
+          "Museum guide": 0.9517
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 1,
+        "index": 83,
+        "speaker": "Museum guide",
+        "start": 528.36,
+        "end": 545.98,
+        "voiceWindow": [
+          528.36,
+          538.36
+        ],
+        "scores": {
+          "Narrator": 0.3688,
+          "Museum guide": 0.9533
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 2,
+        "index": 124,
+        "speaker": "Museum guide",
+        "start": 547.09,
+        "end": 570.9,
+        "voiceWindow": [
+          547.09,
+          557.09
+        ],
+        "scores": {
+          "Narrator": 0.4013,
+          "Museum guide": 0.907
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 3,
+        "index": 181,
+        "speaker": "Museum guide",
+        "start": 572.17,
+        "end": 609.75,
+        "voiceWindow": [
+          572.17,
+          582.17
+        ],
+        "scores": {
+          "Narrator": 0.3492,
+          "Museum guide": 0.8806
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 4,
+        "index": 284,
+        "speaker": "Museum guide",
+        "start": 610.78,
+        "end": 633.94,
+        "voiceWindow": [
+          610.78,
+          620.78
+        ],
+        "scores": {
+          "Narrator": 0.4065,
+          "Museum guide": 0.8759
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 345,
+        "speaker": "Museum guide",
+        "start": 635.02,
+        "end": 654.38,
+        "voiceWindow": [
+          635.02,
+          645.02
+        ],
+        "scores": {
+          "Narrator": 0.4268,
+          "Museum guide": 0.9098
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 397,
+        "speaker": "Narrator",
+        "start": 658.44,
+        "end": 699.23,
+        "voiceWindow": [
+          658.44,
+          668.44
+        ],
+        "scores": {
+          "Narrator": 0.8027,
+          "Museum guide": 0.323
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 6,
+        "index": 429,
+        "speaker": "Museum guide",
+        "start": 702.67,
+        "end": 723.09,
+        "voiceWindow": [
+          702.67,
+          712.67
+        ],
+        "scores": {
+          "Narrator": 0.4229,
+          "Museum guide": 0.9198
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 7,
+        "index": 480,
+        "speaker": "Museum guide",
+        "start": 723.85,
+        "end": 753.09,
+        "voiceWindow": [
+          723.85,
+          733.85
+        ],
+        "scores": {
+          "Narrator": 0.3924,
+          "Museum guide": 0.8903
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 8,
+        "index": 541,
+        "speaker": "Museum guide",
+        "start": 754.45,
+        "end": 781.89,
+        "voiceWindow": [
+          754.45,
+          764.45
+        ],
+        "scores": {
+          "Narrator": 0.3926,
+          "Museum guide": 0.8736
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 9,
+        "index": 616,
+        "speaker": "Museum guide",
+        "start": 782.93,
+        "end": 801.04,
+        "voiceWindow": [
+          782.93,
+          792.93
+        ],
+        "scores": {
+          "Narrator": 0.3721,
+          "Museum guide": 0.8646
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 10,
+        "index": 675,
+        "speaker": "Museum guide",
+        "start": 802.45,
+        "end": 823.31,
+        "voiceWindow": [
+          802.45,
+          812.45
+        ],
+        "scores": {
+          "Narrator": 0.3595,
+          "Museum guide": 0.8942
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 11,
+        "index": 739,
+        "speaker": "Narrator",
+        "start": 826.99,
+        "end": 865.73,
+        "voiceWindow": [
+          826.99,
+          836.99
+        ],
+        "scores": {
+          "Narrator": 0.7766,
+          "Museum guide": 0.2978
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 462.26,
+        "end": 506.73,
+        "voiceWindow": [
+          498.73,
+          506.73
+        ],
+        "scores": {
+          "Narrator": 0.5103,
+          "Museum guide": 0.1603
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 0,
+        "index": 35,
+        "speaker": "Museum guide",
+        "start": 510.49,
+        "end": 527.23,
+        "voiceWindow": [
+          519.23,
+          527.23
+        ],
+        "scores": {
+          "Narrator": 0.3845,
+          "Museum guide": 0.9143
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 1,
+        "index": 83,
+        "speaker": "Museum guide",
+        "start": 528.36,
+        "end": 545.98,
+        "voiceWindow": [
+          537.98,
+          545.98
+        ],
+        "scores": {
+          "Narrator": 0.32,
+          "Museum guide": 0.8866
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 2,
+        "index": 124,
+        "speaker": "Museum guide",
+        "start": 547.09,
+        "end": 570.9,
+        "voiceWindow": [
+          562.9,
+          570.9
+        ],
+        "scores": {
+          "Narrator": 0.3571,
+          "Museum guide": 0.9015
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 3,
+        "index": 181,
+        "speaker": "Museum guide",
+        "start": 572.17,
+        "end": 609.75,
+        "voiceWindow": [
+          601.75,
+          609.75
+        ],
+        "scores": {
+          "Narrator": 0.3598,
+          "Museum guide": 0.8518
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 4,
+        "index": 284,
+        "speaker": "Museum guide",
+        "start": 610.78,
+        "end": 633.94,
+        "voiceWindow": [
+          625.94,
+          633.94
+        ],
+        "scores": {
+          "Narrator": 0.3636,
+          "Museum guide": 0.8755
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 345,
+        "speaker": "Museum guide",
+        "start": 635.02,
+        "end": 654.38,
+        "voiceWindow": [
+          646.38,
+          654.38
+        ],
+        "scores": {
+          "Narrator": 0.3758,
+          "Museum guide": 0.899
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 397,
+        "speaker": "Narrator",
+        "start": 658.44,
+        "end": 699.23,
+        "voiceWindow": [
+          691.23,
+          699.23
+        ],
+        "scores": {
+          "Narrator": 0.4852,
+          "Museum guide": 0.2001
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 6,
+        "index": 429,
+        "speaker": "Museum guide",
+        "start": 702.67,
+        "end": 723.09,
+        "voiceWindow": [
+          715.09,
+          723.09
+        ],
+        "scores": {
+          "Narrator": 0.383,
+          "Museum guide": 0.8676
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 7,
+        "index": 480,
+        "speaker": "Museum guide",
+        "start": 723.85,
+        "end": 753.09,
+        "voiceWindow": [
+          745.09,
+          753.09
+        ],
+        "scores": {
+          "Narrator": 0.3573,
+          "Museum guide": 0.8532
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 8,
+        "index": 541,
+        "speaker": "Museum guide",
+        "start": 754.45,
+        "end": 781.89,
+        "voiceWindow": [
+          773.89,
+          781.89
+        ],
+        "scores": {
+          "Narrator": 0.3978,
+          "Museum guide": 0.8527
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 9,
+        "index": 616,
+        "speaker": "Museum guide",
+        "start": 782.93,
+        "end": 801.04,
+        "voiceWindow": [
+          793.04,
+          801.04
+        ],
+        "scores": {
+          "Narrator": 0.3297,
+          "Museum guide": 0.8812
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 10,
+        "index": 675,
+        "speaker": "Museum guide",
+        "start": 802.45,
+        "end": 823.31,
+        "voiceWindow": [
+          815.31,
+          823.31
+        ],
+        "scores": {
+          "Narrator": 0.3566,
+          "Museum guide": 0.875
+        },
+        "chosen": "Museum guide"
+      },
+      {
+        "paragraph": 11,
+        "index": 739,
+        "speaker": "Narrator",
+        "start": 826.99,
+        "end": 865.73,
+        "voiceWindow": [
+          857.73,
+          865.73
+        ],
+        "scores": {
+          "Narrator": 0.511,
+          "Museum guide": 0.1507
+        },
+        "chosen": "Narrator"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "You will hear an audio guide introducing visitors to a museum. First you have some time to look at questions 11 to 15 on page 3. Now listen carefully and answer questions 11 to 15. "
+    },
+    {
+      "paragraph": 0,
+      "speaker": "Museum guide",
+      "text": "Welcome to the Global Museum located at the heart of this truly multicultural city which is home to more than 60 different nationalities. The museum has a number of exciting displays and exhibitions and this audio guide is designed to help you make the most of your visit."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Museum guide",
+      "text": "Altogether the museum has 18 different galleries and this season sees the opening of three new exhibitions. We recommend that you begin your tour by visiting this season's highlights. The Heritage Clothes exhibition is located in gallery 5 of the museum."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Museum guide",
+      "text": "People who live in the area have spent two years preparing this exhibition which brings together some of the fascinating garments traditionally worn in their own communities. They researched the history of their community's clothing traditions and the customs and rituals associated with them. Altogether 16 countries are represented from Ghana to Korea from Turkey to Nepal."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Museum guide",
+      "text": "The photographs that accompany each display case were taken by some of the city college students who are studying design and show the clothes being modelled by the real people who wear them in the course of their everyday lives. Another highlight this season is the exhibition called Toys from the Past which can be found in gallery 9. This exhibition which will appeal to people of all ages is on tour throughout the country and will be here for 10 weeks only. The exhibits include dolls made over a hundred years ago with beautiful porcelain faces and in some cases real hair."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Museum guide",
+      "text": "The collection covers the favourite toys such as wooden train sets from many different generations and provides plenty of interest for children and adults. The gigantic board games which are laid out on the gallery floor are one of the most popular activities in the exhibition and should not be missed. This exhibition concludes with a special display of miniature toys."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Museum guide",
+      "text": "These small objects are on loan from countries all over the world and in some cases measure no more than a few centimetres. There's a tiny car made from matchsticks, a toy aeroplane complete with pilot and passengers made out of seashells and some exquisite little buildings no higher than four centimetres. "
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the talk you have some time to look at questions 16 to 20 on pages 3 and 4. Now listen and answer questions 16 to 20."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Museum guide",
+      "text": "The final gallery highlight of the season is the biscuit gallery at number 15. Many years ago this city was famous for its biscuits although today the factory no longer exists. Did you know for example that before biscuits were packed in paper or cardboard boxes biscuit tins were fashion items."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Museum guide",
+      "text": "The factory made tins round, square, triangular, hexagonal for a whole range of different occasions to celebrate national events, festivals, famous faces and so on. One fascinating display deals with people's favourite biscuits. There are sweet biscuits and savoury ones, biscuits filled with jam and biscuits filled with currants, biscuits with pink, yellow and white sugar icing or coloured sugar flowers."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Museum guide",
+      "text": "When the factory finally closed it announced that people's favourite biscuit was not as you might expect a chocolate biscuit or one filled with jam and cream but a plain savoury one which was eaten with cheese. When you get to the end of the exhibition there's an entertaining hands-on activity to fill your own biscuit tin. All the biscuits ever produced by the company are piled up on a table along with various tins."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Museum guide",
+      "text": "The biscuits are made out of thin pieces of wood but the weight, colours and shapes replicate the original biscuits. Your job is to fill a tin with biscuits so that when the lid is taken off they sit there as neatly as they did when the job was done by machine. It's not as easy as it looks."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Museum guide",
+      "text": "If you would like to buy a memento of your visit there is a museum gift shop selling postcards, souvenirs and handmade pottery next to the information desk on the ground floor. And finally if you don't want to carry your coats and bags around with you during your visit please make use of the free lockers provided by the museum. Enjoy your visit."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Narrator",
+      "text": "That is the end of section 2. You now have half a minute to check your answers. Now turn to section 3 on page 5."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "c123c87fb812ca70e256f93911d15d4c2934922594bfb2c5dd5b4d2e8bf80ba8"
+}

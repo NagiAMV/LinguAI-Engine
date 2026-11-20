@@ -1,0 +1,955 @@
+{
+  "test": "practice-listening-7",
+  "part": 2,
+  "audioSha256": "324512663dd3bed26ae220dcea51e9741ff4cebf20fee6bc67a91b9882473ac0",
+  "scope": {
+    "start": 475.98,
+    "end": 827.05
+  },
+  "sourceScope": "All 11 published paragraphs checked as narrator introduction and headteacher speech against three independent recording-specific reference clips for each role, with nine additional long-paragraph tail checks. The source is an abridged transcript: introductory title-like text corresponds to non-contiguous words in the narrator introduction, and body paragraphs omit passages from the recording. Facilities and public receive cached full-recording word clocks. State-of-the-art and right-hand receive combined recognized compound durations. Cropped recognition confirms Entrance to this is free rather than source Entrance to the museum is free; the two source words the museum remain untimed. Source to before staff is absent in both recognition passes and remains untimed. Visible source speaker labels and punctuation are retained without word clocks. Source paragraph-level speaker attributes are replaced by independently checked inline speaker attributes to avoid conflicting inherited labels. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [
+    {
+      "index": 151,
+      "text": "the"
+    },
+    {
+      "index": 152,
+      "text": "museum"
+    },
+    {
+      "index": 197,
+      "text": "to"
+    }
+  ],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 827.05,
+  "removedClocksForPhraseMerges": [],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 1,
+      "index": 8,
+      "speaker": "Headteacher",
+      "start": 535.74,
+      "end": 549.32,
+      "voiceWindow": [
+        541.32,
+        549.32
+      ],
+      "scores": {
+        "Narrator": 0.2366,
+        "Headteacher": 0.8752
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 2,
+      "index": 42,
+      "speaker": "Headteacher",
+      "start": 580.93,
+      "end": 601.82,
+      "voiceWindow": [
+        593.82,
+        601.82
+      ],
+      "scores": {
+        "Narrator": 0.1278,
+        "Headteacher": 0.8866
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 3,
+      "index": 93,
+      "speaker": "Headteacher",
+      "start": 607.5,
+      "end": 626.7,
+      "voiceWindow": [
+        618.7,
+        626.7
+      ],
+      "scores": {
+        "Narrator": 0.1394,
+        "Headteacher": 0.8498
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 4,
+      "index": 148,
+      "speaker": "Headteacher",
+      "start": 662.58,
+      "end": 684.32,
+      "voiceWindow": [
+        676.32,
+        684.32
+      ],
+      "scores": {
+        "Narrator": 0.1291,
+        "Headteacher": 0.8085
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 5,
+      "index": 201,
+      "speaker": "Headteacher",
+      "start": 737.37,
+      "end": 749.25,
+      "voiceWindow": [
+        741.25,
+        749.25
+      ],
+      "scores": {
+        "Narrator": 0.046,
+        "Headteacher": 0.8231
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 7,
+      "index": 261,
+      "speaker": "Headteacher",
+      "start": 760.95,
+      "end": 777.61,
+      "voiceWindow": [
+        769.61,
+        777.61
+      ],
+      "scores": {
+        "Narrator": 0.0834,
+        "Headteacher": 0.6508
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 8,
+      "index": 307,
+      "speaker": "Headteacher",
+      "start": 778.83,
+      "end": 795.44,
+      "voiceWindow": [
+        787.44,
+        795.44
+      ],
+      "scores": {
+        "Narrator": 0.1793,
+        "Headteacher": 0.73
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 9,
+      "index": 351,
+      "speaker": "Headteacher",
+      "start": 796.64,
+      "end": 813.63,
+      "voiceWindow": [
+        805.63,
+        813.63
+      ],
+      "scores": {
+        "Narrator": 0.1816,
+        "Headteacher": 0.8072
+      },
+      "chosen": "Headteacher"
+    },
+    {
+      "paragraph": 10,
+      "index": 394,
+      "speaker": "Headteacher",
+      "start": 814.77,
+      "end": 827.05,
+      "voiceWindow": [
+        819.05,
+        827.05
+      ],
+      "scores": {
+        "Narrator": 0.1658,
+        "Headteacher": 0.7242
+      },
+      "chosen": "Headteacher"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 660,
+      "end": 669,
+      "words": [
+        {
+          "word": "objects.",
+          "start": 660,
+          "end": 660.96
+        },
+        {
+          "word": "Entrance",
+          "start": 662.44,
+          "end": 663.04
+        },
+        {
+          "word": "to",
+          "start": 663.04,
+          "end": 663.26
+        },
+        {
+          "word": "this",
+          "start": 663.26,
+          "end": 663.44
+        },
+        {
+          "word": "is",
+          "start": 663.44,
+          "end": 663.64
+        },
+        {
+          "word": "free.",
+          "start": 663.64,
+          "end": 663.94
+        },
+        {
+          "word": "We",
+          "start": 664.96,
+          "end": 665.04
+        },
+        {
+          "word": "also",
+          "start": 665.04,
+          "end": 665.34
+        },
+        {
+          "word": "have",
+          "start": 665.34,
+          "end": 665.64
+        },
+        {
+          "word": "a",
+          "start": 665.64,
+          "end": 665.76
+        },
+        {
+          "word": "state",
+          "start": 665.76,
+          "end": 666.1
+        },
+        {
+          "word": "-of",
+          "start": 666.1,
+          "end": 666.3
+        },
+        {
+          "word": "-the",
+          "start": 666.3,
+          "end": 666.44
+        },
+        {
+          "word": "-art",
+          "start": 666.44,
+          "end": 666.68
+        },
+        {
+          "word": "sports",
+          "start": 666.68,
+          "end": 667.12
+        },
+        {
+          "word": "hall.",
+          "start": 667.12,
+          "end": 667.62
+        },
+        {
+          "word": "This",
+          "start": 668.38,
+          "end": 668.54
+        },
+        {
+          "word": "is...",
+          "start": 668.54,
+          "end": 668.98
+        }
+      ]
+    },
+    {
+      "start": 678,
+      "end": 685,
+      "words": [
+        {
+          "word": "It",
+          "start": 678,
+          "end": 678.24
+        },
+        {
+          "word": "has",
+          "start": 678.24,
+          "end": 678.4
+        },
+        {
+          "word": "a",
+          "start": 678.4,
+          "end": 678.54
+        },
+        {
+          "word": "varied",
+          "start": 678.54,
+          "end": 678.92
+        },
+        {
+          "word": "menu",
+          "start": 678.92,
+          "end": 679.36
+        },
+        {
+          "word": "and",
+          "start": 679.36,
+          "end": 680.06
+        },
+        {
+          "word": "it's",
+          "start": 680.06,
+          "end": 680.3
+        },
+        {
+          "word": "open",
+          "start": 680.3,
+          "end": 680.56
+        },
+        {
+          "word": "all",
+          "start": 680.56,
+          "end": 680.92
+        },
+        {
+          "word": "day",
+          "start": 680.92,
+          "end": 681.22
+        },
+        {
+          "word": "to",
+          "start": 681.22,
+          "end": 681.54
+        },
+        {
+          "word": "visitors",
+          "start": 681.54,
+          "end": 682.04
+        },
+        {
+          "word": "as",
+          "start": 682.04,
+          "end": 682.58
+        },
+        {
+          "word": "well",
+          "start": 682.58,
+          "end": 682.84
+        },
+        {
+          "word": "as",
+          "start": 682.84,
+          "end": 683.04
+        },
+        {
+          "word": "staff",
+          "start": 683.04,
+          "end": 683.5
+        },
+        {
+          "word": "and",
+          "start": 683.5,
+          "end": 683.8
+        },
+        {
+          "word": "students.",
+          "start": 683.8,
+          "end": 684.28
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [],
+  "addedClocks": [
+    {
+      "index": 3,
+      "text": "facilities",
+      "start": 479.78,
+      "end": 480.36,
+      "granularity": "source-token"
+    },
+    {
+      "index": 7,
+      "text": "public.",
+      "start": 483.1,
+      "end": 483.68,
+      "granularity": "source-token"
+    },
+    {
+      "index": 159,
+      "text": "state-of-the-art",
+      "start": 665.78,
+      "end": 666.66,
+      "granularity": "source-token"
+    },
+    {
+      "index": 346,
+      "text": "right-hand",
+      "start": 793.76,
+      "end": 794.22,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 408,
+  "wordClocksSha256": "2c744d00b52604048c45909c66e439b735ffdf3c5f1a6b3753a74c8db774c923",
+  "tokenCount": 426,
+  "tokensSha256": "b48d31ec1888b8cf320ad3a922043cfb688d6645d473d790d889d83b757c51fb",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          475.98,
+          483.68
+        ],
+        [
+          519.16,
+          523.16
+        ],
+        [
+          831.36,
+          837
+        ]
+      ],
+      "Headteacher": [
+        [
+          535.74,
+          543
+        ],
+        [
+          607.5,
+          615
+        ],
+        [
+          737.37,
+          745
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          475.98,
+          483.68
+        ],
+        "scores": {
+          "Narrator": 0.6822,
+          "Headteacher": 0.2332
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          519.16,
+          523.16
+        ],
+        "scores": {
+          "Narrator": 0.8122,
+          "Headteacher": 0.0958
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          831.36,
+          837
+        ],
+        "scores": {
+          "Narrator": 0.8828,
+          "Headteacher": 0.112
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Headteacher",
+        "window": [
+          535.74,
+          543
+        ],
+        "scores": {
+          "Narrator": 0.1713,
+          "Headteacher": 0.8283
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "label": "Headteacher",
+        "window": [
+          607.5,
+          615
+        ],
+        "scores": {
+          "Narrator": 0.1134,
+          "Headteacher": 0.8357
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "label": "Headteacher",
+        "window": [
+          737.37,
+          745
+        ],
+        "scores": {
+          "Narrator": 0.1625,
+          "Headteacher": 0.7948
+        },
+        "chosen": "Headteacher"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 475.98,
+        "end": 483.68,
+        "voiceWindow": [
+          475.98,
+          483.68
+        ],
+        "scores": {
+          "Narrator": 0.8535,
+          "Headteacher": 0.2332
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 8,
+        "speaker": "Headteacher",
+        "start": 535.74,
+        "end": 549.32,
+        "voiceWindow": [
+          535.74,
+          545.74
+        ],
+        "scores": {
+          "Narrator": 0.1873,
+          "Headteacher": 0.9202
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 2,
+        "index": 42,
+        "speaker": "Headteacher",
+        "start": 580.93,
+        "end": 601.82,
+        "voiceWindow": [
+          580.93,
+          590.93
+        ],
+        "scores": {
+          "Narrator": 0.1562,
+          "Headteacher": 0.8983
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 3,
+        "index": 93,
+        "speaker": "Headteacher",
+        "start": 607.5,
+        "end": 626.7,
+        "voiceWindow": [
+          607.5,
+          617.5
+        ],
+        "scores": {
+          "Narrator": 0.1262,
+          "Headteacher": 0.9377
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 4,
+        "index": 148,
+        "speaker": "Headteacher",
+        "start": 662.58,
+        "end": 684.32,
+        "voiceWindow": [
+          662.58,
+          672.58
+        ],
+        "scores": {
+          "Narrator": 0.1561,
+          "Headteacher": 0.8486
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 5,
+        "index": 201,
+        "speaker": "Headteacher",
+        "start": 737.37,
+        "end": 749.25,
+        "voiceWindow": [
+          737.37,
+          747.37
+        ],
+        "scores": {
+          "Narrator": 0.112,
+          "Headteacher": 0.9184
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 6,
+        "index": 228,
+        "speaker": "Headteacher",
+        "start": 750.25,
+        "end": 760.13,
+        "voiceWindow": [
+          750.25,
+          760.13
+        ],
+        "scores": {
+          "Narrator": 0.0975,
+          "Headteacher": 0.8579
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 7,
+        "index": 261,
+        "speaker": "Headteacher",
+        "start": 760.95,
+        "end": 777.61,
+        "voiceWindow": [
+          760.95,
+          770.95
+        ],
+        "scores": {
+          "Narrator": 0.0553,
+          "Headteacher": 0.8193
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 8,
+        "index": 307,
+        "speaker": "Headteacher",
+        "start": 778.83,
+        "end": 795.44,
+        "voiceWindow": [
+          778.83,
+          788.83
+        ],
+        "scores": {
+          "Narrator": 0.1909,
+          "Headteacher": 0.7484
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 9,
+        "index": 351,
+        "speaker": "Headteacher",
+        "start": 796.64,
+        "end": 813.63,
+        "voiceWindow": [
+          796.64,
+          806.64
+        ],
+        "scores": {
+          "Narrator": 0.1831,
+          "Headteacher": 0.7769
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 10,
+        "index": 394,
+        "speaker": "Headteacher",
+        "start": 814.77,
+        "end": 827.05,
+        "voiceWindow": [
+          814.77,
+          824.77
+        ],
+        "scores": {
+          "Narrator": 0.1765,
+          "Headteacher": 0.8003
+        },
+        "chosen": "Headteacher"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 1,
+        "index": 8,
+        "speaker": "Headteacher",
+        "start": 535.74,
+        "end": 549.32,
+        "voiceWindow": [
+          541.32,
+          549.32
+        ],
+        "scores": {
+          "Narrator": 0.2366,
+          "Headteacher": 0.8752
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 2,
+        "index": 42,
+        "speaker": "Headteacher",
+        "start": 580.93,
+        "end": 601.82,
+        "voiceWindow": [
+          593.82,
+          601.82
+        ],
+        "scores": {
+          "Narrator": 0.1278,
+          "Headteacher": 0.8866
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 3,
+        "index": 93,
+        "speaker": "Headteacher",
+        "start": 607.5,
+        "end": 626.7,
+        "voiceWindow": [
+          618.7,
+          626.7
+        ],
+        "scores": {
+          "Narrator": 0.1394,
+          "Headteacher": 0.8498
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 4,
+        "index": 148,
+        "speaker": "Headteacher",
+        "start": 662.58,
+        "end": 684.32,
+        "voiceWindow": [
+          676.32,
+          684.32
+        ],
+        "scores": {
+          "Narrator": 0.1291,
+          "Headteacher": 0.8085
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 5,
+        "index": 201,
+        "speaker": "Headteacher",
+        "start": 737.37,
+        "end": 749.25,
+        "voiceWindow": [
+          741.25,
+          749.25
+        ],
+        "scores": {
+          "Narrator": 0.046,
+          "Headteacher": 0.8231
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 7,
+        "index": 261,
+        "speaker": "Headteacher",
+        "start": 760.95,
+        "end": 777.61,
+        "voiceWindow": [
+          769.61,
+          777.61
+        ],
+        "scores": {
+          "Narrator": 0.0834,
+          "Headteacher": 0.6508
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 8,
+        "index": 307,
+        "speaker": "Headteacher",
+        "start": 778.83,
+        "end": 795.44,
+        "voiceWindow": [
+          787.44,
+          795.44
+        ],
+        "scores": {
+          "Narrator": 0.1793,
+          "Headteacher": 0.73
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 9,
+        "index": 351,
+        "speaker": "Headteacher",
+        "start": 796.64,
+        "end": 813.63,
+        "voiceWindow": [
+          805.63,
+          813.63
+        ],
+        "scores": {
+          "Narrator": 0.1816,
+          "Headteacher": 0.8072
+        },
+        "chosen": "Headteacher"
+      },
+      {
+        "paragraph": 10,
+        "index": 394,
+        "speaker": "Headteacher",
+        "start": 814.77,
+        "end": 827.05,
+        "voiceWindow": [
+          819.05,
+          827.05
+        ],
+        "scores": {
+          "Narrator": 0.1658,
+          "Headteacher": 0.7242
+        },
+        "chosen": "Headteacher"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Rivermead School: facilities open to the public."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Headteacher",
+      "text": " I'd like to start by talking about the new theatre that we've just opened in our school. Its mission is to maximise opportunities for local audiences to experience productions of the highest quality."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Headteacher",
+      "text": " As well as music and dance there'll be drama from modern writers, and there'll also be a high proportion of shows aimed at children and families. You'll notice that there is one empty space in November — that's because the Chinese state acrobatic troupe have had to cancel their visit."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Headteacher",
+      "text": " Now, we're often asked about the theatre's sources of funding. Well, a limited amount of money will come from various government subsidies, but the bulk of the revenue will be generated by the sale of tickets, which is one reason why we'd be grateful for your help in promoting the work of the theatre."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Headteacher",
+      "text": " Entrance to the museum is free. We also have a state-of-the-art sports hall. This is reserved for our students during term time, but anyone can use it in the school holidays. And our cafeteria is worth a visit — it's open all day to visitors as well as to staff and students."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Headteacher",
+      "text": " First of all, the theatre — that's opposite car park P2, on the south side. You're not allowed to park anywhere except in the car parks."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Headteacher",
+      "text": " There are two marked on your map, P1 and P2, but there's a new car park which has only just been completed, and that's at the most northern end of the campus."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Headteacher",
+      "text": " Some people might want to consider coming by bus. There's a good service from the city centre to the school, and the bus stops at the roundabout — that's where it turns round to go back. It doesn't go up as far as Park Road."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Headteacher",
+      "text": " Then, to get to the sports hall you take the right fork after the main entrance and just keep going past the classroom block. You have to go straight across the roundabout, and it's further on, on the right-hand side of that road."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Headteacher",
+      "text": " Then there's the cafeteria. There are various ways to get there, because it's at the junction of Park Road and Rennie's Drive, on the north side of Park Road. In nice weather you can sit outside to eat and admire the view."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Headteacher",
+      "text": "Speaker:"
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Headteacher",
+      "text": " Then the museum is fairly central. Just go left after the main entrance, take the first turning on the right, and when you reach a junction the museum is facing you."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "5938f1150606a968aa03dba5db338b43ac1f6c60bc4e520df812c0b0e0b73288"
+}

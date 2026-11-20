@@ -1,0 +1,1210 @@
+{
+  "test": "practice-listening-10",
+  "part": 2,
+  "audioSha256": "f4a163e5e007d44f395853f008317889504372b40167454543c263264d5aca69",
+  "scope": {
+    "start": 418.9,
+    "end": 814.51
+  },
+  "sourceScope": "All 16 published paragraphs checked as 19 narrator/guide spans because three paragraphs contain actual voice changes: Good morning, Now I am going to give you a plan, and That is the end. Three independent recording-specific references per role and 13 long-span tail checks agree with assignments. All 11 previously untimed source words receive word or phrase clocks. At questions occurs twice with zero-duration questions in both recognition passes and uses phrase timing. Before is recovered by isolated cropped recognition. Numeric two and Forty, monetary 5000, British realised spelling, source experience against recognized experienced, and guidebook/state-of-the-art compounds retain original source text with corresponding cached recognition durations. Final two receives its own clock. Source text and all other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 814.51,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 24,
+      "text": "at",
+      "start": "429.07",
+      "end": "429.69"
+    },
+    {
+      "index": 464,
+      "text": "at",
+      "start": "657.12",
+      "end": "657.68"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 1,
+      "index": 17,
+      "speaker": "Narrator",
+      "start": 426.99,
+      "end": 465.46,
+      "voiceWindow": [
+        457.46,
+        465.46
+      ],
+      "scores": {
+        "Narrator": 0.7521,
+        "Tour guide": 0.1506
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 2,
+      "index": 46,
+      "speaker": "Tour guide",
+      "start": 472.08,
+      "end": 505.3,
+      "voiceWindow": [
+        497.3,
+        505.3
+      ],
+      "scores": {
+        "Narrator": 0.1693,
+        "Tour guide": 0.7177
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 3,
+      "index": 121,
+      "speaker": "Tour guide",
+      "start": 506.96,
+      "end": 532.25,
+      "voiceWindow": [
+        524.25,
+        532.25
+      ],
+      "scores": {
+        "Narrator": 0.0983,
+        "Tour guide": 0.8545
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 4,
+      "index": 188,
+      "speaker": "Tour guide",
+      "start": 533.07,
+      "end": 561.7,
+      "voiceWindow": [
+        553.7,
+        561.7
+      ],
+      "scores": {
+        "Narrator": 0.12,
+        "Tour guide": 0.7468
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 5,
+      "index": 256,
+      "speaker": "Tour guide",
+      "start": 562.36,
+      "end": 597.1,
+      "voiceWindow": [
+        589.1,
+        597.1
+      ],
+      "scores": {
+        "Narrator": 0.1379,
+        "Tour guide": 0.799
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 6,
+      "index": 334,
+      "speaker": "Tour guide",
+      "start": 597.8,
+      "end": 629.38,
+      "voiceWindow": [
+        621.38,
+        629.38
+      ],
+      "scores": {
+        "Narrator": 0.104,
+        "Tour guide": 0.8265
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 7,
+      "index": 405,
+      "speaker": "Tour guide",
+      "start": 630.7,
+      "end": 650.14,
+      "voiceWindow": [
+        642.14,
+        650.14
+      ],
+      "scores": {
+        "Narrator": 0.2194,
+        "Tour guide": 0.8036
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 8,
+      "index": 450,
+      "speaker": "Narrator",
+      "start": 653.66,
+      "end": 682.85,
+      "voiceWindow": [
+        674.85,
+        682.85
+      ],
+      "scores": {
+        "Narrator": 0.5392,
+        "Tour guide": 0.1988
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 9,
+      "index": 506,
+      "speaker": "Tour guide",
+      "start": 695.18,
+      "end": 713.49,
+      "voiceWindow": [
+        705.49,
+        713.49
+      ],
+      "scores": {
+        "Narrator": 0.0988,
+        "Tour guide": 0.856
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 10,
+      "index": 561,
+      "speaker": "Tour guide",
+      "start": 714.49,
+      "end": 736.82,
+      "voiceWindow": [
+        728.82,
+        736.82
+      ],
+      "scores": {
+        "Narrator": 0.1242,
+        "Tour guide": 0.8276
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 11,
+      "index": 617,
+      "speaker": "Tour guide",
+      "start": 737.75,
+      "end": 760.37,
+      "voiceWindow": [
+        752.37,
+        760.37
+      ],
+      "scores": {
+        "Narrator": 0.1512,
+        "Tour guide": 0.8098
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 12,
+      "index": 682,
+      "speaker": "Tour guide",
+      "start": 761.99,
+      "end": 781.09,
+      "voiceWindow": [
+        773.09,
+        781.09
+      ],
+      "scores": {
+        "Narrator": 0.1082,
+        "Tour guide": 0.7607
+      },
+      "chosen": "Tour guide"
+    },
+    {
+      "paragraph": 13,
+      "index": 730,
+      "speaker": "Tour guide",
+      "start": 781.79,
+      "end": 796.07,
+      "voiceWindow": [
+        788.07,
+        796.07
+      ],
+      "scores": {
+        "Narrator": 0.0852,
+        "Tour guide": 0.8678
+      },
+      "chosen": "Tour guide"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 652,
+      "end": 660,
+      "words": [
+        {
+          "word": "Before",
+          "start": 653.14,
+          "end": 653.66
+        },
+        {
+          "word": "you",
+          "start": 653.66,
+          "end": 653.9
+        },
+        {
+          "word": "hear",
+          "start": 653.9,
+          "end": 654.14
+        },
+        {
+          "word": "the",
+          "start": 654.14,
+          "end": 654.34
+        },
+        {
+          "word": "rest",
+          "start": 654.34,
+          "end": 654.52
+        },
+        {
+          "word": "of",
+          "start": 654.52,
+          "end": 654.78
+        },
+        {
+          "word": "the",
+          "start": 654.78,
+          "end": 654.92
+        },
+        {
+          "word": "talk,",
+          "start": 654.92,
+          "end": 655.3
+        },
+        {
+          "word": "you",
+          "start": 655.9,
+          "end": 655.92
+        },
+        {
+          "word": "have",
+          "start": 655.92,
+          "end": 656.12
+        },
+        {
+          "word": "some",
+          "start": 656.12,
+          "end": 656.38
+        },
+        {
+          "word": "time",
+          "start": 656.38,
+          "end": 656.74
+        },
+        {
+          "word": "to",
+          "start": 656.74,
+          "end": 657
+        },
+        {
+          "word": "look",
+          "start": 657,
+          "end": 657.14
+        },
+        {
+          "word": "at",
+          "start": 657.14,
+          "end": 657.68
+        },
+        {
+          "word": "questions",
+          "start": 657.68,
+          "end": 657.68
+        },
+        {
+          "word": "16",
+          "start": 657.68,
+          "end": 658.42
+        },
+        {
+          "word": "to",
+          "start": 658.42,
+          "end": 658.72
+        },
+        {
+          "word": "20.",
+          "start": 658.72,
+          "end": 659.18
+        }
+      ]
+    },
+    {
+      "start": 428,
+      "end": 432,
+      "words": [
+        {
+          "word": "Have",
+          "start": 428,
+          "end": 428.16
+        },
+        {
+          "word": "some",
+          "start": 428.16,
+          "end": 428.3
+        },
+        {
+          "word": "time",
+          "start": 428.3,
+          "end": 428.64
+        },
+        {
+          "word": "to",
+          "start": 428.64,
+          "end": 428.92
+        },
+        {
+          "word": "look",
+          "start": 428.92,
+          "end": 429.06
+        },
+        {
+          "word": "at",
+          "start": 429.06,
+          "end": 429.72
+        },
+        {
+          "word": "questions",
+          "start": 429.72,
+          "end": 429.72
+        },
+        {
+          "word": "11",
+          "start": 429.72,
+          "end": 430.16
+        },
+        {
+          "word": "to",
+          "start": 430.16,
+          "end": 430.5
+        },
+        {
+          "word": "15.",
+          "start": 430.5,
+          "end": 431.04
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [],
+  "addedClocks": [
+    {
+      "index": 24,
+      "text": "at questions",
+      "start": 429.07,
+      "end": 429.69,
+      "granularity": "phrase"
+    },
+    {
+      "index": 234,
+      "text": "2",
+      "start": 552.75,
+      "end": 553.09,
+      "granularity": "source-token"
+    },
+    {
+      "index": 260,
+      "text": "realised",
+      "start": 563.92,
+      "end": 564.48,
+      "granularity": "source-token"
+    },
+    {
+      "index": 296,
+      "text": "experience",
+      "start": 578.3,
+      "end": 578.92,
+      "granularity": "source-token"
+    },
+    {
+      "index": 382,
+      "text": "Forty",
+      "start": 617.64,
+      "end": 618.28,
+      "granularity": "source-token"
+    },
+    {
+      "index": 393,
+      "text": "$5,000",
+      "start": 623.02,
+      "end": 624.12,
+      "granularity": "source-token"
+    },
+    {
+      "index": 450,
+      "text": "Before",
+      "start": 653.14,
+      "end": 653.66,
+      "granularity": "source-token"
+    },
+    {
+      "index": 464,
+      "text": "at questions",
+      "start": 657.12,
+      "end": 657.68,
+      "granularity": "phrase"
+    },
+    {
+      "index": 623,
+      "text": "guidebook,",
+      "start": 739.15,
+      "end": 739.73,
+      "granularity": "source-token"
+    },
+    {
+      "index": 709,
+      "text": "state-of-the-art",
+      "start": 771.86,
+      "end": 772.84,
+      "granularity": "source-token"
+    },
+    {
+      "index": 803,
+      "text": "two.",
+      "start": 810.23,
+      "end": 810.73,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 812,
+  "wordClocksSha256": "625f5f4168cdc2b66fac96d5f08ea1bef50eaaf489ec8f50e76b77205d1dcd13",
+  "tokenCount": 814,
+  "tokensSha256": "7a2e3252b6b90ff9abe3cf3c10832e0efe297b55b3ad34df64117613ad4ece75",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          418.9,
+          425.28
+        ],
+        [
+          461.24,
+          465.46
+        ],
+        [
+          808.91,
+          814.51
+        ]
+      ],
+      "Tour guide": [
+        [
+          472.08,
+          481.5
+        ],
+        [
+          685.78,
+          693.98
+        ],
+        [
+          797.94,
+          805.82
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          418.9,
+          425.28
+        ],
+        "scores": {
+          "Narrator": 0.8634,
+          "Tour guide": 0.0801
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          461.24,
+          465.46
+        ],
+        "scores": {
+          "Narrator": 0.848,
+          "Tour guide": 0.1347
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          808.91,
+          814.51
+        ],
+        "scores": {
+          "Narrator": 0.8677,
+          "Tour guide": 0.1116
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Tour guide",
+        "window": [
+          472.08,
+          481.5
+        ],
+        "scores": {
+          "Narrator": 0.0906,
+          "Tour guide": 0.8784
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "label": "Tour guide",
+        "window": [
+          685.78,
+          693.98
+        ],
+        "scores": {
+          "Narrator": 0.0716,
+          "Tour guide": 0.8531
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "label": "Tour guide",
+        "window": [
+          797.94,
+          805.82
+        ],
+        "scores": {
+          "Narrator": 0.1612,
+          "Tour guide": 0.79
+        },
+        "chosen": "Tour guide"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 418.9,
+        "end": 425.28,
+        "voiceWindow": [
+          418.9,
+          425.28
+        ],
+        "scores": {
+          "Narrator": 0.9399,
+          "Tour guide": 0.0801
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 17,
+        "speaker": "Narrator",
+        "start": 426.99,
+        "end": 465.46,
+        "voiceWindow": [
+          426.99,
+          436.99
+        ],
+        "scores": {
+          "Narrator": 0.584,
+          "Tour guide": 0.1931
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 38,
+        "speaker": "Tour guide",
+        "start": 468.46,
+        "end": 471.36,
+        "voiceWindow": [
+          468.46,
+          471.36
+        ],
+        "scores": {
+          "Narrator": 0.061,
+          "Tour guide": 0.7157
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 2,
+        "index": 46,
+        "speaker": "Tour guide",
+        "start": 472.08,
+        "end": 505.3,
+        "voiceWindow": [
+          472.08,
+          482.08
+        ],
+        "scores": {
+          "Narrator": 0.0987,
+          "Tour guide": 0.9439
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 3,
+        "index": 121,
+        "speaker": "Tour guide",
+        "start": 506.96,
+        "end": 532.25,
+        "voiceWindow": [
+          506.96,
+          516.96
+        ],
+        "scores": {
+          "Narrator": 0.099,
+          "Tour guide": 0.8898
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 4,
+        "index": 188,
+        "speaker": "Tour guide",
+        "start": 533.07,
+        "end": 561.7,
+        "voiceWindow": [
+          533.07,
+          543.07
+        ],
+        "scores": {
+          "Narrator": 0.1443,
+          "Tour guide": 0.8825
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 256,
+        "speaker": "Tour guide",
+        "start": 562.36,
+        "end": 597.1,
+        "voiceWindow": [
+          562.36,
+          572.36
+        ],
+        "scores": {
+          "Narrator": 0.1097,
+          "Tour guide": 0.8592
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 6,
+        "index": 334,
+        "speaker": "Tour guide",
+        "start": 597.8,
+        "end": 629.38,
+        "voiceWindow": [
+          597.8,
+          607.8
+        ],
+        "scores": {
+          "Narrator": 0.1179,
+          "Tour guide": 0.8116
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 7,
+        "index": 405,
+        "speaker": "Tour guide",
+        "start": 630.7,
+        "end": 650.14,
+        "voiceWindow": [
+          630.7,
+          640.7
+        ],
+        "scores": {
+          "Narrator": 0.1032,
+          "Tour guide": 0.8326
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 8,
+        "index": 450,
+        "speaker": "Narrator",
+        "start": 653.66,
+        "end": 682.85,
+        "voiceWindow": [
+          653.66,
+          663.66
+        ],
+        "scores": {
+          "Narrator": 0.711,
+          "Tour guide": 0.1369
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 8,
+        "index": 477,
+        "speaker": "Tour guide",
+        "start": 685.78,
+        "end": 693.98,
+        "voiceWindow": [
+          685.78,
+          693.98
+        ],
+        "scores": {
+          "Narrator": 0.0716,
+          "Tour guide": 0.9357
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 9,
+        "index": 506,
+        "speaker": "Tour guide",
+        "start": 695.18,
+        "end": 713.49,
+        "voiceWindow": [
+          695.18,
+          705.18
+        ],
+        "scores": {
+          "Narrator": 0.0934,
+          "Tour guide": 0.8845
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 10,
+        "index": 561,
+        "speaker": "Tour guide",
+        "start": 714.49,
+        "end": 736.82,
+        "voiceWindow": [
+          714.49,
+          724.49
+        ],
+        "scores": {
+          "Narrator": 0.1157,
+          "Tour guide": 0.8119
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 11,
+        "index": 617,
+        "speaker": "Tour guide",
+        "start": 737.75,
+        "end": 760.37,
+        "voiceWindow": [
+          737.75,
+          747.75
+        ],
+        "scores": {
+          "Narrator": 0.1382,
+          "Tour guide": 0.8626
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 12,
+        "index": 682,
+        "speaker": "Tour guide",
+        "start": 761.99,
+        "end": 781.09,
+        "voiceWindow": [
+          761.99,
+          771.99
+        ],
+        "scores": {
+          "Narrator": 0.064,
+          "Tour guide": 0.8422
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 13,
+        "index": 730,
+        "speaker": "Tour guide",
+        "start": 781.79,
+        "end": 796.07,
+        "voiceWindow": [
+          781.79,
+          791.79
+        ],
+        "scores": {
+          "Narrator": 0.1064,
+          "Tour guide": 0.8191
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 14,
+        "index": 774,
+        "speaker": "Tour guide",
+        "start": 797.94,
+        "end": 805.82,
+        "voiceWindow": [
+          797.94,
+          805.82
+        ],
+        "scores": {
+          "Narrator": 0.1612,
+          "Tour guide": 0.9055
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 14,
+        "index": 797,
+        "speaker": "Narrator",
+        "start": 808.91,
+        "end": 810.73,
+        "voiceWindow": [
+          808.91,
+          810.73
+        ],
+        "scores": {
+          "Narrator": 0.7647,
+          "Tour guide": 0.1103
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 15,
+        "index": 804,
+        "speaker": "Narrator",
+        "start": 811.41,
+        "end": 814.51,
+        "voiceWindow": [
+          811.41,
+          814.51
+        ],
+        "scores": {
+          "Narrator": 0.8625,
+          "Tour guide": 0.0843
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 1,
+        "index": 17,
+        "speaker": "Narrator",
+        "start": 426.99,
+        "end": 465.46,
+        "voiceWindow": [
+          457.46,
+          465.46
+        ],
+        "scores": {
+          "Narrator": 0.7521,
+          "Tour guide": 0.1506
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 2,
+        "index": 46,
+        "speaker": "Tour guide",
+        "start": 472.08,
+        "end": 505.3,
+        "voiceWindow": [
+          497.3,
+          505.3
+        ],
+        "scores": {
+          "Narrator": 0.1693,
+          "Tour guide": 0.7177
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 3,
+        "index": 121,
+        "speaker": "Tour guide",
+        "start": 506.96,
+        "end": 532.25,
+        "voiceWindow": [
+          524.25,
+          532.25
+        ],
+        "scores": {
+          "Narrator": 0.0983,
+          "Tour guide": 0.8545
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 4,
+        "index": 188,
+        "speaker": "Tour guide",
+        "start": 533.07,
+        "end": 561.7,
+        "voiceWindow": [
+          553.7,
+          561.7
+        ],
+        "scores": {
+          "Narrator": 0.12,
+          "Tour guide": 0.7468
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 5,
+        "index": 256,
+        "speaker": "Tour guide",
+        "start": 562.36,
+        "end": 597.1,
+        "voiceWindow": [
+          589.1,
+          597.1
+        ],
+        "scores": {
+          "Narrator": 0.1379,
+          "Tour guide": 0.799
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 6,
+        "index": 334,
+        "speaker": "Tour guide",
+        "start": 597.8,
+        "end": 629.38,
+        "voiceWindow": [
+          621.38,
+          629.38
+        ],
+        "scores": {
+          "Narrator": 0.104,
+          "Tour guide": 0.8265
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 7,
+        "index": 405,
+        "speaker": "Tour guide",
+        "start": 630.7,
+        "end": 650.14,
+        "voiceWindow": [
+          642.14,
+          650.14
+        ],
+        "scores": {
+          "Narrator": 0.2194,
+          "Tour guide": 0.8036
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 8,
+        "index": 450,
+        "speaker": "Narrator",
+        "start": 653.66,
+        "end": 682.85,
+        "voiceWindow": [
+          674.85,
+          682.85
+        ],
+        "scores": {
+          "Narrator": 0.5392,
+          "Tour guide": 0.1988
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 9,
+        "index": 506,
+        "speaker": "Tour guide",
+        "start": 695.18,
+        "end": 713.49,
+        "voiceWindow": [
+          705.49,
+          713.49
+        ],
+        "scores": {
+          "Narrator": 0.0988,
+          "Tour guide": 0.856
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 10,
+        "index": 561,
+        "speaker": "Tour guide",
+        "start": 714.49,
+        "end": 736.82,
+        "voiceWindow": [
+          728.82,
+          736.82
+        ],
+        "scores": {
+          "Narrator": 0.1242,
+          "Tour guide": 0.8276
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 11,
+        "index": 617,
+        "speaker": "Tour guide",
+        "start": 737.75,
+        "end": 760.37,
+        "voiceWindow": [
+          752.37,
+          760.37
+        ],
+        "scores": {
+          "Narrator": 0.1512,
+          "Tour guide": 0.8098
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 12,
+        "index": 682,
+        "speaker": "Tour guide",
+        "start": 761.99,
+        "end": 781.09,
+        "voiceWindow": [
+          773.09,
+          781.09
+        ],
+        "scores": {
+          "Narrator": 0.1082,
+          "Tour guide": 0.7607
+        },
+        "chosen": "Tour guide"
+      },
+      {
+        "paragraph": 13,
+        "index": 730,
+        "speaker": "Tour guide",
+        "start": 781.79,
+        "end": 796.07,
+        "voiceWindow": [
+          788.07,
+          796.07
+        ],
+        "scores": {
+          "Narrator": 0.0852,
+          "Tour guide": 0.8678
+        },
+        "chosen": "Tour guide"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Section 2. You will hear part of a talk about Mount Rushmore given by a tour guide."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Narrator",
+      "text": "First, you have some time to look at questions 11 to 15. Now listen carefully and answer questions 11 to 15. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Tour guide",
+      "text": "Good morning everybody, and welcome to Mount Rushmore."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Tour guide",
+      "text": "To start your visit, I'm just going to give you a brief account of the history of the memorial, before letting you roam about on your own. I won't keep you long, okay? Mount Rushmore is South Dakota's top tourist attraction, and features the heads of four United States Presidents, George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln. Each head is 18 metres tall, which is taller than the heights of 11 people combined."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Tour guide",
+      "text": "The sculptor initially wanted to depict the Presidents from head to waist, but due to a lack of funding, the construction had to stop before this vision could be realised. In total, it cost the government $1 million to sculpt the heads at Mount Rushmore. Before the construction of the Presidents' heads, the mountain was just bare rock and forest, attracting only a few hikers a year."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Tour guide",
+      "text": "The new carving at Mount Rushmore has become an iconic symbol of Presidential greatness, and has appeared in works of fiction and other popular works. The sculpture has also worked perfectly as a way to develop tourism, which was its intended purpose, and now attracts over 2 million people a year. The original plan was to carve the Presidents' faces into the granite pillars, known as the needles."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Tour guide",
+      "text": "However, the sculptor soon realised that these rocks were too eroded and delicate to support such a large sculpture. Instead, he chose to locate the carving at Mount Rushmore, due to its grand appearance and brightly lit rock faces that experience maximum exposure to sunlight throughout the day as a result of the southeast orientation. Upon seeing Mount Rushmore, the sculptor declared, America will march along that skyline! The name of Mount Rushmore also has an interesting history."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Tour guide",
+      "text": "The location was originally known as the Six Grandfathers. However, during an expedition in 1885, the mountain was renamed after Charles E. Rushmore, a prominent New York lawyer who joked that his annual treks to the mountain had earned him the right to have it named after him. Forty years after the mountain was renamed, Charles E. Rushmore donated $5,000 towards the sculpting of the Presidents' heads, the largest single contribution."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Tour guide",
+      "text": "In 1927, the construction work started, and seven years later was complete with no fatalities. So that's the history for you. If you'd like any more information, please feel free to ask me questions, or you can soak up the information from our fantastic guidebook."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20. Now listen and answer questions 16 to 20. "
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Tour guide",
+      "text": "Now I'm going to give you a plan of the site, and I'd just like to point out where everything is, so that you can explore everything for yourself."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Tour guide",
+      "text": "We're currently standing at the entrance, which is marked with the arrow on the map. If you follow the trail up to our left, you will find the information centre. There's a great photo booth there, where you can have your photograph taken with Mount Rushmore in the background, for a fee of only $10."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Tour guide",
+      "text": "What a great souvenir! In front of us is the refreshment centre, where you can help yourselves to coffee, locally grown tea, and a delicious selection of cold drinks and biscuits. Be sure to stay hydrated, as it can get really hot up here. To our right, not far up the trail, is the gift shop."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Tour guide",
+      "text": "Here we sell copies of the guidebook, and it's also the perfect place to pick up some small souvenirs for yourself, your family and friends. Now, further up the trail, behind the gift shop, is a big stone building with a workshop. This is where all of our souvenirs are made by hand, which you can purchase in the gift shop, like I said before."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Tour guide",
+      "text": "Some are even carved from pieces of rock, taken from Mount Rushmore itself. If you carry on walking up the trail, past the workshop, you'll find our state-of-the-art visitor centre, where you can find maps of the walking trails here at Mount Rushmore. Now for the real treat."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Tour guide",
+      "text": "After you have walked past the visitor centre, you can follow the trail up to the left, which will take you to our wooden shelter. From here, you will have the best view of Mount Rushmore that there is. An experience not be forgotten."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Tour guide",
+      "text": "Right, if anyone wants a guided tour, then I'm starting at the information centre. If you'd like to follow me, this way please. "
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Narrator",
+      "text": "That is the end of section two."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Narrator",
+      "text": "You now have half a minute to check your answers."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "84c34e9ece90142cf30500e6c1987323a1ac3225514dd35ae5e58bcf89905e79"
+}

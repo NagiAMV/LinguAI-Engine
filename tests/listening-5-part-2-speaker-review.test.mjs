@@ -1,0 +1,32 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const hash=x=>createHash('sha256').update(x).digest('hex');
+const read=()=>JSON.parse(fs.readFileSync('public/practice/practice-listening-5.json')).parts[1];
+test('Test 5 Part 2 separates museum audio guide from narrator instructions',()=>{
+ const part=read(),audit=JSON.parse(fs.readFileSync('docs/listening-speaker-review/practice-listening-5-part-2.json'));
+ const paragraphs=[...part.passage.matchAll(/<p\b[^>]*>[\s\S]*?<\/p>/g)].map(m=>m[0]);
+ assert.equal(paragraphs.length,12);
+ paragraphs.forEach((p,i)=>assert.deepEqual([...p.matchAll(/data-speaker="([^"]+)"/g)].map(m=>m[1]),i===0?['Narrator','Museum guide']:i===5?['Museum guide','Narrator']:[i===11?'Narrator':'Museum guide'],`paragraph ${i}`));
+ assert.ok(audit.renderedGroups.some(g=>g.speaker==='Museum guide'&&g.text.startsWith('Welcome')));
+ assert.ok(audit.renderedGroups.some(g=>g.speaker==='Narrator'&&g.text.startsWith('Before')));
+ assert.equal(hash(fs.readFileSync('public'+part.audioUrls[0])),audit.audioSha256);
+ assert.equal(audit.humanAuditoryReview,false);assert.equal(audit.textUnchanged,true);
+ assert.equal(audit.voiceComparison.checks.length,14);assert.equal(audit.tailVoiceComparison.length,14);
+ for(const r of [...audit.voiceComparison.checks,...audit.tailVoiceComparison])assert.equal(r.chosen,r.speaker);
+ assert.ok(audit.voiceComparison.leaveOneOutControls.every(r=>r.label===r.chosen));
+ assert.equal(part.transcriptSpeakerProvenance.partWindowEstimated,false);
+});
+test('Test 5 Part 2 times all published words including the final page number',()=>{
+ const part=read(),audit=JSON.parse(fs.readFileSync('docs/listening-speaker-review/practice-listening-5-part-2.json'));
+ const cues=[...part.passage.matchAll(/<span data-cue-start="([\d.]+)" data-cue-end="([\d.]+)">([^<]*)<\/span>/g)].map(m=>[m[1],m[2],m[3]]);
+ assert.equal(cues.length,761);assert.equal(hash(JSON.stringify(cues)),audit.wordClocksSha256);
+ assert.equal(cues.reduce((n,c)=>n+c[2].trim().split(/\s+/).length,0),764);
+ assert.ok(cues.every(([s,e],i)=>+s>=part.transcriptStartSeconds&&+e>+s&&+e<=part.transcriptEndSeconds&&(!i||+s>=+cues[i-1][0])));
+ for(const word of ['Altogether','researched','gallery','a hundred','aeroplane','centimetres.','Before','hands-on','2.','3','5.'])assert.ok(cues.some(c=>c[2]===word),word);
+ assert.equal(cues.filter(c=>c[2]==='at questions').length,2);
+ assert.ok(cues.some(c=>c[2]==='in'&&c[1]==='591.66'));
+ assert.deepEqual(cues.at(-1),['865.05','865.73','5.']);assert.equal(part.transcriptEndSeconds,865.73);
+ assert.equal(audit.addedClocks.length,13);assert.equal(audit.removedClocksForPhraseMerges.length,2);assert.equal(audit.correctedWordClocks.length,1);
+});

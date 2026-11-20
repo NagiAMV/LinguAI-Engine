@@ -1,0 +1,2376 @@
+{
+  "test": "practice-listening-4",
+  "part": 2,
+  "audioSha256": "6b64902ccf44ec5e319299270e4754a8da4d994377241971f76df06b53d79c81",
+  "scope": {
+    "start": 480.27,
+    "end": 937.23
+  },
+  "sourceScope": "All 69 published speech paragraphs, including two mixed narrator/director paragraphs, checked as 71 voice spans with 4 additional tail checks. Instruction return at A quick word and closing That is are split by actual voice rather than approximate speech duration. The one-word ice paragraph uses surrounding uninterrupted director speech for its comparison; the short leading 4 and later instruction in paragraph 43 are checked against its later instruction window. All 16 previously untimed source tokens receive word or phrase timing. At questions occurs twice with zero-duration questions in both recognizers, so each is kept as a phrase. 16th century is a phrase because cached century has zero duration. New a and a corrected stream onset follow cropped recognition. SKIP spelling, decimal measurements and compound words use combined cached word durations. Opening Now uses the cached onset; cropped recognition pulled it to the crop boundary. Existing annotations and all other parts are retained. No full verbatim or human auditory audit",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 937.23,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 37,
+      "text": "at",
+      "start": "497.05",
+      "end": "497.63"
+    },
+    {
+      "index": 521,
+      "text": "at",
+      "start": "726.34",
+      "end": "726.88"
+    },
+    {
+      "index": 705,
+      "text": "16th",
+      "start": "829.71",
+      "end": "830.57"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 19,
+      "index": 207,
+      "speaker": "Club director",
+      "start": 589.16,
+      "end": 599.24,
+      "voiceWindow": [
+        591.24,
+        599.24
+      ],
+      "scores": {
+        "Narrator": 0.1476,
+        "Club director": 0.7245
+      },
+      "chosen": "Club director"
+    },
+    {
+      "paragraph": 21,
+      "index": 240,
+      "speaker": "Club director",
+      "start": 606.69,
+      "end": 617.41,
+      "voiceWindow": [
+        609.41,
+        617.41
+      ],
+      "scores": {
+        "Narrator": 0.1767,
+        "Club director": 0.7655
+      },
+      "chosen": "Club director"
+    },
+    {
+      "paragraph": 43,
+      "index": 528,
+      "speaker": "Narrator",
+      "start": 729.1,
+      "end": 758.12,
+      "contextWindow": [
+        754.98,
+        758.12
+      ],
+      "voiceWindow": [
+        750.12,
+        758.12
+      ],
+      "scores": {
+        "Narrator": 0.3078,
+        "Club director": 0.0324
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 69,
+      "index": 843,
+      "speaker": "Narrator",
+      "start": 896.19,
+      "end": 931.98,
+      "voiceWindow": [
+        923.98,
+        931.98
+      ],
+      "scores": {
+        "Narrator": 0.2123,
+        "Club director": 0.0178
+      },
+      "chosen": "Narrator"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 479.5,
+      "end": 484,
+      "words": [
+        {
+          "word": "Now",
+          "start": 479.5,
+          "end": 480.8
+        },
+        {
+          "word": "turn",
+          "start": 480.8,
+          "end": 481.02
+        },
+        {
+          "word": "to",
+          "start": 481.02,
+          "end": 481.28
+        },
+        {
+          "word": "section",
+          "start": 481.28,
+          "end": 481.46
+        },
+        {
+          "word": "2,",
+          "start": 481.46,
+          "end": 482.1
+        },
+        {
+          "word": "on",
+          "start": 482.54,
+          "end": 482.76
+        },
+        {
+          "word": "page",
+          "start": 482.76,
+          "end": 483.06
+        },
+        {
+          "word": "4.",
+          "start": 483.06,
+          "end": 483.6
+        }
+      ]
+    },
+    {
+      "start": 494,
+      "end": 501,
+      "words": [
+        {
+          "word": "First",
+          "start": 495.2,
+          "end": 495.78
+        },
+        {
+          "word": "you",
+          "start": 495.78,
+          "end": 496.04
+        },
+        {
+          "word": "have",
+          "start": 496.04,
+          "end": 496.18
+        },
+        {
+          "word": "some",
+          "start": 496.18,
+          "end": 496.38
+        },
+        {
+          "word": "time",
+          "start": 496.38,
+          "end": 496.7
+        },
+        {
+          "word": "to",
+          "start": 496.7,
+          "end": 496.94
+        },
+        {
+          "word": "look",
+          "start": 496.94,
+          "end": 497.04
+        },
+        {
+          "word": "at",
+          "start": 497.04,
+          "end": 497.64
+        },
+        {
+          "word": "questions",
+          "start": 497.64,
+          "end": 497.64
+        },
+        {
+          "word": "11",
+          "start": 497.64,
+          "end": 498.12
+        },
+        {
+          "word": "to",
+          "start": 498.12,
+          "end": 498.38
+        },
+        {
+          "word": "16,",
+          "start": 498.38,
+          "end": 498.98
+        },
+        {
+          "word": "on",
+          "start": 499.48,
+          "end": 499.68
+        },
+        {
+          "word": "page",
+          "start": 499.68,
+          "end": 499.92
+        },
+        {
+          "word": "4.",
+          "start": 499.92,
+          "end": 500.44
+        }
+      ]
+    },
+    {
+      "start": 598,
+      "end": 607,
+      "words": [
+        {
+          "word": "Ice,",
+          "start": 598,
+          "end": 598.3
+        },
+        {
+          "word": "whether",
+          "start": 598.84,
+          "end": 599.06
+        },
+        {
+          "word": "it",
+          "start": 599.06,
+          "end": 599.24
+        },
+        {
+          "word": "be",
+          "start": 599.24,
+          "end": 599.38
+        },
+        {
+          "word": "on",
+          "start": 599.38,
+          "end": 599.52
+        },
+        {
+          "word": "a",
+          "start": 599.52,
+          "end": 599.7
+        },
+        {
+          "word": "rink,",
+          "start": 599.7,
+          "end": 600.02
+        },
+        {
+          "word": "or",
+          "start": 600.38,
+          "end": 600.4
+        },
+        {
+          "word": "on",
+          "start": 600.4,
+          "end": 600.52
+        },
+        {
+          "word": "a",
+          "start": 600.52,
+          "end": 600.68
+        },
+        {
+          "word": "frozen",
+          "start": 600.68,
+          "end": 600.92
+        },
+        {
+          "word": "lake,",
+          "start": 600.92,
+          "end": 601.38
+        },
+        {
+          "word": "or",
+          "start": 601.7,
+          "end": 601.76
+        },
+        {
+          "word": "a",
+          "start": 601.76,
+          "end": 601.86
+        },
+        {
+          "word": "stream,",
+          "start": 601.86,
+          "end": 602.2
+        },
+        {
+          "word": "is",
+          "start": 602.84,
+          "end": 603.1
+        },
+        {
+          "word": "called",
+          "start": 603.1,
+          "end": 603.56
+        },
+        {
+          "word": "the",
+          "start": 603.56,
+          "end": 604.24
+        },
+        {
+          "word": "sheet.",
+          "start": 604.24,
+          "end": 604.6
+        },
+        {
+          "word": "This",
+          "start": 605.68,
+          "end": 606.16
+        },
+        {
+          "word": "long",
+          "start": 606.16,
+          "end": 606.5
+        },
+        {
+          "word": "thin",
+          "start": 606.5,
+          "end": 606.82
+        },
+        {
+          "word": "air...",
+          "start": 606.82,
+          "end": 606.98
+        }
+      ]
+    },
+    {
+      "start": 722,
+      "end": 730,
+      "words": [
+        {
+          "word": "Before",
+          "start": 723.04,
+          "end": 723.52
+        },
+        {
+          "word": "you",
+          "start": 723.52,
+          "end": 723.7
+        },
+        {
+          "word": "hear",
+          "start": 723.7,
+          "end": 723.92
+        },
+        {
+          "word": "the",
+          "start": 723.92,
+          "end": 724.1
+        },
+        {
+          "word": "rest",
+          "start": 724.1,
+          "end": 724.24
+        },
+        {
+          "word": "of",
+          "start": 724.24,
+          "end": 724.4
+        },
+        {
+          "word": "the",
+          "start": 724.4,
+          "end": 724.5
+        },
+        {
+          "word": "talk,",
+          "start": 724.5,
+          "end": 724.86
+        },
+        {
+          "word": "you",
+          "start": 725.34,
+          "end": 725.36
+        },
+        {
+          "word": "have",
+          "start": 725.36,
+          "end": 725.52
+        },
+        {
+          "word": "some",
+          "start": 725.52,
+          "end": 725.72
+        },
+        {
+          "word": "time",
+          "start": 725.72,
+          "end": 726.04
+        },
+        {
+          "word": "to",
+          "start": 726.04,
+          "end": 726.24
+        },
+        {
+          "word": "look",
+          "start": 726.24,
+          "end": 726.36
+        },
+        {
+          "word": "at",
+          "start": 726.36,
+          "end": 726.9
+        },
+        {
+          "word": "questions",
+          "start": 726.9,
+          "end": 726.9
+        },
+        {
+          "word": "17",
+          "start": 726.9,
+          "end": 727.54
+        },
+        {
+          "word": "-20",
+          "start": 727.54,
+          "end": 728.18
+        },
+        {
+          "word": "on",
+          "start": 728.62,
+          "end": 728.86
+        },
+        {
+          "word": "page",
+          "start": 728.86,
+          "end": 729.12
+        },
+        {
+          "word": "4.",
+          "start": 729.12,
+          "end": 729.66
+        }
+      ]
+    },
+    {
+      "start": 893,
+      "end": 902,
+      "words": [
+        {
+          "word": "That",
+          "start": 895.54,
+          "end": 896.06
+        },
+        {
+          "word": "is",
+          "start": 896.06,
+          "end": 896.2
+        },
+        {
+          "word": "the",
+          "start": 896.2,
+          "end": 896.34
+        },
+        {
+          "word": "end",
+          "start": 896.34,
+          "end": 896.62
+        },
+        {
+          "word": "of",
+          "start": 896.62,
+          "end": 896.84
+        },
+        {
+          "word": "section",
+          "start": 896.84,
+          "end": 897.04
+        },
+        {
+          "word": "2.",
+          "start": 897.04,
+          "end": 897.54
+        },
+        {
+          "word": "You",
+          "start": 898.3,
+          "end": 898.48
+        },
+        {
+          "word": "now",
+          "start": 898.48,
+          "end": 898.72
+        },
+        {
+          "word": "have",
+          "start": 898.72,
+          "end": 899.02
+        },
+        {
+          "word": "half",
+          "start": 899.02,
+          "end": 899.32
+        },
+        {
+          "word": "a",
+          "start": 899.32,
+          "end": 899.52
+        },
+        {
+          "word": "minute",
+          "start": 899.52,
+          "end": 899.68
+        },
+        {
+          "word": "to",
+          "start": 899.68,
+          "end": 900
+        },
+        {
+          "word": "check",
+          "start": 900,
+          "end": 900.24
+        },
+        {
+          "word": "your",
+          "start": 900.24,
+          "end": 900.5
+        },
+        {
+          "word": "answers.",
+          "start": 900.5,
+          "end": 900.84
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 233,
+      "text": "stream,",
+      "old": [
+        "601.74",
+        "602.22"
+      ],
+      "new": [
+        601.86,
+        602.22
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 0,
+      "text": "Now",
+      "start": 480.54,
+      "end": 480.8,
+      "granularity": "source-token"
+    },
+    {
+      "index": 1,
+      "text": "turn",
+      "start": 480.8,
+      "end": 481,
+      "granularity": "source-token"
+    },
+    {
+      "index": 2,
+      "text": "to",
+      "start": 481,
+      "end": 481.28,
+      "granularity": "source-token"
+    },
+    {
+      "index": 3,
+      "text": "section",
+      "start": 481.28,
+      "end": 481.52,
+      "granularity": "source-token"
+    },
+    {
+      "index": 4,
+      "text": "2",
+      "start": 481.52,
+      "end": 482.04,
+      "granularity": "source-token"
+    },
+    {
+      "index": 37,
+      "text": "at questions",
+      "start": 497.05,
+      "end": 497.63,
+      "granularity": "phrase"
+    },
+    {
+      "index": 212,
+      "text": "S-K-I-P.",
+      "start": 593.3,
+      "end": 595.3,
+      "granularity": "source-token"
+    },
+    {
+      "index": 232,
+      "text": "a",
+      "start": 601.76,
+      "end": 601.86,
+      "granularity": "source-token"
+    },
+    {
+      "index": 243,
+      "text": "42.15",
+      "start": 607.83,
+      "end": 609.85,
+      "granularity": "source-token"
+    },
+    {
+      "index": 247,
+      "text": "4.25",
+      "start": 611.25,
+      "end": 613.81,
+      "granularity": "source-token"
+    },
+    {
+      "index": 507,
+      "text": "Before",
+      "start": 723.04,
+      "end": 723.5,
+      "granularity": "source-token"
+    },
+    {
+      "index": 521,
+      "text": "at questions",
+      "start": 726.34,
+      "end": 726.88,
+      "granularity": "phrase"
+    },
+    {
+      "index": 705,
+      "text": "16th century,",
+      "start": 829.71,
+      "end": 830.57,
+      "granularity": "phrase"
+    },
+    {
+      "index": 733,
+      "text": "self-defense",
+      "start": 844.25,
+      "end": 844.87,
+      "granularity": "source-token"
+    },
+    {
+      "index": 811,
+      "text": "melted-down",
+      "start": 877.91,
+      "end": 878.81,
+      "granularity": "source-token"
+    },
+    {
+      "index": 812,
+      "text": "cannonballs",
+      "start": 878.81,
+      "end": 879.79,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 858,
+  "wordClocksSha256": "1899f7b7aaf836915090302ce01eb0089267e90e3275fedaea61b1bdd2196c52",
+  "tokenCount": 861,
+  "tokensSha256": "e6b80fae2ef2e9eb999226abbe22135a877e2c8f1a38156fca8654fb70cbc8a6",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          480.54,
+          483.66
+        ],
+        [
+          495.45,
+          500.45
+        ],
+        [
+          520.73,
+          524.33
+        ]
+      ],
+      "Club director": [
+        [
+          528.02,
+          536.9
+        ],
+        [
+          647.25,
+          654.36
+        ],
+        [
+          761.62,
+          773.02
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          480.54,
+          483.66
+        ],
+        "scores": {
+          "Narrator": 0.7109,
+          "Club director": 0.1287
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          495.45,
+          500.45
+        ],
+        "scores": {
+          "Narrator": 0.8092,
+          "Club director": 0.2332
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          520.73,
+          524.33
+        ],
+        "scores": {
+          "Narrator": 0.812,
+          "Club director": 0.1617
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Club director",
+        "window": [
+          528.02,
+          536.9
+        ],
+        "scores": {
+          "Narrator": 0.2156,
+          "Club director": 0.8479
+        },
+        "chosen": "Club director"
+      },
+      {
+        "label": "Club director",
+        "window": [
+          647.25,
+          654.36
+        ],
+        "scores": {
+          "Narrator": 0.1717,
+          "Club director": 0.7792
+        },
+        "chosen": "Club director"
+      },
+      {
+        "label": "Club director",
+        "window": [
+          761.62,
+          773.02
+        ],
+        "scores": {
+          "Narrator": 0.1478,
+          "Club director": 0.841
+        },
+        "chosen": "Club director"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 1,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 480.54,
+        "end": 483.66,
+        "voiceWindow": [
+          480.54,
+          483.66
+        ],
+        "scores": {
+          "Narrator": 0.8693,
+          "Club director": 0.1287
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 2,
+        "index": 8,
+        "speaker": "Narrator",
+        "start": 485.87,
+        "end": 489.96,
+        "voiceWindow": [
+          485.87,
+          489.96
+        ],
+        "scores": {
+          "Narrator": 0.6817,
+          "Club director": 0.129
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 3,
+        "index": 19,
+        "speaker": "Narrator",
+        "start": 489.96,
+        "end": 494.38,
+        "voiceWindow": [
+          489.96,
+          494.38
+        ],
+        "scores": {
+          "Narrator": 0.6965,
+          "Club director": 0.1347
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 4,
+        "index": 30,
+        "speaker": "Narrator",
+        "start": 495.45,
+        "end": 500.45,
+        "voiceWindow": [
+          495.45,
+          500.45
+        ],
+        "scores": {
+          "Narrator": 0.9175,
+          "Club director": 0.2332
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 5,
+        "index": 45,
+        "speaker": "Narrator",
+        "start": 520.73,
+        "end": 524.33,
+        "voiceWindow": [
+          520.73,
+          524.33
+        ],
+        "scores": {
+          "Narrator": 0.9188,
+          "Club director": 0.1617
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 6,
+        "index": 54,
+        "speaker": "Club director",
+        "start": 528.02,
+        "end": 532.18,
+        "voiceWindow": [
+          528.02,
+          532.18
+        ],
+        "scores": {
+          "Narrator": 0.2134,
+          "Club director": 0.8784
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 7,
+        "index": 67,
+        "speaker": "Club director",
+        "start": 532.62,
+        "end": 536.9,
+        "voiceWindow": [
+          532.62,
+          536.9
+        ],
+        "scores": {
+          "Narrator": 0.1933,
+          "Club director": 0.8804
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 8,
+        "index": 78,
+        "speaker": "Club director",
+        "start": 537.78,
+        "end": 542.6,
+        "voiceWindow": [
+          537.78,
+          542.6
+        ],
+        "scores": {
+          "Narrator": 0.2438,
+          "Club director": 0.8234
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 9,
+        "index": 91,
+        "speaker": "Club director",
+        "start": 543.08,
+        "end": 546.66,
+        "voiceWindow": [
+          543.08,
+          546.66
+        ],
+        "scores": {
+          "Narrator": 0.1801,
+          "Club director": 0.8263
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 10,
+        "index": 105,
+        "speaker": "Club director",
+        "start": 547.4,
+        "end": 551.26,
+        "voiceWindow": [
+          547.4,
+          551.26
+        ],
+        "scores": {
+          "Narrator": 0.2367,
+          "Club director": 0.7655
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 11,
+        "index": 122,
+        "speaker": "Club director",
+        "start": 552.63,
+        "end": 558.35,
+        "voiceWindow": [
+          552.63,
+          558.35
+        ],
+        "scores": {
+          "Narrator": 0.2405,
+          "Club director": 0.805
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 12,
+        "index": 138,
+        "speaker": "Club director",
+        "start": 559.26,
+        "end": 565.15,
+        "voiceWindow": [
+          559.26,
+          565.15
+        ],
+        "scores": {
+          "Narrator": 0.242,
+          "Club director": 0.7891
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 13,
+        "index": 156,
+        "speaker": "Club director",
+        "start": 565.15,
+        "end": 567.63,
+        "voiceWindow": [
+          565.15,
+          567.63
+        ],
+        "scores": {
+          "Narrator": 0.2602,
+          "Club director": 0.733
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 14,
+        "index": 162,
+        "speaker": "Club director",
+        "start": 569.14,
+        "end": 573.22,
+        "voiceWindow": [
+          569.14,
+          573.22
+        ],
+        "scores": {
+          "Narrator": 0.2192,
+          "Club director": 0.6784
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 15,
+        "index": 173,
+        "speaker": "Club director",
+        "start": 573.7,
+        "end": 575.82,
+        "voiceWindow": [
+          573.7,
+          575.82
+        ],
+        "scores": {
+          "Narrator": 0.2197,
+          "Club director": 0.7037
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 16,
+        "index": 179,
+        "speaker": "Club director",
+        "start": 576.54,
+        "end": 578.32,
+        "voiceWindow": [
+          576.54,
+          578.32
+        ],
+        "scores": {
+          "Narrator": 0.1596,
+          "Club director": 0.5495
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 17,
+        "index": 185,
+        "speaker": "Club director",
+        "start": 579.06,
+        "end": 582.74,
+        "voiceWindow": [
+          579.06,
+          582.74
+        ],
+        "scores": {
+          "Narrator": 0.2127,
+          "Club director": 0.7864
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 18,
+        "index": 193,
+        "speaker": "Club director",
+        "start": 583.2,
+        "end": 589.16,
+        "voiceWindow": [
+          583.2,
+          589.16
+        ],
+        "scores": {
+          "Narrator": 0.2329,
+          "Club director": 0.7858
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 19,
+        "index": 207,
+        "speaker": "Club director",
+        "start": 589.16,
+        "end": 599.24,
+        "voiceWindow": [
+          589.16,
+          599.16
+        ],
+        "scores": {
+          "Narrator": 0.1691,
+          "Club director": 0.7451
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 20,
+        "index": 222,
+        "speaker": "Club director",
+        "start": 599.24,
+        "end": 606.51,
+        "voiceWindow": [
+          599.24,
+          606.51
+        ],
+        "scores": {
+          "Narrator": 0.23,
+          "Club director": 0.7565
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 21,
+        "index": 240,
+        "speaker": "Club director",
+        "start": 606.69,
+        "end": 617.41,
+        "voiceWindow": [
+          606.69,
+          616.69
+        ],
+        "scores": {
+          "Narrator": 0.1855,
+          "Club director": 0.8045
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 22,
+        "index": 255,
+        "speaker": "Club director",
+        "start": 617.41,
+        "end": 622.68,
+        "voiceWindow": [
+          617.41,
+          622.68
+        ],
+        "scores": {
+          "Narrator": 0.1752,
+          "Club director": 0.844
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 23,
+        "index": 267,
+        "speaker": "Club director",
+        "start": 622.68,
+        "end": 630,
+        "voiceWindow": [
+          622.68,
+          630
+        ],
+        "scores": {
+          "Narrator": 0.2021,
+          "Club director": 0.8128
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 24,
+        "index": 284,
+        "speaker": "Club director",
+        "start": 630,
+        "end": 636.26,
+        "voiceWindow": [
+          630,
+          636.26
+        ],
+        "scores": {
+          "Narrator": 0.2024,
+          "Club director": 0.8811
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 25,
+        "index": 299,
+        "speaker": "Club director",
+        "start": 636.26,
+        "end": 642.32,
+        "voiceWindow": [
+          636.26,
+          642.32
+        ],
+        "scores": {
+          "Narrator": 0.2177,
+          "Club director": 0.8775
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 26,
+        "index": 316,
+        "speaker": "Club director",
+        "start": 643.08,
+        "end": 646.32,
+        "voiceWindow": [
+          643.08,
+          646.32
+        ],
+        "scores": {
+          "Narrator": 0.1274,
+          "Club director": 0.7002
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 27,
+        "index": 330,
+        "speaker": "Club director",
+        "start": 647.25,
+        "end": 654.36,
+        "voiceWindow": [
+          647.25,
+          654.36
+        ],
+        "scores": {
+          "Narrator": 0.1717,
+          "Club director": 0.901
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 28,
+        "index": 345,
+        "speaker": "Club director",
+        "start": 654.96,
+        "end": 663.12,
+        "voiceWindow": [
+          654.96,
+          663.12
+        ],
+        "scores": {
+          "Narrator": 0.1526,
+          "Club director": 0.7795
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 29,
+        "index": 363,
+        "speaker": "Club director",
+        "start": 663.12,
+        "end": 666.58,
+        "voiceWindow": [
+          663.12,
+          666.58
+        ],
+        "scores": {
+          "Narrator": 0.183,
+          "Club director": 0.74
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 30,
+        "index": 372,
+        "speaker": "Club director",
+        "start": 668.04,
+        "end": 670.26,
+        "voiceWindow": [
+          668.04,
+          670.26
+        ],
+        "scores": {
+          "Narrator": 0.0375,
+          "Club director": 0.6394
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 31,
+        "index": 378,
+        "speaker": "Club director",
+        "start": 670.74,
+        "end": 672.34,
+        "voiceWindow": [
+          670.74,
+          672.34
+        ],
+        "scores": {
+          "Narrator": 0.2133,
+          "Club director": 0.665
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 32,
+        "index": 384,
+        "speaker": "Club director",
+        "start": 672.74,
+        "end": 676.66,
+        "voiceWindow": [
+          672.74,
+          676.66
+        ],
+        "scores": {
+          "Narrator": 0.1406,
+          "Club director": 0.798
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 33,
+        "index": 398,
+        "speaker": "Club director",
+        "start": 677,
+        "end": 679.74,
+        "voiceWindow": [
+          677,
+          679.74
+        ],
+        "scores": {
+          "Narrator": 0.1152,
+          "Club director": 0.7552
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 34,
+        "index": 405,
+        "speaker": "Club director",
+        "start": 680.88,
+        "end": 684.56,
+        "voiceWindow": [
+          680.88,
+          684.56
+        ],
+        "scores": {
+          "Narrator": 0.2383,
+          "Club director": 0.7517
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 35,
+        "index": 413,
+        "speaker": "Club director",
+        "start": 685.38,
+        "end": 690.62,
+        "voiceWindow": [
+          685.38,
+          690.62
+        ],
+        "scores": {
+          "Narrator": 0.1458,
+          "Club director": 0.7563
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 36,
+        "index": 429,
+        "speaker": "Club director",
+        "start": 690.62,
+        "end": 696.08,
+        "voiceWindow": [
+          690.62,
+          696.08
+        ],
+        "scores": {
+          "Narrator": 0.2025,
+          "Club director": 0.7768
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 37,
+        "index": 445,
+        "speaker": "Club director",
+        "start": 696.08,
+        "end": 696.32,
+        "contextWindow": [
+          693.5,
+          696.32
+        ],
+        "voiceWindow": [
+          693.5,
+          696.32
+        ],
+        "scores": {
+          "Narrator": 0.1441,
+          "Club director": 0.6808
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 38,
+        "index": 446,
+        "speaker": "Club director",
+        "start": 697.39,
+        "end": 702.13,
+        "voiceWindow": [
+          697.39,
+          702.13
+        ],
+        "scores": {
+          "Narrator": 0.2088,
+          "Club director": 0.8663
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 39,
+        "index": 462,
+        "speaker": "Club director",
+        "start": 702.13,
+        "end": 709.05,
+        "voiceWindow": [
+          702.13,
+          709.05
+        ],
+        "scores": {
+          "Narrator": 0.2718,
+          "Club director": 0.7259
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 40,
+        "index": 480,
+        "speaker": "Club director",
+        "start": 709.79,
+        "end": 714.97,
+        "voiceWindow": [
+          709.79,
+          714.97
+        ],
+        "scores": {
+          "Narrator": 0.1951,
+          "Club director": 0.7557
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 41,
+        "index": 496,
+        "speaker": "Club director",
+        "start": 716.02,
+        "end": 719.54,
+        "voiceWindow": [
+          716.02,
+          719.54
+        ],
+        "scores": {
+          "Narrator": 0.186,
+          "Club director": 0.774
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 42,
+        "index": 507,
+        "speaker": "Narrator",
+        "start": 723.5,
+        "end": 729.1,
+        "voiceWindow": [
+          723.5,
+          729.1
+        ],
+        "scores": {
+          "Narrator": 0.8121,
+          "Club director": 0.193
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 43,
+        "index": 528,
+        "speaker": "Narrator",
+        "start": 729.1,
+        "end": 758.12,
+        "contextWindow": [
+          754.98,
+          758.12
+        ],
+        "voiceWindow": [
+          754.98,
+          758.12
+        ],
+        "scores": {
+          "Narrator": 0.79,
+          "Club director": 0.128
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 43,
+        "index": 537,
+        "speaker": "Club director",
+        "start": 761.62,
+        "end": 763.76,
+        "voiceWindow": [
+          761.62,
+          763.76
+        ],
+        "scores": {
+          "Narrator": 0.0903,
+          "Club director": 0.7682
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 44,
+        "index": 544,
+        "speaker": "Club director",
+        "start": 764.22,
+        "end": 769.84,
+        "voiceWindow": [
+          764.22,
+          769.84
+        ],
+        "scores": {
+          "Narrator": 0.1174,
+          "Club director": 0.8589
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 45,
+        "index": 560,
+        "speaker": "Club director",
+        "start": 769.84,
+        "end": 773.02,
+        "voiceWindow": [
+          769.84,
+          773.02
+        ],
+        "scores": {
+          "Narrator": 0.1462,
+          "Club director": 0.7965
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 46,
+        "index": 571,
+        "speaker": "Club director",
+        "start": 773.78,
+        "end": 779.2,
+        "voiceWindow": [
+          773.78,
+          779.2
+        ],
+        "scores": {
+          "Narrator": 0.1971,
+          "Club director": 0.7925
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 47,
+        "index": 587,
+        "speaker": "Club director",
+        "start": 779.2,
+        "end": 783.18,
+        "voiceWindow": [
+          779.2,
+          783.18
+        ],
+        "scores": {
+          "Narrator": 0.2468,
+          "Club director": 0.6931
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 48,
+        "index": 597,
+        "speaker": "Club director",
+        "start": 784.83,
+        "end": 787.33,
+        "voiceWindow": [
+          784.83,
+          787.33
+        ],
+        "scores": {
+          "Narrator": 0.1318,
+          "Club director": 0.6233
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 49,
+        "index": 605,
+        "speaker": "Club director",
+        "start": 788.47,
+        "end": 794.43,
+        "voiceWindow": [
+          788.47,
+          794.43
+        ],
+        "scores": {
+          "Narrator": 0.2189,
+          "Club director": 0.8143
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 50,
+        "index": 622,
+        "speaker": "Club director",
+        "start": 794.99,
+        "end": 801.75,
+        "voiceWindow": [
+          794.99,
+          801.75
+        ],
+        "scores": {
+          "Narrator": 0.0764,
+          "Club director": 0.827
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 51,
+        "index": 639,
+        "speaker": "Club director",
+        "start": 801.75,
+        "end": 808.17,
+        "voiceWindow": [
+          801.75,
+          808.17
+        ],
+        "scores": {
+          "Narrator": 0.1603,
+          "Club director": 0.7516
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 52,
+        "index": 652,
+        "speaker": "Club director",
+        "start": 808.17,
+        "end": 813.25,
+        "voiceWindow": [
+          808.17,
+          813.25
+        ],
+        "scores": {
+          "Narrator": 0.2137,
+          "Club director": 0.8381
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 53,
+        "index": 666,
+        "speaker": "Club director",
+        "start": 813.25,
+        "end": 819.35,
+        "voiceWindow": [
+          813.25,
+          819.35
+        ],
+        "scores": {
+          "Narrator": 0.1648,
+          "Club director": 0.847
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 54,
+        "index": 681,
+        "speaker": "Club director",
+        "start": 819.35,
+        "end": 824.19,
+        "voiceWindow": [
+          819.35,
+          824.19
+        ],
+        "scores": {
+          "Narrator": 0.2174,
+          "Club director": 0.78
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 55,
+        "index": 695,
+        "speaker": "Club director",
+        "start": 825.23,
+        "end": 828.63,
+        "voiceWindow": [
+          825.23,
+          828.63
+        ],
+        "scores": {
+          "Narrator": 0.2761,
+          "Club director": 0.6709
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 56,
+        "index": 703,
+        "speaker": "Club director",
+        "start": 829.31,
+        "end": 836.19,
+        "voiceWindow": [
+          829.31,
+          836.19
+        ],
+        "scores": {
+          "Narrator": 0.2284,
+          "Club director": 0.7703
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 57,
+        "index": 717,
+        "speaker": "Club director",
+        "start": 836.19,
+        "end": 838.15,
+        "voiceWindow": [
+          836.19,
+          838.15
+        ],
+        "scores": {
+          "Narrator": 0.198,
+          "Club director": 0.6117
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 58,
+        "index": 720,
+        "speaker": "Club director",
+        "start": 838.87,
+        "end": 844.25,
+        "voiceWindow": [
+          838.87,
+          844.25
+        ],
+        "scores": {
+          "Narrator": 0.2104,
+          "Club director": 0.7944
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 59,
+        "index": 734,
+        "speaker": "Club director",
+        "start": 844.87,
+        "end": 845.97,
+        "voiceWindow": [
+          844.87,
+          845.97
+        ],
+        "scores": {
+          "Narrator": 0.1798,
+          "Club director": 0.6586
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 60,
+        "index": 737,
+        "speaker": "Club director",
+        "start": 846.78,
+        "end": 851.1,
+        "voiceWindow": [
+          846.78,
+          851.1
+        ],
+        "scores": {
+          "Narrator": 0.1734,
+          "Club director": 0.7909
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 61,
+        "index": 749,
+        "speaker": "Club director",
+        "start": 851.74,
+        "end": 856.72,
+        "voiceWindow": [
+          851.74,
+          856.72
+        ],
+        "scores": {
+          "Narrator": 0.2197,
+          "Club director": 0.6744
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 62,
+        "index": 764,
+        "speaker": "Club director",
+        "start": 857.83,
+        "end": 859.13,
+        "voiceWindow": [
+          857.83,
+          859.13
+        ],
+        "scores": {
+          "Narrator": 0.0702,
+          "Club director": 0.6841
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 63,
+        "index": 768,
+        "speaker": "Club director",
+        "start": 859.85,
+        "end": 863.77,
+        "voiceWindow": [
+          859.85,
+          863.77
+        ],
+        "scores": {
+          "Narrator": 0.1767,
+          "Club director": 0.7608
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 64,
+        "index": 780,
+        "speaker": "Club director",
+        "start": 864.05,
+        "end": 869.31,
+        "voiceWindow": [
+          864.05,
+          869.31
+        ],
+        "scores": {
+          "Narrator": 0.1506,
+          "Club director": 0.8042
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 65,
+        "index": 794,
+        "speaker": "Club director",
+        "start": 870.33,
+        "end": 873.63,
+        "voiceWindow": [
+          870.33,
+          873.63
+        ],
+        "scores": {
+          "Narrator": 0.1828,
+          "Club director": 0.7253
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 66,
+        "index": 804,
+        "speaker": "Club director",
+        "start": 874.37,
+        "end": 880.53,
+        "voiceWindow": [
+          874.37,
+          880.53
+        ],
+        "scores": {
+          "Narrator": 0.1613,
+          "Club director": 0.7896
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 67,
+        "index": 815,
+        "speaker": "Club director",
+        "start": 880.53,
+        "end": 886.2,
+        "voiceWindow": [
+          880.53,
+          886.2
+        ],
+        "scores": {
+          "Narrator": 0.1451,
+          "Club director": 0.8143
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 68,
+        "index": 828,
+        "speaker": "Club director",
+        "start": 886.2,
+        "end": 892.07,
+        "voiceWindow": [
+          886.2,
+          892.07
+        ],
+        "scores": {
+          "Narrator": 0.2067,
+          "Club director": 0.7523
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 68,
+        "index": 841,
+        "speaker": "Narrator",
+        "start": 895.11,
+        "end": 896.19,
+        "voiceWindow": [
+          895.11,
+          896.19
+        ],
+        "scores": {
+          "Narrator": 0.3755,
+          "Club director": 0.0605
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 69,
+        "index": 843,
+        "speaker": "Narrator",
+        "start": 896.19,
+        "end": 931.98,
+        "voiceWindow": [
+          896.19,
+          906.19
+        ],
+        "scores": {
+          "Narrator": 0.5368,
+          "Club director": 0.1903
+        },
+        "chosen": "Narrator"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 19,
+        "index": 207,
+        "speaker": "Club director",
+        "start": 589.16,
+        "end": 599.24,
+        "voiceWindow": [
+          591.24,
+          599.24
+        ],
+        "scores": {
+          "Narrator": 0.1476,
+          "Club director": 0.7245
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 21,
+        "index": 240,
+        "speaker": "Club director",
+        "start": 606.69,
+        "end": 617.41,
+        "voiceWindow": [
+          609.41,
+          617.41
+        ],
+        "scores": {
+          "Narrator": 0.1767,
+          "Club director": 0.7655
+        },
+        "chosen": "Club director"
+      },
+      {
+        "paragraph": 43,
+        "index": 528,
+        "speaker": "Narrator",
+        "start": 729.1,
+        "end": 758.12,
+        "contextWindow": [
+          754.98,
+          758.12
+        ],
+        "voiceWindow": [
+          750.12,
+          758.12
+        ],
+        "scores": {
+          "Narrator": 0.3078,
+          "Club director": 0.0324
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 69,
+        "index": 843,
+        "speaker": "Narrator",
+        "start": 896.19,
+        "end": 931.98,
+        "voiceWindow": [
+          923.98,
+          931.98
+        ],
+        "scores": {
+          "Narrator": 0.2123,
+          "Club director": 0.0178
+        },
+        "chosen": "Narrator"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Now turn to section 2 on page 4."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Narrator",
+      "text": " Section 2 You will hear the director of a club giving"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Narrator",
+      "text": " a talk about an ancient game played on ice called curling."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Narrator",
+      "text": " First you have some time to look at questions 11 to 16 on page 4."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Narrator",
+      "text": " Now listen carefully and answer questions 11 to 16."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Club director",
+      "text": " It gives me great pleasure to welcome you to the Montreal Curling Club."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Club director",
+      "text": " I hope you'll enjoy the introductory program we've prepared for you."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Club director",
+      "text": " I'll start with a brief introduction to the game itself and the equipment,"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Club director",
+      "text": " so that you'll be able to enjoy it when you watch it later on."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Club director",
+      "text": " I'll then go on to say a little about the history of the sport and the club."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Club director",
+      "text": " So, first let's take a look at the game of curling and the implements it uses."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Club director",
+      "text": " It's played on ice, and the object of the game is for two teams to push heavy stones"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Club director",
+      "text": " across the ice towards a target."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Club director",
+      "text": " Now there are four people in each of the two teams."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Club director",
+      "text": " The first is called the lead."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Club director",
+      "text": " The next is called the second."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Club director",
+      "text": " The next, surprise surprise, is called the third."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Club director",
+      "text": " and the final player, who is absolutely key, functions as the captain, but is"
+    },
+    {
+      "paragraph": 18,
+      "speaker": "Club director",
+      "text": " always called the skip. That's S-K-I-P. The area of play on the ice, whether it"
+    },
+    {
+      "paragraph": 19,
+      "speaker": "Club director",
+      "text": " be on a rink or on a frozen lake or a stream, is called the sheet. This long"
+    },
+    {
+      "paragraph": 20,
+      "speaker": "Club director",
+      "text": " thin area is 42.15 meters by only 4.25 meters, and unlike ice hockey ice, for"
+    },
+    {
+      "paragraph": 21,
+      "speaker": "Club director",
+      "text": " example, it is constantly groomed by frequent shaving to keep it perfectly"
+    },
+    {
+      "paragraph": 22,
+      "speaker": "Club director",
+      "text": " level. At either end of this are the two zones for the targets. Each one is known"
+    },
+    {
+      "paragraph": 23,
+      "speaker": "Club director",
+      "text": " as a house. A little bit about the equipment we need. The stones are made"
+    },
+    {
+      "paragraph": 24,
+      "speaker": "Club director",
+      "text": " from granite. Originally these were held by your fingers in holes specially carved out in the top,"
+    },
+    {
+      "paragraph": 25,
+      "speaker": "Club director",
+      "text": " but then it was decided to add a handle to get a better grip."
+    },
+    {
+      "paragraph": 26,
+      "speaker": "Club director",
+      "text": " The other distinctive implement is the brush or broom. This is used for two purposes,"
+    },
+    {
+      "paragraph": 27,
+      "speaker": "Club director",
+      "text": " to clean the ice of course, but more crucially to warm it. This melts the ice slightly and"
+    },
+    {
+      "paragraph": 28,
+      "speaker": "Club director",
+      "text": " lessens the friction, so you get a smoother slide."
+    },
+    {
+      "paragraph": 29,
+      "speaker": "Club director",
+      "text": " Curling is not an expensive sport."
+    },
+    {
+      "paragraph": 30,
+      "speaker": "Club director",
+      "text": " You don't buy your own stones."
+    },
+    {
+      "paragraph": 31,
+      "speaker": "Club director",
+      "text": " In fact, it is illegal to play in a match with your own stones."
+    },
+    {
+      "paragraph": 32,
+      "speaker": "Club director",
+      "text": " But you can use your own brush."
+    },
+    {
+      "paragraph": 33,
+      "speaker": "Club director",
+      "text": " There are two main types, Scottish and Canadian."
+    },
+    {
+      "paragraph": 34,
+      "speaker": "Club director",
+      "text": " The former are normally made out of horse hair, and the latter, which are now more"
+    },
+    {
+      "paragraph": 35,
+      "speaker": "Club director",
+      "text": " frequently used are made of synthetic materials, and they don't leave as many threads on the"
+    },
+    {
+      "paragraph": 36,
+      "speaker": "Club director",
+      "text": " ice."
+    },
+    {
+      "paragraph": 37,
+      "speaker": "Club director",
+      "text": " Now, apart from stones and brushes, the only other piece of equipment you would need as"
+    },
+    {
+      "paragraph": 38,
+      "speaker": "Club director",
+      "text": " a beginner is a rubber sole on one of your shoes, depending on which shoe you LEAD from."
+    },
+    {
+      "paragraph": 39,
+      "speaker": "Club director",
+      "text": " The captain will often carry a stopwatch to gauge when the ice needs to be changed."
+    },
+    {
+      "paragraph": 40,
+      "speaker": "Club director",
+      "text": " All equipment and clothing can be bought in the club shop."
+    },
+    {
+      "paragraph": 41,
+      "speaker": "Narrator",
+      "text": " Before you hear the rest of the talk, you have some time to look at questions 17 to 20 on page"
+    },
+    {
+      "paragraph": 42,
+      "speaker": "Narrator",
+      "text": " 4. Now listen and answer questions 17 to 20. "
+    },
+    {
+      "paragraph": 42,
+      "speaker": "Club director",
+      "text": "A quick word about Montreal Curling Club,"
+    },
+    {
+      "paragraph": 43,
+      "speaker": "Club director",
+      "text": " it's renowned. Not only because it often wins championships, but because it was the first club"
+    },
+    {
+      "paragraph": 44,
+      "speaker": "Club director",
+      "text": " for any sport in the whole of the North American continent."
+    },
+    {
+      "paragraph": 45,
+      "speaker": "Club director",
+      "text": " And although curling is not as well known as many other winter sports, we still boast"
+    },
+    {
+      "paragraph": 46,
+      "speaker": "Club director",
+      "text": " a certain amount of influence in the National Sports Council."
+    },
+    {
+      "paragraph": 47,
+      "speaker": "Club director",
+      "text": " And what are the origins of the game?"
+    },
+    {
+      "paragraph": 48,
+      "speaker": "Club director",
+      "text": " It's now well established that it started in Scotland in at least as early as the 16th"
+    },
+    {
+      "paragraph": 49,
+      "speaker": "Club director",
+      "text": " Queen Victoria, on her frequent trips to Scotland, often played it, but wrote in her diary that"
+    },
+    {
+      "paragraph": 50,
+      "speaker": "Club director",
+      "text": " it required exceptional strength to throw the stones. Her patronage attracted a great"
+    },
+    {
+      "paragraph": 51,
+      "speaker": "Club director",
+      "text": " deal of interest in the game, especially amongst younger players, and this was enhanced"
+    },
+    {
+      "paragraph": 52,
+      "speaker": "Club director",
+      "text": " further when she granted a royal title to the Caledonian Curling Club, which had been"
+    },
+    {
+      "paragraph": 53,
+      "speaker": "Club director",
+      "text": " set up in the early 19th century to create standard rules for the game."
+    },
+    {
+      "paragraph": 54,
+      "speaker": "Club director",
+      "text": " Curling has always had support in high places."
+    },
+    {
+      "paragraph": 55,
+      "speaker": "Club director",
+      "text": " In the 16th century, the Scottish Parliament actually banned golf and football as violent"
+    },
+    {
+      "paragraph": 56,
+      "speaker": "Club director",
+      "text": " and unprofitable sports."
+    },
+    {
+      "paragraph": 57,
+      "speaker": "Club director",
+      "text": " They felt that local men should spend any free time practicing archery for self-defense"
+    },
+    {
+      "paragraph": 58,
+      "speaker": "Club director",
+      "text": " against their enemies."
+    },
+    {
+      "paragraph": 59,
+      "speaker": "Club director",
+      "text": " But the less popular game of curling wasn't included in the ban."
+    },
+    {
+      "paragraph": 60,
+      "speaker": "Club director",
+      "text": " The art of throwing stones was thought to be just as useful as shooting arrows."
+    },
+    {
+      "paragraph": 61,
+      "speaker": "Club director",
+      "text": " But back to Canada."
+    },
+    {
+      "paragraph": 62,
+      "speaker": "Club director",
+      "text": " Here the game has flourished since the beginning of the 19th century,"
+    },
+    {
+      "paragraph": 63,
+      "speaker": "Club director",
+      "text": " when Scottish soldiers posted there enjoyed playing it on the frozen lakes and rivers."
+    },
+    {
+      "paragraph": 64,
+      "speaker": "Club director",
+      "text": " Because of the difficulty in importing granite stones from Scotland,"
+    },
+    {
+      "paragraph": 65,
+      "speaker": "Club director",
+      "text": " cast iron was used instead, obtained from melted-down cannonballs which had"
+    },
+    {
+      "paragraph": 66,
+      "speaker": "Club director",
+      "text": " originally been brought over from Europe. Now Canada is regarded as the most"
+    },
+    {
+      "paragraph": 67,
+      "speaker": "Club director",
+      "text": " successful curling nation in the world. Now, the game you're going to see. "
+    },
+    {
+      "paragraph": 67,
+      "speaker": "Narrator",
+      "text": "That is"
+    },
+    {
+      "paragraph": 68,
+      "speaker": "Narrator",
+      "text": " the end of section 2. You now have half a minute to check your answers. Now turn to"
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "408d2b3132711b777a3c338925107ed86ea89acb818a45ddf8e518b3cfa6986b"
+}

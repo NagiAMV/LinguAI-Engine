@@ -1,0 +1,30 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+const hash=x=>createHash('sha256').update(x).digest('hex');
+const read=()=>JSON.parse(fs.readFileSync('public/practice/practice-listening-10.json')).parts[1];
+test('Test 10 Part 2 separates narrator from guide inside all three mixed paragraphs',()=>{
+ const part=read(),audit=JSON.parse(fs.readFileSync('docs/listening-speaker-review/practice-listening-10-part-2.json'));
+ const paragraphs=[...part.passage.matchAll(/<p\b[^>]*>[\s\S]*?<\/p>/g)].map(m=>m[0]);assert.equal(paragraphs.length,16);
+ paragraphs.forEach((p,i)=>assert.deepEqual([...p.matchAll(/data-speaker="([^"]+)"/g)].map(m=>m[1]),[1,8].includes(i)?['Narrator','Tour guide']:i===14?['Tour guide','Narrator']:[[0,15].includes(i)?'Narrator':'Tour guide'],`paragraph ${i}`));
+ for(const [speaker,prefix] of [['Tour guide','Good morning'],['Tour guide',"Now I'm going to give you a plan"],['Narrator','That is the end']])assert.ok(audit.renderedGroups.some(g=>g.speaker===speaker&&g.text.startsWith(prefix)),prefix);
+ assert.equal(hash(fs.readFileSync('public'+part.audioUrls[0])),audit.audioSha256);
+ assert.equal(audit.humanAuditoryReview,false);assert.equal(audit.textUnchanged,true);
+ assert.equal(audit.voiceComparison.checks.length,19);assert.equal(audit.tailVoiceComparison.length,13);
+ for(const r of [...audit.voiceComparison.checks,...audit.tailVoiceComparison])assert.equal(r.chosen,r.speaker);
+ assert.ok(audit.voiceComparison.leaveOneOutControls.every(r=>r.label===r.chosen));
+ assert.equal(part.transcriptSpeakerProvenance.partWindowEstimated,false);
+});
+test('Test 10 Part 2 restores missing word and phrase clocks including the closing section number',()=>{
+ const part=read(),audit=JSON.parse(fs.readFileSync('docs/listening-speaker-review/practice-listening-10-part-2.json'));
+ const cues=[...part.passage.matchAll(/<span data-cue-start="([\d.]+)" data-cue-end="([\d.]+)">([^<]*)<\/span>/g)].map(m=>[m[1],m[2],m[3]]);
+ assert.equal(cues.length,812);assert.equal(hash(JSON.stringify(cues)),audit.wordClocksSha256);
+ assert.equal(cues.reduce((n,c)=>n+c[2].trim().split(/\s+/).length,0),814);
+ assert.ok(cues.every(([s,e],i)=>+s>=part.transcriptStartSeconds&&+e>+s&&+e<=part.transcriptEndSeconds&&(!i||+s>=+cues[i-1][0])));
+ assert.equal(cues.filter(c=>c[2]==='at questions').length,2);
+ for(const word of ['2','realised','experience','Forty','$5,000','Before','guidebook,','state-of-the-art','two.'])assert.ok(cues.some(c=>c[2]===word),word);
+ assert.ok(cues.some(c=>c[2]==='Before'&&c[0]==='653.14'&&c[1]==='653.66'));
+ assert.ok(cues.some(c=>c[2]==='two.'&&c[0]==='810.23'&&c[1]==='810.73'));
+ assert.equal(audit.addedClocks.length,11);assert.equal(audit.removedClocksForPhraseMerges.length,2);assert.equal(audit.correctedWordClocks.length,0);
+});

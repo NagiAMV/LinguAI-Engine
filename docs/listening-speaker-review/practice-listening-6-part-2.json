@@ -1,0 +1,950 @@
+{
+  "test": "practice-listening-6",
+  "part": 2,
+  "audioSha256": "994b3a891191f269d3bc687cada720ec16bcf62a9d693e5fbac0f70ae6846df4",
+  "scope": {
+    "start": 458.47,
+    "end": 707.77
+  },
+  "sourceScope": "All nine published paragraphs belong to one radio presenter and are checked against three independent presenter anchors and three contrasting narrator instruction anchors from the same recording. All nine main windows and eight long-paragraph tails match the presenter; all six leave-one-out controls distinguish the roles. No narrator instructions are present in this published excerpt. Six previously untimed spoken source tokens receive positive word clocks. Volunteer, pounds, Apparently, be and in are recovered from isolated cropped recognition. Three adjacent clock endpoints are adjusted to avoid overlaps. And/or uses combined cached and plus or duration. The ten Q11-Q20 answer-location annotations are source-only editorial notes and deliberately remain untimed. All text, question annotations and other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 707.77,
+  "removedClocksForPhraseMerges": [],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 0,
+      "index": 0,
+      "speaker": "Radio presenter",
+      "start": 458.47,
+      "end": 470.69,
+      "voiceWindow": [
+        462.69,
+        470.69
+      ],
+      "scores": {
+        "Narrator": 0.237,
+        "Radio presenter": 0.8853
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 1,
+      "index": 26,
+      "speaker": "Radio presenter",
+      "start": 471.73,
+      "end": 500.06,
+      "voiceWindow": [
+        492.06,
+        500.06
+      ],
+      "scores": {
+        "Narrator": 0.2456,
+        "Radio presenter": 0.8805
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 2,
+      "index": 103,
+      "speaker": "Radio presenter",
+      "start": 500.82,
+      "end": 527.41,
+      "voiceWindow": [
+        519.41,
+        527.41
+      ],
+      "scores": {
+        "Narrator": 0.2429,
+        "Radio presenter": 0.8519
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 3,
+      "index": 167,
+      "speaker": "Radio presenter",
+      "start": 528.46,
+      "end": 541.94,
+      "voiceWindow": [
+        533.94,
+        541.94
+      ],
+      "scores": {
+        "Narrator": 0.2902,
+        "Radio presenter": 0.8985
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 4,
+      "index": 204,
+      "speaker": "Radio presenter",
+      "start": 583.4,
+      "end": 618.22,
+      "voiceWindow": [
+        610.22,
+        618.22
+      ],
+      "scores": {
+        "Narrator": 0.3667,
+        "Radio presenter": 0.8995
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 5,
+      "index": 292,
+      "speaker": "Radio presenter",
+      "start": 619.58,
+      "end": 652.8,
+      "voiceWindow": [
+        644.8,
+        652.8
+      ],
+      "scores": {
+        "Narrator": 0.3113,
+        "Radio presenter": 0.8702
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 6,
+      "index": 383,
+      "speaker": "Radio presenter",
+      "start": 653.66,
+      "end": 678.95,
+      "voiceWindow": [
+        670.95,
+        678.95
+      ],
+      "scores": {
+        "Narrator": 0.3461,
+        "Radio presenter": 0.8649
+      },
+      "chosen": "Radio presenter"
+    },
+    {
+      "paragraph": 8,
+      "index": 483,
+      "speaker": "Radio presenter",
+      "start": 688.81,
+      "end": 707.77,
+      "voiceWindow": [
+        699.77,
+        707.77
+      ],
+      "scores": {
+        "Narrator": 0.2544,
+        "Radio presenter": 0.8366
+      },
+      "chosen": "Radio presenter"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 462,
+      "end": 468,
+      "words": [
+        {
+          "word": "Worldwide",
+          "start": 462,
+          "end": 462.74
+        },
+        {
+          "word": "Helpers",
+          "start": 462.74,
+          "end": 463.28
+        },
+        {
+          "word": "announces",
+          "start": 463.28,
+          "end": 463.7
+        },
+        {
+          "word": "upcoming",
+          "start": 463.7,
+          "end": 464.3
+        },
+        {
+          "word": "vacancies",
+          "start": 464.3,
+          "end": 464.88
+        },
+        {
+          "word": "for",
+          "start": 464.88,
+          "end": 465.3
+        },
+        {
+          "word": "a",
+          "start": 465.3,
+          "end": 465.42
+        },
+        {
+          "word": "number",
+          "start": 465.42,
+          "end": 465.66
+        },
+        {
+          "word": "of",
+          "start": 465.66,
+          "end": 465.92
+        },
+        {
+          "word": "volunteer",
+          "start": 465.92,
+          "end": 466.4
+        },
+        {
+          "word": "worker",
+          "start": 466.4,
+          "end": 466.78
+        },
+        {
+          "word": "positions.",
+          "start": 466.78,
+          "end": 467.32
+        }
+      ]
+    },
+    {
+      "start": 596,
+      "end": 601,
+      "words": [
+        {
+          "word": "They",
+          "start": 596,
+          "end": 596.4
+        },
+        {
+          "word": "must",
+          "start": 596.4,
+          "end": 596.6
+        },
+        {
+          "word": "be",
+          "start": 596.6,
+          "end": 596.84
+        },
+        {
+          "word": "able",
+          "start": 596.84,
+          "end": 597.06
+        },
+        {
+          "word": "to",
+          "start": 597.06,
+          "end": 597.32
+        },
+        {
+          "word": "lift",
+          "start": 597.32,
+          "end": 597.6
+        },
+        {
+          "word": "at",
+          "start": 597.6,
+          "end": 597.84
+        },
+        {
+          "word": "least",
+          "start": 597.84,
+          "end": 598.06
+        },
+        {
+          "word": "150",
+          "start": 598.06,
+          "end": 599.04
+        },
+        {
+          "word": "pounds.",
+          "start": 599.04,
+          "end": 599.54
+        }
+      ]
+    },
+    {
+      "start": 670,
+      "end": 674,
+      "words": [
+        {
+          "word": "in",
+          "start": 670,
+          "end": 670.16
+        },
+        {
+          "word": "August.",
+          "start": 670.16,
+          "end": 670.58
+        },
+        {
+          "word": "Apparently,",
+          "start": 671.44,
+          "end": 671.86
+        },
+        {
+          "word": "this",
+          "start": 672.14,
+          "end": 672.36
+        },
+        {
+          "word": "will",
+          "start": 672.36,
+          "end": 672.54
+        },
+        {
+          "word": "be",
+          "start": 672.54,
+          "end": 672.74
+        },
+        {
+          "word": "at",
+          "start": 672.74,
+          "end": 672.96
+        },
+        {
+          "word": "the",
+          "start": 672.96,
+          "end": 673.08
+        },
+        {
+          "word": "close",
+          "start": 673.08,
+          "end": 673.34
+        },
+        {
+          "word": "of",
+          "start": 673.34,
+          "end": 673.58
+        },
+        {
+          "word": "the",
+          "start": 673.58,
+          "end": 673.7
+        },
+        {
+          "word": "summer.",
+          "start": 673.7,
+          "end": 673.9
+        }
+      ]
+    },
+    {
+      "start": 682,
+      "end": 688,
+      "words": [
+        {
+          "word": "Must",
+          "start": 682,
+          "end": 682.48
+        },
+        {
+          "word": "know",
+          "start": 682.48,
+          "end": 682.8
+        },
+        {
+          "word": "basic",
+          "start": 682.8,
+          "end": 683.24
+        },
+        {
+          "word": "first",
+          "start": 683.24,
+          "end": 683.62
+        },
+        {
+          "word": "aid,",
+          "start": 683.62,
+          "end": 684.02
+        },
+        {
+          "word": "be",
+          "start": 684.38,
+          "end": 684.54
+        },
+        {
+          "word": "in",
+          "start": 684.54,
+          "end": 684.68
+        },
+        {
+          "word": "good",
+          "start": 684.68,
+          "end": 684.84
+        },
+        {
+          "word": "health",
+          "start": 684.84,
+          "end": 685.2
+        },
+        {
+          "word": "and",
+          "start": 685.2,
+          "end": 685.64
+        },
+        {
+          "word": "be",
+          "start": 685.64,
+          "end": 685.8
+        },
+        {
+          "word": "able",
+          "start": 685.8,
+          "end": 686
+        },
+        {
+          "word": "to",
+          "start": 686,
+          "end": 686.28
+        },
+        {
+          "word": "lift",
+          "start": 686.28,
+          "end": 686.5
+        },
+        {
+          "word": "up",
+          "start": 686.5,
+          "end": 686.78
+        },
+        {
+          "word": "to",
+          "start": 686.78,
+          "end": 686.94
+        },
+        {
+          "word": "£75.",
+          "start": 686.94,
+          "end": 687.64
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 15,
+      "text": "of",
+      "old": [
+        "465.61",
+        "466.41"
+      ],
+      "new": [
+        465.61,
+        465.92
+      ]
+    },
+    {
+      "index": 241,
+      "text": "150",
+      "old": [
+        "598.08",
+        "599.10"
+      ],
+      "new": [
+        598.08,
+        599.04
+      ]
+    },
+    {
+      "index": 471,
+      "text": "good",
+      "old": [
+        "684.55",
+        "684.83"
+      ],
+      "new": [
+        684.68,
+        684.83
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 16,
+      "text": "volunteer",
+      "start": 465.92,
+      "end": 466.4,
+      "granularity": "source-token"
+    },
+    {
+      "index": 133,
+      "text": "and/or",
+      "start": 512.66,
+      "end": 513.3,
+      "granularity": "source-token"
+    },
+    {
+      "index": 242,
+      "text": "pounds.",
+      "start": 599.04,
+      "end": 599.54,
+      "granularity": "source-token"
+    },
+    {
+      "index": 434,
+      "text": "Apparently,",
+      "start": 671.44,
+      "end": 671.86,
+      "granularity": "source-token"
+    },
+    {
+      "index": 469,
+      "text": "be",
+      "start": 684.38,
+      "end": 684.54,
+      "granularity": "source-token"
+    },
+    {
+      "index": 470,
+      "text": "in",
+      "start": 684.54,
+      "end": 684.68,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 517,
+  "wordClocksSha256": "8c2fbcd9982a241ddd1c04974ada04fcb8c857aef5bfeb99f0c5f71c2c9e7252",
+  "tokenCount": 527,
+  "tokensSha256": "d3bf237a6ea58d3d58e2e6829e454a9012492c788458bd4e3f68345704cad559",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          450.94,
+          455.22
+        ],
+        [
+          544.15,
+          550.39
+        ],
+        [
+          711.55,
+          716.5
+        ]
+      ],
+      "Radio presenter": [
+        [
+          458.47,
+          467.33
+        ],
+        [
+          583.4,
+          590.5
+        ],
+        [
+          688.81,
+          699.05
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          450.94,
+          455.22
+        ],
+        "scores": {
+          "Narrator": 0.8138,
+          "Radio presenter": 0.3334
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          544.15,
+          550.39
+        ],
+        "scores": {
+          "Narrator": 0.8449,
+          "Radio presenter": 0.3545
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          711.55,
+          716.5
+        ],
+        "scores": {
+          "Narrator": 0.8287,
+          "Radio presenter": 0.2443
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Radio presenter",
+        "window": [
+          458.47,
+          467.33
+        ],
+        "scores": {
+          "Narrator": 0.2684,
+          "Radio presenter": 0.8518
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "label": "Radio presenter",
+        "window": [
+          583.4,
+          590.5
+        ],
+        "scores": {
+          "Narrator": 0.3761,
+          "Radio presenter": 0.8625
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "label": "Radio presenter",
+        "window": [
+          688.81,
+          699.05
+        ],
+        "scores": {
+          "Narrator": 0.3048,
+          "Radio presenter": 0.8896
+        },
+        "chosen": "Radio presenter"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Radio presenter",
+        "start": 458.47,
+        "end": 470.69,
+        "voiceWindow": [
+          458.47,
+          468.47
+        ],
+        "scores": {
+          "Narrator": 0.2695,
+          "Radio presenter": 0.9338
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 1,
+        "index": 26,
+        "speaker": "Radio presenter",
+        "start": 471.73,
+        "end": 500.06,
+        "voiceWindow": [
+          471.73,
+          481.73
+        ],
+        "scores": {
+          "Narrator": 0.241,
+          "Radio presenter": 0.9182
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 2,
+        "index": 103,
+        "speaker": "Radio presenter",
+        "start": 500.82,
+        "end": 527.41,
+        "voiceWindow": [
+          500.82,
+          510.82
+        ],
+        "scores": {
+          "Narrator": 0.3368,
+          "Radio presenter": 0.8969
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 3,
+        "index": 167,
+        "speaker": "Radio presenter",
+        "start": 528.46,
+        "end": 541.94,
+        "voiceWindow": [
+          528.46,
+          538.46
+        ],
+        "scores": {
+          "Narrator": 0.3167,
+          "Radio presenter": 0.8954
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 4,
+        "index": 204,
+        "speaker": "Radio presenter",
+        "start": 583.4,
+        "end": 618.22,
+        "voiceWindow": [
+          583.4,
+          593.4
+        ],
+        "scores": {
+          "Narrator": 0.3789,
+          "Radio presenter": 0.9488
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 5,
+        "index": 292,
+        "speaker": "Radio presenter",
+        "start": 619.58,
+        "end": 652.8,
+        "voiceWindow": [
+          619.58,
+          629.58
+        ],
+        "scores": {
+          "Narrator": 0.3526,
+          "Radio presenter": 0.8829
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 6,
+        "index": 383,
+        "speaker": "Radio presenter",
+        "start": 653.66,
+        "end": 678.95,
+        "voiceWindow": [
+          653.66,
+          663.66
+        ],
+        "scores": {
+          "Narrator": 0.3854,
+          "Radio presenter": 0.9091
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 7,
+        "index": 459,
+        "speaker": "Radio presenter",
+        "start": 679.71,
+        "end": 687.95,
+        "voiceWindow": [
+          679.71,
+          687.95
+        ],
+        "scores": {
+          "Narrator": 0.3504,
+          "Radio presenter": 0.8868
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 8,
+        "index": 483,
+        "speaker": "Radio presenter",
+        "start": 688.81,
+        "end": 707.77,
+        "voiceWindow": [
+          688.81,
+          698.81
+        ],
+        "scores": {
+          "Narrator": 0.3005,
+          "Radio presenter": 0.949
+        },
+        "chosen": "Radio presenter"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Radio presenter",
+        "start": 458.47,
+        "end": 470.69,
+        "voiceWindow": [
+          462.69,
+          470.69
+        ],
+        "scores": {
+          "Narrator": 0.237,
+          "Radio presenter": 0.8853
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 1,
+        "index": 26,
+        "speaker": "Radio presenter",
+        "start": 471.73,
+        "end": 500.06,
+        "voiceWindow": [
+          492.06,
+          500.06
+        ],
+        "scores": {
+          "Narrator": 0.2456,
+          "Radio presenter": 0.8805
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 2,
+        "index": 103,
+        "speaker": "Radio presenter",
+        "start": 500.82,
+        "end": 527.41,
+        "voiceWindow": [
+          519.41,
+          527.41
+        ],
+        "scores": {
+          "Narrator": 0.2429,
+          "Radio presenter": 0.8519
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 3,
+        "index": 167,
+        "speaker": "Radio presenter",
+        "start": 528.46,
+        "end": 541.94,
+        "voiceWindow": [
+          533.94,
+          541.94
+        ],
+        "scores": {
+          "Narrator": 0.2902,
+          "Radio presenter": 0.8985
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 4,
+        "index": 204,
+        "speaker": "Radio presenter",
+        "start": 583.4,
+        "end": 618.22,
+        "voiceWindow": [
+          610.22,
+          618.22
+        ],
+        "scores": {
+          "Narrator": 0.3667,
+          "Radio presenter": 0.8995
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 5,
+        "index": 292,
+        "speaker": "Radio presenter",
+        "start": 619.58,
+        "end": 652.8,
+        "voiceWindow": [
+          644.8,
+          652.8
+        ],
+        "scores": {
+          "Narrator": 0.3113,
+          "Radio presenter": 0.8702
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 6,
+        "index": 383,
+        "speaker": "Radio presenter",
+        "start": 653.66,
+        "end": 678.95,
+        "voiceWindow": [
+          670.95,
+          678.95
+        ],
+        "scores": {
+          "Narrator": 0.3461,
+          "Radio presenter": 0.8649
+        },
+        "chosen": "Radio presenter"
+      },
+      {
+        "paragraph": 8,
+        "index": 483,
+        "speaker": "Radio presenter",
+        "start": 688.81,
+        "end": 707.77,
+        "voiceWindow": [
+          699.77,
+          707.77
+        ],
+        "scores": {
+          "Narrator": 0.2544,
+          "Radio presenter": 0.8366
+        },
+        "chosen": "Radio presenter"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Radio presenter",
+      "text": "Continuing our broadcast of public service announcements, Worldwide Helpers announces upcoming vacancies for a number of volunteer worker positions. All applicants must meet the following requirements."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Radio presenter",
+      "text": "First of all, applicants must be over 18 (Q11) years of age. The company apologises, but there can be no exceptions to this rule. Second, persons interested in these positions may not have police records (Q12). Minor traffic offences like a parking ticket are, of course, no problem. But, and I quote, \"past and present drug users and sex offenders\" need not apply. The employer will, of course, check with the police to verify your clean record."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Radio presenter",
+      "text": "In addition, applicants must supply references (Q13) from past or present employers or teachers along with their recent CV (Q14). These references must testify as to the applicant's work habits and/or character. Remember, these are references from employers or teachers. A note from your dear old Mum won't do. Worldwide Helpers assures me that they will contact these references to confirm they are genuine."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Radio presenter",
+      "text": "Although all positions are volunteer, the employer will reimburse some of your expenses. For example, they will pay for transportation (Q15) to and from the job site. Aside from that, the cost of phone calls is covered."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Radio presenter",
+      "text": "As for the positions themselves, there are three types. The first involves assisting persons confined to wheelchairs. For this position, volunteers must be physically fit and in excellent health. They must be able to lift at least 150 pounds. They should also have a current First Aid certificate from the Red Cross (Q16). But the most important requirement is that the volunteer must have his own car. On Tuesday afternoons (Q17), the volunteers take their clients to various scenic spots around the city to experience and enjoy nature."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Radio presenter",
+      "text": "If you don't drive, but you'd still like to get involved, the centre has a number of openings for people to read to the blind. Readers must, of course, read English clearly. Persons with no foreign accent (Q18) are preferred. For these positions, you must be available on Monday mornings. Oh, wait, I see a note here. There is one opening for someone who can read Urdu. Apparently, there is a Pakistani blind person who'd like to hear his or her native language. But the other positions are all in English."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Radio presenter",
+      "text": "And finally, there are a limited number of volunteers needed to care for disabled children (Q19). I'm sorry, but the information I've been given does not say how many children or what disabilities they have. In any case, you are needed to care for the children for one week in August. Apparently, this will be at the close of the summer holiday. I would guess this involves helping them with the routine chores of daily life."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Radio presenter",
+      "text": "Again, volunteers for this position must know basic First Aid, be in good health, and be able to lift up to 75 pounds. (Q20)"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Radio presenter",
+      "text": "OK, our next announcement is looking for someone to \"facilitate\" tiger breeding at the London Zoo. And, get this, it's a \"strictly volunteer\" position. That means you don't get paid! Oh my God… I'm sorry ladies and gentlemen, but I just have to laugh…"
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "048c4ba945e1ee19431f8eaaa8dc64dde6e1854586cf906088a1516ea36caec7"
+}

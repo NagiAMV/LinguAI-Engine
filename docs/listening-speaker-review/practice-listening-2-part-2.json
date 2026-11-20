@@ -1,0 +1,1821 @@
+{
+  "test": "practice-listening-2",
+  "part": 2,
+  "audioSha256": "aefd30d11ceda1733436764d6e22ad9b751a3bab15d8fd4f90f4f784f2fbacde",
+  "scope": {
+    "start": 392.8,
+    "end": 768.16
+  },
+  "sourceScope": "All 18 published paragraphs checked against narrator and Janice references, with 15 tail checks. Existing labels and wording retained. Four incorrect introductory cues at 11 seconds were removed. The source prefix You will hear a is not recovered in cropped recognition; these four words remain untimed, and the audible podcast retains its cached cue. Source nip out to differs from recognition depart to; full phrase timing is retained without a verbatim claim. At questions has a phrase cue because questions is zero duration in both recognizers. British/American spelling variants and 10000 retain source text. Final interested timing corrected using cropped recognition. No full verbatim or human auditory audit",
+  "humanAuditoryReview": false,
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 774.13,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 1,
+      "text": "You",
+      "start": "11.79",
+      "end": "11.81"
+    },
+    {
+      "index": 2,
+      "text": "will",
+      "start": "11.81",
+      "end": "12.05"
+    },
+    {
+      "index": 3,
+      "text": "hear",
+      "start": "12.05",
+      "end": "12.35"
+    },
+    {
+      "index": 4,
+      "text": "a",
+      "start": "12.35",
+      "end": "12.61"
+    },
+    {
+      "index": 392,
+      "text": "to",
+      "start": "597.45",
+      "end": "597.69"
+    },
+    {
+      "index": 395,
+      "text": "to",
+      "start": "597.91",
+      "end": "598.29"
+    },
+    {
+      "index": 556,
+      "text": "at",
+      "start": "663.14",
+      "end": "663.82"
+    }
+  ],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 0,
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 392.8,
+      "end": 458.06,
+      "voiceWindow": [
+        450.06,
+        458.06
+      ],
+      "scores": {
+        "Narrator": 0.8002,
+        "Janice": 0.4272
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 1,
+      "index": 44,
+      "speaker": "Janice",
+      "start": 462.37,
+      "end": 480.39,
+      "voiceWindow": [
+        472.39,
+        480.39
+      ],
+      "scores": {
+        "Narrator": 0.5102,
+        "Janice": 0.8759
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 2,
+      "index": 95,
+      "speaker": "Janice",
+      "start": 481.23,
+      "end": 503.83,
+      "voiceWindow": [
+        495.83,
+        503.83
+      ],
+      "scores": {
+        "Narrator": 0.4799,
+        "Janice": 0.8886
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 3,
+      "index": 157,
+      "speaker": "Janice",
+      "start": 504.97,
+      "end": 523.83,
+      "voiceWindow": [
+        515.83,
+        523.83
+      ],
+      "scores": {
+        "Narrator": 0.4798,
+        "Janice": 0.8848
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 4,
+      "index": 203,
+      "speaker": "Janice",
+      "start": 525.18,
+      "end": 541.83,
+      "voiceWindow": [
+        533.83,
+        541.83
+      ],
+      "scores": {
+        "Narrator": 0.4004,
+        "Janice": 0.8609
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 6,
+      "index": 273,
+      "speaker": "Janice",
+      "start": 549.21,
+      "end": 566.83,
+      "voiceWindow": [
+        558.83,
+        566.83
+      ],
+      "scores": {
+        "Narrator": 0.4676,
+        "Janice": 0.8349
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 7,
+      "index": 315,
+      "speaker": "Janice",
+      "start": 567.86,
+      "end": 589.62,
+      "voiceWindow": [
+        581.62,
+        589.62
+      ],
+      "scores": {
+        "Narrator": 0.4198,
+        "Janice": 0.8721
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 8,
+      "index": 373,
+      "speaker": "Janice",
+      "start": 591.05,
+      "end": 608.09,
+      "voiceWindow": [
+        600.09,
+        608.09
+      ],
+      "scores": {
+        "Narrator": 0.4749,
+        "Janice": 0.9048
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 9,
+      "index": 424,
+      "speaker": "Janice",
+      "start": 608.96,
+      "end": 627.51,
+      "voiceWindow": [
+        619.51,
+        627.51
+      ],
+      "scores": {
+        "Narrator": 0.4388,
+        "Janice": 0.887
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 10,
+      "index": 469,
+      "speaker": "Janice",
+      "start": 628.62,
+      "end": 648.31,
+      "voiceWindow": [
+        640.31,
+        648.31
+      ],
+      "scores": {
+        "Narrator": 0.4621,
+        "Janice": 0.9129
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 12,
+      "index": 541,
+      "speaker": "Narrator",
+      "start": 659.08,
+      "end": 690.53,
+      "voiceWindow": [
+        682.53,
+        690.53
+      ],
+      "scores": {
+        "Narrator": 0.7752,
+        "Janice": 0.3888
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 13,
+      "index": 569,
+      "speaker": "Janice",
+      "start": 694.24,
+      "end": 707.77,
+      "voiceWindow": [
+        699.77,
+        707.77
+      ],
+      "scores": {
+        "Narrator": 0.4898,
+        "Janice": 0.9215
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 14,
+      "index": 605,
+      "speaker": "Janice",
+      "start": 709.18,
+      "end": 724.42,
+      "voiceWindow": [
+        716.42,
+        724.42
+      ],
+      "scores": {
+        "Narrator": 0.4665,
+        "Janice": 0.9021
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 15,
+      "index": 647,
+      "speaker": "Janice",
+      "start": 725.79,
+      "end": 741.78,
+      "voiceWindow": [
+        733.78,
+        741.78
+      ],
+      "scores": {
+        "Narrator": 0.4682,
+        "Janice": 0.8792
+      },
+      "chosen": "Janice"
+    },
+    {
+      "paragraph": 16,
+      "index": 693,
+      "speaker": "Janice",
+      "start": 742.48,
+      "end": 764.5,
+      "voiceWindow": [
+        756.5,
+        764.5
+      ],
+      "scores": {
+        "Narrator": 0.4211,
+        "Janice": 0.7752
+      },
+      "chosen": "Janice"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 387,
+      "end": 409,
+      "words": [
+        {
+          "word": "is",
+          "start": 387,
+          "end": 387.12
+        },
+        {
+          "word": "the",
+          "start": 387.12,
+          "end": 387.3
+        },
+        {
+          "word": "end",
+          "start": 387.3,
+          "end": 387.74
+        },
+        {
+          "word": "of",
+          "start": 387.74,
+          "end": 387.92
+        },
+        {
+          "word": "part",
+          "start": 387.92,
+          "end": 388.14
+        },
+        {
+          "word": "one",
+          "start": 388.14,
+          "end": 388.76
+        },
+        {
+          "word": "you",
+          "start": 389.58,
+          "end": 389.94
+        },
+        {
+          "word": "now",
+          "start": 389.94,
+          "end": 390.24
+        },
+        {
+          "word": "have",
+          "start": 390.24,
+          "end": 390.6
+        },
+        {
+          "word": "one",
+          "start": 390.6,
+          "end": 390.96
+        },
+        {
+          "word": "minute",
+          "start": 390.96,
+          "end": 391.42
+        },
+        {
+          "word": "to",
+          "start": 391.42,
+          "end": 391.72
+        },
+        {
+          "word": "check",
+          "start": 391.72,
+          "end": 391.96
+        },
+        {
+          "word": "your",
+          "start": 391.96,
+          "end": 392.22
+        },
+        {
+          "word": "answers",
+          "start": 392.22,
+          "end": 392.52
+        },
+        {
+          "word": "podcast",
+          "start": 392.52,
+          "end": 393.26
+        },
+        {
+          "word": "about",
+          "start": 393.26,
+          "end": 393.76
+        },
+        {
+          "word": "volunteering",
+          "start": 393.76,
+          "end": 394.58
+        },
+        {
+          "word": "to",
+          "start": 394.58,
+          "end": 395.02
+        },
+        {
+          "word": "work",
+          "start": 395.02,
+          "end": 395.24
+        },
+        {
+          "word": "for",
+          "start": 395.24,
+          "end": 395.5
+        },
+        {
+          "word": "a",
+          "start": 395.5,
+          "end": 395.66
+        },
+        {
+          "word": "charity",
+          "start": 395.66,
+          "end": 396.14
+        },
+        {
+          "word": "called",
+          "start": 396.14,
+          "end": 396.58
+        },
+        {
+          "word": "the",
+          "start": 396.58,
+          "end": 396.86
+        },
+        {
+          "word": "hub",
+          "start": 396.86,
+          "end": 397.18
+        },
+        {
+          "word": "which",
+          "start": 397.68,
+          "end": 398.04
+        },
+        {
+          "word": "provides",
+          "start": 398.04,
+          "end": 398.54
+        },
+        {
+          "word": "reading",
+          "start": 398.54,
+          "end": 398.92
+        },
+        {
+          "word": "support",
+          "start": 398.92,
+          "end": 399.46
+        },
+        {
+          "word": "for",
+          "start": 399.46,
+          "end": 399.8
+        },
+        {
+          "word": "blind",
+          "start": 399.8,
+          "end": 400.14
+        },
+        {
+          "word": "people",
+          "start": 400.14,
+          "end": 400.76
+        },
+        {
+          "word": "first",
+          "start": 401.8,
+          "end": 402.16
+        },
+        {
+          "word": "you",
+          "start": 402.16,
+          "end": 402.36
+        },
+        {
+          "word": "have",
+          "start": 402.36,
+          "end": 402.5
+        },
+        {
+          "word": "some",
+          "start": 402.5,
+          "end": 402.72
+        },
+        {
+          "word": "time",
+          "start": 402.72,
+          "end": 403.12
+        },
+        {
+          "word": "to",
+          "start": 403.12,
+          "end": 403.42
+        },
+        {
+          "word": "look",
+          "start": 403.42,
+          "end": 403.58
+        },
+        {
+          "word": "at",
+          "start": 403.58,
+          "end": 403.74
+        },
+        {
+          "word": "questions",
+          "start": 403.74,
+          "end": 404.2
+        },
+        {
+          "word": "eleven",
+          "start": 404.2,
+          "end": 404.68
+        },
+        {
+          "word": "to",
+          "start": 404.68,
+          "end": 405.1
+        },
+        {
+          "word": "sixteen",
+          "start": 405.1,
+          "end": 405.66
+        }
+      ]
+    },
+    {
+      "start": 594,
+      "end": 605,
+      "words": [
+        {
+          "word": "Very",
+          "start": 594,
+          "end": 594.26
+        },
+        {
+          "word": "close",
+          "start": 594.26,
+          "end": 594.5
+        },
+        {
+          "word": "to",
+          "start": 594.5,
+          "end": 594.72
+        },
+        {
+          "word": "the",
+          "start": 594.72,
+          "end": 594.82
+        },
+        {
+          "word": "countryside,",
+          "start": 594.82,
+          "end": 595.4
+        },
+        {
+          "word": "but",
+          "start": 596.04,
+          "end": 596.2
+        },
+        {
+          "word": "there",
+          "start": 596.2,
+          "end": 596.36
+        },
+        {
+          "word": "are",
+          "start": 596.36,
+          "end": 596.58
+        },
+        {
+          "word": "some",
+          "start": 596.58,
+          "end": 596.82
+        },
+        {
+          "word": "local",
+          "start": 596.82,
+          "end": 597.14
+        },
+        {
+          "word": "shops",
+          "start": 597.14,
+          "end": 597.48
+        },
+        {
+          "word": "to",
+          "start": 597.48,
+          "end": 597.68
+        },
+        {
+          "word": "depart",
+          "start": 597.68,
+          "end": 597.9
+        },
+        {
+          "word": "to",
+          "start": 597.9,
+          "end": 598.28
+        },
+        {
+          "word": "and",
+          "start": 598.28,
+          "end": 598.5
+        },
+        {
+          "word": "buy",
+          "start": 598.5,
+          "end": 598.72
+        },
+        {
+          "word": "stuff",
+          "start": 598.72,
+          "end": 599.04
+        },
+        {
+          "word": "for",
+          "start": 599.04,
+          "end": 599.26
+        },
+        {
+          "word": "lunch",
+          "start": 599.26,
+          "end": 599.46
+        },
+        {
+          "word": "or",
+          "start": 599.46,
+          "end": 599.74
+        },
+        {
+          "word": "a",
+          "start": 599.74,
+          "end": 599.86
+        },
+        {
+          "word": "snack.",
+          "start": 599.86,
+          "end": 600.22
+        },
+        {
+          "word": "There's",
+          "start": 601.08,
+          "end": 601.28
+        },
+        {
+          "word": "plenty",
+          "start": 601.28,
+          "end": 601.44
+        },
+        {
+          "word": "of",
+          "start": 601.44,
+          "end": 601.72
+        },
+        {
+          "word": "space",
+          "start": 601.72,
+          "end": 602.1
+        },
+        {
+          "word": "in",
+          "start": 602.1,
+          "end": 603.04
+        },
+        {
+          "word": "our",
+          "start": 603.04,
+          "end": 603.2
+        },
+        {
+          "word": "old",
+          "start": 603.2,
+          "end": 603.44
+        },
+        {
+          "word": "town",
+          "start": 603.44,
+          "end": 603.74
+        },
+        {
+          "word": "centre",
+          "start": 603.74,
+          "end": 604.16
+        },
+        {
+          "word": "location.",
+          "start": 604.16,
+          "end": 604.66
+        }
+      ]
+    },
+    {
+      "start": 658,
+      "end": 666,
+      "words": [
+        {
+          "word": "Before",
+          "start": 658.84,
+          "end": 659.4
+        },
+        {
+          "word": "you",
+          "start": 659.4,
+          "end": 659.62
+        },
+        {
+          "word": "hear",
+          "start": 659.62,
+          "end": 659.9
+        },
+        {
+          "word": "the",
+          "start": 659.9,
+          "end": 660.1
+        },
+        {
+          "word": "rest",
+          "start": 660.1,
+          "end": 660.28
+        },
+        {
+          "word": "of",
+          "start": 660.28,
+          "end": 660.5
+        },
+        {
+          "word": "the",
+          "start": 660.5,
+          "end": 660.6
+        },
+        {
+          "word": "podcast,",
+          "start": 660.6,
+          "end": 661.1
+        },
+        {
+          "word": "you",
+          "start": 661.92,
+          "end": 661.94
+        },
+        {
+          "word": "have",
+          "start": 661.94,
+          "end": 662.12
+        },
+        {
+          "word": "some",
+          "start": 662.12,
+          "end": 662.34
+        },
+        {
+          "word": "time",
+          "start": 662.34,
+          "end": 662.72
+        },
+        {
+          "word": "to",
+          "start": 662.72,
+          "end": 663
+        },
+        {
+          "word": "look",
+          "start": 663,
+          "end": 663.16
+        },
+        {
+          "word": "at",
+          "start": 663.16,
+          "end": 663.82
+        },
+        {
+          "word": "questions",
+          "start": 663.82,
+          "end": 663.82
+        },
+        {
+          "word": "17",
+          "start": 663.82,
+          "end": 664.58
+        },
+        {
+          "word": "to",
+          "start": 664.58,
+          "end": 664.88
+        },
+        {
+          "word": "20.",
+          "start": 664.88,
+          "end": 665.3
+        }
+      ]
+    },
+    {
+      "start": 764,
+      "end": 778,
+      "words": [
+        {
+          "word": "reading.",
+          "start": 764,
+          "end": 764.46
+        },
+        {
+          "word": "So,",
+          "start": 766.14,
+          "end": 766.26
+        },
+        {
+          "word": "if",
+          "start": 766.62,
+          "end": 766.78
+        },
+        {
+          "word": "anyone",
+          "start": 766.78,
+          "end": 767.04
+        },
+        {
+          "word": "out",
+          "start": 767.04,
+          "end": 767.34
+        },
+        {
+          "word": "there",
+          "start": 767.34,
+          "end": 767.6
+        },
+        {
+          "word": "is",
+          "start": 767.6,
+          "end": 767.76
+        },
+        {
+          "word": "interested...",
+          "start": 767.76,
+          "end": 768.16
+        },
+        {
+          "word": "That",
+          "start": 771.88,
+          "end": 772.14
+        },
+        {
+          "word": "is",
+          "start": 772.14,
+          "end": 772.3
+        },
+        {
+          "word": "the",
+          "start": 772.3,
+          "end": 772.48
+        },
+        {
+          "word": "end",
+          "start": 772.48,
+          "end": 772.82
+        },
+        {
+          "word": "of",
+          "start": 772.82,
+          "end": 773.08
+        },
+        {
+          "word": "part",
+          "start": 773.08,
+          "end": 773.24
+        },
+        {
+          "word": "two.",
+          "start": 773.24,
+          "end": 773.72
+        },
+        {
+          "word": "You",
+          "start": 774.88,
+          "end": 774.9
+        },
+        {
+          "word": "now",
+          "start": 774.9,
+          "end": 775.22
+        },
+        {
+          "word": "have",
+          "start": 775.22,
+          "end": 775.54
+        },
+        {
+          "word": "30",
+          "start": 775.54,
+          "end": 775.9
+        },
+        {
+          "word": "cents.",
+          "start": 775.9,
+          "end": 776.14
+        },
+        {
+          "word": "Part",
+          "start": 776.64,
+          "end": 776.82
+        },
+        {
+          "word": "three.",
+          "start": 776.82,
+          "end": 777.2
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 751,
+      "text": "interested.",
+      "old": [
+        "771.05",
+        "774.13"
+      ],
+      "new": [
+        767.76,
+        768.16
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 309,
+      "text": "10,000",
+      "start": 563.67,
+      "end": 564.83,
+      "granularity": "source-token"
+    },
+    {
+      "index": 357,
+      "text": "organization,",
+      "start": 583.38,
+      "end": 584.06,
+      "granularity": "source-token"
+    },
+    {
+      "index": 392,
+      "text": "to nip out to",
+      "start": 597.45,
+      "end": 598.29,
+      "granularity": "phrase"
+    },
+    {
+      "index": 412,
+      "text": "center",
+      "start": 603.73,
+      "end": 604.15,
+      "granularity": "source-token"
+    },
+    {
+      "index": 457,
+      "text": "organization,",
+      "start": 621.93,
+      "end": 622.71,
+      "granularity": "source-token"
+    },
+    {
+      "index": 513,
+      "text": "organize",
+      "start": 645.17,
+      "end": 645.45,
+      "granularity": "source-token"
+    },
+    {
+      "index": 534,
+      "text": "organizing",
+      "start": 652.87,
+      "end": 653.43,
+      "granularity": "source-token"
+    },
+    {
+      "index": 556,
+      "text": "at questions",
+      "start": 663.14,
+      "end": 663.82,
+      "granularity": "phrase"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 726,
+  "wordClocksSha256": "fda8728c03d726c7a051a12f042c318dac31e50da68c50476efd426a56bcb1b0",
+  "tokenCount": 752,
+  "tokensSha256": "20bab4d76202713878acef40e02bd2bb765246037074d41585d929ae8e4dbe82",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          401.61,
+          405.5
+        ],
+        [
+          453.3,
+          458.06
+        ],
+        [
+          659.08,
+          665.3
+        ]
+      ],
+      "Janice": [
+        [
+          462.37,
+          470.3
+        ],
+        [
+          591.05,
+          600.19
+        ],
+        [
+          709.18,
+          718
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          401.61,
+          405.5
+        ],
+        "scores": {
+          "Narrator": 0.8721,
+          "Janice": 0.5257
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          453.3,
+          458.06
+        ],
+        "scores": {
+          "Narrator": 0.8031,
+          "Janice": 0.4428
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          659.08,
+          665.3
+        ],
+        "scores": {
+          "Narrator": 0.8348,
+          "Janice": 0.4224
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Janice",
+        "window": [
+          462.37,
+          470.3
+        ],
+        "scores": {
+          "Narrator": 0.4972,
+          "Janice": 0.8299
+        },
+        "chosen": "Janice"
+      },
+      {
+        "label": "Janice",
+        "window": [
+          591.05,
+          600.19
+        ],
+        "scores": {
+          "Narrator": 0.4593,
+          "Janice": 0.8724
+        },
+        "chosen": "Janice"
+      },
+      {
+        "label": "Janice",
+        "window": [
+          709.18,
+          718
+        ],
+        "scores": {
+          "Narrator": 0.4415,
+          "Janice": 0.8399
+        },
+        "chosen": "Janice"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 392.8,
+        "end": 458.06,
+        "voiceWindow": [
+          392.8,
+          402.8
+        ],
+        "scores": {
+          "Narrator": 0.9012,
+          "Janice": 0.5009
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 44,
+        "speaker": "Janice",
+        "start": 462.37,
+        "end": 480.39,
+        "voiceWindow": [
+          462.37,
+          472.37
+        ],
+        "scores": {
+          "Narrator": 0.492,
+          "Janice": 0.9423
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 2,
+        "index": 95,
+        "speaker": "Janice",
+        "start": 481.23,
+        "end": 503.83,
+        "voiceWindow": [
+          481.23,
+          491.23
+        ],
+        "scores": {
+          "Narrator": 0.4853,
+          "Janice": 0.9206
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 3,
+        "index": 157,
+        "speaker": "Janice",
+        "start": 504.97,
+        "end": 523.83,
+        "voiceWindow": [
+          504.97,
+          514.97
+        ],
+        "scores": {
+          "Narrator": 0.5013,
+          "Janice": 0.8871
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 4,
+        "index": 203,
+        "speaker": "Janice",
+        "start": 525.18,
+        "end": 541.83,
+        "voiceWindow": [
+          525.18,
+          535.18
+        ],
+        "scores": {
+          "Narrator": 0.4258,
+          "Janice": 0.8935
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 5,
+        "index": 255,
+        "speaker": "Janice",
+        "start": 542.31,
+        "end": 547.79,
+        "voiceWindow": [
+          542.31,
+          547.79
+        ],
+        "scores": {
+          "Narrator": 0.4469,
+          "Janice": 0.8934
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 6,
+        "index": 273,
+        "speaker": "Janice",
+        "start": 549.21,
+        "end": 566.83,
+        "voiceWindow": [
+          549.21,
+          559.21
+        ],
+        "scores": {
+          "Narrator": 0.4557,
+          "Janice": 0.8558
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 7,
+        "index": 315,
+        "speaker": "Janice",
+        "start": 567.86,
+        "end": 589.62,
+        "voiceWindow": [
+          567.86,
+          577.86
+        ],
+        "scores": {
+          "Narrator": 0.4085,
+          "Janice": 0.8738
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 8,
+        "index": 373,
+        "speaker": "Janice",
+        "start": 591.05,
+        "end": 608.09,
+        "voiceWindow": [
+          591.05,
+          601.05
+        ],
+        "scores": {
+          "Narrator": 0.4678,
+          "Janice": 0.9455
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 9,
+        "index": 424,
+        "speaker": "Janice",
+        "start": 608.96,
+        "end": 627.51,
+        "voiceWindow": [
+          608.96,
+          618.96
+        ],
+        "scores": {
+          "Narrator": 0.4894,
+          "Janice": 0.869
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 10,
+        "index": 469,
+        "speaker": "Janice",
+        "start": 628.62,
+        "end": 648.31,
+        "voiceWindow": [
+          628.62,
+          638.62
+        ],
+        "scores": {
+          "Narrator": 0.4513,
+          "Janice": 0.9162
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 11,
+        "index": 523,
+        "speaker": "Janice",
+        "start": 648.87,
+        "end": 655.33,
+        "voiceWindow": [
+          648.87,
+          655.33
+        ],
+        "scores": {
+          "Narrator": 0.4634,
+          "Janice": 0.845
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 12,
+        "index": 541,
+        "speaker": "Narrator",
+        "start": 659.08,
+        "end": 690.53,
+        "voiceWindow": [
+          659.08,
+          669.08
+        ],
+        "scores": {
+          "Narrator": 0.8635,
+          "Janice": 0.4456
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 13,
+        "index": 569,
+        "speaker": "Janice",
+        "start": 694.24,
+        "end": 707.77,
+        "voiceWindow": [
+          694.24,
+          704.24
+        ],
+        "scores": {
+          "Narrator": 0.4738,
+          "Janice": 0.885
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 14,
+        "index": 605,
+        "speaker": "Janice",
+        "start": 709.18,
+        "end": 724.42,
+        "voiceWindow": [
+          709.18,
+          719.18
+        ],
+        "scores": {
+          "Narrator": 0.4494,
+          "Janice": 0.9498
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 15,
+        "index": 647,
+        "speaker": "Janice",
+        "start": 725.79,
+        "end": 741.78,
+        "voiceWindow": [
+          725.79,
+          735.79
+        ],
+        "scores": {
+          "Narrator": 0.4359,
+          "Janice": 0.8693
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 16,
+        "index": 693,
+        "speaker": "Janice",
+        "start": 742.48,
+        "end": 764.5,
+        "voiceWindow": [
+          742.48,
+          752.48
+        ],
+        "scores": {
+          "Narrator": 0.4355,
+          "Janice": 0.8623
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 17,
+        "index": 744,
+        "speaker": "Janice",
+        "start": 765.95,
+        "end": 768.16,
+        "voiceWindow": [
+          765.95,
+          768.16
+        ],
+        "scores": {
+          "Narrator": 0.3146,
+          "Janice": 0.6781
+        },
+        "chosen": "Janice"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 392.8,
+        "end": 458.06,
+        "voiceWindow": [
+          450.06,
+          458.06
+        ],
+        "scores": {
+          "Narrator": 0.8002,
+          "Janice": 0.4272
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 44,
+        "speaker": "Janice",
+        "start": 462.37,
+        "end": 480.39,
+        "voiceWindow": [
+          472.39,
+          480.39
+        ],
+        "scores": {
+          "Narrator": 0.5102,
+          "Janice": 0.8759
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 2,
+        "index": 95,
+        "speaker": "Janice",
+        "start": 481.23,
+        "end": 503.83,
+        "voiceWindow": [
+          495.83,
+          503.83
+        ],
+        "scores": {
+          "Narrator": 0.4799,
+          "Janice": 0.8886
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 3,
+        "index": 157,
+        "speaker": "Janice",
+        "start": 504.97,
+        "end": 523.83,
+        "voiceWindow": [
+          515.83,
+          523.83
+        ],
+        "scores": {
+          "Narrator": 0.4798,
+          "Janice": 0.8848
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 4,
+        "index": 203,
+        "speaker": "Janice",
+        "start": 525.18,
+        "end": 541.83,
+        "voiceWindow": [
+          533.83,
+          541.83
+        ],
+        "scores": {
+          "Narrator": 0.4004,
+          "Janice": 0.8609
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 6,
+        "index": 273,
+        "speaker": "Janice",
+        "start": 549.21,
+        "end": 566.83,
+        "voiceWindow": [
+          558.83,
+          566.83
+        ],
+        "scores": {
+          "Narrator": 0.4676,
+          "Janice": 0.8349
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 7,
+        "index": 315,
+        "speaker": "Janice",
+        "start": 567.86,
+        "end": 589.62,
+        "voiceWindow": [
+          581.62,
+          589.62
+        ],
+        "scores": {
+          "Narrator": 0.4198,
+          "Janice": 0.8721
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 8,
+        "index": 373,
+        "speaker": "Janice",
+        "start": 591.05,
+        "end": 608.09,
+        "voiceWindow": [
+          600.09,
+          608.09
+        ],
+        "scores": {
+          "Narrator": 0.4749,
+          "Janice": 0.9048
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 9,
+        "index": 424,
+        "speaker": "Janice",
+        "start": 608.96,
+        "end": 627.51,
+        "voiceWindow": [
+          619.51,
+          627.51
+        ],
+        "scores": {
+          "Narrator": 0.4388,
+          "Janice": 0.887
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 10,
+        "index": 469,
+        "speaker": "Janice",
+        "start": 628.62,
+        "end": 648.31,
+        "voiceWindow": [
+          640.31,
+          648.31
+        ],
+        "scores": {
+          "Narrator": 0.4621,
+          "Janice": 0.9129
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 12,
+        "index": 541,
+        "speaker": "Narrator",
+        "start": 659.08,
+        "end": 690.53,
+        "voiceWindow": [
+          682.53,
+          690.53
+        ],
+        "scores": {
+          "Narrator": 0.7752,
+          "Janice": 0.3888
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 13,
+        "index": 569,
+        "speaker": "Janice",
+        "start": 694.24,
+        "end": 707.77,
+        "voiceWindow": [
+          699.77,
+          707.77
+        ],
+        "scores": {
+          "Narrator": 0.4898,
+          "Janice": 0.9215
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 14,
+        "index": 605,
+        "speaker": "Janice",
+        "start": 709.18,
+        "end": 724.42,
+        "voiceWindow": [
+          716.42,
+          724.42
+        ],
+        "scores": {
+          "Narrator": 0.4665,
+          "Janice": 0.9021
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 15,
+        "index": 647,
+        "speaker": "Janice",
+        "start": 725.79,
+        "end": 741.78,
+        "voiceWindow": [
+          733.78,
+          741.78
+        ],
+        "scores": {
+          "Narrator": 0.4682,
+          "Janice": 0.8792
+        },
+        "chosen": "Janice"
+      },
+      {
+        "paragraph": 16,
+        "index": 693,
+        "speaker": "Janice",
+        "start": 742.48,
+        "end": 764.5,
+        "voiceWindow": [
+          756.5,
+          764.5
+        ],
+        "scores": {
+          "Narrator": 0.4211,
+          "Janice": 0.7752
+        },
+        "chosen": "Janice"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " You will hear a podcast about volunteering to work for a charity called The Hub, which provides reading support for blind people. First, you have some time to look at questions 11 to 16. Now listen carefully and answer questions 11 to 16"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Janice",
+      "text": " I'm Janice Clark, and I'm the manager of the charity called The Hub, which provides a wide range of volunteer services for blind people, such as providing recordings of books and magazines, the Hub Charity is based in a small village called Ivy Brook, which it's called home since 1990."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Janice",
+      "text": " We now have nearly 75 volunteers working for us in some capacity, but when it was first set up in 1980, there were only 25. All of them were doing recorded readings for the blind. Nowadays, we offer a great deal more, which means we need a wide range of volunteers with different expertise, as I'll explain in a few moments."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Janice",
+      "text": " The Hub is entirely dependent on donations. We have very generous gifts from local businesses, though the most significant contribution has always come from individual supporters, we also get an increasing amount from school groups who arrange various benefit events to make money for us."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Janice",
+      "text": " Some people hear about us because a friend or relative with sight problems already makes use of our services and tells them about how valuable the Hub is, or they may hear about us from someone they meet who is already a volunteer. That's how most people join us, in fact."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Janice",
+      "text": " But our website also attracted quite a lot of interest from people who want to support us."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Janice",
+      "text": " There are certain areas of the operation, where we particularly need volunteers at the moment, this week, one group are involved in addressing envelopes containing recordings in digital form, which have been requested by almost 10,000 users all over the country."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Janice",
+      "text": " But what we're specifically looking for at this time are people to help make sure our lists of recordings and other materials are accurate, so we don't waste time on unnecessary repeats. I feel strongly that we're a friendly and open organization, and we listen carefully to any comments about negative aspects of working at the Hub."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Janice",
+      "text": " Ivy Brook is an interesting location. It's very close to the countryside, but there are some local shops to nip out to and buy stuff for lunch or a snack. There's plenty of space. In our old town center location, we had lots of problems with parking, but not here."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Janice",
+      "text": " However, the volunteers tell us the rooms can feel rather cold in the winter, so we're investing in a new boiler. Until it's installed, you'd better wrap up. We're also a dynamic organization, always on the lookout to provide services our users really need."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Janice",
+      "text": " Responding to requests, we started a service where volunteers visit blind people in their homes. We also set up a reading group where every month a different book is discussed. Holding events at the Hub has been very successful, and I hope to organize music lessons there in the near future as well."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Janice",
+      "text": " We have lots of soundproof studios available for them. We're organizing fundraising for that at the moment."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Narrator",
+      "text": " Before you hear the rest of the podcast, you have some time to look at questions 17 to 20. Now listen and answer questions 17 to 20."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Janice",
+      "text": " And what types of reading requests are growing most quickly? Of course, novels are always popular, as you can imagine, as are local newspapers. But we're seeing a rapid increase in numbers asking for magazines."
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 14,
+      "speaker": "Janice",
+      "text": " Children's stories are not often asked for, but we're now doing a lot of work for schools, with a big increase in requests for textbooks, which require tremendous concentration by our volunteer readers because they have to get them absolutely correct."
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 15,
+      "speaker": "Janice",
+      "text": " We have a group of dedicated readers who are extremely skilled, but even they find certain types of text difficult to read aloud. Of course, it's sensible to ask people to read what interests them personally. There's quite a lot of demand for technical stuff."
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 16,
+      "speaker": "Janice",
+      "text": " We give cricket reports to sports enthusiasts, and chess players find the details of game summaries pretty easy. But however keen you are at crafts, knitting instructions are always a real challenge for everyone, and motoring magazines have pages and pages of detailed descriptions, which even car lovers hate reading."
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Janice",
+      "text": "Janice:"
+    },
+    {
+      "paragraph": 17,
+      "speaker": "Janice",
+      "text": " So, if anyone out there is interested."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "a8e50188070bd969101d5740a1f6b4123cb0165910e381c2a02dc79bc0296289"
+}

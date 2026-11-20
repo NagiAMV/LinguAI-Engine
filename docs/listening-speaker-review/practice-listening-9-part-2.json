@@ -1,0 +1,1105 @@
+{
+  "test": "practice-listening-9",
+  "part": 2,
+  "audioSha256": "8d7f8de318d8b6b01b86bc8dd6fa86cd310e5db0551cce201df9ba79bf89272a",
+  "scope": {
+    "start": 498.7,
+    "end": 790.52
+  },
+  "sourceScope": "All 14 published paragraphs checked as narrator instructions and cycling organiser speech against three independent recording-specific references per role, with ten additional long-paragraph tail checks. Existing source roles retained. Nine previously untimed source words receive positive word clocks. The scope is extended backwards to include the spoken Section two introduction. Tents and arrange retain source spelling against homophonic tense and inflected arranged recognition. Hire in is separated using cropped recognition, and the following Westbury onset is corrected to avoid overlap. The combined numeric 1000, proper name Cluny (recognized Clooney), and compound open-air use cached full-recording durations. Visible source role labels and the editorial dash remain untimed. All source text and other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 790.52,
+  "removedClocksForPhraseMerges": [],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 0,
+      "index": 0,
+      "speaker": "Narrator",
+      "start": 498.7,
+      "end": 509.57,
+      "voiceWindow": [
+        501.57,
+        509.57
+      ],
+      "scores": {
+        "Narrator": 0.9162,
+        "Organiser": 0.3028
+      },
+      "chosen": "Narrator"
+    },
+    {
+      "paragraph": 2,
+      "index": 45,
+      "speaker": "Organiser",
+      "start": 562.54,
+      "end": 577.2,
+      "voiceWindow": [
+        569.2,
+        577.2
+      ],
+      "scores": {
+        "Narrator": 0.2322,
+        "Organiser": 0.8298
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 3,
+      "index": 98,
+      "speaker": "Organiser",
+      "start": 577.76,
+      "end": 587.98,
+      "voiceWindow": [
+        579.98,
+        587.98
+      ],
+      "scores": {
+        "Narrator": 0.2666,
+        "Organiser": 0.858
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 4,
+      "index": 134,
+      "speaker": "Organiser",
+      "start": 588.84,
+      "end": 607.74,
+      "voiceWindow": [
+        599.74,
+        607.74
+      ],
+      "scores": {
+        "Narrator": 0.2157,
+        "Organiser": 0.8246
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 6,
+      "index": 230,
+      "speaker": "Organiser",
+      "start": 619.04,
+      "end": 634.92,
+      "voiceWindow": [
+        626.92,
+        634.92
+      ],
+      "scores": {
+        "Narrator": 0.218,
+        "Organiser": 0.8309
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 7,
+      "index": 277,
+      "speaker": "Organiser",
+      "start": 636.01,
+      "end": 648.71,
+      "voiceWindow": [
+        640.71,
+        648.71
+      ],
+      "scores": {
+        "Narrator": 0.2428,
+        "Organiser": 0.8841
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 9,
+      "index": 328,
+      "speaker": "Organiser",
+      "start": 690.12,
+      "end": 717.72,
+      "voiceWindow": [
+        709.72,
+        717.72
+      ],
+      "scores": {
+        "Narrator": 0.2665,
+        "Organiser": 0.87
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 10,
+      "index": 414,
+      "speaker": "Organiser",
+      "start": 718.64,
+      "end": 739.38,
+      "voiceWindow": [
+        731.38,
+        739.38
+      ],
+      "scores": {
+        "Narrator": 0.2397,
+        "Organiser": 0.8536
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 11,
+      "index": 478,
+      "speaker": "Organiser",
+      "start": 740.51,
+      "end": 767.13,
+      "voiceWindow": [
+        759.13,
+        767.13
+      ],
+      "scores": {
+        "Narrator": 0.2865,
+        "Organiser": 0.8598
+      },
+      "chosen": "Organiser"
+    },
+    {
+      "paragraph": 12,
+      "index": 549,
+      "speaker": "Organiser",
+      "start": 768.23,
+      "end": 786.93,
+      "voiceWindow": [
+        778.93,
+        786.93
+      ],
+      "scores": {
+        "Narrator": 0.2242,
+        "Organiser": 0.8479
+      },
+      "chosen": "Organiser"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 562,
+      "end": 569,
+      "words": [
+        {
+          "word": "First",
+          "start": 562,
+          "end": 562.74
+        },
+        {
+          "word": "of",
+          "start": 562.74,
+          "end": 562.94
+        },
+        {
+          "word": "all,",
+          "start": 562.94,
+          "end": 563.26
+        },
+        {
+          "word": "there's",
+          "start": 563.42,
+          "end": 563.58
+        },
+        {
+          "word": "the",
+          "start": 563.58,
+          "end": 563.68
+        },
+        {
+          "word": "question",
+          "start": 563.68,
+          "end": 563.9
+        },
+        {
+          "word": "of",
+          "start": 563.9,
+          "end": 564.14
+        },
+        {
+          "word": "tense.",
+          "start": 564.14,
+          "end": 564.42
+        },
+        {
+          "word": "As",
+          "start": 565.3,
+          "end": 565.42
+        },
+        {
+          "word": "you",
+          "start": 565.42,
+          "end": 565.58
+        },
+        {
+          "word": "know,",
+          "start": 565.58,
+          "end": 565.8
+        },
+        {
+          "word": "the",
+          "start": 566.08,
+          "end": 566.14
+        },
+        {
+          "word": "original",
+          "start": 566.14,
+          "end": 566.46
+        },
+        {
+          "word": "idea",
+          "start": 566.46,
+          "end": 567
+        },
+        {
+          "word": "was",
+          "start": 567,
+          "end": 567.32
+        },
+        {
+          "word": "that",
+          "start": 567.32,
+          "end": 567.46
+        },
+        {
+          "word": "I'd",
+          "start": 567.46,
+          "end": 567.66
+        },
+        {
+          "word": "arranged",
+          "start": 567.66,
+          "end": 567.98
+        },
+        {
+          "word": "to",
+          "start": 567.98,
+          "end": 568.2
+        },
+        {
+          "word": "borrow",
+          "start": 568.2,
+          "end": 568.4
+        },
+        {
+          "word": "some",
+          "start": 568.4,
+          "end": 568.76
+        },
+        {
+          "word": "tense...",
+          "start": 568.76,
+          "end": 568.98
+        }
+      ]
+    },
+    {
+      "start": 596,
+      "end": 602,
+      "words": [
+        {
+          "word": "Well,",
+          "start": 596,
+          "end": 596.74
+        },
+        {
+          "word": "I've",
+          "start": 596.94,
+          "end": 597.04
+        },
+        {
+          "word": "been",
+          "start": 597.04,
+          "end": 597.12
+        },
+        {
+          "word": "quiet",
+          "start": 597.12,
+          "end": 597.46
+        },
+        {
+          "word": "about",
+          "start": 597.46,
+          "end": 597.82
+        },
+        {
+          "word": "bike",
+          "start": 597.82,
+          "end": 598.18
+        },
+        {
+          "word": "hire",
+          "start": 598.18,
+          "end": 598.5
+        },
+        {
+          "word": "in",
+          "start": 598.5,
+          "end": 598.74
+        },
+        {
+          "word": "Westbury,",
+          "start": 598.74,
+          "end": 599.44
+        },
+        {
+          "word": "the",
+          "start": 599.86,
+          "end": 599.92
+        },
+        {
+          "word": "town",
+          "start": 599.92,
+          "end": 600.2
+        },
+        {
+          "word": "where",
+          "start": 600.2,
+          "end": 600.44
+        },
+        {
+          "word": "we'll",
+          "start": 600.44,
+          "end": 600.64
+        },
+        {
+          "word": "be",
+          "start": 600.64,
+          "end": 600.74
+        },
+        {
+          "word": "arriving",
+          "start": 600.74,
+          "end": 601.24
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 167,
+      "text": "Westbury,",
+      "old": [
+        "598.62",
+        "599.46"
+      ],
+      "new": [
+        598.74,
+        599.46
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 1,
+      "text": "Section",
+      "start": 498.7,
+      "end": 498.84,
+      "granularity": "source-token"
+    },
+    {
+      "index": 2,
+      "text": "2.",
+      "start": 498.84,
+      "end": 499.36,
+      "granularity": "source-token"
+    },
+    {
+      "index": 53,
+      "text": "tents.",
+      "start": 564.12,
+      "end": 564.38,
+      "granularity": "source-token"
+    },
+    {
+      "index": 63,
+      "text": "arrange",
+      "start": 567.66,
+      "end": 567.96,
+      "granularity": "source-token"
+    },
+    {
+      "index": 165,
+      "text": "hire",
+      "start": 598.18,
+      "end": 598.5,
+      "granularity": "source-token"
+    },
+    {
+      "index": 166,
+      "text": "in",
+      "start": 598.5,
+      "end": 598.74,
+      "granularity": "source-token"
+    },
+    {
+      "index": 381,
+      "text": "1,000",
+      "start": 706.9,
+      "end": 707.74,
+      "granularity": "source-token"
+    },
+    {
+      "index": 425,
+      "text": "Cluny.",
+      "start": 721.54,
+      "end": 722.12,
+      "granularity": "source-token"
+    },
+    {
+      "index": 516,
+      "text": "open-air",
+      "start": 753.31,
+      "end": 754.01,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 595,
+  "wordClocksSha256": "4cc6260506f893329edbe141c2024094b1c76aac4e439fc6440e675a1e7fca85",
+  "tokenCount": 610,
+  "tokensSha256": "fa8bbfc63cb32ae8e92f0462bba3e098bd0e2a3791b5b5dd8d8c3e49d0fe6783",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          498.7,
+          509.57
+        ],
+        [
+          681.6,
+          686.46
+        ],
+        [
+          794.06,
+          799.87
+        ]
+      ],
+      "Organiser": [
+        [
+          557.02,
+          561.94
+        ],
+        [
+          690.12,
+          699
+        ],
+        [
+          768.23,
+          777.03
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          498.7,
+          509.57
+        ],
+        "scores": {
+          "Narrator": 0.797,
+          "Organiser": 0.3148
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          681.6,
+          686.46
+        ],
+        "scores": {
+          "Narrator": 0.822,
+          "Organiser": 0.1871
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          794.06,
+          799.87
+        ],
+        "scores": {
+          "Narrator": 0.8429,
+          "Organiser": 0.2362
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Organiser",
+        "window": [
+          557.02,
+          561.94
+        ],
+        "scores": {
+          "Narrator": 0.2708,
+          "Organiser": 0.8154
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "label": "Organiser",
+        "window": [
+          690.12,
+          699
+        ],
+        "scores": {
+          "Narrator": 0.2407,
+          "Organiser": 0.8862
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "label": "Organiser",
+        "window": [
+          768.23,
+          777.03
+        ],
+        "scores": {
+          "Narrator": 0.2272,
+          "Organiser": 0.7671
+        },
+        "chosen": "Organiser"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 498.7,
+        "end": 509.57,
+        "voiceWindow": [
+          498.7,
+          508.7
+        ],
+        "scores": {
+          "Narrator": 0.9038,
+          "Organiser": 0.3105
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 27,
+        "speaker": "Organiser",
+        "start": 557.02,
+        "end": 561.94,
+        "voiceWindow": [
+          557.02,
+          561.94
+        ],
+        "scores": {
+          "Narrator": 0.2708,
+          "Organiser": 0.9185
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 2,
+        "index": 45,
+        "speaker": "Organiser",
+        "start": 562.54,
+        "end": 577.2,
+        "voiceWindow": [
+          562.54,
+          572.54
+        ],
+        "scores": {
+          "Narrator": 0.2457,
+          "Organiser": 0.8405
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 3,
+        "index": 98,
+        "speaker": "Organiser",
+        "start": 577.76,
+        "end": 587.98,
+        "voiceWindow": [
+          577.76,
+          587.76
+        ],
+        "scores": {
+          "Narrator": 0.2663,
+          "Organiser": 0.894
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 4,
+        "index": 134,
+        "speaker": "Organiser",
+        "start": 588.84,
+        "end": 607.74,
+        "voiceWindow": [
+          588.84,
+          598.84
+        ],
+        "scores": {
+          "Narrator": 0.2529,
+          "Organiser": 0.8593
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 5,
+        "index": 192,
+        "speaker": "Organiser",
+        "start": 608.4,
+        "end": 618.1,
+        "voiceWindow": [
+          608.4,
+          618.1
+        ],
+        "scores": {
+          "Narrator": 0.2252,
+          "Organiser": 0.8909
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 6,
+        "index": 230,
+        "speaker": "Organiser",
+        "start": 619.04,
+        "end": 634.92,
+        "voiceWindow": [
+          619.04,
+          629.04
+        ],
+        "scores": {
+          "Narrator": 0.3105,
+          "Organiser": 0.8745
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 7,
+        "index": 277,
+        "speaker": "Organiser",
+        "start": 636.01,
+        "end": 648.71,
+        "voiceWindow": [
+          636.01,
+          646.01
+        ],
+        "scores": {
+          "Narrator": 0.2922,
+          "Organiser": 0.9202
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 8,
+        "index": 319,
+        "speaker": "Narrator",
+        "start": 681.6,
+        "end": 686.46,
+        "voiceWindow": [
+          681.6,
+          686.46
+        ],
+        "scores": {
+          "Narrator": 0.9217,
+          "Organiser": 0.1871
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 9,
+        "index": 328,
+        "speaker": "Organiser",
+        "start": 690.12,
+        "end": 717.72,
+        "voiceWindow": [
+          690.12,
+          700.12
+        ],
+        "scores": {
+          "Narrator": 0.2422,
+          "Organiser": 0.9454
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 10,
+        "index": 414,
+        "speaker": "Organiser",
+        "start": 718.64,
+        "end": 739.38,
+        "voiceWindow": [
+          718.64,
+          728.64
+        ],
+        "scores": {
+          "Narrator": 0.3339,
+          "Organiser": 0.8505
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 11,
+        "index": 478,
+        "speaker": "Organiser",
+        "start": 740.51,
+        "end": 767.13,
+        "voiceWindow": [
+          740.51,
+          750.51
+        ],
+        "scores": {
+          "Narrator": 0.3586,
+          "Organiser": 0.8705
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 12,
+        "index": 549,
+        "speaker": "Organiser",
+        "start": 768.23,
+        "end": 786.93,
+        "voiceWindow": [
+          768.23,
+          778.23
+        ],
+        "scores": {
+          "Narrator": 0.2223,
+          "Organiser": 0.9034
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 13,
+        "index": 600,
+        "speaker": "Organiser",
+        "start": 788.28,
+        "end": 790.52,
+        "voiceWindow": [
+          788.28,
+          790.52
+        ],
+        "scores": {
+          "Narrator": 0.2475,
+          "Organiser": 0.6279
+        },
+        "chosen": "Organiser"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 498.7,
+        "end": 509.57,
+        "voiceWindow": [
+          501.57,
+          509.57
+        ],
+        "scores": {
+          "Narrator": 0.9162,
+          "Organiser": 0.3028
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 2,
+        "index": 45,
+        "speaker": "Organiser",
+        "start": 562.54,
+        "end": 577.2,
+        "voiceWindow": [
+          569.2,
+          577.2
+        ],
+        "scores": {
+          "Narrator": 0.2322,
+          "Organiser": 0.8298
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 3,
+        "index": 98,
+        "speaker": "Organiser",
+        "start": 577.76,
+        "end": 587.98,
+        "voiceWindow": [
+          579.98,
+          587.98
+        ],
+        "scores": {
+          "Narrator": 0.2666,
+          "Organiser": 0.858
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 4,
+        "index": 134,
+        "speaker": "Organiser",
+        "start": 588.84,
+        "end": 607.74,
+        "voiceWindow": [
+          599.74,
+          607.74
+        ],
+        "scores": {
+          "Narrator": 0.2157,
+          "Organiser": 0.8246
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 6,
+        "index": 230,
+        "speaker": "Organiser",
+        "start": 619.04,
+        "end": 634.92,
+        "voiceWindow": [
+          626.92,
+          634.92
+        ],
+        "scores": {
+          "Narrator": 0.218,
+          "Organiser": 0.8309
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 7,
+        "index": 277,
+        "speaker": "Organiser",
+        "start": 636.01,
+        "end": 648.71,
+        "voiceWindow": [
+          640.71,
+          648.71
+        ],
+        "scores": {
+          "Narrator": 0.2428,
+          "Organiser": 0.8841
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 9,
+        "index": 328,
+        "speaker": "Organiser",
+        "start": 690.12,
+        "end": 717.72,
+        "voiceWindow": [
+          709.72,
+          717.72
+        ],
+        "scores": {
+          "Narrator": 0.2665,
+          "Organiser": 0.87
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 10,
+        "index": 414,
+        "speaker": "Organiser",
+        "start": 718.64,
+        "end": 739.38,
+        "voiceWindow": [
+          731.38,
+          739.38
+        ],
+        "scores": {
+          "Narrator": 0.2397,
+          "Organiser": 0.8536
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 11,
+        "index": 478,
+        "speaker": "Organiser",
+        "start": 740.51,
+        "end": 767.13,
+        "voiceWindow": [
+          759.13,
+          767.13
+        ],
+        "scores": {
+          "Narrator": 0.2865,
+          "Organiser": 0.8598
+        },
+        "chosen": "Organiser"
+      },
+      {
+        "paragraph": 12,
+        "index": 549,
+        "speaker": "Organiser",
+        "start": 768.23,
+        "end": 786.93,
+        "voiceWindow": [
+          778.93,
+          786.93
+        ],
+        "scores": {
+          "Narrator": 0.2242,
+          "Organiser": 0.8479
+        },
+        "chosen": "Organiser"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": " Section 2. You will hear the leader of a college camping club talking to members about a cycling holiday that they are going to have together."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Organiser",
+      "text": " Right. Now let me bring you up to date with arrangements for our cycling tour next month."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Organiser",
+      "text": " First of all, there’s the question of tents. As you know, the original idea was that I’d arrange to borrow some tents that belonged to the college, but it turns out that the mountaineering club will be using them at the same time, so I’m afraid you’ll have to bring your own."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Organiser",
+      "text": " So, could you let me know whether you’ll be using a single tent or sharing, please? I’ll need to know how many tents there’ll be for when I make the reservation at the various campsites."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Organiser",
+      "text": " Last time, some of you said you’d like to hire bikes and pick them up when we arrive, rather than taking your own with you. Well, I’ve enquired about bike hire in Westbury, the town where we’ll be arriving, and unfortunately there aren’t any shops that hire them out, so I’m afraid it means taking your own."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Organiser",
+      "text": " I’ll book them on the train when I book the train tickets, which reminds me — I’ll need to know the final number of people going so I can get a group discount on the train fare."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Organiser",
+      "text": " Something else that’ll need to be booked is tickets for the football match we discussed last time. I’ve enquired about availability, and there are only a few seats left, so anyone who wants to go will need to get tickets very soon, ideally today or tomorrow."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Organiser",
+      "text": " At our next meeting, I’ll be able to give you all individual packs with the final programme, and something about the area we’ll be cycling through and places we’ll be visiting. I’m afraid I haven’t had time to do that yet."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": "Narrator:"
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Narrator",
+      "text": " Now listen and answer questions 17 to 20."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Organiser",
+      "text": " Now I’ll tell you briefly about some of the attractions in the places we’ll be staying at. As I said, we’ll be taking the train to Westbury, which has one or two very good restaurants. One thing that’s definitely worth visiting there is the site where the original town was constructed nearly 1,000 years ago. There’s not much of the original buildings left, but there’s still plenty to see. The site is being excavated, and you’ll be able to help out if you want to."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Organiser",
+      "text": " Our next overnight stop will be in the village of Cluny. There are several old barns here that have been converted into a museum, showing the importance of sheep in the area over the centuries. The wool used to be sold for cloth, and it made the district quite rich. There are plenty of photographs showing how agricultural workers used to live too."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Organiser",
+      "text": " From there, we’ll go on to Pennerley. Pennerley is famous for its Museum of Village Life, but that’s being refurbished at the moment and isn’t likely to reopen by the time we go there. But there’s an open-air farmer’s market every day, selling fruits, vegetables, cheese and meat, all grown or processed within a few miles of the town, and sold by the farmers themselves. It’s definitely worth a visit."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Organiser",
+      "text": " In Farlow, which is one of the oldest towns in the area, there’s a museum that shows how horses used to be the most common way of travelling around, and how they were gradually replaced by steam trains, and later, of course, diesel and electric trains, buses, cars and bicycles."
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Organiser",
+      "text": "Organiser:"
+    },
+    {
+      "paragraph": 13,
+      "speaker": "Organiser",
+      "text": " Right, now I’ll pass round this sheet of paper…"
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "4e30726b888960c0ec0745fb2c891a5acd6abef754e7a6bb31798c9a4d812a47"
+}

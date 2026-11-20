@@ -1,0 +1,1238 @@
+{
+  "test": "practice-listening-11",
+  "part": 2,
+  "audioSha256": "3935b19ee939d021d4860a521a753dd52ed45d13b7e9822b9bb397ff0731b143",
+  "scope": {
+    "start": 410.55,
+    "end": 728
+  },
+  "sourceScope": "All four published paragraphs checked as narrator instructions and bookshop manager speech. The two long manager paragraphs are covered throughout by bounded word-aligned acoustic windows, rather than just their starts and tails. The base 33 windows cover every original source cue; an additional window checks the repaired Customers phrase, giving 34 agreeing comparisons. Six previously untimed spoken tokens receive word or phrase clocks. Questions has zero duration in both recognition passes at two locations and uses at questions phrase cues. Customers has zero duration in two broader recognition passes, and the tight crop places its onset at the crop boundary; Customers are therefore uses a conservative phrase cue from the preceding word endpoint to the known are endpoint, without invented individual timing. Assistants retains source spelling against recognized assistance; well-known and best-known use combined cached compound durations. All editorial question numbers, Uzbek explanatory notes and standalone punctuation remain untimed. Text and annotation structure are preserved; no notes are represented as speech. All other parts retained. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 728,
+  "removedClocksForPhraseMerges": [
+    {
+      "index": 33,
+      "text": "at",
+      "start": "424.38",
+      "end": "425.02"
+    },
+    {
+      "index": 364,
+      "text": "are",
+      "start": "547.78",
+      "end": "547.96"
+    },
+    {
+      "index": 410,
+      "text": "at",
+      "start": "563.70",
+      "end": "564.38"
+    }
+  ],
+  "tailVoiceComparison": [],
+  "localRecognition": [
+    {
+      "start": 545,
+      "end": 551,
+      "words": [
+        {
+          "word": "local",
+          "start": 545,
+          "end": 545.32
+        },
+        {
+          "word": "and",
+          "start": 545.32,
+          "end": 545.78
+        },
+        {
+          "word": "national",
+          "start": 545.78,
+          "end": 546.26
+        },
+        {
+          "word": "newspapers.",
+          "start": 546.26,
+          "end": 546.82
+        },
+        {
+          "word": "Customers",
+          "start": 547.82,
+          "end": 547.82
+        },
+        {
+          "word": "are",
+          "start": 547.82,
+          "end": 547.96
+        },
+        {
+          "word": "welcome",
+          "start": 547.96,
+          "end": 548.16
+        },
+        {
+          "word": "to",
+          "start": 548.16,
+          "end": 548.4
+        },
+        {
+          "word": "browse",
+          "start": 548.4,
+          "end": 548.64
+        },
+        {
+          "word": "through",
+          "start": 548.64,
+          "end": 548.94
+        },
+        {
+          "word": "them",
+          "start": 548.94,
+          "end": 549.16
+        },
+        {
+          "word": "and",
+          "start": 549.16,
+          "end": 549.66
+        },
+        {
+          "word": "we",
+          "start": 549.66,
+          "end": 549.84
+        },
+        {
+          "word": "also",
+          "start": 549.84,
+          "end": 550.06
+        },
+        {
+          "word": "have",
+          "start": 550.06,
+          "end": 550.26
+        },
+        {
+          "word": "some",
+          "start": 550.26,
+          "end": 550.42
+        },
+        {
+          "word": "for",
+          "start": 550.42,
+          "end": 550.6
+        },
+        {
+          "word": "sale.",
+          "start": 550.6,
+          "end": 550.82
+        }
+      ]
+    },
+    {
+      "start": 563,
+      "end": 567,
+      "words": [
+        {
+          "word": "Time",
+          "start": 563,
+          "end": 563.3
+        },
+        {
+          "word": "to",
+          "start": 563.3,
+          "end": 563.52
+        },
+        {
+          "word": "look",
+          "start": 563.52,
+          "end": 563.7
+        },
+        {
+          "word": "at",
+          "start": 563.7,
+          "end": 564.38
+        },
+        {
+          "word": "questions",
+          "start": 564.38,
+          "end": 564.38
+        },
+        {
+          "word": "16",
+          "start": 564.38,
+          "end": 565.04
+        },
+        {
+          "word": "to",
+          "start": 565.04,
+          "end": 565.48
+        },
+        {
+          "word": "20.",
+          "start": 565.48,
+          "end": 565.98
+        }
+      ]
+    },
+    {
+      "start": 546.8,
+      "end": 550,
+      "words": [
+        {
+          "word": "Customers",
+          "start": 546.8,
+          "end": 547.66
+        },
+        {
+          "word": "are",
+          "start": 547.66,
+          "end": 547.96
+        },
+        {
+          "word": "welcome",
+          "start": 547.96,
+          "end": 548.16
+        },
+        {
+          "word": "to",
+          "start": 548.16,
+          "end": 548.4
+        },
+        {
+          "word": "browse",
+          "start": 548.4,
+          "end": 548.66
+        },
+        {
+          "word": "through",
+          "start": 548.66,
+          "end": 548.96
+        },
+        {
+          "word": "them,",
+          "start": 548.96,
+          "end": 549.16
+        },
+        {
+          "word": "and",
+          "start": 549.3,
+          "end": 549.7
+        },
+        {
+          "word": "we",
+          "start": 549.7,
+          "end": 549.86
+        },
+        {
+          "word": "also...",
+          "start": 549.86,
+          "end": 549.98
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [],
+  "addedClocks": [
+    {
+      "index": 33,
+      "text": "at questions",
+      "start": 424.38,
+      "end": 425.02,
+      "granularity": "phrase"
+    },
+    {
+      "index": 363,
+      "text": "Customers are",
+      "start": 546.82,
+      "end": 547.96,
+      "granularity": "phrase"
+    },
+    {
+      "index": 410,
+      "text": "at questions",
+      "start": 563.7,
+      "end": 564.38,
+      "granularity": "phrase"
+    },
+    {
+      "index": 646,
+      "text": "assistants,",
+      "start": 667.95,
+      "end": 668.33,
+      "granularity": "source-token"
+    },
+    {
+      "index": 694,
+      "text": "well-known",
+      "start": 681.36,
+      "end": 681.76,
+      "granularity": "source-token"
+    },
+    {
+      "index": 800,
+      "text": "best-known",
+      "start": 708.21,
+      "end": 708.71,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 766,
+  "wordClocksSha256": "10d75b90c773810c628f438a001f290dc9693b3ae0efbc1719ca8c47dc66f34e",
+  "tokenCount": 871,
+  "tokensSha256": "5de51b4f530cb91af9eeaa7593f2be8a5c26654230681ded196c588e6847075f",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          410.55,
+          420
+        ],
+        [
+          451.5,
+          456.12
+        ],
+        [
+          560.43,
+          568.6
+        ]
+      ],
+      "Bookshop manager": [
+        [
+          460.03,
+          469.1
+        ],
+        [
+          527,
+          536
+        ],
+        [
+          608.63,
+          618
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          410.55,
+          420
+        ],
+        "scores": {
+          "Narrator": 0.8388,
+          "Bookshop manager": 0.4852
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          451.5,
+          456.12
+        ],
+        "scores": {
+          "Narrator": 0.8272,
+          "Bookshop manager": 0.3567
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          560.43,
+          568.6
+        ],
+        "scores": {
+          "Narrator": 0.8375,
+          "Bookshop manager": 0.4232
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Bookshop manager",
+        "window": [
+          460.03,
+          469.1
+        ],
+        "scores": {
+          "Narrator": 0.4103,
+          "Bookshop manager": 0.891
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "label": "Bookshop manager",
+        "window": [
+          527,
+          536
+        ],
+        "scores": {
+          "Narrator": 0.4554,
+          "Bookshop manager": 0.8891
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "label": "Bookshop manager",
+        "window": [
+          608.63,
+          618
+        ],
+        "scores": {
+          "Narrator": 0.4359,
+          "Bookshop manager": 0.9066
+        },
+        "chosen": "Bookshop manager"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 410.55,
+        "end": 418.2,
+        "voiceWindow": [
+          410.55,
+          418.2
+        ],
+        "scores": {
+          "Narrator": 0.9167,
+          "Bookshop manager": 0.4887
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 0,
+        "index": 18,
+        "speaker": "Narrator",
+        "start": 418.2,
+        "end": 425.96,
+        "voiceWindow": [
+          418.2,
+          425.96
+        ],
+        "scores": {
+          "Narrator": 0.9149,
+          "Bookshop manager": 0.4558
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 0,
+        "index": 37,
+        "speaker": "Narrator",
+        "start": 425.96,
+        "end": 426.44,
+        "voiceWindow": [
+          425.96,
+          426.44
+        ],
+        "scores": {
+          "Narrator": 0.4908,
+          "Bookshop manager": 0.2723
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 0,
+        "index": 38,
+        "speaker": "Narrator",
+        "start": 451.72,
+        "end": 456.12,
+        "voiceWindow": [
+          451.72,
+          456.12
+        ],
+        "scores": {
+          "Narrator": 0.9324,
+          "Bookshop manager": 0.3661
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 47,
+        "speaker": "Bookshop manager",
+        "start": 460.03,
+        "end": 467.87,
+        "voiceWindow": [
+          460.03,
+          467.87
+        ],
+        "scores": {
+          "Narrator": 0.3743,
+          "Bookshop manager": 0.916
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 67,
+        "speaker": "Bookshop manager",
+        "start": 467.87,
+        "end": 475.39,
+        "voiceWindow": [
+          467.87,
+          475.39
+        ],
+        "scores": {
+          "Narrator": 0.4709,
+          "Bookshop manager": 0.9339
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 91,
+        "speaker": "Bookshop manager",
+        "start": 476.29,
+        "end": 483.94,
+        "voiceWindow": [
+          476.29,
+          483.94
+        ],
+        "scores": {
+          "Narrator": 0.4342,
+          "Bookshop manager": 0.8955
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 126,
+        "speaker": "Bookshop manager",
+        "start": 483.94,
+        "end": 491.92,
+        "voiceWindow": [
+          483.94,
+          491.92
+        ],
+        "scores": {
+          "Narrator": 0.4092,
+          "Bookshop manager": 0.9132
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 154,
+        "speaker": "Bookshop manager",
+        "start": 491.92,
+        "end": 499.42,
+        "voiceWindow": [
+          491.92,
+          499.42
+        ],
+        "scores": {
+          "Narrator": 0.4106,
+          "Bookshop manager": 0.904
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 190,
+        "speaker": "Bookshop manager",
+        "start": 499.86,
+        "end": 507.53,
+        "voiceWindow": [
+          499.86,
+          507.53
+        ],
+        "scores": {
+          "Narrator": 0.4604,
+          "Bookshop manager": 0.9175
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 221,
+        "speaker": "Bookshop manager",
+        "start": 507.79,
+        "end": 515.6,
+        "voiceWindow": [
+          507.79,
+          515.6
+        ],
+        "scores": {
+          "Narrator": 0.3798,
+          "Bookshop manager": 0.9106
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 255,
+        "speaker": "Bookshop manager",
+        "start": 515.6,
+        "end": 523.54,
+        "voiceWindow": [
+          515.6,
+          523.54
+        ],
+        "scores": {
+          "Narrator": 0.3667,
+          "Bookshop manager": 0.8602
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 277,
+        "speaker": "Bookshop manager",
+        "start": 523.54,
+        "end": 531.42,
+        "voiceWindow": [
+          523.54,
+          531.42
+        ],
+        "scores": {
+          "Narrator": 0.4018,
+          "Bookshop manager": 0.9224
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 300,
+        "speaker": "Bookshop manager",
+        "start": 531.42,
+        "end": 539.4,
+        "voiceWindow": [
+          531.42,
+          539.4
+        ],
+        "scores": {
+          "Narrator": 0.4779,
+          "Bookshop manager": 0.9165
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 335,
+        "speaker": "Bookshop manager",
+        "start": 539.4,
+        "end": 546.82,
+        "voiceWindow": [
+          539.4,
+          546.82
+        ],
+        "scores": {
+          "Narrator": 0.4125,
+          "Bookshop manager": 0.8945
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 363,
+        "speaker": "Bookshop manager",
+        "start": 546.82,
+        "end": 550.82,
+        "voiceWindow": [
+          546.82,
+          550.82
+        ],
+        "scores": {
+          "Narrator": 0.356,
+          "Bookshop manager": 0.869
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 1,
+        "index": 364,
+        "speaker": "Bookshop manager",
+        "start": 547.78,
+        "end": 556.54,
+        "voiceWindow": [
+          547.78,
+          556.54
+        ],
+        "scores": {
+          "Narrator": 0.405,
+          "Bookshop manager": 0.9217
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 2,
+        "index": 396,
+        "speaker": "Narrator",
+        "start": 560.43,
+        "end": 565.98,
+        "voiceWindow": [
+          560.43,
+          565.98
+        ],
+        "scores": {
+          "Narrator": 0.942,
+          "Bookshop manager": 0.508
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 2,
+        "index": 415,
+        "speaker": "Narrator",
+        "start": 601.15,
+        "end": 604.97,
+        "voiceWindow": [
+          601.15,
+          604.97
+        ],
+        "scores": {
+          "Narrator": 0.8514,
+          "Bookshop manager": 0.3086
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 3,
+        "index": 423,
+        "speaker": "Bookshop manager",
+        "start": 608.63,
+        "end": 616.57,
+        "voiceWindow": [
+          608.63,
+          616.57
+        ],
+        "scores": {
+          "Narrator": 0.4391,
+          "Bookshop manager": 0.9546
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 449,
+        "speaker": "Bookshop manager",
+        "start": 617.05,
+        "end": 624.91,
+        "voiceWindow": [
+          617.05,
+          624.91
+        ],
+        "scores": {
+          "Narrator": 0.4251,
+          "Bookshop manager": 0.9196
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 479,
+        "speaker": "Bookshop manager",
+        "start": 624.91,
+        "end": 632.55,
+        "voiceWindow": [
+          624.91,
+          632.55
+        ],
+        "scores": {
+          "Narrator": 0.4753,
+          "Bookshop manager": 0.8987
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 511,
+        "speaker": "Bookshop manager",
+        "start": 633.97,
+        "end": 641.91,
+        "voiceWindow": [
+          633.97,
+          641.91
+        ],
+        "scores": {
+          "Narrator": 0.3733,
+          "Bookshop manager": 0.8912
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 537,
+        "speaker": "Bookshop manager",
+        "start": 641.91,
+        "end": 649.71,
+        "voiceWindow": [
+          641.91,
+          649.71
+        ],
+        "scores": {
+          "Narrator": 0.47,
+          "Bookshop manager": 0.8871
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 585,
+        "speaker": "Bookshop manager",
+        "start": 649.71,
+        "end": 657.35,
+        "voiceWindow": [
+          649.71,
+          657.35
+        ],
+        "scores": {
+          "Narrator": 0.3838,
+          "Bookshop manager": 0.883
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 609,
+        "speaker": "Bookshop manager",
+        "start": 657.35,
+        "end": 665.23,
+        "voiceWindow": [
+          657.35,
+          665.23
+        ],
+        "scores": {
+          "Narrator": 0.4049,
+          "Bookshop manager": 0.901
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 636,
+        "speaker": "Bookshop manager",
+        "start": 665.59,
+        "end": 673.35,
+        "voiceWindow": [
+          665.59,
+          673.35
+        ],
+        "scores": {
+          "Narrator": 0.4783,
+          "Bookshop manager": 0.8957
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 672,
+        "speaker": "Bookshop manager",
+        "start": 674.52,
+        "end": 682.52,
+        "voiceWindow": [
+          674.52,
+          682.52
+        ],
+        "scores": {
+          "Narrator": 0.4837,
+          "Bookshop manager": 0.9208
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 698,
+        "speaker": "Bookshop manager",
+        "start": 682.52,
+        "end": 690.45,
+        "voiceWindow": [
+          682.52,
+          690.45
+        ],
+        "scores": {
+          "Narrator": 0.4481,
+          "Bookshop manager": 0.8755
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 727,
+        "speaker": "Bookshop manager",
+        "start": 690.45,
+        "end": 698.35,
+        "voiceWindow": [
+          690.45,
+          698.35
+        ],
+        "scores": {
+          "Narrator": 0.4375,
+          "Bookshop manager": 0.8751
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 769,
+        "speaker": "Bookshop manager",
+        "start": 698.35,
+        "end": 706.17,
+        "voiceWindow": [
+          698.35,
+          706.17
+        ],
+        "scores": {
+          "Narrator": 0.4399,
+          "Bookshop manager": 0.8781
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 793,
+        "speaker": "Bookshop manager",
+        "start": 706.17,
+        "end": 713.97,
+        "voiceWindow": [
+          706.17,
+          713.97
+        ],
+        "scores": {
+          "Narrator": 0.4426,
+          "Bookshop manager": 0.8623
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 826,
+        "speaker": "Bookshop manager",
+        "start": 713.97,
+        "end": 721.83,
+        "voiceWindow": [
+          713.97,
+          721.83
+        ],
+        "scores": {
+          "Narrator": 0.4833,
+          "Bookshop manager": 0.8728
+        },
+        "chosen": "Bookshop manager"
+      },
+      {
+        "paragraph": 3,
+        "index": 848,
+        "speaker": "Bookshop manager",
+        "start": 721.83,
+        "end": 728,
+        "voiceWindow": [
+          721.83,
+          728
+        ],
+        "scores": {
+          "Narrator": 0.4405,
+          "Bookshop manager": 0.8904
+        },
+        "chosen": "Bookshop manager"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": []
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "Part two. You will hear the manager of a bookshop called Bibliostack talking to a group of young people about the way the bookshop is organised. First, you have some time to look at questions 11 to 15. Now listen carefully and answer questions 11 to 15."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "Good morning everyone and a big welcome to Bibliostack. Firstly, I'll explain the plan of the store to you. The building is on seven floors and is circular, as you can see, and we're here on the ground floor in its entrance hall. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "11"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "Right in the centre of this floor, but behind the bookshelf so you can't see it very well from here, is our main seating area"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "(11: C — markazda, javon ortida)"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": ", where people are encouraged to sit and read for as long as they like. But they're under no pressure to buy what they're reading. That's not how we operate. And "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "12"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "if you look to your immediate left, past the first double row of shelves, you'll see piles of coloured cushions in front of the window there"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "(12: F — chapda, qo'sh javondan keyin, deraza oldida)"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": ". We provide those so that people can sit wherever they want. Lots of people like to sit close to the bookshelves, and if they want to sit on the floor there, we want them to be as comfortable as possible. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "13"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "On your right, between the two larger bookshelves, you'll see the computer bench"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "(13: D — o'ngda, ikki katta javon orasida)"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": ", where our visitors can search through our entire catalogue. We pride ourselves in being the largest bookshop in the country, so our sales assistants can't possibly know all the available titles. Although the room in front of you is dominated by the bookshelves, "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "14"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "at the far end, just in front of the lift, you'll see that we provide a small cafe bar here too"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "(14: A — lift oldida)"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": ". And just to your right, there's a door to the cloakroom, where people can leave their coats. "
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "15"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "Then after that, there's a stand where we keep a selection of local and national newspapers."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": "(15: H — garderobdan keyin)"
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Bookshop manager",
+      "text": " Customers are welcome to browse through them, and we also have some for sale. We really want people to feel as though they're browsing through books in the comfort of their own home."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Narrator",
+      "text": "Before you hear the rest of the talk, you have some time to look at questions 16 to 20. Now listen and answer questions 16 to 20."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "Right, now I suggest we walk slowly up through the building, and I'll give you more information as we go. We're open 12 hours a day. We don't mind if people spend the whole day here, but leave without buying anything. Of course, we hope they'll buy something, but "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "16"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "our purpose is to draw people in, to provide the kind of environment which makes them want to stay and read"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(16: C — odamlarni do'konda qoldirish)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": ". Look at how busy each floor is, but how quiet! You may be wondering whether there are any children in the building. We debated about locating children's books on the ground floor, or halfway up the building, like the third or fourth floor, but "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "17"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "in the end, we decided to put them on the very top level"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(17: B — eng yuqori qavat)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": ". "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(A va C — muhokama qilingan, lekin tanlanmagan)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": " And I can assure you, it's not the least bit quiet up there. Of course, many parents would prefer to spend time on other floors, and so we provide a supervised area for children under two in the basement, so parents can wander around the shop for a few hours and not worry. But they do have to pay for this service, because although we thought about using some of our own assistants, "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "18"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "we decided to employ qualified nursery staff, for parents' complete peace of mind"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(18: C — malakali tarbiyachilar; pullik, shuning uchun B emas)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": ". Now, we're just passing the fiction section, and you've probably noticed a small crowd of people beginning to gather. That's because a well-known author is going to read from her latest novel. We try to hold events like this at least once or twice a week, and as you can imagine, they're very popular. We don't make a charge for people to attend, but "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "19"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "we obviously hope that some of them will want to purchase the book after listening to part of it being read aloud"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(19: A — ko'proq kitob sotish; kirish bepul)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": ". Other events which are proving to be very popular are our workshops. Last week we held a poetry workshop, and people came along with poems that they'd written. One of the country's best-known poets ran the workshop, and "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "20"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "the participants read their poems aloud to him"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(20: C — she'rlarini ovoz chiqarib o'qishdi)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": ". He was kind and encouraging, and many people felt inspired by his advice. It's extremely difficult to earn your living as a professional poet, and even published poets have other jobs. "
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": "(A va B — tuzoq)"
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Bookshop manager",
+      "text": " Now we're going to take a look at our section on audiobooks."
+    }
+  ],
+  "annotations": [
+    [
+      "t-note",
+      "(11: C — markazda, javon ortida)"
+    ],
+    [
+      "t-note",
+      "(12: F — chapda, qo'sh javondan keyin, deraza oldida)"
+    ],
+    [
+      "t-note",
+      "(13: D — o'ngda, ikki katta javon orasida)"
+    ],
+    [
+      "t-note",
+      "(14: A — lift oldida)"
+    ],
+    [
+      "t-note",
+      "(15: H — garderobdan keyin)"
+    ],
+    [
+      "t-note",
+      "(16: C — odamlarni do'konda qoldirish)"
+    ],
+    [
+      "t-note",
+      "(17: B — eng yuqori qavat)"
+    ],
+    [
+      "EM",
+      "(A va C — muhokama qilingan, lekin tanlanmagan)"
+    ],
+    [
+      "t-note",
+      "(18: C — malakali tarbiyachilar; pullik, shuning uchun B emas)"
+    ],
+    [
+      "t-note",
+      "(19: A — ko'proq kitob sotish; kirish bepul)"
+    ],
+    [
+      "t-note",
+      "(20: C — she'rlarini ovoz chiqarib o'qishdi)"
+    ],
+    [
+      "EM",
+      "(A va B — tuzoq)"
+    ]
+  ],
+  "otherPartsSha256": "2b79343c2ec5255b31701a2450c7f719351939f744cbc580ae380e4fe9744183"
+}

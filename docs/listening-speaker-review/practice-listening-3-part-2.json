@@ -1,0 +1,2677 @@
+{
+  "test": "practice-listening-3",
+  "part": 2,
+  "audioSha256": "a6c58646208f49249fffb7e7ee0c58df1d2579d4ac50b3badd3cba5965fdbb1d",
+  "scope": {
+    "start": 384.7,
+    "end": 764.6
+  },
+  "sourceScope": "All 13 published paragraphs checked against independent narrator and charity representative references, including all 12 monologue paragraph tails. Existing source text is an abridged paraphrase, not a verbatim transcript. Four incorrect introductory clocks from six seconds are replaced with separately recognized Part 2 introduction clocks. Added clocks use bounded matches in cached recognition, normalized spelling and contraction/compound durations. We have also is reordered in the source; We have also is represented by a single source phrase cue covering Also we have. Unconfirmed source-only or paraphrased words are retained without invented word times; isolated function-word matches inside unrelated paraphrases are rejected. Names and singular/plural source variants are retained. Closing small has its own recovered clock. No human auditory or full verbatim audit",
+  "humanAuditoryReview": false,
+  "alignmentLimitations": [
+    {
+      "index": 8,
+      "text": "Eyesaver,"
+    },
+    {
+      "index": 35,
+      "text": "a"
+    },
+    {
+      "index": 40,
+      "text": "30"
+    },
+    {
+      "index": 41,
+      "text": "years"
+    },
+    {
+      "index": 42,
+      "text": "ago."
+    },
+    {
+      "index": 110,
+      "text": "members"
+    },
+    {
+      "index": 111,
+      "text": "of"
+    },
+    {
+      "index": 122,
+      "text": "first"
+    },
+    {
+      "index": 126,
+      "text": "simply"
+    },
+    {
+      "index": 138,
+      "text": "such"
+    },
+    {
+      "index": 139,
+      "text": "as"
+    },
+    {
+      "index": 140,
+      "text": "glasses,"
+    },
+    {
+      "index": 155,
+      "text": "but"
+    },
+    {
+      "index": 162,
+      "text": "collect"
+    },
+    {
+      "index": 163,
+      "text": "money"
+    },
+    {
+      "index": 181,
+      "text": "remains"
+    },
+    {
+      "index": 186,
+      "text": "our"
+    },
+    {
+      "index": 189,
+      "text": "that,"
+    },
+    {
+      "index": 206,
+      "text": "our"
+    },
+    {
+      "index": 211,
+      "text": "asking"
+    },
+    {
+      "index": 227,
+      "text": "right"
+    },
+    {
+      "index": 228,
+      "text": "now"
+    },
+    {
+      "index": 254,
+      "text": "the"
+    },
+    {
+      "index": 271,
+      "text": "helping"
+    },
+    {
+      "index": 310,
+      "text": "this"
+    },
+    {
+      "index": 311,
+      "text": "is"
+    },
+    {
+      "index": 312,
+      "text": "really"
+    },
+    {
+      "index": 313,
+      "text": "the"
+    },
+    {
+      "index": 314,
+      "text": "main"
+    },
+    {
+      "index": 315,
+      "text": "purpose"
+    },
+    {
+      "index": 316,
+      "text": "of"
+    },
+    {
+      "index": 317,
+      "text": "our"
+    },
+    {
+      "index": 318,
+      "text": "program:"
+    },
+    {
+      "index": 319,
+      "text": "to"
+    },
+    {
+      "index": 320,
+      "text": "show"
+    },
+    {
+      "index": 321,
+      "text": "people"
+    },
+    {
+      "index": 322,
+      "text": "that"
+    },
+    {
+      "index": 323,
+      "text": "their"
+    },
+    {
+      "index": 324,
+      "text": "donation"
+    },
+    {
+      "index": 325,
+      "text": "can"
+    },
+    {
+      "index": 326,
+      "text": "make"
+    },
+    {
+      "index": 327,
+      "text": "a"
+    },
+    {
+      "index": 328,
+      "text": "difference."
+    },
+    {
+      "index": 334,
+      "text": "also"
+    },
+    {
+      "index": 338,
+      "text": "so"
+    },
+    {
+      "index": 364,
+      "text": "someone."
+    },
+    {
+      "index": 382,
+      "text": "so"
+    },
+    {
+      "index": 383,
+      "text": "that"
+    },
+    {
+      "index": 384,
+      "text": "we"
+    },
+    {
+      "index": 385,
+      "text": "can"
+    },
+    {
+      "index": 386,
+      "text": "help"
+    },
+    {
+      "index": 389,
+      "text": "avoidable"
+    },
+    {
+      "index": 408,
+      "text": "the"
+    },
+    {
+      "index": 424,
+      "text": "where"
+    },
+    {
+      "index": 425,
+      "text": "we"
+    },
+    {
+      "index": 426,
+      "text": "explained"
+    },
+    {
+      "index": 427,
+      "text": "how"
+    },
+    {
+      "index": 428,
+      "text": "people"
+    },
+    {
+      "index": 443,
+      "text": "has"
+    },
+    {
+      "index": 444,
+      "text": "been"
+    },
+    {
+      "index": 450,
+      "text": "this"
+    },
+    {
+      "index": 475,
+      "text": "recordings"
+    },
+    {
+      "index": 494,
+      "text": "that"
+    },
+    {
+      "index": 518,
+      "text": "take"
+    },
+    {
+      "index": 519,
+      "text": "our"
+    },
+    {
+      "index": 520,
+      "text": "reputation"
+    },
+    {
+      "index": 521,
+      "text": "to"
+    },
+    {
+      "index": 522,
+      "text": "a"
+    },
+    {
+      "index": 523,
+      "text": "higher"
+    },
+    {
+      "index": 524,
+      "text": "level,"
+    },
+    {
+      "index": 527,
+      "text": "more"
+    },
+    {
+      "index": 532,
+      "text": "now"
+    },
+    {
+      "index": 533,
+      "text": "come"
+    },
+    {
+      "index": 534,
+      "text": "to"
+    },
+    {
+      "index": 535,
+      "text": "us"
+    },
+    {
+      "index": 554,
+      "text": "advertisements"
+    },
+    {
+      "index": 555,
+      "text": "through"
+    },
+    {
+      "index": 560,
+      "text": "manufacturers"
+    },
+    {
+      "index": 570,
+      "text": "have"
+    },
+    {
+      "index": 574,
+      "text": "that"
+    },
+    {
+      "index": 579,
+      "text": "so"
+    },
+    {
+      "index": 599,
+      "text": "them"
+    },
+    {
+      "index": 600,
+      "text": "has"
+    },
+    {
+      "index": 601,
+      "text": "helped"
+    },
+    {
+      "index": 602,
+      "text": "us"
+    },
+    {
+      "index": 603,
+      "text": "earn"
+    },
+    {
+      "index": 604,
+      "text": "support"
+    },
+    {
+      "index": 605,
+      "text": "from"
+    },
+    {
+      "index": 606,
+      "text": "colleges,"
+    },
+    {
+      "index": 607,
+      "text": "giving"
+    },
+    {
+      "index": 610,
+      "text": "chance"
+    },
+    {
+      "index": 623,
+      "text": "a"
+    },
+    {
+      "index": 638,
+      "text": "whose"
+    },
+    {
+      "index": 639,
+      "text": "role"
+    },
+    {
+      "index": 640,
+      "text": "has"
+    },
+    {
+      "index": 641,
+      "text": "been"
+    },
+    {
+      "index": 642,
+      "text": "to"
+    },
+    {
+      "index": 643,
+      "text": "help"
+    },
+    {
+      "index": 644,
+      "text": "us"
+    },
+    {
+      "index": 645,
+      "text": "recruit"
+    },
+    {
+      "index": 646,
+      "text": "and"
+    },
+    {
+      "index": 647,
+      "text": "support"
+    },
+    {
+      "index": 648,
+      "text": "staff."
+    },
+    {
+      "index": 655,
+      "text": "too,"
+    },
+    {
+      "index": 665,
+      "text": "will"
+    }
+  ],
+  "repairEvidence": [
+    {
+      "index": 31,
+      "source": "Eyesaver",
+      "cached": [
+        " iSaver.",
+        442.4,
+        442.82
+      ]
+    },
+    {
+      "index": 52,
+      "source": "Eyesaver",
+      "cached": [
+        " iSaver.",
+        451.1,
+        451.78
+      ]
+    },
+    {
+      "index": 100,
+      "source": "medication",
+      "cached": [
+        " medications",
+        472.84,
+        473.42
+      ]
+    },
+    {
+      "index": 121,
+      "source": "Gaines",
+      "cached": [
+        " Gains",
+        480.96,
+        481.26
+      ]
+    },
+    {
+      "index": 123,
+      "source": "founded",
+      "cached": [
+        " founded",
+        481.58,
+        482.02
+      ]
+    },
+    {
+      "index": 124,
+      "source": "Eyesaver,",
+      "cached": [
+        " iSaver",
+        482.02,
+        482.6
+      ]
+    },
+    {
+      "index": 125,
+      "source": "he",
+      "cached": [
+        " He",
+        482.97,
+        483.29
+      ]
+    },
+    {
+      "index": 166,
+      "source": "street",
+      "cached": [
+        " streets",
+        498.07,
+        498.41
+      ]
+    },
+    {
+      "index": 187,
+      "source": "funding.",
+      "cached": [
+        " funding",
+        504.57,
+        504.81
+      ]
+    },
+    {
+      "index": 188,
+      "source": "Besides",
+      "cached": [
+        " Besides,",
+        506.37,
+        506.67
+      ]
+    },
+    {
+      "index": 255,
+      "source": "pairs",
+      "cached": [
+        " pairs",
+        530.17,
+        530.45
+      ]
+    },
+    {
+      "index": 301,
+      "source": "glasses",
+      "cached": [
+        " eyeglass",
+        545.3,
+        545.78
+      ]
+    },
+    {
+      "index": 335,
+      "source": "offer",
+      "cached": [
+        " offer",
+        550.8,
+        551.06
+      ]
+    },
+    {
+      "index": 337,
+      "source": "positions,",
+      "cached": [
+        " positions.",
+        551.62,
+        552.18
+      ]
+    },
+    {
+      "index": 372,
+      "source": "program",
+      "cached": [
+        " programme",
+        576.98,
+        577.48
+      ]
+    },
+    {
+      "index": 384,
+      "source": "we",
+      "cached": [
+        " We",
+        581.7,
+        581.82
+      ]
+    },
+    {
+      "index": 398,
+      "source": "we",
+      "cached": [
+        " we",
+        588.68,
+        589
+      ]
+    },
+    {
+      "index": 409,
+      "source": "program,",
+      "cached": [
+        " programme,",
+        593.62,
+        594.02
+      ]
+    },
+    {
+      "index": 425,
+      "source": "we",
+      "cached": [
+        " we",
+        600.71,
+        600.93
+      ]
+    },
+    {
+      "index": 427,
+      "source": "how",
+      "cached": [
+        " how",
+        602.13,
+        602.33
+      ]
+    },
+    {
+      "index": 449,
+      "source": "found",
+      "cached": [
+        " found",
+        612.37,
+        612.61
+      ]
+    },
+    {
+      "index": 463,
+      "source": "recommend",
+      "cached": [
+        " recommending",
+        618.18,
+        618.64
+      ]
+    },
+    {
+      "index": 473,
+      "source": "afraid",
+      "cached": [
+        " afraid",
+        621.88,
+        622.18
+      ]
+    },
+    {
+      "index": 474,
+      "source": "our",
+      "cached": [
+        " our",
+        622.38,
+        622.6
+      ]
+    },
+    {
+      "index": 505,
+      "source": "Eyesaver.",
+      "cached": [
+        " iSaver.",
+        670.84,
+        671.38
+      ]
+    },
+    {
+      "index": 521,
+      "source": "to",
+      "cached": [
+        " to",
+        677.98,
+        678.12
+      ]
+    },
+    {
+      "index": 547,
+      "source": "organisation",
+      "cached": [
+        " organization",
+        688.06,
+        688.72
+      ]
+    },
+    {
+      "index": 559,
+      "source": "equipment",
+      "cached": [
+        " equipment",
+        693.54,
+        693.9
+      ]
+    },
+    {
+      "index": 575,
+      "source": "organisation",
+      "cached": [
+        " organization",
+        698.68,
+        699.28
+      ]
+    },
+    {
+      "index": 576,
+      "source": "for",
+      "cached": [
+        " for",
+        699.28,
+        699.92
+      ]
+    },
+    {
+      "index": 583,
+      "source": "improve",
+      "cached": [
+        " improved",
+        702.78,
+        703.28
+      ]
+    },
+    {
+      "index": 600,
+      "source": "has",
+      "cached": [
+        " has",
+        712.86,
+        713.04
+      ]
+    },
+    {
+      "index": 642,
+      "source": "to",
+      "cached": [
+        " to",
+        729.67,
+        729.83
+      ]
+    }
+  ],
+  "fullRecordingVerified": false,
+  "wordingVerified": false,
+  "textUnchanged": true,
+  "wordClocksUnchanged": false,
+  "oldTranscriptEndSeconds": 763.96,
+  "removedClocksForPhraseMerges": [],
+  "tailVoiceComparison": [
+    {
+      "paragraph": 1,
+      "index": 14,
+      "speaker": "Charity representative",
+      "start": 435.9,
+      "end": 461.68,
+      "voiceWindow": [
+        453.68,
+        461.68
+      ],
+      "scores": {
+        "Narrator": 0.7599,
+        "Charity representative": 0.8734
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 2,
+      "index": 82,
+      "speaker": "Charity representative",
+      "start": 462.74,
+      "end": 488.23,
+      "voiceWindow": [
+        480.23,
+        488.23
+      ],
+      "scores": {
+        "Narrator": 0.7874,
+        "Charity representative": 0.9148
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 3,
+      "index": 146,
+      "speaker": "Charity representative",
+      "start": 489.69,
+      "end": 511.11,
+      "voiceWindow": [
+        503.11,
+        511.11
+      ],
+      "scores": {
+        "Narrator": 0.7657,
+        "Charity representative": 0.9336
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 4,
+      "index": 201,
+      "speaker": "Charity representative",
+      "start": 511.97,
+      "end": 538.6,
+      "voiceWindow": [
+        530.6,
+        538.6
+      ],
+      "scores": {
+        "Narrator": 0.7834,
+        "Charity representative": 0.8536
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 5,
+      "index": 281,
+      "speaker": "Charity representative",
+      "start": 539.4,
+      "end": 554.06,
+      "voiceWindow": [
+        546.06,
+        554.06
+      ],
+      "scores": {
+        "Narrator": 0.7765,
+        "Charity representative": 0.8734
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 6,
+      "index": 346,
+      "speaker": "Charity representative",
+      "start": 554.83,
+      "end": 584.5,
+      "voiceWindow": [
+        576.5,
+        584.5
+      ],
+      "scores": {
+        "Narrator": 0.7308,
+        "Charity representative": 0.8607
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 7,
+      "index": 392,
+      "speaker": "Charity representative",
+      "start": 585.88,
+      "end": 625.8,
+      "voiceWindow": [
+        617.8,
+        625.8
+      ],
+      "scores": {
+        "Narrator": 0.6548,
+        "Charity representative": 0.7671
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 8,
+      "index": 485,
+      "speaker": "Charity representative",
+      "start": 664.44,
+      "end": 684.33,
+      "voiceWindow": [
+        676.33,
+        684.33
+      ],
+      "scores": {
+        "Narrator": 0.8159,
+        "Charity representative": 0.8841
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 9,
+      "index": 539,
+      "speaker": "Charity representative",
+      "start": 685.7,
+      "end": 704.18,
+      "voiceWindow": [
+        696.18,
+        704.18
+      ],
+      "scores": {
+        "Narrator": 0.8179,
+        "Charity representative": 0.899
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 10,
+      "index": 586,
+      "speaker": "Charity representative",
+      "start": 705.8,
+      "end": 721.02,
+      "voiceWindow": [
+        713.02,
+        721.02
+      ],
+      "scores": {
+        "Narrator": 0.8,
+        "Charity representative": 0.8555
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 11,
+      "index": 626,
+      "speaker": "Charity representative",
+      "start": 722.83,
+      "end": 741.68,
+      "voiceWindow": [
+        733.68,
+        741.68
+      ],
+      "scores": {
+        "Narrator": 0.7473,
+        "Charity representative": 0.8807
+      },
+      "chosen": "Charity representative"
+    },
+    {
+      "paragraph": 12,
+      "index": 671,
+      "speaker": "Charity representative",
+      "start": 742.9,
+      "end": 764.6,
+      "voiceWindow": [
+        756.6,
+        764.6
+      ],
+      "scores": {
+        "Narrator": 0.7752,
+        "Charity representative": 0.8528
+      },
+      "chosen": "Charity representative"
+    }
+  ],
+  "localRecognition": [
+    {
+      "start": 375,
+      "end": 398,
+      "words": [
+        {
+          "word": "Section",
+          "start": 381.4,
+          "end": 382.2
+        },
+        {
+          "word": "2",
+          "start": 382.2,
+          "end": 383
+        },
+        {
+          "word": "You",
+          "start": 384.7,
+          "end": 385.1
+        },
+        {
+          "word": "will",
+          "start": 385.1,
+          "end": 385.28
+        },
+        {
+          "word": "hear",
+          "start": 385.28,
+          "end": 385.5
+        },
+        {
+          "word": "a",
+          "start": 385.5,
+          "end": 385.7
+        },
+        {
+          "word": "man",
+          "start": 385.7,
+          "end": 386.08
+        },
+        {
+          "word": "introducing",
+          "start": 386.08,
+          "end": 387.06
+        },
+        {
+          "word": "a",
+          "start": 387.06,
+          "end": 387.46
+        },
+        {
+          "word": "charity",
+          "start": 387.46,
+          "end": 388
+        },
+        {
+          "word": "to",
+          "start": 388,
+          "end": 388.68
+        },
+        {
+          "word": "a",
+          "start": 388.68,
+          "end": 388.88
+        },
+        {
+          "word": "group",
+          "start": 388.88,
+          "end": 389.1
+        },
+        {
+          "word": "of",
+          "start": 389.1,
+          "end": 389.38
+        },
+        {
+          "word": "listeners.",
+          "start": 389.38,
+          "end": 389.78
+        },
+        {
+          "word": "First",
+          "start": 391.76,
+          "end": 391.94
+        },
+        {
+          "word": "you",
+          "start": 391.94,
+          "end": 392.76
+        },
+        {
+          "word": "have",
+          "start": 392.76,
+          "end": 392.96
+        },
+        {
+          "word": "some",
+          "start": 392.96,
+          "end": 393.2
+        },
+        {
+          "word": "time",
+          "start": 393.2,
+          "end": 393.52
+        },
+        {
+          "word": "to",
+          "start": 393.52,
+          "end": 393.9
+        },
+        {
+          "word": "look",
+          "start": 393.9,
+          "end": 394.04
+        },
+        {
+          "word": "at",
+          "start": 394.04,
+          "end": 394.76
+        },
+        {
+          "word": "questions",
+          "start": 394.76,
+          "end": 394.76
+        },
+        {
+          "word": "11",
+          "start": 394.76,
+          "end": 395.32
+        },
+        {
+          "word": "to",
+          "start": 395.32,
+          "end": 396.08
+        },
+        {
+          "word": "16.",
+          "start": 396.08,
+          "end": 396.68
+        }
+      ]
+    },
+    {
+      "start": 439,
+      "end": 452,
+      "words": [
+        {
+          "word": "Let",
+          "start": 439,
+          "end": 439.58
+        },
+        {
+          "word": "me",
+          "start": 439.58,
+          "end": 439.76
+        },
+        {
+          "word": "start",
+          "start": 439.76,
+          "end": 440.1
+        },
+        {
+          "word": "with",
+          "start": 440.1,
+          "end": 440.36
+        },
+        {
+          "word": "the",
+          "start": 440.36,
+          "end": 440.48
+        },
+        {
+          "word": "early",
+          "start": 440.48,
+          "end": 440.78
+        },
+        {
+          "word": "history",
+          "start": 440.78,
+          "end": 441.1
+        },
+        {
+          "word": "of",
+          "start": 441.1,
+          "end": 441.3
+        },
+        {
+          "word": "our",
+          "start": 441.3,
+          "end": 441.46
+        },
+        {
+          "word": "charity,",
+          "start": 441.46,
+          "end": 441.94
+        },
+        {
+          "word": "iSaver.",
+          "start": 442.42,
+          "end": 442.86
+        },
+        {
+          "word": "iSaver",
+          "start": 444.26,
+          "end": 444.88
+        },
+        {
+          "word": "was",
+          "start": 444.88,
+          "end": 445.12
+        },
+        {
+          "word": "founded",
+          "start": 445.12,
+          "end": 445.48
+        },
+        {
+          "word": "by",
+          "start": 445.48,
+          "end": 446.04
+        },
+        {
+          "word": "retired",
+          "start": 446.04,
+          "end": 446.46
+        },
+        {
+          "word": "optometrist",
+          "start": 446.46,
+          "end": 447.18
+        },
+        {
+          "word": "Timothy",
+          "start": 447.18,
+          "end": 447.62
+        },
+        {
+          "word": "Gaines.",
+          "start": 447.62,
+          "end": 448.4
+        },
+        {
+          "word": "I",
+          "start": 449.1,
+          "end": 449.26
+        },
+        {
+          "word": "have",
+          "start": 449.26,
+          "end": 449.42
+        },
+        {
+          "word": "spent",
+          "start": 449.42,
+          "end": 449.66
+        },
+        {
+          "word": "much",
+          "start": 449.66,
+          "end": 449.9
+        },
+        {
+          "word": "of",
+          "start": 449.9,
+          "end": 450.06
+        },
+        {
+          "word": "my",
+          "start": 450.06,
+          "end": 450.24
+        },
+        {
+          "word": "working",
+          "start": 450.24,
+          "end": 450.56
+        },
+        {
+          "word": "life",
+          "start": 450.56,
+          "end": 450.88
+        },
+        {
+          "word": "at",
+          "start": 450.88,
+          "end": 451.1
+        },
+        {
+          "word": "iSaver.",
+          "start": 451.1,
+          "end": 451.76
+        }
+      ]
+    },
+    {
+      "start": 539,
+      "end": 555,
+      "words": [
+        {
+          "word": "Most",
+          "start": 539,
+          "end": 539.98
+        },
+        {
+          "word": "of",
+          "start": 539.98,
+          "end": 540.18
+        },
+        {
+          "word": "us",
+          "start": 540.18,
+          "end": 540.34
+        },
+        {
+          "word": "cannot",
+          "start": 540.34,
+          "end": 540.6
+        },
+        {
+          "word": "imagine",
+          "start": 540.6,
+          "end": 541.1
+        },
+        {
+          "word": "a",
+          "start": 541.1,
+          "end": 541.28
+        },
+        {
+          "word": "life",
+          "start": 541.28,
+          "end": 541.54
+        },
+        {
+          "word": "in",
+          "start": 541.54,
+          "end": 541.86
+        },
+        {
+          "word": "which",
+          "start": 541.86,
+          "end": 542.04
+        },
+        {
+          "word": "we",
+          "start": 542.04,
+          "end": 542.22
+        },
+        {
+          "word": "are",
+          "start": 542.22,
+          "end": 542.34
+        },
+        {
+          "word": "unable",
+          "start": 542.34,
+          "end": 542.68
+        },
+        {
+          "word": "to",
+          "start": 542.68,
+          "end": 542.98
+        },
+        {
+          "word": "see",
+          "start": 542.98,
+          "end": 543.2
+        },
+        {
+          "word": "well.",
+          "start": 543.2,
+          "end": 543.58
+        },
+        {
+          "word": "This",
+          "start": 544.5,
+          "end": 544.64
+        },
+        {
+          "word": "is",
+          "start": 544.64,
+          "end": 544.8
+        },
+        {
+          "word": "why",
+          "start": 544.8,
+          "end": 545.04
+        },
+        {
+          "word": "your",
+          "start": 545.04,
+          "end": 545.3
+        },
+        {
+          "word": "eyeglass",
+          "start": 545.3,
+          "end": 545.82
+        },
+        {
+          "word": "donations",
+          "start": 545.82,
+          "end": 546.24
+        },
+        {
+          "word": "are",
+          "start": 546.24,
+          "end": 546.62
+        },
+        {
+          "word": "so",
+          "start": 546.62,
+          "end": 546.82
+        },
+        {
+          "word": "critical",
+          "start": 546.82,
+          "end": 547.2
+        },
+        {
+          "word": "to",
+          "start": 547.2,
+          "end": 547.54
+        },
+        {
+          "word": "our",
+          "start": 547.54,
+          "end": 547.8
+        },
+        {
+          "word": "mission.",
+          "start": 547.8,
+          "end": 548.16
+        },
+        {
+          "word": "And,",
+          "start": 548.9,
+          "end": 548.96
+        },
+        {
+          "word": "as",
+          "start": 549.16,
+          "end": 549.48
+        },
+        {
+          "word": "a",
+          "start": 549.48,
+          "end": 549.64
+        },
+        {
+          "word": "side",
+          "start": 549.64,
+          "end": 549.88
+        },
+        {
+          "word": "note,",
+          "start": 549.88,
+          "end": 550.2
+        },
+        {
+          "word": "we",
+          "start": 550.66,
+          "end": 550.82
+        },
+        {
+          "word": "offer",
+          "start": 550.82,
+          "end": 551.08
+        },
+        {
+          "word": "full",
+          "start": 551.08,
+          "end": 551.4
+        },
+        {
+          "word": "-time",
+          "start": 551.4,
+          "end": 551.62
+        },
+        {
+          "word": "positions.",
+          "start": 551.62,
+          "end": 552.14
+        },
+        {
+          "word": "Let",
+          "start": 552.74,
+          "end": 552.82
+        },
+        {
+          "word": "me",
+          "start": 552.82,
+          "end": 552.96
+        },
+        {
+          "word": "know",
+          "start": 552.96,
+          "end": 553.12
+        },
+        {
+          "word": "if",
+          "start": 553.12,
+          "end": 553.26
+        },
+        {
+          "word": "you",
+          "start": 553.26,
+          "end": 553.4
+        },
+        {
+          "word": "are",
+          "start": 553.4,
+          "end": 553.5
+        },
+        {
+          "word": "interested.",
+          "start": 553.5,
+          "end": 553.9
+        }
+      ]
+    },
+    {
+      "start": 620,
+      "end": 626,
+      "words": [
+        {
+          "word": "and",
+          "start": 620,
+          "end": 620.24
+        },
+        {
+          "word": "colleagues",
+          "start": 620.24,
+          "end": 620.66
+        },
+        {
+          "word": "but",
+          "start": 620.66,
+          "end": 621.58
+        },
+        {
+          "word": "I",
+          "start": 621.58,
+          "end": 621.76
+        },
+        {
+          "word": "am",
+          "start": 621.76,
+          "end": 621.88
+        },
+        {
+          "word": "afraid",
+          "start": 621.88,
+          "end": 622.16
+        },
+        {
+          "word": "that",
+          "start": 622.16,
+          "end": 622.38
+        },
+        {
+          "word": "our",
+          "start": 622.38,
+          "end": 622.58
+        },
+        {
+          "word": "training",
+          "start": 622.58,
+          "end": 622.96
+        },
+        {
+          "word": "cannot",
+          "start": 622.96,
+          "end": 623.34
+        },
+        {
+          "word": "show",
+          "start": 623.34,
+          "end": 623.66
+        },
+        {
+          "word": "people",
+          "start": 623.66,
+          "end": 623.96
+        },
+        {
+          "word": "the",
+          "start": 623.96,
+          "end": 624.18
+        },
+        {
+          "word": "whole",
+          "start": 624.18,
+          "end": 624.44
+        },
+        {
+          "word": "picture",
+          "start": 624.44,
+          "end": 624.8
+        },
+        {
+          "word": "of",
+          "start": 624.8,
+          "end": 625.12
+        },
+        {
+          "word": "our",
+          "start": 625.12,
+          "end": 625.3
+        },
+        {
+          "word": "program",
+          "start": 625.3,
+          "end": 625.68
+        }
+      ]
+    },
+    {
+      "start": 754,
+      "end": 766,
+      "words": [
+        {
+          "word": "Thank",
+          "start": 754,
+          "end": 754.88
+        },
+        {
+          "word": "you",
+          "start": 754.88,
+          "end": 755.06
+        },
+        {
+          "word": "so",
+          "start": 755.06,
+          "end": 755.36
+        },
+        {
+          "word": "much",
+          "start": 755.36,
+          "end": 755.58
+        },
+        {
+          "word": "for",
+          "start": 755.58,
+          "end": 755.78
+        },
+        {
+          "word": "your",
+          "start": 755.78,
+          "end": 755.9
+        },
+        {
+          "word": "attention",
+          "start": 755.9,
+          "end": 756.24
+        },
+        {
+          "word": "today.",
+          "start": 756.24,
+          "end": 756.76
+        },
+        {
+          "word": "As",
+          "start": 757.7,
+          "end": 757.86
+        },
+        {
+          "word": "we",
+          "start": 757.86,
+          "end": 758.06
+        },
+        {
+          "word": "try",
+          "start": 758.06,
+          "end": 758.26
+        },
+        {
+          "word": "to",
+          "start": 758.26,
+          "end": 758.46
+        },
+        {
+          "word": "stamp",
+          "start": 758.46,
+          "end": 758.82
+        },
+        {
+          "word": "out",
+          "start": 758.82,
+          "end": 759.14
+        },
+        {
+          "word": "eye",
+          "start": 759.14,
+          "end": 759.4
+        },
+        {
+          "word": "problems,",
+          "start": 759.4,
+          "end": 759.84
+        },
+        {
+          "word": "we",
+          "start": 760.44,
+          "end": 760.54
+        },
+        {
+          "word": "will",
+          "start": 760.54,
+          "end": 760.7
+        },
+        {
+          "word": "appreciate",
+          "start": 760.7,
+          "end": 761.04
+        },
+        {
+          "word": "your",
+          "start": 761.04,
+          "end": 761.44
+        },
+        {
+          "word": "donations",
+          "start": 761.44,
+          "end": 761.92
+        },
+        {
+          "word": "no",
+          "start": 761.92,
+          "end": 762.46
+        },
+        {
+          "word": "matter",
+          "start": 762.46,
+          "end": 762.7
+        },
+        {
+          "word": "how",
+          "start": 762.7,
+          "end": 762.98
+        },
+        {
+          "word": "large",
+          "start": 762.98,
+          "end": 763.34
+        },
+        {
+          "word": "or",
+          "start": 763.34,
+          "end": 763.96
+        },
+        {
+          "word": "how",
+          "start": 763.96,
+          "end": 764.18
+        },
+        {
+          "word": "small.",
+          "start": 764.18,
+          "end": 764.64
+        }
+      ]
+    }
+  ],
+  "correctedWordClocks": [
+    {
+      "index": 0,
+      "text": "You",
+      "old": [
+        "5.97",
+        "6.85"
+      ],
+      "new": [
+        384.7,
+        385.1
+      ]
+    },
+    {
+      "index": 1,
+      "text": "will",
+      "old": [
+        "6.85",
+        "6.97"
+      ],
+      "new": [
+        385.1,
+        385.28
+      ]
+    },
+    {
+      "index": 2,
+      "text": "hear",
+      "old": [
+        "6.97",
+        "7.19"
+      ],
+      "new": [
+        385.28,
+        385.5
+      ]
+    },
+    {
+      "index": 3,
+      "text": "a",
+      "old": [
+        "7.19",
+        "7.37"
+      ],
+      "new": [
+        385.5,
+        385.7
+      ]
+    }
+  ],
+  "addedClocks": [
+    {
+      "index": 4,
+      "text": "man",
+      "start": 385.7,
+      "end": 386.08,
+      "granularity": "source-token"
+    },
+    {
+      "index": 5,
+      "text": "introducing",
+      "start": 386.08,
+      "end": 387.06,
+      "granularity": "source-token"
+    },
+    {
+      "index": 6,
+      "text": "a",
+      "start": 387.06,
+      "end": 387.46,
+      "granularity": "source-token"
+    },
+    {
+      "index": 7,
+      "text": "charity,",
+      "start": 387.46,
+      "end": 388,
+      "granularity": "source-token"
+    },
+    {
+      "index": 9,
+      "text": "to",
+      "start": 388,
+      "end": 388.68,
+      "granularity": "source-token"
+    },
+    {
+      "index": 10,
+      "text": "a",
+      "start": 388.68,
+      "end": 388.88,
+      "granularity": "source-token"
+    },
+    {
+      "index": 11,
+      "text": "group",
+      "start": 388.88,
+      "end": 389.1,
+      "granularity": "source-token"
+    },
+    {
+      "index": 12,
+      "text": "of",
+      "start": 389.1,
+      "end": 389.38,
+      "granularity": "source-token"
+    },
+    {
+      "index": 13,
+      "text": "listeners.",
+      "start": 389.38,
+      "end": 389.78,
+      "granularity": "source-token"
+    },
+    {
+      "index": 31,
+      "text": "Eyesaver",
+      "start": 444.46,
+      "end": 444.88,
+      "granularity": "source-token"
+    },
+    {
+      "index": 52,
+      "text": "Eyesaver",
+      "start": 451.1,
+      "end": 451.78,
+      "granularity": "source-token"
+    },
+    {
+      "index": 100,
+      "text": "medication",
+      "start": 472.84,
+      "end": 473.42,
+      "granularity": "source-token"
+    },
+    {
+      "index": 121,
+      "text": "Gaines",
+      "start": 480.96,
+      "end": 481.26,
+      "granularity": "source-token"
+    },
+    {
+      "index": 123,
+      "text": "founded",
+      "start": 481.58,
+      "end": 482.02,
+      "granularity": "source-token"
+    },
+    {
+      "index": 124,
+      "text": "Eyesaver,",
+      "start": 482.02,
+      "end": 482.6,
+      "granularity": "source-token"
+    },
+    {
+      "index": 125,
+      "text": "he",
+      "start": 482.97,
+      "end": 483.29,
+      "granularity": "source-token"
+    },
+    {
+      "index": 159,
+      "text": "1,500",
+      "start": 495.23,
+      "end": 496.31,
+      "granularity": "source-token"
+    },
+    {
+      "index": 166,
+      "text": "street",
+      "start": 498.07,
+      "end": 498.41,
+      "granularity": "source-token"
+    },
+    {
+      "index": 187,
+      "text": "funding.",
+      "start": 504.57,
+      "end": 504.81,
+      "granularity": "source-token"
+    },
+    {
+      "index": 188,
+      "text": "Besides",
+      "start": 506.37,
+      "end": 506.67,
+      "granularity": "source-token"
+    },
+    {
+      "index": 255,
+      "text": "pairs",
+      "start": 530.17,
+      "end": 530.45,
+      "granularity": "source-token"
+    },
+    {
+      "index": 301,
+      "text": "glasses",
+      "start": 545.3,
+      "end": 545.78,
+      "granularity": "source-token"
+    },
+    {
+      "index": 335,
+      "text": "offer",
+      "start": 550.8,
+      "end": 551.06,
+      "granularity": "source-token"
+    },
+    {
+      "index": 336,
+      "text": "full-time",
+      "start": 551.06,
+      "end": 551.62,
+      "granularity": "source-token"
+    },
+    {
+      "index": 337,
+      "text": "positions,",
+      "start": 551.62,
+      "end": 552.18,
+      "granularity": "source-token"
+    },
+    {
+      "index": 365,
+      "text": "I’m",
+      "start": 575.42,
+      "end": 575.68,
+      "granularity": "source-token"
+    },
+    {
+      "index": 372,
+      "text": "program",
+      "start": 576.98,
+      "end": 577.48,
+      "granularity": "source-token"
+    },
+    {
+      "index": 398,
+      "text": "we",
+      "start": 588.68,
+      "end": 589,
+      "granularity": "source-token"
+    },
+    {
+      "index": 409,
+      "text": "program,",
+      "start": 593.62,
+      "end": 594.02,
+      "granularity": "source-token"
+    },
+    {
+      "index": 448,
+      "text": "we’ve",
+      "start": 611.97,
+      "end": 612.37,
+      "granularity": "source-token"
+    },
+    {
+      "index": 449,
+      "text": "found",
+      "start": 612.37,
+      "end": 612.61,
+      "granularity": "source-token"
+    },
+    {
+      "index": 451,
+      "text": "cost-efficient",
+      "start": 612.79,
+      "end": 613.47,
+      "granularity": "source-token"
+    },
+    {
+      "index": 463,
+      "text": "recommend",
+      "start": 618.18,
+      "end": 618.64,
+      "granularity": "source-token"
+    },
+    {
+      "index": 472,
+      "text": "I’m",
+      "start": 621.6,
+      "end": 621.88,
+      "granularity": "source-token"
+    },
+    {
+      "index": 473,
+      "text": "afraid",
+      "start": 621.88,
+      "end": 622.18,
+      "granularity": "source-token"
+    },
+    {
+      "index": 474,
+      "text": "our",
+      "start": 622.38,
+      "end": 622.6,
+      "granularity": "source-token"
+    },
+    {
+      "index": 476,
+      "text": "can’t",
+      "start": 622.98,
+      "end": 623.3,
+      "granularity": "source-token"
+    },
+    {
+      "index": 485,
+      "text": "Finally,",
+      "start": 664.44,
+      "end": 664.64,
+      "granularity": "source-token"
+    },
+    {
+      "index": 486,
+      "text": "I’d",
+      "start": 665,
+      "end": 665.32,
+      "granularity": "source-token"
+    },
+    {
+      "index": 505,
+      "text": "Eyesaver.",
+      "start": 670.84,
+      "end": 671.38,
+      "granularity": "source-token"
+    },
+    {
+      "index": 547,
+      "text": "organisation",
+      "start": 688.06,
+      "end": 688.72,
+      "granularity": "source-token"
+    },
+    {
+      "index": 559,
+      "text": "equipment",
+      "start": 693.54,
+      "end": 693.9,
+      "granularity": "source-token"
+    },
+    {
+      "index": 575,
+      "text": "organisation",
+      "start": 698.68,
+      "end": 699.28,
+      "granularity": "source-token"
+    },
+    {
+      "index": 576,
+      "text": "for",
+      "start": 699.28,
+      "end": 699.92,
+      "granularity": "source-token"
+    },
+    {
+      "index": 583,
+      "text": "improve",
+      "start": 702.78,
+      "end": 703.28,
+      "granularity": "source-token"
+    },
+    {
+      "index": 586,
+      "text": "We’ve also",
+      "start": 705.35,
+      "end": 706.69,
+      "granularity": "phrase"
+    },
+    {
+      "index": 590,
+      "text": "longstanding",
+      "start": 707.03,
+      "end": 707.45,
+      "granularity": "source-token"
+    },
+    {
+      "index": 594,
+      "text": "Eyecare",
+      "start": 709.25,
+      "end": 709.63,
+      "granularity": "source-token"
+    },
+    {
+      "index": 704,
+      "text": "small.",
+      "start": 764.18,
+      "end": 764.6,
+      "granularity": "source-token"
+    }
+  ],
+  "annotationsUnchanged": true,
+  "wordClockCount": 593,
+  "wordClocksSha256": "6be9f4a17157c7bf88acf3d281a16c22d12f00c9fcbd641e51755370492be4bb",
+  "tokenCount": 705,
+  "tokensSha256": "2ea27ca76f057b312f7cb7930fb7d526626af69bdd6ae837dd6658adae5d356c",
+  "voiceComparison": {
+    "model": "eres2net-zh-independent-check",
+    "modelTrainingLanguage": "Chinese; recording-specific controls used for English audio",
+    "anchors": {
+      "Narrator": [
+        [
+          384.7,
+          389.78
+        ],
+        [
+          427.54,
+          432.76
+        ],
+        [
+          628.86,
+          636
+        ]
+      ],
+      "Charity representative": [
+        [
+          439.4,
+          448.34
+        ],
+        [
+          504.57,
+          511.11
+        ],
+        [
+          665,
+          674
+        ]
+      ]
+    },
+    "leaveOneOutControls": [
+      {
+        "label": "Narrator",
+        "window": [
+          384.7,
+          389.78
+        ],
+        "scores": {
+          "Narrator": 0.8488,
+          "Charity representative": 0.7866
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          427.54,
+          432.76
+        ],
+        "scores": {
+          "Narrator": 0.8252,
+          "Charity representative": 0.6782
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Narrator",
+        "window": [
+          628.86,
+          636
+        ],
+        "scores": {
+          "Narrator": 0.8702,
+          "Charity representative": 0.7676
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "label": "Charity representative",
+        "window": [
+          439.4,
+          448.34
+        ],
+        "scores": {
+          "Narrator": 0.7716,
+          "Charity representative": 0.8479
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "label": "Charity representative",
+        "window": [
+          504.57,
+          511.11
+        ],
+        "scores": {
+          "Narrator": 0.7489,
+          "Charity representative": 0.8853
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "label": "Charity representative",
+        "window": [
+          665,
+          674
+        ],
+        "scores": {
+          "Narrator": 0.7403,
+          "Charity representative": 0.8923
+        },
+        "chosen": "Charity representative"
+      }
+    ],
+    "checks": [
+      {
+        "paragraph": 0,
+        "index": 0,
+        "speaker": "Narrator",
+        "start": 384.7,
+        "end": 389.78,
+        "voiceWindow": [
+          384.7,
+          389.78
+        ],
+        "scores": {
+          "Narrator": 0.9334,
+          "Charity representative": 0.7866
+        },
+        "chosen": "Narrator"
+      },
+      {
+        "paragraph": 1,
+        "index": 14,
+        "speaker": "Charity representative",
+        "start": 435.9,
+        "end": 461.68,
+        "voiceWindow": [
+          435.9,
+          445.9
+        ],
+        "scores": {
+          "Narrator": 0.7409,
+          "Charity representative": 0.9081
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 2,
+        "index": 82,
+        "speaker": "Charity representative",
+        "start": 462.74,
+        "end": 488.23,
+        "voiceWindow": [
+          462.74,
+          472.74
+        ],
+        "scores": {
+          "Narrator": 0.7396,
+          "Charity representative": 0.8747
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 3,
+        "index": 146,
+        "speaker": "Charity representative",
+        "start": 489.69,
+        "end": 511.11,
+        "voiceWindow": [
+          489.69,
+          499.69
+        ],
+        "scores": {
+          "Narrator": 0.7778,
+          "Charity representative": 0.8893
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 4,
+        "index": 201,
+        "speaker": "Charity representative",
+        "start": 511.97,
+        "end": 538.6,
+        "voiceWindow": [
+          511.97,
+          521.97
+        ],
+        "scores": {
+          "Narrator": 0.7305,
+          "Charity representative": 0.8894
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 5,
+        "index": 281,
+        "speaker": "Charity representative",
+        "start": 539.4,
+        "end": 554.06,
+        "voiceWindow": [
+          539.4,
+          549.4
+        ],
+        "scores": {
+          "Narrator": 0.7765,
+          "Charity representative": 0.8931
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 6,
+        "index": 346,
+        "speaker": "Charity representative",
+        "start": 554.83,
+        "end": 584.5,
+        "voiceWindow": [
+          554.83,
+          564.83
+        ],
+        "scores": {
+          "Narrator": 0.7989,
+          "Charity representative": 0.8976
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 7,
+        "index": 392,
+        "speaker": "Charity representative",
+        "start": 585.88,
+        "end": 625.8,
+        "voiceWindow": [
+          585.88,
+          595.88
+        ],
+        "scores": {
+          "Narrator": 0.7611,
+          "Charity representative": 0.8384
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 8,
+        "index": 485,
+        "speaker": "Charity representative",
+        "start": 664.44,
+        "end": 684.33,
+        "voiceWindow": [
+          664.44,
+          674.44
+        ],
+        "scores": {
+          "Narrator": 0.7596,
+          "Charity representative": 0.9533
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 9,
+        "index": 539,
+        "speaker": "Charity representative",
+        "start": 685.7,
+        "end": 704.18,
+        "voiceWindow": [
+          685.7,
+          695.7
+        ],
+        "scores": {
+          "Narrator": 0.8282,
+          "Charity representative": 0.8869
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 10,
+        "index": 586,
+        "speaker": "Charity representative",
+        "start": 705.8,
+        "end": 721.02,
+        "voiceWindow": [
+          705.8,
+          715.8
+        ],
+        "scores": {
+          "Narrator": 0.8359,
+          "Charity representative": 0.8921
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 11,
+        "index": 626,
+        "speaker": "Charity representative",
+        "start": 722.83,
+        "end": 741.68,
+        "voiceWindow": [
+          722.83,
+          732.83
+        ],
+        "scores": {
+          "Narrator": 0.7748,
+          "Charity representative": 0.8561
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 12,
+        "index": 671,
+        "speaker": "Charity representative",
+        "start": 742.9,
+        "end": 764.6,
+        "voiceWindow": [
+          742.9,
+          752.9
+        ],
+        "scores": {
+          "Narrator": 0.7958,
+          "Charity representative": 0.8473
+        },
+        "chosen": "Charity representative"
+      }
+    ],
+    "humanAuditoryReview": false,
+    "scoresAreProbabilities": false,
+    "tailChecks": [
+      {
+        "paragraph": 1,
+        "index": 14,
+        "speaker": "Charity representative",
+        "start": 435.9,
+        "end": 461.68,
+        "voiceWindow": [
+          453.68,
+          461.68
+        ],
+        "scores": {
+          "Narrator": 0.7599,
+          "Charity representative": 0.8734
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 2,
+        "index": 82,
+        "speaker": "Charity representative",
+        "start": 462.74,
+        "end": 488.23,
+        "voiceWindow": [
+          480.23,
+          488.23
+        ],
+        "scores": {
+          "Narrator": 0.7874,
+          "Charity representative": 0.9148
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 3,
+        "index": 146,
+        "speaker": "Charity representative",
+        "start": 489.69,
+        "end": 511.11,
+        "voiceWindow": [
+          503.11,
+          511.11
+        ],
+        "scores": {
+          "Narrator": 0.7657,
+          "Charity representative": 0.9336
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 4,
+        "index": 201,
+        "speaker": "Charity representative",
+        "start": 511.97,
+        "end": 538.6,
+        "voiceWindow": [
+          530.6,
+          538.6
+        ],
+        "scores": {
+          "Narrator": 0.7834,
+          "Charity representative": 0.8536
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 5,
+        "index": 281,
+        "speaker": "Charity representative",
+        "start": 539.4,
+        "end": 554.06,
+        "voiceWindow": [
+          546.06,
+          554.06
+        ],
+        "scores": {
+          "Narrator": 0.7765,
+          "Charity representative": 0.8734
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 6,
+        "index": 346,
+        "speaker": "Charity representative",
+        "start": 554.83,
+        "end": 584.5,
+        "voiceWindow": [
+          576.5,
+          584.5
+        ],
+        "scores": {
+          "Narrator": 0.7308,
+          "Charity representative": 0.8607
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 7,
+        "index": 392,
+        "speaker": "Charity representative",
+        "start": 585.88,
+        "end": 625.8,
+        "voiceWindow": [
+          617.8,
+          625.8
+        ],
+        "scores": {
+          "Narrator": 0.6548,
+          "Charity representative": 0.7671
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 8,
+        "index": 485,
+        "speaker": "Charity representative",
+        "start": 664.44,
+        "end": 684.33,
+        "voiceWindow": [
+          676.33,
+          684.33
+        ],
+        "scores": {
+          "Narrator": 0.8159,
+          "Charity representative": 0.8841
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 9,
+        "index": 539,
+        "speaker": "Charity representative",
+        "start": 685.7,
+        "end": 704.18,
+        "voiceWindow": [
+          696.18,
+          704.18
+        ],
+        "scores": {
+          "Narrator": 0.8179,
+          "Charity representative": 0.899
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 10,
+        "index": 586,
+        "speaker": "Charity representative",
+        "start": 705.8,
+        "end": 721.02,
+        "voiceWindow": [
+          713.02,
+          721.02
+        ],
+        "scores": {
+          "Narrator": 0.8,
+          "Charity representative": 0.8555
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 11,
+        "index": 626,
+        "speaker": "Charity representative",
+        "start": 722.83,
+        "end": 741.68,
+        "voiceWindow": [
+          733.68,
+          741.68
+        ],
+        "scores": {
+          "Narrator": 0.7473,
+          "Charity representative": 0.8807
+        },
+        "chosen": "Charity representative"
+      },
+      {
+        "paragraph": 12,
+        "index": 671,
+        "speaker": "Charity representative",
+        "start": 742.9,
+        "end": 764.6,
+        "voiceWindow": [
+          756.6,
+          764.6
+        ],
+        "scores": {
+          "Narrator": 0.7752,
+          "Charity representative": 0.8528
+        },
+        "chosen": "Charity representative"
+      }
+    ]
+  },
+  "renderedGroups": [
+    {
+      "paragraph": 0,
+      "speaker": "Narrator",
+      "text": "You will hear a man introducing a charity, Eyesaver, to a group of listeners."
+    },
+    {
+      "paragraph": 1,
+      "speaker": "Charity representative",
+      "text": "Hello, everyone. Thanks for attending tonight’s event. Let me start with the early history of our charity. Eyesaver was founded by a retired optometrist, Timothy Gaines, 30 years ago. I have spent much of my working life at Eyesaver – I am 60 years old now, and I started working for this organisation 15 years ago, when I left a corporate position to help people with eye problems."
+    },
+    {
+      "paragraph": 2,
+      "speaker": "Charity representative",
+      "text": "Now our charity has been doing various other things to help people with eye problems – that includes medication for children with eye diseases, and operational help to members of the public who have eye problems. But when Mr Gaines first founded Eyesaver, he simply wanted the program to be able to offer common eye equipment, such as glasses, to those who needed it."
+    },
+    {
+      "paragraph": 3,
+      "speaker": "Charity representative",
+      "text": "We receive occasional donations from corporations and charity groups, but we have over 1,500 volunteers who collect money on the street with the little red donation boxes many of you are familiar with, and this remains the main source of our funding. Besides that, we are planning to work to secure donations from wealthy benefactors."
+    },
+    {
+      "paragraph": 4,
+      "speaker": "Charity representative",
+      "text": "Many people are passionate about our cause and have been asking how to donate money to us – I really appreciate that, but our main need right now is to collect glasses for our patients. Many of you have multiple pairs of old glasses in your possession, and we encourage you to gather the pairs you no longer need and donate them to our cause. In doing this, you’ll be helping to make sure that someone else can see better."
+    },
+    {
+      "paragraph": 5,
+      "speaker": "Charity representative",
+      "text": "Most of us cannot imagine a life in which we are unable to see well – this is why your glasses donations are so critical to our mission, and this is really the main purpose of our program: to show people that their donation can make a difference. As a side note, we also offer full-time positions, so let me know if you are interested."
+    },
+    {
+      "paragraph": 6,
+      "speaker": "Charity representative",
+      "text": "Our goal is to make people aware that even the smallest donation can be a turning point for someone. I’m proud to say that our next program will aim at educating people about common eye diseases, so that we can help prevent many avoidable eye problems."
+    },
+    {
+      "paragraph": 7,
+      "speaker": "Charity representative",
+      "text": "In order to publicise our charity, we need to do some advertising. When we first started the program, we used computers to create awareness for our cause – for instance, promoting seminars where we explained how people could help us. But in recent years, the main means of advertising our program has been through audio recordings; we’ve found this cost-efficient and effective. It’s good to know that many of our staff recommend our program to their friends and colleagues, but I’m afraid our recordings can’t show people the whole picture of our program."
+    },
+    {
+      "paragraph": 8,
+      "speaker": "Charity representative",
+      "text": "Finally, I’d like to tell you about some organisations that have played important roles in the development and success of Eyesaver. Our affiliation with the National Vision Funding Group has allowed us to take our reputation to a higher level, so many more people around the country now come to us for our services."
+    },
+    {
+      "paragraph": 9,
+      "speaker": "Charity representative",
+      "text": "Our association with the Eye for the Future organisation has allowed us to run cooperative advertisements through which we seek equipment manufacturers to work with us; meanwhile, some of our staff have been sent to that organisation for special training, so their skills should improve very soon."
+    },
+    {
+      "paragraph": 10,
+      "speaker": "Charity representative",
+      "text": "We’ve also had a longstanding cooperation with Sam’s Eyecare Institution; our relationship with them has helped us earn support from colleges, giving us the chance to link with many different academic institutions, including colleges and universities with a good reputation."
+    },
+    {
+      "paragraph": 11,
+      "speaker": "Charity representative",
+      "text": "And we have a similar friendship with a group called Youth Health, whose role has been to help us recruit and support staff. We plan to contact some colleges too, and hope that with their help more college students will get to know our program."
+    },
+    {
+      "paragraph": 12,
+      "speaker": "Charity representative",
+      "text": "So, as you can see, we have all bases covered in linking with students. Thank you so much for your attention today – we will appreciate your donations, no matter how large or small."
+    }
+  ],
+  "annotations": [],
+  "otherPartsSha256": "faa5f45d5ec4fa12a080fa27a42194ad1dde7dc3b697913443f2081a1d5ab381"
+}
