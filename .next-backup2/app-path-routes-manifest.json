@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/content/catalog/route": "/api/content/catalog",
+  "/api/dictionary/lookup/route": "/api/dictionary/lookup",
+  "/api/ai/evaluate/route": "/api/ai/evaluate",
+  "/api/ai/recommendations/route": "/api/ai/recommendations",
+  "/api/analytics/report/route": "/api/analytics/report",
+  "/api/ai/transcribe/route": "/api/ai/transcribe",
+  "/api/dictionary/translate/route": "/api/dictionary/translate",
+  "/api/analytics/events/route": "/api/analytics/events",
+  "/analytics/page": "/analytics",
+  "/auth/callback/page": "/auth/callback",
+  "/page": "/",
+  "/vocabulary/page": "/vocabulary",
+  "/practice/reading/single/[test]/page": "/practice/reading/single/[test]",
+  "/practice/listening/single/[test]/page": "/practice/listening/single/[test]",
+  "/practice/reading/[test]/page": "/practice/reading/[test]",
+  "/practice/listening/[test]/page": "/practice/listening/[test]"
+}

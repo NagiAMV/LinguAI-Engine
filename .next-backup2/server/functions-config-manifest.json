@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/ai/evaluate": {},
+    "/api/ai/recommendations": {},
+    "/api/ai/transcribe": {},
+    "/api/analytics/report": {},
+    "/api/analytics/events": {},
+    "/api/dictionary/translate": {}
+  }
+}
